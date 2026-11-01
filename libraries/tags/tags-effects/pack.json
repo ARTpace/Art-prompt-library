@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "kind": "tags",
+  "packId": "tags-effects",
+  "name": "标签包 · 特效",
+  "version": "1.0.0",
+  "description": "按需安装的标签提示词，保留原分类与完整内容。",
+  "entryCount": 621,
+  "categories": [
+    {
+      "id": "effects",
+      "name": "特效",
+      "file": "category-0.json"
+    }
+  ],
+  "order": 1008
+}

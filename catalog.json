@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "name": "Art Prompt Library",
-  "totalEntries": 100929,
+  "totalEntries": 123681,
   "packs": [
     {
       "packId": "artists-seed",
@@ -66,6 +66,7 @@
       "name": "ChatGPT 风格包",
       "version": "1.1.0",
       "entryCount": 8880,
+      "kind": "styles",
       "description": "ChatGPT 系平台产出的风格提示词",
       "path": "packs/platform-chatgpt",
       "categoryCount": 8,
@@ -97,6 +98,7 @@
       "name": "Nano Banana 风格包",
       "version": "1.1.0",
       "entryCount": 8065,
+      "kind": "styles",
       "description": "Nano Banana 系平台产出的风格提示词",
       "path": "packs/platform-nano-banana",
       "categoryCount": 10,
@@ -130,6 +132,7 @@
       "name": "PromptImageAtlas 风格包",
       "version": "1.1.0",
       "entryCount": 2150,
+      "kind": "styles",
       "description": "PromptImageAtlas 系列风格库",
       "path": "packs/platform-pia",
       "categoryCount": 8,
@@ -161,6 +164,7 @@
       "name": "腾讯元宝 风格包",
       "version": "1.1.0",
       "entryCount": 1459,
+      "kind": "styles",
       "description": "腾讯元宝文生图与图生图风格",
       "path": "packs/platform-yuanbao",
       "categoryCount": 9,
@@ -193,6 +197,7 @@
       "name": "其它来源 风格包",
       "version": "1.1.0",
       "entryCount": 1694,
+      "kind": "styles",
       "description": "Grok、ComfyUI、即梦、通义等其余来源，以及未标注来源的条目",
       "path": "packs/platform-other",
       "categoryCount": 9,
@@ -350,6 +355,300 @@
         "index.json": "f975da9153af5e42a49a7d920d903dd0f3eea9e7258290eede30b91f56fe2c67",
         "pack.json": "8d5cc193e3626e494fe50b9f0e8dda8c47430ca13a8f85a84a4a061a4473c6bd"
       }
+    },
+    {
+      "packId": "tags-quality",
+      "name": "标签包 · 质量词",
+      "version": "1.0.0",
+      "entryCount": 153,
+      "kind": "tags",
+      "description": "按需安装的标签提示词，保留原分类与完整内容。",
+      "path": "libraries/tags/tags-quality",
+      "categoryCount": 1,
+      "sizeBytes": 35679,
+      "sha256": {
+        "pack.json": "421017f1fe4e611897c5616a4c336a87c96fbc603d4209e0cc2f9b69905e469a",
+        "category-0.json": "1d955d6e8aca631cf0bfe42c66298b990c94ca889dd995cc5f7f868a485b9421"
+      },
+      "classificationSummary": {
+        "unknown": 153
+      },
+      "emptyPromptIds": [],
+      "replaces": [],
+      "order": 1000
+    },
+    {
+      "packId": "tags-animals",
+      "name": "标签包 · 动物",
+      "version": "1.0.0",
+      "entryCount": 486,
+      "kind": "tags",
+      "description": "按需安装的标签提示词，保留原分类与完整内容。",
+      "path": "libraries/tags/tags-animals",
+      "categoryCount": 1,
+      "sizeBytes": 116035,
+      "sha256": {
+        "pack.json": "daf0c3268f0702465190f4a52c16a587868fc53bba7fc274dedaf05e09736598",
+        "category-0.json": "de53f119dfbbfdfcfe0e4ad58307a0e9542c4d0df734c6d4444911dbb37e21cd"
+      },
+      "classificationSummary": {
+        "unknown": 486
+      },
+      "emptyPromptIds": [],
+      "replaces": [],
+      "order": 1001
+    },
+    {
+      "packId": "tags-character",
+      "name": "标签包 · 角色特征",
+      "version": "1.0.0",
+      "entryCount": 368,
+      "kind": "tags",
+      "description": "按需安装的标签提示词，保留原分类与完整内容。",
+      "path": "libraries/tags/tags-character",
+      "categoryCount": 1,
+      "sizeBytes": 87373,
+      "sha256": {
+        "pack.json": "ce38713512fb60c8a9ff14424d0f6afb33437445f3ab3da02b3eff1ce7ed93dd",
+        "category-0.json": "7d8f4bacd332b0e5374b9d18c2d8b885f4eafacb461f2ab026de244b2f6d322a"
+      },
+      "classificationSummary": {
+        "unknown": 368
+      },
+      "emptyPromptIds": [],
+      "replaces": [],
+      "order": 1002
+    },
+    {
+      "packId": "tags-clothing",
+      "name": "标签包 · 服装",
+      "version": "1.0.0",
+      "entryCount": 6420,
+      "kind": "tags",
+      "description": "按需安装的标签提示词，保留原分类与完整内容。",
+      "path": "libraries/tags/tags-clothing",
+      "categoryCount": 1,
+      "sizeBytes": 1590066,
+      "sha256": {
+        "pack.json": "dfc769da7c63eaef1572d54df4d5d0ce4130ccfd307c8967c07e86569d1a2266",
+        "category-0.json": "efd833c3166afb5f13368f13c5e86848d0494b13272cb6c18a4135c69063f128"
+      },
+      "classificationSummary": {
+        "unknown": 6420
+      },
+      "emptyPromptIds": [],
+      "replaces": [],
+      "order": 1003
+    },
+    {
+      "packId": "tags-pose",
+      "name": "标签包 · 姿势动作",
+      "version": "1.0.0",
+      "entryCount": 796,
+      "kind": "tags",
+      "description": "按需安装的标签提示词，保留原分类与完整内容。",
+      "path": "libraries/tags/tags-pose",
+      "categoryCount": 1,
+      "sizeBytes": 195657,
+      "sha256": {
+        "pack.json": "4cfcb8baaf396fb3d443b673f19eca2377d5da22dc0c058854536a604211b8d3",
+        "category-0.json": "06d78cdddd7558e0ce3a184009ea15d50ed66371bb4a39885d7e753f07a89d65"
+      },
+      "classificationSummary": {
+        "unknown": 796
+      },
+      "emptyPromptIds": [],
+      "replaces": [],
+      "order": 1004
+    },
+    {
+      "packId": "tags-photography",
+      "name": "标签包 · 摄影",
+      "version": "1.0.0",
+      "entryCount": 229,
+      "kind": "tags",
+      "description": "按需安装的标签提示词，保留原分类与完整内容。",
+      "path": "libraries/tags/tags-photography",
+      "categoryCount": 1,
+      "sizeBytes": 62203,
+      "sha256": {
+        "pack.json": "5c331eba03064ba304051fbe647639b0194d97f9b9b55bdf0f9ed2061d7727e3",
+        "category-0.json": "a4a6b21f78077e86ed62564506644d7cd27e4898bdf0855e4757f6a337499137"
+      },
+      "classificationSummary": {
+        "unknown": 229
+      },
+      "emptyPromptIds": [],
+      "replaces": [],
+      "order": 1005
+    },
+    {
+      "packId": "tags-scene",
+      "name": "标签包 · 场景背景",
+      "version": "1.0.0",
+      "entryCount": 2669,
+      "kind": "tags",
+      "description": "按需安装的标签提示词，保留原分类与完整内容。",
+      "path": "libraries/tags/tags-scene",
+      "categoryCount": 1,
+      "sizeBytes": 669923,
+      "sha256": {
+        "pack.json": "5525c1db53c8f897ca630d3964a3de7b1ee61effe8701816e962b5b631b88562",
+        "category-0.json": "f2a293abfb56229845460283d7f54f11c85487b9b5ac8766be9174b86f86a2a4"
+      },
+      "classificationSummary": {
+        "unknown": 2669
+      },
+      "emptyPromptIds": [],
+      "replaces": [],
+      "order": 1006
+    },
+    {
+      "packId": "tags-lighting",
+      "name": "标签包 · 光影",
+      "version": "1.0.0",
+      "entryCount": 434,
+      "kind": "tags",
+      "description": "按需安装的标签提示词，保留原分类与完整内容。",
+      "path": "libraries/tags/tags-lighting",
+      "categoryCount": 1,
+      "sizeBytes": 104408,
+      "sha256": {
+        "pack.json": "f34ec985fbbe48a43b7e58a99044dcc83b0ad7c31fd9b01ab76dc6381f1f639e",
+        "category-0.json": "13f5b5ff111649979b6ed289f7f6e2f03f61555746da25d98d0f039dd0cf8f72"
+      },
+      "classificationSummary": {
+        "unknown": 434
+      },
+      "emptyPromptIds": [],
+      "replaces": [],
+      "order": 1007
+    },
+    {
+      "packId": "tags-effects",
+      "name": "标签包 · 特效",
+      "version": "1.0.0",
+      "entryCount": 621,
+      "kind": "tags",
+      "description": "按需安装的标签提示词，保留原分类与完整内容。",
+      "path": "libraries/tags/tags-effects",
+      "categoryCount": 1,
+      "sizeBytes": 158099,
+      "sha256": {
+        "pack.json": "ab14cdebec5bb24ad358448a28ac0c09c3506c5decd57f41f02229788045dba0",
+        "category-0.json": "b4d524eb757acb58e267d96a5a1e8acc3a5f556926e987b90d048c823d6bd00d"
+      },
+      "classificationSummary": {
+        "unknown": 621
+      },
+      "emptyPromptIds": [],
+      "replaces": [],
+      "order": 1008
+    },
+    {
+      "packId": "tags-objects",
+      "name": "标签包 · 物品",
+      "version": "1.0.0",
+      "entryCount": 322,
+      "kind": "tags",
+      "description": "按需安装的标签提示词，保留原分类与完整内容。",
+      "path": "libraries/tags/tags-objects",
+      "categoryCount": 1,
+      "sizeBytes": 79114,
+      "sha256": {
+        "pack.json": "f1a8679bb2413e03aa03a524d5e0bc7d45e17f96095c3e333a60a08b483a8e8a",
+        "category-0.json": "b197d3f602c7ffdba7648069ce3ceefedbd190bf31221bed62af5b7733c85384"
+      },
+      "classificationSummary": {
+        "unknown": 322
+      },
+      "emptyPromptIds": [],
+      "replaces": [],
+      "order": 1009
+    },
+    {
+      "packId": "tags-misc",
+      "name": "标签包 · 其他",
+      "version": "1.0.0",
+      "entryCount": 1177,
+      "kind": "tags",
+      "description": "按需安装的标签提示词，保留原分类与完整内容。",
+      "path": "libraries/tags/tags-misc",
+      "categoryCount": 1,
+      "sizeBytes": 281653,
+      "sha256": {
+        "pack.json": "09b524b08df946f72bcc4aa2ffd9870c157ab6975241e3b3226f866110c96eaf",
+        "category-0.json": "4340c9c68beb260247f73e5ad9a60b947c14710ac4bbc0d1fbe3d73e58d1b1d6"
+      },
+      "classificationSummary": {
+        "unknown": 1177
+      },
+      "emptyPromptIds": [],
+      "replaces": [],
+      "order": 1010
+    },
+    {
+      "packId": "tags-celebrity",
+      "name": "标签包 · 现实人物",
+      "version": "1.0.0",
+      "entryCount": 304,
+      "kind": "tags",
+      "description": "按需安装的标签提示词，保留原分类与完整内容。",
+      "path": "libraries/tags/tags-celebrity",
+      "categoryCount": 1,
+      "sizeBytes": 76920,
+      "sha256": {
+        "pack.json": "e54de21ef190b57baa9e6e8e941478e528ed1c42cda9f24037b38c39d0f53e7c",
+        "category-0.json": "3e3cba62198c0fcf34e59ac97896fc29ac4beb246fbc464676c7670a512c64ba"
+      },
+      "classificationSummary": {
+        "unknown": 304
+      },
+      "emptyPromptIds": [],
+      "replaces": [],
+      "order": 1011
+    },
+    {
+      "packId": "tags-game-anime",
+      "name": "标签包 · 游戏/动漫",
+      "version": "1.0.0",
+      "entryCount": 7322,
+      "kind": "tags",
+      "description": "按需安装的标签提示词，保留原分类与完整内容。",
+      "path": "libraries/tags/tags-game-anime",
+      "categoryCount": 1,
+      "sizeBytes": 2077682,
+      "sha256": {
+        "pack.json": "6e78aead82b53df6be3233e14b796e6827df4c36e39e829653ade6102cc8334b",
+        "category-0.json": "9046868b43b8538b765ce5c5d77a75baa3e2b93c414f6852983282fb02ba2b19"
+      },
+      "classificationSummary": {
+        "unknown": 7322
+      },
+      "emptyPromptIds": [],
+      "replaces": [],
+      "order": 1012
+    },
+    {
+      "packId": "tags-nsfw",
+      "name": "标签包 · NSFW",
+      "version": "1.0.0",
+      "entryCount": 1451,
+      "kind": "tags",
+      "description": "按需安装的标签提示词，保留原分类与完整内容。",
+      "path": "libraries/tags/tags-nsfw",
+      "categoryCount": 1,
+      "sizeBytes": 347013,
+      "sha256": {
+        "pack.json": "d2c4eec881b5248b0c17a3c228b4524588156928e587d7c6e69c476238d40717",
+        "category-0.json": "5e86c417b68d72bd289fe5732b8da3872d85e5428e58fd4477b7f824171976fb"
+      },
+      "classificationSummary": {
+        "unknown": 1451
+      },
+      "emptyPromptIds": [],
+      "replaces": [],
+      "order": 1013
     }
   ]
 }

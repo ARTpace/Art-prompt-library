@@ -1,0 +1,1656 @@
+{
+  "categories": [
+    {
+      "id": "photography",
+      "name": "摄影",
+      "subcategories": [
+        {
+          "id": "photo_style",
+          "name": "摄影风格",
+          "presets": [
+            {
+              "id": "tag-photography-realistic_photo",
+              "name": "写实摄影",
+              "prompt": "realistic photography, documentary style",
+              "original_id": "realistic_photo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-documentary_photo",
+              "name": "纪实摄影",
+              "prompt": "documentary photography, candid storytelling",
+              "original_id": "documentary_photo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-street_photo",
+              "name": "街头摄影",
+              "prompt": "street photography, candid urban scenes",
+              "original_id": "street_photo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-portrait_photo",
+              "name": "人像摄影",
+              "prompt": "portrait photography, subject-focused",
+              "original_id": "portrait_photo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-landscape_photo",
+              "name": "风光摄影",
+              "prompt": "landscape photography, scenic vista",
+              "original_id": "landscape_photo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-macro_photo",
+              "name": "微距摄影",
+              "prompt": "macro photography, close-up detail",
+              "original_id": "macro_photo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-black_white_photo",
+              "name": "黑白摄影",
+              "prompt": "black and white photography, monochrome",
+              "original_id": "black_white_photo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-minimalist_photo",
+              "name": "极简摄影",
+              "prompt": "minimalist photography, clean composition",
+              "original_id": "minimalist_photo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-abstract_photo",
+              "name": "抽象摄影",
+              "prompt": "abstract photography, non-representational",
+              "original_id": "abstract_photo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-surreal_photo",
+              "name": "超现实主义",
+              "prompt": "surreal photography, dreamlike imagery",
+              "original_id": "surreal_photo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-vintage_photo",
+              "name": "复古摄影",
+              "prompt": "vintage photography, retro aesthetic",
+              "original_id": "vintage_photo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-polaroid_style",
+              "name": "宝丽来风格",
+              "prompt": "Polaroid style, instant film look",
+              "original_id": "polaroid_style",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-lomo_style",
+              "name": "LOMO风格",
+              "prompt": "LOMO photography, lo-fi vignette",
+              "original_id": "lomo_style",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-film_grain",
+              "name": "胶片质感",
+              "prompt": "film grain, analog film texture",
+              "original_id": "film_grain",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-digital_photo",
+              "name": "数码风格",
+              "prompt": "digital photography, clean sharp image",
+              "original_id": "digital_photo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-mobile_photo",
+              "name": "手机摄影",
+              "prompt": "mobile photography, smartphone shot",
+              "original_id": "mobile_photo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-aerial_photo",
+              "name": "航拍摄影",
+              "prompt": "aerial photography, bird's-eye view",
+              "original_id": "aerial_photo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-underwater_photo",
+              "name": "水下摄影",
+              "prompt": "underwater photography, submerged shot",
+              "original_id": "underwater_photo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-night_photo",
+              "name": "夜景摄影",
+              "prompt": "night photography, low-light shot",
+              "original_id": "night_photo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-long_exposure",
+              "name": "长时间曝光",
+              "prompt": "long exposure, motion blur trails",
+              "original_id": "long_exposure",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-double_exposure",
+              "name": "双重曝光",
+              "prompt": "double exposure, layered image effect",
+              "original_id": "double_exposure",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-defocus_photo",
+              "name": "失焦摄影",
+              "prompt": "defocus photography, intentional blur",
+              "original_id": "defocus_photo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-tilt_shift",
+              "name": "移轴摄影",
+              "prompt": "tilt-shift photography, miniature effect",
+              "original_id": "tilt_shift",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-architecture_photo",
+              "name": "建筑摄影",
+              "prompt": "architecture photography, structural focus",
+              "original_id": "architecture_photo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-fashion_photo",
+              "name": "时尚摄影",
+              "prompt": "fashion photography, editorial style",
+              "original_id": "fashion_photo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-candid_photo",
+              "name": "抓拍摄影",
+              "prompt": "candid photography, unposed moment",
+              "original_id": "candid_photo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-high_speed_photo",
+              "name": "高速摄影",
+              "prompt": "high-speed photography, frozen motion",
+              "original_id": "high_speed_photo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-panoramic_photo",
+              "name": "全景摄影",
+              "prompt": "panoramic photography, wide aspect ratio",
+              "original_id": "panoramic_photo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-infrared_photo",
+              "name": "红外摄影",
+              "prompt": "infrared photography, false-color foliage",
+              "original_id": "infrared_photo",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "lens",
+          "name": "镜头与器材",
+          "presets": [
+            {
+              "id": "tag-photography-wide_angle_lens",
+              "name": "广角镜头",
+              "prompt": "wide-angle lens, expansive field of view",
+              "original_id": "wide_angle_lens",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-telephoto_lens",
+              "name": "长焦镜头",
+              "prompt": "telephoto lens, compressed perspective",
+              "original_id": "telephoto_lens",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-standard_lens",
+              "name": "标准镜头",
+              "prompt": "standard lens, natural perspective",
+              "original_id": "standard_lens",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-macro_lens",
+              "name": "微距镜头",
+              "prompt": "macro lens, extreme close-up capability",
+              "original_id": "macro_lens",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-fisheye_lens",
+              "name": "鱼眼镜头",
+              "prompt": "fisheye lens, ultra-wide distorted view",
+              "original_id": "fisheye_lens",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-tilt_shift_lens",
+              "name": "移轴镜头",
+              "prompt": "tilt-shift lens, selective focus control",
+              "original_id": "tilt_shift_lens",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-large_aperture",
+              "name": "大光圈",
+              "prompt": "large aperture, shallow depth of field",
+              "original_id": "large_aperture",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-f1_4",
+              "name": "f/1.4",
+              "prompt": "f/1.4, extremely shallow DOF",
+              "original_id": "f1_4",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-f2_8",
+              "name": "f/2.8",
+              "prompt": "f/2.8, fast lens, creamy bokeh",
+              "original_id": "f2_8",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-dslr_camera",
+              "name": "单反相机",
+              "prompt": "DSLR camera, digital single-lens reflex",
+              "original_id": "dslr_camera",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-mirrorless_camera",
+              "name": "无反相机",
+              "prompt": "mirrorless camera, compact interchangeable lens",
+              "original_id": "mirrorless_camera",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-medium_format",
+              "name": "中画幅",
+              "prompt": "medium format, large sensor high resolution",
+              "original_id": "medium_format",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-full_frame",
+              "name": "全画幅",
+              "prompt": "full-frame sensor, 35mm equivalent",
+              "original_id": "full_frame",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-aps_c",
+              "name": "APS-C",
+              "prompt": "APS-C sensor, crop factor 1.5x",
+              "original_id": "aps_c",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-leica",
+              "name": "徕卡",
+              "prompt": "Leica camera, premium rangefinder aesthetic",
+              "original_id": "leica",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-hasselblad",
+              "name": "哈苏",
+              "prompt": "Hasselblad, medium format iconic camera",
+              "original_id": "hasselblad",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-canon_camera",
+              "name": "佳能",
+              "prompt": "Canon camera, popular DSLR brand",
+              "original_id": "canon_camera",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-nikon_camera",
+              "name": "尼康",
+              "prompt": "Nikon camera, professional DSLR brand",
+              "original_id": "nikon_camera",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-sony_camera",
+              "name": "索尼",
+              "prompt": "Sony camera, mirrorless leader",
+              "original_id": "sony_camera",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-fujifilm_camera",
+              "name": "富士",
+              "prompt": "Fujifilm camera, film simulation aesthetic",
+              "original_id": "fujifilm_camera",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-ricoh_gr",
+              "name": "理光GR",
+              "prompt": "Ricoh GR, compact street photography camera",
+              "original_id": "ricoh_gr",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-instax",
+              "name": "拍立得",
+              "prompt": "Instax, instant print film camera",
+              "original_id": "instax",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-polaroid_camera",
+              "name": "宝丽来",
+              "prompt": "Polaroid camera, vintage instant film",
+              "original_id": "polaroid_camera",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-pinhole_camera",
+              "name": "针孔相机",
+              "prompt": "pinhole camera, lensless soft image",
+              "original_id": "pinhole_camera",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-tripod_shot",
+              "name": "三脚架拍摄",
+              "prompt": "tripod shot, stabilized long exposure",
+              "original_id": "tripod_shot",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-gimbal_shot",
+              "name": "云台稳定拍摄",
+              "prompt": "gimbal stabilized shot, smooth motion",
+              "original_id": "gimbal_shot",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-flash_photo",
+              "name": "闪光灯拍摄",
+              "prompt": "flash photography, artificial burst light",
+              "original_id": "flash_photo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-ring_flash",
+              "name": "环形闪光灯",
+              "prompt": "ring flash, shadowless frontal light",
+              "original_id": "ring_flash",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-nd_filter",
+              "name": "ND减光镜",
+              "prompt": "ND filter, neutral density long exposure",
+              "original_id": "nd_filter",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "composition",
+          "name": "构图手法",
+          "presets": [
+            {
+              "id": "tag-photography-rule_of_thirds",
+              "name": "三分法",
+              "prompt": "rule of thirds, balanced off-center composition",
+              "original_id": "rule_of_thirds",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-golden_ratio",
+              "name": "黄金比例",
+              "prompt": "golden ratio composition, spiral layout",
+              "original_id": "golden_ratio",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-symmetrical_composition",
+              "name": "对称构图",
+              "prompt": "symmetrical composition, mirrored balance",
+              "original_id": "symmetrical_composition",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-diagonal_composition",
+              "name": "对角线构图",
+              "prompt": "diagonal composition, dynamic tension",
+              "original_id": "diagonal_composition",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-leading_lines",
+              "name": "引导线",
+              "prompt": "leading lines, visual path to subject",
+              "original_id": "leading_lines",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-frame_within_frame",
+              "name": "框架构图",
+              "prompt": "frame within frame, natural border effect",
+              "original_id": "frame_within_frame",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-negative_space",
+              "name": "留白",
+              "prompt": "negative space, minimalist empty area",
+              "original_id": "negative_space",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-shalow_dof",
+              "name": "浅景深",
+              "prompt": "shalow depth of field, blurred background",
+              "original_id": "shalow_dof",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-deep_dof",
+              "name": "深景深",
+              "prompt": "deep depth of field, sharp throughout",
+              "original_id": "deep_dof",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-foreground_blur",
+              "name": "前景虚化",
+              "prompt": "foreground blur, out-of-focus front element",
+              "original_id": "foreground_blur",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-background_blur",
+              "name": "背景虚化",
+              "prompt": "background blur, bokeh effect",
+              "original_id": "background_blur",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-top_down",
+              "name": "俯拍",
+              "prompt": "top-down shot, overhead view",
+              "original_id": "top_down",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-low_angle",
+              "name": "仰拍",
+              "prompt": "low angle shot, upward perspective",
+              "original_id": "low_angle",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-eye_level",
+              "name": "平视",
+              "prompt": "eye-level shot, natural perspective",
+              "original_id": "eye_level",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-birdseye_view",
+              "name": "鸟瞰",
+              "prompt": "bird's-eye view, extreme overhead angle",
+              "original_id": "birdseye_view",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-wormseye_view",
+              "name": "低角度",
+              "prompt": "worm's-eye view, extreme low angle",
+              "original_id": "wormseye_view",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-dutch_angle",
+              "name": "荷兰角",
+              "prompt": "Dutch angle, tilted horizon for tension",
+              "original_id": "dutch_angle",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-close_up",
+              "name": "特写",
+              "prompt": "close-up shot, detailed facial or object focus",
+              "original_id": "close_up",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-medium_shot",
+              "name": "中景",
+              "prompt": "medium shot, waist-up framing",
+              "original_id": "medium_shot",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-wide_shot",
+              "name": "远景",
+              "prompt": "wide shot, full environment context",
+              "original_id": "wide_shot",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-ful_body",
+              "name": "全身照",
+              "prompt": "full-body shot, complete figure framing",
+              "original_id": "ful_body",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-half_body",
+              "name": "半身照",
+              "prompt": "half-body shot, waist-up portrait",
+              "original_id": "half_body",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-over_the_shoulder",
+              "name": "过肩镜头",
+              "prompt": "over-the-shoulder shot, POV perspective",
+              "original_id": "over_the_shoulder",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-profile_shot",
+              "name": "侧脸照",
+              "prompt": "profile shot, side view portrait",
+              "original_id": "profile_shot",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-centered_composition",
+              "name": "居中构图",
+              "prompt": "centered composition, subject in middle",
+              "original_id": "centered_composition",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-triangular_composition",
+              "name": "三角构图",
+              "prompt": "triangular composition, stable visual triangle",
+              "original_id": "triangular_composition",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-golden_spiral",
+              "name": "黄金螺旋",
+              "prompt": "golden spiral composition, Fibonacci layout",
+              "original_id": "golden_spiral",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-fill_the_frame",
+              "name": "填满画面",
+              "prompt": "fill the frame, tight cropping style",
+              "original_id": "fill_the_frame",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "lighting_photo",
+          "name": "光影效果",
+          "presets": [
+            {
+              "id": "tag-photography-natural_light",
+              "name": "自然光",
+              "prompt": "natural light, sunlight illumination",
+              "original_id": "natural_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-golden_hour",
+              "name": "黄金时刻",
+              "prompt": "golden hour, warm soft sunlight",
+              "original_id": "golden_hour",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-blue_hour",
+              "name": "蓝调时刻",
+              "prompt": "blue hour, twilight cool tones",
+              "original_id": "blue_hour",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-backlight",
+              "name": "逆光",
+              "prompt": "backlight, subject silhouetted against light",
+              "original_id": "backlight",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-side_light",
+              "name": "侧光",
+              "prompt": "side light, dramatic shadow contrast",
+              "original_id": "side_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-front_light",
+              "name": "顺光",
+              "prompt": "front light, even frontal illumination",
+              "original_id": "front_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-top_light",
+              "name": "顶光",
+              "prompt": "top light, overhead illumination",
+              "original_id": "top_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-soft_light",
+              "name": "柔光",
+              "prompt": "soft light, diffused gentle illumination",
+              "original_id": "soft_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-hard_light",
+              "name": "硬光",
+              "prompt": "hard light, sharp distinct shadows",
+              "original_id": "hard_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-rembrandt_light",
+              "name": "伦勃朗光",
+              "prompt": "Rembrandt lighting, triangular face highlight",
+              "original_id": "rembrandt_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-butterfly_light",
+              "name": "蝴蝶光",
+              "prompt": "butterfly lighting, nose shadow under nose",
+              "original_id": "butterfly_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-loop_light",
+              "name": "环形光",
+              "prompt": "loop lighting, shadow slightly off nose",
+              "original_id": "loop_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-split_light",
+              "name": "分体光",
+              "prompt": "split lighting, half face lit half shadow",
+              "original_id": "split_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-rim_light",
+              "name": "轮廓光",
+              "prompt": "rim light, glowing edge highlight",
+              "original_id": "rim_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-silhouete",
+              "name": "剪影",
+              "prompt": "silhouette, dark subject against bright background",
+              "original_id": "silhouete",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-light_leak",
+              "name": "漏光",
+              "prompt": "light leak, vintage film edge glow",
+              "original_id": "light_leak",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-lens_flare",
+              "name": "眩光",
+              "prompt": "lens flare, bright scattered light artifact",
+              "original_id": "lens_flare",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-bokeh_lights",
+              "name": "光斑",
+              "prompt": "bokeh lights, blurred circular light points",
+              "original_id": "bokeh_lights",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-tyndal_effect",
+              "name": "丁达尔效应",
+              "prompt": "Tyndall effect, visible light beams",
+              "original_id": "tyndal_effect",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-neon_light",
+              "name": "霓虹灯光",
+              "prompt": "neon lighting, colorful artificial glow",
+              "original_id": "neon_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-candle_light",
+              "name": "烛光",
+              "prompt": "candlelight, warm flickering glow",
+              "original_id": "candle_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-window_light",
+              "name": "窗光",
+              "prompt": "window light, soft natural indoor illumination",
+              "original_id": "window_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-twilight",
+              "name": "暮光",
+              "prompt": "twilight, soft fading daylight",
+              "original_id": "twilight",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-fill_light",
+              "name": "补光",
+              "prompt": "fill light, shadow brightening reflector",
+              "original_id": "fill_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-reflected_light",
+              "name": "反射光",
+              "prompt": "reflected light, bounced illumination",
+              "original_id": "reflected_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-moonlight",
+              "name": "月光",
+              "prompt": "moonlight, cool night illumination",
+              "original_id": "moonlight",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-studio_light",
+              "name": "影棚灯光",
+              "prompt": "studio lighting, controlled professional setup",
+              "original_id": "studio_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-practical_light",
+              "name": "环境光源",
+              "prompt": "practical light, visible in-frame light source",
+              "original_id": "practical_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-volumetric_light",
+              "name": "体积光",
+              "prompt": "volumetric lighting, fog-scattered light beams",
+              "original_id": "volumetric_light",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "color_tone",
+          "name": "色调与后期",
+          "presets": [
+            {
+              "id": "tag-photography-warm_tone",
+              "name": "暖色调",
+              "prompt": "warm tone, orange and yellow color grading",
+              "original_id": "warm_tone",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-cool_tone",
+              "name": "冷色调",
+              "prompt": "cool tone, blue and teal color grading",
+              "original_id": "cool_tone",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-cinematic_color",
+              "name": "电影色调",
+              "prompt": "cinematic color grading, teal and orange",
+              "original_id": "cinematic_color",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-japanese_fresh",
+              "name": "日系清新",
+              "prompt": "Japanese fresh tone, bright airy pastel",
+              "original_id": "japanese_fresh",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-western_tone",
+              "name": "欧美色调",
+              "prompt": "Western tone, rich contrast warm",
+              "original_id": "western_tone",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-vintage_film",
+              "name": "复古胶片",
+              "prompt": "vintage film tone, faded analog look",
+              "original_id": "vintage_film",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-faded_look",
+              "name": "褪色",
+              "prompt": "faded look, washed-out vintage aesthetic",
+              "original_id": "faded_look",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-high_saturation",
+              "name": "高饱和度",
+              "prompt": "high saturation, vivid intense colors",
+              "original_id": "high_saturation",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-low_saturation",
+              "name": "低饱和度",
+              "prompt": "low saturation, muted desaturated colors",
+              "original_id": "low_saturation",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-hdr_photo",
+              "name": "HDR",
+              "prompt": "HDR photography, high dynamic range",
+              "original_id": "hdr_photo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-high_contrast",
+              "name": "高对比度",
+              "prompt": "high contrast, deep blacks bright whites",
+              "original_id": "high_contrast",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-low_contrast",
+              "name": "低对比度",
+              "prompt": "low contrast, flat soft tonal range",
+              "original_id": "low_contrast",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-cyberpunk_color",
+              "name": "赛博朋克色调",
+              "prompt": "cyberpunk color, neon pink cyan purple",
+              "original_id": "cyberpunk_color",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-vaporwave_color",
+              "name": "蒸汽波",
+              "prompt": "vaporwave color, retro 80s aesthetic",
+              "original_id": "vaporwave_color",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-morandi_color",
+              "name": "莫兰迪色",
+              "prompt": "Morandi color, muted greyed pastel palette",
+              "original_id": "morandi_color",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-bw_high_contrast",
+              "name": "黑白高对比",
+              "prompt": "black and white high contrast, stark monochrome",
+              "original_id": "bw_high_contrast",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-faded_vintage",
+              "name": "褪色复古",
+              "prompt": "faded vintage, aged film aesthetic",
+              "original_id": "faded_vintage",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-teal_orange",
+              "name": "青橙色调",
+              "prompt": "teal and orange color grade, cinematic look",
+              "original_id": "teal_orange",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-blue_yellow",
+              "name": "蓝黄色调",
+              "prompt": "blue and yellow color grade, complementary tones",
+              "original_id": "blue_yellow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-kodak_portra",
+              "name": "柯达Portra",
+              "prompt": "Kodak Portra film look, warm natural skin",
+              "original_id": "kodak_portra",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-fuji_film_sim",
+              "name": "富士胶片模拟",
+              "prompt": "Fujifilm film simulation, Provia Velvia",
+              "original_id": "fuji_film_sim",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-kodak_gold",
+              "name": "柯达Gold",
+              "prompt": "Kodak Gold 200, warm nostalgic film",
+              "original_id": "kodak_gold",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-ilford_bw",
+              "name": "伊尔福黑白",
+              "prompt": "Ilford black and white film, classic grain",
+              "original_id": "ilford_bw",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-cross_process",
+              "name": "交叉冲印",
+              "prompt": "cross-processed look, unnatural color shift",
+              "original_id": "cross_process",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-sepia_tone",
+              "name": "棕褐色调",
+              "prompt": "sepia tone, warm brown vintage look",
+              "original_id": "sepia_tone",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-matte_finish",
+              "name": "哑光质感",
+              "prompt": "matte finish, non-glossy muted look",
+              "original_id": "matte_finish",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-glossy_finish",
+              "name": "高光质感",
+              "prompt": "glossy finish, shiny vibrant look",
+              "original_id": "glossy_finish",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-color_grading_teal",
+              "name": "青色调色",
+              "prompt": "teal color grading, cool cinematic shadows",
+              "original_id": "color_grading_teal",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-split_toning",
+              "name": "分离色调",
+              "prompt": "split toning, different shadows and highlights",
+              "original_id": "split_toning",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "photo_scene",
+          "name": "场景与主题",
+          "presets": [
+            {
+              "id": "tag-photography-urban_street",
+              "name": "城市街头",
+              "prompt": "urban street scene, city photography",
+              "original_id": "urban_street",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-nature_landscape",
+              "name": "自然风光",
+              "prompt": "nature landscape, scenic outdoor photography",
+              "original_id": "nature_landscape",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-studio_portrait",
+              "name": "影棚人像",
+              "prompt": "studio portrait, controlled lighting setup",
+              "original_id": "studio_portrait",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-travel_photo",
+              "name": "旅行摄影",
+              "prompt": "travel photography, destination storytelling",
+              "original_id": "travel_photo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-wedding_photo",
+              "name": "婚礼摄影",
+              "prompt": "wedding photography, romantic ceremony",
+              "original_id": "wedding_photo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-food_photo",
+              "name": "美食摄影",
+              "prompt": "food photography, appetizing plating shot",
+              "original_id": "food_photo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-product_photo",
+              "name": "产品摄影",
+              "prompt": "product photography, clean commercial shot",
+              "original_id": "product_photo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-architecture_shot",
+              "name": "建筑摄影",
+              "prompt": "architecture shot, structural detail focus",
+              "original_id": "architecture_shot",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-interior_photo",
+              "name": "室内摄影",
+              "prompt": "interior photography, indoor space documentation",
+              "original_id": "interior_photo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-forest_photo",
+              "name": "森林摄影",
+              "prompt": "forest photography, woodland natural light",
+              "original_id": "forest_photo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-desert_photo",
+              "name": "沙漠摄影",
+              "prompt": "desert photography, arid landscape shot",
+              "original_id": "desert_photo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-snow_scene",
+              "name": "雪景摄影",
+              "prompt": "snow scene photography, winter white landscape",
+              "original_id": "snow_scene",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-rain_scene",
+              "name": "雨景摄影",
+              "prompt": "rain scene photography, wet street reflections",
+              "original_id": "rain_scene",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-fog_scene",
+              "name": "雾景摄影",
+              "prompt": "fog scene photography, misty atmospheric shot",
+              "original_id": "fog_scene",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-beach_scene",
+              "name": "海滩摄影",
+              "prompt": "beach scene photography, coastal sunny shot",
+              "original_id": "beach_scene",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-polar_photo",
+              "name": "极地摄影",
+              "prompt": "polar photography, icy remote landscape",
+              "original_id": "polar_photo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-starry_sky",
+              "name": "星空摄影",
+              "prompt": "starry sky photography, astrophotography",
+              "original_id": "starry_sky",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-milky_way",
+              "name": "银河摄影",
+              "prompt": "Milky Way photography, night sky stars",
+              "original_id": "milky_way",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-aurora_photo",
+              "name": "极光摄影",
+              "prompt": "aurora photography, northern lights",
+              "original_id": "aurora_photo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-fireworks_photo",
+              "name": "烟花摄影",
+              "prompt": "fireworks photography, colorful night bursts",
+              "original_id": "fireworks_photo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-pet_photo",
+              "name": "宠物摄影",
+              "prompt": "pet photography, animal portrait shot",
+              "original_id": "pet_photo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-sports_photo",
+              "name": "运动摄影",
+              "prompt": "sports photography, action frozen moment",
+              "original_id": "sports_photo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-concert_photo",
+              "name": "演唱会摄影",
+              "prompt": "concert photography, stage low-light shot",
+              "original_id": "concert_photo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-market_scene",
+              "name": "市集摄影",
+              "prompt": "market scene photography, vibrant street life",
+              "original_id": "market_scene",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-ruins_photo",
+              "name": "废墟摄影",
+              "prompt": "ruins photography, abandoned urban exploration",
+              "original_id": "ruins_photo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-waterfal_photo",
+              "name": "瀑布摄影",
+              "prompt": "waterfal photography, long exposure water flow",
+              "original_id": "waterfal_photo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-sunset_photo",
+              "name": "日落摄影",
+              "prompt": "sunset photography, golden hour seascape",
+              "original_id": "sunset_photo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-overground_pool",
+              "name": "泳池摄影",
+              "prompt": "swimming pool photography, turquoise water shot",
+              "original_id": "overground_pool",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-rooftop_photo",
+              "name": "天台摄影",
+              "prompt": "rooftop photography, urban skyline backdrop",
+              "original_id": "rooftop_photo",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "photographers",
+          "name": "摄影师",
+          "presets": [
+            {
+              "id": "tag-photography-ansel_adams",
+              "name": "Ansel Adams",
+              "prompt": "Ansel Adams style, black and white landscape photography, zone system, high contrast",
+              "original_id": "ansel_adams",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-henri_cartier_bresson",
+              "name": "Henri Cartier-Bresson",
+              "prompt": "Henri Cartier-Bresson style, decisive moment, street photography, candid",
+              "original_id": "henri_cartier_bresson",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-robert_capa",
+              "name": "Robert Capa",
+              "prompt": "Robert Capa style, war photography, battlefield, gritty documentary",
+              "original_id": "robert_capa",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-steve_mccurry",
+              "name": "Steve McCurry",
+              "prompt": "Steve McCurry style, humanitarian portrait, vibrant color, Afghan Girl",
+              "original_id": "steve_mccurry",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-annie_leibovitz",
+              "name": "Annie Leibovitz",
+              "prompt": "Annie Leibovitz style, celebrity portrait, dramatic lighting, editorial",
+              "original_id": "annie_leibovitz",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-sebastiao_salgado",
+              "name": "Sebastião Salgado",
+              "prompt": "Sebastião Salgado style, black and white documentary, human struggle, high contrast",
+              "original_id": "sebastiao_salgado",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-richard_avedon",
+              "name": "Richard Avedon",
+              "prompt": "Richard Avedon style, minimalist fashion portrait, white background, sharp focus",
+              "original_id": "richard_avedon",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-irving_penn",
+              "name": "Irving Penn",
+              "prompt": "Irving Penn style, still life, elegant portrait, neutral background",
+              "original_id": "irving_penn",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-helmut_newton",
+              "name": "Helmut Newton",
+              "prompt": "Helmut Newton style, black and white fashion, provocative, high contrast",
+              "original_id": "helmut_newton",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-diane_arbus",
+              "name": "Diane Arbus",
+              "prompt": "Diane Arbus style, marginalized subjects, raw documentary, square format",
+              "original_id": "diane_arbus",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-vivian_maier",
+              "name": "Vivian Maier",
+              "prompt": "Vivian Maier style, street self-portrait, candid urban life, grainy",
+              "original_id": "vivian_maier",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-cindy_sherman",
+              "name": "Cindy Sherman",
+              "prompt": "Cindy Sherman style, conceptual self-portrait, costume, identity play",
+              "original_id": "cindy_sherman",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-daido_moriyama",
+              "name": "Daido Moriyama",
+              "prompt": "Daido Moriyama style, high-contrast black and white, gritty street, grainy",
+              "original_id": "daido_moriyama",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-nobuyoshi_arak",
+              "name": "Nobuyoshi Araki",
+              "prompt": "Nobuyoshi Araki style, erotic bondage, raw snapshot, high contrast",
+              "original_id": "nobuyoshi_arak",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-rinko_kawauchi",
+              "name": "Rinko Kawauchi",
+              "prompt": "Rinko Kawauchi style, Japanese fresh tone, everyday moments, soft light",
+              "original_id": "rinko_kawauchi",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-andreas_gursky",
+              "name": "Andreas Gursky",
+              "prompt": "Andreas Gursky style, large-format landscape, architectural, high detail",
+              "original_id": "andreas_gursky",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-peter_lindbergh",
+              "name": "Peter Lindbergh",
+              "prompt": "Peter Lindbergh style, black and white fashion, natural beauty, timeless",
+              "original_id": "peter_lindbergh",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-tim_walker",
+              "name": "Tim Walker",
+              "prompt": "Tim Walker style, surreal fashion, whimsical sets, dreamlike",
+              "original_id": "tim_walker",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-ryan_mcginley",
+              "name": "Ryan McGinley",
+              "prompt": "Ryan McGinley style, youth nude, natural light, carefree energy",
+              "original_id": "ryan_mcginley",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-gregory_crewdon",
+              "name": "Gregory Crewdson",
+              "prompt": "Gregory Crewdson style, cinematic narrative, staged scene, movie-like",
+              "original_id": "gregory_crewdon",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-moriyama_daido",
+              "name": "森山大道",
+              "prompt": "Moriyama Daido style, are-bure-boke, high-contrast gritty street photography",
+              "original_id": "moriyama_daido",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-araki_nobuyoshi",
+              "name": "荒木经惟",
+              "prompt": "Araki Nobuyoshi style, erotic bondage photography, raw snapshot aesthetic",
+              "original_id": "araki_nobuyoshi",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-kawauchi_rinko",
+              "name": "川内伦子",
+              "prompt": "Kawauchi Rinko style, soft quiet everyday moments, pastel tones, square format",
+              "original_id": "kawauchi_rinko",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-sugimoto_hiroshi",
+              "name": "杉本博司",
+              "prompt": "Sugimoto Hiroshi style, long exposure seascapes, minimalist, ethereal",
+              "original_id": "sugimoto_hiroshi",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-ninagawa_mika",
+              "name": "蜷川实花",
+              "prompt": "Ninagawa Mika style, vivid colorful flowers, dreamy pop aesthetic",
+              "original_id": "ninagawa_mika",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-hamada_hideaki",
+              "name": "滨田英明",
+              "prompt": "Hamada Hideaki style, Japanese fresh youth portrait, soft natural light",
+              "original_id": "hamada_hideaki",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-mei_jiadai",
+              "name": "梅佳代",
+              "prompt": "Mei Jiadai style, playful candid snapshot, everyday humor, grainy",
+              "original_id": "mei_jiadai",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-yoko_nami",
+              "name": "横浪修",
+              "prompt": "Yoko Nami style, minimalist portrait, clean composition, muted tones",
+              "original_id": "yoko_nami",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-tamaki_hamada",
+              "name": "泷本干也",
+              "prompt": "Tamaki Hamada style, cinematic still, moody atmospheric landscape",
+              "original_id": "tamaki_hamada",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-ueda_yoshihiko",
+              "name": "上田义彦",
+              "prompt": "Ueda Yoshihiko style, muted earth tones, poetic portrait, film-like",
+              "original_id": "ueda_yoshihiko",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-xiao_quan",
+              "name": "肖全",
+              "prompt": "Xiao Quan style, Chinese cultural figures portrait, black and white, intimate",
+              "original_id": "xiao_quan",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-chen_man",
+              "name": "陈漫",
+              "prompt": "Chen Man style, avant-garde fashion, surreal retouching, vibrant color",
+              "original_id": "chen_man",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-he_fan",
+              "name": "何藩",
+              "prompt": "He Fan style, Hong Kong street photography, dramatic light and shadow",
+              "original_id": "he_fan",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-liu_xiangcheng",
+              "name": "刘香成",
+              "prompt": "Liu Xiangcheng style, Chinese historical documentary, candid moment",
+              "original_id": "liu_xiangcheng",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-lu_nan",
+              "name": "吕楠",
+              "prompt": "Lu Nan style, rural China documentary, black and white, human dignity",
+              "original_id": "lu_nan",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-zhang_kechun",
+              "name": "张克纯",
+              "prompt": "Zhang Kechun style, Chinese landscape documentary, muted tones, vast space",
+              "original_id": "zhang_kechun",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-sun_jun",
+              "name": "孙郡",
+              "prompt": "Sun Jun style, Chinese ink-wash style portrait, fusion of photography and painting",
+              "original_id": "sun_jun",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-wang_qingsong",
+              "name": "王庆松",
+              "prompt": "Wang Qingsong style, conceptual tableau, satirical large-format scene",
+              "original_id": "wang_qingsong",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-zeng_han",
+              "name": "曾翰",
+              "prompt": "Zeng Han style, Chinese landscape conceptual, environmental documentary",
+              "original_id": "zeng_han",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-lu_guang",
+              "name": "卢广",
+              "prompt": "Lu Guang style, environmental documentary, social issue, gritty realism",
+              "original_id": "lu_guang",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-thomas_kan",
+              "name": "Thomas看看世界",
+              "prompt": "Thomas Kan style, travel landscape photography, epic wide shot, vibrant color",
+              "original_id": "thomas_kan",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-lin_haiyin",
+              "name": "林海音",
+              "prompt": "Lin Haiyin style, lifestyle portrait, soft natural light, warm tone",
+              "original_id": "lin_haiyin",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-timothy_wang",
+              "name": "Timothy Wang",
+              "prompt": "Timothy Wang style, urban exploration, cinematic color grading",
+              "original_id": "timothy_wang",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-zhang_qianli",
+              "name": "张千里",
+              "prompt": "Zhang Qianli style, travel documentary, storytelling through images",
+              "original_id": "zhang_qianli",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-zhao_jia",
+              "name": "赵嘉",
+              "prompt": "Zhao Jia style, wildlife and landscape, professional outdoor photography",
+              "original_id": "zhao_jia",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-liu_shunerniu",
+              "name": "刘顺儿妞",
+              "prompt": "Liu Shun'erniu style, female portrait, soft dreamy aesthetic, warm tone",
+              "original_id": "liu_shunerniu",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-william_eggleston",
+              "name": "William Eggleston",
+              "prompt": "William Eggleston style, color documentary, mundane American South, dye transfer",
+              "original_id": "william_eggleston",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-stephen_shore",
+              "name": "Stephen Shore",
+              "prompt": "Stephen Shore style, color vernacular, deadpan American landscape",
+              "original_id": "stephen_shore",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-joel_meyerowitz",
+              "name": "Joel Meyerowitz",
+              "prompt": "Joel Meyerowitz style, color street photography, Cape Light, vibrant",
+              "original_id": "joel_meyerowitz",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-mary_ellen_mark",
+              "name": "Mary Ellen Mark",
+              "prompt": "Mary Ellen Mark style, social documentary, intimate portrait, compassionate",
+              "original_id": "mary_ellen_mark",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-walker_evans",
+              "name": "Walker Evans",
+              "prompt": "Walker Evans style, Great Depression documentary, stark black and white",
+              "original_id": "walker_evans",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-edward_weston",
+              "name": "Edward Weston",
+              "prompt": "Edward Weston style, sharp focus still life, peppers, nudes, modernist",
+              "original_id": "edward_weston",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-man_ray",
+              "name": "Man Ray",
+              "prompt": "Man Ray style, surrealist photography, rayographs, experimental",
+              "original_id": "man_ray",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-alex_webb",
+              "name": "Alex Webb",
+              "prompt": "Alex Webb style, complex color street, layered composition, warm tones",
+              "original_id": "alex_webb",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-fan_ho",
+              "name": "何藩",
+              "prompt": "Fan Ho style, Hong Kong street photography, geometric shadow play",
+              "original_id": "fan_ho",
+              "type": "tag"
+            },
+            {
+              "id": "tag-photography-hiroshi_sugimoto",
+              "name": "杉本博司",
+              "prompt": "Hiroshi Sugimoto style, long exposure seascapes, minimalist, ethereal",
+              "original_id": "hiroshi_sugimoto",
+              "type": "tag"
+            }
+          ]
+        }
+      ],
+      "type": "tag"
+    }
+  ]
+}

@@ -49,7 +49,7 @@ def content_entries():
 def main():
     entries = []
     all_ids = set()
-    for path in sorted((ROOT / 'packs').glob('*/pack.json')):
+    for path in sorted(list((ROOT / 'packs').glob('*/pack.json')) + list((ROOT / 'libraries' / 'tags').glob('*/pack.json'))):
         manifest = json.loads(path.read_text(encoding='utf-8'))
         assert manifest['packId'] == path.parent.name, 'packId 与目录名不一致'
         files = [path]
@@ -76,6 +76,7 @@ def main():
         all_ids.update(ids)
         entries.append({
             **{k: manifest[k] for k in ('packId', 'name', 'version', 'entryCount')},
+            'kind': manifest.get('kind', 'styles'),
             'description': manifest.get('description', ''),
             'path': path.parent.relative_to(ROOT).as_posix(),
             'categoryCount': len(manifest['categories']),

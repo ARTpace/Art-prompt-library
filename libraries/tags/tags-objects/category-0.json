@@ -1,0 +1,2289 @@
+{
+  "categories": [
+    {
+      "id": "objects",
+      "name": "物品",
+      "subcategories": [
+        {
+          "id": "obj_items",
+          "name": "物品",
+          "presets": [
+            {
+              "id": "tag-objects-happy_spring_(ensemble_stars!)",
+              "name": "Happy Spring (Ensemble Stars!)",
+              "prompt": "happy spring (ensemble stars!)",
+              "original_id": "happy_spring_(ensemble_stars!)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-hot_air_balloon",
+              "name": "热气球",
+              "prompt": "hot air balloon",
+              "original_id": "hot_air_balloon",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-looking_through_window",
+              "name": "透过窗户看",
+              "prompt": "looking through window",
+              "original_id": "looking_through_window",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-through_window",
+              "name": "透过窗户",
+              "prompt": "through window",
+              "original_id": "through_window",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-cleansed_crystal_mirror",
+              "name": "净化水晶镜",
+              "prompt": "cleansed crystal mirror",
+              "original_id": "cleansed_crystal_mirror",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-cleaning_windows",
+              "name": "擦窗户",
+              "prompt": "cleaning windows",
+              "original_id": "cleaning_windows",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-through_mirror",
+              "name": "透过镜子",
+              "prompt": "through mirror",
+              "original_id": "through_mirror",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-breaking_through_window",
+              "name": "破窗而入",
+              "prompt": "breaking through window",
+              "original_id": "breaking_through_window",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-heavy_ball",
+              "name": "重球",
+              "prompt": "heavy ball",
+              "original_id": "heavy_ball",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-through_door",
+              "name": "穿门",
+              "prompt": "through door",
+              "original_id": "through_door",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-guilty_gear_strive_x_tower_records",
+              "name": "罪恶装备联名",
+              "prompt": "guilty gear strive x tower records",
+              "original_id": "guilty_gear_strive_x_tower_records",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-holding_glass_shard",
+              "name": "手持玻片",
+              "prompt": "holding glass shard",
+              "original_id": "holding_glass_shard",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-message_in_a_bottle",
+              "name": "瓶中信",
+              "prompt": "message in a bottle",
+              "original_id": "message_in_a_bottle",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-massage_chair",
+              "name": "按摩椅",
+              "prompt": "massage chair",
+              "original_id": "massage_chair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-twinkle_book",
+              "name": "闪光书",
+              "prompt": "twinkle book",
+              "original_id": "twinkle_book",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-bicycles_only_sign",
+              "name": "自行车专用标志",
+              "prompt": "bicycles only sign",
+              "original_id": "bicycles_only_sign",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-bicycle_chain",
+              "name": "自行车链",
+              "prompt": "bicycle chain",
+              "original_id": "bicycle_chain",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-blushing_girls_are_cute_(template)",
+              "name": "Blushing Girls Are Cute (Template)",
+              "prompt": "blushing girls are cute (template)",
+              "original_id": "blushing_girls_are_cute_(template)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-transmasculine_flag",
+              "name": "跨男性旗帜",
+              "prompt": "transmasculine flag",
+              "original_id": "transmasculine_flag",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-lighting_firework",
+              "name": "点燃烟花",
+              "prompt": "lighting firework",
+              "original_id": "lighting_firework",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-energy_ball",
+              "name": "能量球",
+              "prompt": "energy ball",
+              "original_id": "energy_ball",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-arched_window",
+              "name": "拱形窗",
+              "prompt": "arched window",
+              "original_id": "arched_window",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-leaning_out_of_window",
+              "name": "探出窗外",
+              "prompt": "leaning out of window",
+              "original_id": "leaning_out_of_window",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-hand_mirror",
+              "name": "手镜",
+              "prompt": "hand mirror",
+              "original_id": "hand_mirror",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-ball_and_chain_restraint",
+              "name": "球链约束",
+              "prompt": "ball and chain restraint",
+              "original_id": "ball_and_chain_restraint",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-winding_key",
+              "name": "上弦钥匙",
+              "prompt": "winding key",
+              "original_id": "winding_key",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-stained_glass",
+              "name": "彩色玻璃",
+              "prompt": "stained glass",
+              "original_id": "stained_glass",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-against_window",
+              "name": "靠窗",
+              "prompt": "against window",
+              "original_id": "against_window",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-open_window",
+              "name": "开窗",
+              "prompt": "open window",
+              "original_id": "open_window",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-holding_mirror",
+              "name": "拿着镜子",
+              "prompt": "holding mirror",
+              "original_id": "holding_mirror",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-hand_on_window",
+              "name": "手放在窗户上",
+              "prompt": "hand on window",
+              "original_id": "hand_on_window",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-sitting_in_window",
+              "name": "坐在窗边",
+              "prompt": "sitting in window",
+              "original_id": "sitting_in_window",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-barred_window",
+              "name": "铁窗",
+              "prompt": "barred window",
+              "original_id": "barred_window",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-broken_mirror",
+              "name": "破碎的镜子",
+              "prompt": "broken mirror",
+              "original_id": "broken_mirror",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-traffic_mirror",
+              "name": "交通镜",
+              "prompt": "traffic mirror",
+              "original_id": "traffic_mirror",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-broken_window",
+              "name": "破窗",
+              "prompt": "broken window",
+              "original_id": "broken_window",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-looking_at_mirror",
+              "name": "看着镜子",
+              "prompt": "looking at mirror",
+              "original_id": "looking_at_mirror",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-rear_view_mirror",
+              "name": "后视镜",
+              "prompt": "rear-view mirror",
+              "original_id": "rear_view_mirror",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-round_window",
+              "name": "圆窗",
+              "prompt": "round window",
+              "original_id": "round_window",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-training_wheels",
+              "name": "训练轮",
+              "prompt": "training wheels",
+              "original_id": "training_wheels",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-full_length_mirror",
+              "name": "全身镜",
+              "prompt": "full-length mirror",
+              "original_id": "full_length_mirror",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-winding_wheel",
+              "name": "绕线轮",
+              "prompt": "winding wheel",
+              "original_id": "winding_wheel",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-ukrainian_flag",
+              "name": "乌克兰国旗",
+              "prompt": "ukrainian flag",
+              "original_id": "ukrainian_flag",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-magic_carpet",
+              "name": "魔毯",
+              "prompt": "magic carpet",
+              "original_id": "magic_carpet",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-dimension_mirror",
+              "name": "次元镜",
+              "prompt": "dimension mirror",
+              "original_id": "dimension_mirror",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-rainbow_flag",
+              "name": "彩虹旗",
+              "prompt": "rainbow flag",
+              "original_id": "rainbow_flag",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-side_view_mirror",
+              "name": "侧视镜",
+              "prompt": "side-view mirror",
+              "original_id": "side_view_mirror",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-head_mirror",
+              "name": "头镜",
+              "prompt": "head mirror",
+              "original_id": "head_mirror",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-window_box",
+              "name": "开窗盒",
+              "prompt": "window box",
+              "original_id": "window_box",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-boarded_windows",
+              "name": "登上窗户",
+              "prompt": "boarded windows",
+              "original_id": "boarded_windows",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-hand_on_mirror",
+              "name": "手放在镜子上",
+              "prompt": "hand on mirror",
+              "original_id": "hand_on_mirror",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-opening_window",
+              "name": "开窗",
+              "prompt": "opening window",
+              "original_id": "opening_window",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-deep_aqua_mirror",
+              "name": "深水镜",
+              "prompt": "deep aqua mirror",
+              "original_id": "deep_aqua_mirror",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-against_mirror",
+              "name": "反对镜子",
+              "prompt": "against mirror",
+              "original_id": "against_mirror",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-rain_chain",
+              "name": "雨链",
+              "prompt": "rain chain",
+              "original_id": "rain_chain",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-open_window_shutter",
+              "name": "打开百叶窗",
+              "prompt": "open window shutter",
+              "original_id": "open_window_shutter",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-spandrel_window",
+              "name": "拱肩窗",
+              "prompt": "spandrel window",
+              "original_id": "spandrel_window",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-mouth_mirror",
+              "name": "口镜",
+              "prompt": "mouth mirror",
+              "original_id": "mouth_mirror",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-four_mirrors_of_lucifenia",
+              "name": "路西菲尼亚的四镜",
+              "prompt": "four mirrors of lucifenia",
+              "original_id": "four_mirrors_of_lucifenia",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-energy_lock_seed",
+              "name": "能量锁种子",
+              "prompt": "energy lock seed",
+              "original_id": "energy_lock_seed",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-stained_glass_print",
+              "name": "彩色玻璃印刷",
+              "prompt": "stained glass print",
+              "original_id": "stained_glass_print",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-blood_on_mirror",
+              "name": "镜子上的血",
+              "prompt": "blood on mirror",
+              "original_id": "blood_on_mirror",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-duplication_mirror_(doraemon)",
+              "name": "Duplication Mirror (Doraemon)",
+              "prompt": "duplication mirror (doraemon)",
+              "original_id": "duplication_mirror_(doraemon)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-licking_window",
+              "name": "舔窗",
+              "prompt": "licking window",
+              "original_id": "licking_window",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-energy_card",
+              "name": "能源卡",
+              "prompt": "energy card",
+              "original_id": "energy_card",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-heart_shaped_window",
+              "name": "心形窗",
+              "prompt": "heart-shaped window",
+              "original_id": "heart_shaped_window",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-scene_outside_window",
+              "name": "窗外景色",
+              "prompt": "scene outside window",
+              "original_id": "scene_outside_window",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-blood_on_window",
+              "name": "窗上血迹",
+              "prompt": "blood on window",
+              "original_id": "blood_on_window",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-circular_mirror",
+              "name": "圆镜",
+              "prompt": "circular mirror",
+              "original_id": "circular_mirror",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-train_station_platform_gate",
+              "name": "火车站月台门",
+              "prompt": "train station platform gate",
+              "original_id": "train_station_platform_gate",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-bloody_window",
+              "name": "血腥之窗",
+              "prompt": "bloody window",
+              "original_id": "bloody_window",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-snow_bowl",
+              "name": "雪碗",
+              "prompt": "snow bowl",
+              "original_id": "snow_bowl",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-train_card",
+              "name": "火车卡",
+              "prompt": "train card",
+              "original_id": "train_card",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-rainbow_flag_tattoo",
+              "name": "彩虹旗纹身",
+              "prompt": "rainbow flag tattoo",
+              "original_id": "rainbow_flag_tattoo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-one_way_mirror",
+              "name": "单向镜子",
+              "prompt": "one-way mirror",
+              "original_id": "one_way_mirror",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-infinity_mirror",
+              "name": "无限镜",
+              "prompt": "infinity mirror",
+              "original_id": "infinity_mirror",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-casement_window",
+              "name": "平开窗",
+              "prompt": "casement window",
+              "original_id": "casement_window",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-rainbow_flag_print",
+              "name": "彩虹旗印花",
+              "prompt": "rainbow flag print",
+              "original_id": "rainbow_flag_print",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-fox_window",
+              "name": "狐狸窗",
+              "prompt": "fox window",
+              "original_id": "fox_window",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-trainer_card",
+              "name": "教练卡",
+              "prompt": "trainer card",
+              "original_id": "trainer_card",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-house_of_mirrors",
+              "name": "镜之屋",
+              "prompt": "house of mirrors",
+              "original_id": "house_of_mirrors",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-elbow_on_table",
+              "name": "肘部放在桌子上",
+              "prompt": "elbow on table",
+              "original_id": "elbow_on_table",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-bowl",
+              "name": "碗",
+              "prompt": "bowl",
+              "original_id": "bowl",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-bowling",
+              "name": "保龄球",
+              "prompt": "bowling",
+              "original_id": "bowling",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-bowling_alley",
+              "name": "保龄球馆",
+              "prompt": "bowling alley",
+              "original_id": "bowling_alley",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-mortar_(bowl)",
+              "name": "Mortar (Bowl)",
+              "prompt": "mortar (bowl)",
+              "original_id": "mortar_(bowl)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-holding_bowl",
+              "name": "捧碗",
+              "prompt": "holding bowl",
+              "original_id": "holding_bowl",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-apron_basket",
+              "name": "围裙篮",
+              "prompt": "apron basket",
+              "original_id": "apron_basket",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-bowling_ball",
+              "name": "保龄球",
+              "prompt": "bowling ball",
+              "original_id": "bowling_ball",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-elbows_on_table",
+              "name": "肘部放在桌子上",
+              "prompt": "elbows on table",
+              "original_id": "elbows_on_table",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-bowl_cut",
+              "name": "碗形切工",
+              "prompt": "bowl cut",
+              "original_id": "bowl_cut",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-in_bowl",
+              "name": "在碗里",
+              "prompt": "in bowl",
+              "original_id": "in_bowl",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-bowl_stack",
+              "name": "碗堆",
+              "prompt": "bowl stack",
+              "original_id": "bowl_stack",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-bowl_boat",
+              "name": "碗船",
+              "prompt": "bowl boat",
+              "original_id": "bowl_boat",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-too_many_bowls",
+              "name": "太多碗",
+              "prompt": "too many bowls",
+              "original_id": "too_many_bowls",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-bowlegged_pose",
+              "name": "罗圈腿式",
+              "prompt": "bowlegged pose",
+              "original_id": "bowlegged_pose",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-digital_clock",
+              "name": "数字时钟",
+              "prompt": "digital clock",
+              "original_id": "digital_clock",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-analog_clock",
+              "name": "模拟时钟",
+              "prompt": "analog clock",
+              "original_id": "analog_clock",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-business_card",
+              "name": "名片",
+              "prompt": "business card",
+              "original_id": "business_card",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-luxury_ball",
+              "name": "豪华舞会",
+              "prompt": "luxury ball",
+              "original_id": "luxury_ball",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-time_machine_(doraemon)",
+              "name": "Time Machine (Doraemon)",
+              "prompt": "time machine (doraemon)",
+              "original_id": "time_machine_(doraemon)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-memory_card",
+              "name": "存储卡",
+              "prompt": "memory card",
+              "original_id": "memory_card",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-pokemon_card",
+              "name": "口袋妖怪卡",
+              "prompt": "pokemon card",
+              "original_id": "pokemon_card",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-mixing_table",
+              "name": "混合台",
+              "prompt": "mixing table",
+              "original_id": "mixing_table",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-emotional_engine___full_drive",
+              "name": "情感引擎全速运转",
+              "prompt": "emotional engine - full drive",
+              "original_id": "emotional_engine___full_drive",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-ear_cover_removed",
+              "name": "耳罩已拆下",
+              "prompt": "ear cover removed",
+              "original_id": "ear_cover_removed",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-dark_ball_(pokemon_m04)",
+              "name": "Dark Ball (Pokemon M04)",
+              "prompt": "dark ball (pokemon m04)",
+              "original_id": "dark_ball_(pokemon_m04)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-cockpit_glass_removed",
+              "name": "驾驶舱玻璃已拆除",
+              "prompt": "cockpit glass removed",
+              "original_id": "cockpit_glass_removed",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-windows_desktop",
+              "name": "Windows 桌面",
+              "prompt": "windows desktop",
+              "original_id": "windows_desktop",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-window",
+              "name": "窗户",
+              "prompt": "window",
+              "original_id": "window",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-mirror",
+              "name": "镜子",
+              "prompt": "mirror",
+              "original_id": "mirror",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-windows_logo",
+              "name": "视窗标志",
+              "prompt": "windows logo",
+              "original_id": "windows_logo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-mirrormoon",
+              "name": "镜月",
+              "prompt": "mirrormoon",
+              "original_id": "mirrormoon",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-mirror_twins",
+              "name": "镜子双胞胎",
+              "prompt": "mirror twins",
+              "original_id": "mirror_twins",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-mirrored_text",
+              "name": "镜像文本",
+              "prompt": "mirrored text",
+              "original_id": "mirrored_text",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-windowsill",
+              "name": "窗台",
+              "prompt": "windowsill",
+              "original_id": "windowsill",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-window_blinds",
+              "name": "百叶窗",
+              "prompt": "window blinds",
+              "original_id": "window_blinds",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-windows_media_center",
+              "name": "Windows媒体中心",
+              "prompt": "windows media center",
+              "original_id": "windows_media_center",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-window_shutter",
+              "name": "百叶窗",
+              "prompt": "window shutter",
+              "original_id": "window_shutter",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-mirror_image",
+              "name": "镜像",
+              "prompt": "mirror image",
+              "original_id": "mirror_image",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-window_shopping",
+              "name": "橱窗购物",
+              "prompt": "window shopping",
+              "original_id": "window_shopping",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-window_extractor_fan",
+              "name": "窗户抽风机",
+              "prompt": "window extractor fan",
+              "original_id": "window_extractor_fan",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-window_fan",
+              "name": "窗扇",
+              "prompt": "window fan",
+              "original_id": "window_fan",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-mirror_of_erised",
+              "name": "厄里斯魔镜",
+              "prompt": "mirror of erised",
+              "original_id": "mirror_of_erised",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-pokemon_contest_medal",
+              "name": "口袋妖怪大赛奖牌",
+              "prompt": "pokemon contest medal",
+              "original_id": "pokemon_contest_medal",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-smiley_hair_ornament",
+              "name": "笑脸发饰",
+              "prompt": "smiley hair ornament",
+              "original_id": "smiley_hair_ornament",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-hair_ornament_switch",
+              "name": "发饰开关",
+              "prompt": "hair ornament switch",
+              "original_id": "hair_ornament_switch",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-too_many_hair_ornaments",
+              "name": "太多的发饰",
+              "prompt": "too many hair ornaments",
+              "original_id": "too_many_hair_ornaments",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "obj_weapons",
+          "name": "武器",
+          "presets": [
+            {
+              "id": "tag-objects-shot_lancer",
+              "name": "投枪骑兵",
+              "prompt": "shot lancer",
+              "original_id": "shot_lancer",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-energy_lance",
+              "name": "能量枪",
+              "prompt": "energy lance",
+              "original_id": "energy_lance",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-energy_axe",
+              "name": "能量斧",
+              "prompt": "energy axe",
+              "original_id": "energy_axe",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-energy_spear",
+              "name": "能量矛",
+              "prompt": "energy spear",
+              "original_id": "energy_spear",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-energy_whip",
+              "name": "能量鞭",
+              "prompt": "energy whip",
+              "original_id": "energy_whip",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-energy_dagger",
+              "name": "能量匕首",
+              "prompt": "energy dagger",
+              "original_id": "energy_dagger",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-snow_on_helmet",
+              "name": "头盔上有雪",
+              "prompt": "snow on helmet",
+              "original_id": "snow_on_helmet",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-holding_bow_(ornament)",
+              "name": "Holding Bow (Ornament)",
+              "prompt": "holding bow (ornament)",
+              "original_id": "holding_bow_(ornament)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-holding_bow_(weapon)",
+              "name": "Holding Bow (Weapon)",
+              "prompt": "holding bow (weapon)",
+              "original_id": "holding_bow_(weapon)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-holding_bow_(music)",
+              "name": "Holding Bow (Music)",
+              "prompt": "holding bow (music)",
+              "original_id": "holding_bow_(music)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-flying_armor_(gundam)",
+              "name": "Flying Armor (Gundam)",
+              "prompt": "flying armor (gundam)",
+              "original_id": "flying_armor_(gundam)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-light_bow_shekinah",
+              "name": "光弓 Shekinah",
+              "prompt": "light bow shekinah",
+              "original_id": "light_bow_shekinah",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-rainbow_sword",
+              "name": "彩虹剑",
+              "prompt": "rainbow sword",
+              "original_id": "rainbow_sword",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-type_91_armor_piercing_shell",
+              "name": "91式穿甲弹",
+              "prompt": "type 91 armor-piercing shell",
+              "original_id": "type_91_armor_piercing_shell",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-grind_blade_(armored_core)",
+              "name": "Grind Blade (Armored Core)",
+              "prompt": "grind blade (armored core)",
+              "original_id": "grind_blade_(armored_core)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-huge_cannon_(armored_core)",
+              "name": "Huge Cannon (Armored Core)",
+              "prompt": "huge cannon (armored core)",
+              "original_id": "huge_cannon_(armored_core)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-huge_missile_(armored_core)",
+              "name": "Huge Missile (Armored Core)",
+              "prompt": "huge missile (armored core)",
+              "original_id": "huge_missile_(armored_core)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-mass_blade_(armored_core)",
+              "name": "Mass Blade (Armored Core)",
+              "prompt": "mass blade (armored core)",
+              "original_id": "mass_blade_(armored_core)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-elbow_blade",
+              "name": "弯头刀片",
+              "prompt": "elbow blade",
+              "original_id": "elbow_blade",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-glowing_bow_(weapon)",
+              "name": "Glowing Bow (Weapon)",
+              "prompt": "glowing bow (weapon)",
+              "original_id": "glowing_bow_(weapon)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-sacrificial_bow_(genshin_impact)",
+              "name": "Sacrificial Bow (Genshin Impact)",
+              "prompt": "sacrificial bow (genshin impact)",
+              "original_id": "sacrificial_bow_(genshin_impact)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-raven_bow_(genshin_impact)",
+              "name": "Raven Bow (Genshin Impact)",
+              "prompt": "raven bow (genshin impact)",
+              "original_id": "raven_bow_(genshin_impact)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-amos'_bow_(genshin_impact)",
+              "name": "Amos' Bow (Genshin Impact)",
+              "prompt": "amos' bow (genshin impact)",
+              "original_id": "amos'_bow_(genshin_impact)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-bow_and_arrow_hold",
+              "name": "弓箭持有",
+              "prompt": "bow and arrow hold",
+              "original_id": "bow_and_arrow_hold",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-wing_bow_(weapon)",
+              "name": "Wing Bow (Weapon)",
+              "prompt": "wing bow (weapon)",
+              "original_id": "wing_bow_(weapon)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-6th_armored_division",
+              "name": "第6装甲师",
+              "prompt": "6th armored division",
+              "original_id": "6th_armored_division",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-1st_armored_division",
+              "name": "第1装甲师",
+              "prompt": "1st armored division",
+              "original_id": "1st_armored_division",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-type_63_armored_personnel_carrier",
+              "name": "63型装甲运兵车",
+              "prompt": "type 63 armored personnel carrier",
+              "original_id": "type_63_armored_personnel_carrier",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-interceptor_multi_threat_body_armor_system",
+              "name": "拦截多威胁防弹衣系统",
+              "prompt": "interceptor multi-threat body armor system",
+              "original_id": "interceptor_multi_threat_body_armor_system",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-fusion_swords",
+              "name": "融合剑",
+              "prompt": "fusion swords",
+              "original_id": "fusion_swords",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-demonic_sword_gram_(sao)",
+              "name": "Demonic Sword Gram (Sao)",
+              "prompt": "demonic sword gram (sao)",
+              "original_id": "demonic_sword_gram_(sao)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-demon's_great_hammer",
+              "name": "恶魔大锤",
+              "prompt": "demon's great hammer",
+              "original_id": "demon's_great_hammer",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-mantis_blades_(cyberpunk)",
+              "name": "Mantis Blades (Cyberpunk)",
+              "prompt": "mantis blades (cyberpunk)",
+              "original_id": "mantis_blades_(cyberpunk)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-blasphemous_blade",
+              "name": "亵渎之刃",
+              "prompt": "blasphemous blade",
+              "original_id": "blasphemous_blade",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-short_sword",
+              "name": "短剑",
+              "prompt": "short sword",
+              "original_id": "short_sword",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-slingshot_swimsuit",
+              "name": "弹弓泳衣",
+              "prompt": "slingshot swimsuit",
+              "original_id": "slingshot_swimsuit",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-red_slingshot_swimsuit",
+              "name": "红色弹弓泳衣",
+              "prompt": "red slingshot swimsuit",
+              "original_id": "red_slingshot_swimsuit",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-blue_slingshot_swimsuit",
+              "name": "蓝色弹弓泳衣",
+              "prompt": "blue slingshot swimsuit",
+              "original_id": "blue_slingshot_swimsuit",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-purple_slingshot_swimsuit",
+              "name": "紫色弹弓泳衣",
+              "prompt": "purple slingshot swimsuit",
+              "original_id": "purple_slingshot_swimsuit",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-green_slingshot_swimsuit",
+              "name": "绿色弹弓泳衣",
+              "prompt": "green slingshot swimsuit",
+              "original_id": "green_slingshot_swimsuit",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-black_slingshot_swimsuit",
+              "name": "黑色弹弓泳衣",
+              "prompt": "black slingshot swimsuit",
+              "original_id": "black_slingshot_swimsuit",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-crusader's_crossbow",
+              "name": "十字军弩",
+              "prompt": "crusader's crossbow",
+              "original_id": "crusader's_crossbow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-cleaning_weapon",
+              "name": "清洁武器",
+              "prompt": "cleaning weapon",
+              "original_id": "cleaning_weapon",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-crossbow",
+              "name": "弩",
+              "prompt": "crossbow",
+              "original_id": "crossbow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-crossbow_bolt",
+              "name": "弩箭",
+              "prompt": "crossbow bolt",
+              "original_id": "crossbow_bolt",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-limbless_crossbow",
+              "name": "无肢弩",
+              "prompt": "limbless crossbow",
+              "original_id": "limbless_crossbow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-ascension_crossbow",
+              "name": "升天弩",
+              "prompt": "ascension crossbow",
+              "original_id": "ascension_crossbow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-armed_crossbow",
+              "name": "武装弩",
+              "prompt": "armed crossbow",
+              "original_id": "armed_crossbow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-futuristic_weapon",
+              "name": "未来武器",
+              "prompt": "futuristic weapon",
+              "original_id": "futuristic_weapon",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-armor_under_clothes",
+              "name": "衣服下的盔甲",
+              "prompt": "armor under clothes",
+              "original_id": "armor_under_clothes",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-armor_girls_project",
+              "name": "铠甲少女计划",
+              "prompt": "armor girls project",
+              "original_id": "armor_girls_project",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-armor_fossil",
+              "name": "铠甲化石",
+              "prompt": "armor fossil",
+              "original_id": "armor_fossil",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-armor_stand",
+              "name": "盔甲架",
+              "prompt": "armor stand",
+              "original_id": "armor_stand",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-armor_writing",
+              "name": "盔甲书写",
+              "prompt": "armor writing",
+              "original_id": "armor_writing",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "obj_vehicles",
+          "name": "交通工具",
+          "presets": [
+            {
+              "id": "tag-objects-un_heavy_fighter_jet_(evangelion)",
+              "name": "Un Heavy Fighter Jet (Evangelion)",
+              "prompt": "un heavy fighter jet (evangelion)",
+              "original_id": "un_heavy_fighter_jet_(evangelion)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-souryuu_(aircraft_carrier)",
+              "name": "Souryuu (Aircraft Carrier)",
+              "prompt": "souryuu (aircraft carrier)",
+              "original_id": "souryuu_(aircraft_carrier)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-akitsushima_(seaplane_tender)",
+              "name": "Akitsushima (Seaplane Tender)",
+              "prompt": "akitsushima (seaplane tender)",
+              "original_id": "akitsushima_(seaplane_tender)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-seaplane_tender",
+              "name": "水上飞机母舰",
+              "prompt": "seaplane tender",
+              "original_id": "seaplane_tender",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-chitose_(seaplane_tender)",
+              "name": "Chitose (Seaplane Tender)",
+              "prompt": "chitose (seaplane tender)",
+              "original_id": "chitose_(seaplane_tender)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-t29_heavy_tank",
+              "name": "T29重型坦克",
+              "prompt": "t29 heavy tank",
+              "original_id": "t29_heavy_tank",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-experimental_type_91_heavy_tank",
+              "name": "实验型91重坦",
+              "prompt": "experimental type 91 heavy tank",
+              "original_id": "experimental_type_91_heavy_tank",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-t28_super_heavy_tank",
+              "name": "T28超重型坦克",
+              "prompt": "t28 super heavy tank",
+              "original_id": "t28_super_heavy_tank",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-t1_heavy_tank",
+              "name": "T1重型坦克",
+              "prompt": "t1 heavy tank",
+              "original_id": "t1_heavy_tank",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-m6_heavy_tank",
+              "name": "M6重型坦克",
+              "prompt": "m6 heavy tank",
+              "original_id": "m6_heavy_tank",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-o_i_superheavy_tank_series",
+              "name": "超重坦克系列",
+              "prompt": "o-i superheavy tank series",
+              "original_id": "o_i_superheavy_tank_series",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-t30_heavy_tank",
+              "name": "T30重型坦克",
+              "prompt": "t30 heavy tank",
+              "original_id": "t30_heavy_tank",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-happy_party_train",
+              "name": "欢乐派对火车",
+              "prompt": "happy party train",
+              "original_id": "happy_party_train",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-train_interior",
+              "name": "火车内饰",
+              "prompt": "train interior",
+              "original_id": "train_interior",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-train_station",
+              "name": "火车站",
+              "prompt": "train station",
+              "original_id": "train_station",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-train_(clothing)",
+              "name": "Train (Clothing)",
+              "prompt": "train (clothing)",
+              "original_id": "train_(clothing)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-train_attendant",
+              "name": "列车乘务员",
+              "prompt": "train attendant",
+              "original_id": "train_attendant",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-space_train",
+              "name": "太空列车",
+              "prompt": "space train",
+              "original_id": "space_train",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-magnet_train",
+              "name": "磁力火车",
+              "prompt": "magnet train",
+              "original_id": "magnet_train",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-armored_train",
+              "name": "装甲列车",
+              "prompt": "armored train",
+              "original_id": "armored_train",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-toy_train",
+              "name": "玩具火车",
+              "prompt": "toy train",
+              "original_id": "toy_train",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-rope_train",
+              "name": "绳索火车",
+              "prompt": "rope train",
+              "original_id": "rope_train",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-train_station_platform",
+              "name": "火车站月台",
+              "prompt": "train station platform",
+              "original_id": "train_station_platform",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-sea_train",
+              "name": "海上列车",
+              "prompt": "sea train",
+              "original_id": "sea_train",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-flying_train",
+              "name": "飞行火车",
+              "prompt": "flying train",
+              "original_id": "flying_train",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-train_conductor",
+              "name": "列车长",
+              "prompt": "train conductor",
+              "original_id": "train_conductor",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-model_train",
+              "name": "火车模型",
+              "prompt": "model train",
+              "original_id": "model_train",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-sky_trainer_uniform",
+              "name": "天空训练师制服",
+              "prompt": "sky trainer uniform",
+              "original_id": "sky_trainer_uniform",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-z_move_trainer_pose",
+              "name": "Z 移动教练姿势",
+              "prompt": "z-move trainer pose",
+              "original_id": "z_move_trainer_pose",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-train_shed",
+              "name": "火车棚",
+              "prompt": "train shed",
+              "original_id": "train_shed",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-tracen_training_uniform",
+              "name": "特拉森训练服",
+              "prompt": "tracen training uniform",
+              "original_id": "tracen_training_uniform",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-orlik_armoured_train",
+              "name": "奥尔利克装甲列车",
+              "prompt": "orlik armoured train",
+              "original_id": "orlik_armoured_train",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-long_horn_train",
+              "name": "长角火车",
+              "prompt": "long horn train",
+              "original_id": "long_horn_train",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-train_costume",
+              "name": "火车服装",
+              "prompt": "train costume",
+              "original_id": "train_costume",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-mothership_(megaton_rainfall)",
+              "name": "Mothership (Megaton Rainfall)",
+              "prompt": "mothership (megaton rainfall)",
+              "original_id": "mothership_(megaton_rainfall)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-friend_train",
+              "name": "朋友列车",
+              "prompt": "friend train",
+              "original_id": "friend_train",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-quick_training_(girls'_frontline)",
+              "name": "Quick Training (Girls' Frontline)",
+              "prompt": "quick training (girls' frontline)",
+              "original_id": "quick_training_(girls'_frontline)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-train_suite_shiki_shima",
+              "name": "火车套房志木志摩",
+              "prompt": "train suite shiki-shima",
+              "original_id": "train_suite_shiki_shima",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-grip_trainer",
+              "name": "握力训练器",
+              "prompt": "grip trainer",
+              "original_id": "grip_trainer",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-train_driver",
+              "name": "火车司机",
+              "prompt": "train driver",
+              "original_id": "train_driver",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-armored_personnel_carrier",
+              "name": "装甲运兵车",
+              "prompt": "armored personnel carrier",
+              "original_id": "armored_personnel_carrier",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-armored_car",
+              "name": "装甲车",
+              "prompt": "armored car",
+              "original_id": "armored_car",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-elbow_carry",
+              "name": "肘部支撑",
+              "prompt": "elbow carry",
+              "original_id": "elbow_carry",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-purple_bikesuit",
+              "name": "紫色自行车服",
+              "prompt": "purple bikesuit",
+              "original_id": "purple_bikesuit",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-black_bikesuit",
+              "name": "黑色自行车服",
+              "prompt": "black bikesuit",
+              "original_id": "black_bikesuit",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-aqua_bikesuit",
+              "name": "水上自行车服",
+              "prompt": "aqua bikesuit",
+              "original_id": "aqua_bikesuit",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-orange_bikesuit",
+              "name": "橙色自行车服",
+              "prompt": "orange bikesuit",
+              "original_id": "orange_bikesuit",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-mazda_suitcase_car",
+              "name": "马自达手提箱车",
+              "prompt": "mazda suitcase car",
+              "original_id": "mazda_suitcase_car",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-vintage_car",
+              "name": "老爷车",
+              "prompt": "vintage car",
+              "original_id": "vintage_car",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-concrete_mixer_truck",
+              "name": "混凝土搅拌车",
+              "prompt": "concrete mixer truck",
+              "original_id": "concrete_mixer_truck",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-remodel_(warship_girls_r)",
+              "name": "Remodel (Warship Girls R)",
+              "prompt": "remodel (warship girls r)",
+              "original_id": "remodel_(warship_girls_r)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-pokemon_day_care",
+              "name": "口袋妖怪日托",
+              "prompt": "pokemon day care",
+              "original_id": "pokemon_day_care",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-deep_space_probe",
+              "name": "深空探测器",
+              "prompt": "deep space probe",
+              "original_id": "deep_space_probe",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-voyager_probe",
+              "name": "航行者探测器",
+              "prompt": "voyager probe",
+              "original_id": "voyager_probe",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-armored_vehicle",
+              "name": "装甲车",
+              "prompt": "armored vehicle",
+              "original_id": "armored_vehicle",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-skull_probe",
+              "name": "头骨探针",
+              "prompt": "skull probe",
+              "original_id": "skull_probe",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-remote_control_vehicle",
+              "name": "遥控车",
+              "prompt": "remote control vehicle",
+              "original_id": "remote_control_vehicle",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "obj_food",
+          "name": "食物/饮品",
+          "presets": [
+            {
+              "id": "tag-objects-sweet_halloween_(ensemble_stars!)",
+              "name": "Sweet Halloween (Ensemble Stars!)",
+              "prompt": "sweet halloween (ensemble stars!)",
+              "original_id": "sweet_halloween_(ensemble_stars!)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-hot_dog",
+              "name": "热狗",
+              "prompt": "hot dog",
+              "original_id": "hot_dog",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-hot_chocolate",
+              "name": "热巧克力",
+              "prompt": "hot chocolate",
+              "original_id": "hot_chocolate",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-hot_sauce",
+              "name": "辣酱",
+              "prompt": "hot sauce",
+              "original_id": "hot_sauce",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-hot_drink",
+              "name": "热饮",
+              "prompt": "hot drink",
+              "original_id": "hot_drink",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-sweet_&_bitter_(ensemble_stars!)",
+              "name": "Sweet & Bitter (Ensemble Stars!)",
+              "prompt": "sweet & bitter (ensemble stars!)",
+              "original_id": "sweet_&_bitter_(ensemble_stars!)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-hot_dog_bun",
+              "name": "热狗面包",
+              "prompt": "hot dog bun",
+              "original_id": "hot_dog_bun",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-arirang_hot_dog",
+              "name": "阿里郎热狗",
+              "prompt": "arirang hot dog",
+              "original_id": "arirang_hot_dog",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-sweet_mockorange",
+              "name": "甜橙花",
+              "prompt": "sweet mockorange",
+              "original_id": "sweet_mockorange",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-hot_dog_costume",
+              "name": "热狗装",
+              "prompt": "hot dog costume",
+              "original_id": "hot_dog_costume",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-sweet_pea",
+              "name": "甜豌豆",
+              "prompt": "sweet pea",
+              "original_id": "sweet_pea",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-sweet_flower",
+              "name": "甜花",
+              "prompt": "sweet flower",
+              "original_id": "sweet_flower",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-sweet_sweet_hunger_(ensemble_stars!)",
+              "name": "Sweet Sweet Hunger (Ensemble Stars!)",
+              "prompt": "sweet sweet hunger (ensemble stars!)",
+              "original_id": "sweet_sweet_hunger_(ensemble_stars!)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-royal_bitter_juice",
+              "name": "皇家苦汁",
+              "prompt": "royal bitter juice",
+              "original_id": "royal_bitter_juice",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-furyu_sweet_sweets_series",
+              "name": "Furyu甜蜜系列",
+              "prompt": "furyu sweet sweets series",
+              "original_id": "furyu_sweet_sweets_series",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-sweet_hunt_(ensemble_stars!)",
+              "name": "Sweet Hunt (Ensemble Stars!)",
+              "prompt": "sweet hunt (ensemble stars!)",
+              "original_id": "sweet_hunt_(ensemble_stars!)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-japanese_pancake_devilfish",
+              "name": "日式饼魔鬼鱼",
+              "prompt": "japanese pancake devilfish",
+              "original_id": "japanese_pancake_devilfish",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-chinese_hot_dog_bun",
+              "name": "中式热狗包",
+              "prompt": "chinese hot dog bun",
+              "original_id": "chinese_hot_dog_bun",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-long_spout_teapot",
+              "name": "长嘴茶壶",
+              "prompt": "long spout teapot",
+              "original_id": "long_spout_teapot",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-sweet_madame_(genshin_impact)",
+              "name": "Sweet Madame (Genshin Impact)",
+              "prompt": "sweet madame (genshin impact)",
+              "original_id": "sweet_madame_(genshin_impact)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-\"sweet_dream\"_(genshin_impact)",
+              "name": "\"Sweet Dream\" (Genshin Impact)",
+              "prompt": "\"sweet dream\" (genshin impact)",
+              "original_id": "\"sweet_dream\"_(genshin_impact)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-spicy_stew_(genshin_impact)",
+              "name": "Spicy Stew (Genshin Impact)",
+              "prompt": "spicy stew (genshin impact)",
+              "original_id": "spicy_stew_(genshin_impact)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-microsoft_teams",
+              "name": "微软团队",
+              "prompt": "microsoft teams",
+              "original_id": "microsoft_teams",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-hardboiled_egg",
+              "name": "硬煮蛋",
+              "prompt": "hardboiled egg",
+              "original_id": "hardboiled_egg",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-softboiled_egg",
+              "name": "溏心蛋",
+              "prompt": "softboiled egg",
+              "original_id": "softboiled_egg",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-good_meat_day",
+              "name": "优质肉日",
+              "prompt": "good meat day",
+              "original_id": "good_meat_day",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-devil_fruit",
+              "name": "恶魔果实",
+              "prompt": "devil fruit",
+              "original_id": "devil_fruit",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-spicy_curry",
+              "name": "辣咖喱",
+              "prompt": "spicy curry",
+              "original_id": "spicy_curry",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-deviled_egg",
+              "name": "魔鬼蛋",
+              "prompt": "deviled egg",
+              "original_id": "deviled_egg",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-sour_cream",
+              "name": "酸奶油",
+              "prompt": "sour cream",
+              "original_id": "sour_cream",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-devil_fruit_power",
+              "name": "恶魔果实能力",
+              "prompt": "devil fruit power",
+              "original_id": "devil_fruit_power",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-sausage",
+              "name": "香肠",
+              "prompt": "sausage",
+              "original_id": "sausage",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-linked_sausages",
+              "name": "连环香肠",
+              "prompt": "linked sausages",
+              "original_id": "linked_sausages",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-blood_sausage",
+              "name": "血肠",
+              "prompt": "blood sausage",
+              "original_id": "blood_sausage",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-sausage_roll",
+              "name": "香肠卷",
+              "prompt": "sausage roll",
+              "original_id": "sausage_roll",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-fish_sausage",
+              "name": "鱼肉香肠",
+              "prompt": "fish sausage",
+              "original_id": "fish_sausage",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-sausage_slice",
+              "name": "香肠片",
+              "prompt": "sausage slice",
+              "original_id": "sausage_slice",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-cured_pork_dry_hotpot_(genshin_impact)",
+              "name": "Cured Pork Dry Hotpot (Genshin Impact)",
+              "prompt": "cured pork dry hotpot (genshin impact)",
+              "original_id": "cured_pork_dry_hotpot_(genshin_impact)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-lighter_than_air_pancake_(genshin_impact)",
+              "name": "Lighter Than Air Pancake (Genshin Impact)",
+              "prompt": "lighter-than-air pancake (genshin impact)",
+              "original_id": "lighter_than_air_pancake_(genshin_impact)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-energy_drink",
+              "name": "能量饮料",
+              "prompt": "energy drink",
+              "original_id": "energy_drink",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-windfish's_egg",
+              "name": "风鱼蛋",
+              "prompt": "windfish's egg",
+              "original_id": "windfish's_egg",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-rainbow_rice_cake",
+              "name": "彩虹年糕",
+              "prompt": "rainbow rice cake",
+              "original_id": "rainbow_rice_cake",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-rainbow_cake",
+              "name": "彩虹蛋糕",
+              "prompt": "rainbow cake",
+              "original_id": "rainbow_cake",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-zone_(energy_drink)",
+              "name": "Zone (Energy Drink)",
+              "prompt": "zone (energy drink)",
+              "original_id": "zone_(energy_drink)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-real_gold_(energy_drink)",
+              "name": "Real Gold (Energy Drink)",
+              "prompt": "real gold (energy drink)",
+              "original_id": "real_gold_(energy_drink)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-rainbow_food",
+              "name": "彩虹食品",
+              "prompt": "rainbow food",
+              "original_id": "rainbow_food",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-gradient_butterfly",
+              "name": "渐变蝴蝶",
+              "prompt": "gradient butterfly",
+              "original_id": "gradient_butterfly",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-rainbow_ice_cream",
+              "name": "彩虹冰淇淋",
+              "prompt": "rainbow ice cream",
+              "original_id": "rainbow_ice_cream",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-digi_egg_(armor)",
+              "name": "Digi Egg (Armor)",
+              "prompt": "digi-egg (armor)",
+              "original_id": "digi_egg_(armor)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-pokemon_egg",
+              "name": "神奇宝贝蛋",
+              "prompt": "pokemon egg",
+              "original_id": "pokemon_egg",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-memory_bread_(doraemon)",
+              "name": "Memory Bread (Doraemon)",
+              "prompt": "memory bread (doraemon)",
+              "original_id": "memory_bread_(doraemon)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-lemon_juice",
+              "name": "柠檬汁",
+              "prompt": "lemon juice",
+              "original_id": "lemon_juice",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-philanemo_mushroom_(genshin_impact)",
+              "name": "Philanemo Mushroom (Genshin Impact)",
+              "prompt": "philanemo mushroom (genshin impact)",
+              "original_id": "philanemo_mushroom_(genshin_impact)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-pancake_mix",
+              "name": "煎饼粉",
+              "prompt": "pancake mix",
+              "original_id": "pancake_mix",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-trauma_team_(cyberpunk)",
+              "name": "Trauma Team (Cyberpunk)",
+              "prompt": "trauma team (cyberpunk)",
+              "original_id": "trauma_team_(cyberpunk)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-lemon_cake",
+              "name": "柠檬蛋糕",
+              "prompt": "lemon cake",
+              "original_id": "lemon_cake",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-lemon_cheesecake",
+              "name": "柠檬芝士蛋糕",
+              "prompt": "lemon cheesecake",
+              "original_id": "lemon_cheesecake",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-sweet_lolita",
+              "name": "Sweet Lolita",
+              "prompt": "sweet lolita",
+              "original_id": "sweet_lolita",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-lemon_slice",
+              "name": "柠檬片",
+              "prompt": "lemon slice",
+              "original_id": "lemon_slice",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-lemon_blossoms",
+              "name": "柠檬花",
+              "prompt": "lemon blossoms",
+              "original_id": "lemon_blossoms",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-lemon_milk",
+              "name": "柠檬奶",
+              "prompt": "lemon milk",
+              "original_id": "lemon_milk",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-lemon_squash",
+              "name": "柠檬南瓜",
+              "prompt": "lemon squash",
+              "original_id": "lemon_squash",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-sweet_potato",
+              "name": "红薯",
+              "prompt": "sweet potato",
+              "original_id": "sweet_potato",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-roasted_sweet_potato",
+              "name": "烤红薯",
+              "prompt": "roasted sweet potato",
+              "original_id": "roasted_sweet_potato",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-suspicious_egg_dish",
+              "name": "可疑蛋菜",
+              "prompt": "suspicious egg dish",
+              "original_id": "suspicious_egg_dish",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-hot_plate",
+              "name": "热板",
+              "prompt": "hot plate",
+              "original_id": "hot_plate",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-shot_glass",
+              "name": "小酒杯",
+              "prompt": "shot glass",
+              "original_id": "shot_glass",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-hot_water_bottle",
+              "name": "热水袋",
+              "prompt": "hot water bottle",
+              "original_id": "hot_water_bottle",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-hot_water_bottle_cover",
+              "name": "热水袋套",
+              "prompt": "hot water bottle cover",
+              "original_id": "hot_water_bottle_cover",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-rice_bowl",
+              "name": "饭碗",
+              "prompt": "rice bowl",
+              "original_id": "rice_bowl",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-mixing_bowl",
+              "name": "搅拌碗",
+              "prompt": "mixing bowl",
+              "original_id": "mixing_bowl",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-pet_bowl",
+              "name": "宠物碗",
+              "prompt": "pet bowl",
+              "original_id": "pet_bowl",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-fishbowl",
+              "name": "鱼缸",
+              "prompt": "fishbowl",
+              "original_id": "fishbowl",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-washbowl",
+              "name": "洗脸盆",
+              "prompt": "washbowl",
+              "original_id": "washbowl",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-sugar_bowl",
+              "name": "糖罐",
+              "prompt": "sugar bowl",
+              "original_id": "sugar_bowl",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-glass_bowl",
+              "name": "玻璃碗",
+              "prompt": "glass bowl",
+              "original_id": "glass_bowl",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-salad_bowl",
+              "name": "沙拉碗",
+              "prompt": "salad bowl",
+              "original_id": "salad_bowl",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-fruit_bowl",
+              "name": "水果盘",
+              "prompt": "fruit bowl",
+              "original_id": "fruit_bowl",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-wooden_bowl",
+              "name": "木碗",
+              "prompt": "wooden bowl",
+              "original_id": "wooden_bowl",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-acai_bowl",
+              "name": "巴西莓碗",
+              "prompt": "acai bowl",
+              "original_id": "acai_bowl",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-bread_bowl",
+              "name": "面包碗",
+              "prompt": "bread bowl",
+              "original_id": "bread_bowl",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-cracked_bowl",
+              "name": "破裂的碗",
+              "prompt": "cracked bowl",
+              "original_id": "cracked_bowl",
+              "type": "tag"
+            },
+            {
+              "id": "tag-objects-bowl_of_candy",
+              "name": "碗糖果",
+              "prompt": "bowl of candy",
+              "original_id": "bowl_of_candy",
+              "type": "tag"
+            }
+          ]
+        }
+      ],
+      "type": "tag"
+    }
+  ]
+}

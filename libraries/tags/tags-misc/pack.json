@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "kind": "tags",
+  "packId": "tags-misc",
+  "name": "标签包 · 其他",
+  "version": "1.0.0",
+  "description": "按需安装的标签提示词，保留原分类与完整内容。",
+  "entryCount": 1177,
+  "categories": [
+    {
+      "id": "misc",
+      "name": "其他",
+      "file": "category-0.json"
+    }
+  ],
+  "order": 1010
+}

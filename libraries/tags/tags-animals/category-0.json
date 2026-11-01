@@ -1,0 +1,3455 @@
+{
+  "categories": [
+    {
+      "id": "animals",
+      "name": "动物",
+      "subcategories": [
+        {
+          "id": "mammals",
+          "name": "哺乳动物",
+          "presets": [
+            {
+              "id": "tag-animals-cat",
+              "name": "猫",
+              "prompt": "cat, feline",
+              "original_id": "cat",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-dog",
+              "name": "狗",
+              "prompt": "dog, canine",
+              "original_id": "dog",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-tiger",
+              "name": "老虎",
+              "prompt": "tiger, big cat",
+              "original_id": "tiger",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-lion",
+              "name": "狮子",
+              "prompt": "lion, big cat",
+              "original_id": "lion",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-wolf",
+              "name": "狼",
+              "prompt": "wolf, wild canine",
+              "original_id": "wolf",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-fox",
+              "name": "狐狸",
+              "prompt": "fox, vulpine",
+              "original_id": "fox",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-deer",
+              "name": "鹿",
+              "prompt": "deer, cervine",
+              "original_id": "deer",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-horse",
+              "name": "马",
+              "prompt": "horse, equine",
+              "original_id": "horse",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-cow",
+              "name": "牛",
+              "prompt": "cow, bovine",
+              "original_id": "cow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-sheep",
+              "name": "羊",
+              "prompt": "sheep, ovine",
+              "original_id": "sheep",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-pig",
+              "name": "猪",
+              "prompt": "pig, swine",
+              "original_id": "pig",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-rabbit",
+              "name": "兔子",
+              "prompt": "rabbit, bunny",
+              "original_id": "rabbit",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-bear",
+              "name": "熊",
+              "prompt": "bear, ursine",
+              "original_id": "bear",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-panda",
+              "name": "熊猫",
+              "prompt": "panda, giant panda",
+              "original_id": "panda",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-koala",
+              "name": "考拉",
+              "prompt": "koala, marsupial",
+              "original_id": "koala",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-squirrel",
+              "name": "松鼠",
+              "prompt": "squirrel, rodent",
+              "original_id": "squirrel",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-hedgehog",
+              "name": "刺猬",
+              "prompt": "hedgehog, spiny mammal",
+              "original_id": "hedgehog",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-dolphin",
+              "name": "海豚",
+              "prompt": "dolphin, marine mammal",
+              "original_id": "dolphin",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-whale",
+              "name": "鲸鱼",
+              "prompt": "whale, cetacean",
+              "original_id": "whale",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-elephant",
+              "name": "大象",
+              "prompt": "elephant, pachyderm",
+              "original_id": "elephant",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-giraffe",
+              "name": "长颈鹿",
+              "prompt": "giraffe, tall mammal",
+              "original_id": "giraffe",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-zebra",
+              "name": "斑马",
+              "prompt": "zebra, striped equine",
+              "original_id": "zebra",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-rhinoceros",
+              "name": "犀牛",
+              "prompt": "rhinoceros, rhino",
+              "original_id": "rhinoceros",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-hippopotamus",
+              "name": "河马",
+              "prompt": "hippopotamus, hippo",
+              "original_id": "hippopotamus",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-camel",
+              "name": "骆驼",
+              "prompt": "camel, desert mammal",
+              "original_id": "camel",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-gazelle",
+              "name": "羚羊",
+              "prompt": "gazelle, antelope",
+              "original_id": "gazelle",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-gorilla",
+              "name": "大猩猩",
+              "prompt": "gorilla, great ape",
+              "original_id": "gorilla",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-monkey",
+              "name": "猴子",
+              "prompt": "monkey, primate",
+              "original_id": "monkey",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-sloth",
+              "name": "树懒",
+              "prompt": "sloth, slow mammal",
+              "original_id": "sloth",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-otter",
+              "name": "水獭",
+              "prompt": "otter, aquatic mammal",
+              "original_id": "otter",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-raccoon",
+              "name": "浣熊",
+              "prompt": "raccoon, masked mammal",
+              "original_id": "raccoon",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-kangaroo",
+              "name": "袋鼠",
+              "prompt": "kangaroo, marsupial",
+              "original_id": "kangaroo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-polar_bear",
+              "name": "北极熊",
+              "prompt": "polar bear, arctic bear",
+              "original_id": "polar_bear",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-leopard",
+              "name": "豹",
+              "prompt": "leopard, spotted big cat",
+              "original_id": "leopard",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-cheetah",
+              "name": "猎豹",
+              "prompt": "cheetah, fastest land animal",
+              "original_id": "cheetah",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-bat",
+              "name": "蝙蝠",
+              "prompt": "bat, flying mammal",
+              "original_id": "bat",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-snow_leopard",
+              "name": "雪豹",
+              "prompt": "snow leopard, mountain big cat",
+              "original_id": "snow_leopard",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-clouded_leopard",
+              "name": "云豹",
+              "prompt": "clouded leopard, arboreal big cat",
+              "original_id": "clouded_leopard",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-lynx",
+              "name": "猞猁",
+              "prompt": "lynx, tufted-ear wild cat",
+              "original_id": "lynx",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-caracal",
+              "name": "狞猫",
+              "prompt": "caracal, tufted-eared wild cat",
+              "original_id": "caracal",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-serval",
+              "name": "薮猫",
+              "prompt": "serval, long-legged African wild cat",
+              "original_id": "serval",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-leopard_cat",
+              "name": "豹猫",
+              "prompt": "leopard cat, small spotted wild feline",
+              "original_id": "leopard_cat",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-pallas_cat",
+              "name": "兔狲",
+              "prompt": "Pallas cat, manul, fluffy wild cat",
+              "original_id": "pallas_cat",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-jaguar",
+              "name": "美洲豹",
+              "prompt": "jaguar, large spotted big cat of Americas",
+              "original_id": "jaguar",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-cougar",
+              "name": "美洲狮",
+              "prompt": "cougar, mountain lion, puma",
+              "original_id": "cougar",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-honey_badger",
+              "name": "蜜獾",
+              "prompt": "honey badger, fearless mustelid",
+              "original_id": "honey_badger",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-badger",
+              "name": "獾",
+              "prompt": "badger, burrowing mustelid",
+              "original_id": "badger",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-sea_otter",
+              "name": "海獭",
+              "prompt": "sea otter, marine mustelid",
+              "original_id": "sea_otter",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-weasel",
+              "name": "鼬",
+              "prompt": "weasel, small slender mustelid",
+              "original_id": "weasel",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-wolverine",
+              "name": "狼獾",
+              "prompt": "wolverine, fierce mustelid",
+              "original_id": "wolverine",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-anteater",
+              "name": "食蚁兽",
+              "prompt": "anteater, long-snouted insectivore",
+              "original_id": "anteater",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-pangolin",
+              "name": "穿山甲",
+              "prompt": "pangolin, scaly anteater mammal",
+              "original_id": "pangolin",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-platypus",
+              "name": "鸭嘴兽",
+              "prompt": "platypus, egg-laying mammal",
+              "original_id": "platypus",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-echidna",
+              "name": "针鼹",
+              "prompt": "echidna, spiny anteater monotreme",
+              "original_id": "echidna",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-wombat",
+              "name": "袋熊",
+              "prompt": "wombat, burrowing Australian marsupial",
+              "original_id": "wombat",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-tasmanian_devil",
+              "name": "袋獾",
+              "prompt": "Tasmanian devil, carnivorous marsupial",
+              "original_id": "tasmanian_devil",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-opossum",
+              "name": "负鼠",
+              "prompt": "opossum, American marsupial",
+              "original_id": "opossum",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-wallaby",
+              "name": "沙袋鼠",
+              "prompt": "wallaby, small kangaroo-like marsupial",
+              "original_id": "wallaby",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-quokka",
+              "name": "短尾矮袋鼠",
+              "prompt": "quokka, smiling marsupial",
+              "original_id": "quokka",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-lemur",
+              "name": "狐猴",
+              "prompt": "lemur, ring-tailed primate",
+              "original_id": "lemur",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-tarsier",
+              "name": "眼镜猴",
+              "prompt": "tarsier, large-eyed tiny primate",
+              "original_id": "tarsier",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-aye_aye",
+              "name": "指猴",
+              "prompt": "aye-aye, nocturnal lemur",
+              "original_id": "aye_aye",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-mandrill",
+              "name": "山魈",
+              "prompt": "mandrill, colorful-faced primate",
+              "original_id": "mandrill",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-baboon",
+              "name": "狒狒",
+              "prompt": "baboon, large terrestrial monkey",
+              "original_id": "baboon",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-golden_monkey",
+              "name": "金丝猴",
+              "prompt": "golden snub-nosed monkey",
+              "original_id": "golden_monkey",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-gibbon",
+              "name": "长臂猿",
+              "prompt": "gibbon, long-armed ape",
+              "original_id": "gibbon",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-orangutan",
+              "name": "红毛猩猩",
+              "prompt": "orangutan, red-haired great ape",
+              "original_id": "orangutan",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-chimpanzee",
+              "name": "黑猩猩",
+              "prompt": "chimpanzee, intelligent great ape",
+              "original_id": "chimpanzee",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-bonobo",
+              "name": "倭黑猩猩",
+              "prompt": "bonobo, pygmy chimpanzee",
+              "original_id": "bonobo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-tapir",
+              "name": "貘",
+              "prompt": "tapir, trunk-nosed herbivore",
+              "original_id": "tapir",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-malayan_tapir",
+              "name": "马来貘",
+              "prompt": "Malayan tapir, black-and-white tapir",
+              "original_id": "malayan_tapir",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-raccoon_dog",
+              "name": "貉",
+              "prompt": "raccoon dog, tanuki-like canid",
+              "original_id": "raccoon_dog",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-beaver",
+              "name": "河狸",
+              "prompt": "beaver, dam-building rodent",
+              "original_id": "beaver",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-porcupine",
+              "name": "豪猪",
+              "prompt": "porcupine, quilled rodent",
+              "original_id": "porcupine",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-marmot",
+              "name": "旱獭",
+              "prompt": "marmot, ground squirrel, groundhog",
+              "original_id": "marmot",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-mole",
+              "name": "鼹鼠",
+              "prompt": "mole, underground burrowing mammal",
+              "original_id": "mole",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-shrew",
+              "name": "鼩鼱",
+              "prompt": "shrew, tiny insectivorous mammal",
+              "original_id": "shrew",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-fruit_bat",
+              "name": "果蝠",
+              "prompt": "fruit bat, flying fox, megabat",
+              "original_id": "fruit_bat",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-flying_squirrel",
+              "name": "鼯鼠",
+              "prompt": "flying squirrel, gliding rodent",
+              "original_id": "flying_squirrel",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-bison",
+              "name": "野牛",
+              "prompt": "bison, buffalo, large bovine",
+              "original_id": "bison",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-moose",
+              "name": "驼鹿",
+              "prompt": "moose, elk, large antlered deer",
+              "original_id": "moose",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-reindeer",
+              "name": "驯鹿",
+              "prompt": "reindeer, caribou, arctic deer",
+              "original_id": "reindeer",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-meerkat",
+              "name": "猫鼬",
+              "prompt": "meerkat, standing desert mongoose",
+              "original_id": "meerkat",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-mongoose",
+              "name": "獴",
+              "prompt": "mongoose, snake-hunting carnivore",
+              "original_id": "mongoose",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-capybara",
+              "name": "水豚",
+              "prompt": "capybara, largest rodent",
+              "original_id": "capybara",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-armadillo",
+              "name": "犰狳",
+              "prompt": "armadillo, armored mammal",
+              "original_id": "armadillo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-yak",
+              "name": "牦牛",
+              "prompt": "yak, long-haired Tibetan bovine",
+              "original_id": "yak",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "birds",
+          "name": "鸟类",
+          "presets": [
+            {
+              "id": "tag-animals-eagle",
+              "name": "鹰",
+              "prompt": "eagle, bird of prey",
+              "original_id": "eagle",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-owl",
+              "name": "猫头鹰",
+              "prompt": "owl, nocturnal bird",
+              "original_id": "owl",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-parrot",
+              "name": "鹦鹉",
+              "prompt": "parrot, colorful bird",
+              "original_id": "parrot",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-peacock",
+              "name": "孔雀",
+              "prompt": "peacock, peafowl",
+              "original_id": "peacock",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-swan",
+              "name": "天鹅",
+              "prompt": "swan, graceful waterfowl",
+              "original_id": "swan",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-flamingo",
+              "name": "火烈鸟",
+              "prompt": "flamingo, pink wading bird",
+              "original_id": "flamingo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-penguin",
+              "name": "企鹅",
+              "prompt": "penguin, flightless bird",
+              "original_id": "penguin",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-crow",
+              "name": "乌鸦",
+              "prompt": "crow, black corvid",
+              "original_id": "crow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-magpie",
+              "name": "喜鹊",
+              "prompt": "magpie, black and white bird",
+              "original_id": "magpie",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-pigeon",
+              "name": "鸽子",
+              "prompt": "pigeon, dove",
+              "original_id": "pigeon",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-swallow",
+              "name": "燕子",
+              "prompt": "swallow, migratory bird",
+              "original_id": "swallow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-seagull",
+              "name": "海鸥",
+              "prompt": "seagull, coastal bird",
+              "original_id": "seagull",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-hummingbird",
+              "name": "蜂鸟",
+              "prompt": "hummingbird, tiny hovering bird",
+              "original_id": "hummingbird",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-crane",
+              "name": "鹤",
+              "prompt": "crane, long-legged bird",
+              "original_id": "crane",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-mandarin_duck",
+              "name": "鸳鸯",
+              "prompt": "mandarin duck, colorful waterfowl",
+              "original_id": "mandarin_duck",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-woodpecker",
+              "name": "啄木鸟",
+              "prompt": "woodpecker, tree-pecking bird",
+              "original_id": "woodpecker",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-kingfisher",
+              "name": "翠鸟",
+              "prompt": "kingfisher, diving bird",
+              "original_id": "kingfisher",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-lark",
+              "name": "百灵鸟",
+              "prompt": "lark, singing bird",
+              "original_id": "lark",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-sparrow",
+              "name": "麻雀",
+              "prompt": "sparrow, small brown bird",
+              "original_id": "sparrow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-robin",
+              "name": "知更鸟",
+              "prompt": "robin, red-breasted bird",
+              "original_id": "robin",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-raven",
+              "name": "渡鸦",
+              "prompt": "raven, large black corvid",
+              "original_id": "raven",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-pelican",
+              "name": "鹈鹕",
+              "prompt": "pelican, large-beaked waterbird",
+              "original_id": "pelican",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-ostrich",
+              "name": "鸵鸟",
+              "prompt": "ostrich, largest flightless bird",
+              "original_id": "ostrich",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-canary",
+              "name": "金丝雀",
+              "prompt": "canary, yellow songbird",
+              "original_id": "canary",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-chicken",
+              "name": "鸡",
+              "prompt": "chicken, rooster, hen",
+              "original_id": "chicken",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-duck",
+              "name": "鸭",
+              "prompt": "duck, waterfowl",
+              "original_id": "duck",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-goose",
+              "name": "鹅",
+              "prompt": "goose, large waterfowl",
+              "original_id": "goose",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-falcon",
+              "name": "隼",
+              "prompt": "falcon, bird of prey",
+              "original_id": "falcon",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-vulture",
+              "name": "秃鹫",
+              "prompt": "vulture, scavenger bird",
+              "original_id": "vulture",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-toucan",
+              "name": "巨嘴鸟",
+              "prompt": "toucan, large-beaked tropical bird",
+              "original_id": "toucan",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-macaw",
+              "name": "金刚鹦鹉",
+              "prompt": "macaw, large colorful parrot",
+              "original_id": "macaw",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-cockatoo",
+              "name": "葵花凤头鹦鹉",
+              "prompt": "cockatoo, crested white parrot",
+              "original_id": "cockatoo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-african_grey_parrot",
+              "name": "灰鹦鹉",
+              "prompt": "African grey parrot, intelligent talking bird",
+              "original_id": "african_grey_parrot",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-amazon_parrot",
+              "name": "亚马逊鹦鹉",
+              "prompt": "Amazon parrot, green tropical parrot",
+              "original_id": "amazon_parrot",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-kakapo",
+              "name": "鸮鹦鹉",
+              "prompt": "kakapo, flightless nocturnal parrot",
+              "original_id": "kakapo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-cockatiel_bird",
+              "name": "鸡尾鹦鹉(野生)",
+              "prompt": "cockatiel, crested Australian parrot",
+              "original_id": "cockatiel_bird",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-kiwi",
+              "name": "几维鸟",
+              "prompt": "kiwi bird, flightless New Zealand bird",
+              "original_id": "kiwi",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-emu",
+              "name": "鸸鹋",
+              "prompt": "emu, large Australian flightless bird",
+              "original_id": "emu",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-cassowary",
+              "name": "鹤鸵",
+              "prompt": "cassowary, crested rainforest bird",
+              "original_id": "cassowary",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-albatross",
+              "name": "信天翁",
+              "prompt": "albatross, large oceanic seabird",
+              "original_id": "albatross",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-frigatebird",
+              "name": "军舰鸟",
+              "prompt": "frigatebird, long-winged seabird",
+              "original_id": "frigatebird",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-booby",
+              "name": "鲣鸟",
+              "prompt": "booby, tropical diving seabird",
+              "original_id": "booby",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-gannet",
+              "name": "塘鹅",
+              "prompt": "gannet, large diving seabird",
+              "original_id": "gannet",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-turkey",
+              "name": "火鸡",
+              "prompt": "turkey, large game bird",
+              "original_id": "turkey",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-guineafowl",
+              "name": "珠鸡",
+              "prompt": "guineafowl, spotted game bird",
+              "original_id": "guineafowl",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-grouse",
+              "name": "松鸡",
+              "prompt": "grouse, plump game bird",
+              "original_id": "grouse",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-ptarmigan",
+              "name": "雷鸟",
+              "prompt": "ptarmigan, arctic camouflaged bird",
+              "original_id": "ptarmigan",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-lyrebird",
+              "name": "琴鸟",
+              "prompt": "lyrebird, mimicking Australian bird",
+              "original_id": "lyrebird",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-bird_of_paradise",
+              "name": "极乐鸟",
+              "prompt": "bird of paradise, elaborate plumed bird",
+              "original_id": "bird_of_paradise",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-sunbird",
+              "name": "太阳鸟",
+              "prompt": "sunbird, nectar-feeding colorful bird",
+              "original_id": "sunbird",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-weaver_bird",
+              "name": "织布鸟",
+              "prompt": "weaver bird, nest-weaving songbird",
+              "original_id": "weaver_bird",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-java_sparrow",
+              "name": "文鸟",
+              "prompt": "Java sparrow, small pet finch",
+              "original_id": "java_sparrow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-oriole",
+              "name": "黄鹂",
+              "prompt": "oriole, bright yellow songbird",
+              "original_id": "oriole",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-thrush",
+              "name": "画眉鸟",
+              "prompt": "thrush, melodious songbird",
+              "original_id": "thrush",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-myna",
+              "name": "八哥",
+              "prompt": "myna bird, talking starling",
+              "original_id": "myna",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-starling",
+              "name": "椋鸟",
+              "prompt": "starling, iridescent flocking bird",
+              "original_id": "starling",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-shrike",
+              "name": "伯劳",
+              "prompt": "shrike, predatory songbird",
+              "original_id": "shrike",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-hoopoe",
+              "name": "戴胜",
+              "prompt": "hoopoe, crested ground bird",
+              "original_id": "hoopoe",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-roller",
+              "name": "佛法僧",
+              "prompt": "roller, brightly colored Old World bird",
+              "original_id": "roller",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-hornbill",
+              "name": "犀鸟",
+              "prompt": "hornbill, large-beaked tropical bird",
+              "original_id": "hornbill",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-trogon",
+              "name": "咬鹃",
+              "prompt": "trogon, iridescent tropical forest bird",
+              "original_id": "trogon",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-cuckoo",
+              "name": "杜鹃",
+              "prompt": "cuckoo, brood-parasitic migratory bird",
+              "original_id": "cuckoo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-nightjar",
+              "name": "夜鹰",
+              "prompt": "nightjar, nocturnal camouflaged bird",
+              "original_id": "nightjar",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-swift",
+              "name": "雨燕",
+              "prompt": "swift, fast-flying aerial bird",
+              "original_id": "swift",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-tern",
+              "name": "燕鸥",
+              "prompt": "tern, graceful diving seabird",
+              "original_id": "tern",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-puffin",
+              "name": "海鹦",
+              "prompt": "puffin, colorful-beaked seabird",
+              "original_id": "puffin",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-flamingo_chilean",
+              "name": "智利火烈鸟",
+              "prompt": "Chilean flamingo, pink wading bird",
+              "original_id": "flamingo_chilean",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-stork",
+              "name": "鹳",
+              "prompt": "stork, long-legged wading bird",
+              "original_id": "stork",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-heron",
+              "name": "苍鹭",
+              "prompt": "heron, long-necked wading bird",
+              "original_id": "heron",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-kingfisher_belted",
+              "name": "带鱼狗",
+              "prompt": "belted kingfisher, diving bird",
+              "original_id": "kingfisher_belted",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-secretary_bird",
+              "name": "蛇鹫",
+              "prompt": "secretary bird, long-legged raptor",
+              "original_id": "secretary_bird",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-kookaburra",
+              "name": "笑翠鸟",
+              "prompt": "kookaburra, laughing Australian kingfisher",
+              "original_id": "kookaburra",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-quetzal",
+              "name": "凤尾绿咬鹃",
+              "prompt": "quetzal, resplendent tropical bird",
+              "original_id": "quetzal",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-roadrunner",
+              "name": "走鹃",
+              "prompt": "roadrunner, fast-running cuckoo",
+              "original_id": "roadrunner",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-red_crowned_crane",
+              "name": "丹顶鹤",
+              "prompt": "red-crowned crane, iconic Japanese crane",
+              "original_id": "red_crowned_crane",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "reptiles",
+          "name": "爬行与两栖",
+          "presets": [
+            {
+              "id": "tag-animals-snake",
+              "name": "蛇",
+              "prompt": "snake, serpent, reptile",
+              "original_id": "snake",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-lizard",
+              "name": "蜥蜴",
+              "prompt": "lizard, reptile",
+              "original_id": "lizard",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-chameleon",
+              "name": "变色龙",
+              "prompt": "chameleon, color-changing lizard",
+              "original_id": "chameleon",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-turtle",
+              "name": "龟",
+              "prompt": "turtle, tortoise, reptile with shell",
+              "original_id": "turtle",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-crocodile",
+              "name": "鳄鱼",
+              "prompt": "crocodile, large reptile",
+              "original_id": "crocodile",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-frog",
+              "name": "青蛙",
+              "prompt": "frog, amphibian",
+              "original_id": "frog",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-toad",
+              "name": "蟾蜍",
+              "prompt": "toad, warty amphibian",
+              "original_id": "toad",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-salamander",
+              "name": "蝾螈",
+              "prompt": "salamander, amphibian",
+              "original_id": "salamander",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-gecko",
+              "name": "壁虎",
+              "prompt": "gecko, small climbing lizard",
+              "original_id": "gecko",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-komodo_dragon",
+              "name": "科莫多龙",
+              "prompt": "Komodo dragon, giant monitor lizard",
+              "original_id": "komodo_dragon",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-iguana",
+              "name": "鬣蜥",
+              "prompt": "iguana, large herbivorous lizard",
+              "original_id": "iguana",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-alligator",
+              "name": "短吻鳄",
+              "prompt": "alligator, large reptile",
+              "original_id": "alligator",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-cobra",
+              "name": "眼镜蛇",
+              "prompt": "cobra, hooded venomous snake",
+              "original_id": "cobra",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-python",
+              "name": "蟒蛇",
+              "prompt": "python, large constrictor snake",
+              "original_id": "python",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-rattlesnake",
+              "name": "响尾蛇",
+              "prompt": "rattlesnake, venomous pit viper",
+              "original_id": "rattlesnake",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-newt",
+              "name": "蝾螈",
+              "prompt": "newt, small amphibian",
+              "original_id": "newt",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-axolotl",
+              "name": "美西螈",
+              "prompt": "axolotl, Mexican walking fish",
+              "original_id": "axolotl",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-sea_turtle",
+              "name": "海龟",
+              "prompt": "sea turtle, marine reptile",
+              "original_id": "sea_turtle",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-anaconda",
+              "name": "森蚺",
+              "prompt": "anaconda, giant water snake",
+              "original_id": "anaconda",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-skink",
+              "name": "石龙子",
+              "prompt": "skink, shiny lizard",
+              "original_id": "skink",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-monitor_lizard",
+              "name": "巨蜥",
+              "prompt": "monitor lizard, large predatory lizard",
+              "original_id": "monitor_lizard",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-nile_monitor",
+              "name": "尼罗巨蜥",
+              "prompt": "Nile monitor, African large lizard",
+              "original_id": "nile_monitor",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-snapping_turtle",
+              "name": "鳄龟",
+              "prompt": "snapping turtle, aggressive freshwater turtle",
+              "original_id": "snapping_turtle",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-leatherback_turtle",
+              "name": "棱皮龟",
+              "prompt": "leatherback turtle, largest sea turtle",
+              "original_id": "leatherback_turtle",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-hawksbill_turtle",
+              "name": "玳瑁",
+              "prompt": "hawksbill turtle, shelled sea turtle",
+              "original_id": "hawksbill_turtle",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-green_sea_turtle",
+              "name": "绿海龟",
+              "prompt": "green sea turtle, herbivorous marine turtle",
+              "original_id": "green_sea_turtle",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-red_eared_slider",
+              "name": "红耳龟",
+              "prompt": "red-eared slider, common pet turtle",
+              "original_id": "red_eared_slider",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-tortoise",
+              "name": "陆龟",
+              "prompt": "tortoise, land-dwelling turtle",
+              "original_id": "tortoise",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-giant_tortoise",
+              "name": "象龟",
+              "prompt": "giant tortoise, Galapagos tortoise",
+              "original_id": "giant_tortoise",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-caiman",
+              "name": "凯门鳄",
+              "prompt": "caiman, small South American crocodilian",
+              "original_id": "caiman",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-saltwater_crocodile",
+              "name": "湾鳄",
+              "prompt": "saltwater crocodile, largest living reptile",
+              "original_id": "saltwater_crocodile",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-nile_crocodile",
+              "name": "尼罗鳄",
+              "prompt": "Nile crocodile, African large crocodilian",
+              "original_id": "nile_crocodile",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-boa",
+              "name": "蚺蛇",
+              "prompt": "boa constrictor, large non-venomous snake",
+              "original_id": "boa",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-king_cobra",
+              "name": "眼镜王蛇",
+              "prompt": "king cobra, longest venomous snake",
+              "original_id": "king_cobra",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-banded_krait",
+              "name": "金环蛇",
+              "prompt": "banded krait, yellow-banded snake",
+              "original_id": "banded_krait",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-sea_krait",
+              "name": "海蛇",
+              "prompt": "sea krait, banded sea snake",
+              "original_id": "sea_krait",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-viper",
+              "name": "蝮蛇",
+              "prompt": "viper, venomous pit viper",
+              "original_id": "viper",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-green_pit_viper",
+              "name": "竹叶青",
+              "prompt": "green pit viper, arboreal venomous snake",
+              "original_id": "green_pit_viper",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-deinagkistrodon",
+              "name": "五步蛇",
+              "prompt": "Deinagkistrodon, hundred-pace pit viper",
+              "original_id": "deinagkistrodon",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-tree_frog",
+              "name": "树蛙",
+              "prompt": "tree frog, arboreal amphibian",
+              "original_id": "tree_frog",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-poison_dart_frog",
+              "name": "箭毒蛙",
+              "prompt": "poison dart frog, colorful toxic frog",
+              "original_id": "poison_dart_frog",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-rain_frog",
+              "name": "雨蛙",
+              "prompt": "rain frog, small tree-dwelling amphibian",
+              "original_id": "rain_frog",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-giant_salamander",
+              "name": "大鲵",
+              "prompt": "giant salamander, Chinese giant salamander",
+              "original_id": "giant_salamander",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-olm",
+              "name": "洞螈",
+              "prompt": "olm, cave-dwelling blind amphibian",
+              "original_id": "olm",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-gila_monster",
+              "name": "希拉毒蜥",
+              "prompt": "Gila monster, venomous lizard",
+              "original_id": "gila_monster",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-thorny_devil",
+              "name": "棘蜥",
+              "prompt": "thorny devil, spiny Australian lizard",
+              "original_id": "thorny_devil",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-frilled_lizard",
+              "name": "伞蜥",
+              "prompt": "frilled lizard, neck-frilled Australian lizard",
+              "original_id": "frilled_lizard",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-basilisk_lizard",
+              "name": "双冠蜥",
+              "prompt": "basilisk lizard, Jesus Christ lizard",
+              "original_id": "basilisk_lizard",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-tokay_gecko",
+              "name": "大壁虎",
+              "prompt": "tokay gecko, large colorful gecko",
+              "original_id": "tokay_gecko",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-leopard_gecko",
+              "name": "豹纹守宫",
+              "prompt": "leopard gecko, spotted pet lizard",
+              "original_id": "leopard_gecko",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "marine",
+          "name": "海洋生物",
+          "presets": [
+            {
+              "id": "tag-animals-shark",
+              "name": "鲨鱼",
+              "prompt": "shark, predatory fish",
+              "original_id": "shark",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-jellyfish",
+              "name": "水母",
+              "prompt": "jellyfish, gelatinous marine animal",
+              "original_id": "jellyfish",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-octopus",
+              "name": "章鱼",
+              "prompt": "octopus, eight-armed cephalopod",
+              "original_id": "octopus",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-squid",
+              "name": "鱿鱼",
+              "prompt": "squid, ten-armed cephalopod",
+              "original_id": "squid",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-seahorse",
+              "name": "海马",
+              "prompt": "seahorse, small marine fish",
+              "original_id": "seahorse",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-starfish",
+              "name": "海星",
+              "prompt": "starfish, five-armed echinoderm",
+              "original_id": "starfish",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-crab",
+              "name": "螃蟹",
+              "prompt": "crab, crustacean with claws",
+              "original_id": "crab",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-lobster",
+              "name": "龙虾",
+              "prompt": "lobster, large marine crustacean",
+              "original_id": "lobster",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-clownfish",
+              "name": "小丑鱼",
+              "prompt": "clownfish, orange and white reef fish",
+              "original_id": "clownfish",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-goldfish",
+              "name": "金鱼",
+              "prompt": "goldfish, ornamental carp",
+              "original_id": "goldfish",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-koi",
+              "name": "锦鲤",
+              "prompt": "koi fish, ornamental colored carp",
+              "original_id": "koi",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-seal",
+              "name": "海豹",
+              "prompt": "seal, marine mammal",
+              "original_id": "seal",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-sea_lion",
+              "name": "海狮",
+              "prompt": "sea lion, eared seal",
+              "original_id": "sea_lion",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-walrus",
+              "name": "海象",
+              "prompt": "walrus, tusked marine mammal",
+              "original_id": "walrus",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-manta_ray",
+              "name": "蝠鲼",
+              "prompt": "manta ray, giant oceanic ray",
+              "original_id": "manta_ray",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-coral",
+              "name": "珊瑚",
+              "prompt": "coral, marine invertebrate colony",
+              "original_id": "coral",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-pufferfish",
+              "name": "河豚",
+              "prompt": "pufferfish, inflatable toxic fish",
+              "original_id": "pufferfish",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-swordfish",
+              "name": "剑鱼",
+              "prompt": "swordfish, billfish",
+              "original_id": "swordfish",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-narwhal",
+              "name": "独角鲸",
+              "prompt": "narwhal, tusked whale",
+              "original_id": "narwhal",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-orca",
+              "name": "虎鲸",
+              "prompt": "orca, killer whale",
+              "original_id": "orca",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-stingray",
+              "name": "黄貂鱼",
+              "prompt": "stingray, flat cartilaginous fish",
+              "original_id": "stingray",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-sea_anemone",
+              "name": "海葵",
+              "prompt": "sea anemone, marine polyp",
+              "original_id": "sea_anemone",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-cuttlefish",
+              "name": "墨鱼",
+              "prompt": "cuttlefish, color-changing cephalopod",
+              "original_id": "cuttlefish",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-anglerfish",
+              "name": "鮟鱇鱼",
+              "prompt": "anglerfish, deep-sea bioluminescent fish",
+              "original_id": "anglerfish",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-moray_eel",
+              "name": "海鳗",
+              "prompt": "moray eel, long predatory fish",
+              "original_id": "moray_eel",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-sea_urchin",
+              "name": "海胆",
+              "prompt": "sea urchin, spiny echinoderm",
+              "original_id": "sea_urchin",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-mantis_shrimp",
+              "name": "螳螂虾",
+              "prompt": "mantis shrimp, colorful crustacean",
+              "original_id": "mantis_shrimp",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-blue_tang",
+              "name": "蓝唐王鱼",
+              "prompt": "blue tang, surgeonfish",
+              "original_id": "blue_tang",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-sperm_whale",
+              "name": "抹香鲸",
+              "prompt": "sperm whale, deep-diving toothed whale",
+              "original_id": "sperm_whale",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-blue_whale",
+              "name": "蓝鲸",
+              "prompt": "blue whale, largest animal on Earth",
+              "original_id": "blue_whale",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-humpback_whale",
+              "name": "座头鲸",
+              "prompt": "humpback whale, singing baleen whale",
+              "original_id": "humpback_whale",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-beluga",
+              "name": "白鲸",
+              "prompt": "beluga whale, white arctic whale",
+              "original_id": "beluga",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-harbor_porpoise",
+              "name": "鼠海豚",
+              "prompt": "harbor porpoise, small cetacean",
+              "original_id": "harbor_porpoise",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-dugong",
+              "name": "儒艮",
+              "prompt": "dugong, sea cow, marine herbivore",
+              "original_id": "dugong",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-manatee",
+              "name": "海牛",
+              "prompt": "manatee, gentle aquatic herbivore",
+              "original_id": "manatee",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-harbor_seal",
+              "name": "斑海豹",
+              "prompt": "harbor seal, spotted coastal seal",
+              "original_id": "harbor_seal",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-ringed_seal",
+              "name": "环斑海豹",
+              "prompt": "ringed seal, arctic ice seal",
+              "original_id": "ringed_seal",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-elephant_seal",
+              "name": "象海豹",
+              "prompt": "elephant seal, large-nosed marine mammal",
+              "original_id": "elephant_seal",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-fur_seal",
+              "name": "海狗",
+              "prompt": "fur seal, eared seal with thick fur",
+              "original_id": "fur_seal",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-sea_cucumber",
+              "name": "海参",
+              "prompt": "sea cucumber, elongated echinoderm",
+              "original_id": "sea_cucumber",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-sea_squirt",
+              "name": "海鞘",
+              "prompt": "sea squirt, sessile marine filter feeder",
+              "original_id": "sea_squirt",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-conch",
+              "name": "海螺",
+              "prompt": "conch, spiral shelled mollusk",
+              "original_id": "conch",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-scallop",
+              "name": "扇贝",
+              "prompt": "scallop, fan-shaped bivalve",
+              "original_id": "scallop",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-oyster",
+              "name": "牡蛎",
+              "prompt": "oyster, pearl-producing bivalve",
+              "original_id": "oyster",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-clam",
+              "name": "蛤蜊",
+              "prompt": "clam, burrowing bivalve mollusk",
+              "original_id": "clam",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-mussel",
+              "name": "贻贝",
+              "prompt": "mussel, dark-shelled bivalve",
+              "original_id": "mussel",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-barnacle",
+              "name": "藤壶",
+              "prompt": "barnacle, encrusting marine crustacean",
+              "original_id": "barnacle",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-tube_worm",
+              "name": "管虫",
+              "prompt": "tube worm, deep-sea hydrothermal vent worm",
+              "original_id": "tube_worm",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-sea_pen",
+              "name": "海笔",
+              "prompt": "sea pen, feather-like marine cnidarian",
+              "original_id": "sea_pen",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-feather_star",
+              "name": "海百合",
+              "prompt": "feather star, crinoid, marine filter feeder",
+              "original_id": "feather_star",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-great_white_shark",
+              "name": "大白鲨",
+              "prompt": "great white shark, apex predator",
+              "original_id": "great_white_shark",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-hammerhead_shark",
+              "name": "锤头鲨",
+              "prompt": "hammerhead shark, uniquely shaped head",
+              "original_id": "hammerhead_shark",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-whale_shark",
+              "name": "鲸鲨",
+              "prompt": "whale shark, largest fish species",
+              "original_id": "whale_shark",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-tiger_shark",
+              "name": "虎鲨",
+              "prompt": "tiger shark, striped predatory shark",
+              "original_id": "tiger_shark",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-lionfish",
+              "name": "狮子鱼",
+              "prompt": "lionfish, venomous spiny reef fish",
+              "original_id": "lionfish",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-grouper",
+              "name": "石斑鱼",
+              "prompt": "grouper, large reef-dwelling fish",
+              "original_id": "grouper",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-barracuda",
+              "name": "梭鱼",
+              "prompt": "barracuda, sleek predatory fish",
+              "original_id": "barracuda",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-tuna",
+              "name": "金枪鱼",
+              "prompt": "tuna, fast-swimming pelagic fish",
+              "original_id": "tuna",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-salmon",
+              "name": "三文鱼",
+              "prompt": "salmon, migratory anadromous fish",
+              "original_id": "salmon",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-flying_fish",
+              "name": "飞鱼",
+              "prompt": "flying fish, gliding above water",
+              "original_id": "flying_fish",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-parrotfish",
+              "name": "鹦嘴鱼",
+              "prompt": "parrotfish, colorful reef-grazing fish",
+              "original_id": "parrotfish",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-seadragon",
+              "name": "海龙",
+              "prompt": "seadragon, leafy camouflaged fish",
+              "original_id": "seadragon",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-goblin_shark",
+              "name": "剑吻鲨",
+              "prompt": "goblin shark, deep-sea elongated snout shark",
+              "original_id": "goblin_shark",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-oarfish",
+              "name": "皇带鱼",
+              "prompt": "oarfish, long deep-sea ribbon fish",
+              "original_id": "oarfish",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-coelacanth",
+              "name": "腔棘鱼",
+              "prompt": "coelacanth, living fossil fish",
+              "original_id": "coelacanth",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-blue_ringed_octopus",
+              "name": "蓝环章鱼",
+              "prompt": "blue-ringed octopus, venomous cephalopod",
+              "original_id": "blue_ringed_octopus",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-vampire_squid",
+              "name": "吸血鬼乌贼",
+              "prompt": "vampire squid, deep-sea cephalopod",
+              "original_id": "vampire_squid",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-giant_squid",
+              "name": "大王乌贼",
+              "prompt": "giant squid, massive deep-sea cephalopod",
+              "original_id": "giant_squid",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-box_jellyfish",
+              "name": "箱水母",
+              "prompt": "box jellyfish, deadly transparent cnidarian",
+              "original_id": "box_jellyfish",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-moon_jellyfish",
+              "name": "海月水母",
+              "prompt": "moon jellyfish, translucent saucer-shaped",
+              "original_id": "moon_jellyfish",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-crown_of_thorns_starfish",
+              "name": "棘冠海星",
+              "prompt": "crown-of-thorns starfish, venomous reef starfish",
+              "original_id": "crown_of_thorns_starfish",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "insects",
+          "name": "昆虫与节肢",
+          "presets": [
+            {
+              "id": "tag-animals-butterfly",
+              "name": "蝴蝶",
+              "prompt": "butterfly, colorful winged insect",
+              "original_id": "butterfly",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-dragonfly",
+              "name": "蜻蜓",
+              "prompt": "dragonfly, long-bodied flying insect",
+              "original_id": "dragonfly",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-bee",
+              "name": "蜜蜂",
+              "prompt": "bee, striped pollinator",
+              "original_id": "bee",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-beetle",
+              "name": "甲虫",
+              "prompt": "beetle, hard-shelled insect",
+              "original_id": "beetle",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-rhinoceros_beetle",
+              "name": "独角仙",
+              "prompt": "rhinoceros beetle, horned beetle",
+              "original_id": "rhinoceros_beetle",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-mantis",
+              "name": "螳螂",
+              "prompt": "mantis, praying mantis",
+              "original_id": "mantis",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-firefly",
+              "name": "萤火虫",
+              "prompt": "firefly, bioluminescent beetle",
+              "original_id": "firefly",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-spider",
+              "name": "蜘蛛",
+              "prompt": "spider, eight-legged arachnid",
+              "original_id": "spider",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-scorpion",
+              "name": "蝎子",
+              "prompt": "scorpion, venomous arachnid",
+              "original_id": "scorpion",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-ant",
+              "name": "蚂蚁",
+              "prompt": "ant, social insect",
+              "original_id": "ant",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-ladybug",
+              "name": "瓢虫",
+              "prompt": "ladybug, spotted beetle, ladybird",
+              "original_id": "ladybug",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-cicada",
+              "name": "蝉",
+              "prompt": "cicada, loud summer insect",
+              "original_id": "cicada",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-cricket",
+              "name": "蟋蟀",
+              "prompt": "cricket, chirping insect",
+              "original_id": "cricket",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-snail",
+              "name": "蜗牛",
+              "prompt": "snail, shelled gastropod",
+              "original_id": "snail",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-moth",
+              "name": "飞蛾",
+              "prompt": "moth, nocturnal winged insect",
+              "original_id": "moth",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-grasshopper",
+              "name": "蚱蜢",
+              "prompt": "grasshopper, jumping insect",
+              "original_id": "grasshopper",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-caterpillar",
+              "name": "毛毛虫",
+              "prompt": "caterpillar, butterfly larva",
+              "original_id": "caterpillar",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-mosquito",
+              "name": "蚊子",
+              "prompt": "mosquito, blood-sucking insect",
+              "original_id": "mosquito",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-fly",
+              "name": "苍蝇",
+              "prompt": "fly, common winged insect",
+              "original_id": "fly",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-tarantula",
+              "name": "狼蛛",
+              "prompt": "tarantula, large hairy spider",
+              "original_id": "tarantula",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-centipede",
+              "name": "蜈蚣",
+              "prompt": "centipede, many-legged arthropod",
+              "original_id": "centipede",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-millipede",
+              "name": "马陆",
+              "prompt": "millipede, many-legged detritivore",
+              "original_id": "millipede",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-stick_insect",
+              "name": "竹节虫",
+              "prompt": "stick insect, walking stick",
+              "original_id": "stick_insect",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-stag_beetle",
+              "name": "锹形虫",
+              "prompt": "stag beetle, large mandibled beetle",
+              "original_id": "stag_beetle",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-hornet",
+              "name": "大黄蜂",
+              "prompt": "hornet, large stinging wasp",
+              "original_id": "hornet",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-longhorn_beetle",
+              "name": "天牛",
+              "prompt": "longhorn beetle, long-antennaed beetle",
+              "original_id": "longhorn_beetle",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-scarab_beetle",
+              "name": "金龟子",
+              "prompt": "scarab beetle, metallic green beetle",
+              "original_id": "scarab_beetle",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-dung_beetle",
+              "name": "蜣螂",
+              "prompt": "dung beetle, ball-rolling scarab",
+              "original_id": "dung_beetle",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-jewel_beetle",
+              "name": "吉丁虫",
+              "prompt": "jewel beetle, iridescent wood-boring beetle",
+              "original_id": "jewel_beetle",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-click_beetle",
+              "name": "叩甲",
+              "prompt": "click beetle, jumping beetle",
+              "original_id": "click_beetle",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-locust",
+              "name": "蝗虫",
+              "prompt": "locust, swarming grasshopper",
+              "original_id": "locust",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-katydid",
+              "name": "螽斯",
+              "prompt": "katydid, leaf-mimicking bush cricket",
+              "original_id": "katydid",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-mole_cricket",
+              "name": "蝼蛄",
+              "prompt": "mole cricket, burrowing insect",
+              "original_id": "mole_cricket",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-walking_stick",
+              "name": "超长竹节虫",
+              "prompt": "walking stick, extremely long stick insect",
+              "original_id": "walking_stick",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-leaf_insect",
+              "name": "叶虫",
+              "prompt": "leaf insect, leaf-mimicking phasmid",
+              "original_id": "leaf_insect",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-orchid_mantis",
+              "name": "兰花螳螂",
+              "prompt": "orchid mantis, flower-mimicking mantis",
+              "original_id": "orchid_mantis",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-silkworm",
+              "name": "蚕",
+              "prompt": "silkworm, silk-producing caterpillar",
+              "original_id": "silkworm",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-wasp",
+              "name": "黄蜂",
+              "prompt": "wasp, stinging social insect",
+              "original_id": "wasp",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-bumblebee",
+              "name": "熊蜂",
+              "prompt": "bumblebee, fuzzy large bee",
+              "original_id": "bumblebee",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-termite",
+              "name": "白蚁",
+              "prompt": "termite, wood-eating social insect",
+              "original_id": "termite",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-cockroach",
+              "name": "蟑螂",
+              "prompt": "cockroach, resilient scavenger insect",
+              "original_id": "cockroach",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-flea",
+              "name": "跳蚤",
+              "prompt": "flea, tiny jumping parasitic insect",
+              "original_id": "flea",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-louse",
+              "name": "虱子",
+              "prompt": "louse, tiny parasitic insect",
+              "original_id": "louse",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-tick",
+              "name": "蜱虫",
+              "prompt": "tick, blood-sucking arachnid",
+              "original_id": "tick",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-giant_centipede",
+              "name": "蜈蚣",
+              "prompt": "giant centipede, large predatory myriapod",
+              "original_id": "giant_centipede",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-pill_bug",
+              "name": "鼠妇",
+              "prompt": "pill bug, roly-poly woodlouse",
+              "original_id": "pill_bug",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-horseshoe_crab",
+              "name": "鲎",
+              "prompt": "horseshoe crab, ancient marine arthropod",
+              "original_id": "horseshoe_crab",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-coconut_crab",
+              "name": "椰子蟹",
+              "prompt": "coconut crab, largest terrestrial arthropod",
+              "original_id": "coconut_crab",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-hermit_crab",
+              "name": "寄居蟹",
+              "prompt": "hermit crab, shell-dwelling crustacean",
+              "original_id": "hermit_crab",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-spider_crab",
+              "name": "蜘蛛蟹",
+              "prompt": "spider crab, long-legged marine crab",
+              "original_id": "spider_crab",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-emperor_scorpion",
+              "name": "帝王蝎",
+              "prompt": "emperor scorpion, large black scorpion",
+              "original_id": "emperor_scorpion",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-vinegaroon",
+              "name": "鞭蝎",
+              "prompt": "vinegaroon, whip scorpion arachnid",
+              "original_id": "vinegaroon",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-trapdoor_spider",
+              "name": "陷阱蜘蛛",
+              "prompt": "trapdoor spider, burrowing mygalomorph",
+              "original_id": "trapdoor_spider",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-black_widow",
+              "name": "黑寡妇蜘蛛",
+              "prompt": "black widow spider, venomous red hourglass",
+              "original_id": "black_widow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-jumping_spider",
+              "name": "跳蛛",
+              "prompt": "jumping spider, large-eyed agile hunter",
+              "original_id": "jumping_spider",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "mythical",
+          "name": "神话与幻想",
+          "presets": [
+            {
+              "id": "tag-animals-dragon",
+              "name": "龙",
+              "prompt": "dragon, mythical winged reptile",
+              "original_id": "dragon",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-chinese_dragon",
+              "name": "中国龙",
+              "prompt": "Chinese dragon, serpentine mythical creature",
+              "original_id": "chinese_dragon",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-phoenix",
+              "name": "凤凰",
+              "prompt": "phoenix, mythical fire bird",
+              "original_id": "phoenix",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-unicorn",
+              "name": "独角兽",
+              "prompt": "unicorn, mythical horned horse",
+              "original_id": "unicorn",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-qilin",
+              "name": "麒麟",
+              "prompt": "qilin, Chinese mythical chimera",
+              "original_id": "qilin",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-griffin",
+              "name": "狮鹫",
+              "prompt": "griffin, eagle-headed winged lion",
+              "original_id": "griffin",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-nine_tailed_fox",
+              "name": "九尾狐",
+              "prompt": "nine-tailed fox, kitsune, mythical fox spirit",
+              "original_id": "nine_tailed_fox",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-mermaid",
+              "name": "美人鱼",
+              "prompt": "mermaid, half-human half-fish",
+              "original_id": "mermaid",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-pegasus",
+              "name": "天马",
+              "prompt": "pegasus, winged horse",
+              "original_id": "pegasus",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-chimera",
+              "name": "奇美拉",
+              "prompt": "chimera, hybrid mythical beast",
+              "original_id": "chimera",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-xuanwu",
+              "name": "玄武",
+              "prompt": "Xuanwu, Black Tortoise of the Four Symbols",
+              "original_id": "xuanwu",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-zhuque",
+              "name": "朱雀",
+              "prompt": "Zhuque, Vermilion Bird of the Four Symbols",
+              "original_id": "zhuque",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-baihu",
+              "name": "白虎",
+              "prompt": "Baihu, White Tiger of the Four Symbols",
+              "original_id": "baihu",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-qinglong",
+              "name": "青龙",
+              "prompt": "Qinglong, Azure Dragon of the Four Symbols",
+              "original_id": "qinglong",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-centaur",
+              "name": "半人马",
+              "prompt": "centaur, half-human half-horse",
+              "original_id": "centaur",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-goblin",
+              "name": "哥布林",
+              "prompt": "goblin, small mischievous creature",
+              "original_id": "goblin",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-fairy",
+              "name": "精灵(仙子)",
+              "prompt": "fairy, winged magical being",
+              "original_id": "fairy",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-orc",
+              "name": "兽人(半兽人)",
+              "prompt": "orc, brutish humanoid creature",
+              "original_id": "orc",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-minotaur",
+              "name": "牛头人",
+              "prompt": "minotaur, bull-headed humanoid",
+              "original_id": "minotaur",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-kraken",
+              "name": "克拉肯",
+              "prompt": "kraken, mythical giant sea monster",
+              "original_id": "kraken",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-hydra",
+              "name": "九头蛇",
+              "prompt": "hydra, multi-headed serpent",
+              "original_id": "hydra",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-cerberus",
+              "name": "地狱三头犬",
+              "prompt": "Cerberus, three-headed guard dog of Hades",
+              "original_id": "cerberus",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-sphinx",
+              "name": "斯芬克斯",
+              "prompt": "sphinx, lion-bodied winged mythical creature",
+              "original_id": "sphinx",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-harpy",
+              "name": "鹰身女妖",
+              "prompt": "harpy, bird-woman hybrid",
+              "original_id": "harpy",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-basilisk",
+              "name": "蛇怪",
+              "prompt": "basilisk, mythical serpent king",
+              "original_id": "basilisk",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-wendigo",
+              "name": "温迪戈",
+              "prompt": "wendigo, Algonquian mythical creature",
+              "original_id": "wendigo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-kitsune",
+              "name": "狐妖",
+              "prompt": "kitsune, Japanese fox spirit",
+              "original_id": "kitsune",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-tanuki",
+              "name": "狸猫妖",
+              "prompt": "tanuki, Japanese raccoon dog spirit",
+              "original_id": "tanuki",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-tengu",
+              "name": "天狗",
+              "prompt": "tengu, Japanese mythical bird-like creature",
+              "original_id": "tengu",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-fenrir",
+              "name": "芬里尔",
+              "prompt": "Fenrir, Norse mythical giant wolf",
+              "original_id": "fenrir",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-pixiu",
+              "name": "貔貅",
+              "prompt": "Pixiu, Chinese mythical wealth beast",
+              "original_id": "pixiu",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-taotie",
+              "name": "饕餮",
+              "prompt": "Taotie, Chinese mythical gluttonous beast",
+              "original_id": "taotie",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-hundun",
+              "name": "混沌",
+              "prompt": "Hundun, primordial chaos beast",
+              "original_id": "hundun",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-qiongqi",
+              "name": "穷奇",
+              "prompt": "Qiongqi, Chinese mythical evil beast",
+              "original_id": "qiongqi",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-taowu",
+              "name": "梼杌",
+              "prompt": "Taowu, Chinese mythical fierce beast",
+              "original_id": "taowu",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-yinglong",
+              "name": "应龙",
+              "prompt": "Yinglong, winged dragon of Chinese myth",
+              "original_id": "yinglong",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-zhulong",
+              "name": "烛龙",
+              "prompt": "Zhulong, torch dragon, creator deity",
+              "original_id": "zhulong",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-bifang",
+              "name": "毕方",
+              "prompt": "Bifang, one-legged crane fire bird",
+              "original_id": "bifang",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-chongming_bird",
+              "name": "重明鸟",
+              "prompt": "Chongming bird, double-pupiled mythical bird",
+              "original_id": "chongming_bird",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-jingwei_bird",
+              "name": "精卫鸟",
+              "prompt": "Jingwei, mythical bird filling the sea",
+              "original_id": "jingwei_bird",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-blue_bird",
+              "name": "青鸟",
+              "prompt": "blue bird, messenger of the Queen Mother of the West",
+              "original_id": "blue_bird",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-three_legged_crow",
+              "name": "三足乌",
+              "prompt": "three-legged crow, sun bird of myth",
+              "original_id": "three_legged_crow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-jade_rabbit",
+              "name": "玉兔",
+              "prompt": "jade rabbit, moon rabbit of Chinese myth",
+              "original_id": "jade_rabbit",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-golden_toad",
+              "name": "金蟾",
+              "prompt": "golden toad, wealth-bringing mythical toad",
+              "original_id": "golden_toad",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-nian_beast",
+              "name": "年兽",
+              "prompt": "Nian beast, mythical Chinese New Year monster",
+              "original_id": "nian_beast",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-bai_ze",
+              "name": "白泽",
+              "prompt": "Bai Ze, wise mythical beast of knowledge",
+              "original_id": "bai_ze",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-kui_niu",
+              "name": "夔牛",
+              "prompt": "Kui Niu, one-legged thunder ox",
+              "original_id": "kui_niu",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-kappa",
+              "name": "河童",
+              "prompt": "kappa, Japanese water imp",
+              "original_id": "kappa",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-yuki_onna",
+              "name": "雪女",
+              "prompt": "Yuki-onna, Japanese snow spirit woman",
+              "original_id": "yuki_onna",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-yamata_no_orochi",
+              "name": "八岐大蛇",
+              "prompt": "Yamata no Orochi, eight-headed Japanese serpent",
+              "original_id": "yamata_no_orochi",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-oni",
+              "name": "鬼",
+              "prompt": "oni, Japanese demon ogre",
+              "original_id": "oni",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-kirin",
+              "name": "麒麟(日本)",
+              "prompt": "kirin, Japanese version of qilin",
+              "original_id": "kirin",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-bakeneko",
+              "name": "猫又",
+              "prompt": "bakeneko, Japanese supernatural cat",
+              "original_id": "bakeneko",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-nue",
+              "name": "鵺",
+              "prompt": "Nue, Japanese chimera monster",
+              "original_id": "nue",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-medusa",
+              "name": "美杜莎",
+              "prompt": "Medusa, snake-haired gorgon",
+              "original_id": "medusa",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-siren",
+              "name": "塞壬",
+              "prompt": "siren, luring mythical sea creature",
+              "original_id": "siren",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-cyclop",
+              "name": "独眼巨人",
+              "prompt": "cyclops, one-eyed giant",
+              "original_id": "cyclop",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-titan",
+              "name": "泰坦巨人",
+              "prompt": "titan, primordial giant of Greek myth",
+              "original_id": "titan",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-sleipnir",
+              "name": "八足神驹",
+              "prompt": "Sleipnir, Odin eight-legged horse",
+              "original_id": "sleipnir",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-jormungandr",
+              "name": "耶梦加得",
+              "prompt": "Jormungandr, Midgard serpent",
+              "original_id": "jormungandr",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-valkyrie",
+              "name": "女武神",
+              "prompt": "valkyrie, Norse mythological warrior maiden",
+              "original_id": "valkyrie",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-nidhogg",
+              "name": "尼德霍格",
+              "prompt": "Nidhogg, Norse dragon gnawing Yggdrasil",
+              "original_id": "nidhogg",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-anubis",
+              "name": "阿努比斯",
+              "prompt": "Anubis, jackal-headed Egyptian god",
+              "original_id": "anubis",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-thunderbird",
+              "name": "雷鸟",
+              "prompt": "thunderbird, Native American mythical bird",
+              "original_id": "thunderbird",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-yeti",
+              "name": "雪人",
+              "prompt": "yeti, abominable snowman, Himalayan cryptid",
+              "original_id": "yeti",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-bigfoot",
+              "name": "大脚怪",
+              "prompt": "bigfoot, sasquatch, North American cryptid",
+              "original_id": "bigfoot",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-nessie",
+              "name": "尼斯湖水怪",
+              "prompt": "Loch Ness Monster, Nessie, aquatic cryptid",
+              "original_id": "nessie",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-mothman",
+              "name": "天蛾人",
+              "prompt": "Mothman, winged cryptid creature",
+              "original_id": "mothman",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-lindworm",
+              "name": "林德虫",
+              "prompt": "lindworm, serpentine dragon, wyrm",
+              "original_id": "lindworm",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-wyvern",
+              "name": "双足飞龙",
+              "prompt": "wyvern, two-legged winged dragon",
+              "original_id": "wyvern",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-jackalope",
+              "name": "鹿角兔",
+              "prompt": "jackalope, antlered rabbit cryptid",
+              "original_id": "jackalope",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-banshee",
+              "name": "报丧女妖",
+              "prompt": "banshee, wailing Irish spirit",
+              "original_id": "banshee",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-dullahan",
+              "name": "无头骑士",
+              "prompt": "dullahan, headless horseman of Irish myth",
+              "original_id": "dullahan",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-imp",
+              "name": "小恶魔",
+              "prompt": "imp, small mischievous demon creature",
+              "original_id": "imp",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-gargoyle",
+              "name": "石像鬼",
+              "prompt": "gargoyle, stone grotesque creature",
+              "original_id": "gargoyle",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "pets",
+          "name": "宠物与家养",
+          "presets": [
+            {
+              "id": "tag-animals-golden_retriever",
+              "name": "金毛犬",
+              "prompt": "golden retriever, friendly dog breed",
+              "original_id": "golden_retriever",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-corgi",
+              "name": "柯基犬",
+              "prompt": "corgi, short-legged dog breed",
+              "original_id": "corgi",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-husky",
+              "name": "哈士奇",
+              "prompt": "husky, Siberian sled dog",
+              "original_id": "husky",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-shiba_inu",
+              "name": "柴犬",
+              "prompt": "shiba inu, Japanese dog breed",
+              "original_id": "shiba_inu",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-ragdoll_cat",
+              "name": "布偶猫",
+              "prompt": "ragdoll cat, blue-eyed fluffy cat breed",
+              "original_id": "ragdoll_cat",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-orange_tabby",
+              "name": "橘猫",
+              "prompt": "orange tabby cat, ginger cat",
+              "original_id": "orange_tabby",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-british_shorthair",
+              "name": "英短猫",
+              "prompt": "British shorthair, round-faced cat breed",
+              "original_id": "british_shorthair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-siamese_cat",
+              "name": "暹罗猫",
+              "prompt": "Siamese cat, blue-eyed pointed cat",
+              "original_id": "siamese_cat",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-hamster",
+              "name": "仓鼠",
+              "prompt": "hamster, small pet rodent",
+              "original_id": "hamster",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-chinchilla",
+              "name": "龙猫",
+              "prompt": "chinchilla, soft-furred rodent",
+              "original_id": "chinchilla",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-guinea_pig",
+              "name": "荷兰猪",
+              "prompt": "guinea pig, cavy, pet rodent",
+              "original_id": "guinea_pig",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-budgerigar",
+              "name": "虎皮鹦鹉",
+              "prompt": "budgerigar, budgie, small pet parrot",
+              "original_id": "budgerigar",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-goldfish_pet",
+              "name": "宠物金鱼",
+              "prompt": "goldfish, common aquarium fish",
+              "original_id": "goldfish_pet",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-pet_rabbit",
+              "name": "宠物兔",
+              "prompt": "pet rabbit, domestic bunny",
+              "original_id": "pet_rabbit",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-pomeranian",
+              "name": "博美犬",
+              "prompt": "Pomeranian, fluffy toy dog breed",
+              "original_id": "pomeranian",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-poodle",
+              "name": "贵宾犬",
+              "prompt": "poodle, curly-haired dog breed",
+              "original_id": "poodle",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-labrador",
+              "name": "拉布拉多",
+              "prompt": "Labrador retriever, friendly large dog breed",
+              "original_id": "labrador",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-french_bulldog",
+              "name": "法斗犬",
+              "prompt": "French bulldog, bat-eared small dog",
+              "original_id": "french_bulldog",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-maine_coon",
+              "name": "缅因猫",
+              "prompt": "Maine Coon, large fluffy cat breed",
+              "original_id": "maine_coon",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-scottish_fold",
+              "name": "折耳猫",
+              "prompt": "Scottish Fold, folded-ear cat breed",
+              "original_id": "scottish_fold",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-persian_cat",
+              "name": "波斯猫",
+              "prompt": "Persian cat, long-haired flat-faced cat",
+              "original_id": "persian_cat",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-bengal_cat",
+              "name": "孟加拉猫",
+              "prompt": "Bengal cat, spotted domestic cat breed",
+              "original_id": "bengal_cat",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-parakeet",
+              "name": "长尾鹦鹉",
+              "prompt": "parakeet, small colorful pet bird",
+              "original_id": "parakeet",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-cockatiel",
+              "name": "鸡尾鹦鹉",
+              "prompt": "cockatiel, crested pet parrot",
+              "original_id": "cockatiel",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-betta_fish",
+              "name": "斗鱼",
+              "prompt": "betta fish, Siamese fighting fish",
+              "original_id": "betta_fish",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-tropical_fish",
+              "name": "热带鱼",
+              "prompt": "tropical fish, colorful aquarium fish",
+              "original_id": "tropical_fish",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-ferret",
+              "name": "雪貂",
+              "prompt": "ferret, playful pet mustelid",
+              "original_id": "ferret",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-tortoise_pet",
+              "name": "宠物陆龟",
+              "prompt": "tortoise, pet reptile with shell",
+              "original_id": "tortoise_pet",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-toy_poodle",
+              "name": "泰迪犬",
+              "prompt": "toy poodle, teddy bear cut, small dog",
+              "original_id": "toy_poodle",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-bichon_frise",
+              "name": "比熊犬",
+              "prompt": "bichon frise, fluffy white small dog",
+              "original_id": "bichon_frise",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-chihuahua",
+              "name": "吉娃娃",
+              "prompt": "chihuahua, tiny alert dog breed",
+              "original_id": "chihuahua",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-yorkshire_terrier",
+              "name": "约克夏犬",
+              "prompt": "Yorkshire terrier, small silky-haired dog",
+              "original_id": "yorkshire_terrier",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-shih_tzu",
+              "name": "西施犬",
+              "prompt": "Shih Tzu, long-haired Chinese toy dog",
+              "original_id": "shih_tzu",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-pekingese",
+              "name": "京巴犬",
+              "prompt": "Pekingese, flat-faced Chinese lap dog",
+              "original_id": "pekingese",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-pug",
+              "name": "巴哥犬",
+              "prompt": "pug, wrinkled face small dog",
+              "original_id": "pug",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-bulldog",
+              "name": "英国斗牛犬",
+              "prompt": "English bulldog, stocky muscular dog",
+              "original_id": "bulldog",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-boston_terrier",
+              "name": "波士顿梗",
+              "prompt": "Boston terrier, tuxedo-coated small dog",
+              "original_id": "boston_terrier",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-schnauzer",
+              "name": "雪纳瑞",
+              "prompt": "schnauzer, bearded terrier dog breed",
+              "original_id": "schnauzer",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-dachshund",
+              "name": "腊肠犬",
+              "prompt": "dachshund, long-bodied short-legged dog",
+              "original_id": "dachshund",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-maltese",
+              "name": "马尔济斯犬",
+              "prompt": "Maltese, white silky lap dog",
+              "original_id": "maltese",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-papillon",
+              "name": "蝴蝶犬",
+              "prompt": "Papillon, butterfly-eared toy spaniel",
+              "original_id": "papillon",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-border_collie",
+              "name": "边境牧羊犬",
+              "prompt": "border collie, intelligent herding dog",
+              "original_id": "border_collie",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-german_shepherd",
+              "name": "德国牧羊犬",
+              "prompt": "German shepherd, loyal working dog",
+              "original_id": "german_shepherd",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-samoyed",
+              "name": "萨摩耶",
+              "prompt": "Samoyed, smiling white fluffy dog",
+              "original_id": "samoyed",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-alaskan_malamute",
+              "name": "阿拉斯加犬",
+              "prompt": "Alaskan malamute, large Arctic sled dog",
+              "original_id": "alaskan_malamute",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-chow_chow",
+              "name": "松狮犬",
+              "prompt": "chow chow, lion-maned Chinese dog",
+              "original_id": "chow_chow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-akita",
+              "name": "秋田犬",
+              "prompt": "Akita, large loyal Japanese dog breed",
+              "original_id": "akita",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-doberman",
+              "name": "杜宾犬",
+              "prompt": "Doberman, sleek guard dog breed",
+              "original_id": "doberman",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-rottweiler",
+              "name": "罗威纳犬",
+              "prompt": "Rottweiler, powerful guard dog",
+              "original_id": "rottweiler",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-great_dane",
+              "name": "大丹犬",
+              "prompt": "Great Dane, giant gentle dog breed",
+              "original_id": "great_dane",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-saint_bernard",
+              "name": "圣伯纳犬",
+              "prompt": "Saint Bernard, large Alpine rescue dog",
+              "original_id": "saint_bernard",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-dalmatian",
+              "name": "斑点狗",
+              "prompt": "Dalmatian, spotted firehouse dog",
+              "original_id": "dalmatian",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-cocker_spaniel",
+              "name": "可卡犬",
+              "prompt": "cocker spaniel, floppy-eared gun dog",
+              "original_id": "cocker_spaniel",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-american_shorthair",
+              "name": "美短猫",
+              "prompt": "American shorthair, tabby domestic cat",
+              "original_id": "american_shorthair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-sphynx_cat",
+              "name": "无毛猫",
+              "prompt": "Sphynx cat, hairless wrinkled cat breed",
+              "original_id": "sphynx_cat",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-abyssinian",
+              "name": "阿比西尼亚猫",
+              "prompt": "Abyssinian cat, ticked tabby coat",
+              "original_id": "abyssinian",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-norwegian_forest_cat",
+              "name": "挪威森林猫",
+              "prompt": "Norwegian forest cat, large fluffy Nordic cat",
+              "original_id": "norwegian_forest_cat",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-russian_blue",
+              "name": "俄罗斯蓝猫",
+              "prompt": "Russian blue, plush grey cat breed",
+              "original_id": "russian_blue",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-turkish_van",
+              "name": "土耳其梵猫",
+              "prompt": "Turkish Van, swimming cat breed",
+              "original_id": "turkish_van",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-birman",
+              "name": "伯曼猫",
+              "prompt": "Birman cat, colorpoint with white gloves",
+              "original_id": "birman",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-burmese_cat",
+              "name": "缅甸猫",
+              "prompt": "Burmese cat, sleek sable-brown cat",
+              "original_id": "burmese_cat",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-exotic_shorthair",
+              "name": "异国短毛猫",
+              "prompt": "Exotic shorthair, flat-faced plush cat",
+              "original_id": "exotic_shorthair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-gerbil",
+              "name": "沙鼠",
+              "prompt": "gerbil, small desert pet rodent",
+              "original_id": "gerbil",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-sugar_glider",
+              "name": "蜜袋鼯",
+              "prompt": "sugar glider, gliding marsupial pet",
+              "original_id": "sugar_glider",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-lovebird",
+              "name": "爱情鸟",
+              "prompt": "lovebird, small affectionate pet parrot",
+              "original_id": "lovebird",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-canary_pet",
+              "name": "宠物金丝雀",
+              "prompt": "canary, singing pet bird",
+              "original_id": "canary_pet",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-zebra_finch",
+              "name": "斑胸草雀",
+              "prompt": "zebra finch, small pet songbird",
+              "original_id": "zebra_finch",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-angora_rabbit",
+              "name": "安哥拉兔",
+              "prompt": "Angora rabbit, long-wooled pet rabbit",
+              "original_id": "angora_rabbit",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-mini_lop",
+              "name": "垂耳兔",
+              "prompt": "mini lop, floppy-eared pet rabbit",
+              "original_id": "mini_lop",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-axolotl_pet",
+              "name": "宠物美西螈",
+              "prompt": "axolotl, pet salamander, walking fish",
+              "original_id": "axolotl_pet",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-bearded_dragon",
+              "name": "鬃狮蜥",
+              "prompt": "bearded dragon, popular pet lizard",
+              "original_id": "bearded_dragon",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-ball_python",
+              "name": "球蟒",
+              "prompt": "ball python, docile pet snake",
+              "original_id": "ball_python",
+              "type": "tag"
+            },
+            {
+              "id": "tag-animals-corn_snake",
+              "name": "玉米蛇",
+              "prompt": "corn snake, colorful pet constrictor",
+              "original_id": "corn_snake",
+              "type": "tag"
+            }
+          ]
+        }
+      ],
+      "type": "tag"
+    }
+  ]
+}

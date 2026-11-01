@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "kind": "tags",
+  "packId": "tags-quality",
+  "name": "标签包 · 质量词",
+  "version": "1.0.0",
+  "description": "按需安装的标签提示词，保留原分类与完整内容。",
+  "entryCount": 153,
+  "categories": [
+    {
+      "id": "quality",
+      "name": "质量词",
+      "file": "category-0.json"
+    }
+  ],
+  "order": 1000
+}

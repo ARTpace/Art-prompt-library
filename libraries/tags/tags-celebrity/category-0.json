@@ -1,0 +1,2199 @@
+{
+  "categories": [
+    {
+      "id": "celebrity",
+      "name": "现实人物",
+      "subcategories": [
+        {
+          "id": "c_drama",
+          "name": "华语影视",
+          "presets": [
+            {
+              "id": "tag-celebrity-jackie_chan",
+              "name": "成龙",
+              "prompt": "Jackie Chan, Chinese actor",
+              "original_id": "jackie_chan",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-jet_li",
+              "name": "李连杰",
+              "prompt": "Jet Li, Chinese martial artist",
+              "original_id": "jet_li",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-bruce_lee",
+              "name": "李小龙",
+              "prompt": "Bruce Lee, martial arts legend",
+              "original_id": "bruce_lee",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-donnie_yen",
+              "name": "甄子丹",
+              "prompt": "Donnie Yen, Chinese actor",
+              "original_id": "donnie_yen",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-chow_yun_fat",
+              "name": "周润发",
+              "prompt": "Chow Yun-fat, Hong Kong actor",
+              "original_id": "chow_yun_fat",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-tony_leung",
+              "name": "梁朝伟",
+              "prompt": "Tony Leung Chiu-wai, Hong Kong actor",
+              "original_id": "tony_leung",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-andy_lau",
+              "name": "刘德华",
+              "prompt": "Andy Lau, Hong Kong singer and actor",
+              "original_id": "andy_lau",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-stephen_chow",
+              "name": "周星驰",
+              "prompt": "Stephen Chow, Hong Kong comedian",
+              "original_id": "stephen_chow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-zhang_ziyi",
+              "name": "章子怡",
+              "prompt": "Zhang Ziyi, Chinese actress",
+              "original_id": "zhang_ziyi",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-gong_li",
+              "name": "巩俐",
+              "prompt": "Gong Li, Chinese actress",
+              "original_id": "gong_li",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-fan_bingbing",
+              "name": "范冰冰",
+              "prompt": "Fan Bingbing, Chinese actress",
+              "original_id": "fan_bingbing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-liu_yifei",
+              "name": "刘亦菲",
+              "prompt": "Liu Yifei, Chinese actress",
+              "original_id": "liu_yifei",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-yang_mi",
+              "name": "杨幂",
+              "prompt": "Yang Mi, Chinese actress",
+              "original_id": "yang_mi",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-zhao_liying",
+              "name": "赵丽颖",
+              "prompt": "Zhao Liying, Chinese actress",
+              "original_id": "zhao_liying",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-dilraba",
+              "name": "迪丽热巴",
+              "prompt": "Dilraba Dilmurat, Chinese actress",
+              "original_id": "dilraba",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-wu_jing",
+              "name": "吴京",
+              "prompt": "Wu Jing, Chinese actor and director",
+              "original_id": "wu_jing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-hu_ge",
+              "name": "胡歌",
+              "prompt": "Hu Ge, Chinese actor",
+              "original_id": "hu_ge",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-wang_yibo",
+              "name": "王一博",
+              "prompt": "Wang Yibo, Chinese actor and singer",
+              "original_id": "wang_yibo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-xiao_zhan",
+              "name": "肖战",
+              "prompt": "Xiao Zhan, Chinese actor and singer",
+              "original_id": "xiao_zhan",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-zhang_yimou",
+              "name": "张艺谋",
+              "prompt": "Zhang Yimou, Chinese film director",
+              "original_id": "zhang_yimou",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-wong_kar_wai",
+              "name": "王家卫",
+              "prompt": "Wong Kar-wai, Hong Kong film director",
+              "original_id": "wong_kar_wai",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-ang_lee",
+              "name": "李安",
+              "prompt": "Ang Lee, Taiwanese film director",
+              "original_id": "ang_lee",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-chen_kun",
+              "name": "陈坤",
+              "prompt": "Chen Kun, Chinese actor",
+              "original_id": "chen_kun",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-zhou_xun",
+              "name": "周迅",
+              "prompt": "Zhou Xun, Chinese actress",
+              "original_id": "zhou_xun",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-tang_wei",
+              "name": "汤唯",
+              "prompt": "Tang Wei, Chinese actress",
+              "original_id": "tang_wei",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-sammo_hung",
+              "name": "洪金宝",
+              "prompt": "Sammo Hung, Hong Kong actor",
+              "original_id": "sammo_hung",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-zhang_guorong",
+              "name": "张国荣",
+              "prompt": "Leslie Cheung, Hong Kong singer and actor",
+              "original_id": "zhang_guorong",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-lin_ching_hsia",
+              "name": "林青霞",
+              "prompt": "Brigitte Lin, Taiwanese actress",
+              "original_id": "lin_ching_hsia",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-yi_yangqianxi",
+              "name": "易烊千玺",
+              "prompt": "Jackson Yee, Chinese actor and singer",
+              "original_id": "yi_yangqianxi",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-zhao_wei",
+              "name": "赵薇",
+              "prompt": "Vicki Zhao, Chinese actress",
+              "original_id": "zhao_wei",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-yang_zi",
+              "name": "杨紫",
+              "prompt": "Yang Zi, Chinese actress",
+              "original_id": "yang_zi",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-angelababy",
+              "name": "Angelababy",
+              "prompt": "Angelababy, Chinese actress and model",
+              "original_id": "angelababy",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-peng_yuyan",
+              "name": "彭于晏",
+              "prompt": "Eddie Peng, Taiwanese-Canadian actor",
+              "original_id": "peng_yuyan",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-zhou_dongyu",
+              "name": "周冬雨",
+              "prompt": "Zhou Dongyu, Chinese actress",
+              "original_id": "zhou_dongyu",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-huang_xiaoming",
+              "name": "黄晓明",
+              "prompt": "Huang Xiaoming, Chinese actor",
+              "original_id": "huang_xiaoming",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-li_bingbing",
+              "name": "李冰冰",
+              "prompt": "Li Bingbing, Chinese actress",
+              "original_id": "li_bingbing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-zhang_manyu",
+              "name": "张曼玉",
+              "prompt": "Maggie Cheung, Hong Kong actress",
+              "original_id": "zhang_manyu",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "c_singer",
+          "name": "华语歌手",
+          "presets": [
+            {
+              "id": "tag-celebrity-jay_chou",
+              "name": "周杰伦",
+              "prompt": "Jay Chou, Taiwanese singer",
+              "original_id": "jay_chou",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-jj_lin",
+              "name": "林俊杰",
+              "prompt": "JJ Lin, Singaporean singer",
+              "original_id": "jj_lin",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-jacky_cheung",
+              "name": "张学友",
+              "prompt": "Jacky Cheung, Hong Kong singer",
+              "original_id": "jacky_cheung",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-eason_chan",
+              "name": "陈奕迅",
+              "prompt": "Eason Chan, Hong Kong singer",
+              "original_id": "eason_chan",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-wang_faye",
+              "name": "王菲",
+              "prompt": "Faye Wong, Chinese singer",
+              "original_id": "wang_faye",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-teresa_teng",
+              "name": "邓丽君",
+              "prompt": "Teresa Teng, Taiwanese singer",
+              "original_id": "teresa_teng",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-jolin_tsai",
+              "name": "蔡依林",
+              "prompt": "Jolin Tsai, Taiwanese singer",
+              "original_id": "jolin_tsai",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-a_mei",
+              "name": "张惠妹",
+              "prompt": "A-Mei, Taiwanese singer",
+              "original_id": "a_mei",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-g_e_m",
+              "name": "邓紫棋",
+              "prompt": "G.E.M., Chinese singer",
+              "original_id": "g_e_m",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-li_ronghao",
+              "name": "李荣浩",
+              "prompt": "Li Ronghao, Chinese singer",
+              "original_id": "li_ronghao",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-mayday_ashin",
+              "name": "阿信(五月天)",
+              "prompt": "Ashin, Mayday vocalist",
+              "original_id": "mayday_ashin",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-hebe_tien",
+              "name": "田馥甄",
+              "prompt": "Hebe Tien, Taiwanese singer",
+              "original_id": "hebe_tien",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-sodagreen",
+              "name": "吴青峰",
+              "prompt": "Wu Qingfeng, Sodagreen vocalist",
+              "original_id": "sodagreen",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-xue_zhiqian",
+              "name": "薛之谦",
+              "prompt": "Xue Zhiqian, Chinese singer",
+              "original_id": "xue_zhiqian",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-mao_buyi",
+              "name": "毛不易",
+              "prompt": "Mao Buyi, Chinese singer-songwriter",
+              "original_id": "mao_buyi",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-hua_chenyu",
+              "name": "华晨宇",
+              "prompt": "Hua Chenyu, Chinese singer",
+              "original_id": "hua_chenyu",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-zhang_bichen",
+              "name": "张碧晨",
+              "prompt": "Zhang Bichen, Chinese singer",
+              "original_id": "zhang_bichen",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-zhou_shen",
+              "name": "周深",
+              "prompt": "Zhou Shen, Chinese singer",
+              "original_id": "zhou_shen",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-liu_dehua",
+              "name": "刘德华",
+              "prompt": "Andy Lau, Hong Kong singer",
+              "original_id": "liu_dehua",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-wang_lan_yin",
+              "name": "王力宏",
+              "prompt": "Wang Leehom, Taiwanese-American singer",
+              "original_id": "wang_lan_yin",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-david_tao",
+              "name": "陶喆",
+              "prompt": "David Tao, Taiwanese singer",
+              "original_id": "david_tao",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-na_ying",
+              "name": "那英",
+              "prompt": "Na Ying, Chinese singer",
+              "original_id": "na_ying",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-sun_yanzi",
+              "name": "孙燕姿",
+              "prompt": "Stefanie Sun, Singaporean singer",
+              "original_id": "sun_yanzi",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-karen_mok",
+              "name": "莫文蔚",
+              "prompt": "Karen Mok, Hong Kong singer",
+              "original_id": "karen_mok",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-coco_lee",
+              "name": "李玟",
+              "prompt": "Coco Lee, Chinese-American singer",
+              "original_id": "coco_lee",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-liu_ruoying",
+              "name": "刘若英",
+              "prompt": "Rene Liu, Taiwanese singer and actress",
+              "original_id": "liu_ruoying",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-mayday",
+              "name": "五月天",
+              "prompt": "Mayday, Taiwanese rock band",
+              "original_id": "mayday",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-li_yuchun",
+              "name": "李宇春",
+              "prompt": "Li Yuchun, Chinese singer",
+              "original_id": "li_yuchun",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-she",
+              "name": "S.H.E",
+              "prompt": "S.H.E, Taiwanese girl group",
+              "original_id": "she",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "w_drama",
+          "name": "欧美影视",
+          "presets": [
+            {
+              "id": "tag-celebrity-leonardo_dicaprio",
+              "name": "莱昂纳多·迪卡普里奥",
+              "prompt": "Leonardo DiCaprio, American actor",
+              "original_id": "leonardo_dicaprio",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-brad_pitt",
+              "name": "布拉德·皮特",
+              "prompt": "Brad Pitt, American actor",
+              "original_id": "brad_pitt",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-tom_cruise",
+              "name": "汤姆·克鲁斯",
+              "prompt": "Tom Cruise, American actor",
+              "original_id": "tom_cruise",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-robert_downey_jr",
+              "name": "小罗伯特·唐尼",
+              "prompt": "Robert Downey Jr., American actor",
+              "original_id": "robert_downey_jr",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-johnny_depp",
+              "name": "约翰尼·德普",
+              "prompt": "Johnny Depp, American actor",
+              "original_id": "johnny_depp",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-keanu_reeves",
+              "name": "基努·里维斯",
+              "prompt": "Keanu Reeves, Canadian actor",
+              "original_id": "keanu_reeves",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-scarlett_johansson",
+              "name": "斯嘉丽·约翰逊",
+              "prompt": "Scarlett Johansson, American actress",
+              "original_id": "scarlett_johansson",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-tom_hanks",
+              "name": "汤姆·汉克斯",
+              "prompt": "Tom Hanks, American actor",
+              "original_id": "tom_hanks",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-morgan_freeman",
+              "name": "摩根·弗里曼",
+              "prompt": "Morgan Freeman, American actor",
+              "original_id": "morgan_freeman",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-meryl_streep",
+              "name": "梅丽尔·斯特里普",
+              "prompt": "Meryl Streep, American actress",
+              "original_id": "meryl_streep",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-angelina_jolie",
+              "name": "安吉丽娜·朱莉",
+              "prompt": "Angelina Jolie, American actress",
+              "original_id": "angelina_jolie",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-natalie_portman",
+              "name": "娜塔莉·波特曼",
+              "prompt": "Natalie Portman, American-Israeli actress",
+              "original_id": "natalie_portman",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-chris_hemsworth",
+              "name": "克里斯·海姆斯沃斯",
+              "prompt": "Chris Hemsworth, Australian actor",
+              "original_id": "chris_hemsworth",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-chris_evans",
+              "name": "克里斯·埃文斯",
+              "prompt": "Chris Evans, American actor",
+              "original_id": "chris_evans",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-benedict_cumberbatch",
+              "name": "本尼迪克特·康伯巴奇",
+              "prompt": "Benedict Cumberbatch, British actor",
+              "original_id": "benedict_cumberbatch",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-emma_watson",
+              "name": "艾玛·沃特森",
+              "prompt": "Emma Watson, British actress",
+              "original_id": "emma_watson",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-jennifer_lawrence",
+              "name": "詹妮弗·劳伦斯",
+              "prompt": "Jennifer Lawrence, American actress",
+              "original_id": "jennifer_lawrence",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-ryan_gosling",
+              "name": "瑞恩·高斯林",
+              "prompt": "Ryan Gosling, Canadian actor",
+              "original_id": "ryan_gosling",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-will_smith",
+              "name": "威尔·史密斯",
+              "prompt": "Will Smith, American actor",
+              "original_id": "will_smith",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-denzel_washington",
+              "name": "丹泽尔·华盛顿",
+              "prompt": "Denzel Washington, American actor",
+              "original_id": "denzel_washington",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-cate_blanchett",
+              "name": "凯特·布兰切特",
+              "prompt": "Cate Blanchett, Australian actress",
+              "original_id": "cate_blanchett",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-timothee_chalamet",
+              "name": "提莫西·查拉梅",
+              "prompt": "Timothee Chalamet, American actor",
+              "original_id": "timothee_chalamet",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-tom_holland",
+              "name": "汤姆·赫兰德",
+              "prompt": "Tom Holland, British actor",
+              "original_id": "tom_holland",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-margot_robbie",
+              "name": "玛格特·罗比",
+              "prompt": "Margot Robbie, Australian actress",
+              "original_id": "margot_robbie",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-jake_gyllenhaal",
+              "name": "杰克·吉伦哈尔",
+              "prompt": "Jake Gyllenhaal, American actor",
+              "original_id": "jake_gyllenhaal",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-matt_damon",
+              "name": "马特·达蒙",
+              "prompt": "Matt Damon, American actor",
+              "original_id": "matt_damon",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-james_cameron",
+              "name": "詹姆斯·卡梅隆",
+              "prompt": "James Cameron, Canadian film director",
+              "original_id": "james_cameron",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-christopher_nolan",
+              "name": "克里斯托弗·诺兰",
+              "prompt": "Christopher Nolan, British-American film director",
+              "original_id": "christopher_nolan",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-quentin_tarantino",
+              "name": "昆汀·塔伦蒂诺",
+              "prompt": "Quentin Tarantino, American film director",
+              "original_id": "quentin_tarantino",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-anne_hathaway",
+              "name": "安妮·海瑟薇",
+              "prompt": "Anne Hathaway, American actress",
+              "original_id": "anne_hathaway",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-charlize_theron",
+              "name": "查理兹·塞隆",
+              "prompt": "Charlize Theron, South African-American actress",
+              "original_id": "charlize_theron",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-samuel_l_jackson",
+              "name": "塞缪尔·杰克逊",
+              "prompt": "Samuel L. Jackson, American actor",
+              "original_id": "samuel_l_jackson",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-ryan_reynolds",
+              "name": "瑞安·雷诺兹",
+              "prompt": "Ryan Reynolds, Canadian-American actor",
+              "original_id": "ryan_reynolds",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-zendaya",
+              "name": "赞达亚",
+              "prompt": "Zendaya, American actress",
+              "original_id": "zendaya",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-dwayne_johnson",
+              "name": "道恩·强森",
+              "prompt": "Dwayne Johnson, American actor",
+              "original_id": "dwayne_johnson",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-jason_statham",
+              "name": "杰森·斯坦森",
+              "prompt": "Jason Statham, British actor",
+              "original_id": "jason_statham",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-vin_diesel",
+              "name": "范·迪塞尔",
+              "prompt": "Vin Diesel, American actor",
+              "original_id": "vin_diesel",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "w_singer",
+          "name": "欧美歌手",
+          "presets": [
+            {
+              "id": "tag-celebrity-taylor_swift",
+              "name": "泰勒·斯威夫特",
+              "prompt": "Taylor Swift, American singer-songwriter",
+              "original_id": "taylor_swift",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-beyonce",
+              "name": "碧昂丝",
+              "prompt": "Beyonce, American singer",
+              "original_id": "beyonce",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-rihanna",
+              "name": "蕾哈娜",
+              "prompt": "Rihanna, Barbadian singer",
+              "original_id": "rihanna",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-lady_gaga",
+              "name": "Lady Gaga",
+              "prompt": "Lady Gaga, American singer",
+              "original_id": "lady_gaga",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-adele",
+              "name": "阿黛尔",
+              "prompt": "Adele, British singer",
+              "original_id": "adele",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-ed_sheeran",
+              "name": "艾德·希兰",
+              "prompt": "Ed Sheeran, British singer-songwriter",
+              "original_id": "ed_sheeran",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-bruno_mars",
+              "name": "布鲁诺·马尔斯",
+              "prompt": "Bruno Mars, American singer",
+              "original_id": "bruno_mars",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-justin_bieber",
+              "name": "贾斯汀·比伯",
+              "prompt": "Justin Bieber, Canadian singer",
+              "original_id": "justin_bieber",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-ariana_grande",
+              "name": "爱莉安娜·格兰德",
+              "prompt": "Ariana Grande, American singer",
+              "original_id": "ariana_grande",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-billie_eilish",
+              "name": "比莉·艾利什",
+              "prompt": "Billie Eilish, American singer",
+              "original_id": "billie_eilish",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-the_weeknd",
+              "name": "威肯",
+              "prompt": "The Weeknd, Canadian singer",
+              "original_id": "the_weeknd",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-drake",
+              "name": "德雷克",
+              "prompt": "Drake, Canadian rapper",
+              "original_id": "drake",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-eminem",
+              "name": "埃米纳姆",
+              "prompt": "Eminem, American rapper",
+              "original_id": "eminem",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-kendrick_lamar",
+              "name": "肯德里克·拉马尔",
+              "prompt": "Kendrick Lamar, American rapper",
+              "original_id": "kendrick_lamar",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-madonna",
+              "name": "麦当娜",
+              "prompt": "Madonna, American singer",
+              "original_id": "madonna",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-britney_spears",
+              "name": "布兰妮·斯皮尔斯",
+              "prompt": "Britney Spears, American singer",
+              "original_id": "britney_spears",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-shakira",
+              "name": "夏奇拉",
+              "prompt": "Shakira, Colombian singer",
+              "original_id": "shakira",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-michael_jackson",
+              "name": "迈克尔·杰克逊",
+              "prompt": "Michael Jackson, American singer, King of Pop",
+              "original_id": "michael_jackson",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-freddie_mercury",
+              "name": "弗雷迪·默丘里",
+              "prompt": "Freddie Mercury, Queen vocalist",
+              "original_id": "freddie_mercury",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-elton_john",
+              "name": "埃尔顿·约翰",
+              "prompt": "Elton John, British singer",
+              "original_id": "elton_john",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-david_bowie",
+              "name": "大卫·鲍伊",
+              "prompt": "David Bowie, British singer",
+              "original_id": "david_bowie",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-whitney_houston",
+              "name": "惠特妮·休斯顿",
+              "prompt": "Whitney Houston, American singer",
+              "original_id": "whitney_houston",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-mariah_carey",
+              "name": "玛丽亚·凯莉",
+              "prompt": "Mariah Carey, American singer",
+              "original_id": "mariah_carey",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-katy_perry",
+              "name": "凯蒂·佩里",
+              "prompt": "Katy Perry, American singer",
+              "original_id": "katy_perry",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-elvis_presley",
+              "name": "猫王",
+              "prompt": "Elvis Presley, American singer, King of Rock",
+              "original_id": "elvis_presley",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-selena_gomez",
+              "name": "赛琳娜·戈麦斯",
+              "prompt": "Selena Gomez, American singer",
+              "original_id": "selena_gomez",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-harry_styles",
+              "name": "哈里·斯泰尔斯",
+              "prompt": "Harry Styles, British singer",
+              "original_id": "harry_styles",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-dua_lipa",
+              "name": "杜阿·利帕",
+              "prompt": "Dua Lipa, British-Albanian singer",
+              "original_id": "dua_lipa",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-miley_cyrus",
+              "name": "麦莉·赛勒斯",
+              "prompt": "Miley Cyrus, American singer",
+              "original_id": "miley_cyrus",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-lana_del_rey",
+              "name": "拉娜·德雷",
+              "prompt": "Lana Del Rey, American singer-songwriter",
+              "original_id": "lana_del_rey",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "jk_idol",
+          "name": "日韩艺人",
+          "presets": [
+            {
+              "id": "tag-celebrity-kim_soo_hyun",
+              "name": "金秀贤",
+              "prompt": "Kim Soo-hyun, South Korean actor",
+              "original_id": "kim_soo_hyun",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-lee_min_ho",
+              "name": "李敏镐",
+              "prompt": "Lee Min-ho, South Korean actor",
+              "original_id": "lee_min_ho",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-hyun_bin",
+              "name": "玄彬",
+              "prompt": "Hyun Bin, South Korean actor",
+              "original_id": "hyun_bin",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-gong_yoo",
+              "name": "孔刘",
+              "prompt": "Gong Yoo, South Korean actor",
+              "original_id": "gong_yoo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-song_joong_ki",
+              "name": "宋仲基",
+              "prompt": "Song Joong-ki, South Korean actor",
+              "original_id": "song_joong_ki",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-park_seo_joon",
+              "name": "朴叙俊",
+              "prompt": "Park Seo-joon, South Korean actor",
+              "original_id": "park_seo_joon",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-song_hye_kyo",
+              "name": "宋慧乔",
+              "prompt": "Song Hye-kyo, South Korean actress",
+              "original_id": "song_hye_kyo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-jun_ji_hyun",
+              "name": "全智贤",
+              "prompt": "Jun Ji-hyun, South Korean actress",
+              "original_id": "jun_ji_hyun",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-iu",
+              "name": "IU",
+              "prompt": "IU, South Korean singer and actress",
+              "original_id": "iu",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-suzy",
+              "name": "裴秀智",
+              "prompt": "Bae Suzy, South Korean actress and singer",
+              "original_id": "suzy",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-kim_tae_ri",
+              "name": "金泰梨",
+              "prompt": "Kim Tae-ri, South Korean actress",
+              "original_id": "kim_tae_ri",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-kim_go_eun",
+              "name": "金高银",
+              "prompt": "Kim Go-eun, South Korean actress",
+              "original_id": "kim_go_eun",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-lee_jung_jae",
+              "name": "李政宰",
+              "prompt": "Lee Jung-jae, South Korean actor",
+              "original_id": "lee_jung_jae",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-yoo_ah_in",
+              "name": "刘亚仁",
+              "prompt": "Yoo Ah-in, South Korean actor",
+              "original_id": "yoo_ah_in",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-ma_dong_seok",
+              "name": "马东锡",
+              "prompt": "Ma Dong-seok, South Korean actor",
+              "original_id": "ma_dong_seok",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-sato_takeru",
+              "name": "佐藤健",
+              "prompt": "Takeru Satoh, Japanese actor",
+              "original_id": "sato_takeru",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-yamazaki_kento",
+              "name": "山崎贤人",
+              "prompt": "Kento Yamazaki, Japanese actor",
+              "original_id": "yamazaki_kento",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-kento_nagayama",
+              "name": "永山绚斗",
+              "prompt": "Kento Nagayama, Japanese actor",
+              "original_id": "kento_nagayama",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-arimura_kasumi",
+              "name": "有村架纯",
+              "prompt": "Kasumi Arimura, Japanese actress",
+              "original_id": "arimura_kasumi",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-nagano_mei",
+              "name": "永野芽郁",
+              "prompt": "Mei Nagano, Japanese actress",
+              "original_id": "nagano_mei",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-ishihara_satomi",
+              "name": "石原里美",
+              "prompt": "Satomi Ishihara, Japanese actress",
+              "original_id": "ishihara_satomi",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-yui_aragaki",
+              "name": "新垣结衣",
+              "prompt": "Yui Aragaki, Japanese actress",
+              "original_id": "yui_aragaki",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-oguri_shun",
+              "name": "小栗旬",
+              "prompt": "Shun Oguri, Japanese actor",
+              "original_id": "oguri_shun",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-miura_haruma",
+              "name": "三浦春马",
+              "prompt": "Haruma Miura, Japanese actor",
+              "original_id": "miura_haruma",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-song_kang",
+              "name": "宋江",
+              "prompt": "Song Kang, South Korean actor",
+              "original_id": "song_kang",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-cha_eun_woo",
+              "name": "车银优",
+              "prompt": "Cha Eun-woo, South Korean singer and actor",
+              "original_id": "cha_eun_woo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-nam_joo_hyuk",
+              "name": "南柱赫",
+              "prompt": "Nam Joo-hyuk, South Korean actor",
+              "original_id": "nam_joo_hyuk",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-park_bo_gum",
+              "name": "朴宝剑",
+              "prompt": "Park Bo-gum, South Korean actor",
+              "original_id": "park_bo_gum",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-hashimoto_kanna",
+              "name": "桥本环奈",
+              "prompt": "Kanna Hashimoto, Japanese actress",
+              "original_id": "hashimoto_kanna",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-kimura_takuya",
+              "name": "木村拓哉",
+              "prompt": "Takuya Kimura, Japanese actor and singer",
+              "original_id": "kimura_takuya",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-hamasaki_ayumi",
+              "name": "滨崎步",
+              "prompt": "Ayumi Hamasaki, Japanese singer",
+              "original_id": "hamasaki_ayumi",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-miyazaki_aoi",
+              "name": "宫崎葵",
+              "prompt": "Aoi Miyazaki, Japanese actress",
+              "original_id": "miyazaki_aoi",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-ayase_haruka",
+              "name": "绫濑遥",
+              "prompt": "Haruka Ayase, Japanese actress",
+              "original_id": "ayase_haruka",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-nagasawa_masami",
+              "name": "长泽雅美",
+              "prompt": "Masami Nagasawa, Japanese actress",
+              "original_id": "nagasawa_masami",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-suda_masaki",
+              "name": "菅田将晖",
+              "prompt": "Masaki Suda, Japanese actor and singer",
+              "original_id": "suda_masaki",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-son_ye_jin",
+              "name": "孙艺珍",
+              "prompt": "Son Ye-jin, South Korean actress",
+              "original_id": "son_ye_jin",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "jk_singer",
+          "name": "日韩歌手",
+          "presets": [
+            {
+              "id": "tag-celebrity-bts",
+              "name": "BTS 防弹少年团",
+              "prompt": "BTS, South Korean boy band",
+              "original_id": "bts",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-blackpink",
+              "name": "BLACKPINK",
+              "prompt": "BLACKPINK, South Korean girl group",
+              "original_id": "blackpink",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-twice",
+              "name": "TWICE",
+              "prompt": "TWICE, South Korean girl group",
+              "original_id": "twice",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-exo",
+              "name": "EXO",
+              "prompt": "EXO, South Korean boy band",
+              "original_id": "exo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-red_velvet",
+              "name": "Red Velvet",
+              "prompt": "Red Velvet, South Korean girl group",
+              "original_id": "red_velvet",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-newjeans",
+              "name": "NewJeans",
+              "prompt": "NewJeans, South Korean girl group",
+              "original_id": "newjeans",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-ive",
+              "name": "IVE",
+              "prompt": "IVE, South Korean girl group",
+              "original_id": "ive",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-aespa",
+              "name": "aespa",
+              "prompt": "aespa, South Korean girl group",
+              "original_id": "aespa",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-seventeen",
+              "name": "SEVENTEEN",
+              "prompt": "SEVENTEEN, South Korean boy band",
+              "original_id": "seventeen",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-stray_kids",
+              "name": "Stray Kids",
+              "prompt": "Stray Kids, South Korean boy band",
+              "original_id": "stray_kids",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-jennie",
+              "name": "金珍妮(Jennie)",
+              "prompt": "Jennie Kim, BLACKPINK member",
+              "original_id": "jennie",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-lisa",
+              "name": "LISA",
+              "prompt": "Lalisa Manobal, BLACKPINK member",
+              "original_id": "lisa",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-taeyeon",
+              "name": "金泰妍",
+              "prompt": "Kim Taeyeon, Girls' Generation member",
+              "original_id": "taeyeon",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-gdragon",
+              "name": "G-Dragon",
+              "prompt": "G-Dragon, BIGBANG leader",
+              "original_id": "gdragon",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-yoasobi",
+              "name": "YOASOBI",
+              "prompt": "YOASOBI, Japanese music duo",
+              "original_id": "yoasobi",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-ado",
+              "name": "Ado",
+              "prompt": "Ado, Japanese singer",
+              "original_id": "ado",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-hikaru_utada",
+              "name": "宇多田光",
+              "prompt": "Hikaru Utada, Japanese singer",
+              "original_id": "hikaru_utada",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-kenshi_yonezu",
+              "name": "米津玄师",
+              "prompt": "Kenshi Yonezu, Japanese singer",
+              "original_id": "kenshi_yonezu",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-radwimps",
+              "name": "RADWIMPS",
+              "prompt": "RADWIMPS, Japanese rock band",
+              "original_id": "radwimps",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-official_hige_dandism",
+              "name": "Official髭男dism",
+              "prompt": "Official Hige Dandism, Japanese band",
+              "original_id": "official_hige_dandism",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-aimer",
+              "name": "Aimer",
+              "prompt": "Aimer, Japanese singer",
+              "original_id": "aimer",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-lisa_jp",
+              "name": "LiSA",
+              "prompt": "LiSA, Japanese singer",
+              "original_id": "lisa_jp",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-eve_jp",
+              "name": "Eve",
+              "prompt": "Eve, Japanese singer",
+              "original_id": "eve_jp",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-milet",
+              "name": "milet",
+              "prompt": "milet, Japanese singer-songwriter",
+              "original_id": "milet",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-bigbang",
+              "name": "BIGBANG",
+              "prompt": "BIGBANG, South Korean boy band",
+              "original_id": "bigbang",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-girls_generation",
+              "name": "少女时代",
+              "prompt": "Girls' Generation, South Korean girl group",
+              "original_id": "girls_generation",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-nct",
+              "name": "NCT",
+              "prompt": "NCT, South Korean boy band",
+              "original_id": "nct",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-nogizaka46",
+              "name": "乃木坂46",
+              "prompt": "Nogizaka46, Japanese idol group",
+              "original_id": "nogizaka46",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-akb48",
+              "name": "AKB48",
+              "prompt": "AKB48, Japanese idol group",
+              "original_id": "akb48",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-aimyon",
+              "name": "Aimyon",
+              "prompt": "Aimyon, Japanese singer-songwriter",
+              "original_id": "aimyon",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "sports",
+          "name": "体育明星",
+          "presets": [
+            {
+              "id": "tag-celebrity-michael_jordan",
+              "name": "迈克尔·乔丹",
+              "prompt": "Michael Jordan, American basketball player",
+              "original_id": "michael_jordan",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-lebron_james",
+              "name": "勒布朗·詹姆斯",
+              "prompt": "LeBron James, American basketball player",
+              "original_id": "lebron_james",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-kobe_bryant",
+              "name": "科比·布莱恩特",
+              "prompt": "Kobe Bryant, American basketball player",
+              "original_id": "kobe_bryant",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-stephen_curry",
+              "name": "史蒂芬·库里",
+              "prompt": "Stephen Curry, American basketball player",
+              "original_id": "stephen_curry",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-kevin_durant",
+              "name": "凯文·杜兰特",
+              "prompt": "Kevin Durant, American basketball player",
+              "original_id": "kevin_durant",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-lionel_messi",
+              "name": "里奥·梅西",
+              "prompt": "Lionel Messi, Argentine footballer",
+              "original_id": "lionel_messi",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-cristiano_ronaldo",
+              "name": "C罗",
+              "prompt": "Cristiano Ronaldo, Portuguese footballer",
+              "original_id": "cristiano_ronaldo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-neymar",
+              "name": "内马尔",
+              "prompt": "Neymar, Brazilian footballer",
+              "original_id": "neymar",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-kylian_mbappe",
+              "name": "基利安·姆巴佩",
+              "prompt": "Kylian Mbappe, French footballer",
+              "original_id": "kylian_mbappe",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-david_beckham",
+              "name": "大卫·贝克汉姆",
+              "prompt": "David Beckham, English footballer",
+              "original_id": "david_beckham",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-roger_federer",
+              "name": "罗杰·费德勒",
+              "prompt": "Roger Federer, Swiss tennis player",
+              "original_id": "roger_federer",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-rafael_nadal",
+              "name": "拉斐尔·纳达尔",
+              "prompt": "Rafael Nadal, Spanish tennis player",
+              "original_id": "rafael_nadal",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-novak_djokovic",
+              "name": "诺瓦克·德约科维奇",
+              "prompt": "Novak Djokovic, Serbian tennis player",
+              "original_id": "novak_djokovic",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-serena_williams",
+              "name": "塞雷娜·威廉姆斯",
+              "prompt": "Serena Williams, American tennis player",
+              "original_id": "serena_williams",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-usain_bolt",
+              "name": "尤塞恩·博尔特",
+              "prompt": "Usain Bolt, Jamaican sprinter",
+              "original_id": "usain_bolt",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-michael_phelps",
+              "name": "迈克尔·菲尔普斯",
+              "prompt": "Michael Phelps, American swimmer",
+              "original_id": "michael_phelps",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-tiger_woods",
+              "name": "泰格·伍兹",
+              "prompt": "Tiger Woods, American golfer",
+              "original_id": "tiger_woods",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-liu_xiang",
+              "name": "刘翔",
+              "prompt": "Liu Xiang, Chinese hurdler",
+              "original_id": "liu_xiang",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-yao_ming",
+              "name": "姚明",
+              "prompt": "Yao Ming, Chinese basketball player",
+              "original_id": "yao_ming",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-sun_yang",
+              "name": "孙杨",
+              "prompt": "Sun Yang, Chinese swimmer",
+              "original_id": "sun_yang",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-gu_ailing",
+              "name": "谷爱凌",
+              "prompt": "Eileen Gu, Chinese freestyle skier",
+              "original_id": "gu_ailing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-oshohei_ohtani",
+              "name": "大谷翔平",
+              "prompt": "Shohei Ohtani, Japanese baseball player",
+              "original_id": "oshohei_ohtani",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-simone_biles",
+              "name": "西蒙·拜尔斯",
+              "prompt": "Simone Biles, American gymnast",
+              "original_id": "simone_biles",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-conor_mcgregor",
+              "name": "康纳·麦格雷戈",
+              "prompt": "Conor McGregor, Irish MMA fighter",
+              "original_id": "conor_mcgregor",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-lewis_hamilton",
+              "name": "刘易斯·汉密尔顿",
+              "prompt": "Lewis Hamilton, British F1 driver",
+              "original_id": "lewis_hamilton",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-alexander_ovechkin",
+              "name": "亚历山大·奥维契金",
+              "prompt": "Alexander Ovechkin, Russian hockey player",
+              "original_id": "alexander_ovechkin",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "influencer",
+          "name": "网红名人",
+          "presets": [
+            {
+              "id": "tag-celebrity-mr_beast",
+              "name": "MrBeast",
+              "prompt": "MrBeast, American YouTuber",
+              "original_id": "mr_beast",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-pewdiepie",
+              "name": "PewDiePie",
+              "prompt": "PewDiePie, Swedish YouTuber",
+              "original_id": "pewdiepie",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-kylie_jenner",
+              "name": "凯莉·詹娜",
+              "prompt": "Kylie Jenner, American influencer",
+              "original_id": "kylie_jenner",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-kim_kardashian",
+              "name": "金·卡戴珊",
+              "prompt": "Kim Kardashian, American media personality",
+              "original_id": "kim_kardashian",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-logan_paul",
+              "name": "洛根·保罗",
+              "prompt": "Logan Paul, American YouTuber",
+              "original_id": "logan_paul",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-pokimane",
+              "name": "Pokimane",
+              "prompt": "Pokimane, Moroccan-Canadian streamer",
+              "original_id": "pokimane",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-ninja",
+              "name": "Ninja",
+              "prompt": "Ninja, American streamer",
+              "original_id": "ninja",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-li_jiaqi",
+              "name": "李佳琦",
+              "prompt": "Li Jiaqi, Chinese livestreamer",
+              "original_id": "li_jiaqi",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-dong_yuhui",
+              "name": "董宇辉",
+              "prompt": "Dong Yuhui, Chinese livestreamer",
+              "original_id": "dong_yuhui",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-li_ziqi",
+              "name": "李子柒",
+              "prompt": "Li Ziqi, Chinese food vlogger",
+              "original_id": "li_ziqi",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-papi_jiang",
+              "name": "papi酱",
+              "prompt": "Papi Jiang, Chinese internet celebrity",
+              "original_id": "papi_jiang",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-luo_yonghao",
+              "name": "罗永浩",
+              "prompt": "Luo Yonghao, Chinese entrepreneur and streamer",
+              "original_id": "luo_yonghao",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-ice_spice",
+              "name": "Ice Spice",
+              "prompt": "Ice Spice, American rapper and influencer",
+              "original_id": "ice_spice",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-addison_rae",
+              "name": "艾迪森·雷",
+              "prompt": "Addison Rae, American TikTok star",
+              "original_id": "addison_rae",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-charli_damelio",
+              "name": "查莉·达梅里奥",
+              "prompt": "Charli D'Amelio, American TikTok star",
+              "original_id": "charli_damelio",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-emma_chamberlain",
+              "name": "艾玛·张伯伦",
+              "prompt": "Emma Chamberlain, American YouTuber",
+              "original_id": "emma_chamberlain",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-xqc",
+              "name": "xQc",
+              "prompt": "xQc, Canadian streamer",
+              "original_id": "xqc",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-ironmouse",
+              "name": "Ironmouse",
+              "prompt": "Ironmouse, Puerto Rican VTuber",
+              "original_id": "ironmouse",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-gawr_gura",
+              "name": "Gawr Gura",
+              "prompt": "Gawr Gura, Hololive VTuber",
+              "original_id": "gawr_gura",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-kizuna_ai",
+              "name": "绊爱",
+              "prompt": "Kizuna AI, Japanese VTuber",
+              "original_id": "kizuna_ai",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-kendall_jenner",
+              "name": "肯达尔·詹娜",
+              "prompt": "Kendall Jenner, American model and influencer",
+              "original_id": "kendall_jenner",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "historical",
+          "name": "历史名人",
+          "presets": [
+            {
+              "id": "tag-celebrity-albert_einstein",
+              "name": "阿尔伯特·爱因斯坦",
+              "prompt": "Albert Einstein, physicist",
+              "original_id": "albert_einstein",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-isaac_newton",
+              "name": "艾萨克·牛顿",
+              "prompt": "Isaac Newton, English physicist",
+              "original_id": "isaac_newton",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-nikola_tesla",
+              "name": "尼古拉·特斯拉",
+              "prompt": "Nikola Tesla, inventor and engineer",
+              "original_id": "nikola_tesla",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-thomas_edison",
+              "name": "托马斯·爱迪生",
+              "prompt": "Thomas Edison, American inventor",
+              "original_id": "thomas_edison",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-marie_curie",
+              "name": "玛丽·居里",
+              "prompt": "Marie Curie, physicist and chemist",
+              "original_id": "marie_curie",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-leonardo_da_vinci",
+              "name": "列奥纳多·达·芬奇",
+              "prompt": "Leonardo da Vinci, Italian polymath",
+              "original_id": "leonardo_da_vinci",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-william_shakespeare",
+              "name": "威廉·莎士比亚",
+              "prompt": "William Shakespeare, English playwright",
+              "original_id": "william_shakespeare",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-napoleon_bonaparte",
+              "name": "拿破仑·波拿巴",
+              "prompt": "Napoleon Bonaparte, French emperor",
+              "original_id": "napoleon_bonaparte",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-winston_churchill",
+              "name": "温斯顿·丘吉尔",
+              "prompt": "Winston Churchill, British prime minister",
+              "original_id": "winston_churchill",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-abraham_lincoln",
+              "name": "亚伯拉罕·林肯",
+              "prompt": "Abraham Lincoln, American president",
+              "original_id": "abraham_lincoln",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-george_washington",
+              "name": "乔治·华盛顿",
+              "prompt": "George Washington, American founding father",
+              "original_id": "george_washington",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-cleopatra",
+              "name": "克利奥帕特拉七世",
+              "prompt": "Cleopatra, Egyptian queen",
+              "original_id": "cleopatra",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-julius_caesar",
+              "name": "尤利乌斯·凯撒",
+              "prompt": "Julius Caesar, Roman dictator",
+              "original_id": "julius_caesar",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-qin_shihuang",
+              "name": "秦始皇",
+              "prompt": "Qin Shi Huang, first Emperor of China",
+              "original_id": "qin_shihuang",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-cao_cao",
+              "name": "曹操",
+              "prompt": "Cao Cao, Chinese warlord and poet",
+              "original_id": "cao_cao",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-zhuge_liang",
+              "name": "诸葛亮",
+              "prompt": "Zhuge Liang, Chinese strategist",
+              "original_id": "zhuge_liang",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-li_bai",
+              "name": "李白",
+              "prompt": "Li Bai, Chinese poet",
+              "original_id": "li_bai",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-confucius",
+              "name": "孔子",
+              "prompt": "Confucius, Chinese philosopher",
+              "original_id": "confucius",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-sun_tzu",
+              "name": "孙子",
+              "prompt": "Sun Tzu, Chinese military strategist",
+              "original_id": "sun_tzu",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-genghis_khan",
+              "name": "成吉思汗",
+              "prompt": "Genghis Khan, Mongol emperor",
+              "original_id": "genghis_khan",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-alexander_the_great",
+              "name": "亚历山大大帝",
+              "prompt": "Alexander the Great, Macedonian king",
+              "original_id": "alexander_the_great",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-martin_luther_king",
+              "name": "马丁·路德·金",
+              "prompt": "Martin Luther King Jr., civil rights leader",
+              "original_id": "martin_luther_king",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-nelson_mandela",
+              "name": "纳尔逊·曼德拉",
+              "prompt": "Nelson Mandela, South African president",
+              "original_id": "nelson_mandela",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-vincent_van_gogh",
+              "name": "文森特·梵高",
+              "prompt": "Vincent van Gogh, Dutch painter",
+              "original_id": "vincent_van_gogh",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-pablo_picasso",
+              "name": "巴勃罗·毕加索",
+              "prompt": "Pablo Picasso, Spanish painter",
+              "original_id": "pablo_picasso",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-frida_kahlo",
+              "name": "弗里达·卡罗",
+              "prompt": "Frida Kahlo, Mexican painter",
+              "original_id": "frida_kahlo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-mozart",
+              "name": "沃尔夫冈·莫扎特",
+              "prompt": "Wolfgang Amadeus Mozart, Austrian composer",
+              "original_id": "mozart",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-beethoven",
+              "name": "路德维希·贝多芬",
+              "prompt": "Ludwig van Beethoven, German composer",
+              "original_id": "beethoven",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-mahatma_gandhi",
+              "name": "圣雄甘地",
+              "prompt": "Mahatma Gandhi, Indian independence leader",
+              "original_id": "mahatma_gandhi",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-marilyn_monroe",
+              "name": "玛丽莲·梦露",
+              "prompt": "Marilyn Monroe, American actress and model",
+              "original_id": "marilyn_monroe",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-princess_diana",
+              "name": "戴安娜王妃",
+              "prompt": "Princess Diana, Princess of Wales",
+              "original_id": "princess_diana",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "public",
+          "name": "政商名人",
+          "presets": [
+            {
+              "id": "tag-celebrity-steve_jobs",
+              "name": "史蒂夫·乔布斯",
+              "prompt": "Steve Jobs, Apple co-founder",
+              "original_id": "steve_jobs",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-bill_gates",
+              "name": "比尔·盖茨",
+              "prompt": "Bill Gates, Microsoft co-founder",
+              "original_id": "bill_gates",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-elon_musk",
+              "name": "埃隆·马斯克",
+              "prompt": "Elon Musk, Tesla and SpaceX CEO",
+              "original_id": "elon_musk",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-jeff_bezos",
+              "name": "杰夫·贝索斯",
+              "prompt": "Jeff Bezos, Amazon founder",
+              "original_id": "jeff_bezos",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-mark_zuckerberg",
+              "name": "马克·扎克伯格",
+              "prompt": "Mark Zuckerberg, Meta CEO",
+              "original_id": "mark_zuckerberg",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-warren_buffett",
+              "name": "沃伦·巴菲特",
+              "prompt": "Warren Buffett, American investor",
+              "original_id": "warren_buffett",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-jack_ma",
+              "name": "马云",
+              "prompt": "Jack Ma, Alibaba founder",
+              "original_id": "jack_ma",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-ma_huateng",
+              "name": "马化腾",
+              "prompt": "Pony Ma, Tencent CEO",
+              "original_id": "ma_huateng",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-ren_zhengfei",
+              "name": "任正非",
+              "prompt": "Ren Zhengfei, Huawei founder",
+              "original_id": "ren_zhengfei",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-wang_jianlin",
+              "name": "王健林",
+              "prompt": "Wang Jianlin, Wanda Group founder",
+              "original_id": "wang_jianlin",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-lei_jun",
+              "name": "雷军",
+              "prompt": "Lei Jun, Xiaomi CEO",
+              "original_id": "lei_jun",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-zhang_yiming",
+              "name": "张一鸣",
+              "prompt": "Zhang Yiming, ByteDance founder",
+              "original_id": "zhang_yiming",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-richard_liu",
+              "name": "刘强东",
+              "prompt": "Richard Liu, JD.com founder",
+              "original_id": "richard_liu",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-xi_jinping",
+              "name": "习近平",
+              "prompt": "Xi Jinping, Chinese president",
+              "original_id": "xi_jinping",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-barack_obama",
+              "name": "巴拉克·奥巴马",
+              "prompt": "Barack Obama, former US president",
+              "original_id": "barack_obama",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-donald_trump",
+              "name": "唐纳德·特朗普",
+              "prompt": "Donald Trump, former US president",
+              "original_id": "donald_trump",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-joe_biden",
+              "name": "乔·拜登",
+              "prompt": "Joe Biden, former US president",
+              "original_id": "joe_biden",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-vladimir_putin",
+              "name": "弗拉基米尔·普京",
+              "prompt": "Vladimir Putin, Russian president",
+              "original_id": "vladimir_putin",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-emmanuel_macron",
+              "name": "埃马纽埃尔·马克龙",
+              "prompt": "Emmanuel Macron, French president",
+              "original_id": "emmanuel_macron",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-angela_merkel",
+              "name": "安格拉·默克尔",
+              "prompt": "Angela Merkel, former German chancellor",
+              "original_id": "angela_merkel",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-margaret_thatcher",
+              "name": "玛格丽特·撒切尔",
+              "prompt": "Margaret Thatcher, former British PM",
+              "original_id": "margaret_thatcher",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-tim_cook",
+              "name": "蒂姆·库克",
+              "prompt": "Tim Cook, Apple CEO",
+              "original_id": "tim_cook",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-satya_nadella",
+              "name": "萨提亚·纳德拉",
+              "prompt": "Satya Nadella, Microsoft CEO",
+              "original_id": "satya_nadella",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-sam_altman",
+              "name": "山姆·奥特曼",
+              "prompt": "Sam Altman, OpenAI CEO",
+              "original_id": "sam_altman",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-jensen_huang",
+              "name": "黄仁勋",
+              "prompt": "Jensen Huang, NVIDIA CEO",
+              "original_id": "jensen_huang",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-hillary_clinton",
+              "name": "希拉里·克林顿",
+              "prompt": "Hillary Clinton, former US Secretary of State",
+              "original_id": "hillary_clinton",
+              "type": "tag"
+            },
+            {
+              "id": "tag-celebrity-oprah_winfrey",
+              "name": "奥普拉·温弗瑞",
+              "prompt": "Oprah Winfrey, American media mogul",
+              "original_id": "oprah_winfrey",
+              "type": "tag"
+            }
+          ]
+        }
+      ],
+      "type": "tag"
+    }
+  ]
+}

@@ -62,3 +62,5 @@ https://raw.githubusercontent.com/ARTpace/Art-prompt-library/main/catalog.json
 采集、拆包脚本和发布资产已迁入本仓库。参见 [维护说明](docs/artist-character-maintenance.md)。发布数据位于 `libraries/artists/`、`libraries/characters/`。
 
 根 `catalog.json` 现统一发布风格、画师、角色三类资产（`kind` 区分），主工具在「内容包管理」从 GitHub 按需安装与检查更新。
+
+标签提示词另按 14 类发布为可独立安装、更新、卸载的标签包（`kind: tags`），共 22,752 条，见 [标签包维护](docs/tag-packs.md)。

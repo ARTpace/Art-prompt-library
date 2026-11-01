@@ -1,0 +1,4400 @@
+{
+  "categories": [
+    {
+      "id": "effects",
+      "name": "特效",
+      "subcategories": [
+        {
+          "id": "effects_color",
+          "name": "色调",
+          "presets": [
+            {
+              "id": "tag-effects-monochrome",
+              "name": "单色",
+              "prompt": "monochrome",
+              "original_id": "monochrome",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-monochrome_background",
+              "name": "单色背景",
+              "prompt": "monochrome background",
+              "original_id": "monochrome_background",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-sepia",
+              "name": "棕褐色",
+              "prompt": "sepia",
+              "original_id": "sepia",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-sepia_background",
+              "name": "棕褐色背景",
+              "prompt": "sepia background",
+              "original_id": "sepia_background",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-multiple_monochrome",
+              "name": "多重单色",
+              "prompt": "multiple monochrome",
+              "original_id": "multiple_monochrome",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-miss_monochrome_(character)_(cosplay)",
+              "name": "Miss Monochrome (Character) (Cosplay)",
+              "prompt": "miss monochrome (character) (cosplay)",
+              "original_id": "miss_monochrome_(character)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-glory_monochrome_(idolmaster)",
+              "name": "Glory Monochrome (Idolmaster)",
+              "prompt": "glory monochrome (idolmaster)",
+              "original_id": "glory_monochrome_(idolmaster)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-rainbow_tinted_eyewear",
+              "name": "彩虹有色眼镜",
+              "prompt": "rainbow-tinted eyewear",
+              "original_id": "rainbow_tinted_eyewear",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-gradient_tinted_eyewear",
+              "name": "渐变有色眼镜",
+              "prompt": "gradient-tinted eyewear",
+              "original_id": "gradient_tinted_eyewear",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-monochrome_lily_(idolmaster)",
+              "name": "Monochrome Lily (Idolmaster)",
+              "prompt": "monochrome lily (idolmaster)",
+              "original_id": "monochrome_lily_(idolmaster)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-duotone",
+              "name": "双色调",
+              "prompt": "duotone, two color",
+              "original_id": "duotone",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-tritone",
+              "name": "三色调",
+              "prompt": "tritone, three color gradient",
+              "original_id": "tritone",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-complementary",
+              "name": "互补色",
+              "prompt": "complementary color scheme",
+              "original_id": "complementary",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-analogous",
+              "name": "类似色",
+              "prompt": "analogous color palette",
+              "original_id": "analogous",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-color_shift",
+              "name": "色移",
+              "prompt": "color shift effect",
+              "original_id": "color_shift",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-hue_shift",
+              "name": "色调偏移",
+              "prompt": "hue shift, color cycling",
+              "original_id": "hue_shift",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-colorize",
+              "name": "上色",
+              "prompt": "colorized, colorize",
+              "original_id": "colorize",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-selective_color",
+              "name": "选择性色彩",
+              "prompt": "selective color, color pop",
+              "original_id": "selective_color",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-vintage_film",
+              "name": "老电影色调",
+              "prompt": "vintage film look",
+              "original_id": "vintage_film",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-retro_color",
+              "name": "复古色调",
+              "prompt": "retro color palette",
+              "original_id": "retro_color",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-faded_color",
+              "name": "褪色",
+              "prompt": "faded color, washed out",
+              "original_id": "faded_color",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-muted",
+              "name": "柔和色调",
+              "prompt": "muted colors, subtle tones",
+              "original_id": "muted",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-vibrant",
+              "name": "鲜艳",
+              "prompt": "vibrant colors, vivid hues",
+              "original_id": "vibrant",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-neon_color",
+              "name": "霓虹色",
+              "prompt": "neon color scheme",
+              "original_id": "neon_color",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-pastel",
+              "name": "粉彩",
+              "prompt": "pastel color palette",
+              "original_id": "pastel",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-monochrome_blue",
+              "name": "蓝色单色",
+              "prompt": "blue monochrome",
+              "original_id": "monochrome_blue",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-monochrome_red",
+              "name": "红色单色",
+              "prompt": "red monochrome",
+              "original_id": "monochrome_red",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-sepia_warm",
+              "name": "暖色复古",
+              "prompt": "warm sepia tone",
+              "original_id": "sepia_warm",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-cold_blue",
+              "name": "冷蓝调",
+              "prompt": "cold blue color grade",
+              "original_id": "cold_blue",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-warm_orange",
+              "name": "暖橙调",
+              "prompt": "warm orange color grade",
+              "original_id": "warm_orange",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "effects_blur",
+          "name": "模糊/清晰",
+          "presets": [
+            {
+              "id": "tag-effects-blurry",
+              "name": "模糊",
+              "prompt": "blurry",
+              "original_id": "blurry",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-motion_blur",
+              "name": "运动模糊",
+              "prompt": "motion blur",
+              "original_id": "motion_blur",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-blurry_background",
+              "name": "模糊的背景",
+              "prompt": "blurry background",
+              "original_id": "blurry_background",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-blurry_foreground",
+              "name": "前景模糊",
+              "prompt": "blurry foreground",
+              "original_id": "blurry_foreground",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-pencil_sharpener",
+              "name": "卷笔刀",
+              "prompt": "pencil sharpener",
+              "original_id": "pencil_sharpener",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-sharpening",
+              "name": "锐化",
+              "prompt": "sharpening",
+              "original_id": "sharpening",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-blurry_border",
+              "name": "模糊边界",
+              "prompt": "blurry border",
+              "original_id": "blurry_border",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-blurry_edges",
+              "name": "边缘模糊",
+              "prompt": "blurry edges",
+              "original_id": "blurry_edges",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-tilt_shift",
+              "name": "移轴",
+              "prompt": "tilt shift",
+              "original_id": "tilt_shift",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-sharpened_volcano_fragment",
+              "name": "锋利的火山碎片",
+              "prompt": "sharpened volcano fragment",
+              "original_id": "sharpened_volcano_fragment",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-blurry_vision",
+              "name": "视力模糊",
+              "prompt": "blurry vision",
+              "original_id": "blurry_vision",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-blurry_text",
+              "name": "模糊文字",
+              "prompt": "blurry text",
+              "original_id": "blurry_text",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-sharpened_nail_(hollow_knight)",
+              "name": "Sharpened Nail (Hollow Knight)",
+              "prompt": "sharpened nail (hollow knight)",
+              "original_id": "sharpened_nail_(hollow_knight)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-blurry_eyes",
+              "name": "眼睛模糊",
+              "prompt": "blurry eyes",
+              "original_id": "blurry_eyes",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-blur_censor",
+              "name": "模糊检查器",
+              "prompt": "blur censor",
+              "original_id": "blur_censor",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-tokyo_blur_(mario)",
+              "name": "Tokyo Blur (Mario)",
+              "prompt": "tokyo blur (mario)",
+              "original_id": "tokyo_blur_(mario)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-lens_blur",
+              "name": "镜头模糊",
+              "prompt": "lens blur, bokeh blur",
+              "original_id": "lens_blur",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-gaussian_blur",
+              "name": "高斯模糊",
+              "prompt": "gaussian blur",
+              "original_id": "gaussian_blur",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-zoom_blur",
+              "name": "缩放模糊",
+              "prompt": "zoom blur, zoom burst",
+              "original_id": "zoom_blur",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-radial_blur",
+              "name": "径向模糊",
+              "prompt": "radial blur",
+              "original_id": "radial_blur",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-defocus",
+              "name": "失焦",
+              "prompt": "defocused, out of focus",
+              "original_id": "defocus",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-soft_focus",
+              "name": "柔焦",
+              "prompt": "soft focus, dreamy soft",
+              "original_id": "soft_focus",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-dreamy",
+              "name": "梦幻",
+              "prompt": "dreamy soft focus",
+              "original_id": "dreamy",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-sharpness",
+              "name": "锐度",
+              "prompt": "sharpness, high sharpness",
+              "original_id": "sharpness",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-crisp",
+              "name": "清晰",
+              "prompt": "crisp image, crispy",
+              "original_id": "crisp",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-clarity",
+              "name": "通透",
+              "prompt": "clarity, image clarity",
+              "original_id": "clarity",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-sharpen",
+              "name": "锐化",
+              "prompt": "sharpened, sharpening effect",
+              "original_id": "sharpen",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-unsharp_mask",
+              "name": "USM锐化",
+              "prompt": "unsharp mask",
+              "original_id": "unsharp_mask",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-detail_enhance",
+              "name": "细节增强",
+              "prompt": "detail enhancement",
+              "original_id": "detail_enhance",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-focus_shift",
+              "name": "焦移",
+              "prompt": "focus shift effect",
+              "original_id": "focus_shift",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-miniature",
+              "name": "移轴微缩",
+              "prompt": "tilt-shift miniature effect",
+              "original_id": "miniature",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-motion_blur_line",
+              "name": "线性运动模糊",
+              "prompt": "linear motion blur",
+              "original_id": "motion_blur_line",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-motion_blur_radial",
+              "name": "放射运动模糊",
+              "prompt": "radial motion blur",
+              "original_id": "motion_blur_radial",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-motion_blur_directional",
+              "name": "方向运动模糊",
+              "prompt": "directional motion blur",
+              "original_id": "motion_blur_directional",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "effects_particles",
+          "name": "粒子/碎片",
+          "presets": [
+            {
+              "id": "tag-effects-cherry_blossoms",
+              "name": "樱花",
+              "prompt": "cherry blossoms",
+              "original_id": "cherry_blossoms",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-petals",
+              "name": "花瓣",
+              "prompt": "petals",
+              "original_id": "petals",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-dusting",
+              "name": "除尘",
+              "prompt": "dusting",
+              "original_id": "dusting",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-glitter",
+              "name": "闪粉",
+              "prompt": "glitter",
+              "original_id": "glitter",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-autumn_leaves",
+              "name": "秋叶",
+              "prompt": "autumn leaves",
+              "original_id": "autumn_leaves",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-rose_petals",
+              "name": "玫瑰花瓣",
+              "prompt": "rose petals",
+              "original_id": "rose_petals",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-falling_petals",
+              "name": "飘落的花瓣",
+              "prompt": "falling petals",
+              "original_id": "falling_petals",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-snowdrop_(flower)",
+              "name": "Snowdrop (Flower)",
+              "prompt": "snowdrop (flower)",
+              "original_id": "snowdrop_(flower)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-duster",
+              "name": "掸子",
+              "prompt": "duster",
+              "original_id": "duster",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-holding_duster",
+              "name": "拿着掸子",
+              "prompt": "holding duster",
+              "original_id": "holding_duster",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-dustpan",
+              "name": "簸箕",
+              "prompt": "dustpan",
+              "original_id": "dustpan",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-holding_dustpan",
+              "name": "拿着簸箕",
+              "prompt": "holding dustpan",
+              "original_id": "holding_dustpan",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-soap_bubbles",
+              "name": "肥皂泡",
+              "prompt": "soap bubbles",
+              "original_id": "soap_bubbles",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-industrial_pipe",
+              "name": "工业管",
+              "prompt": "industrial pipe",
+              "original_id": "industrial_pipe",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-dust",
+              "name": "灰尘",
+              "prompt": "dust",
+              "original_id": "dust",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-dust_cloud",
+              "name": "尘云",
+              "prompt": "dust cloud",
+              "original_id": "dust_cloud",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-petals_on_liquid",
+              "name": "液体上的花瓣",
+              "prompt": "petals on liquid",
+              "original_id": "petals_on_liquid",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-petals_in_mouth",
+              "name": "嘴里的花瓣",
+              "prompt": "petals in mouth",
+              "original_id": "petals_in_mouth",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fire_flower",
+              "name": "火焰花",
+              "prompt": "fire flower",
+              "original_id": "fire_flower",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-snowbell_(flower)",
+              "name": "Snowbell (Flower)",
+              "prompt": "snowbell (flower)",
+              "original_id": "snowbell_(flower)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-industrial",
+              "name": "工业的",
+              "prompt": "industrial",
+              "original_id": "industrial",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-plucking_petals",
+              "name": "采摘花瓣",
+              "prompt": "plucking petals",
+              "original_id": "plucking_petals",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-sleeveless_duster",
+              "name": "无袖掸子",
+              "prompt": "sleeveless duster",
+              "original_id": "sleeveless_duster",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-glowing_petals",
+              "name": "发光的花瓣",
+              "prompt": "glowing petals",
+              "original_id": "glowing_petals",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-star_dust",
+              "name": "星尘",
+              "prompt": "star dust",
+              "original_id": "star_dust",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-heart_bubbles",
+              "name": "心形泡泡",
+              "prompt": "heart bubbles",
+              "original_id": "heart_bubbles",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-feather_duster",
+              "name": "鸡毛掸子",
+              "prompt": "feather duster",
+              "original_id": "feather_duster",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-shadow_star",
+              "name": "影星",
+              "prompt": "shadow star",
+              "original_id": "shadow_star",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-magical_leaf_(pokemon)",
+              "name": "Magical Leaf (Pokemon)",
+              "prompt": "magical leaf (pokemon)",
+              "original_id": "magical_leaf_(pokemon)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-rainbow_feather_(pokemon)",
+              "name": "Rainbow Feather (Pokemon)",
+              "prompt": "rainbow feather (pokemon)",
+              "original_id": "rainbow_feather_(pokemon)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-rockstar_(energy_drink)",
+              "name": "Rockstar (Energy Drink)",
+              "prompt": "rockstar (energy drink)",
+              "original_id": "rockstar_(energy_drink)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-toha_heavy_industries",
+              "name": "Toha Heavy Industries",
+              "prompt": "toha heavy industries",
+              "original_id": "toha_heavy_industries",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-volskaya_industries_(overwatch)",
+              "name": "Volskaya Industries (Overwatch)",
+              "prompt": "volskaya industries (overwatch)",
+              "original_id": "volskaya_industries_(overwatch)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-blue_petals",
+              "name": "蓝色花瓣",
+              "prompt": "blue petals",
+              "original_id": "blue_petals",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-sakura_(fire_emblem)_(cosplay)",
+              "name": "Sakura (Fire Emblem) (Cosplay)",
+              "prompt": "sakura (fire emblem) (cosplay)",
+              "original_id": "sakura_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-eurostar_(train)",
+              "name": "Eurostar (Train)",
+              "prompt": "eurostar (train)",
+              "original_id": "eurostar_(train)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-blown_petals",
+              "name": "吹散的花瓣",
+              "prompt": "blown petals",
+              "original_id": "blown_petals",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-white_petals",
+              "name": "白色花瓣",
+              "prompt": "white petals",
+              "original_id": "white_petals",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-bubbles_(ppg)_(cosplay)",
+              "name": "Bubbles (Ppg) (Cosplay)",
+              "prompt": "bubbles (ppg) (cosplay)",
+              "original_id": "bubbles_(ppg)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-twitter_sparkles",
+              "name": "推特闪闪发光",
+              "prompt": "twitter sparkles",
+              "original_id": "twitter_sparkles",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-throwing_petals",
+              "name": "投掷花瓣",
+              "prompt": "throwing petals",
+              "original_id": "throwing_petals",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-heart_shaped_petals",
+              "name": "心形花瓣",
+              "prompt": "heart-shaped petals",
+              "original_id": "heart_shaped_petals",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-m42_duster",
+              "name": "M42除尘器",
+              "prompt": "m42 duster",
+              "original_id": "m42_duster",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-dustcloth",
+              "name": "抹布",
+              "prompt": "dustcloth",
+              "original_id": "dustcloth",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-duster_coat",
+              "name": "掸衣",
+              "prompt": "duster coat",
+              "original_id": "duster_coat",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-diamond_dust_(module)",
+              "name": "Diamond Dust (Module)",
+              "prompt": "diamond dust (module)",
+              "original_id": "diamond_dust_(module)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-bite_the_dust_(jojo)",
+              "name": "Bite The Dust (Jojo)",
+              "prompt": "bite the dust (jojo)",
+              "original_id": "bite_the_dust_(jojo)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-eraser_dust",
+              "name": "橡皮擦灰尘",
+              "prompt": "eraser dust",
+              "original_id": "eraser_dust",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-sunflower_petals",
+              "name": "向日葵花瓣",
+              "prompt": "sunflower petals",
+              "original_id": "sunflower_petals",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-eye_glitter",
+              "name": "眼部闪光",
+              "prompt": "eye glitter",
+              "original_id": "eye_glitter",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-dusty_miller",
+              "name": "达斯蒂·米勒",
+              "prompt": "dusty miller",
+              "original_id": "dusty_miller",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-industrial_piercing",
+              "name": "工业穿孔",
+              "prompt": "industrial piercing",
+              "original_id": "industrial_piercing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-dust_explosion",
+              "name": "粉尘爆炸",
+              "prompt": "dust explosion",
+              "original_id": "dust_explosion",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-white_snow's_merry_xmas_(ensemble_stars!)",
+              "name": "White Snow'S Merry Xmas (Ensemble Stars!)",
+              "prompt": "white snow's merry xmas (ensemble stars!)",
+              "original_id": "white_snow's_merry_xmas_(ensemble_stars!)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-firestarter",
+              "name": "点火器",
+              "prompt": "firestarter",
+              "original_id": "firestarter",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-glitter_trigger_eternity",
+              "name": "闪光触发永恒",
+              "prompt": "glitter trigger eternity",
+              "original_id": "glitter_trigger_eternity",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-glitter_tiga",
+              "name": "闪光迪加",
+              "prompt": "glitter tiga",
+              "original_id": "glitter_tiga",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-flower_of_life_(pattern)",
+              "name": "Flower Of Life (Pattern)",
+              "prompt": "flower of life (pattern)",
+              "original_id": "flower_of_life_(pattern)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-rainy_season's_blossoms_(ensemble_stars!)",
+              "name": "Rainy Season'S Blossoms (Ensemble Stars!)",
+              "prompt": "rainy season's blossoms (ensemble stars!)",
+              "original_id": "rainy_season's_blossoms_(ensemble_stars!)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-gradient_flower",
+              "name": "渐变花",
+              "prompt": "gradient flower",
+              "original_id": "gradient_flower",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-memory_of_dust_(genshin_impact)",
+              "name": "Memory Of Dust (Genshin Impact)",
+              "prompt": "memory of dust (genshin impact)",
+              "original_id": "memory_of_dust_(genshin_impact)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-rolling_bubbles_(cosplay)",
+              "name": "Rolling Bubbles (Cosplay)",
+              "prompt": "rolling bubbles (cosplay)",
+              "original_id": "rolling_bubbles_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-steampunk_museum_(ensemble_stars!)",
+              "name": "Steampunk Museum (Ensemble Stars!)",
+              "prompt": "steampunk museum (ensemble stars!)",
+              "original_id": "steampunk_museum_(ensemble_stars!)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-mitsubishi_heavy_industries",
+              "name": "三菱重工",
+              "prompt": "mitsubishi heavy industries",
+              "original_id": "mitsubishi_heavy_industries",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-rainbow_feathers",
+              "name": "彩虹羽毛",
+              "prompt": "rainbow feathers",
+              "original_id": "rainbow_feathers",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-grit_dust",
+              "name": "砂粒粉尘",
+              "prompt": "grit dust",
+              "original_id": "grit_dust",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-stardust_breaker",
+              "name": "星尘破碎者",
+              "prompt": "stardust breaker",
+              "original_id": "stardust_breaker",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fireball_(star_wars)",
+              "name": "Fireball (Star Wars)",
+              "prompt": "fireball (star wars)",
+              "original_id": "fireball_(star_wars)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-vector_industries_uniform",
+              "name": "矢量工业制服",
+              "prompt": "vector industries uniform",
+              "original_id": "vector_industries_uniform",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-summer_snow_(ensemble_stars!)",
+              "name": "Summer Snow (Ensemble Stars!)",
+              "prompt": "summer snow (ensemble stars!)",
+              "original_id": "summer_snow_(ensemble_stars!)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-magical_halloween_(ensemble_stars!)",
+              "name": "Magical Halloween (Ensemble Stars!)",
+              "prompt": "magical halloween (ensemble stars!)",
+              "original_id": "magical_halloween_(ensemble_stars!)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-pink_petals",
+              "name": "粉红色的花瓣",
+              "prompt": "pink petals",
+              "original_id": "pink_petals",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-red_petals",
+              "name": "红色花瓣",
+              "prompt": "red petals",
+              "original_id": "red_petals",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-holding_industrial_pipe",
+              "name": "控股工业管",
+              "prompt": "holding industrial pipe",
+              "original_id": "holding_industrial_pipe",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-rainbow_aura",
+              "name": "彩虹光环",
+              "prompt": "rainbow aura",
+              "original_id": "rainbow_aura",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-industrial_ship_(eve_online)",
+              "name": "Industrial Ship (Eve Online)",
+              "prompt": "industrial ship (eve online)",
+              "original_id": "industrial_ship_(eve_online)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-yellow_petals",
+              "name": "黄色花瓣",
+              "prompt": "yellow petals",
+              "original_id": "yellow_petals",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-glitter_dress",
+              "name": "闪粉连衣裙",
+              "prompt": "glitter dress",
+              "original_id": "glitter_dress",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-gradient_feathers",
+              "name": "渐变羽毛",
+              "prompt": "gradient feathers",
+              "original_id": "gradient_feathers",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-petals_on_ground",
+              "name": "地上的花瓣",
+              "prompt": "petals on ground",
+              "original_id": "petals_on_ground",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-glitter_makeup",
+              "name": "闪光彩妆",
+              "prompt": "glitter makeup",
+              "original_id": "glitter_makeup",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-dusting_off_self",
+              "name": "掸去身上的灰尘",
+              "prompt": "dusting off self",
+              "original_id": "dusting_off_self",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-glitter_in_hair",
+              "name": "头发闪闪发光",
+              "prompt": "glitter in hair",
+              "original_id": "glitter_in_hair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-orange_petals",
+              "name": "橙色花瓣",
+              "prompt": "orange petals",
+              "original_id": "orange_petals",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-purple_petals",
+              "name": "紫色花瓣",
+              "prompt": "purple petals",
+              "original_id": "purple_petals",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-holding_dustcloth",
+              "name": "拿着抹布",
+              "prompt": "holding dustcloth",
+              "original_id": "holding_dustcloth",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-snow_globe_(ensemble_stars!)",
+              "name": "Snow Globe (Ensemble Stars!)",
+              "prompt": "snow globe (ensemble stars!)",
+              "original_id": "snow_globe_(ensemble_stars!)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-magic_lantern_(ensemble_stars!)",
+              "name": "Magic Lantern (Ensemble Stars!)",
+              "prompt": "magic lantern (ensemble stars!)",
+              "original_id": "magic_lantern_(ensemble_stars!)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-white_cherry_blossoms",
+              "name": "白樱花",
+              "prompt": "white cherry blossoms",
+              "original_id": "white_cherry_blossoms",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-svarog_heavy_industries",
+              "name": "Svarog重工业",
+              "prompt": "svarog heavy industries",
+              "original_id": "svarog_heavy_industries",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-pentagon_bubbles",
+              "name": "五角大楼气泡",
+              "prompt": "pentagon bubbles",
+              "original_id": "pentagon_bubbles",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-rainbow_flower",
+              "name": "彩虹花",
+              "prompt": "rainbow flower",
+              "original_id": "rainbow_flower",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-chubby_bubbles_girl_(meme)",
+              "name": "Chubby Bubbles Girl (Meme)",
+              "prompt": "chubby bubbles girl (meme)",
+              "original_id": "chubby_bubbles_girl_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-rainbow_(ensemble_stars!)",
+              "name": "Rainbow (Ensemble Stars!)",
+              "prompt": "rainbow (ensemble stars!)",
+              "original_id": "rainbow_(ensemble_stars!)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-overlapping_speech_bubbles",
+              "name": "重叠的语音气泡",
+              "prompt": "overlapping speech bubbles",
+              "original_id": "overlapping_speech_bubbles",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-bubbles",
+              "name": "泡泡",
+              "prompt": "bubbles",
+              "original_id": "bubbles",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-sparkles",
+              "name": "星点",
+              "prompt": "sparkles",
+              "original_id": "sparkles",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-stars",
+              "name": "星星",
+              "prompt": "stars",
+              "original_id": "stars",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-confetti",
+              "name": "彩纸",
+              "prompt": "confetti, confetti falling",
+              "original_id": "confetti",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-feathers_falling",
+              "name": "落羽",
+              "prompt": "falling feathers",
+              "original_id": "feathers_falling",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-dust_particles",
+              "name": "尘埃",
+              "prompt": "dust particles, floating dust",
+              "original_id": "dust_particles",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fairy_dust",
+              "name": "仙尘",
+              "prompt": "fairy dust, pixie dust",
+              "original_id": "fairy_dust",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-magic_sparkle",
+              "name": "魔法星光",
+              "prompt": "magical sparkles, magic particle",
+              "original_id": "magic_sparkle",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-floating_petal",
+              "name": "浮瓣",
+              "prompt": "floating flower petals",
+              "original_id": "floating_petal",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-floating_leaf",
+              "name": "浮叶",
+              "prompt": "floating leaves",
+              "original_id": "floating_leaf",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-falling_petal",
+              "name": "落瓣",
+              "prompt": "falling flower petals",
+              "original_id": "falling_petal",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-snowfall",
+              "name": "降雪",
+              "prompt": "snowfall, snow falling",
+              "original_id": "snowfall",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-bubble_float",
+              "name": "漂浮泡泡",
+              "prompt": "floating bubbles, bubble effects",
+              "original_id": "bubble_float",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-foam_froth",
+              "name": "泡沫",
+              "prompt": "foam, froth, bubbly",
+              "original_id": "foam_froth",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-glitter_shine",
+              "name": "闪光",
+              "prompt": "glitter, shimmer, sparkle",
+              "original_id": "glitter_shine",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fireflies",
+              "name": "萤火虫",
+              "prompt": "fireflies, glowing dots",
+              "original_id": "fireflies",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-stardust",
+              "name": "星尘",
+              "prompt": "stardust, star particle",
+              "original_id": "stardust",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-glowing_particle",
+              "name": "发光粒子",
+              "prompt": "glowing particle effect",
+              "original_id": "glowing_particle",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-colorful_particle",
+              "name": "彩色粒子",
+              "prompt": "colorful particles",
+              "original_id": "colorful_particle",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-floating_specks",
+              "name": "浮点",
+              "prompt": "floating specks of light",
+              "original_id": "floating_specks",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-magic_circle_particle",
+              "name": "魔法阵粒子",
+              "prompt": "magic circle particles",
+              "original_id": "magic_circle_particle",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "effects_nature",
+          "name": "自然元素",
+          "presets": [
+            {
+              "id": "tag-effects-blue_fire",
+              "name": "蓝火",
+              "prompt": "blue fire",
+              "original_id": "blue_fire",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fire",
+              "name": "火焰",
+              "prompt": "fire",
+              "original_id": "fire",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-steam",
+              "name": "蒸汽",
+              "prompt": "steam",
+              "original_id": "steam",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-campfire",
+              "name": "营火",
+              "prompt": "campfire",
+              "original_id": "campfire",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-smoke",
+              "name": "抽烟",
+              "prompt": "smoke",
+              "original_id": "smoke",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-steam_locomotive",
+              "name": "蒸汽机车",
+              "prompt": "steam locomotive",
+              "original_id": "steam_locomotive",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-lightning_bolt_symbol",
+              "name": "闪电符号",
+              "prompt": "lightning bolt symbol",
+              "original_id": "lightning_bolt_symbol",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fireflies-effects_nature-7",
+              "name": "萤火虫",
+              "prompt": "fireflies",
+              "original_id": "fireflies",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fog",
+              "name": "雾",
+              "prompt": "fog",
+              "original_id": "fog",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-firefly",
+              "name": "萤火虫",
+              "prompt": "firefly",
+              "original_id": "firefly",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-aerial_fireworks",
+              "name": "空中烟花",
+              "prompt": "aerial fireworks",
+              "original_id": "aerial_fireworks",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fireworks",
+              "name": "烟花",
+              "prompt": "fireworks",
+              "original_id": "fireworks",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-steampunk",
+              "name": "蒸汽朋克",
+              "prompt": "steampunk",
+              "original_id": "steampunk",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-holding_fireworks",
+              "name": "持有烟花",
+              "prompt": "holding fireworks",
+              "original_id": "holding_fireworks",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-antique_firearm",
+              "name": "古董枪械",
+              "prompt": "antique firearm",
+              "original_id": "antique_firearm",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-bamboo_steamer",
+              "name": "竹蒸笼",
+              "prompt": "bamboo steamer",
+              "original_id": "bamboo_steamer",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fireplace",
+              "name": "壁炉",
+              "prompt": "fireplace",
+              "original_id": "fireplace",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-smoked_cheese",
+              "name": "烟熏奶酪",
+              "prompt": "smoked cheese",
+              "original_id": "smoked_cheese",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fireball",
+              "name": "火球术",
+              "prompt": "fireball",
+              "original_id": "fireball",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-smokestack",
+              "name": "烟囱",
+              "prompt": "smokestack",
+              "original_id": "smokestack",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fire_extinguisher",
+              "name": "灭火器",
+              "prompt": "fire extinguisher",
+              "original_id": "fire_extinguisher",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-snowstorm",
+              "name": "暴风雪",
+              "prompt": "snowstorm",
+              "original_id": "snowstorm",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-firelock",
+              "name": "火枪",
+              "prompt": "firelock",
+              "original_id": "firelock",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-pegasus_knight_uniform_(fire_emblem)",
+              "name": "Pegasus Knight Uniform (Fire Emblem)",
+              "prompt": "pegasus knight uniform (fire emblem)",
+              "original_id": "pegasus_knight_uniform_(fire_emblem)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fireseal",
+              "name": "火封",
+              "prompt": "fireseal",
+              "original_id": "fireseal",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-steamroller",
+              "name": "压路机",
+              "prompt": "steamroller",
+              "original_id": "steamroller",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-green_fire",
+              "name": "绿火",
+              "prompt": "green fire",
+              "original_id": "green_fire",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-window_fog",
+              "name": "窗户雾",
+              "prompt": "window fog",
+              "original_id": "window_fog",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-smoke_trail",
+              "name": "烟迹",
+              "prompt": "smoke trail",
+              "original_id": "smoke_trail",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-supermarine_spitfire",
+              "name": "超级海军喷火战斗机",
+              "prompt": "supermarine spitfire",
+              "original_id": "supermarine_spitfire",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fire_hydrant",
+              "name": "消防栓",
+              "prompt": "fire hydrant",
+              "original_id": "fire_hydrant",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-whorled_flames",
+              "name": "螺旋火焰",
+              "prompt": "whorled flames",
+              "original_id": "whorled_flames",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-breathing_fire",
+              "name": "喷火",
+              "prompt": "breathing fire",
+              "original_id": "breathing_fire",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-yoga_fire",
+              "name": "瑜伽之火",
+              "prompt": "yoga fire",
+              "original_id": "yoga_fire",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-under_fire",
+              "name": "火力之下",
+              "prompt": "under fire",
+              "original_id": "under_fire",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-purple_fire",
+              "name": "紫火",
+              "prompt": "purple fire",
+              "original_id": "purple_fire",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-wildfire",
+              "name": "野火",
+              "prompt": "wildfire",
+              "original_id": "wildfire",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fire_stone",
+              "name": "火石",
+              "prompt": "fire stone",
+              "original_id": "fire_stone",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-smoke_grenade",
+              "name": "烟雾弹",
+              "prompt": "smoke grenade",
+              "original_id": "smoke_grenade",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-steaming_body",
+              "name": "蒸身",
+              "prompt": "steaming body",
+              "original_id": "steaming_body",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-breathing_smoke",
+              "name": "呼吸烟雾",
+              "prompt": "breathing smoke",
+              "original_id": "breathing_smoke",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-firecrackers",
+              "name": "鞭炮",
+              "prompt": "firecrackers",
+              "original_id": "firecrackers",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fog_(tales)_(cosplay)",
+              "name": "Fog (Tales) (Cosplay)",
+              "prompt": "fog (tales) (cosplay)",
+              "original_id": "fog_(tales)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-rapid_fire",
+              "name": "速射",
+              "prompt": "rapid-fire",
+              "original_id": "rapid_fire",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-falchion_(fire_emblem)",
+              "name": "Falchion (Fire Emblem)",
+              "prompt": "falchion (fire emblem)",
+              "original_id": "falchion_(fire_emblem)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-no_fire",
+              "name": "没有火",
+              "prompt": "no fire",
+              "original_id": "no_fire",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-ring_of_fire",
+              "name": "火环",
+              "prompt": "ring of fire",
+              "original_id": "ring_of_fire",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-english_electric_lightning",
+              "name": "英国电闪电",
+              "prompt": "english electric lightning",
+              "original_id": "english_electric_lightning",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-pink_fire",
+              "name": "粉红火",
+              "prompt": "pink fire",
+              "original_id": "pink_fire",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fogged_glasses",
+              "name": "起雾的眼镜",
+              "prompt": "fogged glasses",
+              "original_id": "fogged_glasses",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fire_body",
+              "name": "火体",
+              "prompt": "fire body",
+              "original_id": "fire_body",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-ezio_auditore_da_firenze_(cosplay)",
+              "name": "Ezio Auditore Da Firenze (Cosplay)",
+              "prompt": "ezio auditore da firenze (cosplay)",
+              "original_id": "ezio_auditore_da_firenze_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-firefight",
+              "name": "交火",
+              "prompt": "firefight",
+              "original_id": "firefight",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-ike_(fire_emblem)_(cosplay)",
+              "name": "Ike (Fire Emblem) (Cosplay)",
+              "prompt": "ike (fire emblem) (cosplay)",
+              "original_id": "ike_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-marth_(fire_emblem)_(cosplay)",
+              "name": "Marth (Fire Emblem) (Cosplay)",
+              "prompt": "marth (fire emblem) (cosplay)",
+              "original_id": "marth_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-roy_(fire_emblem)_(cosplay)",
+              "name": "Roy (Fire Emblem) (Cosplay)",
+              "prompt": "roy (fire emblem) (cosplay)",
+              "original_id": "roy_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fire_axe",
+              "name": "消防斧",
+              "prompt": "fire axe",
+              "original_id": "fire_axe",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-smoke_ring",
+              "name": "烟圈",
+              "prompt": "smoke ring",
+              "original_id": "smoke_ring",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-firefighter",
+              "name": "消防队员",
+              "prompt": "firefighter",
+              "original_id": "firefighter",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-black_fire",
+              "name": "黑火",
+              "prompt": "black fire",
+              "original_id": "black_fire",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fire_bomber",
+              "name": "火焰轰炸机",
+              "prompt": "fire bomber",
+              "original_id": "fire_bomber",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-smoke_heart",
+              "name": "烟心",
+              "prompt": "smoke heart",
+              "original_id": "smoke_heart",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-smokescreen",
+              "name": "烟幕",
+              "prompt": "smokescreen",
+              "original_id": "smokescreen",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fog_badge",
+              "name": "雾徽章",
+              "prompt": "fog badge",
+              "original_id": "fog_badge",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-colored_smoke",
+              "name": "彩色烟雾",
+              "prompt": "colored smoke",
+              "original_id": "colored_smoke",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-red_fire",
+              "name": "红火",
+              "prompt": "red fire",
+              "original_id": "red_fire",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fire_leo_05p_syrinx",
+              "name": "火力狮 05P 注射器",
+              "prompt": "fire leo-05p syrinx",
+              "original_id": "fire_leo_05p_syrinx",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-smokescreen_(pokemon)",
+              "name": "Smokescreen (Pokemon)",
+              "prompt": "smokescreen (pokemon)",
+              "original_id": "smokescreen_(pokemon)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-sacred_fire_(pokemon)",
+              "name": "Sacred Fire (Pokemon)",
+              "prompt": "sacred fire (pokemon)",
+              "original_id": "sacred_fire_(pokemon)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fire_spin_(pokemon)",
+              "name": "Fire Spin (Pokemon)",
+              "prompt": "fire spin (pokemon)",
+              "original_id": "fire_spin_(pokemon)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fire_fang_(pokemon)",
+              "name": "Fire Fang (Pokemon)",
+              "prompt": "fire fang (pokemon)",
+              "original_id": "fire_fang_(pokemon)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-steam_catapult",
+              "name": "蒸汽弹射器",
+              "prompt": "steam catapult",
+              "original_id": "steam_catapult",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-head_steam",
+              "name": "头蒸汽",
+              "prompt": "head steam",
+              "original_id": "head_steam",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fire_screen",
+              "name": "防火屏",
+              "prompt": "fire screen",
+              "original_id": "fire_screen",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-bonfire",
+              "name": "篝火",
+              "prompt": "bonfire",
+              "original_id": "bonfire",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fireman's_carry",
+              "name": "消防员携带",
+              "prompt": "fireman's carry",
+              "original_id": "fireman's_carry",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fire_dragon_(inazuma_eleven)",
+              "name": "Fire Dragon (Inazuma Eleven)",
+              "prompt": "fire dragon (inazuma eleven)",
+              "original_id": "fire_dragon_(inazuma_eleven)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-energy_blast",
+              "name": "能量冲击波",
+              "prompt": "energy blast",
+              "original_id": "energy_blast",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-firewood",
+              "name": "柴",
+              "prompt": "firewood",
+              "original_id": "firewood",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-lightning_bolt_hair_ornament",
+              "name": "闪电发饰",
+              "prompt": "lightning bolt hair ornament",
+              "original_id": "lightning_bolt_hair_ornament",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-lucina_(fire_emblem)_(cosplay)",
+              "name": "Lucina (Fire Emblem) (Cosplay)",
+              "prompt": "lucina (fire emblem) (cosplay)",
+              "original_id": "lucina_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-robin_(fire_emblem)_(cosplay)",
+              "name": "Robin (Fire Emblem) (Cosplay)",
+              "prompt": "robin (fire emblem) (cosplay)",
+              "original_id": "robin_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-type_91_anti_aircraft_fire_detector",
+              "name": "91 型防空火灾探测器",
+              "prompt": "type 91 anti-aircraft fire detector",
+              "original_id": "type_91_anti_aircraft_fire_detector",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-green_smoke",
+              "name": "绿烟",
+              "prompt": "green smoke",
+              "original_id": "green_smoke",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fire_truck",
+              "name": "消防车",
+              "prompt": "fire truck",
+              "original_id": "fire_truck",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-pontiac_firebird",
+              "name": "庞蒂亚克火鸟",
+              "prompt": "pontiac firebird",
+              "original_id": "pontiac_firebird",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fire_alarm",
+              "name": "火灾报警器",
+              "prompt": "fire alarm",
+              "original_id": "fire_alarm",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-sherman_firefly",
+              "name": "谢尔曼萤火虫",
+              "prompt": "sherman firefly",
+              "original_id": "sherman_firefly",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-foglight",
+              "name": "雾灯",
+              "prompt": "foglight",
+              "original_id": "foglight",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fujin_yumi_(fire_emblem)",
+              "name": "Fujin Yumi (Fire Emblem)",
+              "prompt": "fujin yumi (fire emblem)",
+              "original_id": "fujin_yumi_(fire_emblem)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-cecilia_(fire_emblem)_(cosplay)",
+              "name": "Cecilia (Fire Emblem) (Cosplay)",
+              "prompt": "cecilia (fire emblem) (cosplay)",
+              "original_id": "cecilia_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-sophia_(fire_emblem)_(cosplay)",
+              "name": "Sophia (Fire Emblem) (Cosplay)",
+              "prompt": "sophia (fire emblem) (cosplay)",
+              "original_id": "sophia_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-durandal_(fire_emblem)",
+              "name": "Durandal (Fire Emblem)",
+              "prompt": "durandal (fire emblem)",
+              "original_id": "durandal_(fire_emblem)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fireplace_tool_stand",
+              "name": "壁炉工具架",
+              "prompt": "fireplace tool stand",
+              "original_id": "fireplace_tool_stand",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-cavalier_(fire_emblem)",
+              "name": "Cavalier (Fire Emblem)",
+              "prompt": "cavalier (fire emblem)",
+              "original_id": "cavalier_(fire_emblem)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-gibson_firebird",
+              "name": "吉布森火鸟",
+              "prompt": "gibson firebird",
+              "original_id": "gibson_firebird",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-electric_wind_god_fist",
+              "name": "电风神拳",
+              "prompt": "electric wind god fist",
+              "original_id": "electric_wind_god_fist",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-aqua_fire",
+              "name": "水火",
+              "prompt": "aqua fire",
+              "original_id": "aqua_fire",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-lissa_(fire_emblem)_(cosplay)",
+              "name": "Lissa (Fire Emblem) (Cosplay)",
+              "prompt": "lissa (fire emblem) (cosplay)",
+              "original_id": "lissa_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-blowing_smoke",
+              "name": "冒烟",
+              "prompt": "blowing smoke",
+              "original_id": "blowing_smoke",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-tyrfing_(fire_emblem)",
+              "name": "Tyrfing (Fire Emblem)",
+              "prompt": "tyrfing (fire emblem)",
+              "original_id": "tyrfing_(fire_emblem)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-smokestack_hair_ornament",
+              "name": "烟囱发饰",
+              "prompt": "smokestack hair ornament",
+              "original_id": "smokestack_hair_ornament",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-bonfire_(dark_souls)",
+              "name": "Bonfire (Dark Souls)",
+              "prompt": "bonfire (dark souls)",
+              "original_id": "bonfire_(dark_souls)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-pontiac_firebird_trans_am",
+              "name": "庞蒂亚克火鸟 Trans Am",
+              "prompt": "pontiac firebird trans am",
+              "original_id": "pontiac_firebird_trans_am",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fire_elemental",
+              "name": "火元素",
+              "prompt": "fire elemental",
+              "original_id": "fire_elemental",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fire_keeper_(cosplay)",
+              "name": "Fire Keeper (Cosplay)",
+              "prompt": "fire keeper (cosplay)",
+              "original_id": "fire_keeper_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-azura_(fire_emblem)_(cosplay)",
+              "name": "Azura (Fire Emblem) (Cosplay)",
+              "prompt": "azura (fire emblem) (cosplay)",
+              "original_id": "azura_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-donnel_(fire_emblem)_(cosplay)",
+              "name": "Donnel (Fire Emblem) (Cosplay)",
+              "prompt": "donnel (fire emblem) (cosplay)",
+              "original_id": "donnel_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-raijinto_(fire_emblem)",
+              "name": "Raijinto (Fire Emblem)",
+              "prompt": "raijinto (fire emblem)",
+              "original_id": "raijinto_(fire_emblem)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-lightning_bolt_print",
+              "name": "闪电印花",
+              "prompt": "lightning bolt print",
+              "original_id": "lightning_bolt_print",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-steaming_bath",
+              "name": "蒸汽浴",
+              "prompt": "steaming bath",
+              "original_id": "steaming_bath",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-firework_background",
+              "name": "烟花背景",
+              "prompt": "firework background",
+              "original_id": "firework_background",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fireworks_print",
+              "name": "烟花印花",
+              "prompt": "fireworks print",
+              "original_id": "fireworks_print",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-lightning_bolt_earrings",
+              "name": "闪电耳环",
+              "prompt": "lightning bolt earrings",
+              "original_id": "lightning_bolt_earrings",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-through_the_fire_and_flames",
+              "name": "Through The Fire And Flames",
+              "prompt": "through the fire and flames",
+              "original_id": "through_the_fire_and_flames",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-storm_drain",
+              "name": "风暴排水管",
+              "prompt": "storm drain",
+              "original_id": "storm_drain",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fire_pit",
+              "name": "火坑",
+              "prompt": "fire pit",
+              "original_id": "fire_pit",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-steam_from_mouth",
+              "name": "从嘴里冒出蒸汽",
+              "prompt": "steam from mouth",
+              "original_id": "steam_from_mouth",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-eliwood_(fire_emblem)_(cosplay)",
+              "name": "Eliwood (Fire Emblem) (Cosplay)",
+              "prompt": "eliwood (fire emblem) (cosplay)",
+              "original_id": "eliwood_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-effie_(fire_emblem)_(cosplay)",
+              "name": "Effie (Fire Emblem) (Cosplay)",
+              "prompt": "effie (fire emblem) (cosplay)",
+              "original_id": "effie_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fire_escape",
+              "name": "火灾逃生",
+              "prompt": "fire escape",
+              "original_id": "fire_escape",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-supermarine_seafire",
+              "name": "超级海洋海火号",
+              "prompt": "supermarine seafire",
+              "original_id": "supermarine_seafire",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-joshua_(fire_emblem)_(cosplay)",
+              "name": "Joshua (Fire Emblem) (Cosplay)",
+              "prompt": "joshua (fire emblem) (cosplay)",
+              "original_id": "joshua_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-parthia_(fire_emblem)",
+              "name": "Parthia (Fire Emblem)",
+              "prompt": "parthia (fire emblem)",
+              "original_id": "parthia_(fire_emblem)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-bride_(fire_emblem)",
+              "name": "Bride (Fire Emblem)",
+              "prompt": "bride (fire emblem)",
+              "original_id": "bride_(fire_emblem)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-chrom_(fire_emblem)_(cosplay)",
+              "name": "Chrom (Fire Emblem) (Cosplay)",
+              "prompt": "chrom (fire emblem) (cosplay)",
+              "original_id": "chrom_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-heart_steam",
+              "name": "心蒸汽",
+              "prompt": "heart steam",
+              "original_id": "heart_steam",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-sothe_(fire_emblem)_(cosplay)",
+              "name": "Sothe (Fire Emblem) (Cosplay)",
+              "prompt": "sothe (fire emblem) (cosplay)",
+              "original_id": "sothe_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-steamed_hams_(meme)",
+              "name": "Steamed Hams (Meme)",
+              "prompt": "steamed hams (meme)",
+              "original_id": "steamed_hams_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fire_pledge_(pokemon)",
+              "name": "Fire Pledge (Pokemon)",
+              "prompt": "fire pledge (pokemon)",
+              "original_id": "fire_pledge_(pokemon)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fire_poker",
+              "name": "火扑克",
+              "prompt": "fire poker",
+              "original_id": "fire_poker",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-misfire_(weapon)",
+              "name": "Misfire (Weapon)",
+              "prompt": "misfire (weapon)",
+              "original_id": "misfire_(weapon)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-friendly_fire",
+              "name": "友军火力",
+              "prompt": "friendly fire",
+              "original_id": "friendly_fire",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-gaius_(fire_emblem)_(cosplay)",
+              "name": "Gaius (Fire Emblem) (Cosplay)",
+              "prompt": "gaius (fire emblem) (cosplay)",
+              "original_id": "gaius_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-yato_(fire_emblem)",
+              "name": "Yato (Fire Emblem)",
+              "prompt": "yato (fire emblem)",
+              "original_id": "yato_(fire_emblem)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-smoke_grenade_launcher",
+              "name": "烟雾弹发射器",
+              "prompt": "smoke grenade launcher",
+              "original_id": "smoke_grenade_launcher",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-eirika_(fire_emblem)_(cosplay)",
+              "name": "Eirika (Fire Emblem) (Cosplay)",
+              "prompt": "eirika (fire emblem) (cosplay)",
+              "original_id": "eirika_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-grey_fire",
+              "name": "灰火",
+              "prompt": "grey fire",
+              "original_id": "grey_fire",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-firelink_shrine",
+              "name": "传火神社",
+              "prompt": "firelink shrine",
+              "original_id": "firelink_shrine",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-white_fire",
+              "name": "白火",
+              "prompt": "white fire",
+              "original_id": "white_fire",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-catria_(fire_emblem)_(cosplay)",
+              "name": "Catria (Fire Emblem) (Cosplay)",
+              "prompt": "catria (fire emblem) (cosplay)",
+              "original_id": "catria_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-alm_(fire_emblem)_(cosplay)",
+              "name": "Alm (Fire Emblem) (Cosplay)",
+              "prompt": "alm (fire emblem) (cosplay)",
+              "original_id": "alm_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-nino_(fire_emblem)_(cosplay)",
+              "name": "Nino (Fire Emblem) (Cosplay)",
+              "prompt": "nino (fire emblem) (cosplay)",
+              "original_id": "nino_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-celica_(fire_emblem)_(cosplay)",
+              "name": "Celica (Fire Emblem) (Cosplay)",
+              "prompt": "celica (fire emblem) (cosplay)",
+              "original_id": "celica_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-reinhardt_(fire_emblem)_(cosplay)",
+              "name": "Reinhardt (Fire Emblem) (Cosplay)",
+              "prompt": "reinhardt (fire emblem) (cosplay)",
+              "original_id": "reinhardt_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-henry_(fire_emblem)_(cosplay)",
+              "name": "Henry (Fire Emblem) (Cosplay)",
+              "prompt": "henry (fire emblem) (cosplay)",
+              "original_id": "henry_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-alfonse_(fire_emblem)_(cosplay)",
+              "name": "Alfonse (Fire Emblem) (Cosplay)",
+              "prompt": "alfonse (fire emblem) (cosplay)",
+              "original_id": "alfonse_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-sharena_(fire_emblem)_(cosplay)",
+              "name": "Sharena (Fire Emblem) (Cosplay)",
+              "prompt": "sharena (fire emblem) (cosplay)",
+              "original_id": "sharena_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-elise_(fire_emblem)_(cosplay)",
+              "name": "Elise (Fire Emblem) (Cosplay)",
+              "prompt": "elise (fire emblem) (cosplay)",
+              "original_id": "elise_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-niles_(fire_emblem)_(cosplay)",
+              "name": "Niles (Fire Emblem) (Cosplay)",
+              "prompt": "niles (fire emblem) (cosplay)",
+              "original_id": "niles_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-olivia_(fire_emblem)_(cosplay)",
+              "name": "Olivia (Fire Emblem) (Cosplay)",
+              "prompt": "olivia (fire emblem) (cosplay)",
+              "original_id": "olivia_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fire_helmet",
+              "name": "消防头盔",
+              "prompt": "fire helmet",
+              "original_id": "fire_helmet",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-firefighter_jacket",
+              "name": "消防员夹克",
+              "prompt": "firefighter jacket",
+              "original_id": "firefighter_jacket",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-firefly_costume",
+              "name": "萤火虫服装",
+              "prompt": "firefly costume",
+              "original_id": "firefly_costume",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-mae_(fire_emblem)_(cosplay)",
+              "name": "Mae (Fire Emblem) (Cosplay)",
+              "prompt": "mae (fire emblem) (cosplay)",
+              "original_id": "mae_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-kiran_(fire_emblem)_(cosplay)",
+              "name": "Kiran (Fire Emblem) (Cosplay)",
+              "prompt": "kiran (fire emblem) (cosplay)",
+              "original_id": "kiran_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-lightning_bolt_necklace",
+              "name": "闪电项链",
+              "prompt": "lightning bolt necklace",
+              "original_id": "lightning_bolt_necklace",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-thyrsus_(fire_emblem)",
+              "name": "Thyrsus (Fire Emblem)",
+              "prompt": "thyrsus (fire emblem)",
+              "original_id": "thyrsus_(fire_emblem)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-aymr_(fire_emblem)",
+              "name": "Aymr (Fire Emblem)",
+              "prompt": "aymr (fire emblem)",
+              "original_id": "aymr_(fire_emblem)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-mercenary_(fire_emblem)",
+              "name": "Mercenary (Fire Emblem)",
+              "prompt": "mercenary (fire emblem)",
+              "original_id": "mercenary_(fire_emblem)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-ice_fog_(module)",
+              "name": "Ice Fog (Module)",
+              "prompt": "ice fog (module)",
+              "original_id": "ice_fog_(module)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fire_guard",
+              "name": "消防卫士",
+              "prompt": "fire-guard",
+              "original_id": "fire_guard",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-velouria_(fire_emblem)_(cosplay)",
+              "name": "Velouria (Fire Emblem) (Cosplay)",
+              "prompt": "velouria (fire emblem) (cosplay)",
+              "original_id": "velouria_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-failnaught_(fire_emblem)",
+              "name": "Failnaught (Fire Emblem)",
+              "prompt": "failnaught (fire emblem)",
+              "original_id": "failnaught_(fire_emblem)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-breidablik_(fire_emblem)",
+              "name": "Breidablik (Fire Emblem)",
+              "prompt": "breidablik (fire emblem)",
+              "original_id": "breidablik_(fire_emblem)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-areadbhar_(fire_emblem)",
+              "name": "Areadbhar (Fire Emblem)",
+              "prompt": "areadbhar (fire emblem)",
+              "original_id": "areadbhar_(fire_emblem)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-mia_(fire_emblem)_(cosplay)",
+              "name": "Mia (Fire Emblem) (Cosplay)",
+              "prompt": "mia (fire emblem) (cosplay)",
+              "original_id": "mia_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-aegis_shield_(fire_emblem)",
+              "name": "Aegis Shield (Fire Emblem)",
+              "prompt": "aegis shield (fire emblem)",
+              "original_id": "aegis_shield_(fire_emblem)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-2019_2020_australian_bushfires",
+              "name": "2019 2020 澳大利亚丛林大火",
+              "prompt": "2019-2020 australian bushfires",
+              "original_id": "2019_2020_australian_bushfires",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-byleth_(male)_(fire_emblem)_(cosplay)",
+              "name": "Byleth (Male) (Fire Emblem) (Cosplay)",
+              "prompt": "byleth (male) (fire emblem) (cosplay)",
+              "original_id": "byleth_(male)_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-smoke_from_mouth",
+              "name": "口中冒烟",
+              "prompt": "smoke from mouth",
+              "original_id": "smoke_from_mouth",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-lime_fire",
+              "name": "石灰火",
+              "prompt": "lime fire",
+              "original_id": "lime_fire",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-orange_fire",
+              "name": "橙火",
+              "prompt": "orange fire",
+              "original_id": "orange_fire",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-yellow_fire",
+              "name": "黄火",
+              "prompt": "yellow fire",
+              "original_id": "yellow_fire",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-ishtar_(fire_emblem)_(cosplay)",
+              "name": "Ishtar (Fire Emblem) (Cosplay)",
+              "prompt": "ishtar (fire emblem) (cosplay)",
+              "original_id": "ishtar_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-felicia_(fire_emblem)_(cosplay)",
+              "name": "Felicia (Fire Emblem) (Cosplay)",
+              "prompt": "felicia (fire emblem) (cosplay)",
+              "original_id": "felicia_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-new_york_city_fire_department",
+              "name": "纽约市消防局",
+              "prompt": "new york city fire department",
+              "original_id": "new_york_city_fire_department",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-mq_8_fire_scout",
+              "name": "Mq 8 火力侦察兵",
+              "prompt": "mq-8 fire scout",
+              "original_id": "mq_8_fire_scout",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fire_blast_(pokemon)",
+              "name": "Fire Blast (Pokemon)",
+              "prompt": "fire blast (pokemon)",
+              "original_id": "fire_blast_(pokemon)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fire_punch_(pokemon)",
+              "name": "Fire Punch (Pokemon)",
+              "prompt": "fire punch (pokemon)",
+              "original_id": "fire_punch_(pokemon)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fire_hair_ornament",
+              "name": "火发饰",
+              "prompt": "fire hair ornament",
+              "original_id": "fire_hair_ornament",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-clair_(fire_emblem)_(cosplay)",
+              "name": "Clair (Fire Emblem) (Cosplay)",
+              "prompt": "clair (fire emblem) (cosplay)",
+              "original_id": "clair_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-agm_114_hellfire",
+              "name": "AGM 114 地狱火",
+              "prompt": "agm-114 hellfire",
+              "original_id": "agm_114_hellfire",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-micaiah_(fire_emblem)_(cosplay)",
+              "name": "Micaiah (Fire Emblem) (Cosplay)",
+              "prompt": "micaiah (fire emblem) (cosplay)",
+              "original_id": "micaiah_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-ass_fire",
+              "name": "屁股火",
+              "prompt": "ass fire",
+              "original_id": "ass_fire",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-mila_(fire_emblem)_(cosplay)",
+              "name": "Mila (Fire Emblem) (Cosplay)",
+              "prompt": "mila (fire emblem) (cosplay)",
+              "original_id": "mila_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-multicolored_fire",
+              "name": "五彩火",
+              "prompt": "multicolored fire",
+              "original_id": "multicolored_fire",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-psychic_fire",
+              "name": "心灵之火",
+              "prompt": "psychic fire",
+              "original_id": "psychic_fire",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-berkut_(fire_emblem)_(cosplay)",
+              "name": "Berkut (Fire Emblem) (Cosplay)",
+              "prompt": "berkut (fire emblem) (cosplay)",
+              "original_id": "berkut_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-chaldean_visionary_flames",
+              "name": "迦勒底远见火焰",
+              "prompt": "chaldean visionary flames",
+              "original_id": "chaldean_visionary_flames",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-sothis_(fire_emblem)_(cosplay)",
+              "name": "Sothis (Fire Emblem) (Cosplay)",
+              "prompt": "sothis (fire emblem) (cosplay)",
+              "original_id": "sothis_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fireworks_earrings",
+              "name": "烟花耳环",
+              "prompt": "fireworks earrings",
+              "original_id": "fireworks_earrings",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-m600_spitfire",
+              "name": "M600 喷火式战斗机",
+              "prompt": "m600 spitfire",
+              "original_id": "m600_spitfire",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-emmeryn_(fire_emblem)_(cosplay)",
+              "name": "Emmeryn (Fire Emblem) (Cosplay)",
+              "prompt": "emmeryn (fire emblem) (cosplay)",
+              "original_id": "emmeryn_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-lyn_(fire_emblem)_(cosplay)",
+              "name": "Lyn (Fire Emblem) (Cosplay)",
+              "prompt": "lyn (fire emblem) (cosplay)",
+              "original_id": "lyn_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-robin_(male)_(fire_emblem)_(cosplay)",
+              "name": "Robin (Male) (Fire Emblem) (Cosplay)",
+              "prompt": "robin (male) (fire emblem) (cosplay)",
+              "original_id": "robin_(male)_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-mark_(fire_emblem:_the_blazing_blade)_(cosplay)",
+              "name": "Mark (Fire Emblem: The Blazing Blade) (Cosplay)",
+              "prompt": "mark (fire emblem: the blazing blade) (cosplay)",
+              "original_id": "mark_(fire_emblem:_the_blazing_blade)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-black_snake_(firework)",
+              "name": "Black Snake (Firework)",
+              "prompt": "black snake (firework)",
+              "original_id": "black_snake_(firework)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-steam_vent",
+              "name": "蒸汽口",
+              "prompt": "steam vent",
+              "original_id": "steam_vent",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-spoken_lightning_bolt",
+              "name": "言出闪电",
+              "prompt": "spoken lightning bolt",
+              "original_id": "spoken_lightning_bolt",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fire_warrior",
+              "name": "火战士",
+              "prompt": "fire warrior",
+              "original_id": "fire_warrior",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-korean_fire_noodles",
+              "name": "韩国火面",
+              "prompt": "korean fire noodles",
+              "original_id": "korean_fire_noodles",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-steamroller_sticker",
+              "name": "压路机贴纸",
+              "prompt": "steamroller sticker",
+              "original_id": "steamroller_sticker",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-silque_(fire_emblem)_(cosplay)",
+              "name": "Silque (Fire Emblem) (Cosplay)",
+              "prompt": "silque (fire emblem) (cosplay)",
+              "original_id": "silque_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-blutgang_(fire_emblem)",
+              "name": "Blutgang (Fire Emblem)",
+              "prompt": "blutgang (fire emblem)",
+              "original_id": "blutgang_(fire_emblem)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fetters_of_dromi_(fire_emblem)",
+              "name": "Fetters Of Dromi (Fire Emblem)",
+              "prompt": "fetters of dromi (fire emblem)",
+              "original_id": "fetters_of_dromi_(fire_emblem)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-luin_(fire_emblem)",
+              "name": "Luin (Fire Emblem)",
+              "prompt": "luin (fire emblem)",
+              "original_id": "luin_(fire_emblem)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-rafail_gem_(fire_emblem)",
+              "name": "Rafail Gem (Fire Emblem)",
+              "prompt": "rafail gem (fire emblem)",
+              "original_id": "rafail_gem_(fire_emblem)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-varja_mushti_(fire_emblem)",
+              "name": "Varja Mushti (Fire Emblem)",
+              "prompt": "varja-mushti (fire emblem)",
+              "original_id": "varja_mushti_(fire_emblem)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-faye_(fire_emblem)_(cosplay)",
+              "name": "Faye (Fire Emblem) (Cosplay)",
+              "prompt": "faye (fire emblem) (cosplay)",
+              "original_id": "faye_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-heart_of_fire",
+              "name": "火之心",
+              "prompt": "heart of fire",
+              "original_id": "heart_of_fire",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-bsa_spitfire_hornet",
+              "name": "Bsa 喷火大黄蜂",
+              "prompt": "bsa spitfire hornet",
+              "original_id": "bsa_spitfire_hornet",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-byleth_(female)_(fire_emblem)_(cosplay)",
+              "name": "Byleth (Female) (Fire Emblem) (Cosplay)",
+              "prompt": "byleth (female) (fire emblem) (cosplay)",
+              "original_id": "byleth_(female)_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-caduceus_staff_(fire_emblem)",
+              "name": "Caduceus Staff (Fire Emblem)",
+              "prompt": "caduceus staff (fire emblem)",
+              "original_id": "caduceus_staff_(fire_emblem)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-blowing_steam",
+              "name": "吹蒸汽",
+              "prompt": "blowing steam",
+              "original_id": "blowing_steam",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-l'arachel_(fire_emblem)_(cosplay)",
+              "name": "L'Arachel (Fire Emblem) (Cosplay)",
+              "prompt": "l'arachel (fire emblem) (cosplay)",
+              "original_id": "l'arachel_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-caeda_(fire_emblem)_(cosplay)",
+              "name": "Caeda (Fire Emblem) (Cosplay)",
+              "prompt": "caeda (fire emblem) (cosplay)",
+              "original_id": "caeda_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-armads_(fire_emblem)",
+              "name": "Armads (Fire Emblem)",
+              "prompt": "armads (fire emblem)",
+              "original_id": "armads_(fire_emblem)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-smoke_bomb",
+              "name": "烟雾弹",
+              "prompt": "smoke bomb",
+              "original_id": "smoke_bomb",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-steam_from_nose",
+              "name": "鼻子里冒出蒸汽",
+              "prompt": "steam from nose",
+              "original_id": "steam_from_nose",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fireman.exe_(cosplay)",
+              "name": "Fireman.Exe (Cosplay)",
+              "prompt": "fireman.exe (cosplay)",
+              "original_id": "fireman.exe_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-holding_lightning_bolt",
+              "name": "持闪电",
+              "prompt": "holding lightning bolt",
+              "original_id": "holding_lightning_bolt",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-mani_katti_(fire_emblem)",
+              "name": "Mani Katti (Fire Emblem)",
+              "prompt": "mani katti (fire emblem)",
+              "original_id": "mani_katti_(fire_emblem)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-northern_smoked_chicken_(genshin_impact)",
+              "name": "Northern Smoked Chicken (Genshin Impact)",
+              "prompt": "northern smoked chicken (genshin impact)",
+              "original_id": "northern_smoked_chicken_(genshin_impact)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-ephraim_(fire_emblem)_(cosplay)",
+              "name": "Ephraim (Fire Emblem) (Cosplay)",
+              "prompt": "ephraim (fire emblem) (cosplay)",
+              "original_id": "ephraim_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fire_ant",
+              "name": "火蚁",
+              "prompt": "fire ant",
+              "original_id": "fire_ant",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-uther_(fire_emblem)_(cosplay)",
+              "name": "Uther (Fire Emblem) (Cosplay)",
+              "prompt": "uther (fire emblem) (cosplay)",
+              "original_id": "uther_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fire_pants",
+              "name": "火焰裤子",
+              "prompt": "fire pants",
+              "original_id": "fire_pants",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-liberation_(fire_emblem)",
+              "name": "Liberation (Fire Emblem)",
+              "prompt": "liberation (fire emblem)",
+              "original_id": "liberation_(fire_emblem)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-spitfire_mk2",
+              "name": "喷火式战斗机 Mk2",
+              "prompt": "spitfire mk2",
+              "original_id": "spitfire_mk2",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-lightning_bolt_shaped_pupils",
+              "name": "闪电形瞳孔",
+              "prompt": "lightning bolt-shaped pupils",
+              "original_id": "lightning_bolt_shaped_pupils",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-seteth_(fire_emblem)_(cosplay)",
+              "name": "Seteth (Fire Emblem) (Cosplay)",
+              "prompt": "seteth (fire emblem) (cosplay)",
+              "original_id": "seteth_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-kiana_kaslana_(herrscher_of_flamescion)_(cosplay)",
+              "name": "Kiana Kaslana (Herrscher Of Flamescion) (Cosplay)",
+              "prompt": "kiana kaslana (herrscher of flamescion) (cosplay)",
+              "original_id": "kiana_kaslana_(herrscher_of_flamescion)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-alear_(female)_(fire_emblem)_(cosplay)",
+              "name": "Alear (Female) (Fire Emblem) (Cosplay)",
+              "prompt": "alear (female) (fire emblem) (cosplay)",
+              "original_id": "alear_(female)_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-training_outfit_(fire_emblem_engage)",
+              "name": "Training Outfit (Fire Emblem Engage)",
+              "prompt": "training outfit (fire emblem engage)",
+              "original_id": "training_outfit_(fire_emblem_engage)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-hellfire_r9x",
+              "name": "地狱火R9X",
+              "prompt": "hellfire r9x",
+              "original_id": "hellfire_r9x",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-selena_(fire_emblem_fates)_(cosplay)",
+              "name": "Selena (Fire Emblem Fates) (Cosplay)",
+              "prompt": "selena (fire emblem fates) (cosplay)",
+              "original_id": "selena_(fire_emblem_fates)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-laguz_(fire_emblem)",
+              "name": "Laguz (Fire Emblem)",
+              "prompt": "laguz (fire emblem)",
+              "original_id": "laguz_(fire_emblem)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-rutger_(fire_emblem)_(cosplay)",
+              "name": "Rutger (Fire Emblem) (Cosplay)",
+              "prompt": "rutger (fire emblem) (cosplay)",
+              "original_id": "rutger_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-big_smoke's_order_(meme)",
+              "name": "Big Smoke'S Order (Meme)",
+              "prompt": "big smoke's order (meme)",
+              "original_id": "big_smoke's_order_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-labraunda_(fire_emblem)",
+              "name": "Labraunda (Fire Emblem)",
+              "prompt": "labraunda (fire emblem)",
+              "original_id": "labraunda_(fire_emblem)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fire_hat_ornament",
+              "name": "火帽饰品",
+              "prompt": "fire hat ornament",
+              "original_id": "fire_hat_ornament",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-steam_from_ears",
+              "name": "耳朵里冒出蒸汽",
+              "prompt": "steam from ears",
+              "original_id": "steam_from_ears",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-corrin_(female)_(fire_emblem)_(cosplay)",
+              "name": "Corrin (Female) (Fire Emblem) (Cosplay)",
+              "prompt": "corrin (female) (fire emblem) (cosplay)",
+              "original_id": "corrin_(female)_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fire_valkyrie_(cosplay)",
+              "name": "Fire Valkyrie (Cosplay)",
+              "prompt": "fire valkyrie (cosplay)",
+              "original_id": "fire_valkyrie_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-blazefire_saber",
+              "name": "烈焰军刀",
+              "prompt": "blazefire saber",
+              "original_id": "blazefire_saber",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-lilith_(fire_emblem)_(cosplay)",
+              "name": "Lilith (Fire Emblem) (Cosplay)",
+              "prompt": "lilith (fire emblem) (cosplay)",
+              "original_id": "lilith_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-grima_(fire_emblem)_(cosplay)",
+              "name": "Grima (Fire Emblem) (Cosplay)",
+              "prompt": "grima (fire emblem) (cosplay)",
+              "original_id": "grima_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-robin_(female)_(fire_emblem)_(cosplay)",
+              "name": "Robin (Female) (Fire Emblem) (Cosplay)",
+              "prompt": "robin (female) (fire emblem) (cosplay)",
+              "original_id": "robin_(female)_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-steam_deck",
+              "name": "蒸汽甲板",
+              "prompt": "steam deck",
+              "original_id": "steam_deck",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-community_fire_pizza_(meme)",
+              "name": "Community Fire Pizza (Meme)",
+              "prompt": "community fire pizza (meme)",
+              "original_id": "community_fire_pizza_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-natasha_(fire_emblem)_(cosplay)",
+              "name": "Natasha (Fire Emblem) (Cosplay)",
+              "prompt": "natasha (fire emblem) (cosplay)",
+              "original_id": "natasha_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-hiita_the_fire_charmer_(cosplay)",
+              "name": "Hiita The Fire Charmer (Cosplay)",
+              "prompt": "hiita the fire charmer (cosplay)",
+              "original_id": "hiita_the_fire_charmer_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-ophelia_(fire_emblem)_(cosplay)",
+              "name": "Ophelia (Fire Emblem) (Cosplay)",
+              "prompt": "ophelia (fire emblem) (cosplay)",
+              "original_id": "ophelia_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-gae_bolg_(fire_emblem)",
+              "name": "Gae Bolg (Fire Emblem)",
+              "prompt": "gae bolg (fire emblem)",
+              "original_id": "gae_bolg_(fire_emblem)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-bat_(fire_emblem)_(cosplay)",
+              "name": "Bat (Fire Emblem) (Cosplay)",
+              "prompt": "bat (fire emblem) (cosplay)",
+              "original_id": "bat_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-mirabilis_(fire_emblem)_(cosplay)",
+              "name": "Mirabilis (Fire Emblem) (Cosplay)",
+              "prompt": "mirabilis (fire emblem) (cosplay)",
+              "original_id": "mirabilis_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-tiki_(young)_(fire_emblem)_(cosplay)",
+              "name": "Tiki (Young) (Fire Emblem) (Cosplay)",
+              "prompt": "tiki (young) (fire emblem) (cosplay)",
+              "original_id": "tiki_(young)_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-sigurd_(fire_emblem)_(cosplay)",
+              "name": "Sigurd (Fire Emblem) (Cosplay)",
+              "prompt": "sigurd (fire emblem) (cosplay)",
+              "original_id": "sigurd_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-steam_censor",
+              "name": "蒸汽检查器",
+              "prompt": "steam censor",
+              "original_id": "steam_censor",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-hellfire",
+              "name": "地狱火",
+              "prompt": "hellfire",
+              "original_id": "hellfire",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-smoke_from_nose",
+              "name": "鼻子冒烟",
+              "prompt": "smoke from nose",
+              "original_id": "smoke_from_nose",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-severa_(fire_emblem)_(cosplay)",
+              "name": "Severa (Fire Emblem) (Cosplay)",
+              "prompt": "severa (fire emblem) (cosplay)",
+              "original_id": "severa_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-sara_(fire_emblem)_(cosplay)",
+              "name": "Sara (Fire Emblem) (Cosplay)",
+              "prompt": "sara (fire emblem) (cosplay)",
+              "original_id": "sara_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-peony_(fire_emblem)_(cosplay)",
+              "name": "Peony (Fire Emblem) (Cosplay)",
+              "prompt": "peony (fire emblem) (cosplay)",
+              "original_id": "peony_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-finger_tip_fire",
+              "name": "指尖火",
+              "prompt": "finger-tip fire",
+              "original_id": "finger_tip_fire",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-crest_of_flames",
+              "name": "火焰之冠",
+              "prompt": "crest of flames",
+              "original_id": "crest_of_flames",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-anna_(fire_emblem)_(cosplay)",
+              "name": "Anna (Fire Emblem) (Cosplay)",
+              "prompt": "anna (fire emblem) (cosplay)",
+              "original_id": "anna_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fireblade_(weapon)",
+              "name": "Fireblade (Weapon)",
+              "prompt": "fireblade (weapon)",
+              "original_id": "fireblade_(weapon)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-steaming_food",
+              "name": "蒸食品",
+              "prompt": "steaming food",
+              "original_id": "steaming_food",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-light_up_the_fire_(project_sekai)",
+              "name": "Light Up The Fire (Project Sekai)",
+              "prompt": "light up the fire (project sekai)",
+              "original_id": "light_up_the_fire_(project_sekai)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-glowing_smoke",
+              "name": "发光的烟雾",
+              "prompt": "glowing smoke",
+              "original_id": "glowing_smoke",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fire_light",
+              "name": "火光",
+              "prompt": "fire light",
+              "original_id": "fire_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-firebloom_conflict_resolution_council_(blue_archive)",
+              "name": "Firebloom Conflict Resolution Council (Blue Archive)",
+              "prompt": "firebloom conflict resolution council (blue archive)",
+              "original_id": "firebloom_conflict_resolution_council_(blue_archive)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-smoke_extractor",
+              "name": "排烟器",
+              "prompt": "smoke extractor",
+              "original_id": "smoke_extractor",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fire_earrings",
+              "name": "火耳环",
+              "prompt": "fire earrings",
+              "original_id": "fire_earrings",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-clanne_(fire_emblem)_(cosplay)",
+              "name": "Clanne (Fire Emblem) (Cosplay)",
+              "prompt": "clanne (fire emblem) (cosplay)",
+              "original_id": "clanne_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-framme_(fire_emblem)_(cosplay)",
+              "name": "Framme (Fire Emblem) (Cosplay)",
+              "prompt": "framme (fire emblem) (cosplay)",
+              "original_id": "framme_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fire_sprinkler",
+              "name": "消防喷淋头",
+              "prompt": "fire sprinkler",
+              "original_id": "fire_sprinkler",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-kris_(female)_(fire_emblem)_(cosplay)",
+              "name": "Kris (Female) (Fire Emblem) (Cosplay)",
+              "prompt": "kris (female) (fire emblem) (cosplay)",
+              "original_id": "kris_(female)_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-wildfire_panoply",
+              "name": "野火全装",
+              "prompt": "wildfire panoply",
+              "original_id": "wildfire_panoply",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-smoke_signal",
+              "name": "烟雾信号",
+              "prompt": "smoke signal",
+              "original_id": "smoke_signal",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-flayn_(fire_emblem)_(cosplay)",
+              "name": "Flayn (Fire Emblem) (Cosplay)",
+              "prompt": "flayn (fire emblem) (cosplay)",
+              "original_id": "flayn_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-steam_hopper",
+              "name": "蒸汽料斗",
+              "prompt": "steam hopper",
+              "original_id": "steam_hopper",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-seliph_(fire_emblem)_(cosplay)",
+              "name": "Seliph (Fire Emblem) (Cosplay)",
+              "prompt": "seliph (fire emblem) (cosplay)",
+              "original_id": "seliph_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-the_fog_is_coming_(meme)",
+              "name": "The Fog Is Coming (Meme)",
+              "prompt": "the fog is coming (meme)",
+              "original_id": "the_fog_is_coming_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-alfred_(fire_emblem)_(cosplay)",
+              "name": "Alfred (Fire Emblem) (Cosplay)",
+              "prompt": "alfred (fire emblem) (cosplay)",
+              "original_id": "alfred_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-shared_smoke",
+              "name": "共享烟雾",
+              "prompt": "shared smoke",
+              "original_id": "shared_smoke",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-deirdre_(fire_emblem)_(cosplay)",
+              "name": "Deirdre (Fire Emblem) (Cosplay)",
+              "prompt": "deirdre (fire emblem) (cosplay)",
+              "original_id": "deirdre_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fogado_(fire_emblem)_(cosplay)",
+              "name": "Fogado (Fire Emblem) (Cosplay)",
+              "prompt": "fogado (fire emblem) (cosplay)",
+              "original_id": "fogado_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fire_halo",
+              "name": "火光环",
+              "prompt": "fire halo",
+              "original_id": "fire_halo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-est_(fire_emblem)_(cosplay)",
+              "name": "Est (Fire Emblem) (Cosplay)",
+              "prompt": "est (fire emblem) (cosplay)",
+              "original_id": "est_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-yunaka_(fire_emblem)_(cosplay)",
+              "name": "Yunaka (Fire Emblem) (Cosplay)",
+              "prompt": "yunaka (fire emblem) (cosplay)",
+              "original_id": "yunaka_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-affogato",
+              "name": "阿芙佳朵",
+              "prompt": "affogato",
+              "original_id": "affogato",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-steam_from_head",
+              "name": "头上的蒸汽",
+              "prompt": "steam from head",
+              "original_id": "steam_from_head",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-jaffar_(fire_emblem)_(cosplay)",
+              "name": "Jaffar (Fire Emblem) (Cosplay)",
+              "prompt": "jaffar (fire emblem) (cosplay)",
+              "original_id": "jaffar_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-pink_smoke",
+              "name": "粉红烟雾",
+              "prompt": "pink smoke",
+              "original_id": "pink_smoke",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fado_(fire_emblem)_(cosplay)",
+              "name": "Fado (Fire Emblem) (Cosplay)",
+              "prompt": "fado (fire emblem) (cosplay)",
+              "original_id": "fado_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-supa_hot_fire_(meme)",
+              "name": "Supa Hot Fire (Meme)",
+              "prompt": "supa hot fire (meme)",
+              "original_id": "supa_hot_fire_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-sage_outfit_(fire_emblem_engage)",
+              "name": "Sage Outfit (Fire Emblem Engage)",
+              "prompt": "sage outfit (fire emblem engage)",
+              "original_id": "sage_outfit_(fire_emblem_engage)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fireflash",
+              "name": "火闪",
+              "prompt": "fireflash",
+              "original_id": "fireflash",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-alear_(male)_(fire_emblem)_(cosplay)",
+              "name": "Alear (Male) (Fire Emblem) (Cosplay)",
+              "prompt": "alear (male) (fire emblem) (cosplay)",
+              "original_id": "alear_(male)_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-big_smoke_(cosplay)",
+              "name": "Big Smoke (Cosplay)",
+              "prompt": "big smoke (cosplay)",
+              "original_id": "big_smoke_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-portrait_of_a_lady_on_fire",
+              "name": "燃烧女士的肖像",
+              "prompt": "portrait of a lady on fire",
+              "original_id": "portrait_of_a_lady_on_fire",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-leanne_(fire_emblem)_(cosplay)",
+              "name": "Leanne (Fire Emblem) (Cosplay)",
+              "prompt": "leanne (fire emblem) (cosplay)",
+              "original_id": "leanne_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-rhea_(fire_emblem)_(cosplay)",
+              "name": "Rhea (Fire Emblem) (Cosplay)",
+              "prompt": "rhea (fire emblem) (cosplay)",
+              "original_id": "rhea_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-red_fire_(mario)",
+              "name": "Red Fire (Mario)",
+              "prompt": "red fire (mario)",
+              "original_id": "red_fire_(mario)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-mado_flames_(garo)",
+              "name": "Mado Flames (Garo)",
+              "prompt": "mado flames (garo)",
+              "original_id": "mado_flames_(garo)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-flora_(fire_emblem)_(cosplay)",
+              "name": "Flora (Fire Emblem) (Cosplay)",
+              "prompt": "flora (fire emblem) (cosplay)",
+              "original_id": "flora_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-naga_(fire_emblem)_(cosplay)",
+              "name": "Naga (Fire Emblem) (Cosplay)",
+              "prompt": "naga (fire emblem) (cosplay)",
+              "original_id": "naga_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-tiki_(fire_emblem)_(cosplay)",
+              "name": "Tiki (Fire Emblem) (Cosplay)",
+              "prompt": "tiki (fire emblem) (cosplay)",
+              "original_id": "tiki_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-titania_(fire_emblem)_(cosplay)",
+              "name": "Titania (Fire Emblem) (Cosplay)",
+              "prompt": "titania (fire emblem) (cosplay)",
+              "original_id": "titania_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fire_lookout_tower",
+              "name": "火灾瞭望塔",
+              "prompt": "fire lookout tower",
+              "original_id": "fire_lookout_tower",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-mercurius_(fire_emblem)",
+              "name": "Mercurius (Fire Emblem)",
+              "prompt": "mercurius (fire emblem)",
+              "original_id": "mercurius_(fire_emblem)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-lighting_firework",
+              "name": "点燃烟花",
+              "prompt": "lighting firework",
+              "original_id": "lighting_firework",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-mystic_fire_(pokemon)",
+              "name": "Mystic Fire (Pokemon)",
+              "prompt": "mystic fire (pokemon)",
+              "original_id": "mystic_fire_(pokemon)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-lumera_(fire_emblem)_(cosplay)",
+              "name": "Lumera (Fire Emblem) (Cosplay)",
+              "prompt": "lumera (fire emblem) (cosplay)",
+              "original_id": "lumera_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-lapis_(fire_emblem)_(cosplay)",
+              "name": "Lapis (Fire Emblem) (Cosplay)",
+              "prompt": "lapis (fire emblem) (cosplay)",
+              "original_id": "lapis_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-hinoka_(fire_emblem)_(cosplay)",
+              "name": "Hinoka (Fire Emblem) (Cosplay)",
+              "prompt": "hinoka (fire emblem) (cosplay)",
+              "original_id": "hinoka_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fire_and_brimstone",
+              "name": "火与硫磺",
+              "prompt": "fire and brimstone",
+              "original_id": "fire_and_brimstone",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-dragonfire_shield_(runescape)",
+              "name": "Dragonfire Shield (Runescape)",
+              "prompt": "dragonfire shield (runescape)",
+              "original_id": "dragonfire_shield_(runescape)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-affogato_(food)",
+              "name": "Affogato (Food)",
+              "prompt": "affogato (food)",
+              "original_id": "affogato_(food)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-nina_(breath_of_fire_iii)_(cosplay)",
+              "name": "Nina (Breath Of Fire Iii) (Cosplay)",
+              "prompt": "nina (breath of fire iii) (cosplay)",
+              "original_id": "nina_(breath_of_fire_iii)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-narutaki_(steam_detectives)_(cosplay)",
+              "name": "Narutaki (Steam Detectives) (Cosplay)",
+              "prompt": "narutaki (steam detectives) (cosplay)",
+              "original_id": "narutaki_(steam_detectives)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-asugi_(fire_emblem)_(cosplay)",
+              "name": "Asugi (Fire Emblem) (Cosplay)",
+              "prompt": "asugi (fire emblem) (cosplay)",
+              "original_id": "asugi_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-cynthia_(fire_emblem)_(cosplay)",
+              "name": "Cynthia (Fire Emblem) (Cosplay)",
+              "prompt": "cynthia (fire emblem) (cosplay)",
+              "original_id": "cynthia_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-smoke_manipulation",
+              "name": "烟雾操控",
+              "prompt": "smoke manipulation",
+              "original_id": "smoke_manipulation",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-mig_31_firefox",
+              "name": "米格 31 火狐",
+              "prompt": "mig-31 firefox",
+              "original_id": "mig_31_firefox",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-camilla_(fire_emblem)_(cosplay)",
+              "name": "Camilla (Fire Emblem) (Cosplay)",
+              "prompt": "camilla (fire emblem) (cosplay)",
+              "original_id": "camilla_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-leo_(fire_emblem)_(cosplay)",
+              "name": "Leo (Fire Emblem) (Cosplay)",
+              "prompt": "leo (fire emblem) (cosplay)",
+              "original_id": "leo_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-ryoma_(fire_emblem)_(cosplay)",
+              "name": "Ryoma (Fire Emblem) (Cosplay)",
+              "prompt": "ryoma (fire emblem) (cosplay)",
+              "original_id": "ryoma_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-xander_(fire_emblem)_(cosplay)",
+              "name": "Xander (Fire Emblem) (Cosplay)",
+              "prompt": "xander (fire emblem) (cosplay)",
+              "original_id": "xander_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-tailtiu_(fire_emblem)_(cosplay)",
+              "name": "Tailtiu (Fire Emblem) (Cosplay)",
+              "prompt": "tailtiu (fire emblem) (cosplay)",
+              "original_id": "tailtiu_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-saizo_(fire_emblem)_(cosplay)",
+              "name": "Saizo (Fire Emblem) (Cosplay)",
+              "prompt": "saizo (fire emblem) (cosplay)",
+              "original_id": "saizo_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-letizia_(fire_emblem)_(cosplay)",
+              "name": "Letizia (Fire Emblem) (Cosplay)",
+              "prompt": "letizia (fire emblem) (cosplay)",
+              "original_id": "letizia_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-smoke_clearing",
+              "name": "清除烟雾",
+              "prompt": "smoke clearing",
+              "original_id": "smoke_clearing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-phoniex_(fire_emblem)",
+              "name": "Phoniex (Fire Emblem)",
+              "prompt": "phoniex (fire emblem)",
+              "original_id": "phoniex_(fire_emblem)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-hocotate_freight_steam_ship",
+              "name": "霍科塔特货运蒸汽船",
+              "prompt": "hocotate freight steam ship",
+              "original_id": "hocotate_freight_steam_ship",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-ayra_(fire_emblem)_(cosplay)",
+              "name": "Ayra (Fire Emblem) (Cosplay)",
+              "prompt": "ayra (fire emblem) (cosplay)",
+              "original_id": "ayra_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fountain_fireworks",
+              "name": "喷泉烟花",
+              "prompt": "fountain fireworks",
+              "original_id": "fountain_fireworks",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-sommie_(fire_emblem)_(cosplay)",
+              "name": "Sommie (Fire Emblem) (Cosplay)",
+              "prompt": "sommie (fire emblem) (cosplay)",
+              "original_id": "sommie_(fire_emblem)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fire_ferret",
+              "name": "火貂",
+              "prompt": "fire ferret",
+              "original_id": "fire_ferret",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-gungnir_(fire_emblem)",
+              "name": "Gungnir (Fire Emblem)",
+              "prompt": "gungnir (fire emblem)",
+              "original_id": "gungnir_(fire_emblem)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-yewfelle_(fire_emblem)",
+              "name": "Yewfelle (Fire Emblem)",
+              "prompt": "yewfelle (fire emblem)",
+              "original_id": "yewfelle_(fire_emblem)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-firebay_(style)",
+              "name": "Firebay (Style)",
+              "prompt": "firebay (style)",
+              "original_id": "firebay_(style)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-smoke_wisp",
+              "name": "烟缕",
+              "prompt": "smoke wisp, wisps of smoke",
+              "original_id": "smoke_wisp",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-steam_vapor",
+              "name": "蒸汽",
+              "prompt": "steam, water vapor",
+              "original_id": "steam_vapor",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fire_ember",
+              "name": "火星",
+              "prompt": "embers, glowing embers",
+              "original_id": "fire_ember",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-explosion_burst",
+              "name": "爆炸",
+              "prompt": "explosion burst, blast effect",
+              "original_id": "explosion_burst",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-water_splash",
+              "name": "水滴飞溅",
+              "prompt": "water splash, splashing water",
+              "original_id": "water_splash",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-ink_splash",
+              "name": "墨水飞溅",
+              "prompt": "ink splash, splatter ink",
+              "original_id": "ink_splash",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-electric_arc",
+              "name": "电弧",
+              "prompt": "electric arc, arcing electricity",
+              "original_id": "electric_arc",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-lightning_strike",
+              "name": "雷击",
+              "prompt": "lightning strike flash",
+              "original_id": "lightning_strike",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-thunder_cloud",
+              "name": "雷云",
+              "prompt": "thunder cloud effect",
+              "original_id": "thunder_cloud",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-magma_glow",
+              "name": "岩浆发光",
+              "prompt": "magma glow, lava glow",
+              "original_id": "magma_glow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-haze_mist",
+              "name": "薄雾",
+              "prompt": "haze, mist, thin fog",
+              "original_id": "haze_mist",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-sandstorm",
+              "name": "沙暴",
+              "prompt": "sandstorm, dust storm",
+              "original_id": "sandstorm",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-blizzard",
+              "name": "暴雪",
+              "prompt": "blizzard, snow storm",
+              "original_id": "blizzard",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-rain_storm",
+              "name": "暴雨",
+              "prompt": "rain storm, heavy rain",
+              "original_id": "rain_storm",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-flame_burst",
+              "name": "火焰爆",
+              "prompt": "flame burst, fire burst",
+              "original_id": "flame_burst",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fire_whirl",
+              "name": "火焰漩涡",
+              "prompt": "fire whirl, fire tornado",
+              "original_id": "fire_whirl",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-ice_crystal",
+              "name": "冰晶",
+              "prompt": "ice crystals, frost effect",
+              "original_id": "ice_crystal",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "effects_digital",
+          "name": "数字特效",
+          "presets": [
+            {
+              "id": "tag-effects-mosaic_background",
+              "name": "马赛克背景",
+              "prompt": "mosaic background",
+              "original_id": "mosaic_background",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-mosaic_censoring",
+              "name": "马赛克审查",
+              "prompt": "mosaic censoring",
+              "original_id": "mosaic_censoring",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-mosaic_art",
+              "name": "马赛克艺术",
+              "prompt": "mosaic art",
+              "original_id": "mosaic_art",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-pixelated",
+              "name": "像素化",
+              "prompt": "pixelated",
+              "original_id": "pixelated",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-mosaic_pattern",
+              "name": "马赛克图案",
+              "prompt": "mosaic pattern",
+              "original_id": "mosaic_pattern",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-noise",
+              "name": "噪音",
+              "prompt": "noise",
+              "original_id": "noise",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-photomosaic",
+              "name": "照片马赛克",
+              "prompt": "photomosaic",
+              "original_id": "photomosaic",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-halftone_texture",
+              "name": "半色调纹理",
+              "prompt": "halftone texture",
+              "original_id": "halftone_texture",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-chromatic_aberration",
+              "name": "色差",
+              "prompt": "chromatic aberration",
+              "original_id": "chromatic_aberration",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-kin_iro_mosaic_high_school_uniform",
+              "name": "金色马赛克高中制服",
+              "prompt": "kin-iro mosaic high school uniform",
+              "original_id": "kin_iro_mosaic_high_school_uniform",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-kin_iro_mosaic_middle_school_uniform",
+              "name": "金色马赛克中学制服",
+              "prompt": "kin-iro mosaic middle school uniform",
+              "original_id": "kin_iro_mosaic_middle_school_uniform",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-synchronoise_(pokemon)",
+              "name": "Synchronoise (Pokemon)",
+              "prompt": "synchronoise (pokemon)",
+              "original_id": "synchronoise_(pokemon)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-angry_dog_noises",
+              "name": "狗怒吠声",
+              "prompt": "angry dog noises",
+              "original_id": "angry_dog_noises",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-noise_marines",
+              "name": "噪音海军陆战队",
+              "prompt": "noise marines",
+              "original_id": "noise_marines",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-tile_mosaic",
+              "name": "瓷砖马赛克",
+              "prompt": "tile mosaic",
+              "original_id": "tile_mosaic",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-scanline",
+              "name": "扫描线",
+              "prompt": "scanlines, CRT effect",
+              "original_id": "scanline",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-vhs",
+              "name": "VHS效果",
+              "prompt": "VHS effect, retro video",
+              "original_id": "vhs",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-static_noise",
+              "name": "静态噪点",
+              "prompt": "static noise, TV static",
+              "original_id": "static_noise",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-rgb_split",
+              "name": "RGB分离",
+              "prompt": "RGB split, chromatic shift",
+              "original_id": "rgb_split",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-screen_door",
+              "name": "纱门效应",
+              "prompt": "screen door effect",
+              "original_id": "screen_door",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-dither",
+              "name": "抖动",
+              "prompt": "dithering, dither effect",
+              "original_id": "dither",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-halftone",
+              "name": "半调",
+              "prompt": "halftone pattern",
+              "original_id": "halftone",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-dot_screen",
+              "name": "网点屏",
+              "prompt": "dot screen pattern",
+              "original_id": "dot_screen",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-moire",
+              "name": "摩尔纹",
+              "prompt": "moire pattern",
+              "original_id": "moire",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-warp",
+              "name": "扭曲",
+              "prompt": "warp effect, image warp",
+              "original_id": "warp",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-pixelate_intense",
+              "name": "强像素化",
+              "prompt": "heavy pixelation",
+              "original_id": "pixelate_intense",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-mosaic",
+              "name": "马赛克",
+              "prompt": "mosaic effect",
+              "original_id": "mosaic",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-glitch_horiz",
+              "name": "水平故障",
+              "prompt": "horizontal glitch",
+              "original_id": "glitch_horiz",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-glitch_rgb",
+              "name": "RGB故障",
+              "prompt": "RGB glitch effect",
+              "original_id": "glitch_rgb",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-glitch_crt",
+              "name": "CRT故障",
+              "prompt": "CRT glitch, vintage monitor",
+              "original_id": "glitch_crt",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-data_error",
+              "name": "数据错误",
+              "prompt": "data error, digital corruption",
+              "original_id": "data_error",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-code_rain",
+              "name": "代码雨",
+              "prompt": "code rain, matrix effect",
+              "original_id": "code_rain",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-hologram",
+              "name": "全息",
+              "prompt": "hologram effect, holographic",
+              "original_id": "hologram",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-digital_noise",
+              "name": "数码噪点",
+              "prompt": "digital noise, sensor noise",
+              "original_id": "digital_noise",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "effects_post",
+          "name": "后期滤镜",
+          "presets": [
+            {
+              "id": "tag-effects-film_grain",
+              "name": "胶片颗粒",
+              "prompt": "film grain",
+              "original_id": "film_grain",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-double_exposure",
+              "name": "双重接触",
+              "prompt": "double exposure",
+              "original_id": "double_exposure",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-high_contrast",
+              "name": "高对比度",
+              "prompt": "high contrast",
+              "original_id": "high_contrast",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fisheye",
+              "name": "鱼眼",
+              "prompt": "fisheye",
+              "original_id": "fisheye",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-control_panel_overlay",
+              "name": "控制面板覆盖图",
+              "prompt": "control panel overlay",
+              "original_id": "control_panel_overlay",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-overlay_unit",
+              "name": "叠加单元",
+              "prompt": "overlay unit",
+              "original_id": "overlay_unit",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-gradient_filter",
+              "name": "梯度过滤器",
+              "prompt": "gradient filter",
+              "original_id": "gradient_filter",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-halle_aux_grains_de_blois",
+              "name": "布卢瓦哈勒奥克斯谷物酒店",
+              "prompt": "halle aux grains de blois",
+              "original_id": "halle_aux_grains_de_blois",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-long_exposure",
+              "name": "长期接触",
+              "prompt": "long exposure",
+              "original_id": "long_exposure",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-vignette_heavy",
+              "name": "重暗角",
+              "prompt": "heavy vignette, dark corners",
+              "original_id": "vignette_heavy",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-vignette_light",
+              "name": "轻暗角",
+              "prompt": "light vignette, subtle corners",
+              "original_id": "vignette_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-vignette_colored",
+              "name": "彩色暗角",
+              "prompt": "colored vignette",
+              "original_id": "vignette_colored",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-film_grain_heavy",
+              "name": "强胶片颗粒",
+              "prompt": "heavy film grain",
+              "original_id": "film_grain_heavy",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-film_grain_light",
+              "name": "轻胶片颗粒",
+              "prompt": "light film grain",
+              "original_id": "film_grain_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-hdr_effect",
+              "name": "HDR效果",
+              "prompt": "HDR effect, high dynamic range",
+              "original_id": "hdr_effect",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-tone_mapping",
+              "name": "色调映射",
+              "prompt": "tone mapping, tone mapped",
+              "original_id": "tone_mapping",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-exposure_boost",
+              "name": "曝光增强",
+              "prompt": "exposure boost, brighten",
+              "original_id": "exposure_boost",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-gradient_overlay",
+              "name": "渐变叠加",
+              "prompt": "gradient overlay, color gradient",
+              "original_id": "gradient_overlay",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-light_leak_film",
+              "name": "胶片漏光",
+              "prompt": "film light leak effect",
+              "original_id": "light_leak_film",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-photo_filter_warm",
+              "name": "暖色滤镜",
+              "prompt": "warm photo filter",
+              "original_id": "photo_filter_warm",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-photo_filter_cool",
+              "name": "冷色滤镜",
+              "prompt": "cool photo filter",
+              "original_id": "photo_filter_cool",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-polarizer",
+              "name": "偏光镜",
+              "prompt": "polarizing filter, polarized",
+              "original_id": "polarizer",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-cross_screen",
+              "name": "十字滤镜",
+              "prompt": "cross screen filter, star filter",
+              "original_id": "cross_screen",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-soft_glow",
+              "name": "柔光",
+              "prompt": "soft glow effect",
+              "original_id": "soft_glow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-dream_glow",
+              "name": "梦幻柔光",
+              "prompt": "dream glow, ethereal glow",
+              "original_id": "dream_glow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-linear_gradient",
+              "name": "线性渐变",
+              "prompt": "linear gradient filter",
+              "original_id": "linear_gradient",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-radial_gradient",
+              "name": "径向渐变",
+              "prompt": "radial gradient",
+              "original_id": "radial_gradient",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "effects_3d",
+          "name": "3D特效",
+          "presets": [
+            {
+              "id": "tag-effects-gradient_outline",
+              "name": "渐变轮廓",
+              "prompt": "gradient outline",
+              "original_id": "gradient_outline",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-rainbow_outline",
+              "name": "彩虹轮廓",
+              "prompt": "rainbow outline",
+              "original_id": "rainbow_outline",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-rainmaker_(splatoon)",
+              "name": "Rainmaker (Splatoon)",
+              "prompt": "rainmaker (splatoon)",
+              "original_id": "rainmaker_(splatoon)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-toon_shader",
+              "name": "卡通着色",
+              "prompt": "toon shader, cel shading",
+              "original_id": "toon_shader",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-outline_ink",
+              "name": "墨水轮廓",
+              "prompt": "ink outline, inked edges",
+              "original_id": "outline_ink",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-edge_detect",
+              "name": "边缘检测",
+              "prompt": "edge detection, find edges",
+              "original_id": "edge_detect",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-posterize",
+              "name": "色调分离",
+              "prompt": "posterize, posterization",
+              "original_id": "posterize",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-emboss",
+              "name": "浮雕",
+              "prompt": "emboss effect, embossed",
+              "original_id": "emboss",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-wireframe",
+              "name": "线框",
+              "prompt": "wireframe render, 3D wireframe",
+              "original_id": "wireframe",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-normal_map",
+              "name": "法线贴图",
+              "prompt": "normal map effect",
+              "original_id": "normal_map",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-displacement",
+              "name": "位移贴图",
+              "prompt": "displacement map",
+              "original_id": "displacement",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-parallax",
+              "name": "视差",
+              "prompt": "parallax effect",
+              "original_id": "parallax",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-fresnel",
+              "name": "菲涅尔",
+              "prompt": "fresnel effect, edge glow",
+              "original_id": "fresnel",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-sss",
+              "name": "次表面散射",
+              "prompt": "subsurface scattering, SSS",
+              "original_id": "sss",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-metallic",
+              "name": "金属质感",
+              "prompt": "metallic finish, metallic shine",
+              "original_id": "metallic",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-reflective",
+              "name": "反射",
+              "prompt": "reflective surface, mirror finish",
+              "original_id": "reflective",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-translucent",
+              "name": "半透明",
+              "prompt": "translucent material",
+              "original_id": "translucent",
+              "type": "tag"
+            },
+            {
+              "id": "tag-effects-glass_effect",
+              "name": "玻璃效果",
+              "prompt": "glass effect, transparent",
+              "original_id": "glass_effect",
+              "type": "tag"
+            }
+          ]
+        }
+      ],
+      "type": "tag"
+    }
+  ]
+}

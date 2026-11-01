@@ -1,0 +1,1106 @@
+{
+  "categories": [
+    {
+      "id": "quality",
+      "name": "质量词",
+      "subcategories": [
+        {
+          "id": "quality_level",
+          "name": "画质",
+          "presets": [
+            {
+              "id": "tag-quality-extremely_detailed",
+              "name": "极度细致",
+              "prompt": "extremely detailed",
+              "original_id": "extremely_detailed",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-highres",
+              "name": "高清",
+              "prompt": "highres",
+              "original_id": "highres",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-intricate_details",
+              "name": "精细细节",
+              "prompt": "intricate details",
+              "original_id": "intricate_details",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-masterpiece",
+              "name": "杰作",
+              "prompt": "masterpiece",
+              "original_id": "masterpiece",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-sharp_focus",
+              "name": "锐利聚焦",
+              "prompt": "sharp focus",
+              "original_id": "sharp_focus",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-ultra_detailed",
+              "name": "超详细",
+              "prompt": "ultra detailed",
+              "original_id": "ultra_detailed",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-best_quality",
+              "name": "最佳质量",
+              "prompt": "best quality, highest quality",
+              "original_id": "best_quality",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-amazing_quality",
+              "name": "惊人质量",
+              "prompt": "amazing quality, stunning quality",
+              "original_id": "amazing_quality",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-absurd_res",
+              "name": "超高分辨率",
+              "prompt": "absurd resolution, absurdly high res",
+              "original_id": "absurd_res",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-8k",
+              "name": "8K",
+              "prompt": "8k resolution",
+              "original_id": "8k",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-4k",
+              "name": "4K",
+              "prompt": "4k, 4k resolution",
+              "original_id": "4k",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-hdr",
+              "name": "HDR",
+              "prompt": "HDR, high dynamic range",
+              "original_id": "hdr",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-raw_photo",
+              "name": "RAW照片",
+              "prompt": "raw photo, raw image",
+              "original_id": "raw_photo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-professional",
+              "name": "专业级",
+              "prompt": "professional photo, pro photo",
+              "original_id": "professional",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-cinematic",
+              "name": "电影感",
+              "prompt": "cinematic, cinematic lighting",
+              "original_id": "cinematic",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-film_grain",
+              "name": "胶片颗粒",
+              "prompt": "film grain, film texture, grainy",
+              "original_id": "film_grain",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-unreal_engine",
+              "name": "虚幻引擎",
+              "prompt": "unreal engine 5 render",
+              "original_id": "unreal_engine",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-ray_tracing",
+              "name": "光线追踪",
+              "prompt": "ray tracing, raytracing, path tracing",
+              "original_id": "ray_tracing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-global_illumination",
+              "name": "全局照明",
+              "prompt": "global illumination, GI",
+              "original_id": "global_illumination",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-subsurface_scattering",
+              "name": "次表面散射",
+              "prompt": "subsurface scattering, sss, skin",
+              "original_id": "subsurface_scattering",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-depth_of_field",
+              "name": "景深",
+              "prompt": "depth of field, bokeh background",
+              "original_id": "depth_of_field",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-motion_blur",
+              "name": "动态模糊",
+              "prompt": "motion blur, movement blur",
+              "original_id": "motion_blur",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-tilt_shift",
+              "name": "移轴效果",
+              "prompt": "tilt-shift effect, miniaturize",
+              "original_id": "tilt_shift",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-macro_shot",
+              "name": "微距",
+              "prompt": "macro shot, macro photography",
+              "original_id": "macro_shot",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-super_resolution",
+              "name": "超分辨率",
+              "prompt": "super resolution, SR",
+              "original_id": "super_resolution",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-denoising",
+              "name": "降噪",
+              "prompt": "denoised, noise reduction",
+              "original_id": "denoising",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-anti_aliasing",
+              "name": "抗锯齿",
+              "prompt": "anti-aliasing, smooth edges",
+              "original_id": "anti_aliasing",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "quality_style",
+          "name": "画风",
+          "presets": [
+            {
+              "id": "tag-quality-anime_style",
+              "name": "动漫风格",
+              "prompt": "anime style",
+              "original_id": "anime_style",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-digital_art",
+              "name": "数字艺术",
+              "prompt": "digital art",
+              "original_id": "digital_art",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-oil_painting",
+              "name": "油画",
+              "prompt": "oil painting",
+              "original_id": "oil_painting",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-pencil_sketch",
+              "name": "铅笔素描",
+              "prompt": "pencil sketch",
+              "original_id": "pencil_sketch",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-photorealistic",
+              "name": "照片级写实",
+              "prompt": "photorealistic",
+              "original_id": "photorealistic",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-pixel_art",
+              "name": "像素艺术",
+              "prompt": "pixel art",
+              "original_id": "pixel_art",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-realistic",
+              "name": "写实",
+              "prompt": "realistic",
+              "original_id": "realistic",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-watercolor",
+              "name": "水彩",
+              "prompt": "watercolor",
+              "original_id": "watercolor",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-traditional_media",
+              "name": "传统媒介",
+              "prompt": "traditional media, traditional art",
+              "original_id": "traditional_media",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-pastel_colors",
+              "name": "粉彩色调",
+              "prompt": "pastel colors, soft pastel",
+              "original_id": "pastel_colors",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-vibrant_colors",
+              "name": "鲜艳色彩",
+              "prompt": "vibrant colors, bold colors",
+              "original_id": "vibrant_colors",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-monochrome",
+              "name": "单色",
+              "prompt": "monochrome, monochromatic",
+              "original_id": "monochrome",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-black_and_white",
+              "name": "黑白",
+              "prompt": "black and white, b&w",
+              "original_id": "black_and_white",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-grayscale",
+              "name": "灰度",
+              "prompt": "grayscale",
+              "original_id": "grayscale",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-sketch",
+              "name": "素描",
+              "prompt": "sketch, rough sketch",
+              "original_id": "sketch",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-line_art",
+              "name": "线稿",
+              "prompt": "line art, lineart",
+              "original_id": "line_art",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-cell_shading",
+              "name": "赛璐珞",
+              "prompt": "cell shade, cel shading, cel shade",
+              "original_id": "cell_shading",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-3d_render",
+              "name": "3D渲染",
+              "prompt": "3d render, 3d, rendered",
+              "original_id": "3d_render",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-cgi",
+              "name": "CGI",
+              "prompt": "CGI, computer generated",
+              "original_id": "cgi",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-concept_art",
+              "name": "概念艺术",
+              "prompt": "concept art",
+              "original_id": "concept_art",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-fan_art",
+              "name": "同人",
+              "prompt": "fan art, fanart",
+              "original_id": "fan_art",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-official_art",
+              "name": "官方",
+              "prompt": "official art, official illustration",
+              "original_id": "official_art",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-manga",
+              "name": "漫画风格",
+              "prompt": "manga style",
+              "original_id": "manga",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-chibi",
+              "name": "Q版",
+              "prompt": "chibi, super deformed, sd",
+              "original_id": "chibi",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-semi_realistic",
+              "name": "半写实",
+              "prompt": "semi-realistic",
+              "original_id": "semi_realistic",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-hyperrealistic",
+              "name": "超写实",
+              "prompt": "hyperrealistic, hyper realistic",
+              "original_id": "hyperrealistic",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-surreal",
+              "name": "超现实",
+              "prompt": "surreal, surrealism",
+              "original_id": "surreal",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-impressionism",
+              "name": "印象派",
+              "prompt": "impressionism, impressionist",
+              "original_id": "impressionism",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-expressionism",
+              "name": "表现主义",
+              "prompt": "expressionism",
+              "original_id": "expressionism",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-abstract",
+              "name": "抽象",
+              "prompt": "abstract art, abstract style",
+              "original_id": "abstract",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-minimalist",
+              "name": "极简",
+              "prompt": "minimalist, minimal",
+              "original_id": "minimalist",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-ink_wash",
+              "name": "水墨",
+              "prompt": "ink wash painting, sumi-e",
+              "original_id": "ink_wash",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-sumi_e",
+              "name": "水墨画",
+              "prompt": "sumi-e, sumi brush",
+              "original_id": "sumi_e",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-ukiyo_e",
+              "name": "浮世绘",
+              "prompt": "ukiyo-e, ukiyoe",
+              "original_id": "ukiyo_e",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-woodblock",
+              "name": "木版画",
+              "prompt": "woodblock print",
+              "original_id": "woodblock",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-vector_art",
+              "name": "矢量图",
+              "prompt": "vector art, vector illustration",
+              "original_id": "vector_art",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-flat_design",
+              "name": "扁平风格",
+              "prompt": "flat design, flat illustration",
+              "original_id": "flat_design",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-low_poly",
+              "name": "低多边形",
+              "prompt": "low poly, low-poly",
+              "original_id": "low_poly",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-vaporwave",
+              "name": "蒸汽波",
+              "prompt": "vaporwave aesthetic",
+              "original_id": "vaporwave",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-synthwave",
+              "name": "合成波",
+              "prompt": "synthwave, retrowave",
+              "original_id": "synthwave",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-steampunk",
+              "name": "蒸汽朋克",
+              "prompt": "steampunk style",
+              "original_id": "steampunk",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-dieselpunk",
+              "name": "柴油朋克",
+              "prompt": "dieselpunk",
+              "original_id": "dieselpunk",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-sci_fi",
+              "name": "科幻",
+              "prompt": "sci-fi, science fiction",
+              "original_id": "sci_fi",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-post_apocalyptic",
+              "name": "末日",
+              "prompt": "post-apocalyptic, wasteland",
+              "original_id": "post_apocalyptic",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-gothic",
+              "name": "哥特",
+              "prompt": "gothic style",
+              "original_id": "gothic",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-baroque",
+              "name": "巴洛克",
+              "prompt": "baroque style",
+              "original_id": "baroque",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-rococo",
+              "name": "洛可可",
+              "prompt": "rococo style",
+              "original_id": "rococo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-art_nouveau",
+              "name": "新艺术",
+              "prompt": "art nouveau",
+              "original_id": "art_nouveau",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-pop_art",
+              "name": "波普艺术",
+              "prompt": "pop art, pop-art",
+              "original_id": "pop_art",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-retro",
+              "name": "复古",
+              "prompt": "retro style, vintage",
+              "original_id": "retro",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-polaroid",
+              "name": "拍立得",
+              "prompt": "polaroid, instant photo",
+              "original_id": "polaroid",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-glitch",
+              "name": "故障效果",
+              "prompt": "glitch art, glitch effect",
+              "original_id": "glitch",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "quality_mood",
+          "name": "氛围/情绪",
+          "presets": [
+            {
+              "id": "tag-quality-cute",
+              "name": "可爱",
+              "prompt": "cute",
+              "original_id": "cute",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-cyberpunk",
+              "name": "赛博朋克",
+              "prompt": "cyberpunk",
+              "original_id": "cyberpunk",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-dramatic",
+              "name": "戏剧性",
+              "prompt": "dramatic",
+              "original_id": "dramatic",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-energy",
+              "name": "能量",
+              "prompt": "energy",
+              "original_id": "energy",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-fantasy",
+              "name": "奇幻",
+              "prompt": "fantasy",
+              "original_id": "fantasy",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-horror",
+              "name": "恐怖",
+              "prompt": "horror",
+              "original_id": "horror",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-magic",
+              "name": "魔法",
+              "prompt": "magic",
+              "original_id": "magic",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-romantic",
+              "name": "浪漫",
+              "prompt": "romantic atmosphere",
+              "original_id": "romantic",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-mysterious",
+              "name": "神秘",
+              "prompt": "mysterious, enigmatic",
+              "original_id": "mysterious",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-eerie",
+              "name": "诡异",
+              "prompt": "eerie, unsettling",
+              "original_id": "eerie",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-peaceful",
+              "name": "宁静",
+              "prompt": "peaceful, calm, serene",
+              "original_id": "peaceful",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-epic",
+              "name": "史诗",
+              "prompt": "epic scale, epic scene",
+              "original_id": "epic",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-majestic",
+              "name": "壮丽",
+              "prompt": "majestic, grand",
+              "original_id": "majestic",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-whimsical",
+              "name": "奇幻",
+              "prompt": "whimsical, fanciful",
+              "original_id": "whimsical",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-dreamy",
+              "name": "梦幻",
+              "prompt": "dreamy, dreamlike",
+              "original_id": "dreamy",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-ethereal",
+              "name": "缥缈",
+              "prompt": "ethereal, celestial",
+              "original_id": "ethereal",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-melancholic",
+              "name": "忧郁",
+              "prompt": "melancholic, melancholy",
+              "original_id": "melancholic",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-hopeful",
+              "name": "希望",
+              "prompt": "hopeful, uplifting",
+              "original_id": "hopeful",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-cozy",
+              "name": "温馨",
+              "prompt": "cozy, comfy, warm atmosphere",
+              "original_id": "cozy",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-serene",
+              "name": "宁静",
+              "prompt": "serene, tranquil",
+              "original_id": "serene",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-chaotic",
+              "name": "混乱",
+              "prompt": "chaotic, chaotic scene",
+              "original_id": "chaotic",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-violent",
+              "name": "暴力",
+              "prompt": "violent, brutal",
+              "original_id": "violent",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-sensual",
+              "name": "性感",
+              "prompt": "sensual, erotic feel",
+              "original_id": "sensual",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-erotic",
+              "name": "情色",
+              "prompt": "erotic, adult content",
+              "original_id": "erotic",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-sexy",
+              "name": "诱惑",
+              "prompt": "sexy, seductive",
+              "original_id": "sexy",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-elegant",
+              "name": "优雅",
+              "prompt": "elegant, refined",
+              "original_id": "elegant",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-graceful",
+              "name": "优美",
+              "prompt": "graceful, poised",
+              "original_id": "graceful",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-wholesome",
+              "name": "治愈",
+              "prompt": "wholesome, heartwarming",
+              "original_id": "wholesome",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-heartwarming",
+              "name": "暖心",
+              "prompt": "heartwarming scene",
+              "original_id": "heartwarming",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-emotional",
+              "name": "感人",
+              "prompt": "emotional, touching",
+              "original_id": "emotional",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-atmospheric",
+              "name": "氛围感",
+              "prompt": "atmospheric, ambient",
+              "original_id": "atmospheric",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-moody",
+              "name": "情绪化",
+              "prompt": "moody, dark mood",
+              "original_id": "moody",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-somber",
+              "name": "阴沉",
+              "prompt": "somber, gloomy",
+              "original_id": "somber",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-cheerful",
+              "name": "欢快",
+              "prompt": "cheerful, joyful",
+              "original_id": "cheerful",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-nostalgic",
+              "name": "怀旧",
+              "prompt": "nostalgic, nostalgic feel",
+              "original_id": "nostalgic",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-lonely",
+              "name": "孤独",
+              "prompt": "lonely, solitary",
+              "original_id": "lonely",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-triumphant",
+              "name": "胜利",
+              "prompt": "triumphant, victorious",
+              "original_id": "triumphant",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-awe_inspiring",
+              "name": "令人敬畏",
+              "prompt": "awe-inspiring, breathtaking",
+              "original_id": "awe_inspiring",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-mystical",
+              "name": "神秘",
+              "prompt": "mystical, occult",
+              "original_id": "mystical",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-sacred",
+              "name": "神圣",
+              "prompt": "sacred, holy",
+              "original_id": "sacred",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-profane",
+              "name": "亵渎",
+              "prompt": "profane, blasphemous",
+              "original_id": "profane",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-playful",
+              "name": "俏皮",
+              "prompt": "playful, lighthearted",
+              "original_id": "playful",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-tense",
+              "name": "紧张",
+              "prompt": "tense, suspenseful",
+              "original_id": "tense",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-foreboding",
+              "name": "不祥",
+              "prompt": "foreboding, ominous",
+              "original_id": "foreboding",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-blissful",
+              "name": "极乐",
+              "prompt": "blissful, ecstatic",
+              "original_id": "blissful",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "quality_composition",
+          "name": "构图",
+          "presets": [
+            {
+              "id": "tag-quality-extreme_close_up",
+              "name": "极特写",
+              "prompt": "extreme close-up, macro face",
+              "original_id": "extreme_close_up",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-face_focus",
+              "name": "面部特写",
+              "prompt": "face focus, face close-up",
+              "original_id": "face_focus",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-eye_focus",
+              "name": "眼部特写",
+              "prompt": "eye focus, eye close-up",
+              "original_id": "eye_focus",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-waist_up",
+              "name": "半身",
+              "prompt": "waist up, half body shot",
+              "original_id": "waist_up",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-knee_up",
+              "name": "膝上",
+              "prompt": "knee up, thigh shot",
+              "original_id": "knee_up",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-full_body",
+              "name": "全身",
+              "prompt": "full body, full body shot",
+              "original_id": "full_body",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-portrait",
+              "name": "肖像",
+              "prompt": "portrait, portrait shot",
+              "original_id": "portrait",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-landscape",
+              "name": "横向构图",
+              "prompt": "landscape orientation, wide",
+              "original_id": "landscape",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-panorama",
+              "name": "全景",
+              "prompt": "panorama, panoramic view",
+              "original_id": "panorama",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-bird_eye_view",
+              "name": "鸟瞰",
+              "prompt": "bird's eye view, top down",
+              "original_id": "bird_eye_view",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-worm_eye_view",
+              "name": "虫眼视角",
+              "prompt": "worm's eye view, low angle up",
+              "original_id": "worm_eye_view",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-from_above",
+              "name": "俯视",
+              "prompt": "from above, looking down",
+              "original_id": "from_above",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-from_below",
+              "name": "仰视",
+              "prompt": "from below, looking up",
+              "original_id": "from_below",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-from_side",
+              "name": "侧视",
+              "prompt": "from the side, side view",
+              "original_id": "from_side",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-from_behind",
+              "name": "背视",
+              "prompt": "from behind, back view",
+              "original_id": "from_behind",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-over_the_shoulder",
+              "name": "过肩",
+              "prompt": "over-the-shoulder view",
+              "original_id": "over_the_shoulder",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-dutch_angle",
+              "name": "荷兰角",
+              "prompt": "dutch angle, tilted",
+              "original_id": "dutch_angle",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-low_angle",
+              "name": "低角度",
+              "prompt": "low angle shot",
+              "original_id": "low_angle",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-high_angle",
+              "name": "高角度",
+              "prompt": "high angle shot",
+              "original_id": "high_angle",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-straight_on",
+              "name": "正面",
+              "prompt": "straight on view",
+              "original_id": "straight_on",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-symmetrical",
+              "name": "对称",
+              "prompt": "symmetrical composition",
+              "original_id": "symmetrical",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-asymmetrical",
+              "name": "不对称",
+              "prompt": "asymmetrical framing",
+              "original_id": "asymmetrical",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-rule_of_thirds",
+              "name": "三分法",
+              "prompt": "rule of thirds",
+              "original_id": "rule_of_thirds",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-center_framing",
+              "name": "居中",
+              "prompt": "center framing",
+              "original_id": "center_framing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-off_center",
+              "name": "偏位",
+              "prompt": "off-center composition",
+              "original_id": "off_center",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-wide_angle",
+              "name": "广角",
+              "prompt": "wide angle lens",
+              "original_id": "wide_angle",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-fisheye",
+              "name": "鱼眼",
+              "prompt": "fisheye lens, fisheye",
+              "original_id": "fisheye",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-telephoto",
+              "name": "长焦",
+              "prompt": "telephoto lens, compressed perspective",
+              "original_id": "telephoto",
+              "type": "tag"
+            },
+            {
+              "id": "tag-quality-aerial_view",
+              "name": "航拍",
+              "prompt": "aerial view, from above",
+              "original_id": "aerial_view",
+              "type": "tag"
+            }
+          ]
+        }
+      ],
+      "type": "tag"
+    }
+  ]
+}

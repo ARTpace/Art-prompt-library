@@ -1,0 +1,3073 @@
+{
+  "categories": [
+    {
+      "id": "lighting",
+      "name": "光影",
+      "subcategories": [
+        {
+          "id": "lighting_natural",
+          "name": "自然光",
+          "presets": [
+            {
+              "id": "tag-lighting-sunlight",
+              "name": "阳光",
+              "prompt": "sunlight",
+              "original_id": "sunlight",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dappled_sunlight",
+              "name": "斑驳阳光",
+              "prompt": "dappled sunlight",
+              "original_id": "dappled_sunlight",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dusk",
+              "name": "黄昏",
+              "prompt": "dusk",
+              "original_id": "dusk",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-moonlight",
+              "name": "月光",
+              "prompt": "moonlight",
+              "original_id": "moonlight",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-twilight",
+              "name": "黄昏",
+              "prompt": "twilight",
+              "original_id": "twilight",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dawn",
+              "name": "黎明",
+              "prompt": "dawn",
+              "original_id": "dawn",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-moonlight_butterfly",
+              "name": "月光蝶",
+              "prompt": "moonlight butterfly",
+              "original_id": "moonlight_butterfly",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-moon_in_daylight",
+              "name": "白天的月亮",
+              "prompt": "moon in daylight",
+              "original_id": "moon_in_daylight",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dappled_moonlight",
+              "name": "斑驳月光",
+              "prompt": "dappled moonlight",
+              "original_id": "dappled_moonlight",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-sunlight_maggot",
+              "name": "阳光蛆",
+              "prompt": "sunlight maggot",
+              "original_id": "sunlight_maggot",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-moonlight_greatsword",
+              "name": "月光大剑",
+              "prompt": "moonlight greatsword",
+              "original_id": "moonlight_greatsword",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-sunlight_heart",
+              "name": "阳光之心",
+              "prompt": "sunlight heart",
+              "original_id": "sunlight_heart",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-xiphos'_moonlight_(genshin_impact)",
+              "name": "Xiphos' Moonlight (Genshin Impact)",
+              "prompt": "xiphos' moonlight (genshin impact)",
+              "original_id": "xiphos'_moonlight_(genshin_impact)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-golden_hour",
+              "name": "黄金时刻",
+              "prompt": "golden hour",
+              "original_id": "golden_hour",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-light_beam",
+              "name": "光束",
+              "prompt": "light beam",
+              "original_id": "light_beam",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-skylight",
+              "name": "天窗",
+              "prompt": "skylight",
+              "original_id": "skylight",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-natural_light",
+              "name": "自然光",
+              "prompt": "natural light",
+              "original_id": "natural_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-sunset",
+              "name": "日落",
+              "prompt": "sunset",
+              "original_id": "sunset",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-blue_hour",
+              "name": "蓝色时刻",
+              "prompt": "blue hour, twilight blue",
+              "original_id": "blue_hour",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-golden_hour_warm",
+              "name": "温暖黄金时",
+              "prompt": "warm golden hour lighting",
+              "original_id": "golden_hour_warm",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-midnight_sun",
+              "name": "午夜太阳",
+              "prompt": "midnight sun",
+              "original_id": "midnight_sun",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-sunny",
+              "name": "晴朗",
+              "prompt": "sunny day, bright sunlight",
+              "original_id": "sunny",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-cloudy_bright",
+              "name": "多云明亮",
+              "prompt": "cloudy bright, soft daylight",
+              "original_id": "cloudy_bright",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-overcast",
+              "name": "阴天",
+              "prompt": "overcast lighting, diffused light",
+              "original_id": "overcast",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-storm_light",
+              "name": "暴风雨光",
+              "prompt": "storm lighting, dark storm light",
+              "original_id": "storm_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-rain_light",
+              "name": "雨天光",
+              "prompt": "rainy day lighting, wet light",
+              "original_id": "rain_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-snow_light",
+              "name": "雪天光",
+              "prompt": "snow lighting, winter light",
+              "original_id": "snow_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-fog_light",
+              "name": "雾天光",
+              "prompt": "foggy lighting, misty light",
+              "original_id": "fog_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-forest_light",
+              "name": "林间光",
+              "prompt": "forest light, dappled forest light",
+              "original_id": "forest_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-underwater_light",
+              "name": "水下光",
+              "prompt": "underwater lighting, aquatic light",
+              "original_id": "underwater_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-cave_light",
+              "name": "洞穴光",
+              "prompt": "cave lighting, cavern dim light",
+              "original_id": "cave_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-aurora",
+              "name": "极光",
+              "prompt": "aurora borealis, northern lights",
+              "original_id": "aurora",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-lightning_flash",
+              "name": "闪电闪光",
+              "prompt": "lightning flash illumination",
+              "original_id": "lightning_flash",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-firefly_light",
+              "name": "萤火虫光",
+              "prompt": "firefly lighting, bioluminescent",
+              "original_id": "firefly_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-bioluminescence",
+              "name": "生物荧光",
+              "prompt": "bioluminescent light",
+              "original_id": "bioluminescence",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-sunrise_warm",
+              "name": "温暖日出",
+              "prompt": "warm sunrise light",
+              "original_id": "sunrise_warm",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-sunset_cold",
+              "name": "冷色日落",
+              "prompt": "cold sunset light",
+              "original_id": "sunset_cold",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-moonlight_cold",
+              "name": "冷色月光",
+              "prompt": "cold moonlight",
+              "original_id": "moonlight_cold",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-moonlight_warm",
+              "name": "暖色月光",
+              "prompt": "warm moonlight",
+              "original_id": "moonlight_warm",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-starry_night",
+              "name": "星空夜",
+              "prompt": "starry night light",
+              "original_id": "starry_night",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-crescent_moon",
+              "name": "新月",
+              "prompt": "crescent moon light",
+              "original_id": "crescent_moon",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-full_moon",
+              "name": "满月",
+              "prompt": "full moon light",
+              "original_id": "full_moon",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-twilight_dusk",
+              "name": "黄昏",
+              "prompt": "dusk, evening twilight",
+              "original_id": "twilight_dusk",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-twilight_dawn",
+              "name": "黎明",
+              "prompt": "dawn, morning twilight",
+              "original_id": "twilight_dawn",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-midnight",
+              "name": "午夜",
+              "prompt": "midnight, deep night",
+              "original_id": "midnight",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-clear_sky",
+              "name": "晴空",
+              "prompt": "clear sky, blue sky",
+              "original_id": "clear_sky",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-storm_sky",
+              "name": "暴风雨天",
+              "prompt": "storm sky",
+              "original_id": "storm_sky",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-rainy_day",
+              "name": "雨天",
+              "prompt": "rainy day light",
+              "original_id": "rainy_day",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-snowy_day",
+              "name": "雪天",
+              "prompt": "snowy day light",
+              "original_id": "snowy_day",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-foggy_morning",
+              "name": "雾晨",
+              "prompt": "foggy morning",
+              "original_id": "foggy_morning",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-cave_dark",
+              "name": "洞穴暗光",
+              "prompt": "cave darkness",
+              "original_id": "cave_dark",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-desert_sun",
+              "name": "沙漠烈日",
+              "prompt": "desert sun",
+              "original_id": "desert_sun",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-winter_sun",
+              "name": "冬日暖阳",
+              "prompt": "winter sun",
+              "original_id": "winter_sun",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-spring_light",
+              "name": "春日阳光",
+              "prompt": "spring light",
+              "original_id": "spring_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-autumn_light",
+              "name": "秋日阳光",
+              "prompt": "autumn light",
+              "original_id": "autumn_light",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "lighting_artificial",
+          "name": "人工光",
+          "presets": [
+            {
+              "id": "tag-lighting-neon_trim",
+              "name": "霓虹装饰",
+              "prompt": "neon trim",
+              "original_id": "neon_trim",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-candlelight",
+              "name": "烛光",
+              "prompt": "candlelight",
+              "original_id": "candlelight",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-neon_lights",
+              "name": "霓虹灯",
+              "prompt": "neon lights",
+              "original_id": "neon_lights",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-neon_palette",
+              "name": "霓虹调色板",
+              "prompt": "neon palette",
+              "original_id": "neon_palette",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-neon_tetra",
+              "name": "霓虹灯四",
+              "prompt": "neon tetra",
+              "original_id": "neon_tetra",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-neon_sign",
+              "name": "霓虹灯",
+              "prompt": "neon sign",
+              "original_id": "neon_sign",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-light_bulb",
+              "name": "灯泡",
+              "prompt": "light bulb",
+              "original_id": "light_bulb",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-spotlight",
+              "name": "聚光灯",
+              "prompt": "spotlight",
+              "original_id": "spotlight",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-holding_flashlight",
+              "name": "握手电筒",
+              "prompt": "holding flashlight",
+              "original_id": "holding_flashlight",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-screen_light",
+              "name": "屏幕光",
+              "prompt": "screen light",
+              "original_id": "screen_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-ceiling_light",
+              "name": "吸顶灯",
+              "prompt": "ceiling light",
+              "original_id": "ceiling_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-spoken_light_bulb",
+              "name": "说话灯泡",
+              "prompt": "spoken light bulb",
+              "original_id": "spoken_light_bulb",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-string_of_light_bulbs",
+              "name": "灯串",
+              "prompt": "string of light bulbs",
+              "original_id": "string_of_light_bulbs",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-light_bulb_hair_ornament",
+              "name": "灯泡发饰",
+              "prompt": "light bulb hair ornament",
+              "original_id": "light_bulb_hair_ornament",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-ring_light",
+              "name": "环形灯",
+              "prompt": "ring light",
+              "original_id": "ring_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-swinging_flashlight_test",
+              "name": "摆闪测试",
+              "prompt": "swinging-flashlight test",
+              "original_id": "swinging_flashlight_test",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-flashlight",
+              "name": "手电筒",
+              "prompt": "flashlight",
+              "original_id": "flashlight",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-headlight",
+              "name": "车头灯",
+              "prompt": "headlight",
+              "original_id": "headlight",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-searchlight",
+              "name": "探照灯",
+              "prompt": "searchlight",
+              "original_id": "searchlight",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-neon",
+              "name": "霓虹",
+              "prompt": "neon",
+              "original_id": "neon",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-softbox",
+              "name": "柔光箱",
+              "prompt": "softbox lighting",
+              "original_id": "softbox",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-key_light",
+              "name": "主光",
+              "prompt": "key light, main light",
+              "original_id": "key_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-fill_light",
+              "name": "补光",
+              "prompt": "fill light, fill flash",
+              "original_id": "fill_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-hair_light",
+              "name": "发丝光",
+              "prompt": "hair light, rim hair light",
+              "original_id": "hair_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-practical_light",
+              "name": "道具灯光",
+              "prompt": "practical light, practical lighting",
+              "original_id": "practical_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-christmas_light",
+              "name": "圣诞灯光",
+              "prompt": "christmas lights, fairy lights",
+              "original_id": "christmas_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-fairy_light",
+              "name": "仙女灯",
+              "prompt": "fairy lights, twinkle lights",
+              "original_id": "fairy_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-string_light",
+              "name": "灯串",
+              "prompt": "string lights",
+              "original_id": "string_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-blacklight",
+              "name": "黑光",
+              "prompt": "blacklight, UV light",
+              "original_id": "blacklight",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-uv_light",
+              "name": "紫外线光",
+              "prompt": "UV light, ultraviolet",
+              "original_id": "uv_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-disco_light",
+              "name": "迪斯科灯",
+              "prompt": "disco light, dance floor light",
+              "original_id": "disco_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-strobe_light",
+              "name": "频闪",
+              "prompt": "strobe light, stroboscopic",
+              "original_id": "strobe_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-lava_lamp",
+              "name": "熔岩灯",
+              "prompt": "lava lamp light",
+              "original_id": "lava_lamp",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-led_strip",
+              "name": "LED灯带",
+              "prompt": "LED strip lights, RGB lighting",
+              "original_id": "led_strip",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-monitor_glow",
+              "name": "屏幕发光",
+              "prompt": "monitor glow, screen light",
+              "original_id": "monitor_glow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-tv_light",
+              "name": "电视光",
+              "prompt": "TV light, television glow",
+              "original_id": "tv_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-computer_light",
+              "name": "电脑光",
+              "prompt": "computer screen light",
+              "original_id": "computer_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-phone_light",
+              "name": "手机光",
+              "prompt": "phone screen light, cellphone glow",
+              "original_id": "phone_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-car_headlight",
+              "name": "车前灯",
+              "prompt": "car headlights, vehicle headlight",
+              "original_id": "car_headlight",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-car_taillight",
+              "name": "车尾灯",
+              "prompt": "car taillights, brake lights",
+              "original_id": "car_taillight",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-neon_tube",
+              "name": "霓虹管",
+              "prompt": "neon tube lighting",
+              "original_id": "neon_tube",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-fluorescent_tube",
+              "name": "日光灯",
+              "prompt": "fluorescent tube light",
+              "original_id": "fluorescent_tube",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-incandescent_warm",
+              "name": "白炽暖光",
+              "prompt": "incandescent warm light",
+              "original_id": "incandescent_warm",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-led_cool",
+              "name": "LED冷光",
+              "prompt": "cool LED light",
+              "original_id": "led_cool",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-candle_flicker",
+              "name": "烛光闪烁",
+              "prompt": "candle flicker, flickering candle",
+              "original_id": "candle_flicker",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-campfire",
+              "name": "篝火",
+              "prompt": "campfire light, fire glow",
+              "original_id": "campfire",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-torch_fire",
+              "name": "火炬",
+              "prompt": "torch light, flaming torch",
+              "original_id": "torch_fire",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-lantern_paper",
+              "name": "纸灯笼",
+              "prompt": "paper lantern light",
+              "original_id": "lantern_paper",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-lantern_chinese",
+              "name": "中国灯笼",
+              "prompt": "chinese lantern light",
+              "original_id": "lantern_chinese",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-stage_spot",
+              "name": "舞台聚光",
+              "prompt": "stage spotlight",
+              "original_id": "stage_spot",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-studio_soft",
+              "name": "影楼柔光",
+              "prompt": "studio soft lighting",
+              "original_id": "studio_soft",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-paparazzi_flash",
+              "name": "闪光灯",
+              "prompt": "paparazzi flash, camera flash",
+              "original_id": "paparazzi_flash",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-street_lamp",
+              "name": "路灯",
+              "prompt": "street lamp",
+              "original_id": "street_lamp",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-desk_lamp",
+              "name": "台灯",
+              "prompt": "desk lamp",
+              "original_id": "desk_lamp",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-wall_sconce",
+              "name": "壁灯",
+              "prompt": "wall sconce",
+              "original_id": "wall_sconce",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-pendant_light",
+              "name": "吊灯",
+              "prompt": "pendant light",
+              "original_id": "pendant_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-fireplace",
+              "name": "壁炉",
+              "prompt": "fireplace",
+              "original_id": "fireplace",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-torch",
+              "name": "火炬",
+              "prompt": "torch",
+              "original_id": "torch",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-paper_lantern",
+              "name": "纸灯笼",
+              "prompt": "paper lantern",
+              "original_id": "paper_lantern",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-candle",
+              "name": "蜡烛",
+              "prompt": "candle",
+              "original_id": "candle",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-candle_group",
+              "name": "多蜡烛",
+              "prompt": "multiple candles",
+              "original_id": "candle_group",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-stage_light",
+              "name": "舞台灯光",
+              "prompt": "stage lighting",
+              "original_id": "stage_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-studio_light",
+              "name": "影楼灯光",
+              "prompt": "studio lighting",
+              "original_id": "studio_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-disco_ball",
+              "name": "迪斯科球",
+              "prompt": "disco ball",
+              "original_id": "disco_ball",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-strobe",
+              "name": "频闪灯",
+              "prompt": "strobe light",
+              "original_id": "strobe",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-half_lighting",
+              "name": "半明半暗",
+              "prompt": "half lighting",
+              "original_id": "half_lighting",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "lighting_effects",
+          "name": "光效",
+          "presets": [
+            {
+              "id": "tag-lighting-backlighting",
+              "name": "逆光",
+              "prompt": "backlighting",
+              "original_id": "backlighting",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-bokeh",
+              "name": "散景",
+              "prompt": "bokeh",
+              "original_id": "bokeh",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-light_rays",
+              "name": "光线",
+              "prompt": "light rays",
+              "original_id": "light_rays",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-brightbloom_seed",
+              "name": "明花种",
+              "prompt": "brightbloom seed",
+              "original_id": "brightbloom_seed",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-lightning_glare",
+              "name": "闪电眩光",
+              "prompt": "lightning glare",
+              "original_id": "lightning_glare",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-backlit",
+              "name": "逆光",
+              "prompt": "backlit",
+              "original_id": "backlit",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-rim_light",
+              "name": "轮廓光",
+              "prompt": "rim light",
+              "original_id": "rim_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-volumetric_light",
+              "name": "体积光",
+              "prompt": "volumetric light",
+              "original_id": "volumetric_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-god_ray",
+              "name": "上帝光",
+              "prompt": "god rays, crepuscular rays",
+              "original_id": "god_ray",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-crepuscular",
+              "name": "曙暮光",
+              "prompt": "crepuscular rays, sun rays through clouds",
+              "original_id": "crepuscular",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-lens_flare_anamorphic",
+              "name": "变形镜头光晕",
+              "prompt": "anamorphic lens flare",
+              "original_id": "lens_flare_anamorphic",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-lens_flare_circular",
+              "name": "圆形光晕",
+              "prompt": "circular lens flare",
+              "original_id": "lens_flare_circular",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-light_leak",
+              "name": "漏光",
+              "prompt": "light leak, light leak effect",
+              "original_id": "light_leak",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-light_dust",
+              "name": "灰尘光束",
+              "prompt": "dust motes in light, light dust",
+              "original_id": "light_dust",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-god_ray_forest",
+              "name": "林中光柱",
+              "prompt": "forest god rays",
+              "original_id": "god_ray_forest",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-volumetric_fog",
+              "name": "体积雾",
+              "prompt": "volumetric fog, volumetric lighting",
+              "original_id": "volumetric_fog",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-volumetric_smoke",
+              "name": "体积烟",
+              "prompt": "volumetric smoke, smoke effect",
+              "original_id": "volumetric_smoke",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-glow_halo",
+              "name": "辉光晕",
+              "prompt": "glow halo, glowing halo effect",
+              "original_id": "glow_halo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-bloom_intense",
+              "name": "强辉光",
+              "prompt": "intense bloom, overbloom",
+              "original_id": "bloom_intense",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-bloom_soft",
+              "name": "柔辉光",
+              "prompt": "soft bloom, gentle bloom",
+              "original_id": "bloom_soft",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-glare_lens",
+              "name": "镜头眩光",
+              "prompt": "lens glare",
+              "original_id": "glare_lens",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-caustics_water",
+              "name": "水面焦散",
+              "prompt": "water caustics, light caustics",
+              "original_id": "caustics_water",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-iridescence",
+              "name": "彩虹色",
+              "prompt": "iridescent, rainbow effect",
+              "original_id": "iridescence",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-opalescence",
+              "name": "蛋白光",
+              "prompt": "opalescent glow",
+              "original_id": "opalescence",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-anisotropic",
+              "name": "各向异性",
+              "prompt": "anisotropic lighting",
+              "original_id": "anisotropic",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-translucency",
+              "name": "半透明",
+              "prompt": "translucent lighting, translucence",
+              "original_id": "translucency",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-light_refraction",
+              "name": "光折射",
+              "prompt": "light refraction, prism effect",
+              "original_id": "light_refraction",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-light_prism",
+              "name": "棱镜光",
+              "prompt": "prism light, spectrum light",
+              "original_id": "light_prism",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-light_halo",
+              "name": "光晕",
+              "prompt": "light halo around subject",
+              "original_id": "light_halo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-glow_neon",
+              "name": "霓虹辉光",
+              "prompt": "neon glow, glowing neon",
+              "original_id": "glow_neon",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-glow_magical",
+              "name": "魔法辉光",
+              "prompt": "magical glow, glowing magic",
+              "original_id": "glow_magical",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-glow_divine",
+              "name": "神圣辉光",
+              "prompt": "divine glow, holy light",
+              "original_id": "glow_divine",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-glow_evil",
+              "name": "邪恶暗光",
+              "prompt": "evil glow, dark glow, sinister light",
+              "original_id": "glow_evil",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-glow_fire",
+              "name": "火焰辉光",
+              "prompt": "fire glow, ember glow",
+              "original_id": "glow_fire",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-glow_ice",
+              "name": "冰寒辉光",
+              "prompt": "ice glow, cold blue glow",
+              "original_id": "glow_ice",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-glow_poison",
+              "name": "毒光",
+              "prompt": "poison glow, toxic green glow",
+              "original_id": "glow_poison",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-edge_light",
+              "name": "边缘光",
+              "prompt": "edge lighting, rim light edge",
+              "original_id": "edge_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-rim_light_hard",
+              "name": "硬边缘光",
+              "prompt": "hard rim light",
+              "original_id": "rim_light_hard",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-rim_light_soft",
+              "name": "柔边缘光",
+              "prompt": "soft rim light",
+              "original_id": "rim_light_soft",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-backlight_rim",
+              "name": "逆光边缘",
+              "prompt": "backlit rim light",
+              "original_id": "backlight_rim",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-side_rim",
+              "name": "侧边缘光",
+              "prompt": "side rim lighting",
+              "original_id": "side_rim",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-top_rim",
+              "name": "上边缘光",
+              "prompt": "top rim lighting",
+              "original_id": "top_rim",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-bottom_rim",
+              "name": "下边缘光",
+              "prompt": "bottom rim lighting",
+              "original_id": "bottom_rim",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-double_rim",
+              "name": "双边光",
+              "prompt": "double rim light, two edge lights",
+              "original_id": "double_rim",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-starlight_breaker",
+              "name": "星光破碎者",
+              "prompt": "starlight breaker",
+              "original_id": "starlight_breaker",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dusk_ball",
+              "name": "黄昏球",
+              "prompt": "dusk ball",
+              "original_id": "dusk_ball",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dusky_thrush",
+              "name": "暗色鸫",
+              "prompt": "dusky thrush",
+              "original_id": "dusky_thrush",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-starlight_academy_school_uniform",
+              "name": "星光学院校服",
+              "prompt": "starlight academy school uniform",
+              "original_id": "starlight_academy_school_uniform",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-way_to_the_dawn",
+              "name": "黎明之路",
+              "prompt": "way to the dawn",
+              "original_id": "way_to_the_dawn",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-gyari_(imagesdawn)_(style)",
+              "name": "Gyari (Imagesdawn) (Style)",
+              "prompt": "gyari (imagesdawn) (style)",
+              "original_id": "gyari_(imagesdawn)_(style)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-starlight_(love_live!)",
+              "name": "Starlight (Love Live!)",
+              "prompt": "starlight (love live!)",
+              "original_id": "starlight_(love_live!)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dusk_stone",
+              "name": "黄昏石",
+              "prompt": "dusk stone",
+              "original_id": "dusk_stone",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-starlight_prologue",
+              "name": "星光序章",
+              "prompt": "starlight prologue",
+              "original_id": "starlight_prologue",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dawn_stone",
+              "name": "黎明石",
+              "prompt": "dawn stone",
+              "original_id": "dawn_stone",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-golden_dawn_(emblem)",
+              "name": "Golden Dawn (Emblem)",
+              "prompt": "golden dawn (emblem)",
+              "original_id": "golden_dawn_(emblem)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dawnbringer_(weapon)",
+              "name": "Dawnbringer (Weapon)",
+              "prompt": "dawnbringer (weapon)",
+              "original_id": "dawnbringer_(weapon)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dusky_warbler",
+              "name": "暗莺",
+              "prompt": "dusky warbler",
+              "original_id": "dusky_warbler",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-starlight_parade_(ensemble_stars!)",
+              "name": "Starlight Parade (Ensemble Stars!)",
+              "prompt": "starlight parade (ensemble stars!)",
+              "original_id": "starlight_parade_(ensemble_stars!)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-light_particles",
+              "name": "光粒子",
+              "prompt": "light particles",
+              "original_id": "light_particles",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-stage_lights",
+              "name": "舞台灯光",
+              "prompt": "stage lights",
+              "original_id": "stage_lights",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-light_brown_background",
+              "name": "浅棕色背景",
+              "prompt": "light brown background",
+              "original_id": "light_brown_background",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-light_blue_background",
+              "name": "浅蓝背景",
+              "prompt": "light blue background",
+              "original_id": "light_blue_background",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-flight_attendant",
+              "name": "空乘人员",
+              "prompt": "flight attendant",
+              "original_id": "flight_attendant",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-city_lights",
+              "name": "城市灯光",
+              "prompt": "city lights",
+              "original_id": "city_lights",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-skylight_(architecture)",
+              "name": "Skylight (Architecture)",
+              "prompt": "skylight (architecture)",
+              "original_id": "skylight_(architecture)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-light_hawk_wings",
+              "name": "轻鹰翅",
+              "prompt": "light hawk wings",
+              "original_id": "light_hawk_wings",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-traffic_light",
+              "name": "交通灯",
+              "prompt": "traffic light",
+              "original_id": "traffic_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-rotating_light",
+              "name": "旋转灯",
+              "prompt": "rotating light",
+              "original_id": "rotating_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-hanging_light",
+              "name": "吊灯",
+              "prompt": "hanging light",
+              "original_id": "hanging_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-flight_goggles",
+              "name": "飞行护目镜",
+              "prompt": "flight goggles",
+              "original_id": "flight_goggles",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-christmas_lights",
+              "name": "圣诞灯",
+              "prompt": "christmas lights",
+              "original_id": "christmas_lights",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-flight_deck",
+              "name": "飞行甲板",
+              "prompt": "flight deck",
+              "original_id": "flight_deck",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-light_finding_operation",
+              "name": "寻光行动",
+              "prompt": "light finding operation",
+              "original_id": "light_finding_operation",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-light_trail",
+              "name": "光迹",
+              "prompt": "light trail",
+              "original_id": "light_trail",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-pedestrian_lights",
+              "name": "行人灯",
+              "prompt": "pedestrian lights",
+              "original_id": "pedestrian_lights",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-lambent_light",
+              "name": "柔光",
+              "prompt": "lambent light",
+              "original_id": "lambent_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-light_switch",
+              "name": "灯开关",
+              "prompt": "light switch",
+              "original_id": "light_switch",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-light_in_heart",
+              "name": "心中有光",
+              "prompt": "light in heart",
+              "original_id": "light_in_heart",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-light_pillar",
+              "name": "光柱",
+              "prompt": "light pillar",
+              "original_id": "light_pillar",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-english_electric_lightning",
+              "name": "英国电闪电",
+              "prompt": "english electric lightning",
+              "original_id": "english_electric_lightning",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-studio_lights",
+              "name": "演播室灯",
+              "prompt": "studio lights",
+              "original_id": "studio_lights",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-crack_of_light",
+              "name": "光之裂痕",
+              "prompt": "crack of light",
+              "original_id": "crack_of_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-light_persona",
+              "name": "轻角色",
+              "prompt": "light persona",
+              "original_id": "light_persona",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-breathing_lightning",
+              "name": "呼吸闪电",
+              "prompt": "breathing lightning",
+              "original_id": "breathing_lightning",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-f_35_lightning_ii",
+              "name": "F 35 闪电 II",
+              "prompt": "f-35 lightning ii",
+              "original_id": "f_35_lightning_ii",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-penlight_(glowstick)",
+              "name": "Penlight (Glowstick)",
+              "prompt": "penlight (glowstick)",
+              "original_id": "penlight_(glowstick)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-surgical_light",
+              "name": "手术灯",
+              "prompt": "surgical light",
+              "original_id": "surgical_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-light_box",
+              "name": "灯箱",
+              "prompt": "light box",
+              "original_id": "light_box",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-tenryuu_(light_cruiser)",
+              "name": "Tenryuu (Light Cruiser)",
+              "prompt": "tenryuu (light cruiser)",
+              "original_id": "tenryuu_(light_cruiser)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-flowlight_(sword_world)",
+              "name": "Flowlight (Sword World)",
+              "prompt": "flowlight (sword world)",
+              "original_id": "flowlight_(sword_world)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-light_suit_(metroid)",
+              "name": "Light Suit (Metroid)",
+              "prompt": "light suit (metroid)",
+              "original_id": "light_suit_(metroid)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-nagara_(light_cruiser)",
+              "name": "Nagara (Light Cruiser)",
+              "prompt": "nagara (light cruiser)",
+              "original_id": "nagara_(light_cruiser)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-naka_(light_cruiser)",
+              "name": "Naka (Light Cruiser)",
+              "prompt": "naka (light cruiser)",
+              "original_id": "naka_(light_cruiser)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-p_38_lightning",
+              "name": "P-38闪电",
+              "prompt": "p-38 lightning",
+              "original_id": "p_38_lightning",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-glowing_hot",
+              "name": "灼热发光",
+              "prompt": "glowing hot",
+              "original_id": "glowing_hot",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-flight_stick",
+              "name": "飞行杆",
+              "prompt": "flight stick",
+              "original_id": "flight_stick",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-zanpa_lighthouse",
+              "name": "Zanpa灯塔",
+              "prompt": "zanpa lighthouse",
+              "original_id": "zanpa_lighthouse",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-light_green_background",
+              "name": "浅绿背景",
+              "prompt": "light green background",
+              "original_id": "light_green_background",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-blue_light",
+              "name": "蓝光",
+              "prompt": "blue light",
+              "original_id": "blue_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-prototype_flight_deck_catapult",
+              "name": "原型弹射器",
+              "prompt": "prototype flight deck catapult",
+              "original_id": "prototype_flight_deck_catapult",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-big_light_(doraemon)",
+              "name": "Big Light (Doraemon)",
+              "prompt": "big light (doraemon)",
+              "original_id": "big_light_(doraemon)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-small_light_(doraemon)",
+              "name": "Small Light (Doraemon)",
+              "prompt": "small light (doraemon)",
+              "original_id": "small_light_(doraemon)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-red_lightning",
+              "name": "红闪电",
+              "prompt": "red lightning",
+              "original_id": "red_lightning",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-floating_lights",
+              "name": "漂浮灯光",
+              "prompt": "floating lights",
+              "original_id": "floating_lights",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-radiant_light",
+              "name": "耀眼光芒",
+              "prompt": "radiant light",
+              "original_id": "radiant_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-flight_deck_scroll",
+              "name": "飞行甲板卷轴",
+              "prompt": "flight deck scroll",
+              "original_id": "flight_deck_scroll",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-light_reflection_(water)",
+              "name": "Light Reflection (Water)",
+              "prompt": "light reflection (water)",
+              "original_id": "light_reflection_(water)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-halcyon_class_light_cruiser",
+              "name": "Halcyon级轻巡洋舰",
+              "prompt": "halcyon-class light cruiser",
+              "original_id": "halcyon_class_light_cruiser",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-kuma_(light_cruiser)",
+              "name": "Kuma (Light Cruiser)",
+              "prompt": "kuma (light cruiser)",
+              "original_id": "kuma_(light_cruiser)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-flight_unit_ho229",
+              "name": "飞行单元 Ho229",
+              "prompt": "flight unit ho229",
+              "original_id": "flight_unit_ho229",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-light_stick",
+              "name": "光棒",
+              "prompt": "light stick",
+              "original_id": "light_stick",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-caterham_superlight_r400",
+              "name": "Caterham 超轻 R400",
+              "prompt": "caterham superlight r400",
+              "original_id": "caterham_superlight_r400",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-ultraviolet_light",
+              "name": "紫外光",
+              "prompt": "ultraviolet light",
+              "original_id": "ultraviolet_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-rhodesian_light_infantry",
+              "name": "罗德西亚轻步兵",
+              "prompt": "rhodesian light infantry",
+              "original_id": "rhodesian_light_infantry",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-flight_pack",
+              "name": "飞行背包",
+              "prompt": "flight pack",
+              "original_id": "flight_pack",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-atlanta_class_light_cruiser",
+              "name": "亚特兰大轻巡",
+              "prompt": "atlanta class light cruiser",
+              "original_id": "atlanta_class_light_cruiser",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-town_class_light_cruiser",
+              "name": "城镇轻巡",
+              "prompt": "town class light cruiser",
+              "original_id": "town_class_light_cruiser",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-tail_lights",
+              "name": "尾灯",
+              "prompt": "tail lights",
+              "original_id": "tail_lights",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-light_brand",
+              "name": "光品牌",
+              "prompt": "light brand",
+              "original_id": "light_brand",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-light_purple_ribbon",
+              "name": "浅紫丝带",
+              "prompt": "light purple ribbon",
+              "original_id": "light_purple_ribbon",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-colored_lights",
+              "name": "彩灯",
+              "prompt": "colored lights",
+              "original_id": "colored_lights",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-game_boy_light",
+              "name": "掌机灯",
+              "prompt": "game boy light",
+              "original_id": "game_boy_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-light_wire",
+              "name": "光线",
+              "prompt": "light wire",
+              "original_id": "light_wire",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-track_lighting",
+              "name": "轨道灯",
+              "prompt": "track lighting",
+              "original_id": "track_lighting",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-ultralight_aircraft",
+              "name": "超轻飞机",
+              "prompt": "ultralight aircraft",
+              "original_id": "ultralight_aircraft",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-night_light",
+              "name": "夜灯",
+              "prompt": "night light",
+              "original_id": "night_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-spoken_lightning_bolt",
+              "name": "言出闪电",
+              "prompt": "spoken lightning bolt",
+              "original_id": "spoken_lightning_bolt",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dim_lighting",
+              "name": "微光照明",
+              "prompt": "dim lighting",
+              "original_id": "dim_lighting",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-rgb_lights",
+              "name": "RGB灯",
+              "prompt": "rgb lights",
+              "original_id": "rgb_lights",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-string_lights",
+              "name": "串灯",
+              "prompt": "string lights",
+              "original_id": "string_lights",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-stadium_lights",
+              "name": "体育场灯光",
+              "prompt": "stadium lights",
+              "original_id": "stadium_lights",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-force_lightning",
+              "name": "原力闪电",
+              "prompt": "force lightning",
+              "original_id": "force_lightning",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-holding_lightning_bolt",
+              "name": "持闪电",
+              "prompt": "holding lightning bolt",
+              "original_id": "holding_lightning_bolt",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-bury_the_light_(song)",
+              "name": "Bury The Light (Song)",
+              "prompt": "bury the light (song)",
+              "original_id": "bury_the_light_(song)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-light_censor",
+              "name": "光审查",
+              "prompt": "light censor",
+              "original_id": "light_censor",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-overhead_lights",
+              "name": "顶灯",
+              "prompt": "overhead lights",
+              "original_id": "overhead_lights",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-flashing_light",
+              "name": "闪烁灯",
+              "prompt": "flashing light",
+              "original_id": "flashing_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-light_skinned_palms",
+              "name": "浅肤手掌",
+              "prompt": "light-skinned palms",
+              "original_id": "light_skinned_palms",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-marquee_lights",
+              "name": "招牌灯",
+              "prompt": "marquee lights",
+              "original_id": "marquee_lights",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-eternal_light_(love_live!)",
+              "name": "Eternal Light (Love Live!)",
+              "prompt": "eternal light (love live!)",
+              "original_id": "eternal_light_(love_live!)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-black_lightning",
+              "name": "黑色闪电",
+              "prompt": "black lightning",
+              "original_id": "black_lightning",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-red_light",
+              "name": "红灯",
+              "prompt": "red light",
+              "original_id": "red_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-green_light",
+              "name": "绿灯",
+              "prompt": "green light",
+              "original_id": "green_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-yellow_lightning",
+              "name": "黄色闪电",
+              "prompt": "yellow lightning",
+              "original_id": "yellow_lightning",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-light_blue_jacket",
+              "name": "浅蓝夹克",
+              "prompt": "light blue jacket",
+              "original_id": "light_blue_jacket",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-light_blue_dress",
+              "name": "浅蓝裙子",
+              "prompt": "light blue dress",
+              "original_id": "light_blue_dress",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-ring_light_reflection",
+              "name": "环形光反射",
+              "prompt": "ring light reflection",
+              "original_id": "ring_light_reflection",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-purple_lightning",
+              "name": "紫色闪电",
+              "prompt": "purple lightning",
+              "original_id": "purple_lightning",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-pink_light",
+              "name": "粉光",
+              "prompt": "pink light",
+              "original_id": "pink_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-fire_light",
+              "name": "火光",
+              "prompt": "fire light",
+              "original_id": "fire_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-miracle_light_(precure)",
+              "name": "Miracle Light (Precure)",
+              "prompt": "miracle light (precure)",
+              "original_id": "miracle_light_(precure)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-light_fixture",
+              "name": "灯具",
+              "prompt": "light fixture",
+              "original_id": "light_fixture",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-bow_of_light",
+              "name": "光弓",
+              "prompt": "bow of light",
+              "original_id": "bow_of_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-bud_light",
+              "name": "百威淡啤",
+              "prompt": "bud light",
+              "original_id": "bud_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-light_blue_shorts",
+              "name": "浅蓝短裤",
+              "prompt": "light blue shorts",
+              "original_id": "light_blue_shorts",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-light_up_dress",
+              "name": "发光连衣裙",
+              "prompt": "light up dress",
+              "original_id": "light_up_dress",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-can_lights",
+              "name": "罐灯",
+              "prompt": "can lights",
+              "original_id": "can_lights",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-bride_light_(ensemble_stars!)",
+              "name": "Bride Light (Ensemble Stars!)",
+              "prompt": "bride light (ensemble stars!)",
+              "original_id": "bride_light_(ensemble_stars!)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-magic_lightning",
+              "name": "魔法闪电",
+              "prompt": "magic lightning",
+              "original_id": "magic_lightning",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-coors_light",
+              "name": "Coors Light",
+              "prompt": "coors light",
+              "original_id": "coors_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-light_areolae",
+              "name": "浅色乳晕",
+              "prompt": "light areolae",
+              "original_id": "light_areolae",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-runway_lights",
+              "name": "跑道灯",
+              "prompt": "runway lights",
+              "original_id": "runway_lights",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-purple_light",
+              "name": "紫光",
+              "prompt": "purple light",
+              "original_id": "purple_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-orange_light",
+              "name": "橙光",
+              "prompt": "orange light",
+              "original_id": "orange_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-lens_flare",
+              "name": "镜头光晕",
+              "prompt": "lens flare",
+              "original_id": "lens_flare",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-lens_flare_abuse",
+              "name": "镜头光晕滥用",
+              "prompt": "lens flare abuse",
+              "original_id": "lens_flare_abuse",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-glowing_windows",
+              "name": "发光的窗户",
+              "prompt": "glowing windows",
+              "original_id": "glowing_windows",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-non_circular_lens_flare",
+              "name": "非圆形镜头光晕",
+              "prompt": "non-circular lens flare",
+              "original_id": "non_circular_lens_flare",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-glowing_snowflake",
+              "name": "发光的雪花",
+              "prompt": "glowing snowflake",
+              "original_id": "glowing_snowflake",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-volumetric",
+              "name": "体积光",
+              "prompt": "volumetric lighting",
+              "original_id": "volumetric",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-light_shaft",
+              "name": "光柱",
+              "prompt": "light shaft",
+              "original_id": "light_shaft",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-caustics",
+              "name": "焦散",
+              "prompt": "light caustics",
+              "original_id": "caustics",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-bloom",
+              "name": "辉光",
+              "prompt": "bloom",
+              "original_id": "bloom",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-glow_aura",
+              "name": "光环",
+              "prompt": "glow aura",
+              "original_id": "glow_aura",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-halation",
+              "name": "光晕",
+              "prompt": "halation",
+              "original_id": "halation",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "lighting_shadow",
+          "name": "阴影",
+          "presets": [
+            {
+              "id": "tag-lighting-shadow",
+              "name": "阴影",
+              "prompt": "shadow",
+              "original_id": "shadow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-silhouette",
+              "name": "轮廓",
+              "prompt": "silhouette",
+              "original_id": "silhouette",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-drop_shadow",
+              "name": "投影",
+              "prompt": "drop shadow",
+              "original_id": "drop_shadow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-shade",
+              "name": "遮荫",
+              "prompt": "shade",
+              "original_id": "shade",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-chiaroscuro",
+              "name": "明暗对比",
+              "prompt": "chiaroscuro",
+              "original_id": "chiaroscuro",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-colored_shadow",
+              "name": "彩色阴影",
+              "prompt": "colored shadow",
+              "original_id": "colored_shadow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-eyes_in_shadow",
+              "name": "阴影中的眼睛",
+              "prompt": "eyes in shadow",
+              "original_id": "eyes_in_shadow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-silhouette_demon",
+              "name": "剪影恶魔",
+              "prompt": "silhouette demon",
+              "original_id": "silhouette_demon",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-see_through_silhouette",
+              "name": "透视轮廓",
+              "prompt": "see-through silhouette",
+              "original_id": "see_through_silhouette",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-shadow_puppet",
+              "name": "皮影戏",
+              "prompt": "shadow puppet",
+              "original_id": "shadow_puppet",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-different_shadow",
+              "name": "不同的影子",
+              "prompt": "different shadow",
+              "original_id": "different_shadow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-silhouette_target",
+              "name": "剪影目标",
+              "prompt": "silhouette target",
+              "original_id": "silhouette_target",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-long_shadow",
+              "name": "长影",
+              "prompt": "long shadow",
+              "original_id": "long_shadow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dog_shadow_puppet",
+              "name": "狗皮影",
+              "prompt": "dog shadow puppet",
+              "original_id": "dog_shadow_puppet",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-living_shadow",
+              "name": "活影",
+              "prompt": "living shadow",
+              "original_id": "living_shadow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-fox_shadow_puppet",
+              "name": "狐狸皮影",
+              "prompt": "fox shadow puppet",
+              "original_id": "fox_shadow_puppet",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-shadow_(persona)",
+              "name": "Shadow (Persona)",
+              "prompt": "shadow (persona)",
+              "original_id": "shadow_(persona)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-ominous_shadow",
+              "name": "不祥之影",
+              "prompt": "ominous shadow",
+              "original_id": "ominous_shadow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-shadow_star",
+              "name": "影星",
+              "prompt": "shadow star",
+              "original_id": "shadow_star",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-shadow_dagger_(sao)",
+              "name": "Shadow Dagger (Sao)",
+              "prompt": "shadow dagger (sao)",
+              "original_id": "shadow_dagger_(sao)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-double_fox_shadow_puppet",
+              "name": "双狐皮影",
+              "prompt": "double fox shadow puppet",
+              "original_id": "double_fox_shadow_puppet",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-fox_shadow_puppet_kiss",
+              "name": "狐狸皮影之吻",
+              "prompt": "fox shadow puppet kiss",
+              "original_id": "fox_shadow_puppet_kiss",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-shadowed",
+              "name": "阴影",
+              "prompt": "shadowed",
+              "original_id": "shadowed",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-shadow_boxing",
+              "name": "太极拳",
+              "prompt": "shadow boxing",
+              "original_id": "shadow_boxing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-rabbit_shadow_puppet",
+              "name": "兔子皮影",
+              "prompt": "rabbit shadow puppet",
+              "original_id": "rabbit_shadow_puppet",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-shadow_border",
+              "name": "阴影边框",
+              "prompt": "shadow border",
+              "original_id": "shadow_border",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-polka_dot_shadow",
+              "name": "圆点阴影",
+              "prompt": "polka dot shadow",
+              "original_id": "polka_dot_shadow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-shadow_(shadows_house)",
+              "name": "Shadow (Shadows House)",
+              "prompt": "shadow (shadows house)",
+              "original_id": "shadow_(shadows_house)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-knife_shadow",
+              "name": "刀影",
+              "prompt": "knife shadow",
+              "original_id": "knife_shadow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-shadow_people",
+              "name": "影子人",
+              "prompt": "shadow people",
+              "original_id": "shadow_people",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-bird_shadow_puppet",
+              "name": "鸟皮影偶",
+              "prompt": "bird shadow puppet",
+              "original_id": "bird_shadow_puppet",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-ferrous_shadow_(genshin_impact)",
+              "name": "Ferrous Shadow (Genshin Impact)",
+              "prompt": "ferrous shadow (genshin impact)",
+              "original_id": "ferrous_shadow_(genshin_impact)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-shadow_hands",
+              "name": "暗影之手",
+              "prompt": "shadow hands",
+              "original_id": "shadow_hands",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-soot_coat_(shadows_house)",
+              "name": "Soot Coat (Shadows House)",
+              "prompt": "soot coat (shadows house)",
+              "original_id": "soot_coat_(shadows_house)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-morph_(shadows_house)",
+              "name": "Morph (Shadows House)",
+              "prompt": "morph (shadows house)",
+              "original_id": "morph_(shadows_house)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-cz_shadow_2",
+              "name": "捷克暗影2",
+              "prompt": "cz shadow 2",
+              "original_id": "cz_shadow_2",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-face_in_shadow",
+              "name": "阴影中的脸",
+              "prompt": "face in shadow",
+              "original_id": "face_in_shadow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-eyed_silhouette",
+              "name": "眼睛的剪影",
+              "prompt": "eyed silhouette",
+              "original_id": "eyed_silhouette",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-shadow_company",
+              "name": "影子公司",
+              "prompt": "shadow company",
+              "original_id": "shadow_company",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-pov_shadow",
+              "name": "视角阴影",
+              "prompt": "pov shadow",
+              "original_id": "pov_shadow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-different_silhouette",
+              "name": "不同的剪影",
+              "prompt": "different silhouette",
+              "original_id": "different_silhouette",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-deer_shadow_puppet",
+              "name": "鹿皮影",
+              "prompt": "deer shadow puppet",
+              "original_id": "deer_shadow_puppet",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-penis_shadow",
+              "name": "阴茎阴影",
+              "prompt": "penis shadow",
+              "original_id": "penis_shadow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-fused_shadows",
+              "name": "融合阴影",
+              "prompt": "fused shadows",
+              "original_id": "fused_shadows",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-shadow_isle_(league_of_legends)",
+              "name": "Shadow Isle (League Of Legends)",
+              "prompt": "shadow isle (league of legends)",
+              "original_id": "shadow_isle_(league_of_legends)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-darkness",
+              "name": "黑暗",
+              "prompt": "darkness",
+              "original_id": "darkness",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dark",
+              "name": "黑暗",
+              "prompt": "dark",
+              "original_id": "dark",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-contact_shadow",
+              "name": "接触阴影",
+              "prompt": "contact shadow",
+              "original_id": "contact_shadow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-core_shadow",
+              "name": "核心阴影",
+              "prompt": "core shadow form shadow",
+              "original_id": "core_shadow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-form_shadow",
+              "name": "形体阴影",
+              "prompt": "form shadow",
+              "original_id": "form_shadow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-cast_shadow",
+              "name": "投射阴影",
+              "prompt": "cast shadow",
+              "original_id": "cast_shadow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-drop_shadow_long",
+              "name": "长投影",
+              "prompt": "long drop shadow",
+              "original_id": "drop_shadow_long",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-drop_shadow_soft",
+              "name": "柔投影",
+              "prompt": "soft drop shadow",
+              "original_id": "drop_shadow_soft",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-ambient_occlusion",
+              "name": "环境光遮蔽",
+              "prompt": "ambient occlusion AO",
+              "original_id": "ambient_occlusion",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-hard_shadow",
+              "name": "硬阴影",
+              "prompt": "hard shadow, sharp shadow",
+              "original_id": "hard_shadow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-soft_shadow",
+              "name": "软阴影",
+              "prompt": "soft shadow, diffused shadow",
+              "original_id": "soft_shadow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-shadow_dappled",
+              "name": "斑驳阴影",
+              "prompt": "dappled shadow, mottled shadow",
+              "original_id": "shadow_dappled",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-shadow_geometric",
+              "name": "几何阴影",
+              "prompt": "geometric shadow pattern",
+              "original_id": "shadow_geometric",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-shadow_silhouette",
+              "name": "剪影",
+              "prompt": "silhouette, contre-jour",
+              "original_id": "shadow_silhouette",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-shadow_dark",
+              "name": "暗部",
+              "prompt": "dark shadow area, deep shadow",
+              "original_id": "shadow_dark",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-shadow_colored",
+              "name": "彩色阴影",
+              "prompt": "colored shadow, tinted shadow",
+              "original_id": "shadow_colored",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-shadow_double",
+              "name": "双影",
+              "prompt": "double shadow",
+              "original_id": "shadow_double",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-shadow_soft_diffused",
+              "name": "柔扩散阴影",
+              "prompt": "soft diffused shadow",
+              "original_id": "shadow_soft_diffused",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-shadow_harsh",
+              "name": "锐利阴影",
+              "prompt": "harsh shadow, stark shadow",
+              "original_id": "shadow_harsh",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-shadow_rim",
+              "name": "边缘阴影",
+              "prompt": "rim shadow, shadow edge",
+              "original_id": "shadow_rim",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-nocturne",
+              "name": "夜景",
+              "prompt": "nocturne, night scene lighting",
+              "original_id": "nocturne",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dark_ambient",
+              "name": "黑暗氛围",
+              "prompt": "dark ambient lighting",
+              "original_id": "dark_ambient",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-shaded_face",
+              "name": "阴影脸",
+              "prompt": "shaded face",
+              "original_id": "shaded_face",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-tree_shade",
+              "name": "树阴",
+              "prompt": "tree shade",
+              "original_id": "tree_shade",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-window_shade",
+              "name": "窗帘",
+              "prompt": "window shade",
+              "original_id": "window_shade",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-nose_shade",
+              "name": "鼻罩",
+              "prompt": "nose shade",
+              "original_id": "nose_shade",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-kamina_shades",
+              "name": "卡米纳色调",
+              "prompt": "kamina shades",
+              "original_id": "kamina_shades",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-simon_shades",
+              "name": "西蒙·谢兹",
+              "prompt": "simon shades",
+              "original_id": "simon_shades",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-wrap_around_shades",
+              "name": "环绕式色调",
+              "prompt": "wrap-around shades",
+              "original_id": "wrap_around_shades",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-lampshade",
+              "name": "灯罩",
+              "prompt": "lampshade",
+              "original_id": "lampshade",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-shutter_shades",
+              "name": "百叶窗帘",
+              "prompt": "shutter shades",
+              "original_id": "shutter_shades",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-partially_shaded_face",
+              "name": "部分阴影的脸",
+              "prompt": "partially shaded face",
+              "original_id": "partially_shaded_face",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-roller_shades",
+              "name": "卷帘",
+              "prompt": "roller shades",
+              "original_id": "roller_shades",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-blue_nightshade",
+              "name": "蓝茄属植物",
+              "prompt": "blue nightshade",
+              "original_id": "blue_nightshade",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dark_persona",
+              "name": "黑暗人格",
+              "prompt": "dark persona",
+              "original_id": "dark_persona",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dark_aura",
+              "name": "黑暗光环",
+              "prompt": "dark aura",
+              "original_id": "dark_aura",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dark_background",
+              "name": "暗背景",
+              "prompt": "dark background",
+              "original_id": "dark_background",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dark_chocolate",
+              "name": "黑巧克力",
+              "prompt": "dark chocolate",
+              "original_id": "dark_chocolate",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dark_clouds",
+              "name": "乌云",
+              "prompt": "dark clouds",
+              "original_id": "dark_clouds",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dark_bride",
+              "name": "暗黑新娘",
+              "prompt": "dark bride",
+              "original_id": "dark_bride",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dark_sky",
+              "name": "暗夜空",
+              "prompt": "dark sky",
+              "original_id": "dark_sky",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dark_elf",
+              "name": "暗精灵",
+              "prompt": "dark elf",
+              "original_id": "dark_elf",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dark_nanoha",
+              "name": "Dark Nanoha",
+              "prompt": "dark nanoha",
+              "original_id": "dark_nanoha",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-darkness_sphere",
+              "name": "黑暗球体",
+              "prompt": "darkness sphere",
+              "original_id": "darkness_sphere",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-strange_dark_(module)",
+              "name": "Strange Dark (Module)",
+              "prompt": "strange dark (module)",
+              "original_id": "strange_dark_(module)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dark_templar",
+              "name": "Dark Templar",
+              "prompt": "dark templar",
+              "original_id": "dark_templar",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-ancient_dark",
+              "name": "远古黑暗",
+              "prompt": "ancient dark",
+              "original_id": "ancient_dark",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dark_room",
+              "name": "暗室",
+              "prompt": "dark room",
+              "original_id": "dark_room",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-devoured_by_darkness",
+              "name": "被黑暗吞噬",
+              "prompt": "devoured by darkness",
+              "original_id": "devoured_by_darkness",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dark_angels",
+              "name": "黑暗天使",
+              "prompt": "dark angels",
+              "original_id": "dark_angels",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dragon's_tooth_(dark_souls)",
+              "name": "Dragon'S Tooth (Dark Souls)",
+              "prompt": "dragon's tooth (dark souls)",
+              "original_id": "dragon's_tooth_(dark_souls)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dark_repulser",
+              "name": "黑暗排斥者",
+              "prompt": "dark repulser",
+              "original_id": "dark_repulser",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dark_emperors",
+              "name": "黑暗皇帝",
+              "prompt": "dark emperors",
+              "original_id": "dark_emperors",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dark_angel_(module)",
+              "name": "Dark Angel (Module)",
+              "prompt": "dark angel (module)",
+              "original_id": "dark_angel_(module)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dark_spark",
+              "name": "暗火花",
+              "prompt": "dark spark",
+              "original_id": "dark_spark",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dark_orb_(madoka_magica)",
+              "name": "Dark Orb (Madoka Magica)",
+              "prompt": "dark orb (madoka magica)",
+              "original_id": "dark_orb_(madoka_magica)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-rq_3_darkstar",
+              "name": "RQ-3暗星",
+              "prompt": "rq-3 darkstar",
+              "original_id": "rq_3_darkstar",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-bonfire_(dark_souls)",
+              "name": "Bonfire (Dark Souls)",
+              "prompt": "bonfire (dark souls)",
+              "original_id": "bonfire_(dark_souls)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-darksign_(dark_souls)",
+              "name": "Darksign (Dark Souls)",
+              "prompt": "darksign (dark souls)",
+              "original_id": "darksign_(dark_souls)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dark_knight",
+              "name": "Dark Knight",
+              "prompt": "dark knight",
+              "original_id": "dark_knight",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dark_rhongomyniad",
+              "name": "Dark Rhongomyniad",
+              "prompt": "dark rhongomyniad",
+              "original_id": "dark_rhongomyniad",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dark_suit_(metroid)",
+              "name": "Dark Suit (Metroid)",
+              "prompt": "dark suit (metroid)",
+              "original_id": "dark_suit_(metroid)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dark_knight_(garo)",
+              "name": "Dark Knight (Garo)",
+              "prompt": "dark knight (garo)",
+              "original_id": "dark_knight_(garo)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dark_halo",
+              "name": "暗光环",
+              "prompt": "dark halo",
+              "original_id": "dark_halo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dark_foreground",
+              "name": "黑暗前景",
+              "prompt": "dark foreground",
+              "original_id": "dark_foreground",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-humanity_(dark_souls)",
+              "name": "Humanity (Dark Souls)",
+              "prompt": "humanity (dark souls)",
+              "original_id": "humanity_(dark_souls)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-trigger_dark",
+              "name": "触发黑暗",
+              "prompt": "trigger dark",
+              "original_id": "trigger_dark",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dark_skinned_other",
+              "name": "暗肤其他",
+              "prompt": "dark-skinned other",
+              "original_id": "dark_skinned_other",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-glow_in_the_dark",
+              "name": "夜光",
+              "prompt": "glow-in-the-dark",
+              "original_id": "glow_in_the_dark",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-hawk_of_darkness_(berserk)",
+              "name": "Hawk Of Darkness (Berserk)",
+              "prompt": "hawk of darkness (berserk)",
+              "original_id": "hawk_of_darkness_(berserk)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-ogre_(dark_souls_2)",
+              "name": "Ogre (Dark Souls 2)",
+              "prompt": "ogre (dark souls 2)",
+              "original_id": "ogre_(dark_souls_2)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-sr_72_darkstar",
+              "name": "暗星",
+              "prompt": "sr-72 darkstar",
+              "original_id": "sr_72_darkstar",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-ranni's_dark_moon",
+              "name": "Ranni暗月",
+              "prompt": "ranni's dark moon",
+              "original_id": "ranni's_dark_moon",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dark_cosmic_(league_of_legends)",
+              "name": "Dark Cosmic (League Of Legends)",
+              "prompt": "dark cosmic (league of legends)",
+              "original_id": "dark_cosmic_(league_of_legends)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dark_blue_gloves",
+              "name": "深蓝手套",
+              "prompt": "dark blue gloves",
+              "original_id": "dark_blue_gloves",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dark_apostle_(warhammer)",
+              "name": "Dark Apostle (Warhammer)",
+              "prompt": "dark apostle (warhammer)",
+              "original_id": "dark_apostle_(warhammer)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dark_green_background",
+              "name": "深绿背景",
+              "prompt": "dark green background",
+              "original_id": "dark_green_background",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-pendulum_of_time_(dark_souls_ii)",
+              "name": "Pendulum Of Time (Dark Souls Ii)",
+              "prompt": "pendulum of time (dark souls ii)",
+              "original_id": "pendulum_of_time_(dark_souls_ii)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dark_ball_(pokemon_m04)",
+              "name": "Dark Ball (Pokemon M04)",
+              "prompt": "dark ball (pokemon m04)",
+              "original_id": "dark_ball_(pokemon_m04)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dark_power",
+              "name": "黑暗力量",
+              "prompt": "dark power",
+              "original_id": "dark_power",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-a_dark_night's_passing_(ensemble_stars!)",
+              "name": "A Dark Night'S Passing (Ensemble Stars!)",
+              "prompt": "a dark night's passing (ensemble stars!)",
+              "original_id": "a_dark_night's_passing_(ensemble_stars!)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dark_signer_uniform",
+              "name": "暗印者服",
+              "prompt": "dark signer uniform",
+              "original_id": "dark_signer_uniform",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-darkness_sympathizer_(idoly_pride)",
+              "name": "Darkness Sympathizer (Idoly Pride)",
+              "prompt": "darkness sympathizer (idoly pride)",
+              "original_id": "darkness_sympathizer_(idoly_pride)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-equ.darkmatter",
+              "name": "Equ.Darkmatter",
+              "prompt": "equ.darkmatter",
+              "original_id": "equ.darkmatter",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-darkglass_electronics",
+              "name": "Darkglass Electronics",
+              "prompt": "darkglass electronics",
+              "original_id": "darkglass_electronics",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-darkslide_grind",
+              "name": "暗滑研磨",
+              "prompt": "darkslide grind",
+              "original_id": "darkslide_grind",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-darksaber",
+              "name": "Darksaber",
+              "prompt": "darksaber",
+              "original_id": "darksaber",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-darkin_(league_of_legends)",
+              "name": "Darkin (League Of Legends)",
+              "prompt": "darkin (league of legends)",
+              "original_id": "darkin_(league_of_legends)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-darkroom",
+              "name": "暗室",
+              "prompt": "darkroom",
+              "original_id": "darkroom",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-dappled_shadow",
+              "name": "斑驳阴影",
+              "prompt": "dappled shadow",
+              "original_id": "dappled_shadow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-geometric_shadow",
+              "name": "几何阴影",
+              "prompt": "geometric shadow",
+              "original_id": "geometric_shadow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-self_shadow",
+              "name": "自身阴影",
+              "prompt": "self shadow",
+              "original_id": "self_shadow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-lighting-rim_shadow",
+              "name": "边缘阴影",
+              "prompt": "rim shadow",
+              "original_id": "rim_shadow",
+              "type": "tag"
+            }
+          ]
+        }
+      ],
+      "type": "tag"
+    }
+  ]
+}

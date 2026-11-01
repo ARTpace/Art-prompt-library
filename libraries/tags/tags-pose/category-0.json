@@ -1,0 +1,5661 @@
+{
+  "categories": [
+    {
+      "id": "pose",
+      "name": "姿势动作",
+      "subcategories": [
+        {
+          "id": "pose_standing",
+          "name": "站姿",
+          "presets": [
+            {
+              "id": "tag-pose-standing",
+              "name": "站立",
+              "prompt": "standing",
+              "original_id": "standing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-standing_on_one_leg",
+              "name": "单腿站立",
+              "prompt": "standing on one leg",
+              "original_id": "standing_on_one_leg",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sleeping_upright",
+              "name": "直立睡觉",
+              "prompt": "sleeping upright",
+              "original_id": "sleeping_upright",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-standing_on_liquid",
+              "name": "站在液体上",
+              "prompt": "standing on liquid",
+              "original_id": "standing_on_liquid",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-standing_on_object",
+              "name": "站在物体上",
+              "prompt": "standing on object",
+              "original_id": "standing_on_object",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-standing_on_person",
+              "name": "站在人身上",
+              "prompt": "standing on person",
+              "original_id": "standing_on_person",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-misunderstanding",
+              "name": "误解",
+              "prompt": "misunderstanding",
+              "original_id": "misunderstanding",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-standing_on_sword",
+              "name": "站在剑上",
+              "prompt": "standing on sword",
+              "original_id": "standing_on_sword",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-standing_on_shoulder",
+              "name": "站在肩膀上",
+              "prompt": "standing on shoulder",
+              "original_id": "standing_on_shoulder",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-standing_on_rock",
+              "name": "站在岩石上",
+              "prompt": "standing on rock",
+              "original_id": "standing_on_rock",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-standing_on_another's_head",
+              "name": "站在别人的头上",
+              "prompt": "standing on another's head",
+              "original_id": "standing_on_another's_head",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-standing_on_torii",
+              "name": "站在鸟居上",
+              "prompt": "standing on torii",
+              "original_id": "standing_on_torii",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-standing_on_three_legs",
+              "name": "三足站立",
+              "prompt": "standing on three legs",
+              "original_id": "standing_on_three_legs",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-standing_on_box",
+              "name": "站在盒子上",
+              "prompt": "standing on box",
+              "original_id": "standing_on_box",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-standing_on_desk",
+              "name": "站在桌子上",
+              "prompt": "standing on desk",
+              "original_id": "standing_on_desk",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-standing_on_branch",
+              "name": "站在树枝上",
+              "prompt": "standing on branch",
+              "original_id": "standing_on_branch",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-standing_on_chair",
+              "name": "站在椅子上",
+              "prompt": "standing on chair",
+              "original_id": "standing_on_chair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-standing_on_car",
+              "name": "站在车上",
+              "prompt": "standing on car",
+              "original_id": "standing_on_car",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-standing_on_bed",
+              "name": "站在床上",
+              "prompt": "standing on bed",
+              "original_id": "standing_on_bed",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-standing_on_animal",
+              "name": "站在动物身上",
+              "prompt": "standing on animal",
+              "original_id": "standing_on_animal",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-standing_at_attention",
+              "name": "立正",
+              "prompt": "standing at attention",
+              "original_id": "standing_at_attention",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-standing_on_swing",
+              "name": "站在秋千上",
+              "prompt": "standing on swing",
+              "original_id": "standing_on_swing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-standing_in_rain",
+              "name": "站在雨中",
+              "prompt": "standing in rain",
+              "original_id": "standing_in_rain",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-standing_on_another's_feet",
+              "name": "站在别人的脚上",
+              "prompt": "standing on another's feet",
+              "original_id": "standing_on_another's_feet",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-undertaker_standing_behind_aj_styles_(meme)",
+              "name": "Undertaker Standing Behind Aj Styles (Meme)",
+              "prompt": "undertaker standing behind aj styles (meme)",
+              "original_id": "undertaker_standing_behind_aj_styles_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-standing_on_roof",
+              "name": "站在屋顶上",
+              "prompt": "standing on roof",
+              "original_id": "standing_on_roof",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-standing_on_another's_back",
+              "name": "站在别人的背上",
+              "prompt": "standing on another's back",
+              "original_id": "standing_on_another's_back",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-standing_on_another's_hand",
+              "name": "站在别人的手上",
+              "prompt": "standing on another's hand",
+              "original_id": "standing_on_another's_hand",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-standing_on_another",
+              "name": "站在另一个人身上",
+              "prompt": "standing on another",
+              "original_id": "standing_on_another",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "pose_sitting",
+          "name": "坐姿",
+          "presets": [
+            {
+              "id": "tag-pose-sitting",
+              "name": "坐",
+              "prompt": "sitting",
+              "original_id": "sitting",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_in_tree",
+              "name": "坐在树上",
+              "prompt": "sitting in tree",
+              "original_id": "sitting_in_tree",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-kneeling",
+              "name": "跪",
+              "prompt": "kneeling",
+              "original_id": "kneeling",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_pillow",
+              "name": "坐在枕头上",
+              "prompt": "sitting on pillow",
+              "original_id": "sitting_on_pillow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-squatting",
+              "name": "蹲着",
+              "prompt": "squatting",
+              "original_id": "squatting",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_person",
+              "name": "坐在人身上",
+              "prompt": "sitting on person",
+              "original_id": "sitting_on_person",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_desk",
+              "name": "坐在办公桌上",
+              "prompt": "sitting on desk",
+              "original_id": "sitting_on_desk",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_lap",
+              "name": "坐在腿上",
+              "prompt": "sitting on lap",
+              "original_id": "sitting_on_lap",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-butterfly_sitting",
+              "name": "蝴蝶坐",
+              "prompt": "butterfly sitting",
+              "original_id": "butterfly_sitting",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_sideways",
+              "name": "侧身坐着",
+              "prompt": "sitting sideways",
+              "original_id": "sitting_sideways",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_fence",
+              "name": "坐在栅栏上",
+              "prompt": "sitting on fence",
+              "original_id": "sitting_on_fence",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_stairs",
+              "name": "坐在楼梯上",
+              "prompt": "sitting on stairs",
+              "original_id": "sitting_on_stairs",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_backwards",
+              "name": "向后坐",
+              "prompt": "sitting backwards",
+              "original_id": "sitting_backwards",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_rock",
+              "name": "坐在岩石上",
+              "prompt": "sitting on rock",
+              "original_id": "sitting_on_rock",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_in_window",
+              "name": "坐在窗边",
+              "prompt": "sitting in window",
+              "original_id": "sitting_in_window",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_wall",
+              "name": "坐在墙上",
+              "prompt": "sitting on wall",
+              "original_id": "sitting_on_wall",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_head",
+              "name": "坐在头上",
+              "prompt": "sitting on head",
+              "original_id": "sitting_on_head",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_branch",
+              "name": "坐在树枝上",
+              "prompt": "sitting on branch",
+              "original_id": "sitting_on_branch",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_bench",
+              "name": "坐在长凳上",
+              "prompt": "sitting on bench",
+              "original_id": "sitting_on_bench",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_box",
+              "name": "坐在盒子上",
+              "prompt": "sitting on box",
+              "original_id": "sitting_on_box",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_animal",
+              "name": "坐在动物身上",
+              "prompt": "sitting on animal",
+              "original_id": "sitting_on_animal",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_roof",
+              "name": "坐在屋顶上",
+              "prompt": "sitting on roof",
+              "original_id": "sitting_on_roof",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_tree_stump",
+              "name": "坐在树桩上",
+              "prompt": "sitting on tree stump",
+              "original_id": "sitting_on_tree_stump",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_mushroom",
+              "name": "坐在蘑菇上",
+              "prompt": "sitting on mushroom",
+              "original_id": "sitting_on_mushroom",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_torii",
+              "name": "坐在鸟居上",
+              "prompt": "sitting on torii",
+              "original_id": "sitting_on_torii",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_books",
+              "name": "坐在书上",
+              "prompt": "sitting on books",
+              "original_id": "sitting_on_books",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_object",
+              "name": "坐在物体上",
+              "prompt": "sitting on object",
+              "original_id": "sitting_on_object",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_shoulder",
+              "name": "坐在肩膀上",
+              "prompt": "sitting on shoulder",
+              "original_id": "sitting_on_shoulder",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_table",
+              "name": "坐在桌子上",
+              "prompt": "sitting on table",
+              "original_id": "sitting_on_table",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_against_vehicle",
+              "name": "靠着车辆坐着",
+              "prompt": "sitting against vehicle",
+              "original_id": "sitting_against_vehicle",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_hand",
+              "name": "坐在手边",
+              "prompt": "sitting on hand",
+              "original_id": "sitting_on_hand",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_in_corner",
+              "name": "坐在角落里",
+              "prompt": "sitting in corner",
+              "original_id": "sitting_in_corner",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_arm",
+              "name": "坐在手臂上",
+              "prompt": "sitting on arm",
+              "original_id": "sitting_on_arm",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_tail",
+              "name": "坐在尾巴上",
+              "prompt": "sitting on tail",
+              "original_id": "sitting_on_tail",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_water",
+              "name": "坐在水上",
+              "prompt": "sitting on water",
+              "original_id": "sitting_on_water",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_own_tail",
+              "name": "坐在自己的尾巴上",
+              "prompt": "sitting on own tail",
+              "original_id": "sitting_on_own_tail",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_cloud",
+              "name": "坐云上",
+              "prompt": "sitting on cloud",
+              "original_id": "sitting_on_cloud",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_drum",
+              "name": "坐在鼓上",
+              "prompt": "sitting on drum",
+              "original_id": "sitting_on_drum",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_car",
+              "name": "坐在车上",
+              "prompt": "sitting on car",
+              "original_id": "sitting_on_car",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_food",
+              "name": "坐在食物上",
+              "prompt": "sitting on food",
+              "original_id": "sitting_on_food",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_liquid",
+              "name": "坐在液体上",
+              "prompt": "sitting on liquid",
+              "original_id": "sitting_on_liquid",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_book",
+              "name": "坐在书上",
+              "prompt": "sitting on book",
+              "original_id": "sitting_on_book",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_mecha",
+              "name": "坐在机甲上",
+              "prompt": "sitting on mecha",
+              "original_id": "sitting_on_mecha",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_piano",
+              "name": "坐在钢琴上",
+              "prompt": "sitting on piano",
+              "original_id": "sitting_on_piano",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_ball",
+              "name": "坐在球上",
+              "prompt": "sitting on ball",
+              "original_id": "sitting_on_ball",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_log",
+              "name": "坐在日志上",
+              "prompt": "sitting on log",
+              "original_id": "sitting_on_log",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_another's_tail",
+              "name": "坐在别人的尾巴上",
+              "prompt": "sitting on another's tail",
+              "original_id": "sitting_on_another's_tail",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_hair",
+              "name": "坐在头发上",
+              "prompt": "sitting on hair",
+              "original_id": "sitting_on_hair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_bar",
+              "name": "坐在酒吧",
+              "prompt": "sitting on bar",
+              "original_id": "sitting_on_bar",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_the_back_of_a_girl's_motorbike_is_kind_of_embarrasing..._(meme)",
+              "name": "Sitting On The Back Of A Girl'S Motorbike Is Kind Of Embarrasing... (Meme)",
+              "prompt": "sitting on the back of a girl's motorbike is kind of embarrasing... (meme)",
+              "original_id": "sitting_on_the_back_of_a_girl's_motorbike_is_kind_of_embarrasing..._(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_clock",
+              "name": "坐在时钟上",
+              "prompt": "sitting on clock",
+              "original_id": "sitting_on_clock",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_painting",
+              "name": "坐在画上",
+              "prompt": "sitting on painting",
+              "original_id": "sitting_on_painting",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_in_flower",
+              "name": "坐花中",
+              "prompt": "sitting in flower",
+              "original_id": "sitting_in_flower",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_wing",
+              "name": "坐在机翼上",
+              "prompt": "sitting on wing",
+              "original_id": "sitting_on_wing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_wolf_(meme)",
+              "name": "Sitting Wolf (Meme)",
+              "prompt": "sitting wolf (meme)",
+              "original_id": "sitting_wolf_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_leg",
+              "name": "坐在腿上",
+              "prompt": "sitting on leg",
+              "original_id": "sitting_on_leg",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_robot",
+              "name": "坐在机器人上",
+              "prompt": "sitting on robot",
+              "original_id": "sitting_on_robot",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_thigh",
+              "name": "坐在大腿上",
+              "prompt": "sitting on thigh",
+              "original_id": "sitting_on_thigh",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sitting_on_cage",
+              "name": "坐在笼子上",
+              "prompt": "sitting on cage",
+              "original_id": "sitting_on_cage",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-figure_four_sitting",
+              "name": "四字形坐姿",
+              "prompt": "figure four sitting",
+              "original_id": "figure_four_sitting",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-slav_squatting",
+              "name": "斯拉夫蹲",
+              "prompt": "slav squatting",
+              "original_id": "slav_squatting",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "pose_lying",
+          "name": "躺卧/睡眠",
+          "presets": [
+            {
+              "id": "tag-pose-flying",
+              "name": "飞翔",
+              "prompt": "flying",
+              "original_id": "flying",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-lying",
+              "name": "躺",
+              "prompt": "lying",
+              "original_id": "lying",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sleeping",
+              "name": "睡觉",
+              "prompt": "sleeping",
+              "original_id": "sleeping",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-flying_sweatdrops",
+              "name": "飞扬的汗珠",
+              "prompt": "flying sweatdrops",
+              "original_id": "flying_sweatdrops",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-flying_paper",
+              "name": "飞纸",
+              "prompt": "flying paper",
+              "original_id": "flying_paper",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-flying_kick",
+              "name": "飞踢",
+              "prompt": "flying kick",
+              "original_id": "flying_kick",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-flying_fish",
+              "name": "飞翔鱼",
+              "prompt": "flying fish",
+              "original_id": "flying_fish",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-flying_nimbus",
+              "name": "飞云",
+              "prompt": "flying nimbus",
+              "original_id": "flying_nimbus",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-flying_car",
+              "name": "飞行汽车",
+              "prompt": "flying car",
+              "original_id": "flying_car",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-lying_on_lap",
+              "name": "躺在腿上",
+              "prompt": "lying on lap",
+              "original_id": "lying_on_lap",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-applying_makeup",
+              "name": "化妆",
+              "prompt": "applying makeup",
+              "original_id": "applying_makeup",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-flying_dutchman",
+              "name": "飞翔的荷兰人号",
+              "prompt": "flying dutchman",
+              "original_id": "flying_dutchman",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sleeping_on_desk",
+              "name": "趴在桌子上睡觉",
+              "prompt": "sleeping on desk",
+              "original_id": "sleeping_on_desk",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-lying_on_person",
+              "name": "躺在人身上",
+              "prompt": "lying on person",
+              "original_id": "lying_on_person",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-flying_teardrops",
+              "name": "飞舞的泪珠",
+              "prompt": "flying teardrops",
+              "original_id": "flying_teardrops",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sleeping_on_person",
+              "name": "趴在人身上睡觉",
+              "prompt": "sleeping on person",
+              "original_id": "sleeping_on_person",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-flying_armor_(gundam)",
+              "name": "Flying Armor (Gundam)",
+              "prompt": "flying armor (gundam)",
+              "original_id": "flying_armor_(gundam)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-flying_buttress",
+              "name": "飞扶壁",
+              "prompt": "flying buttress",
+              "original_id": "flying_buttress",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-flying_whale",
+              "name": "飞鲸",
+              "prompt": "flying whale",
+              "original_id": "flying_whale",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-flying_boat",
+              "name": "飞行船",
+              "prompt": "flying boat",
+              "original_id": "flying_boat",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sleeping_animal",
+              "name": "睡觉的动物",
+              "prompt": "sleeping animal",
+              "original_id": "sleeping_animal",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-b_17_flying_fortress",
+              "name": "B 17 飞行堡垒",
+              "prompt": "b-17 flying fortress",
+              "original_id": "b_17_flying_fortress",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-flying_squirrel",
+              "name": "飞鼠",
+              "prompt": "flying squirrel",
+              "original_id": "flying_squirrel",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sleeping_bag",
+              "name": "睡袋",
+              "prompt": "sleeping bag",
+              "original_id": "sleeping_bag",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-gibson_flying_v",
+              "name": "吉布森飞行V",
+              "prompt": "gibson flying v",
+              "original_id": "gibson_flying_v",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-lying_on_water",
+              "name": "躺在水上",
+              "prompt": "lying on water",
+              "original_id": "lying_on_water",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-flying_train",
+              "name": "飞行火车",
+              "prompt": "flying train",
+              "original_id": "flying_train",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-flying_animal",
+              "name": "飞行动物",
+              "prompt": "flying animal",
+              "original_id": "flying_animal",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sleeping_with_eyes_open",
+              "name": "睁着眼睛睡觉",
+              "prompt": "sleeping with eyes open",
+              "original_id": "sleeping_with_eyes_open",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-lying_on_another",
+              "name": "躺在另一个人身上",
+              "prompt": "lying on another",
+              "original_id": "lying_on_another",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-flying_aircraft_carrier",
+              "name": "飞行航空母舰",
+              "prompt": "flying aircraft carrier",
+              "original_id": "flying_aircraft_carrier",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-flying_ray_(raiden_fighters)",
+              "name": "Flying Ray (Raiden Fighters)",
+              "prompt": "flying ray (raiden fighters)",
+              "original_id": "flying_ray_(raiden_fighters)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-flying_dentures",
+              "name": "飞行假牙",
+              "prompt": "flying dentures",
+              "original_id": "flying_dentures",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-flying_saucer",
+              "name": "飞碟",
+              "prompt": "flying saucer",
+              "original_id": "flying_saucer",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-flying_press_(pokemon)",
+              "name": "Flying Press (Pokemon)",
+              "prompt": "flying press (pokemon)",
+              "original_id": "flying_press_(pokemon)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-flying_guillotine",
+              "name": "血滴子",
+              "prompt": "flying guillotine",
+              "original_id": "flying_guillotine",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-spoken_flying_sweatdrops",
+              "name": "口语飞扬的汗珠",
+              "prompt": "spoken flying sweatdrops",
+              "original_id": "spoken_flying_sweatdrops",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-flying_spittle",
+              "name": "飞沫",
+              "prompt": "flying spittle",
+              "original_id": "flying_spittle",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-kite_flying",
+              "name": "放风筝",
+              "prompt": "kite flying",
+              "original_id": "kite_flying",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-flying_sword",
+              "name": "飞翔剑",
+              "prompt": "flying sword",
+              "original_id": "flying_sword",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sleepwalking",
+              "name": "梦游",
+              "prompt": "sleepwalking",
+              "original_id": "sleepwalking",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-wearable_sleeping_bag",
+              "name": "穿戴式睡袋",
+              "prompt": "wearable sleeping bag",
+              "original_id": "wearable_sleeping_bag",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-flying_swings",
+              "name": "飞行秋千",
+              "prompt": "flying swings",
+              "original_id": "flying_swings",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-flying_wing",
+              "name": "飞翼",
+              "prompt": "flying wing",
+              "original_id": "flying_wing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-applying_bandages",
+              "name": "使用绷带",
+              "prompt": "applying bandages",
+              "original_id": "applying_bandages",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-lying_on_animal",
+              "name": "躺在动物身上",
+              "prompt": "lying on animal",
+              "original_id": "lying_on_animal",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-adelie_penguin_bullying",
+              "name": "阿德利企鹅欺凌行为",
+              "prompt": "adelie penguin bullying",
+              "original_id": "adelie_penguin_bullying",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-body_sleeping_bag",
+              "name": "身体睡袋",
+              "prompt": "body sleeping bag",
+              "original_id": "body_sleeping_bag",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-imperial_german_flying_corps",
+              "name": "德意志帝国飞行队",
+              "prompt": "imperial german flying corps",
+              "original_id": "imperial_german_flying_corps",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-shared_sleeping_bag",
+              "name": "共用睡袋",
+              "prompt": "shared sleeping bag",
+              "original_id": "shared_sleeping_bag",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-flying_button",
+              "name": "飞行按钮",
+              "prompt": "flying button",
+              "original_id": "flying_button",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sleeping_beauty_(character)_(cosplay)",
+              "name": "Sleeping Beauty (Character) (Cosplay)",
+              "prompt": "sleeping beauty (character) (cosplay)",
+              "original_id": "sleeping_beauty_(character)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-flying_vehicle",
+              "name": "飞行器",
+              "prompt": "flying vehicle",
+              "original_id": "flying_vehicle",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-shark_sleeping_bag",
+              "name": "鲨鱼睡袋",
+              "prompt": "shark sleeping bag",
+              "original_id": "shark_sleeping_bag",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-metapod_sleeping_bag",
+              "name": "Metapod 睡袋",
+              "prompt": "metapod sleeping bag",
+              "original_id": "metapod_sleeping_bag",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-applying_bandaid",
+              "name": "使用创可贴",
+              "prompt": "applying bandaid",
+              "original_id": "applying_bandaid",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-flying_ribbons",
+              "name": "飞扬的丝带",
+              "prompt": "flying ribbons",
+              "original_id": "flying_ribbons",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-flying_squirrel_costume",
+              "name": "飞鼠服装",
+              "prompt": "flying squirrel costume",
+              "original_id": "flying_squirrel_costume",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-lying_on_cat",
+              "name": "躺在猫身上",
+              "prompt": "lying on cat",
+              "original_id": "lying_on_cat",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-flying_fox",
+              "name": "飞狐",
+              "prompt": "flying fox",
+              "original_id": "flying_fox",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-lying_potion_800",
+              "name": "说谎药水800",
+              "prompt": "lying potion 800",
+              "original_id": "lying_potion_800",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-lying_on_cloud",
+              "name": "躺在云端",
+              "prompt": "lying on cloud",
+              "original_id": "lying_on_cloud",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-flying_miku_(project_voltage)_(cosplay)",
+              "name": "Flying Miku (Project Voltage) (Cosplay)",
+              "prompt": "flying miku (project voltage) (cosplay)",
+              "original_id": "flying_miku_(project_voltage)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-lying_on_clothes",
+              "name": "躺在衣服上",
+              "prompt": "lying on clothes",
+              "original_id": "lying_on_clothes",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-flying_spaghetti_monster_(cosplay)",
+              "name": "Flying Spaghetti Monster (Cosplay)",
+              "prompt": "flying spaghetti monster (cosplay)",
+              "original_id": "flying_spaghetti_monster_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-aura_bullying_(meme)",
+              "name": "Aura Bullying (Meme)",
+              "prompt": "aura bullying (meme)",
+              "original_id": "aura_bullying_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-flying_grass",
+              "name": "飞翔草",
+              "prompt": "flying grass",
+              "original_id": "flying_grass",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-lying_on_branch",
+              "name": "躺在树枝上",
+              "prompt": "lying on branch",
+              "original_id": "lying_on_branch",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sent_flying",
+              "name": "发送飞行",
+              "prompt": "sent flying",
+              "original_id": "sent_flying",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-lying_on_mushroom",
+              "name": "躺在蘑菇上",
+              "prompt": "lying on mushroom",
+              "original_id": "lying_on_mushroom",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-food_themed_sleeping_bag",
+              "name": "食物主题睡袋",
+              "prompt": "food-themed sleeping bag",
+              "original_id": "food_themed_sleeping_bag",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-flying_pig",
+              "name": "飞猪",
+              "prompt": "flying pig",
+              "original_id": "flying_pig",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-officer_flying_pov_(meme)",
+              "name": "Officer Flying Pov (Meme)",
+              "prompt": "officer flying pov (meme)",
+              "original_id": "officer_flying_pov_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-retsu_kaioh's_head_lying_in_a_hospital_bed_(meme)",
+              "name": "Retsu Kaioh'S Head Lying In A Hospital Bed (Meme)",
+              "prompt": "retsu kaioh's head lying in a hospital bed (meme)",
+              "original_id": "retsu_kaioh's_head_lying_in_a_hospital_bed_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sleep_talking",
+              "name": "说梦话",
+              "prompt": "sleep talking",
+              "original_id": "sleep_talking",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-waking_up",
+              "name": "醒来",
+              "prompt": "waking up",
+              "original_id": "waking_up",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-waking_up_from_2020_(meme)",
+              "name": "Waking Up From 2020 (Meme)",
+              "prompt": "waking up from 2020 (meme)",
+              "original_id": "waking_up_from_2020_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-limmy_waking_up_(meme)",
+              "name": "Limmy Waking Up (Meme)",
+              "prompt": "limmy waking up (meme)",
+              "original_id": "limmy_waking_up_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-bullying",
+              "name": "欺凌",
+              "prompt": "bullying",
+              "original_id": "bullying",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "pose_floating",
+          "name": "漂浮/悬浮",
+          "presets": [
+            {
+              "id": "tag-pose-a_thousand_floating_dreams_(genshin_impact)",
+              "name": "A Thousand Floating Dreams (Genshin Impact)",
+              "prompt": "a thousand floating dreams (genshin impact)",
+              "original_id": "a_thousand_floating_dreams_(genshin_impact)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-floating",
+              "name": "漂浮",
+              "prompt": "floating",
+              "original_id": "floating",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-floating_cape",
+              "name": "漂浮披风",
+              "prompt": "floating cape",
+              "original_id": "floating_cape",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-floating_card",
+              "name": "浮动卡",
+              "prompt": "floating card",
+              "original_id": "floating_card",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-floating_book",
+              "name": "漂浮书",
+              "prompt": "floating book",
+              "original_id": "floating_book",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-floating_object",
+              "name": "浮动物体",
+              "prompt": "floating object",
+              "original_id": "floating_object",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-floating_island",
+              "name": "浮岛",
+              "prompt": "floating island",
+              "original_id": "floating_island",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-floating_continent",
+              "name": "漂浮大陆",
+              "prompt": "floating continent",
+              "original_id": "floating_continent",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-floating_scarf",
+              "name": "漂浮围巾",
+              "prompt": "floating scarf",
+              "original_id": "floating_scarf",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-floating_castle",
+              "name": "漂浮城堡",
+              "prompt": "floating castle",
+              "original_id": "floating_castle",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-floating_rock",
+              "name": "浮石",
+              "prompt": "floating rock",
+              "original_id": "floating_rock",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-floating_instrument",
+              "name": "浮动仪器",
+              "prompt": "floating instrument",
+              "original_id": "floating_instrument",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-floating_clothes",
+              "name": "漂浮的衣服",
+              "prompt": "floating clothes",
+              "original_id": "floating_clothes",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-floating_skull",
+              "name": "漂浮的头骨",
+              "prompt": "floating skull",
+              "original_id": "floating_skull",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-floating_city",
+              "name": "漂浮城市",
+              "prompt": "floating city",
+              "original_id": "floating_city",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-floating_weapon",
+              "name": "漂浮武器",
+              "prompt": "floating weapon",
+              "original_id": "floating_weapon",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-floating_screen",
+              "name": "悬浮屏",
+              "prompt": "floating screen",
+              "original_id": "floating_screen",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-floating_neckwear",
+              "name": "漂浮项链",
+              "prompt": "floating neckwear",
+              "original_id": "floating_neckwear",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-floating_sword",
+              "name": "漂浮剑",
+              "prompt": "floating sword",
+              "original_id": "floating_sword",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-floating_head",
+              "name": "浮头",
+              "prompt": "floating head",
+              "original_id": "floating_head",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-floating_lights",
+              "name": "漂浮灯光",
+              "prompt": "floating lights",
+              "original_id": "floating_lights",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-levitating_orange",
+              "name": "悬浮橙",
+              "prompt": "levitating orange",
+              "original_id": "levitating_orange",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-floating_stairs",
+              "name": "浮动楼梯",
+              "prompt": "floating stairs",
+              "original_id": "floating_stairs",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-floating_embers",
+              "name": "漂浮的余烬",
+              "prompt": "floating embers",
+              "original_id": "floating_embers",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-floating_headgear",
+              "name": "漂浮头饰",
+              "prompt": "floating headgear",
+              "original_id": "floating_headgear",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-man_levitating_pizza_(meme)",
+              "name": "Man Levitating Pizza (Meme)",
+              "prompt": "man levitating pizza (meme)",
+              "original_id": "man_levitating_pizza_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-floating_hat",
+              "name": "漂浮帽子",
+              "prompt": "floating hat",
+              "original_id": "floating_hat",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-object_floating_above_hand",
+              "name": "物体漂浮在手上方",
+              "prompt": "object floating above hand",
+              "original_id": "object_floating_above_hand",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-floating_crown",
+              "name": "漂浮王冠",
+              "prompt": "floating crown",
+              "original_id": "floating_crown",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-floating_earring",
+              "name": "漂浮耳环",
+              "prompt": "floating earring",
+              "original_id": "floating_earring",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-floating_armor",
+              "name": "漂浮盔甲",
+              "prompt": "floating armor",
+              "original_id": "floating_armor",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-floating_ball",
+              "name": "浮球",
+              "prompt": "floating ball",
+              "original_id": "floating_ball",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-floating_liquid",
+              "name": "漂浮液",
+              "prompt": "floating liquid",
+              "original_id": "floating_liquid",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-floating_torso",
+              "name": "漂浮躯干",
+              "prompt": "floating torso",
+              "original_id": "floating_torso",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-floating_curtains",
+              "name": "浮动窗帘",
+              "prompt": "floating curtains",
+              "original_id": "floating_curtains",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-floating_candle",
+              "name": "漂浮的蜡烛",
+              "prompt": "floating candle",
+              "original_id": "floating_candle",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "pose_movement",
+          "name": "移动/运动",
+          "presets": [
+            {
+              "id": "tag-pose-standard_diving_dress",
+              "name": "标准潜水服",
+              "prompt": "standard diving dress",
+              "original_id": "standard_diving_dress",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-walking_backwards",
+              "name": "倒着走",
+              "prompt": "walking backwards",
+              "original_id": "walking_backwards",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-walking_dream",
+              "name": "行走的梦想",
+              "prompt": "walking dream",
+              "original_id": "walking_dream",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-crawling",
+              "name": "爬行",
+              "prompt": "crawling",
+              "original_id": "crawling",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-walking",
+              "name": "行走",
+              "prompt": "walking",
+              "original_id": "walking",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-running",
+              "name": "跑步",
+              "prompt": "running",
+              "original_id": "running",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-falling",
+              "name": "坠落",
+              "prompt": "falling",
+              "original_id": "falling",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-falling_petals",
+              "name": "飘落的花瓣",
+              "prompt": "falling petals",
+              "original_id": "falling_petals",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-rolling",
+              "name": "滚动",
+              "prompt": "rolling",
+              "original_id": "rolling",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-walking_on_railing",
+              "name": "走在栏杆上",
+              "prompt": "walking on railing",
+              "original_id": "walking_on_railing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-trolling",
+              "name": "拖钓",
+              "prompt": "trolling",
+              "original_id": "trolling",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-falling_leaves",
+              "name": "落叶",
+              "prompt": "falling leaves",
+              "original_id": "falling_leaves",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-falling_feathers",
+              "name": "掉落的羽毛",
+              "prompt": "falling feathers",
+              "original_id": "falling_feathers",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-jumping",
+              "name": "跳跃",
+              "prompt": "jumping",
+              "original_id": "jumping",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sliding_doors",
+              "name": "推拉门",
+              "prompt": "sliding doors",
+              "original_id": "sliding_doors",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-swinging",
+              "name": "摇摆",
+              "prompt": "swinging",
+              "original_id": "swinging",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-wallwalking",
+              "name": "壁行",
+              "prompt": "wallwalking",
+              "original_id": "wallwalking",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-spinning",
+              "name": "纺纱",
+              "prompt": "spinning",
+              "original_id": "spinning",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-walking_on_liquid",
+              "name": "在液体上行走",
+              "prompt": "walking on liquid",
+              "original_id": "walking_on_liquid",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-pet_walking",
+              "name": "遛宠物",
+              "prompt": "pet walking",
+              "original_id": "pet_walking",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-spinning_top",
+              "name": "陀螺",
+              "prompt": "spinning top",
+              "original_id": "spinning_top",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sliding",
+              "name": "滑动式",
+              "prompt": "sliding",
+              "original_id": "sliding",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-diving_suit",
+              "name": "潜水服",
+              "prompt": "diving suit",
+              "original_id": "diving_suit",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-climbing",
+              "name": "攀登",
+              "prompt": "climbing",
+              "original_id": "climbing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-swimming",
+              "name": "游泳",
+              "prompt": "swimming",
+              "original_id": "swimming",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-pen_spinning",
+              "name": "转笔",
+              "prompt": "pen spinning",
+              "original_id": "pen_spinning",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sliding_puzzle",
+              "name": "滑动拼图",
+              "prompt": "sliding puzzle",
+              "original_id": "sliding_puzzle",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-running_bond",
+              "name": "运行邦德",
+              "prompt": "running bond",
+              "original_id": "running_bond",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-rolling_suitcase",
+              "name": "拉杆箱",
+              "prompt": "rolling suitcase",
+              "original_id": "rolling_suitcase",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-falling_basin",
+              "name": "落盆地",
+              "prompt": "falling basin",
+              "original_id": "falling_basin",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-walking_bike",
+              "name": "步行自行车",
+              "prompt": "walking bike",
+              "original_id": "walking_bike",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-walking_on_air",
+              "name": "空中行走",
+              "prompt": "walking on air",
+              "original_id": "walking_on_air",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-diving",
+              "name": "潜水",
+              "prompt": "diving",
+              "original_id": "diving",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-diving_mask",
+              "name": "潜水面罩",
+              "prompt": "diving mask",
+              "original_id": "diving_mask",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-running_on_liquid",
+              "name": "液体运行",
+              "prompt": "running on liquid",
+              "original_id": "running_on_liquid",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-walking_away",
+              "name": "走开",
+              "prompt": "walking away",
+              "original_id": "walking_away",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-freediving",
+              "name": "自由潜水",
+              "prompt": "freediving",
+              "original_id": "freediving",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-running_blades",
+              "name": "运行刀片",
+              "prompt": "running blades",
+              "original_id": "running_blades",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-girly_running",
+              "name": "少女奔跑",
+              "prompt": "girly running",
+              "original_id": "girly_running",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-diving_mask_on_head",
+              "name": "头戴潜水面罩",
+              "prompt": "diving mask on head",
+              "original_id": "diving_mask_on_head",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-diving_helmet",
+              "name": "潜水头盔",
+              "prompt": "diving helmet",
+              "original_id": "diving_helmet",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-jumping_frog_toy",
+              "name": "跳蛙玩具",
+              "prompt": "jumping frog toy",
+              "original_id": "jumping_frog_toy",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-synchronized_swimming",
+              "name": "花样游泳",
+              "prompt": "synchronized swimming",
+              "original_id": "synchronized_swimming",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-hoop_rolling",
+              "name": "滚环",
+              "prompt": "hoop rolling",
+              "original_id": "hoop_rolling",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-running_emoticon",
+              "name": "跑步表情符号",
+              "prompt": "running emoticon",
+              "original_id": "running_emoticon",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-diving_regulator",
+              "name": "潜水调节器",
+              "prompt": "diving regulator",
+              "original_id": "diving_regulator",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-swinging_legs",
+              "name": "摆动腿",
+              "prompt": "swinging legs",
+              "original_id": "swinging_legs",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-rolling_pin",
+              "name": "擀面杖",
+              "prompt": "rolling pin",
+              "original_id": "rolling_pin",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-plate_spinning",
+              "name": "板旋压",
+              "prompt": "plate spinning",
+              "original_id": "plate_spinning",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-climbing_ladder",
+              "name": "爬梯",
+              "prompt": "climbing ladder",
+              "original_id": "climbing_ladder",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-falling_flower",
+              "name": "落花",
+              "prompt": "falling flower",
+              "original_id": "falling_flower",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-running_towards_viewer",
+              "name": "奔向观众",
+              "prompt": "running towards viewer",
+              "original_id": "running_towards_viewer",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-spinning_teacup",
+              "name": "旋转茶杯",
+              "prompt": "spinning teacup",
+              "original_id": "spinning_teacup",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-falling_rock",
+              "name": "落石",
+              "prompt": "falling rock",
+              "original_id": "falling_rock",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-running_track",
+              "name": "跑道",
+              "prompt": "running track",
+              "original_id": "running_track",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-rolling_eyes",
+              "name": "翻白眼",
+              "prompt": "rolling eyes",
+              "original_id": "rolling_eyes",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-speedrunning_(topic)",
+              "name": "Speedrunning (Topic)",
+              "prompt": "speedrunning (topic)",
+              "original_id": "speedrunning_(topic)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-diving_hood",
+              "name": "潜水罩",
+              "prompt": "diving hood",
+              "original_id": "diving_hood",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-walking_on_fence",
+              "name": "走在栅栏上",
+              "prompt": "walking on fence",
+              "original_id": "walking_on_fence",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-rocket_jumping",
+              "name": "火箭跳跃",
+              "prompt": "rocket jumping",
+              "original_id": "rocket_jumping",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-mountain_climbing",
+              "name": "登山",
+              "prompt": "mountain climbing",
+              "original_id": "mountain_climbing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-spinning_thread",
+              "name": "纺纱",
+              "prompt": "spinning thread",
+              "original_id": "spinning_thread",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-spinning_wheel",
+              "name": "纺车",
+              "prompt": "spinning wheel",
+              "original_id": "spinning_wheel",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-arm_swinging",
+              "name": "手臂摆动",
+              "prompt": "arm swinging",
+              "original_id": "arm_swinging",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-bungee_jumping",
+              "name": "蹦极",
+              "prompt": "bungee jumping",
+              "original_id": "bungee_jumping",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-falling_star",
+              "name": "流星",
+              "prompt": "falling star",
+              "original_id": "falling_star",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-rolling_sleeves_up",
+              "name": "卷起袖子",
+              "prompt": "rolling sleeves up",
+              "original_id": "rolling_sleeves_up",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-aozora_jumping_heart",
+              "name": "青空跳跃之心",
+              "prompt": "aozora jumping heart",
+              "original_id": "aozora_jumping_heart",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-climbing_tree",
+              "name": "爬树",
+              "prompt": "climbing tree",
+              "original_id": "climbing_tree",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-climbing_set_(zelda)",
+              "name": "Climbing Set (Zelda)",
+              "prompt": "climbing set (zelda)",
+              "original_id": "climbing_set_(zelda)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-rock_climbing",
+              "name": "攀岩",
+              "prompt": "rock climbing",
+              "original_id": "rock_climbing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-spinning_head",
+              "name": "旋转头",
+              "prompt": "spinning head",
+              "original_id": "spinning_head",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-rolling_girl_(module)",
+              "name": "Rolling Girl (Module)",
+              "prompt": "rolling girl (module)",
+              "original_id": "rolling_girl_(module)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-running_ganger_(meme)",
+              "name": "Running Ganger (Meme)",
+              "prompt": "running ganger (meme)",
+              "original_id": "running_ganger_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-climbing_wall",
+              "name": "攀岩墙",
+              "prompt": "climbing wall",
+              "original_id": "climbing_wall",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-diving_block",
+              "name": "跳水台",
+              "prompt": "diving block",
+              "original_id": "diving_block",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-falling_money",
+              "name": "金钱掉落",
+              "prompt": "falling money",
+              "original_id": "falling_money",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-spinning_chair",
+              "name": "旋转椅",
+              "prompt": "spinning chair",
+              "original_id": "spinning_chair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-fujimaru_ritsuka_(female)_(walking_in_the_spring_breeze)_(cosplay)",
+              "name": "Fujimaru Ritsuka (Female) (Walking In The Spring Breeze) (Cosplay)",
+              "prompt": "fujimaru ritsuka (female) (walking in the spring breeze) (cosplay)",
+              "original_id": "fujimaru_ritsuka_(female)_(walking_in_the_spring_breeze)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-walking_on_ice",
+              "name": "冰上行走",
+              "prompt": "walking on ice",
+              "original_id": "walking_on_ice",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-ski_jumping",
+              "name": "跳台滑雪",
+              "prompt": "ski jumping",
+              "original_id": "ski_jumping",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-spinning_seal_(meme)",
+              "name": "Spinning Seal (Meme)",
+              "prompt": "spinning seal (meme)",
+              "original_id": "spinning_seal_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-swinging_arms",
+              "name": "摆动手臂",
+              "prompt": "swinging arms",
+              "original_id": "swinging_arms",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-running_in_the_90's",
+              "name": "90年代跑步",
+              "prompt": "running in the 90's",
+              "original_id": "running_in_the_90's",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-yeah_we_gay_keep_scrolling_(meme)",
+              "name": "Yeah We Gay Keep Scrolling (Meme)",
+              "prompt": "yeah we gay keep scrolling (meme)",
+              "original_id": "yeah_we_gay_keep_scrolling_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-spinning_reel",
+              "name": "旋转渔线轮",
+              "prompt": "spinning reel",
+              "original_id": "spinning_reel",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-diving_mask_around_neck",
+              "name": "挂脖式潜水面罩",
+              "prompt": "diving mask around neck",
+              "original_id": "diving_mask_around_neck",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-swinging!_(love_live!)",
+              "name": "Swinging! (Love Live!)",
+              "prompt": "swinging! (love live!)",
+              "original_id": "swinging!_(love_live!)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-rolling_bubbles_(cosplay)",
+              "name": "Rolling Bubbles (Cosplay)",
+              "prompt": "rolling bubbles (cosplay)",
+              "original_id": "rolling_bubbles_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-relaxed_seal_in_the_swimming_pool_(meme)",
+              "name": "Relaxed Seal In The Swimming Pool (Meme)",
+              "prompt": "relaxed seal in the swimming pool (meme)",
+              "original_id": "relaxed_seal_in_the_swimming_pool_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-diving_board",
+              "name": "跳板",
+              "prompt": "diving board",
+              "original_id": "diving_board",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-rolling_vistamp",
+              "name": "滚动维斯坦普",
+              "prompt": "rolling vistamp",
+              "original_id": "rolling_vistamp",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-jumping_spider",
+              "name": "跳蜘蛛",
+              "prompt": "jumping spider",
+              "original_id": "jumping_spider",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-walking_the_plank",
+              "name": "走木板",
+              "prompt": "walking the plank",
+              "original_id": "walking_the_plank",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-jumping_on_bed",
+              "name": "床上跳跃",
+              "prompt": "jumping on bed",
+              "original_id": "jumping_on_bed",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-it_was_like_she_was_looking_at_walking_garbage_(meme)",
+              "name": "It Was Like She Was Looking At Walking Garbage (Meme)",
+              "prompt": "it was like she was looking at walking garbage (meme)",
+              "original_id": "it_was_like_she_was_looking_at_walking_garbage_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-falling_letter",
+              "name": "落下的信",
+              "prompt": "falling letter",
+              "original_id": "falling_letter",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-dumpster_diving",
+              "name": "垃圾箱潜水",
+              "prompt": "dumpster diving",
+              "original_id": "dumpster_diving",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-falling_books",
+              "name": "掉落的书籍",
+              "prompt": "falling books",
+              "original_id": "falling_books",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-climbing_rope",
+              "name": "登山绳",
+              "prompt": "climbing rope",
+              "original_id": "climbing_rope",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-rolling_tray",
+              "name": "滚动托盘",
+              "prompt": "rolling tray",
+              "original_id": "rolling_tray",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-jumping_from_page",
+              "name": "从页面跳转",
+              "prompt": "jumping from page",
+              "original_id": "jumping_from_page",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-swinging_flashlight_test",
+              "name": "摆闪测试",
+              "prompt": "swinging-flashlight test",
+              "original_id": "swinging_flashlight_test",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-walking_mushroom_(dungeon_meshi)_(cosplay)",
+              "name": "Walking Mushroom (Dungeon Meshi) (Cosplay)",
+              "prompt": "walking mushroom (dungeon meshi) (cosplay)",
+              "original_id": "walking_mushroom_(dungeon_meshi)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-rolling_sushi",
+              "name": "寿司卷",
+              "prompt": "rolling sushi",
+              "original_id": "rolling_sushi",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-spinning_cat_(meme)",
+              "name": "Spinning Cat (Meme)",
+              "prompt": "spinning cat (meme)",
+              "original_id": "spinning_cat_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-falling_devil_(chainsaw_man)_(cosplay)",
+              "name": "Falling Devil (Chainsaw Man) (Cosplay)",
+              "prompt": "falling devil (chainsaw man) (cosplay)",
+              "original_id": "falling_devil_(chainsaw_man)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-metal_pipe_falling_(meme)",
+              "name": "Metal Pipe Falling (Meme)",
+              "prompt": "metal pipe falling (meme)",
+              "original_id": "metal_pipe_falling_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-finger_walking",
+              "name": "手指行走",
+              "prompt": "finger walking",
+              "original_id": "finger_walking",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-walking_on_tail",
+              "name": "尾随行走",
+              "prompt": "walking on tail",
+              "original_id": "walking_on_tail",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-waffle_falling_over_(meme)",
+              "name": "Waffle Falling Over (Meme)",
+              "prompt": "waffle falling over (meme)",
+              "original_id": "waffle_falling_over_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-walking_machine",
+              "name": "走步机",
+              "prompt": "walking machine",
+              "original_id": "walking_machine",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-shopping_bag",
+              "name": "购物袋",
+              "prompt": "shopping bag",
+              "original_id": "shopping_bag",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-shopping",
+              "name": "购物",
+              "prompt": "shopping",
+              "original_id": "shopping",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-shopping_basket",
+              "name": "购物篮",
+              "prompt": "shopping basket",
+              "original_id": "shopping_basket",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-in_shopping_cart",
+              "name": "在购物车中",
+              "prompt": "in shopping cart",
+              "original_id": "in_shopping_cart",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-shopping_cart",
+              "name": "购物车",
+              "prompt": "shopping cart",
+              "original_id": "shopping_cart",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-shopping_district",
+              "name": "购物区",
+              "prompt": "shopping district",
+              "original_id": "shopping_district",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-window_shopping",
+              "name": "橱窗购物",
+              "prompt": "window shopping",
+              "original_id": "window_shopping",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-tall_lady_shopping_in_japanese_store_(meme)",
+              "name": "Tall Lady Shopping In Japanese Store (Meme)",
+              "prompt": "tall lady shopping in japanese store (meme)",
+              "original_id": "tall_lady_shopping_in_japanese_store_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-shopping_basket_on_head",
+              "name": "头上的购物篮",
+              "prompt": "shopping basket on head",
+              "original_id": "shopping_basket_on_head",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-spinning_bird_kick",
+              "name": "旋转鸟踢",
+              "prompt": "spinning bird kick",
+              "original_id": "spinning_bird_kick",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-floating_boy_chasing_running_boy_(meme)",
+              "name": "Floating Boy Chasing Running Boy (Meme)",
+              "prompt": "floating boy chasing running boy (meme)",
+              "original_id": "floating_boy_chasing_running_boy_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-climbing_pole",
+              "name": "攀岩杆",
+              "prompt": "climbing pole",
+              "original_id": "climbing_pole",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "pose_combat",
+          "name": "格斗/战斗",
+          "presets": [
+            {
+              "id": "tag-pose-spinning_weapon",
+              "name": "旋转武器",
+              "prompt": "spinning weapon",
+              "original_id": "spinning_weapon",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-fighting_stance",
+              "name": "战斗姿态",
+              "prompt": "fighting stance",
+              "original_id": "fighting_stance",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-fighting_game",
+              "name": "格斗游戏",
+              "prompt": "fighting game",
+              "original_id": "fighting_game",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-fighting",
+              "name": "战斗",
+              "prompt": "fighting",
+              "original_id": "fighting",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-bullfighting",
+              "name": "斗牛",
+              "prompt": "bullfighting",
+              "original_id": "bullfighting",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-fighting_fefnir_(mega_man)_(cosplay)",
+              "name": "Fighting Fefnir (Mega Man) (Cosplay)",
+              "prompt": "fighting fefnir (mega man) (cosplay)",
+              "original_id": "fighting_fefnir_(mega_man)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-f_16_fighting_falcon",
+              "name": "F 16 战隼",
+              "prompt": "f-16 fighting falcon",
+              "original_id": "f_16_fighting_falcon",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-everyone_fighting",
+              "name": "大家都在战斗",
+              "prompt": "everyone fighting",
+              "original_id": "everyone_fighting",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-lunging",
+              "name": "弓箭步",
+              "prompt": "lunging",
+              "original_id": "lunging",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-siamese_fighting_fish",
+              "name": "暹罗斗鱼",
+              "prompt": "siamese fighting fish",
+              "original_id": "siamese_fighting_fish",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-fighting_jackal",
+              "name": "战斗豺狼",
+              "prompt": "fighting jackal",
+              "original_id": "fighting_jackal",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-two_guys_fighting_(meme)",
+              "name": "Two Guys Fighting (Meme)",
+              "prompt": "two guys fighting (meme)",
+              "original_id": "two_guys_fighting_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-humiliation_for_two_male_high_school_students_as_they_are_forced_to_hold_hands_as_a_punishment_for_fighting_(meme)",
+              "name": "Humiliation For Two Male High School Students As They Are Forced To Hold Hands As A Punishment For Fighting (Meme)",
+              "prompt": "humiliation for two male high school students as they are forced to hold hands as a punishment for fighting (meme)",
+              "original_id": "humiliation_for_two_male_high_school_students_as_they_are_forced_to_hold_hands_as_a_punishment_for_fighting_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-cockfighting",
+              "name": "斗鸡",
+              "prompt": "cockfighting",
+              "original_id": "cockfighting",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-fighting_miku_(project_voltage)_(cosplay)",
+              "name": "Fighting Miku (Project Voltage) (Cosplay)",
+              "prompt": "fighting miku (project voltage) (cosplay)",
+              "original_id": "fighting_miku_(project_voltage)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-protecting",
+              "name": "保护",
+              "prompt": "protecting",
+              "original_id": "protecting",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-beating",
+              "name": "殴打",
+              "prompt": "beating",
+              "original_id": "beating",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-dueling_gauntlet",
+              "name": "决斗手套",
+              "prompt": "dueling gauntlet",
+              "original_id": "dueling_gauntlet",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sparring",
+              "name": "陪练",
+              "prompt": "sparring",
+              "original_id": "sparring",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-surrendering",
+              "name": "投降",
+              "prompt": "surrendering",
+              "original_id": "surrendering",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-drawing_bow",
+              "name": "拉弓",
+              "prompt": "drawing bow",
+              "original_id": "drawing_bow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-holding_gun",
+              "name": "拿着枪",
+              "prompt": "holding gun",
+              "original_id": "holding_gun",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-holding_sword",
+              "name": "拿着剑",
+              "prompt": "holding sword",
+              "original_id": "holding_sword",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-holding_staff",
+              "name": "控股员工",
+              "prompt": "holding staff",
+              "original_id": "holding_staff",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-dog_holding_sword_(meme)",
+              "name": "Dog Holding Sword (Meme)",
+              "prompt": "dog holding sword (meme)",
+              "original_id": "dog_holding_sword_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-cleaning_rod",
+              "name": "清洁杆",
+              "prompt": "cleaning rod",
+              "original_id": "cleaning_rod",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-cleaning_weapon",
+              "name": "清洁武器",
+              "prompt": "cleaning weapon",
+              "original_id": "cleaning_weapon",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-cleaning_gun",
+              "name": "清洁枪",
+              "prompt": "cleaning gun",
+              "original_id": "cleaning_gun",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-cleaning_sword",
+              "name": "清洁剑",
+              "prompt": "cleaning sword",
+              "original_id": "cleaning_sword",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-drawing_sword",
+              "name": "绘画剑",
+              "prompt": "drawing sword",
+              "original_id": "drawing_sword",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-drawing_gun",
+              "name": "绘画枪",
+              "prompt": "drawing gun",
+              "original_id": "drawing_gun",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-pointing_weapon",
+              "name": "指向武器",
+              "prompt": "pointing weapon",
+              "original_id": "pointing_weapon",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-pointing_gun",
+              "name": "指着枪",
+              "prompt": "pointing gun",
+              "original_id": "pointing_gun",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-readying_weapon",
+              "name": "准备武器",
+              "prompt": "readying weapon",
+              "original_id": "readying_weapon",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "pose_performance",
+          "name": "舞蹈/表演",
+          "presets": [
+            {
+              "id": "tag-pose-dancing",
+              "name": "舞蹈",
+              "prompt": "dancing",
+              "original_id": "dancing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-dancing_flower",
+              "name": "舞蹈花",
+              "prompt": "dancing flower",
+              "original_id": "dancing_flower",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-dancing_stars_on_me!",
+              "name": "星星在我身上跳舞！",
+              "prompt": "dancing stars on me!",
+              "original_id": "dancing_stars_on_me!",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-fan_dancing",
+              "name": "扇子舞",
+              "prompt": "fan dancing",
+              "original_id": "fan_dancing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-dancing_diva",
+              "name": "舞女",
+              "prompt": "dancing diva",
+              "original_id": "dancing_diva",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-dancing_pallbearers_(meme)",
+              "name": "Dancing Pallbearers (Meme)",
+              "prompt": "dancing pallbearers (meme)",
+              "original_id": "dancing_pallbearers_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-look!_xxx_is_dancing!",
+              "name": "看！Xxx在跳舞！",
+              "prompt": "look! xxx is dancing!",
+              "original_id": "look!_xxx_is_dancing!",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-chads_dancing_to_california_gurls_(meme)",
+              "name": "Chads Dancing To California Gurls (Meme)",
+              "prompt": "chads dancing to california gurls (meme)",
+              "original_id": "chads_dancing_to_california_gurls_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-cat_breakdancing_(meme)",
+              "name": "Cat Breakdancing (Meme)",
+              "prompt": "cat breakdancing (meme)",
+              "original_id": "cat_breakdancing_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-ballroom_dancing",
+              "name": "交际舞",
+              "prompt": "ballroom dancing",
+              "original_id": "ballroom_dancing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-singing",
+              "name": "唱歌",
+              "prompt": "singing",
+              "original_id": "singing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-pom_pom_(cheerleading)",
+              "name": "Pom Pom (Cheerleading)",
+              "prompt": "pom pom (cheerleading)",
+              "original_id": "pom_pom_(cheerleading)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-bad_singing",
+              "name": "唱歌不好",
+              "prompt": "bad singing",
+              "original_id": "bad_singing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-singing!_(k_on!)",
+              "name": "Singing! (K On!)",
+              "prompt": "singing! (k-on!)",
+              "original_id": "singing!_(k_on!)",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "pose_social",
+          "name": "社交/互动",
+          "presets": [
+            {
+              "id": "tag-pose-kissing_cheek",
+              "name": "亲吻脸颊",
+              "prompt": "kissing cheek",
+              "original_id": "kissing_cheek",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-kissing_object",
+              "name": "接吻对象",
+              "prompt": "kissing object",
+              "original_id": "kissing_object",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-kissing_forehead",
+              "name": "亲吻额头",
+              "prompt": "kissing forehead",
+              "original_id": "kissing_forehead",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-kissing_skull",
+              "name": "接吻骷髅",
+              "prompt": "kissing skull",
+              "original_id": "kissing_skull",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-kissing_hand",
+              "name": "亲吻手",
+              "prompt": "kissing hand",
+              "original_id": "kissing_hand",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-animals_kissing",
+              "name": "动物接吻",
+              "prompt": "animals kissing",
+              "original_id": "animals_kissing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-kissing_animal",
+              "name": "接吻动物",
+              "prompt": "kissing animal",
+              "original_id": "kissing_animal",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-kissing_nose",
+              "name": "亲吻鼻子",
+              "prompt": "kissing nose",
+              "original_id": "kissing_nose",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-kissing_eye",
+              "name": "吻眼",
+              "prompt": "kissing eye",
+              "original_id": "kissing_eye",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-kissing_hair",
+              "name": "亲吻头发",
+              "prompt": "kissing hair",
+              "original_id": "kissing_hair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-kissing_shoulder",
+              "name": "亲吻肩膀",
+              "prompt": "kissing shoulder",
+              "original_id": "kissing_shoulder",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-kissing_doll",
+              "name": "接吻娃娃",
+              "prompt": "kissing doll",
+              "original_id": "kissing_doll",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-kissing_back",
+              "name": "回吻",
+              "prompt": "kissing back",
+              "original_id": "kissing_back",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-kissing_through_mask",
+              "name": "隔面亲吻",
+              "prompt": "kissing through mask",
+              "original_id": "kissing_through_mask",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-fish_kissing_camera_(meme)",
+              "name": "Fish Kissing Camera (Meme)",
+              "prompt": "fish kissing camera (meme)",
+              "original_id": "fish_kissing_camera_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-kissing_necklace",
+              "name": "接吻项链",
+              "prompt": "kissing necklace",
+              "original_id": "kissing_necklace",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-kissing_chin",
+              "name": "亲吻下巴",
+              "prompt": "kissing chin",
+              "original_id": "kissing_chin",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-hugging_object",
+              "name": "拥抱物体",
+              "prompt": "hugging object",
+              "original_id": "hugging_object",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-waving_arms",
+              "name": "挥动手臂",
+              "prompt": "waving arms",
+              "original_id": "waving_arms",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-waving",
+              "name": "挥手",
+              "prompt": "waving",
+              "original_id": "waving",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-bowing",
+              "name": "鞠躬",
+              "prompt": "bowing",
+              "original_id": "bowing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-hugging_another's_tail",
+              "name": "拥抱别人的尾巴",
+              "prompt": "hugging another's tail",
+              "original_id": "hugging_another's_tail",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-hugging_tail",
+              "name": "抱尾巴",
+              "prompt": "hugging tail",
+              "original_id": "hugging_tail",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-hugging_book",
+              "name": "拥抱书",
+              "prompt": "hugging book",
+              "original_id": "hugging_book",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-hugging_own_legs",
+              "name": "抱着自己的腿",
+              "prompt": "hugging own legs",
+              "original_id": "hugging_own_legs",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-hugging_doll",
+              "name": "抱娃娃",
+              "prompt": "hugging doll",
+              "original_id": "hugging_doll",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-whispering",
+              "name": "耳语",
+              "prompt": "whispering",
+              "original_id": "whispering",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-waving_arm",
+              "name": "挥动手臂",
+              "prompt": "waving arm",
+              "original_id": "waving_arm",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-hugging_another's_leg",
+              "name": "拥抱别人的腿",
+              "prompt": "hugging another's leg",
+              "original_id": "hugging_another's_leg",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-hugging_own_tail",
+              "name": "抱着自己的尾巴",
+              "prompt": "hugging own tail",
+              "original_id": "hugging_own_tail",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-elbowing",
+              "name": "肘部",
+              "prompt": "elbowing",
+              "original_id": "elbowing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-chugging",
+              "name": "突突",
+              "prompt": "chugging",
+              "original_id": "chugging",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-waving_flag",
+              "name": "飘扬的旗帜",
+              "prompt": "waving flag",
+              "original_id": "waving_flag",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-waving_hands",
+              "name": "挥舞的手",
+              "prompt": "waving hands",
+              "original_id": "waving_hands",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-waving_legs",
+              "name": "挥舞双腿",
+              "prompt": "waving legs",
+              "original_id": "waving_legs",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-bowing_randoseru_spillage_(meme)",
+              "name": "Bowing Randoseru Spillage (Meme)",
+              "prompt": "bowing randoseru spillage (meme)",
+              "original_id": "bowing_randoseru_spillage_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-talking_on_phone",
+              "name": "打电话",
+              "prompt": "talking on phone",
+              "original_id": "talking_on_phone",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-talking",
+              "name": "说",
+              "prompt": "talking",
+              "original_id": "talking",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-stalking",
+              "name": "跟踪",
+              "prompt": "stalking",
+              "original_id": "stalking",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-are_you_talking_about_kuririn",
+              "name": "你在谈论栗林吗",
+              "prompt": "are you talking about kuririn",
+              "original_id": "are_you_talking_about_kuririn",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-following",
+              "name": "下列的",
+              "prompt": "following",
+              "original_id": "following",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-pokemon_following_human",
+              "name": "神奇宝贝跟随人类",
+              "prompt": "pokemon following human",
+              "original_id": "pokemon_following_human",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-talking_animal",
+              "name": "会说话的动物",
+              "prompt": "talking animal",
+              "original_id": "talking_animal",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-talking_hat",
+              "name": "会说话的帽子",
+              "prompt": "talking hat",
+              "original_id": "talking_hat",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-jesse_what_the_fuck_are_you_talking_about_(meme)",
+              "name": "Jesse What The Fuck Are You Talking About (Meme)",
+              "prompt": "jesse what the fuck are you talking about (meme)",
+              "original_id": "jesse_what_the_fuck_are_you_talking_about_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-talking_to_brick_wall_(meme)",
+              "name": "Talking To Brick Wall (Meme)",
+              "prompt": "talking to brick wall (meme)",
+              "original_id": "talking_to_brick_wall_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-holding_hands",
+              "name": "牵手",
+              "prompt": "holding hands",
+              "original_id": "holding_hands",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-holding_hands_is_lewd",
+              "name": "牵手是猥亵行为",
+              "prompt": "holding hands is lewd",
+              "original_id": "holding_hands_is_lewd",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-facepalm",
+              "name": "捂脸",
+              "prompt": "facepalm",
+              "original_id": "facepalm",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-double_facepalm",
+              "name": "双手掌心",
+              "prompt": "double facepalm",
+              "original_id": "double_facepalm",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-pointing_at_cigarette",
+              "name": "指着香烟",
+              "prompt": "pointing at cigarette",
+              "original_id": "pointing_at_cigarette",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-crossed_arms_drinking",
+              "name": "交叉双臂喝酒",
+              "prompt": "crossed arms drinking",
+              "original_id": "crossed_arms_drinking",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-spread_arms",
+              "name": "张开双臂",
+              "prompt": "spread arms",
+              "original_id": "spread_arms",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-arm_up",
+              "name": "手臂向上",
+              "prompt": "arm up",
+              "original_id": "arm_up",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-thumbs_up",
+              "name": "竖起大拇指",
+              "prompt": "thumbs up",
+              "original_id": "thumbs_up",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-hands_in_pockets",
+              "name": "双手插在口袋里",
+              "prompt": "hands in pockets",
+              "original_id": "hands_in_pockets",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-pointing_at_viewer",
+              "name": "指向观看者",
+              "prompt": "pointing at viewer",
+              "original_id": "pointing_at_viewer",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-pointing_up",
+              "name": "指向上方",
+              "prompt": "pointing up",
+              "original_id": "pointing_up",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-leaning_on_animal",
+              "name": "倚靠动物",
+              "prompt": "leaning on animal",
+              "original_id": "leaning_on_animal",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-leaning_on_person",
+              "name": "倚在人身上",
+              "prompt": "leaning on person",
+              "original_id": "leaning_on_person",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-pointing_at_self",
+              "name": "指向自己",
+              "prompt": "pointing at self",
+              "original_id": "pointing_at_self",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-pointing_down",
+              "name": "向下",
+              "prompt": "pointing down",
+              "original_id": "pointing_down",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-pointing_sword",
+              "name": "指着剑",
+              "prompt": "pointing sword",
+              "original_id": "pointing_sword",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-pointing_forward",
+              "name": "指向前方",
+              "prompt": "pointing forward",
+              "original_id": "pointing_forward",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-pointing_at_another",
+              "name": "指着另一个",
+              "prompt": "pointing at another",
+              "original_id": "pointing_at_another",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-pointing_to_the_side",
+              "name": "指向侧面",
+              "prompt": "pointing to the side",
+              "original_id": "pointing_to_the_side",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-double_thumbs_up",
+              "name": "双竖起大拇指",
+              "prompt": "double thumbs up",
+              "original_id": "double_thumbs_up",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-pointing_spider_man_(meme)",
+              "name": "Pointing Spider Man (Meme)",
+              "prompt": "pointing spider-man (meme)",
+              "original_id": "pointing_spider_man_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-spoken_thumbs_up",
+              "name": "口头竖起大拇指",
+              "prompt": "spoken thumbs up",
+              "original_id": "spoken_thumbs_up",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-pointing_at_hand",
+              "name": "指着手",
+              "prompt": "pointing at hand",
+              "original_id": "pointing_at_hand",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-pointing_at_mouth",
+              "name": "指着嘴",
+              "prompt": "pointing at mouth",
+              "original_id": "pointing_at_mouth",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-pointing_at_forehead",
+              "name": "指着额头",
+              "prompt": "pointing at forehead",
+              "original_id": "pointing_at_forehead",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-pointing_at_breasts",
+              "name": "指着乳房",
+              "prompt": "pointing at breasts",
+              "original_id": "pointing_at_breasts",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-thumbs_up_emoji",
+              "name": "竖起大拇指表情符号",
+              "prompt": "thumbs up emoji",
+              "original_id": "thumbs_up_emoji",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-kissing_ear",
+              "name": "亲吻耳朵",
+              "prompt": "kissing ear",
+              "original_id": "kissing_ear",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-covering_mouth",
+              "name": "捂住嘴",
+              "prompt": "covering mouth",
+              "original_id": "covering_mouth",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-kissing_neck",
+              "name": "亲吻脖子",
+              "prompt": "kissing neck",
+              "original_id": "kissing_neck",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-whispering_in_ear",
+              "name": "耳边低语",
+              "prompt": "whispering in ear",
+              "original_id": "whispering_in_ear",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-kissing_arm",
+              "name": "亲吻手臂",
+              "prompt": "kissing arm",
+              "original_id": "kissing_arm",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "pose_holding",
+          "name": "手持/手势",
+          "presets": [
+            {
+              "id": "tag-pose-holding_cup",
+              "name": "拿着杯子",
+              "prompt": "holding cup",
+              "original_id": "holding_cup",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-holding_animal",
+              "name": "抱着动物",
+              "prompt": "holding animal",
+              "original_id": "holding_animal",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-holding_book",
+              "name": "拿着书",
+              "prompt": "holding book",
+              "original_id": "holding_book",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-holding_hand_grip",
+              "name": "握持手握力",
+              "prompt": "holding hand grip",
+              "original_id": "holding_hand_grip",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-prayer_beads",
+              "name": "念珠",
+              "prompt": "prayer beads",
+              "original_id": "prayer_beads",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-holding_bookmark",
+              "name": "持有书签",
+              "prompt": "holding bookmark",
+              "original_id": "holding_bookmark",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-meditation",
+              "name": "冥想",
+              "prompt": "meditation",
+              "original_id": "meditation",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-holding_handkerchief",
+              "name": "拿着手帕",
+              "prompt": "holding handkerchief",
+              "original_id": "holding_handkerchief",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-holding_handheld_game_console",
+              "name": "手持手持游戏机",
+              "prompt": "holding handheld game console",
+              "original_id": "holding_handheld_game_console",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-holding_baby",
+              "name": "抱着婴儿",
+              "prompt": "holding baby",
+              "original_id": "holding_baby",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-prayer_tag",
+              "name": "祈祷标签",
+              "prompt": "prayer tag",
+              "original_id": "prayer_tag",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-prayer_wheel",
+              "name": "转经轮",
+              "prompt": "prayer wheel",
+              "original_id": "prayer_wheel",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sprayer",
+              "name": "喷雾器",
+              "prompt": "sprayer",
+              "original_id": "sprayer",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-lost_prayer_to_the_sacred_winds_(genshin_impact)",
+              "name": "Lost Prayer To The Sacred Winds (Genshin Impact)",
+              "prompt": "lost prayer to the sacred winds (genshin impact)",
+              "original_id": "lost_prayer_to_the_sacred_winds_(genshin_impact)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-reverse_prayer",
+              "name": "逆向祈祷",
+              "prompt": "reverse prayer",
+              "original_id": "reverse_prayer",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-praying",
+              "name": "祈祷",
+              "prompt": "praying",
+              "original_id": "praying",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-praying_mantis",
+              "name": "螳螂",
+              "prompt": "praying mantis",
+              "original_id": "praying_mantis",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-spraying",
+              "name": "喷涂",
+              "prompt": "spraying",
+              "original_id": "spraying",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-holding_drawing",
+              "name": "拿着绘画",
+              "prompt": "holding drawing",
+              "original_id": "holding_drawing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-holding_cooking_pot",
+              "name": "拿着烹饪锅",
+              "prompt": "holding cooking pot",
+              "original_id": "holding_cooking_pot",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-holding_drinking_straw",
+              "name": "拿着吸管",
+              "prompt": "holding drinking straw",
+              "original_id": "holding_drinking_straw",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-holding_drawing_tablet",
+              "name": "手持绘图板",
+              "prompt": "holding drawing tablet",
+              "original_id": "holding_drawing_tablet",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-timmy_turner_praying_(meme)",
+              "name": "Timmy Turner Praying (Meme)",
+              "prompt": "timmy turner praying (meme)",
+              "original_id": "timmy_turner_praying_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-victor_van_dort_spraying_raid_and_screaming_(meme)",
+              "name": "Victor Van Dort Spraying Raid And Screaming (Meme)",
+              "prompt": "victor van dort spraying raid and screaming (meme)",
+              "original_id": "victor_van_dort_spraying_raid_and_screaming_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-holding_painting",
+              "name": "拿着画",
+              "prompt": "holding painting",
+              "original_id": "holding_painting",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-praying_emoji",
+              "name": "祈祷表情符号",
+              "prompt": "praying emoji",
+              "original_id": "praying_emoji",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "pose_expression",
+          "name": "表情/视线",
+          "presets": [
+            {
+              "id": "tag-pose-closing_eyes",
+              "name": "闭上眼睛",
+              "prompt": "closing eyes",
+              "original_id": "closing_eyes",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-face_stretching",
+              "name": "脸部拉伸",
+              "prompt": "face stretching",
+              "original_id": "face_stretching",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-stretching_cheeks",
+              "name": "伸展脸颊",
+              "prompt": "stretching cheeks",
+              "original_id": "stretching_cheeks",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-looking_at_viewer",
+              "name": "看镜头",
+              "prompt": "looking at viewer",
+              "original_id": "looking_at_viewer",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-looking_away",
+              "name": "看向别处",
+              "prompt": "looking away",
+              "original_id": "looking_away",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-looking_back",
+              "name": "回头",
+              "prompt": "looking back",
+              "original_id": "looking_back",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-looking_down",
+              "name": "往下看",
+              "prompt": "looking down",
+              "original_id": "looking_down",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-looking_up",
+              "name": "抬头仰望",
+              "prompt": "looking up",
+              "original_id": "looking_up",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-looking_to_the_side",
+              "name": "向侧面看",
+              "prompt": "looking to the side",
+              "original_id": "looking_to_the_side",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-japanese_girls_looking_down_on_apu_(meme)",
+              "name": "Japanese Girls Looking Down On Apu (Meme)",
+              "prompt": "japanese girls looking down on apu (meme)",
+              "original_id": "japanese_girls_looking_down_on_apu_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-crying_emoji",
+              "name": "哭泣表情",
+              "prompt": "crying emoji",
+              "original_id": "crying_emoji",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-pleading_eyes",
+              "name": "恳求的眼神",
+              "prompt": "pleading eyes",
+              "original_id": "pleading_eyes",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-partying_face_emoji",
+              "name": "派对表情符号",
+              "prompt": "partying face emoji",
+              "original_id": "partying_face_emoji",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "pose_leaning",
+          "name": "靠/倚",
+          "presets": [
+            {
+              "id": "tag-pose-leaning_back",
+              "name": "向后靠",
+              "prompt": "leaning back",
+              "original_id": "leaning_back",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-leaning_forward",
+              "name": "身体前倾",
+              "prompt": "leaning forward",
+              "original_id": "leaning_forward",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-leaning",
+              "name": "倾斜",
+              "prompt": "leaning",
+              "original_id": "leaning",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-leaning_out_of_window",
+              "name": "探出窗外",
+              "prompt": "leaning out of window",
+              "original_id": "leaning_out_of_window",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-leaning_to_the_side",
+              "name": "倾斜到一边",
+              "prompt": "leaning to the side",
+              "original_id": "leaning_to_the_side",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-leaning_on_object",
+              "name": "倚在物体上",
+              "prompt": "leaning on object",
+              "original_id": "leaning_on_object",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-leaning_on_table",
+              "name": "靠在桌子上",
+              "prompt": "leaning on table",
+              "original_id": "leaning_on_table",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-leaning_over",
+              "name": "俯身",
+              "prompt": "leaning over",
+              "original_id": "leaning_over",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-leaning_on_broom",
+              "name": "倚着扫帚",
+              "prompt": "leaning on broom",
+              "original_id": "leaning_on_broom",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-leaning_in",
+              "name": "向前倾",
+              "prompt": "leaning in",
+              "original_id": "leaning_in",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-leaning_against_vehicle",
+              "name": "靠在车辆上",
+              "prompt": "leaning against vehicle",
+              "original_id": "leaning_against_vehicle",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-leaning_on_weapon",
+              "name": "倚靠武器",
+              "prompt": "leaning on weapon",
+              "original_id": "leaning_on_weapon",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-leaning_tower_of_pisa",
+              "name": "比萨斜塔",
+              "prompt": "leaning tower of pisa",
+              "original_id": "leaning_tower_of_pisa",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-leaning_against_motorcycle",
+              "name": "靠在摩托车上",
+              "prompt": "leaning against motorcycle",
+              "original_id": "leaning_against_motorcycle",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-leaning_on_self",
+              "name": "依靠自我",
+              "prompt": "leaning on self",
+              "original_id": "leaning_on_self",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "pose_daily",
+          "name": "日常生活",
+          "presets": [
+            {
+              "id": "tag-pose-booth_seating",
+              "name": "展位座位",
+              "prompt": "booth seating",
+              "original_id": "booth_seating",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-seating_chart",
+              "name": "座位表",
+              "prompt": "seating chart",
+              "original_id": "seating_chart",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-theater_seating",
+              "name": "剧院座位",
+              "prompt": "theater seating",
+              "original_id": "theater_seating",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-had_a_dream_everyone_was_drawing_lesbian_ships_like_this_(meme)",
+              "name": "Had A Dream Everyone Was Drawing Lesbian Ships Like This (Meme)",
+              "prompt": "had a dream everyone was drawing lesbian ships like this (meme)",
+              "original_id": "had_a_dream_everyone_was_drawing_lesbian_ships_like_this_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-closing_door",
+              "name": "关上门",
+              "prompt": "closing door",
+              "original_id": "closing_door",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-closing_book",
+              "name": "结书",
+              "prompt": "closing book",
+              "original_id": "closing_book",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-closing",
+              "name": "闭幕式",
+              "prompt": "closing",
+              "original_id": "closing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-floating_hair",
+              "name": "飘逸的头发",
+              "prompt": "floating hair",
+              "original_id": "floating_hair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-cleaning",
+              "name": "清洁",
+              "prompt": "cleaning",
+              "original_id": "cleaning",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-ear_cleaning",
+              "name": "耳朵清洁",
+              "prompt": "ear cleaning",
+              "original_id": "ear_cleaning",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-cleaning_brush",
+              "name": "清洁刷",
+              "prompt": "cleaning brush",
+              "original_id": "cleaning_brush",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-stretching",
+              "name": "伸展运动",
+              "prompt": "stretching",
+              "original_id": "stretching",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-cleaning_glasses",
+              "name": "清洁眼镜",
+              "prompt": "cleaning glasses",
+              "original_id": "cleaning_glasses",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-house_cleaning",
+              "name": "家庭清洁",
+              "prompt": "house cleaning",
+              "original_id": "house_cleaning",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-hair_floating_upwards",
+              "name": "头发向上飘",
+              "prompt": "hair floating upwards",
+              "original_id": "hair_floating_upwards",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-cleaning_robot",
+              "name": "清洁机器人",
+              "prompt": "cleaning robot",
+              "original_id": "cleaning_robot",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-cleaning_windows",
+              "name": "擦窗户",
+              "prompt": "cleaning windows",
+              "original_id": "cleaning_windows",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-assisted_stretching",
+              "name": "辅助拉伸",
+              "prompt": "assisted stretching",
+              "original_id": "assisted_stretching",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-floating_hair_ornament",
+              "name": "飘逸发饰",
+              "prompt": "floating hair ornament",
+              "original_id": "floating_hair_ornament",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-cleaning_&_clearing_(blue_archive)",
+              "name": "Cleaning & Clearing (Blue Archive)",
+              "prompt": "cleaning & clearing (blue archive)",
+              "original_id": "cleaning_&_clearing_(blue_archive)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-floating_building",
+              "name": "漂浮建筑",
+              "prompt": "floating building",
+              "original_id": "floating_building",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-cleaning_uniform",
+              "name": "清洁服",
+              "prompt": "cleaning uniform",
+              "original_id": "cleaning_uniform",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-leaning_forward_in_chair_diagram_(meme)",
+              "name": "Leaning Forward In Chair Diagram (Meme)",
+              "prompt": "leaning forward in chair diagram (meme)",
+              "original_id": "leaning_forward_in_chair_diagram_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-eating",
+              "name": "吃东西",
+              "prompt": "eating",
+              "original_id": "eating",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-drawing_(object)",
+              "name": "Drawing (Object)",
+              "prompt": "drawing (object)",
+              "original_id": "drawing_(object)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-painting_(object)",
+              "name": "Painting (Object)",
+              "prompt": "painting (object)",
+              "original_id": "painting_(object)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-building",
+              "name": "建筑",
+              "prompt": "building",
+              "original_id": "building",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-cooking",
+              "name": "烹饪",
+              "prompt": "cooking",
+              "original_id": "cooking",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-clothes_writing",
+              "name": "服装写作",
+              "prompt": "clothes writing",
+              "original_id": "clothes_writing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-reading",
+              "name": "阅读",
+              "prompt": "reading",
+              "original_id": "reading",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-playing_instrument",
+              "name": "演奏乐器",
+              "prompt": "playing instrument",
+              "original_id": "playing_instrument",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-drinking_straw",
+              "name": "吸管",
+              "prompt": "drinking straw",
+              "original_id": "drinking_straw",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-drinking",
+              "name": "喝东西",
+              "prompt": "drinking",
+              "original_id": "drinking",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-drinking_glass",
+              "name": "水杯",
+              "prompt": "drinking glass",
+              "original_id": "drinking_glass",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-writing",
+              "name": "书写",
+              "prompt": "writing",
+              "original_id": "writing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-drinking_straw_in_mouth",
+              "name": "喝嘴里吸管",
+              "prompt": "drinking straw in mouth",
+              "original_id": "drinking_straw_in_mouth",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-cooking_pot",
+              "name": "煮锅",
+              "prompt": "cooking pot",
+              "original_id": "cooking_pot",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-painting_(medium)",
+              "name": "Painting (Medium)",
+              "prompt": "painting (medium)",
+              "original_id": "painting_(medium)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-training",
+              "name": "训练",
+              "prompt": "training",
+              "original_id": "training",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-child's_drawing",
+              "name": "儿童画",
+              "prompt": "child's drawing",
+              "original_id": "child's_drawing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-brushing_teeth",
+              "name": "刷牙",
+              "prompt": "brushing teeth",
+              "original_id": "brushing_teeth",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-drawing",
+              "name": "绘画",
+              "prompt": "drawing",
+              "original_id": "drawing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-studying",
+              "name": "学习中",
+              "prompt": "studying",
+              "original_id": "studying",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-empire_state_building",
+              "name": "帝国大厦",
+              "prompt": "empire state building",
+              "original_id": "empire_state_building",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-drawing_tablet",
+              "name": "绘图板",
+              "prompt": "drawing tablet",
+              "original_id": "drawing_tablet",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-writing_on_wall",
+              "name": "写在墙上",
+              "prompt": "writing on wall",
+              "original_id": "writing_on_wall",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-body_writing",
+              "name": "身体写作",
+              "prompt": "body writing",
+              "original_id": "body_writing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-blood_writing",
+              "name": "血写",
+              "prompt": "blood writing",
+              "original_id": "blood_writing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-painting_(action)",
+              "name": "Painting (Action)",
+              "prompt": "painting (action)",
+              "original_id": "painting_(action)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-drawing_on_another's_face",
+              "name": "在别人脸上画画",
+              "prompt": "drawing on another's face",
+              "original_id": "drawing_on_another's_face",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-nervous_sweating",
+              "name": "紧张出汗",
+              "prompt": "nervous sweating",
+              "original_id": "nervous_sweating",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-training_wheels",
+              "name": "训练轮",
+              "prompt": "training wheels",
+              "original_id": "training_wheels",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-chrysler_building",
+              "name": "克莱斯勒大厦",
+              "prompt": "chrysler building",
+              "original_id": "chrysler_building",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-mind_reading",
+              "name": "读心术",
+              "prompt": "mind reading",
+              "original_id": "mind_reading",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-teaching",
+              "name": "教学",
+              "prompt": "teaching",
+              "original_id": "teaching",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-eating_during_class",
+              "name": "上课时吃东西",
+              "prompt": "eating during class",
+              "original_id": "eating_during_class",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-glass_writing",
+              "name": "玻璃书写",
+              "prompt": "glass writing",
+              "original_id": "glass_writing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-bathing",
+              "name": "沐浴",
+              "prompt": "bathing",
+              "original_id": "bathing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-eating_flower",
+              "name": "吃东西花",
+              "prompt": "eating flower",
+              "original_id": "eating_flower",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-eating_hair",
+              "name": "吃头发",
+              "prompt": "eating hair",
+              "original_id": "eating_hair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-oil_painting_(medium)",
+              "name": "Oil Painting (Medium)",
+              "prompt": "oil painting (medium)",
+              "original_id": "oil_painting_(medium)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-mug_writing",
+              "name": "马克杯书写",
+              "prompt": "mug writing",
+              "original_id": "mug_writing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-ntt_docomo_yoyogi_building",
+              "name": "Ntt Docomo代代木大厦",
+              "prompt": "ntt docomo yoyogi building",
+              "original_id": "ntt_docomo_yoyogi_building",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-headwear_writing",
+              "name": "头饰写作",
+              "prompt": "headwear writing",
+              "original_id": "headwear_writing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-working",
+              "name": "在职的",
+              "prompt": "working",
+              "original_id": "working",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-model_building",
+              "name": "模型构建",
+              "prompt": "model building",
+              "original_id": "model_building",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-multiple_drawing_challenge",
+              "name": "多重绘画挑战",
+              "prompt": "multiple drawing challenge",
+              "original_id": "multiple_drawing_challenge",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-drawing_on_fourth_wall",
+              "name": "第四堵墙上的画",
+              "prompt": "drawing on fourth wall",
+              "original_id": "drawing_on_fourth_wall",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-japanese_bird_cooking_spaghetti",
+              "name": "日本鸟煮意大利面",
+              "prompt": "japanese bird cooking spaghetti",
+              "original_id": "japanese_bird_cooking_spaghetti",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-hand_fan_writing",
+              "name": "手扇写作",
+              "prompt": "hand fan writing",
+              "original_id": "hand_fan_writing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-forehead_writing",
+              "name": "额头书写",
+              "prompt": "forehead writing",
+              "original_id": "forehead_writing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-character_drawing_themselves",
+              "name": "人物画自己",
+              "prompt": "character drawing themselves",
+              "original_id": "character_drawing_themselves",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-cupola_(building)",
+              "name": "Cupola (Building)",
+              "prompt": "cupola (building)",
+              "original_id": "cupola_(building)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-growing_hair",
+              "name": "长头发",
+              "prompt": "growing hair",
+              "original_id": "growing_hair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-repairing",
+              "name": "修复",
+              "prompt": "repairing",
+              "original_id": "repairing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-drinking_bird",
+              "name": "饮水鸟",
+              "prompt": "drinking bird",
+              "original_id": "drinking_bird",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-showering",
+              "name": "淋浴",
+              "prompt": "showering",
+              "original_id": "showering",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-finger_painting",
+              "name": "手指画",
+              "prompt": "finger painting",
+              "original_id": "finger_painting",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-finger_writing",
+              "name": "手指书写",
+              "prompt": "finger writing",
+              "original_id": "finger_writing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sword_writing",
+              "name": "剑书写",
+              "prompt": "sword writing",
+              "original_id": "sword_writing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-asemic_writing",
+              "name": "异构写作",
+              "prompt": "asemic writing",
+              "original_id": "asemic_writing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-painting_nails",
+              "name": "画指甲",
+              "prompt": "painting nails",
+              "original_id": "painting_nails",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-burning_building",
+              "name": "燃烧的大楼",
+              "prompt": "burning building",
+              "original_id": "burning_building",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-cooking_oil",
+              "name": "食用油",
+              "prompt": "cooking oil",
+              "original_id": "cooking_oil",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-through_painting",
+              "name": "通过绘画",
+              "prompt": "through painting",
+              "original_id": "through_painting",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-food_writing",
+              "name": "美食写作",
+              "prompt": "food writing",
+              "original_id": "food_writing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-eating_contest",
+              "name": "饮食大赛",
+              "prompt": "eating contest",
+              "original_id": "eating_contest",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-drawing_board",
+              "name": "绘图板",
+              "prompt": "drawing board",
+              "original_id": "drawing_board",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-computer_building",
+              "name": "计算机大楼",
+              "prompt": "computer building",
+              "original_id": "computer_building",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-drinking_fountain",
+              "name": "饮水机",
+              "prompt": "drinking fountain",
+              "original_id": "drinking_fountain",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-umeda_sky_building",
+              "name": "梅田蓝天大厦",
+              "prompt": "umeda sky building",
+              "original_id": "umeda_sky_building",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-training_corps_(emblem)",
+              "name": "Training Corps (Emblem)",
+              "prompt": "training corps (emblem)",
+              "original_id": "training_corps_(emblem)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-after_bathing",
+              "name": "沐浴后",
+              "prompt": "after bathing",
+              "original_id": "after_bathing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-cave_paintings",
+              "name": "洞穴壁画",
+              "prompt": "cave paintings",
+              "original_id": "cave_paintings",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-mixer_(cooking)",
+              "name": "Mixer (Cooking)",
+              "prompt": "mixer (cooking)",
+              "original_id": "mixer_(cooking)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-one_hour_drawing_challenge",
+              "name": "一小时绘画挑战",
+              "prompt": "one-hour drawing challenge",
+              "original_id": "one_hour_drawing_challenge",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-drawing_equipment",
+              "name": "拉丝设备",
+              "prompt": "drawing equipment",
+              "original_id": "drawing_equipment",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-cooking_show",
+              "name": "烹饪秀",
+              "prompt": "cooking show",
+              "original_id": "cooking_show",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-cheating_(relationship)",
+              "name": "Cheating (Relationship)",
+              "prompt": "cheating (relationship)",
+              "original_id": "cheating_(relationship)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-writing_on_hand",
+              "name": "手写",
+              "prompt": "writing on hand",
+              "original_id": "writing_on_hand",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-national_diet_building",
+              "name": "国会议事堂",
+              "prompt": "national diet building",
+              "original_id": "national_diet_building",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-training_montage",
+              "name": "训练蒙太奇",
+              "prompt": "training montage",
+              "original_id": "training_montage",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-bread_eating_race",
+              "name": "吃面包比赛",
+              "prompt": "bread eating race",
+              "original_id": "bread_eating_race",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-cheating_(competitive)",
+              "name": "Cheating (Competitive)",
+              "prompt": "cheating (competitive)",
+              "original_id": "cheating_(competitive)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-drawing_mannequin",
+              "name": "绘图人体模型",
+              "prompt": "drawing mannequin",
+              "original_id": "drawing_mannequin",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-drawing_on_own_face",
+              "name": "在自己的脸上画画",
+              "prompt": "drawing on own face",
+              "original_id": "drawing_on_own_face",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-trick_or_treating",
+              "name": "不给糖就捣蛋",
+              "prompt": "trick-or-treating",
+              "original_id": "trick_or_treating",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-lipstick_writing",
+              "name": "口红写作",
+              "prompt": "lipstick writing",
+              "original_id": "lipstick_writing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-training_bra",
+              "name": "训练文胸",
+              "prompt": "training bra",
+              "original_id": "training_bra",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-ink_wash_painting",
+              "name": "水墨画",
+              "prompt": "ink wash painting",
+              "original_id": "ink_wash_painting",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-matching_clothes_writing",
+              "name": "搭配衣服写作",
+              "prompt": "matching clothes writing",
+              "original_id": "matching_clothes_writing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-street_writing",
+              "name": "街道书写",
+              "prompt": "street writing",
+              "original_id": "street_writing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sunbathing",
+              "name": "日光浴",
+              "prompt": "sunbathing",
+              "original_id": "sunbathing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sand_writing",
+              "name": "沙写",
+              "prompt": "sand writing",
+              "original_id": "sand_writing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-skywriting",
+              "name": "空中写作",
+              "prompt": "skywriting",
+              "original_id": "skywriting",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-presidential_office_building",
+              "name": "总统府大楼",
+              "prompt": "presidential office building",
+              "original_id": "presidential_office_building",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-implied_cheating_(relationship)",
+              "name": "Implied Cheating (Relationship)",
+              "prompt": "implied cheating (relationship)",
+              "original_id": "implied_cheating_(relationship)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-drawing_practice",
+              "name": "绘画练习",
+              "prompt": "drawing practice",
+              "original_id": "drawing_practice",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-tom_reading_the_newspaper_(meme)",
+              "name": "Tom Reading The Newspaper (Meme)",
+              "prompt": "tom reading the newspaper (meme)",
+              "original_id": "tom_reading_the_newspaper_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-hat_writing",
+              "name": "帽子书写",
+              "prompt": "hat writing",
+              "original_id": "hat_writing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-building_print",
+              "name": "建筑打印",
+              "prompt": "building print",
+              "original_id": "building_print",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-tracen_training_uniform",
+              "name": "特拉森训练服",
+              "prompt": "tracen training uniform",
+              "original_id": "tracen_training_uniform",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sweating_towel_guy_(meme)",
+              "name": "Sweating Towel Guy (Meme)",
+              "prompt": "sweating towel guy (meme)",
+              "original_id": "sweating_towel_guy_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-cast_writing",
+              "name": "演员写作",
+              "prompt": "cast writing",
+              "original_id": "cast_writing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-writing_on_fourth_wall",
+              "name": "在第四堵墙上书写",
+              "prompt": "writing on fourth wall",
+              "original_id": "writing_on_fourth_wall",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-chunlian_writing",
+              "name": "春联写作",
+              "prompt": "chunlian writing",
+              "original_id": "chunlian_writing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-learning_to_be_spider_man_(meme)",
+              "name": "Learning To Be Spider Man (Meme)",
+              "prompt": "learning to be spider-man (meme)",
+              "original_id": "learning_to_be_spider_man_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-towel_writing",
+              "name": "毛巾书写",
+              "prompt": "towel writing",
+              "original_id": "towel_writing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-state_administration_for_radio_film_and_television_building_(china)",
+              "name": "State Administration For Radio Film And Television Building (China)",
+              "prompt": "state administration for radio film and television building (china)",
+              "original_id": "state_administration_for_radio_film_and_television_building_(china)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-winnie_the_pooh_reading_(meme)",
+              "name": "Winnie The Pooh Reading (Meme)",
+              "prompt": "winnie the pooh reading (meme)",
+              "original_id": "winnie_the_pooh_reading_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-training_data_(girls'_frontline)",
+              "name": "Training Data (Girls' Frontline)",
+              "prompt": "training data (girls' frontline)",
+              "original_id": "training_data_(girls'_frontline)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-training_video_girl_(cosplay)",
+              "name": "Training Video Girl (Cosplay)",
+              "prompt": "training video girl (cosplay)",
+              "original_id": "training_video_girl_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-eating_bugs",
+              "name": "吃虫子",
+              "prompt": "eating bugs",
+              "original_id": "eating_bugs",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-crayon_drawing",
+              "name": "蜡笔画",
+              "prompt": "crayon drawing",
+              "original_id": "crayon_drawing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-girl_drinking_while_guys_make_out_(meme)",
+              "name": "Girl Drinking While Guys Make Out (Meme)",
+              "prompt": "girl drinking while guys make out (meme)",
+              "original_id": "girl_drinking_while_guys_make_out_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-eating_clothes",
+              "name": "吃衣服",
+              "prompt": "eating clothes",
+              "original_id": "eating_clothes",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-snow_writing",
+              "name": "雪书写",
+              "prompt": "snow writing",
+              "original_id": "snow_writing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-stone_building",
+              "name": "石楼",
+              "prompt": "stone building",
+              "original_id": "stone_building",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-eating_the_chess_pieces_(meme)",
+              "name": "Eating The Chess Pieces (Meme)",
+              "prompt": "eating the chess pieces (meme)",
+              "original_id": "eating_the_chess_pieces_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-inner_workings",
+              "name": "内部工作原理",
+              "prompt": "inner workings",
+              "original_id": "inner_workings",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-upside_down_building",
+              "name": "颠倒的建筑",
+              "prompt": "upside-down building",
+              "original_id": "upside_down_building",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-pillow_writing",
+              "name": "枕边写字",
+              "prompt": "pillow writing",
+              "original_id": "pillow_writing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-drawing_on_air",
+              "name": "空中绘画",
+              "prompt": "drawing on air",
+              "original_id": "drawing_on_air",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-ai_drawing_anime_characters_eating_ramen_(meme)",
+              "name": "Ai Drawing Anime Characters Eating Ramen (Meme)",
+              "prompt": "ai drawing anime characters eating ramen (meme)",
+              "original_id": "ai_drawing_anime_characters_eating_ramen_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-drinking_horn",
+              "name": "饮水号角",
+              "prompt": "drinking horn",
+              "original_id": "drinking_horn",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-ai_drawing_person_in_cake_(meme)",
+              "name": "Ai Drawing Person In Cake (Meme)",
+              "prompt": "ai drawing person in cake (meme)",
+              "original_id": "ai_drawing_person_in_cake_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-potato_masher_(cooking)",
+              "name": "Potato Masher (Cooking)",
+              "prompt": "potato masher (cooking)",
+              "original_id": "potato_masher_(cooking)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-beetlejuice_eating_(meme)",
+              "name": "Beetlejuice Eating (Meme)",
+              "prompt": "beetlejuice eating (meme)",
+              "original_id": "beetlejuice_eating_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-what_was_he_cooking?_(meme)",
+              "name": "What Was He Cooking? (Meme)",
+              "prompt": "what was he cooking? (meme)",
+              "original_id": "what_was_he_cooking?_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-jewelry_writing",
+              "name": "珠宝写作",
+              "prompt": "jewelry writing",
+              "original_id": "jewelry_writing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-training_outfit_(fire_emblem_engage)",
+              "name": "Training Outfit (Fire Emblem Engage)",
+              "prompt": "training outfit (fire emblem engage)",
+              "original_id": "training_outfit_(fire_emblem_engage)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-drawing_arrow",
+              "name": "绘制箭头",
+              "prompt": "drawing arrow",
+              "original_id": "drawing_arrow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-bleating",
+              "name": "咩咩叫",
+              "prompt": "bleating",
+              "original_id": "bleating",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-quick_training_(girls'_frontline)",
+              "name": "Quick Training (Girls' Frontline)",
+              "prompt": "quick training (girls' frontline)",
+              "original_id": "quick_training_(girls'_frontline)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-training_room",
+              "name": "培训室",
+              "prompt": "training room",
+              "original_id": "training_room",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-breaking_and_entering",
+              "name": "破门而入",
+              "prompt": "breaking and entering",
+              "original_id": "breaking_and_entering",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-eating_halo",
+              "name": "吃光环",
+              "prompt": "eating halo",
+              "original_id": "eating_halo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-tokyo_metropolitan_government_building",
+              "name": "东京都厅舍",
+              "prompt": "tokyo metropolitan government building",
+              "original_id": "tokyo_metropolitan_government_building",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-learning_how_to_play_\"mary_had_a_little_lamb\"_(meme)",
+              "name": "Learning How To Play \"Mary Had A Little Lamb\" (Meme)",
+              "prompt": "learning how to play \"mary had a little lamb\" (meme)",
+              "original_id": "learning_how_to_play_\"mary_had_a_little_lamb\"_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-walter_white_cooking_(meme)",
+              "name": "Walter White Cooking (Meme)",
+              "prompt": "walter white cooking (meme)",
+              "original_id": "walter_white_cooking_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-cheating_in_class_(meme)",
+              "name": "Cheating In Class (Meme)",
+              "prompt": "cheating in class (meme)",
+              "original_id": "cheating_in_class_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-drinking_contest",
+              "name": "饮酒比赛",
+              "prompt": "drinking contest",
+              "original_id": "drinking_contest",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-pokemon_league_building_(sinnoh)",
+              "name": "Pokemon League Building (Sinnoh)",
+              "prompt": "pokemon league building (sinnoh)",
+              "original_id": "pokemon_league_building_(sinnoh)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-cooking_with_love",
+              "name": "用爱烹饪",
+              "prompt": "cooking with love",
+              "original_id": "cooking_with_love",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-us_marine_training_meanwhile_in_russia_(meme)",
+              "name": "Us Marine Training Meanwhile In Russia (Meme)",
+              "prompt": "us marine training meanwhile in russia (meme)",
+              "original_id": "us_marine_training_meanwhile_in_russia_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-never_give_up_cooking!_(project_sekai)",
+              "name": "Never Give Up Cooking! (Project Sekai)",
+              "prompt": "never give up cooking! (project sekai)",
+              "original_id": "never_give_up_cooking!_(project_sekai)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-armor_writing",
+              "name": "盔甲书写",
+              "prompt": "armor writing",
+              "original_id": "armor_writing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-drawing_(action)",
+              "name": "Drawing (Action)",
+              "prompt": "drawing (action)",
+              "original_id": "drawing_(action)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-air_writing",
+              "name": "空中写作",
+              "prompt": "air writing",
+              "original_id": "air_writing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-magnetic_drawing_board",
+              "name": "磁性画板",
+              "prompt": "magnetic drawing board",
+              "original_id": "magnetic_drawing_board",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-drawing_on_own_hand",
+              "name": "自己手绘",
+              "prompt": "drawing on own hand",
+              "original_id": "drawing_on_own_hand",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-underwear_writing",
+              "name": "内衣写作",
+              "prompt": "underwear writing",
+              "original_id": "underwear_writing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-cottage_(building)",
+              "name": "Cottage (Building)",
+              "prompt": "cottage (building)",
+              "original_id": "cottage_(building)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-building_hair_ornament",
+              "name": "建筑发饰",
+              "prompt": "building hair ornament",
+              "original_id": "building_hair_ornament",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-alternate_clothes_writing",
+              "name": "替代服装写作",
+              "prompt": "alternate clothes writing",
+              "original_id": "alternate_clothes_writing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-puffer_fish_eating_carrot_(meme)",
+              "name": "Puffer Fish Eating Carrot (Meme)",
+              "prompt": "puffer fish eating carrot (meme)",
+              "original_id": "puffer_fish_eating_carrot_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-drawing_tube",
+              "name": "拉丝管",
+              "prompt": "drawing tube",
+              "original_id": "drawing_tube",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-drawing_on_snow",
+              "name": "在雪上画画",
+              "prompt": "drawing on snow",
+              "original_id": "drawing_on_snow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-i_ain't_reading_all_that_(meme)",
+              "name": "I Ain'T Reading All That (Meme)",
+              "prompt": "i ain't reading all that (meme)",
+              "original_id": "i_ain't_reading_all_that_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-fat_guy_eating_burger_(meme)",
+              "name": "Fat Guy Eating Burger (Meme)",
+              "prompt": "fat guy eating burger (meme)",
+              "original_id": "fat_guy_eating_burger_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-union_building",
+              "name": "联合大厦",
+              "prompt": "union building",
+              "original_id": "union_building",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-yawning",
+              "name": "打呵欠",
+              "prompt": "yawning",
+              "original_id": "yawning",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-crying",
+              "name": "哭泣",
+              "prompt": "crying",
+              "original_id": "crying",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-shouting",
+              "name": "喊叫",
+              "prompt": "shouting",
+              "original_id": "shouting",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-laughing",
+              "name": "笑",
+              "prompt": "laughing",
+              "original_id": "laughing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-coughing",
+              "name": "咳嗽",
+              "prompt": "coughing",
+              "original_id": "coughing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-crying_with_eyes_open",
+              "name": "睁眼哭",
+              "prompt": "crying with eyes open",
+              "original_id": "crying_with_eyes_open",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sneezing",
+              "name": "打喷嚏",
+              "prompt": "sneezing",
+              "original_id": "sneezing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-screaming",
+              "name": "尖叫",
+              "prompt": "screaming",
+              "original_id": "screaming",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-fainting",
+              "name": "晕倒",
+              "prompt": "fainting",
+              "original_id": "fainting",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-melting",
+              "name": "融化",
+              "prompt": "melting",
+              "original_id": "melting",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-dying",
+              "name": "垂死",
+              "prompt": "dying",
+              "original_id": "dying",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-dissolving",
+              "name": "溶解",
+              "prompt": "dissolving",
+              "original_id": "dissolving",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-laughing_man_(gits)",
+              "name": "Laughing Man (Gits)",
+              "prompt": "laughing man (gits)",
+              "original_id": "laughing_man_(gits)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-dying_message",
+              "name": "临终信息",
+              "prompt": "dying message",
+              "original_id": "dying_message",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-coughing_flowers",
+              "name": "咳嗽花",
+              "prompt": "coughing flowers",
+              "original_id": "coughing_flowers",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-coughing_blood",
+              "name": "咳血",
+              "prompt": "coughing blood",
+              "original_id": "coughing_blood",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-laughing_girls_(meme)",
+              "name": "Laughing Girls (Meme)",
+              "prompt": "laughing girls (meme)",
+              "original_id": "laughing_girls_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-transforming_clothes",
+              "name": "改造衣服",
+              "prompt": "transforming clothes",
+              "original_id": "transforming_clothes",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-healing",
+              "name": "康复",
+              "prompt": "healing",
+              "original_id": "healing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-laughing_tom_cruise_(meme)",
+              "name": "Laughing Tom Cruise (Meme)",
+              "prompt": "laughing tom cruise (meme)",
+              "original_id": "laughing_tom_cruise_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-shouting_with_hands",
+              "name": "举手大喊",
+              "prompt": "shouting with hands",
+              "original_id": "shouting_with_hands",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-crying_aqua_(meme)",
+              "name": "Crying Aqua (Meme)",
+              "prompt": "crying aqua (meme)",
+              "original_id": "crying_aqua_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-transforming",
+              "name": "转型",
+              "prompt": "transforming",
+              "original_id": "transforming",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-marcille_crying_(meme)",
+              "name": "Marcille Crying (Meme)",
+              "prompt": "marcille crying (meme)",
+              "original_id": "marcille_crying_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-melting_halo",
+              "name": "融化光环",
+              "prompt": "melting halo",
+              "original_id": "melting_halo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-healing_animal",
+              "name": "治疗动物",
+              "prompt": "healing animal",
+              "original_id": "healing_animal",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-crying_cat_(meme)",
+              "name": "Crying Cat (Meme)",
+              "prompt": "crying cat (meme)",
+              "original_id": "crying_cat_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-melting_eyes",
+              "name": "融化的眼睛",
+              "prompt": "melting eyes",
+              "original_id": "melting_eyes",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-healing_wand",
+              "name": "治疗魔杖",
+              "prompt": "healing wand",
+              "original_id": "healing_wand",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-laughing_wolves",
+              "name": "笑狼",
+              "prompt": "laughing wolves",
+              "original_id": "laughing_wolves",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-healing_gourd",
+              "name": "治愈葫芦",
+              "prompt": "healing gourd",
+              "original_id": "healing_gourd",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-screaming_kakyoin_(meme)",
+              "name": "Screaming Kakyoin (Meme)",
+              "prompt": "screaming kakyoin (meme)",
+              "original_id": "screaming_kakyoin_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-crying_asagiri_aya_(meme)",
+              "name": "Crying Asagiri Aya (Meme)",
+              "prompt": "crying asagiri aya (meme)",
+              "original_id": "crying_asagiri_aya_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-transforming_weapon",
+              "name": "变形武器",
+              "prompt": "transforming weapon",
+              "original_id": "transforming_weapon",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-walter_white_screaming_in_car_(meme)",
+              "name": "Walter White Screaming In Car (Meme)",
+              "prompt": "walter white screaming in car (meme)",
+              "original_id": "walter_white_screaming_in_car_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-chopper_crying_(meme)",
+              "name": "Chopper Crying (Meme)",
+              "prompt": "chopper crying (meme)",
+              "original_id": "chopper_crying_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-scrying",
+              "name": "占卜",
+              "prompt": "scrying",
+              "original_id": "scrying",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-esidisi_crying_(meme)",
+              "name": "Esidisi Crying (Meme)",
+              "prompt": "esidisi crying (meme)",
+              "original_id": "esidisi_crying_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-screaming_marmot_(meme)",
+              "name": "Screaming Marmot (Meme)",
+              "prompt": "screaming marmot (meme)",
+              "original_id": "screaming_marmot_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-women_laughing_alone_with_salad_(meme)",
+              "name": "Women Laughing Alone With Salad (Meme)",
+              "prompt": "women laughing alone with salad (meme)",
+              "original_id": "women_laughing_alone_with_salad_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-woman_shouting_knives_(meme)",
+              "name": "Woman Shouting Knives (Meme)",
+              "prompt": "woman shouting knives (meme)",
+              "original_id": "woman_shouting_knives_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-crying_girl_(meme)",
+              "name": "Crying Girl (Meme)",
+              "prompt": "crying girl (meme)",
+              "original_id": "crying_girl_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-melting_heart",
+              "name": "融化的心",
+              "prompt": "melting heart",
+              "original_id": "melting_heart",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-kazuya_crying_(meme)",
+              "name": "Kazuya Crying (Meme)",
+              "prompt": "kazuya crying (meme)",
+              "original_id": "kazuya_crying_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-melting_wings",
+              "name": "融化的翅膀",
+              "prompt": "melting wings",
+              "original_id": "melting_wings",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-laughing_guy_feigning_suicide_(meme)",
+              "name": "Laughing Guy Feigning Suicide (Meme)",
+              "prompt": "laughing guy feigning suicide (meme)",
+              "original_id": "laughing_guy_feigning_suicide_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-healing_stick",
+              "name": "治疗棒",
+              "prompt": "healing stick",
+              "original_id": "healing_stick",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-melting_tail",
+              "name": "融化的尾巴",
+              "prompt": "melting tail",
+              "original_id": "melting_tail",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-dying_in_a_glue_trap_(meme)",
+              "name": "Dying In A Glue Trap (Meme)",
+              "prompt": "dying in a glue trap (meme)",
+              "original_id": "dying_in_a_glue_trap_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-spider_man_screaming_no_(meme)",
+              "name": "Spider Man Screaming No (Meme)",
+              "prompt": "spider-man screaming no (meme)",
+              "original_id": "spider_man_screaming_no_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-hydrogen_bomb_vs._coughing_baby_(meme)",
+              "name": "Hydrogen Bomb Vs. Coughing Baby (Meme)",
+              "prompt": "hydrogen bomb vs. coughing baby (meme)",
+              "original_id": "hydrogen_bomb_vs._coughing_baby_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-undressing_another",
+              "name": "脱掉另一个人的衣服",
+              "prompt": "undressing another",
+              "original_id": "undressing_another",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-spreading_cape",
+              "name": "展开的斗篷",
+              "prompt": "spreading cape",
+              "original_id": "spreading_cape",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "pose_other",
+          "name": "其他",
+          "presets": [
+            {
+              "id": "tag-pose-absolutely_losing_it_over_this_picture_of_my_brother_with_his_baby_(meme)",
+              "name": "Absolutely Losing It Over This Picture Of My Brother With His Baby (Meme)",
+              "prompt": "absolutely losing it over this picture of my brother with his baby (meme)",
+              "original_id": "absolutely_losing_it_over_this_picture_of_my_brother_with_his_baby_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-breaking_wave",
+              "name": "破浪",
+              "prompt": "breaking wave",
+              "original_id": "breaking_wave",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-pointing",
+              "name": "指着",
+              "prompt": "pointing",
+              "original_id": "pointing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-turning_around",
+              "name": "转身",
+              "prompt": "turning around",
+              "original_id": "turning_around",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-hand_pointing_a_gun_(meme)",
+              "name": "Hand Pointing A Gun (Meme)",
+              "prompt": "hand pointing a gun (meme)",
+              "original_id": "hand_pointing_a_gun_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-two_soyjaks_pointing_(meme)",
+              "name": "Two Soyjaks Pointing (Meme)",
+              "prompt": "two soyjaks pointing (meme)",
+              "original_id": "two_soyjaks_pointing_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-jim_halpert_pointing_to_whiteboard_(meme)",
+              "name": "Jim Halpert Pointing To Whiteboard (Meme)",
+              "prompt": "jim halpert pointing to whiteboard (meme)",
+              "original_id": "jim_halpert_pointing_to_whiteboard_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-hiding",
+              "name": "隐藏",
+              "prompt": "hiding",
+              "original_id": "hiding",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-hiding_behind_another",
+              "name": "躲在另一个人后面",
+              "prompt": "hiding behind another",
+              "original_id": "hiding_behind_another",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-vanishing_point",
+              "name": "消失点",
+              "prompt": "vanishing point",
+              "original_id": "vanishing_point",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-fleeing",
+              "name": "逃跑",
+              "prompt": "fleeing",
+              "original_id": "fleeing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-breaking_news",
+              "name": "突发新闻",
+              "prompt": "breaking news",
+              "original_id": "breaking_news",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-charging_forward",
+              "name": "向前冲锋",
+              "prompt": "charging forward",
+              "original_id": "charging_forward",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-recharging",
+              "name": "充电",
+              "prompt": "recharging",
+              "original_id": "recharging",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-rotating_light",
+              "name": "旋转灯",
+              "prompt": "rotating light",
+              "original_id": "rotating_light",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-breaking",
+              "name": "打破",
+              "prompt": "breaking",
+              "original_id": "breaking",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-contra_rotating_propellers",
+              "name": "对转螺旋桨",
+              "prompt": "contra-rotating propellers",
+              "original_id": "contra_rotating_propellers",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-growing_out_of_body",
+              "name": "脱离身体生长",
+              "prompt": "growing out of body",
+              "original_id": "growing_out_of_body",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-light_finding_operation",
+              "name": "寻光行动",
+              "prompt": "light finding operation",
+              "original_id": "light_finding_operation",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-rotating_block",
+              "name": "旋转块",
+              "prompt": "rotating block",
+              "original_id": "rotating_block",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-materializing",
+              "name": "物化",
+              "prompt": "materializing",
+              "original_id": "materializing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-charging_device",
+              "name": "充电装置",
+              "prompt": "charging device",
+              "original_id": "charging_device",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-breaking_through_window",
+              "name": "破窗而入",
+              "prompt": "breaking through window",
+              "original_id": "breaking_through_window",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-boiling",
+              "name": "沸腾",
+              "prompt": "boiling",
+              "original_id": "boiling",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-shrinking",
+              "name": "收缩",
+              "prompt": "shrinking",
+              "original_id": "shrinking",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-kuuga_(growing)",
+              "name": "Kuuga (Growing)",
+              "prompt": "kuuga (growing)",
+              "original_id": "kuuga_(growing)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-miyamoto_musashi_(traveling_outfit)_(fate)_(cosplay)",
+              "name": "Miyamoto Musashi (Traveling Outfit) (Fate) (Cosplay)",
+              "prompt": "miyamoto musashi (traveling outfit) (fate) (cosplay)",
+              "original_id": "miyamoto_musashi_(traveling_outfit)_(fate)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-abigail_williams_(traveling_outfit)_(fate)_(cosplay)",
+              "name": "Abigail Williams (Traveling Outfit) (Fate) (Cosplay)",
+              "prompt": "abigail williams (traveling outfit) (fate) (cosplay)",
+              "original_id": "abigail_williams_(traveling_outfit)_(fate)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-revolving_door",
+              "name": "旋转门",
+              "prompt": "revolving door",
+              "original_id": "revolving_door",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-pleading_face_emoji",
+              "name": "恳求的脸表情符号",
+              "prompt": "pleading face emoji",
+              "original_id": "pleading_face_emoji",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-are_you_winning_son?_(meme)",
+              "name": "Are You Winning Son? (Meme)",
+              "prompt": "are you winning son? (meme)",
+              "original_id": "are_you_winning_son?_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-breaking_through_wall",
+              "name": "破墙而出",
+              "prompt": "breaking through wall",
+              "original_id": "breaking_through_wall",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-earbuds_charging_case",
+              "name": "耳机充电盒",
+              "prompt": "earbuds charging case",
+              "original_id": "earbuds_charging_case",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-anime_girl_hiding_from_a_terminator_(meme)",
+              "name": "Anime Girl Hiding From A Terminator (Meme)",
+              "prompt": "anime girl hiding from a terminator (meme)",
+              "original_id": "anime_girl_hiding_from_a_terminator_(meme)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-freezing_bear",
+              "name": "冰冻熊",
+              "prompt": "freezing bear",
+              "original_id": "freezing_bear",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-winning_ticket_(umamusume)_(cosplay)",
+              "name": "Winning Ticket (Umamusume) (Cosplay)",
+              "prompt": "winning ticket (umamusume) (cosplay)",
+              "original_id": "winning_ticket_(umamusume)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-breaking_mammoth",
+              "name": "破碎猛犸象",
+              "prompt": "breaking mammoth",
+              "original_id": "breaking_mammoth",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-charging_bull",
+              "name": "冲锋公牛",
+              "prompt": "charging bull",
+              "original_id": "charging_bull",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-guiding_hand",
+              "name": "指导之手",
+              "prompt": "guiding hand",
+              "original_id": "guiding_hand",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-prince_charming_(disney)_(cosplay)",
+              "name": "Prince Charming (Disney) (Cosplay)",
+              "prompt": "prince charming (disney) (cosplay)",
+              "original_id": "prince_charming_(disney)_(cosplay)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-angry",
+              "name": "愤怒",
+              "prompt": "angry",
+              "original_id": "angry",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-blush",
+              "name": "脸红",
+              "prompt": "blush",
+              "original_id": "blush",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-crying-pose_other-42",
+              "name": "哭泣",
+              "prompt": "crying",
+              "original_id": "crying",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-fighting-pose_other-43",
+              "name": "战斗",
+              "prompt": "fighting",
+              "original_id": "fighting",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-grin",
+              "name": "咧嘴笑",
+              "prompt": "grin",
+              "original_id": "grin",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-jumping-pose_other-45",
+              "name": "跳跃",
+              "prompt": "jumping",
+              "original_id": "jumping",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-kneeling-pose_other-46",
+              "name": "跪",
+              "prompt": "kneeling",
+              "original_id": "kneeling",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-lying-pose_other-47",
+              "name": "躺",
+              "prompt": "lying",
+              "original_id": "lying",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-running-pose_other-48",
+              "name": "跑步",
+              "prompt": "running",
+              "original_id": "running",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-sad",
+              "name": "悲伤",
+              "prompt": "sad",
+              "original_id": "sad",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-smile",
+              "name": "微笑",
+              "prompt": "smile",
+              "original_id": "smile",
+              "type": "tag"
+            },
+            {
+              "id": "tag-pose-smirk",
+              "name": "坏笑",
+              "prompt": "smirk",
+              "original_id": "smirk",
+              "type": "tag"
+            }
+          ]
+        }
+      ],
+      "type": "tag"
+    }
+  ]
+}

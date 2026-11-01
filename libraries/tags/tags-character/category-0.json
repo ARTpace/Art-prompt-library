@@ -1,0 +1,2677 @@
+{
+  "categories": [
+    {
+      "id": "character",
+      "name": "角色特征",
+      "subcategories": [
+        {
+          "id": "char_expression",
+          "name": "表情",
+          "presets": [
+            {
+              "id": "tag-character-happy",
+              "name": "开心",
+              "prompt": "happy",
+              "original_id": "happy",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-sad",
+              "name": "悲伤",
+              "prompt": "sad",
+              "original_id": "sad",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-light_smile",
+              "name": "轻笑",
+              "prompt": "light smile",
+              "original_id": "light_smile",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-angry",
+              "name": "愤怒",
+              "prompt": "angry",
+              "original_id": "angry",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-light_blush",
+              "name": "淡腮红",
+              "prompt": "light blush",
+              "original_id": "light_blush",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-embarrassed",
+              "name": "尴尬",
+              "prompt": "embarrassed",
+              "original_id": "embarrassed",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-surprised",
+              "name": "惊讶",
+              "prompt": "surprised",
+              "original_id": "surprised",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-evil_grin",
+              "name": "邪笑",
+              "prompt": "evil grin",
+              "original_id": "evil_grin",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-evil_smile",
+              "name": "邪恶微笑",
+              "prompt": "evil smile",
+              "original_id": "evil_smile",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-jealous",
+              "name": "嫉妒",
+              "prompt": "jealous",
+              "original_id": "jealous",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-curious",
+              "name": "好奇的",
+              "prompt": "curious",
+              "original_id": "curious",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-bored",
+              "name": "无聊",
+              "prompt": "bored",
+              "original_id": "bored",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-scolding",
+              "name": "斥责",
+              "prompt": "scolding",
+              "original_id": "scolding",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-light_frown",
+              "name": "微皱眉",
+              "prompt": "light frown",
+              "original_id": "light_frown",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-good_end",
+              "name": "好结局",
+              "prompt": "good end",
+              "original_id": "good_end",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-happy_tears",
+              "name": "开心眼泪",
+              "prompt": "happy tears",
+              "original_id": "happy_tears",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-sad_girl_in_snow",
+              "name": "雪中悲伤女孩",
+              "prompt": "sad girl in snow",
+              "original_id": "sad_girl_in_snow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-unhappy",
+              "name": "不开心",
+              "prompt": "unhappy",
+              "original_id": "unhappy",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-dirty_face",
+              "name": "脏脸",
+              "prompt": "dirty face",
+              "original_id": "dirty_face",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-excited",
+              "name": "兴奋",
+              "prompt": "excited",
+              "original_id": "excited",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-evil",
+              "name": "邪恶",
+              "prompt": "evil",
+              "original_id": "evil",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-sad_smile",
+              "name": "悲伤微笑",
+              "prompt": "sad smile",
+              "original_id": "sad_smile",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-happy_state",
+              "name": "快乐状态",
+              "prompt": "happy state",
+              "original_id": "happy_state",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-calmed_down",
+              "name": "平静下来",
+              "prompt": "calmed down",
+              "original_id": "calmed_down",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-goodbye",
+              "name": "再见",
+              "prompt": "goodbye",
+              "original_id": "goodbye",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-happy_aura",
+              "name": "快乐光环",
+              "prompt": "happy aura",
+              "original_id": "happy_aura",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-uninterested",
+              "name": "不感兴趣",
+              "prompt": "uninterested",
+              "original_id": "uninterested",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-loving_aura",
+              "name": "爱心光环",
+              "prompt": "loving aura",
+              "original_id": "loving_aura",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-interested",
+              "name": "感兴趣",
+              "prompt": "interested",
+              "original_id": "interested",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-angry_aura",
+              "name": "愤怒光环",
+              "prompt": "angry aura",
+              "original_id": "angry_aura",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-open_mouth",
+              "name": "张嘴",
+              "prompt": "open mouth",
+              "original_id": "open_mouth",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-smile",
+              "name": "微笑",
+              "prompt": "smile",
+              "original_id": "smile",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-blush",
+              "name": "脸红",
+              "prompt": "blush",
+              "original_id": "blush",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-frown",
+              "name": "皱眉",
+              "prompt": "frown",
+              "original_id": "frown",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-pout",
+              "name": "撅嘴",
+              "prompt": "pout",
+              "original_id": "pout",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-crying",
+              "name": "哭泣",
+              "prompt": "crying",
+              "original_id": "crying",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-serious",
+              "name": "严肃",
+              "prompt": "serious",
+              "original_id": "serious",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-annoyed",
+              "name": "烦恼",
+              "prompt": "annoyed",
+              "original_id": "annoyed",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-blush_stickers",
+              "name": "腮红贴",
+              "prompt": "blush stickers",
+              "original_id": "blush_stickers",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-scared",
+              "name": "害怕",
+              "prompt": "scared",
+              "original_id": "scared",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-sleepy",
+              "name": "困倦",
+              "prompt": "sleepy",
+              "original_id": "sleepy",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-grin",
+              "name": "咧嘴笑",
+              "prompt": "grin",
+              "original_id": "grin",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-expressionless",
+              "name": "无表情",
+              "prompt": "expressionless",
+              "original_id": "expressionless",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-nose_blush",
+              "name": "鼻红",
+              "prompt": "nose blush",
+              "original_id": "nose_blush",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-confused",
+              "name": "困惑",
+              "prompt": "confused",
+              "original_id": "confused",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-determined",
+              "name": "坚定",
+              "prompt": "determined",
+              "original_id": "determined",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-tongue_out",
+              "name": "吐舌",
+              "prompt": "tongue out",
+              "original_id": "tongue_out",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-smirk",
+              "name": "坏笑",
+              "prompt": "smirk",
+              "original_id": "smirk",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-glaring",
+              "name": "怒视",
+              "prompt": "glaring",
+              "original_id": "glaring",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-content_rating",
+              "name": "内容评级",
+              "prompt": "content rating",
+              "original_id": "content_rating",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-nervous",
+              "name": "紧张",
+              "prompt": "nervous",
+              "original_id": "nervous",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-crying_with_eyes_open",
+              "name": "睁眼哭",
+              "prompt": "crying with eyes open",
+              "original_id": "crying_with_eyes_open",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-worried",
+              "name": "担心",
+              "prompt": "worried",
+              "original_id": "worried",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-false_smile",
+              "name": "假笑",
+              "prompt": "false smile",
+              "original_id": "false_smile",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-teasing",
+              "name": "戏弄",
+              "prompt": "teasing",
+              "original_id": "teasing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-menacing_(jojo)",
+              "name": "Menacing (Jojo)",
+              "prompt": "menacing (jojo)",
+              "original_id": "menacing_(jojo)",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-full_face_blush",
+              "name": "满脸红晕",
+              "prompt": "full-face blush",
+              "original_id": "full_face_blush",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-seductive_smile",
+              "name": "诱人微笑",
+              "prompt": "seductive smile",
+              "original_id": "seductive_smile",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-nervous_sweating",
+              "name": "紧张出汗",
+              "prompt": "nervous sweating",
+              "original_id": "nervous_sweating",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-nervous_smile",
+              "name": "紧张微笑",
+              "prompt": "nervous smile",
+              "original_id": "nervous_smile",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-pixelated",
+              "name": "像素化",
+              "prompt": "pixelated",
+              "original_id": "pixelated",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-pouty_lips",
+              "name": "噘嘴",
+              "prompt": "pouty lips",
+              "original_id": "pouty_lips",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-crazy_smile",
+              "name": "疯狂微笑",
+              "prompt": "crazy smile",
+              "original_id": "crazy_smile",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-pensive",
+              "name": "沉思",
+              "prompt": "pensive",
+              "original_id": "pensive",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-why_so_serious",
+              "name": "为何如此严肃",
+              "prompt": "why so serious",
+              "original_id": "why_so_serious",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-forced_smile",
+              "name": "强颜欢笑",
+              "prompt": "forced smile",
+              "original_id": "forced_smile",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-frustrated",
+              "name": "沮丧",
+              "prompt": "frustrated",
+              "original_id": "frustrated",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-disappointed",
+              "name": "失望",
+              "prompt": "disappointed",
+              "original_id": "disappointed",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-spoken_smile",
+              "name": "说话微笑",
+              "prompt": "spoken smile",
+              "original_id": "spoken_smile",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-crazy_grin",
+              "name": "疯狂咧嘴笑",
+              "prompt": "crazy grin",
+              "original_id": "crazy_grin",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-crooked_smile",
+              "name": "歪笑",
+              "prompt": "crooked smile",
+              "original_id": "crooked_smile",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-menacing",
+              "name": "威胁的",
+              "prompt": "menacing",
+              "original_id": "menacing",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-blush_spirals",
+              "name": "红晕螺旋",
+              "prompt": "blush spirals",
+              "original_id": "blush_spirals",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-grinning_face_with_sweat_emoji",
+              "name": "满头大汗的笑脸表情符号",
+              "prompt": "grinning face with sweat emoji",
+              "original_id": "grinning_face_with_sweat_emoji",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-heart_blush_stickers",
+              "name": "心形腮红贴纸",
+              "prompt": "heart blush stickers",
+              "original_id": "heart_blush_stickers",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "char_hair_style",
+          "name": "发型",
+          "presets": [
+            {
+              "id": "tag-character-bob_cut",
+              "name": "波波头",
+              "prompt": "bob cut",
+              "original_id": "bob_cut",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-long_hair",
+              "name": "长发",
+              "prompt": "long hair",
+              "original_id": "long_hair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-short_hair",
+              "name": "短发",
+              "prompt": "short hair",
+              "original_id": "short_hair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-short_twintails",
+              "name": "短双马尾",
+              "prompt": "short twintails",
+              "original_id": "short_twintails",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-twintails",
+              "name": "双马尾",
+              "prompt": "twintails",
+              "original_id": "twintails",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-braid",
+              "name": "辫子",
+              "prompt": "braid",
+              "original_id": "braid",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-braided_bun",
+              "name": "编发髻",
+              "prompt": "braided bun",
+              "original_id": "braided_bun",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-very_long_hair",
+              "name": "超长发",
+              "prompt": "very long hair",
+              "original_id": "very_long_hair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-side_braid",
+              "name": "侧辫",
+              "prompt": "side braid",
+              "original_id": "side_braid",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-ponytail",
+              "name": "马尾",
+              "prompt": "ponytail",
+              "original_id": "ponytail",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-blunt_bangs",
+              "name": "齐刘海",
+              "prompt": "blunt bangs",
+              "original_id": "blunt_bangs",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-hair_over_one_eye",
+              "name": "遮眼发",
+              "prompt": "hair over one eye",
+              "original_id": "hair_over_one_eye",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-ahoge",
+              "name": "呆毛",
+              "prompt": "ahoge",
+              "original_id": "ahoge",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-french_braid",
+              "name": "法式辫",
+              "prompt": "french braid",
+              "original_id": "french_braid",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-twin_braids",
+              "name": "双辫",
+              "prompt": "twin braids",
+              "original_id": "twin_braids",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-short_hair_with_long_locks",
+              "name": "短发长缕",
+              "prompt": "short hair with long locks",
+              "original_id": "short_hair_with_long_locks",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-single_braid",
+              "name": "单辫",
+              "prompt": "single braid",
+              "original_id": "single_braid",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-swept_bangs",
+              "name": "斜刘海",
+              "prompt": "swept bangs",
+              "original_id": "swept_bangs",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-low_tied_long_hair",
+              "name": "低扎长发",
+              "prompt": "low-tied long hair",
+              "original_id": "low_tied_long_hair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-drill_hair",
+              "name": "钻头发",
+              "prompt": "drill hair",
+              "original_id": "drill_hair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-high_ponytail",
+              "name": "高马尾",
+              "prompt": "high ponytail",
+              "original_id": "high_ponytail",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-messy_hair",
+              "name": "凌乱发",
+              "prompt": "messy hair",
+              "original_id": "messy_hair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-braided_ponytail",
+              "name": "辫马尾",
+              "prompt": "braided ponytail",
+              "original_id": "braided_ponytail",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-side_ponytail",
+              "name": "侧马尾",
+              "prompt": "side ponytail",
+              "original_id": "side_ponytail",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-short_ponytail",
+              "name": "短马尾",
+              "prompt": "short ponytail",
+              "original_id": "short_ponytail",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-folded_ponytail",
+              "name": "折马尾",
+              "prompt": "folded ponytail",
+              "original_id": "folded_ponytail",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-high_side_ponytail",
+              "name": "高侧马尾",
+              "prompt": "high side ponytail",
+              "original_id": "high_side_ponytail",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-huge_ahoge",
+              "name": "巨呆毛",
+              "prompt": "huge ahoge",
+              "original_id": "huge_ahoge",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-very_short_hair",
+              "name": "超短发",
+              "prompt": "very short hair",
+              "original_id": "very_short_hair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-ahoge_grab",
+              "name": "抓呆毛",
+              "prompt": "ahoge grab",
+              "original_id": "ahoge_grab",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-low_ponytail",
+              "name": "低马尾",
+              "prompt": "low ponytail",
+              "original_id": "low_ponytail",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-ringlets",
+              "name": "环卷发",
+              "prompt": "ringlets",
+              "original_id": "ringlets",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-low_twintails",
+              "name": "低双马尾",
+              "prompt": "low twintails",
+              "original_id": "low_twintails",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-low_twin_braids",
+              "name": "低双辫",
+              "prompt": "low twin braids",
+              "original_id": "low_twin_braids",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-absurdly_long_hair",
+              "name": "极长发",
+              "prompt": "absurdly long hair",
+              "original_id": "absurdly_long_hair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-side_braids",
+              "name": "侧辫子",
+              "prompt": "side braids",
+              "original_id": "side_braids",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-wide_ponytail",
+              "name": "宽马尾",
+              "prompt": "wide ponytail",
+              "original_id": "wide_ponytail",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-long_braid",
+              "name": "长辫",
+              "prompt": "long braid",
+              "original_id": "long_braid",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-tri_braids",
+              "name": "三辫",
+              "prompt": "tri braids",
+              "original_id": "tri_braids",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-ribbon_braid",
+              "name": "丝带辫子",
+              "prompt": "ribbon braid",
+              "original_id": "ribbon_braid",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-braided_sidelock",
+              "name": "编侧鬓",
+              "prompt": "braided sidelock",
+              "original_id": "braided_sidelock",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-braiding_hair",
+              "name": "编发",
+              "prompt": "braiding hair",
+              "original_id": "braiding_hair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-heart_ahoge",
+              "name": "心呆毛",
+              "prompt": "heart ahoge",
+              "original_id": "heart_ahoge",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-drill_ponytail",
+              "name": "钻头马尾",
+              "prompt": "drill ponytail",
+              "original_id": "drill_ponytail",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-front_ponytail",
+              "name": "前马尾",
+              "prompt": "front ponytail",
+              "original_id": "front_ponytail",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-braided_hair_rings",
+              "name": "编发环",
+              "prompt": "braided hair rings",
+              "original_id": "braided_hair_rings",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-crown_braid",
+              "name": "王冠辫子",
+              "prompt": "crown braid",
+              "original_id": "crown_braid",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-front_braid",
+              "name": "前辫",
+              "prompt": "front braid",
+              "original_id": "front_braid",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-braided_beard",
+              "name": "编胡子",
+              "prompt": "braided beard",
+              "original_id": "braided_beard",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-uneven_twintails",
+              "name": "不齐双马尾",
+              "prompt": "uneven twintails",
+              "original_id": "uneven_twintails",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-low_braided_long_hair",
+              "name": "低编长发",
+              "prompt": "low-braided long hair",
+              "original_id": "low_braided_long_hair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-armored_twintails",
+              "name": "铠甲双马尾",
+              "prompt": "armored twintails",
+              "original_id": "armored_twintails",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-multiple_braids",
+              "name": "多辫",
+              "prompt": "multiple braids",
+              "original_id": "multiple_braids",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-quad_braids",
+              "name": "四辫",
+              "prompt": "quad braids",
+              "original_id": "quad_braids",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-braided_bangs",
+              "name": "编刘海",
+              "prompt": "braided bangs",
+              "original_id": "braided_bangs",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-split_ponytail",
+              "name": "分马尾",
+              "prompt": "split ponytail",
+              "original_id": "split_ponytail",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-dyed_ahoge",
+              "name": "染呆毛",
+              "prompt": "dyed ahoge",
+              "original_id": "dyed_ahoge",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-folded_braid",
+              "name": "折叠辫",
+              "prompt": "folded braid",
+              "original_id": "folded_braid",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-flower_braid",
+              "name": "花辫子",
+              "prompt": "flower braid",
+              "original_id": "flower_braid",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-pixie_cut",
+              "name": "精灵剪",
+              "prompt": "pixie cut",
+              "original_id": "pixie_cut",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-ahoge_wag",
+              "name": "呆毛摇摆",
+              "prompt": "ahoge wag",
+              "original_id": "ahoge_wag",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-side_ahoge",
+              "name": "侧边呆毛",
+              "prompt": "side ahoge",
+              "original_id": "side_ahoge",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-heart_ahoge_duo",
+              "name": "心形呆毛双",
+              "prompt": "heart ahoge duo",
+              "original_id": "heart_ahoge_duo",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-short_braid",
+              "name": "短辫",
+              "prompt": "short braid",
+              "original_id": "short_braid",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-upright_ahoge",
+              "name": "直立呆毛",
+              "prompt": "upright ahoge",
+              "original_id": "upright_ahoge",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-wilted_ahoge",
+              "name": "枯萎呆毛",
+              "prompt": "wilted ahoge",
+              "original_id": "wilted_ahoge",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-twintails_day",
+              "name": "双马尾白天",
+              "prompt": "twintails day",
+              "original_id": "twintails_day",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-low_braid",
+              "name": "低辫",
+              "prompt": "low braid",
+              "original_id": "low_braid",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-ahoge_removed",
+              "name": "移除呆毛",
+              "prompt": "ahoge removed",
+              "original_id": "ahoge_removed",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-folded_twintails",
+              "name": "折叠双马尾",
+              "prompt": "folded twintails",
+              "original_id": "folded_twintails",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-no_ahoge",
+              "name": "无呆毛",
+              "prompt": "no ahoge",
+              "original_id": "no_ahoge",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-ponytail_holder",
+              "name": "马尾绑带",
+              "prompt": "ponytail holder",
+              "original_id": "ponytail_holder",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-high_braid",
+              "name": "高辫",
+              "prompt": "high braid",
+              "original_id": "high_braid",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-detached_ahoge",
+              "name": "分离呆毛",
+              "prompt": "detached ahoge",
+              "original_id": "detached_ahoge",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-bandaid_on_ahoge",
+              "name": "呆毛创可贴",
+              "prompt": "bandaid on ahoge",
+              "original_id": "bandaid_on_ahoge",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-low_side_ponytail",
+              "name": "低侧马尾",
+              "prompt": "low side ponytail",
+              "original_id": "low_side_ponytail",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-ahoges_touching",
+              "name": "呆毛相触",
+              "prompt": "ahoges touching",
+              "original_id": "ahoges_touching",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-braided_belt",
+              "name": "辫腰带",
+              "prompt": "braided belt",
+              "original_id": "braided_belt",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-ponytail_day",
+              "name": "马尾白天",
+              "prompt": "ponytail day",
+              "original_id": "ponytail_day",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-long_hair_between_eyes",
+              "name": "眼间长发",
+              "prompt": "long hair between eyes",
+              "original_id": "long_hair_between_eyes",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-fake_ahoge",
+              "name": "假呆毛",
+              "prompt": "fake ahoge",
+              "original_id": "fake_ahoge",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-question_mark_ahoge",
+              "name": "问号呆毛",
+              "prompt": "question mark ahoge",
+              "original_id": "question_mark_ahoge",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-halo_ahoge",
+              "name": "光环呆毛",
+              "prompt": "halo ahoge",
+              "original_id": "halo_ahoge",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-bandaged_ahoge",
+              "name": "包扎呆毛",
+              "prompt": "bandaged ahoge",
+              "original_id": "bandaged_ahoge",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-nape_braid",
+              "name": "颈后辫",
+              "prompt": "nape braid",
+              "original_id": "nape_braid",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-short_messy_bangs",
+              "name": "短凌乱刘海",
+              "prompt": "short messy bangs",
+              "original_id": "short_messy_bangs",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-short_bangs",
+              "name": "短刘海",
+              "prompt": "short bangs",
+              "original_id": "short_bangs",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-short_sidetail",
+              "name": "短侧尾",
+              "prompt": "short sidetail",
+              "original_id": "short_sidetail",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-braids",
+              "name": "辫子",
+              "prompt": "braids",
+              "original_id": "braids",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "char_hair_color",
+          "name": "发色",
+          "presets": [
+            {
+              "id": "tag-character-light_blue_hair",
+              "name": "浅蓝发",
+              "prompt": "light blue hair",
+              "original_id": "light_blue_hair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-light_purple_hair",
+              "name": "浅紫发",
+              "prompt": "light purple hair",
+              "original_id": "light_purple_hair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-light_brown_hair",
+              "name": "浅棕发",
+              "prompt": "light brown hair",
+              "original_id": "light_brown_hair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-dark_green_hair",
+              "name": "深绿发",
+              "prompt": "dark green hair",
+              "original_id": "dark_green_hair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-dark_blue_hair",
+              "name": "深蓝发",
+              "prompt": "dark blue hair",
+              "original_id": "dark_blue_hair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-dark_red_hair",
+              "name": "深红色头发",
+              "prompt": "dark red hair",
+              "original_id": "dark_red_hair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-light_green_hair",
+              "name": "浅绿色头发",
+              "prompt": "light green hair",
+              "original_id": "light_green_hair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-blonde_hair",
+              "name": "金发",
+              "prompt": "blonde hair",
+              "original_id": "blonde_hair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-brown_hair",
+              "name": "棕发",
+              "prompt": "brown hair",
+              "original_id": "brown_hair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-orange_hair",
+              "name": "橙发",
+              "prompt": "orange hair",
+              "original_id": "orange_hair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-blue_hair",
+              "name": "蓝发",
+              "prompt": "blue hair",
+              "original_id": "blue_hair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-white_hair",
+              "name": "白发",
+              "prompt": "white hair",
+              "original_id": "white_hair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-pink_hair",
+              "name": "粉发",
+              "prompt": "pink hair",
+              "original_id": "pink_hair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-black_hair",
+              "name": "黑发",
+              "prompt": "black hair",
+              "original_id": "black_hair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-red_hair",
+              "name": "红发",
+              "prompt": "red hair",
+              "original_id": "red_hair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-green_hair",
+              "name": "绿发",
+              "prompt": "green hair",
+              "original_id": "green_hair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-purple_hair",
+              "name": "紫发",
+              "prompt": "purple hair",
+              "original_id": "purple_hair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-gradient_hair",
+              "name": "渐变发",
+              "prompt": "gradient hair",
+              "original_id": "gradient_hair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-multicolored_hair",
+              "name": "多彩发",
+              "prompt": "multicolored hair",
+              "original_id": "multicolored_hair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-streaked_hair",
+              "name": "条纹发",
+              "prompt": "streaked hair",
+              "original_id": "streaked_hair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-silver_hair",
+              "name": "银发",
+              "prompt": "silver hair",
+              "original_id": "silver_hair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-platinum_blonde_hair",
+              "name": "铂金发",
+              "prompt": "platinum blonde hair",
+              "original_id": "platinum_blonde_hair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-rainbow_hair",
+              "name": "彩虹发",
+              "prompt": "rainbow hair",
+              "original_id": "rainbow_hair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-checkered_hair",
+              "name": "格子发",
+              "prompt": "checkered hair",
+              "original_id": "checkered_hair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-colored_inner_hair",
+              "name": "彩色内发",
+              "prompt": "colored inner hair",
+              "original_id": "colored_inner_hair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-scattered_hair",
+              "name": "散乱发",
+              "prompt": "scattered hair",
+              "original_id": "scattered_hair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-textured_hair",
+              "name": "纹理发",
+              "prompt": "textured hair",
+              "original_id": "textured_hair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-striped_hair",
+              "name": "条纹发",
+              "prompt": "striped hair",
+              "original_id": "striped_hair",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "char_hair_accy",
+          "name": "发饰",
+          "presets": [
+            {
+              "id": "tag-character-white_hairband",
+              "name": "白色发带",
+              "prompt": "white hairband",
+              "original_id": "white_hairband",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-black_hairband",
+              "name": "黑色发带",
+              "prompt": "black hairband",
+              "original_id": "black_hairband",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-blue_hairband",
+              "name": "蓝色发带",
+              "prompt": "blue hairband",
+              "original_id": "blue_hairband",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-red_hairband",
+              "name": "红色发带",
+              "prompt": "red hairband",
+              "original_id": "red_hairband",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-brown_hairband",
+              "name": "棕色发带",
+              "prompt": "brown hairband",
+              "original_id": "brown_hairband",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-pink_hairband",
+              "name": "粉色发带",
+              "prompt": "pink hairband",
+              "original_id": "pink_hairband",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-purple_hairband",
+              "name": "紫色发带",
+              "prompt": "purple hairband",
+              "original_id": "purple_hairband",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-green_hairband",
+              "name": "绿色发带",
+              "prompt": "green hairband",
+              "original_id": "green_hairband",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-orange_hairband",
+              "name": "橙色发带",
+              "prompt": "orange hairband",
+              "original_id": "orange_hairband",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-orange_hair_ornament",
+              "name": "橙色发饰",
+              "prompt": "orange hair ornament",
+              "original_id": "orange_hair_ornament",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-multicolored_hairband",
+              "name": "多彩发带",
+              "prompt": "multicolored hairband",
+              "original_id": "multicolored_hairband",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-silver_hairband",
+              "name": "银色发带",
+              "prompt": "silver hairband",
+              "original_id": "silver_hairband",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-striped_hairband",
+              "name": "条纹发带",
+              "prompt": "striped hairband",
+              "original_id": "striped_hairband",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-multicolored_hair_bobbles",
+              "name": "多彩发球",
+              "prompt": "multicolored hair bobbles",
+              "original_id": "multicolored_hair_bobbles",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-checkered_hairband",
+              "name": "格纹发带",
+              "prompt": "checkered hairband",
+              "original_id": "checkered_hairband",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-rainbow_hair_ornament",
+              "name": "彩虹发饰",
+              "prompt": "rainbow hair ornament",
+              "original_id": "rainbow_hair_ornament",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-rainbow_hairband",
+              "name": "彩虹发带",
+              "prompt": "rainbow hairband",
+              "original_id": "rainbow_hairband",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-checkered_hair_ornament",
+              "name": "格纹发饰",
+              "prompt": "checkered hair ornament",
+              "original_id": "checkered_hair_ornament",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "char_eye_color",
+          "name": "瞳色",
+          "presets": [
+            {
+              "id": "tag-character-bloodshot_eyes",
+              "name": "充血眼睛",
+              "prompt": "bloodshot eyes",
+              "original_id": "bloodshot_eyes",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-red_eyes",
+              "name": "红眼",
+              "prompt": "red eyes",
+              "original_id": "red_eyes",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-blue_eyes",
+              "name": "蓝眼",
+              "prompt": "blue eyes",
+              "original_id": "blue_eyes",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-brown_eyes",
+              "name": "棕眼",
+              "prompt": "brown eyes",
+              "original_id": "brown_eyes",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-green_eyes",
+              "name": "绿眼",
+              "prompt": "green eyes",
+              "original_id": "green_eyes",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-yellow_eyes",
+              "name": "黄色眼睛",
+              "prompt": "yellow eyes",
+              "original_id": "yellow_eyes",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-pink_eyes",
+              "name": "粉色眼睛",
+              "prompt": "pink eyes",
+              "original_id": "pink_eyes",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-purple_eyes",
+              "name": "紫眼",
+              "prompt": "purple eyes",
+              "original_id": "purple_eyes",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-aqua_eyes",
+              "name": "水色眼睛",
+              "prompt": "aqua eyes",
+              "original_id": "aqua_eyes",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-heterochromia",
+              "name": "异色瞳",
+              "prompt": "heterochromia",
+              "original_id": "heterochromia",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-orange_eyes",
+              "name": "橙色眼睛",
+              "prompt": "orange eyes",
+              "original_id": "orange_eyes",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-no_heterochromia",
+              "name": "无异色瞳",
+              "prompt": "no heterochromia",
+              "original_id": "no_heterochromia",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-multicolored_eyes",
+              "name": "多色眼睛",
+              "prompt": "multicolored eyes",
+              "original_id": "multicolored_eyes",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-star_shaped_pupils",
+              "name": "星形瞳孔",
+              "prompt": "star-shaped pupils",
+              "original_id": "star_shaped_pupils",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-cross_shaped_pupils",
+              "name": "十字瞳孔",
+              "prompt": "cross-shaped pupils",
+              "original_id": "cross_shaped_pupils",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-animal_with_heterochromia",
+              "name": "异色瞳动物",
+              "prompt": "animal with heterochromia",
+              "original_id": "animal_with_heterochromia",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-twinkle_eye",
+              "name": "闪亮眼睛",
+              "prompt": "twinkle eye",
+              "original_id": "twinkle_eye",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "char_eye_shape",
+          "name": "瞳型",
+          "presets": [
+            {
+              "id": "tag-character-closed_eyes",
+              "name": "闭眼",
+              "prompt": "closed eyes",
+              "original_id": "closed_eyes",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-half_closed_eyes",
+              "name": "半闭眼",
+              "prompt": "half-closed eyes",
+              "original_id": "half_closed_eyes",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-slit_pupils",
+              "name": "竖瞳",
+              "prompt": "slit pupils",
+              "original_id": "slit_pupils",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-glowing_eyes",
+              "name": "发光眼",
+              "prompt": "glowing eyes",
+              "original_id": "glowing_eyes",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-covered_eyes",
+              "name": "遮眼",
+              "prompt": "covered eyes",
+              "original_id": "covered_eyes",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-ringed_eyes",
+              "name": "环眼",
+              "prompt": "ringed eyes",
+              "original_id": "ringed_eyes",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-heart_shaped_pupils",
+              "name": "心形瞳孔",
+              "prompt": "heart-shaped pupils",
+              "original_id": "heart_shaped_pupils",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-obscured_eyes",
+              "name": "模糊眼睛",
+              "prompt": "obscured eyes",
+              "original_id": "obscured_eyes",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-blank_stare",
+              "name": "空洞凝视",
+              "prompt": "blank stare",
+              "original_id": "blank_stare",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "char_skin",
+          "name": "肤色",
+          "presets": [
+            {
+              "id": "tag-character-dark_skinned_male",
+              "name": "深色皮肤男",
+              "prompt": "dark-skinned male",
+              "original_id": "dark_skinned_male",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-dark_skin",
+              "name": "暗色皮肤",
+              "prompt": "dark skin",
+              "original_id": "dark_skin",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-dark_skinned_female",
+              "name": "深色皮肤女",
+              "prompt": "dark-skinned female",
+              "original_id": "dark_skinned_female",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-very_dark_skin",
+              "name": "极黑皮肤",
+              "prompt": "very dark skin",
+              "original_id": "very_dark_skin",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "char_body",
+          "name": "体型/身体",
+          "presets": [
+            {
+              "id": "tag-character-skindentation",
+              "name": "皮肤压痕",
+              "prompt": "skindentation",
+              "original_id": "skindentation",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-ambiguous_gender",
+              "name": "性别模糊",
+              "prompt": "ambiguous gender",
+              "original_id": "ambiguous_gender",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-blush_visible_through_clothes",
+              "name": "衣透腮红",
+              "prompt": "blush visible through clothes",
+              "original_id": "blush_visible_through_clothes",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-blush_visible_through_hair",
+              "name": "透发腮红",
+              "prompt": "blush visible through hair",
+              "original_id": "blush_visible_through_hair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-blush_visible_through_hands",
+              "name": "透手腮红",
+              "prompt": "blush visible through hands",
+              "original_id": "blush_visible_through_hands",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-mature_female",
+              "name": "成熟女性",
+              "prompt": "mature female",
+              "original_id": "mature_female",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-body_blush",
+              "name": "身体腮红",
+              "prompt": "body blush",
+              "original_id": "body_blush",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-massage",
+              "name": "按摩",
+              "prompt": "massage",
+              "original_id": "massage",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-exhausted",
+              "name": "疲惫",
+              "prompt": "exhausted",
+              "original_id": "exhausted",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-shoulder_massage",
+              "name": "肩部按摩",
+              "prompt": "shoulder massage",
+              "original_id": "shoulder_massage",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-knee_blush",
+              "name": "膝盖红晕",
+              "prompt": "knee blush",
+              "original_id": "knee_blush",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-elbow_blush",
+              "name": "手肘红晕",
+              "prompt": "elbow blush",
+              "original_id": "elbow_blush",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-mature_male",
+              "name": "成熟男性",
+              "prompt": "mature male",
+              "original_id": "mature_male",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-foot_massage",
+              "name": "足部按摩",
+              "prompt": "foot massage",
+              "original_id": "foot_massage",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-shoulder_blush",
+              "name": "肩部红晕",
+              "prompt": "shoulder blush",
+              "original_id": "shoulder_blush",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-full_body_blush",
+              "name": "全身红晕",
+              "prompt": "full-body blush",
+              "original_id": "full_body_blush",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-hair_blush",
+              "name": "发间红晕",
+              "prompt": "hair blush",
+              "original_id": "hair_blush",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-hand_blush",
+              "name": "手部红晕",
+              "prompt": "hand blush",
+              "original_id": "hand_blush",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-neck_blush",
+              "name": "颈部红晕",
+              "prompt": "neck blush",
+              "original_id": "neck_blush",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-scalp_massager",
+              "name": "头皮按摩器",
+              "prompt": "scalp massager",
+              "original_id": "scalp_massager",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-forehead_blush",
+              "name": "额头腮红",
+              "prompt": "forehead blush",
+              "original_id": "forehead_blush",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-foot_blush",
+              "name": "脚腮红",
+              "prompt": "foot blush",
+              "original_id": "foot_blush",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-foreshortening",
+              "name": "透视法",
+              "prompt": "foreshortening",
+              "original_id": "foreshortening",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-large_breasts",
+              "name": "巨乳",
+              "prompt": "large breasts",
+              "original_id": "large_breasts",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-small_breasts",
+              "name": "贫乳",
+              "prompt": "small breasts",
+              "original_id": "small_breasts",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-flat_chest",
+              "name": "平胸",
+              "prompt": "flat chest",
+              "original_id": "flat_chest",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-muscular",
+              "name": "肌肉发达",
+              "prompt": "muscular",
+              "original_id": "muscular",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-long_legs",
+              "name": "长腿",
+              "prompt": "long legs",
+              "original_id": "long_legs",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-androgynous",
+              "name": "雌雄同体",
+              "prompt": "androgynous",
+              "original_id": "androgynous",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-tall",
+              "name": "高的",
+              "prompt": "tall",
+              "original_id": "tall",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-petite",
+              "name": "娇小",
+              "prompt": "petite",
+              "original_id": "petite",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-muscular_male",
+              "name": "肌肉男",
+              "prompt": "muscular male",
+              "original_id": "muscular_male",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-large_hands",
+              "name": "大手",
+              "prompt": "large hands",
+              "original_id": "large_hands",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-wide_hips",
+              "name": "宽臀",
+              "prompt": "wide hips",
+              "original_id": "wide_hips",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-slim_legs",
+              "name": "纤细双腿",
+              "prompt": "slim legs",
+              "original_id": "slim_legs",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-long_neck",
+              "name": "长脖子",
+              "prompt": "long neck",
+              "original_id": "long_neck",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-long_arms",
+              "name": "长臂",
+              "prompt": "long arms",
+              "original_id": "long_arms",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-long_fingers",
+              "name": "长手指",
+              "prompt": "long fingers",
+              "original_id": "long_fingers",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-a_flat_chest_is_a_status_symbol",
+              "name": "平胸是身份的象征",
+              "prompt": "a flat chest is a status symbol",
+              "original_id": "a_flat_chest_is_a_status_symbol",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-muscular_female",
+              "name": "肌肉女",
+              "prompt": "muscular female",
+              "original_id": "muscular_female",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-tall_female",
+              "name": "高个女",
+              "prompt": "tall female",
+              "original_id": "tall_female",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-curvy",
+              "name": "曲线优美",
+              "prompt": "curvy",
+              "original_id": "curvy",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-muscular_child",
+              "name": "肌肉发达的孩子",
+              "prompt": "muscular child",
+              "original_id": "muscular_child",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-broad_shoulders",
+              "name": "宽阔的肩膀",
+              "prompt": "broad shoulders",
+              "original_id": "broad_shoulders",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-flat_chest_joke",
+              "name": "平胸笑话",
+              "prompt": "flat chest joke",
+              "original_id": "flat_chest_joke",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-thick_thighs",
+              "name": "大腿粗",
+              "prompt": "thick thighs",
+              "original_id": "thick_thighs",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-tall_male",
+              "name": "高个男",
+              "prompt": "tall male",
+              "original_id": "tall_male",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-muscular_other",
+              "name": "肌肉其他",
+              "prompt": "muscular other",
+              "original_id": "muscular_other",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-tall_hair",
+              "name": "高头发",
+              "prompt": "tall hair",
+              "original_id": "tall_hair",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-slimification",
+              "name": "精简",
+              "prompt": "slimification",
+              "original_id": "slimification",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-muscular_uke",
+              "name": "肌肉尤克",
+              "prompt": "muscular uke",
+              "original_id": "muscular_uke",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-thick_neck",
+              "name": "粗脖子",
+              "prompt": "thick neck",
+              "original_id": "thick_neck",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "char_ears",
+          "name": "耳朵",
+          "presets": [
+            {
+              "id": "tag-character-tasmanian_devil_ears",
+              "name": "Tasmanian Devil Ears",
+              "prompt": "tasmanian devil ears",
+              "original_id": "tasmanian_devil_ears",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-ear_blush",
+              "name": "耳朵红晕",
+              "prompt": "ear blush",
+              "original_id": "ear_blush",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "char_tail",
+          "name": "尾巴",
+          "presets": [
+            {
+              "id": "tag-character-braided_tail",
+              "name": "辫尾",
+              "prompt": "braided tail",
+              "original_id": "braided_tail",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-short_tail",
+              "name": "短尾",
+              "prompt": "short tail",
+              "original_id": "short_tail",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "char_eyewear",
+          "name": "眼镜",
+          "presets": [
+            {
+              "id": "tag-character-cleaning_glasses",
+              "name": "清洁眼镜",
+              "prompt": "cleaning glasses",
+              "original_id": "cleaning_glasses",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-eyes_visible_through_eyewear",
+              "name": "眼镜透眼",
+              "prompt": "eyes visible through eyewear",
+              "original_id": "eyes_visible_through_eyewear",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-see_through_glasses",
+              "name": "透视眼镜",
+              "prompt": "see-through glasses",
+              "original_id": "see_through_glasses",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-wise_glasses",
+              "name": "智慧眼镜",
+              "prompt": "wise glasses",
+              "original_id": "wise_glasses",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "char_neckwear",
+          "name": "颈饰",
+          "presets": [
+            {
+              "id": "tag-character-see_through_scarf",
+              "name": "透视围巾",
+              "prompt": "see-through scarf",
+              "original_id": "see_through_scarf",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-lightning_bolt_necklace",
+              "name": "闪电项链",
+              "prompt": "lightning bolt necklace",
+              "original_id": "lightning_bolt_necklace",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-see_through_choker",
+              "name": "透视项圈",
+              "prompt": "see-through choker",
+              "original_id": "see_through_choker",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-braided_scarf",
+              "name": "辫围巾",
+              "prompt": "braided scarf",
+              "original_id": "braided_scarf",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-long_necktie",
+              "name": "长领带",
+              "prompt": "long necktie",
+              "original_id": "long_necktie",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-short_necktie",
+              "name": "短领带",
+              "prompt": "short necktie",
+              "original_id": "short_necktie",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "char_mask",
+          "name": "面罩",
+          "presets": [
+            {
+              "id": "tag-character-dirty_mask",
+              "name": "脏面具",
+              "prompt": "dirty mask",
+              "original_id": "dirty_mask",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-see_through_mask",
+              "name": "透视面具",
+              "prompt": "see-through mask",
+              "original_id": "see_through_mask",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-kissing_through_mask",
+              "name": "隔面亲吻",
+              "prompt": "kissing through mask",
+              "original_id": "kissing_through_mask",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "char_hands",
+          "name": "手部装饰",
+          "presets": [
+            {
+              "id": "tag-character-arm_warmers",
+              "name": "臂套",
+              "prompt": "arm warmers",
+              "original_id": "arm_warmers",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-striped_arm_warmers",
+              "name": "条纹臂套",
+              "prompt": "striped arm warmers",
+              "original_id": "striped_arm_warmers",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-black_arm_warmers",
+              "name": "黑色臂套",
+              "prompt": "black arm warmers",
+              "original_id": "black_arm_warmers",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-single_arm_warmer",
+              "name": "单臂暖手器",
+              "prompt": "single arm warmer",
+              "original_id": "single_arm_warmer",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-fur_trimmed_arm_warmers",
+              "name": "毛边臂套",
+              "prompt": "fur-trimmed arm warmers",
+              "original_id": "fur_trimmed_arm_warmers",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-mismatched_arm_warmers",
+              "name": "不对称臂套",
+              "prompt": "mismatched arm warmers",
+              "original_id": "mismatched_arm_warmers",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-white_arm_warmers",
+              "name": "白色臂套",
+              "prompt": "white arm warmers",
+              "original_id": "white_arm_warmers",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-aqua_arm_warmers",
+              "name": "水蓝臂套",
+              "prompt": "aqua arm warmers",
+              "original_id": "aqua_arm_warmers",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-blue_arm_warmers",
+              "name": "蓝色臂套",
+              "prompt": "blue arm warmers",
+              "original_id": "blue_arm_warmers",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-pink_arm_warmers",
+              "name": "粉色臂套",
+              "prompt": "pink arm warmers",
+              "original_id": "pink_arm_warmers",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-red_arm_warmers",
+              "name": "红色臂套",
+              "prompt": "red arm warmers",
+              "original_id": "red_arm_warmers",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-green_arm_warmers",
+              "name": "绿色臂套",
+              "prompt": "green arm warmers",
+              "original_id": "green_arm_warmers",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-grey_arm_warmers",
+              "name": "灰色臂套",
+              "prompt": "grey arm warmers",
+              "original_id": "grey_arm_warmers",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-purple_arm_warmers",
+              "name": "紫色臂套",
+              "prompt": "purple arm warmers",
+              "original_id": "purple_arm_warmers",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-yellow_arm_warmers",
+              "name": "黄色臂套",
+              "prompt": "yellow arm warmers",
+              "original_id": "yellow_arm_warmers",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-torn_arm_warmers",
+              "name": "破洞臂套",
+              "prompt": "torn arm warmers",
+              "original_id": "torn_arm_warmers",
+              "type": "tag"
+            }
+          ]
+        },
+        {
+          "id": "char_accy",
+          "name": "其他装饰",
+          "presets": [
+            {
+              "id": "tag-character-leg_warmers",
+              "name": "腿套",
+              "prompt": "leg warmers",
+              "original_id": "leg_warmers",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-black_leg_warmers",
+              "name": "黑色腿套",
+              "prompt": "black leg warmers",
+              "original_id": "black_leg_warmers",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-blue_leg_warmers",
+              "name": "蓝色腿套",
+              "prompt": "blue leg warmers",
+              "original_id": "blue_leg_warmers",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-neck_warmer",
+              "name": "护颈器",
+              "prompt": "neck warmer",
+              "original_id": "neck_warmer",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-hand_warmer",
+              "name": "暖手器",
+              "prompt": "hand warmer",
+              "original_id": "hand_warmer",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-white_leg_warmers",
+              "name": "白色腿套",
+              "prompt": "white leg warmers",
+              "original_id": "white_leg_warmers",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-red_leg_warmers",
+              "name": "红色腿套",
+              "prompt": "red leg warmers",
+              "original_id": "red_leg_warmers",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-fur_trimmed_leg_warmers",
+              "name": "毛边腿套",
+              "prompt": "fur-trimmed leg warmers",
+              "original_id": "fur_trimmed_leg_warmers",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-yellow_leg_warmers",
+              "name": "黄色腿套",
+              "prompt": "yellow leg warmers",
+              "original_id": "yellow_leg_warmers",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-purple_leg_warmers",
+              "name": "紫色腿套",
+              "prompt": "purple leg warmers",
+              "original_id": "purple_leg_warmers",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-grey_leg_warmers",
+              "name": "灰色腿套",
+              "prompt": "grey leg warmers",
+              "original_id": "grey_leg_warmers",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-striped_leg_warmers",
+              "name": "条纹腿套",
+              "prompt": "striped leg warmers",
+              "original_id": "striped_leg_warmers",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-pink_leg_warmers",
+              "name": "粉色腿套",
+              "prompt": "pink leg warmers",
+              "original_id": "pink_leg_warmers",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-plaid_leg_warmers",
+              "name": "格纹腿套",
+              "prompt": "plaid leg warmers",
+              "original_id": "plaid_leg_warmers",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-brown_leg_warmers",
+              "name": "棕色腿套",
+              "prompt": "brown leg warmers",
+              "original_id": "brown_leg_warmers",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-denim_leg_warmers",
+              "name": "牛仔腿套",
+              "prompt": "denim leg warmers",
+              "original_id": "denim_leg_warmers",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-orange_leg_warmers",
+              "name": "橙色腿套",
+              "prompt": "orange leg warmers",
+              "original_id": "orange_leg_warmers",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-aqua_leg_warmers",
+              "name": "水蓝腿套",
+              "prompt": "aqua leg warmers",
+              "original_id": "aqua_leg_warmers",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-vertical_striped_leg_warmers",
+              "name": "竖纹腿套",
+              "prompt": "vertical-striped leg warmers",
+              "original_id": "vertical_striped_leg_warmers",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-green_leg_warmers",
+              "name": "绿色腿套",
+              "prompt": "green leg warmers",
+              "original_id": "green_leg_warmers",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-frilled_leg_warmers",
+              "name": "荷叶边腿套",
+              "prompt": "frilled leg warmers",
+              "original_id": "frilled_leg_warmers",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-fur_leg_warmers",
+              "name": "毛皮腿套",
+              "prompt": "fur leg warmers",
+              "original_id": "fur_leg_warmers",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-knit_leg_warmers",
+              "name": "针织腿套",
+              "prompt": "knit leg warmers",
+              "original_id": "knit_leg_warmers",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-corsage",
+              "name": "胸花",
+              "prompt": "corsage",
+              "original_id": "corsage",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-eyeshadow",
+              "name": "眼影",
+              "prompt": "eyeshadow",
+              "original_id": "eyeshadow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-green_eyeshadow",
+              "name": "绿色眼影",
+              "prompt": "green eyeshadow",
+              "original_id": "green_eyeshadow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-red_eyeshadow",
+              "name": "红色眼影",
+              "prompt": "red eyeshadow",
+              "original_id": "red_eyeshadow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-purple_eyeshadow",
+              "name": "紫色眼影",
+              "prompt": "purple eyeshadow",
+              "original_id": "purple_eyeshadow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-blue_eyeshadow",
+              "name": "蓝色眼影",
+              "prompt": "blue eyeshadow",
+              "original_id": "blue_eyeshadow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-pink_eyeshadow",
+              "name": "粉色眼影",
+              "prompt": "pink eyeshadow",
+              "original_id": "pink_eyeshadow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-yellow_eyeshadow",
+              "name": "黄色眼影",
+              "prompt": "yellow eyeshadow",
+              "original_id": "yellow_eyeshadow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-aqua_eyeshadow",
+              "name": "水色眼影",
+              "prompt": "aqua eyeshadow",
+              "original_id": "aqua_eyeshadow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-grey_eyeshadow",
+              "name": "灰色眼影",
+              "prompt": "grey eyeshadow",
+              "original_id": "grey_eyeshadow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-black_eyeshadow",
+              "name": "黑色眼影",
+              "prompt": "black eyeshadow",
+              "original_id": "black_eyeshadow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-orange_eyeshadow",
+              "name": "橙色眼影",
+              "prompt": "orange eyeshadow",
+              "original_id": "orange_eyeshadow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-brown_eyeshadow",
+              "name": "棕色眼影",
+              "prompt": "brown eyeshadow",
+              "original_id": "brown_eyeshadow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-eyeshadow_under_eye",
+              "name": "眼下眼影",
+              "prompt": "eyeshadow under eye",
+              "original_id": "eyeshadow_under_eye",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-white_eyeshadow",
+              "name": "白色眼影",
+              "prompt": "white eyeshadow",
+              "original_id": "white_eyeshadow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-rainbow_eyeshadow",
+              "name": "彩虹眼影",
+              "prompt": "rainbow eyeshadow",
+              "original_id": "rainbow_eyeshadow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-mismatched_eyeshadow",
+              "name": "不匹配眼影",
+              "prompt": "mismatched eyeshadow",
+              "original_id": "mismatched_eyeshadow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-multicolored_eyeshadow",
+              "name": "多色眼影",
+              "prompt": "multicolored eyeshadow",
+              "original_id": "multicolored_eyeshadow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-gold_eyeshadow",
+              "name": "金色眼影",
+              "prompt": "gold eyeshadow",
+              "original_id": "gold_eyeshadow",
+              "type": "tag"
+            },
+            {
+              "id": "tag-character-eyeshadow_box",
+              "name": "眼影盒",
+              "prompt": "eyeshadow box",
+              "original_id": "eyeshadow_box",
+              "type": "tag"
+            }
+          ]
+        }
+      ],
+      "type": "tag"
+    }
+  ]
+}
