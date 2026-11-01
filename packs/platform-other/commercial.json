@@ -1,0 +1,1212 @@
+{
+  "categories": [
+    {
+      "id": "commercial",
+      "name": "商业设计",
+      "subcategories": [
+        {
+          "id": "commercial_brand",
+          "name": "品牌标识",
+          "presets": [
+            {
+              "id": "opennana_prompt-12",
+              "name": "创意广告",
+              "type": "prompt",
+              "prompt": "{subject}, A minimalist and creative advertisement set on a clean white background.\nA real [Real Object] is integrated into a hand-drawn black ink doodle, using loose, playful lines. The [Doodle Concept] interacts with the object in a clever, imaginative way. Include bold black [Ad Copy] text at the top or center. Place the [Brand Logo] clearly at the bottom. The visual should be clean, fun, high-contrast, and conceptually smart.",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/12.png",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：Logo",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "commercial": [
+                    "Logo",
+                    "advertis"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_prompt-126",
+              "name": "重新构想的超现实主义广告",
+              "type": "prompt",
+              "prompt": "{subject}, “[产品名称]”以完全逼真的方式放置在中心，周围环绕着超现实主义的矢量插图，使用两种大胆、鲜艳的颜色，与产品的情绪相匹配。\n场景简约而充满活力，抽象的矢量形状（符号、线条、表情等）围绕产品运行或与产品交互。\n清楚地添加真实的 logo，并在底部加入一个 3-4 字的简短标语。\n风格：超现实、高分辨率、极简、电影般的照明、1：1 纵横比。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/126.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：logo",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "commercial": [
+                    "logo",
+                    "标语"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_prompt-14",
+              "name": "创意广告",
+              "type": "prompt",
+              "prompt": "{subject}, A high-impact advertisement set against a clean, dark or high-contrast background. A [product] is centered, sharply lit and highly detailed. Around it, surreal, stylized visual [elements] illustrations explode outward (e.g., musicians, runners, curls, sunbursts), vibrant color palette, neon. bold uppercase ad copy at the top that reads [TEXT] and the brand logo at the bottom, modern Ad",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/14.png",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：logo",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "commercial": [
+                    "logo",
+                    "advertis"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_prompt-15",
+              "name": "树屋",
+              "type": "prompt",
+              "prompt": "{subject}, A quiet morning in a luxury treehouse retreat created by [BRAND NAME] — golden light pours through windows framed in the brand’s signature colors. A cozy seating area features playful, thematic furniture, and a circular rug inspired by [BRAND SYMBOL OR PRODUCT]. The coffee table bears the embossed logo, while a screen on the wall loops the phrase: “[BRAND SLOGAN].” A curated display of iconic items adds a sense of nostalgia. Subtle ambient lighting glows in brand tones, and a tray with signature treats sits near the window. It’s cozy, imaginative, and unmistakably [BRAND NAME]",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/15.png",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：logo",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "commercial": [
+                    "logo",
+                    "SLOGAN",
+                    "BRAND"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_prompt-190",
+              "name": "品牌虚拟人物",
+              "type": "prompt",
+              "prompt": "{subject}, 一个形状像 [品牌名称] 商品的虚构人物，穿着反映品牌身份的服装，坐在或骑在该品牌某件商品的超大版本上，就好像它是一辆未来主义的汽车一样。该设计具有富有表现力、充满活力的艺术风格，充满动感和鲜艳的色彩，背景是品牌标志的大型抽象版本。代表品牌的自由绘制元素和颜色散布在整个过程中。背景为浅色，品牌标志出现在底部。外观 1：1",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/190.png",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：品牌标志",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "commercial": [
+                    "品牌标志",
+                    "品牌"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_prompt-5",
+              "name": "创建你自己的GTA角色",
+              "type": "prompt",
+              "prompt": "{subject}, Act as a creative director at Rockstar Games. Create a fictional GTA VI character sheet in the exact same style as the official GTA VI promotional images.\n\nThe layout must be:\n\nA horizontal character sheet, with the character on the right, in a dynamic pose that reflects their personality.\nOn the left, include the following structured text:\nA small \"VI\" logo at the top left (mention it visually).\nThe character’s name in big bold text.\nA catchy slogan or tagline right below in a different bright color.\nA short backstory (3–5 lines) written in an ironic, street-smart, or playful tone — just like Rockstar’s tone of voice.\n\nUse the vibrant Vice City aesthetic with sunset lighting, neon accents, and cel-shaded comic style. The character’s clothing, action, and environment must reflect their archetype and background.\n\nLet me customize the following variables:\n\nArchetype: {your choice}\n\nGender: {your choice}\n\nSkin tone: {your choice}\n\nHairstyle: {your choice}\n\nEmotion : {your choice}\n\nOutfit: {your choice}\n\nWeapon or action: {your choice}\n\nBackground details: {your choice}\n\nGenerate a fictive name in tittle and a description in english\n\nFormat the final result like a finished in-game asset reveal. The vibe should be over-the-top, stylish, and full of personality — as if part of the real GTA VI world.\n\n(if the \"Your choice\" sections are not filled with personalized information, it's up to you to generate it randomly by yourself) generate the visual directly from now on",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/5.png",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：logo",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "commercial": [
+                    "logo",
+                    "slogan",
+                    "layout"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_prompt-70",
+              "name": "重新构想的玫瑰金",
+              "type": "prompt",
+              "prompt": "{subject}, Design a luxury-themed 1:1 image featuring a rose gold sculpture that embodies the essence of the jewelry brand “[BRAND NAME]”. The object must symbolically reflect the brand’s identity (e.g., falcon for Cartier, ring for Tiffany & Co., palm tree for Swarovski, camel for Prada). Embed premium crystal textures into key parts of the sculpture (e.g., wings, gem, leaves, or hump) to match the brand’s signature elegance. Use the brand’s iconic background color (e.g., Tiffany Blue, Swarovski White, Cartier Beige, Prada Sand) and place the official logo beneath the sculpture. Add a bold two-word slogan that aligns with the brand’s tone. Lighting should be pure white with high Kelvin value to ensure clarity and prevent yellow tint. The result must feel editorial, artistic, and visually exquisite.",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/70.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：logo",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "commercial": [
+                    "logo",
+                    "slogan",
+                    "brand"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_prompt-209",
+              "name": "吃掉你的文字",
+              "type": "prompt",
+              "prompt": "{subject}, 创建由其真实质感完全构成，并使用与其最具有标志性的品牌相联系的标识进行风格的“[单词]”。\n\n该单词应：\n• 视觉上反映材料（例如蜂蜜、巧克力、汽水、糖果）。\n• 使用该品牌的标志性颜色和字体。\n• 在文字下方包含品牌标志。\n• 添加一个与产品氛围相符的简短口号（3-4 个字）。\n• 居中放置在受产品启发的简约背景中（例如：早餐桌、汽水飞溅、饼干托盘）。\n\n• 尺寸：1:1\n• 风格：简洁、醒目、以产品为中心\n• 渲染：超高清、HDR、8K",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/209.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：品牌标志",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "commercial": [
+                    "品牌标志",
+                    "字体",
+                    "品牌"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_prompt-240",
+              "name": "定制的枕头",
+              "type": "prompt",
+              "prompt": "{subject}, 创建一个高分辨率的 3D 渲染图，将[BRAND]标志设计成一个充气、蓬松的物体。标志应看起来柔软、圆润、充气——像一个毛绒气球或充气玩具。使用光滑的哑光纹理，带有细微的布料褶皱和缝线，以强调充气效果。将标志以 45 度角摆放，以突出深度和真实感。将最终结果放置在风格时尚的客厅沙发上，家具和装饰与[BRAND]标志的标志性颜色相匹配。输出尺寸：1080x1080。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/240.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：标志设计",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "commercial": [
+                    "标志设计",
+                    "BRAND"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_prompt-276",
+              "name": "马赛克彩色玻璃徽章",
+              "type": "prompt",
+              "prompt": "{subject}, 创建图像：\n{\n  \"风格\": \"马赛克彩色玻璃徽章\",\n  \"对象\": \"品牌标志\",\n  \"品牌\": {\n    \"名称\": \"Spotify\",\n    \"标志形状\": \"圆形\",\n    \"图标风格\": \"三条弯曲的长条\",\n    \"色彩搭配\": {\n      \"主色\": \"#1DB954\",\n      \"辅助色\": \"#1ED760\",\n      \"玻璃变体色\": [\"#147A3E\", \"#0F5C30\", \"#26C178\"]\n    }\n  },\n  \"材质\": {\n    \"类型\": \"彩色玻璃\",\n    \"效果\": \"半透明带光线反射\",\n    \"轮廓\": {\n      \"颜色\": \"#111111\",\n      \"宽度\": \"中等\",\n      \"风格\": \"传统马赛克铅线\"\n    }\n  },\n  \"构图\": {\n    \"布局\": \"由镶嵌玻璃片组成的标志\",\n    \"几何形状\": \"不规则但拼接契合的玻璃造型\",\n    \"对比度\": \"深色轮廓清晰界定形状\"\n  },\n  \"光线\": {\n    \"类型\": \"漫射自然光\",\n    \"高光\": \"突出玻璃质感和色彩深度\"\n  },\n  \"背景\": {\n    \"类型\": \"平面\",\n    \"颜色\": \"#F4F4F4\"\n  },\n  \"镜头\": {\n    \"角度\": \"俯视\",\n    \"焦点\": \"居中于整个标志\"\n  },\n  \"渲染\": {\n    \"质量\": \"高\",\n    \"阴影\": \"柔和\",\n    \"反射\": \"轻微\"\n  }\n}",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/276.png",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：品牌标志",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "commercial": [
+                    "品牌标志",
+                    "品牌",
+                    "布局"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_prompt-11",
+              "name": "品牌之爱话术",
+              "type": "prompt",
+              "prompt": "{subject}, A romantic square-format bouquet inspired by [Brand Name]. Roses are crafted from visual patterns or textures that reflect the brand’s identity. The bouquet is wrapped in luxurious material echoing the brand’s signature style (e.g. silk, velvet, leather), and elegantly tied with one of the brand’s iconic products, replacing a traditional ribbon. Place it on a surface that matches the brand’s aesthetic. Add a message card beside the bouquet with a short, emotional 3-word slogan representing the brand’s spirit. Include the [Brand Name] logo subtly in the scene. Cinematic lighting, ultra-detailed, elegant depth of field, premium editorial quality.",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/11.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：logo",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "commercial": [
+                    "logo",
+                    "slogan",
+                    "Brand"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_prompt-206",
+              "name": "工业内部品牌广告",
+              "type": "prompt",
+              "prompt": "{subject}, 创建一个超现实、1:1 比例的品牌广告。\n将产品内部转化为微型工厂或实验室。\n展示详细的内部系统：管道、工人、发光的液体、蒸汽和机器——所有这些都运作起来，反映产品的核心功能（能量、美丽、风味等）。\n保持外层产品的品牌标识真实锐利。\n将背景设置得简约且电影感十足。\n在顶部添加品牌标志，底部添加一句简短有力的口号。\n风格：影棚级灯光，高对比度，照片级真实纹理。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/206.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：品牌标志",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "commercial": [
+                    "品牌标志",
+                    "品牌"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_prompt-40",
+              "name": "品牌领导骑行",
+              "type": "prompt",
+              "prompt": "{subject}, A cinematic 1:1 scene featuring the iconic leader of [Brand Name] riding a futuristic electric motorcycle that reflects the brand’s identity. He wears a high-detail black or brand-colored carbon fiber leather jacket, with the [Brand Name] logo embroidered boldly on the chest and",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/40.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：logo",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "commercial": [
+                    "logo",
+                    "Brand"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_prompt-139",
+              "name": "将您最喜欢的品牌变成生活方式产品",
+              "type": "prompt",
+              "prompt": "{subject}, 一张高质量的工作室商品照片，其中包含 [品牌名称] 品牌 [商品类型]、[浮动/直立] 和纯色背景，采用品牌标志性的颜色。该商品突出品牌徽标，并使用官方品牌调色板。干净的构图，柔和的阴影，超逼真的材质和纹理，无文字，无道具，专业的商业照明，锐利的焦点，极简的美学。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/139.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：品牌标志",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "commercial": [
+                    "品牌标志",
+                    "品牌"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_prompt-101",
+              "name": "将你的Logo变成吉祥物",
+              "type": "prompt",
+              "prompt": "{subject}, Create a mascot for [BRAND NAME] logo following the JSON aesthetic below:\n{\n\"style\": \"brand-inspired creative mascot generation\",\n\"subject_handling\": {\n\"adapt_to_uploaded_image\": true,\n\"preserve_uploaded_logo_shape_and_text\": true,\n\"extract_dominant_brand_colors\": true,\n\"analyze_logo_style_for_mood\": true,\n\"use_uploaded_image_as_primary_reference\": true\n},\n\"mascot_generation\": {\n\"character_type\": \"open — could be an animal, humanoid, object, robot, fantasy creature, or abstract form\",\n\"design_strategy\": \"generate a mascot concept that visually complements the uploaded brand based on extracted brand colors, mood, and style\",\n\"style_alignment\": \"mascot should feel like part of the brand family — matching tone (playful, elegant, techy, minimal, etc.)\",\n\"color_usage\": \"use brand colors as dominant tones in mascot’s body, clothing, skin, or materials\",\n\"personality_embedding\": \"include expressive traits aligned with brand tone (e.g. curious, bold, serene, confident)\"\n},\n\"composition\": {\n\"include_uploaded_logo_in_final_image\": true,\n\"arrangement\": \"mascot and logo presented together in a clear and balanced composition\",\n\"environment\": \"minimal scene or brand-aligned abstract background — not too busy\",\n\"interaction\": \"mascot may pose near, hold, or gesture to logo — but must not obscure or alter it\"\n},\n\"lighting\": {\n\"type\": \"neutral or soft directional lighting depending on brand tone\",\n\"shadow_behavior\": \"soft contact shadows to ground elements\"\n},\n\"camera\": {\n\"view_angle\": \"centered frontal or three-quarter depending on layout\",\n\"focus\": \"both mascot and logo in clear focus\"\n},\n\"post_processing\": {\n\"enhance_color harmony between mascot and logo\": true,\n\"disable_style_overrides or artistic distortion\": true\n},\n\"image_constraints\": {\n\"transparent_background\": false,\n\"aspect_ratio\": [INSERT ASPECT RATIO],\n\"include_text_if_present_in_logo\": true,\n\"preserve_uploaded_logo_geometry\": true,\n\"prevent_logo_modification\": true\n},\n\"notes\": \"Use the uploaded logo or product image as the central brand reference. Automatically generate a unique mascot that feels like an original creation belonging to the brand — inspired by extracted colors, shapes, and mood. The mascot must not copy other mascots or use predefined templates. The final image should creatively showcase both the logo and its new mascot side-by-side, visually unified but distinct.\"\n}",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/101.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：logo",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "commercial": [
+                    "logo",
+                    "BRAND",
+                    "layout"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_prompt-37",
+              "name": "Logo放进我的世界中",
+              "type": "prompt",
+              "prompt": "{subject}, Recreate the [BRAND NAME] logo following the JSON Aesthetic below: {\n\"style\": \"Minecraft-style voxel 3D rendering\",\n\"logo_handling\": {\n\"adapt_to_uploaded_logo\": true,\n\"rebuild_logo_using_voxel_blocks\": true,\n\"use_original_logo_as_strict_pixel-color map\": true,\n\"preserve_text_in_logo\": true,\n\"preserve_text_case\": true,\n\"preserve_original_logo_colors\": true,\n\"preserve_shape_and_layout\": true\n\"aspect_ratio\": [INSERT ASPECT RATIO]\n},\n\"minecraft_conversion\": {\n\"voxel_depth\": \"medium thickness to show 3D volume\",\n\"block_style\": \"authentic Minecraft texture mapping\",\n\"color_strategy\": \"each block in the logo must match a pixel from the uploaded logo exactly — no estimation or stylistic substitution\",\n\"voxel_material_match\": \"map logo pixels to Minecraft block colors that visually match pixel color as closely as possible — no creative enhancements\",\n\"disable_palette_expansion\": true\n},\n\"scene_environment\": {\n\"base\": \"neutral terrain (gray concrete or light stone)\",\n\"background\": \"simple sky (clouds, no sun flare)\",\n\"optional_elements\": [\n\"Minecraft animals at a distance\",\n\"terrain vegetation in background only\"\n],\n\"environment_color_policy\": \"environment must not share colors used in the logo to prevent blending or confusion\"\n},\n\"lighting\": {\n\"neutral directional light\": true,\n\"do_not_adjust_logo_colors_for_lighting\": true,\n\"prevent_ambient_light_color_bleed\": true\n},\n\"camera\": {\n\"angle\": \"slightly top-down with 3D logo centered\",\n\"focus\": \"sharp focus on voxel logo only, environment softly rendered\"\n},\n\"render_quality\": {\n\"voxel_texture_resolution\": \"high\",\n\"shadows\": \"natural voxel-style ambient shadows only\",\n\"disable_artistic_effects\": true\n},\n\"post_processing\": {\n\"no glow effects\": true,\n\"no color correction\": true,\n\"disable AI reinterpretation of tones or palette\": true\n},\n\"image_constraints\": {\n\"transparent_background\": false,\n\"include_text\": true,\n\"preserve_text_case\": true,\n\"preserve_original_logo_colors\": true,\n\"obey_uploaded_logo_shape\": true,\n\"match_uploaded_logo_layout\": true,\n\"enforce_color_source_from_logo_only\": true\n},\n\"notes\": \"Rebuild the uploaded logo using Minecraft-style voxel blocks. Every block must represent one pixel from the logo's original image. No creative license is allowed in color, shape, or layout. The environment is decorative only and must not affect logo readability or color perception. The final image should appear as if the logo were physically constructed in a Minecraft world using blocks that match its exact colors and shapes.\"\n}",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/37.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：logo",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "commercial": [
+                    "logo",
+                    "BRAND",
+                    "layout"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_prompt-90",
+              "name": "将您的标志变成毛毡纹理",
+              "type": "prompt",
+              "prompt": "{subject}, Retexture [BRAND NAME] logo following my JSON aesthetic below:\n{\n\"style\": \"realistic needle-felted wool sculpture\",\n\"subject_handling\": {\n\"adapt_to_uploaded_image\": true,\n\"preserve_original_shape_and_layout\": true,\n\"preserve_uploaded_color_values\": true,\n\"preserve_text_if_present\": true,\n\"preserve_text_case\": true,\n\"preserve_exact_letterforms\": true,\n\"use_uploaded_image_as_pixel_map\": true,\n\"prevent_color_estimation_or_stylization\": true\n},\n\"needle_felting\": {\n\"material_type\": \"dyed wool fibers matched precisely to uploaded image pixels\",\n\"texture_description\": \"fluffy soft felt with clear fiber strands\",\n\"construction_style\": \"needle-felted, light irregularities allowed but no color bleeding\",\n\"color_application_method\": \"direct color transfer from uploaded image to wool sculpture\",\n\"prevent_auto_saturation_adjustment\": true,\n\"prevent_color_fading\": true,\n\"color_binding_mode\": \"pixel-level color fidelity per original image\"\n},\n\"lighting\": {\n\"lighting_type\": \"neutral soft studio lighting\",\n\"shadow\": \"soft, gray-toned shadows under the object only\",\n\"highlight_behavior\": \"matte highlights only from felt surface — no bloom or color shift\"\n},\n\"background\": {\n\"type\": \"plain matte studio\",\n\"background_color\": \"pastel tone that contrasts with logo color\",\n\"color_conflict_handling\": \"auto-adjust background brightness — do not alter logo colors\"\n},\n\"camera\": {\n\"focus_style\": \"macro lens\",\n\"depth_of_field\": \"shallow — full subject in sharp detail, soft background\",\n\"angle\": \"frontal or slightly elevated, full subject visible\"\n},\n\"post_processing\": {\n\"color_preservation_enforced\": true,\n\"disable_auto-enhancement_or_tinting\": true,\n\"no artistic reinterpretation\": true,\n\"no auto-correction, bloom, or white balance adjustments\": true\n},\n\"image_constraints\": {\n\"transparent_background\": false,\n\"aspect_ratio_locked\": true,\n\"include_text_if_present\": true,\n\"preserve_text_case\": true,\n\"preserve_uploaded_color_values\": true,\n\"prevent_shape_or_color_change\": true,\n\"enforce_exact_pixel_color_match_to_uploaded_image\": true\n},\n\"notes\": \"The uploaded image must be converted into a needle-felted wool sculpture using its exact colors and shape. Use pixel-level mapping to apply the uploaded color values to simulated dyed wool fibers. Do not change, brighten, dull, average, or blend colors. Text must remain intact and readable. Background should be soft pastel to contrast the logo — never adjust the logo to fit the scene.\"\n}",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/90.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：logo",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "commercial": [
+                    "logo",
+                    "BRAND"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "fooocus_diva_logo_design",
+              "name": "Logo Design",
+              "prompt": "Logo Design, {prompt}, dynamic graphic art, vector art, minimalist, professional logo design",
+              "negative_prompt": "ugly, deformed, noisy, blurry, low contrast",
+              "description": "DIVA 电影感 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_diva.json",
+              "thumbnail": "/api/thumbnails/fooocus_diva_logo_design.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：Logo / Logo",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            }
+          ]
+        },
+        {
+          "id": "commercial_poster",
+          "name": "海报广告",
+          "presets": [
+            {
+              "id": "opennana_prompt-115",
+              "name": "冰爽优雅的产品海报",
+              "type": "prompt",
+              "prompt": "{subject}, Imagine a visual concept where [insert your product] — featuring Korean text on the label — is suspended inside a cracked, ultra-clear block of ice. The product is fully visible through the ice, with soft frost forming around it. It rests on smooth white silk, and the ambient lighting is cold and elegant, with reflections dancing across the surface. Describe the entire scene in rich visual detail, in the style of a luxurious Korean skincare advertisement.",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/115.png",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：海报 / 海报",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "opennana_prompt-134",
+              "name": "生成真实电影海报",
+              "type": "prompt",
+              "prompt": "{subject}, “[MOVIE NAME ]” — 超逼真、高清风格的电影海报设计。根据电影的标题捕捉一个充满戏剧性和情感的场景。使用高开尔文色温来消除黄色调，偏爱冷色调、蓝色调或中性白色。添加体积雾、锐利阴影和深景深。模拟具有柔和泛光、细微镜头光晕和胶片颗粒的电影镜头。\n\n以富有表现力的动态排版呈现标题“[MOVIE TITLE ]”，在视觉上体现单词的含义（例如，溶解、破裂、融化、发光）。排版应该感觉与环境融为一体，大胆而标志性。\n\n在标题下方包括一个简短的、能引起情感共鸣的标语。整体构图必须类似于高预算的大片电影海报，具有 2.35：1 的纵横比和强烈的视觉叙事性。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/134.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：海报 / 海报",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "opennana_prompt-177",
+              "name": "2D单词海报设计",
+              "type": "prompt",
+              "prompt": "{subject}, 根据“[KEYWORD]”一词创作超现实主义的 2D 海报设计——布局应以动态排版为主，其中单词在视觉上被塑造或扭曲以反映其含义——加入一个象征性的平面最小插图来强化概念——风格必须受到 risograph 印刷品的启发：只有 2 种大胆的对比色（无渐变）——包括诗意的、 与关键词产生情感共鸣的简短引述 — 背景必须干净且最小 — 构图必须是垂直的，具有强烈的视觉冲击力和艺术平衡 — 整体基调应该感觉像电影、超现实和图形 — 超清晰、高分辨率、无杂乱",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/177.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：海报 / 海报",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "opennana_prompt-258",
+              "name": "20世纪50年代的海报",
+              "type": "prompt",
+              "prompt": "{subject}, 将这张图片转换成20世纪50年代的海报，风格参考中世纪现代平面设计师的作品。采用扁平的几何色块，搭配醒目的排版元素。整体基调应乐观、怀旧且具有宣传性。添加醒目的地点标签和宣传标语。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/258.png",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：海报 / 海报",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "opennana_prompt-273",
+              "name": "超现实主义极简概念广告",
+              "type": "prompt",
+              "prompt": "{subject}, “{品牌或产品名称}”——超现实主义极简概念广告\n创建 1：1 高分辨率海报，使用最少的元素和象征性的故事讲述将品牌/产品重新想象为超现实的欲望对象。\n\n• 视觉风格：超干净的背景（浅色或柔和的色调）、柔和的灯光、强烈的负空间\n• 场景概念：将产品本质转化为隐喻或梦幻般的场景\n• 添加一个简短、有力的口号（2-3 个词），在情感上与概念产生共鸣\n• 以简洁、现代的风格包含品牌标识（自然融入布局）\n• 构图：居中或三分法对齐，巧妙运用阴影和深度\n• 氛围：艺术、优雅、发人深省——就像博物馆装置\n• 没有混乱，没有现实主义超载——只有概念清晰",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/273.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：海报",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "commercial": [
+                    "海报",
+                    "品牌",
+                    "布局"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_prompt-316",
+              "name": "品牌字体",
+              "type": "prompt",
+              "prompt": "{subject}, 创建一个形状像 {OBJECT} 的印刷插图，其中文本本身形成形状 - 大胆而俏皮的字体风格填充整个轮廓 - 字母流畅地适应物体的曲线和轮廓 - 充满活力和对比的调色板适合主题 - 背景是纯色并增强了对主要形状的关注 - 矢量风格，干净，高分辨率，海报格式，1：1 宽高比。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/316.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：海报",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "commercial": [
+                    "海报",
+                    "字体"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_prompt-418",
+              "name": "将电影海报重新设计成黏土动画风格",
+              "type": "prompt",
+              "prompt": "{subject}, 将参考电影海报重新设计成黏土动画风格。保持原图的布局、构图和光线完全一致。将所有角色、物体和元素转化为手工制作的黏土模型，保留清晰可见的指纹、柔和的边缘和细微的瑕疵。保留背景和色彩，但赋予所有元素逼真的黏土质感和立体感，仿佛是从定格动画片场拍摄的一样。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/418.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：海报 / 海报",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "opennana_prompt-62",
+              "name": "品牌设计指南海报",
+              "type": "prompt",
+              "prompt": "{subject}, Create a vertical 9:16 brand design guide poster using the uploaded product image. Adapt the design style to match the product’s niche and visual identity. Structure the poster with clear, elegant sections: (1) Large logo display and safe zone usage, (2) Product mockup centered and highlighted, (3) Primary and secondary color palette swatches with hex codes, (4) Typography guide with heading, subheading, body font samples, and line spacing specs, (5) Iconography or graphic motif examples used by the brand, (6) Image treatment style with sample lifestyle or studio visuals, (7) Grid system or layout rules, (8) Packaging mockups and surface applications, (9) Do’s & Don’ts with annotated visuals. Use minimalist white or soft neutral background with structured layout dividers and drop shadows. The result must be visually rich, clean, and suitable for a printed or digital brand book.",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/62.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：海报 / 海报",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "opennana_prompt-147",
+              "name": "玻璃变形海报",
+              "type": "prompt",
+              "prompt": "{subject}, 设计一张带有“[BRAND NAME]”字样的电影式品牌海报 — 在下面包括一个粗体的六字标语 — 应用 3D 玻璃折射效果，使部分文本或布局失真 — 在右上角加入品牌徽标 — 平滑的阴影、有光泽的照明、黑色超粗体排版 — 干净的现代背景 — 高分辨率、1：1 的纵横比",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/147.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：海报 / 海报",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "opennana_prompt-225",
+              "name": "时尚的胶囊海报",
+              "type": "prompt",
+              "prompt": "{subject}, 创作一张超逼真、时尚的海报[1080x1080]宽高比，展示一个水平放置的平板胶囊悬浮在布满水汽和水滴的表面上，其影子投射在湿润的地面上。胶囊的一面是透明玻璃，另一面是光泽塑料[颜色/设计]，显示[品牌]标志和名称。在胶囊的玻璃部分中，一个逼真的 3D 模型[标志]无缝漂浮，完美居中并悬浮在零重力中。玻璃和塑料表面展现出强烈的反射、折射和环境扭曲。背景是一个柔和模糊、优雅浅色调的设置。使用动态视角和时尚的相机角度，结合专业工作室灯光和超高清细节，使图像看起来像是一张由单反相机拍摄的真实照片，具有无懈可击的真实感。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/225.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：海报 / 海报",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "ads_advertising",
+              "name": "ads-advertising",
+              "type": "prompt",
+              "prompt": "advertising poster style {prompt} . Professional, modern, product-focused, commercial, eye-catching, highly detailed",
+              "negative_prompt": "noisy, blurry, amateurish, sloppy, unattractive",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：poster",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "commercial": [
+                    "poster",
+                    "advertis"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_vintage-hollywood-aesthetic-chinese-woman-red-rose-poster",
+              "name": "复古好莱坞美学中国女性红玫瑰海报",
+              "type": "prompt",
+              "prompt": "{subject}, 创作艺术海报。画幅与风格： 9:16 竖版构图，真人电影级写实摄影，复古好莱坞电影美学，灵感源自《美国丽人》（American Beauty, 1999）经典红玫瑰花瓣梦境。   人物身份： 28岁中国成年女性，约178cm，大气御姐脸、下巴轮廓清晰；大杏仁眼、双眼皮、暖棕瞳、长睫毛、眼神温柔略清冷；细软自然眉；小巧精致鼻；清透豆沙唇、淡腮红；大红唇色，皮肤白皙通透、保留真实皮肤质感；身材匀称，胸部自然丰满（约 D Cup），比例自然、不夸张不挤压，避免面容漂移与过度美颜。 场景与构图： 整个画...",
+              "negative_prompt": "",
+              "description": "Grok",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202610/1792064245478-qj6ocl35-1792064246339-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：海报 / 海报",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "opennana_porsche-911-gt-premium-automotive-design-board",
+              "name": "保时捷911GT顶级设计技术提案展示板",
+              "type": "prompt",
+              "prompt": "{subject}, 为保时捷 911 GT 创建一个世界级的高端汽车设计展示板，设计为一份官方高端技术概念表，融合了 Orbit 级别的产品写实度、Transit 级别的 OEM 系统标准化和 Port 级别的提案板完整性。图像必须完全保留豪华多视图车辆蓝图海报的精确结构逻辑：一个大型中央侧视技术图，顶部是前视图和后视图，中下部是一个超写实的主体渲染图，底部是多个工程组件面板，一个顶视蓝图，详细的气动部件研究，一个紧凑的气动性能图表，以及遍布全页的精致官方风格标签。最终作品必须感觉像是一份正式的保时捷性能设计提案板，结合了真实的产品写实感、手绘草图叠加的精确性以及高度严谨的工程布局。\n\n核心构图：\n在干净的暖白色或柔和的技术纸背景上使用高大的垂直海报。将展示板组织成清晰分隔的水平带：\n1. 顶部带：主标题块、项目元数据、前视图、后视图\n2. 中上部带：带有尺寸和标注的大型侧视工程图\n3. 中心带：超写实的前四分之三主体渲染图\n4. 中下部带：轮毂组件、悬挂系统、车身套件爆炸图\n5. 底部带：顶视蓝图、气动性能图表、细节研究、材料/注释/官方品牌块\n整个页面必须感觉精确、高端、专业且视觉平衡，就像 OEM 发布稿或高级内部设计提案。\n\n车辆主体：\n主体是保时捷 911 GT，展示为真实的、具有明确保时捷身份和原厂真实外观的高性能 911 GT 设计研究。保留：\n- 经典的 911 车顶线条和玻璃舱\n- 圆形的保时捷大灯特征\n- 低矮的前悬\n- 宽大的后轮拱\n- 激进的前部气动细节\n- 中心锁止轮毂系统\n- 大型赛车后翼或天鹅颈后翼\n- 深邃的后扩散器\n- 雕刻感的侧下方气动通道\n- 真实的保时捷车身比例和分缝线标准\n这款车必须感觉像是一个可信的高级 911 GT 公路和赛道版本，而不是售后市场的幻想改装。\n\nOrbit 级现实主义：\n进一步提升车辆的现实感。强调：\n- 前分流器边缘的精确度\n- 前翼子板通风口/百叶窗细节\n- 后翼支架\n- 后扩散器几何形状\n- 中心锁止轮毂硬件\n- 碳纤维气动纹理\n- 陶瓷制动细节\n- 轮胎侧壁文字和胎面真实感\n- 精确的保时捷灯组内部结构\n- 微妙的车漆微反射、灰尘痕迹和阴影着陆\n车辆必须感觉极其真实、原厂正品且去 AI 化。\n\n主体渲染：\n在中下区域放置一个大型超写实的前四分之三主体渲染图。使用高端车身颜色，如卫红（Guards Red），配以黑色赛车条纹和外露的碳纤维气动部件。在车漆深度、清漆反射、挡风玻璃畸变、碳纤维编织、轮毂饰面、制动硬件、大灯内部、面板过渡和地面接触阴影方面展示大师级现实主义。主体车必须在视觉上占据展示板的主导地位。\n\n顶部正交视图：\n在上方区域，放置：\n- 前视图\n- 后视图\n两个视图都必须是技术的、干净的、标注尺寸的，并轻微叠加手绘工程草图线。保持线条优雅且有分寸，就像真实的性能车设计板一样。\n\n侧视工程图：\n在中上区域创建一张保时捷 911 GT 的大型侧视图，绘制为精细的技术草图，具有精确的轴距、悬垂、车顶线、尾翼几何形状和气动表面。添加测量线和尺寸标记。将蓝图的精确性与手绘渲染草图的活力相结合：\n- 分层轮廓笔触\n- 修正线\n- 结构椭圆\n- 灰色马克笔阴影\n- 细微的纸张纹理\n这种草图与工程的融合至关重要。\n\n手绘技术语言：\n强化整个展示板的工业设计手绘感：\n- 分层轮廓优化\n- 结构指南\n- 浅灰色马克笔渲染\n- 截面强调线\n- 工程箭头\n- 表面注释\n- 透视校正痕迹\n- 轮拱、气动表面和尾翼形状周围的色调叠加\n页面必须感觉像是高端设计办公室手工开发的技术提案，而不是冰冷的 CAD 截图。\n\nTransit 级 OEM 系统：\n将整个展示板标准化为成熟的 OEM 风格字段层级。使用一致的分区标签和微型标题，例如：\n项目名称\n设计研究\n车辆规格\n主要特征\n轮毂组件\n悬挂\n车身套件爆炸图\n顶视图\n气动性能\n细节处理\n材料系统\n注释\n视图索引\n所有标题、说明、标签、间距、分隔符和线宽必须感觉完全标准化且具有全球高端感。\n\n准确的关键数据：\n使用干净、克制、内部一致的 OEM 风格保时捷 911 GT 性能数据：\n发动机：4.0L 自然吸气水平对置六缸\n功率：510 PS\n扭矩：470 Nm\n变速箱：7 速 PDK\n0–100 km/h：3.4 s\n最高时速：311 km/h\n以优雅的间距和微妙的分隔规则呈现所有数字，绝不凌乱，也不像宣传册。\n\n下部工程面板：\n创建三个高端的中下部模块：\n1. 轮毂组件：\n爆炸后的轮毂、轮胎、制动盘、卡钳、轮毂单元\n2. 悬挂：\n独立的减震器/连杆/弹簧技术研究\n3. 车身套件爆炸图：\n前分流器、小翼、侧裙、后翼子板、后翼、扩散器\n这些面板必须感觉真实、机械、技术且组织美观。\n\n顶视图和气动分析：\n在底部区域添加：\n- 一张带尺寸的顶视蓝图\n- 一个显示阻力/下压力/速度逻辑的紧凑气动性能图表\n- 一排包含分流器、侧裙、扩散器、后翼小研究的细节条\n所有图形必须纤细、优雅且显然受 OEM 启发。\n\nPort 级提案完整性：\n将展示板提升为正式的官方设计发布表。添加克制的元数据，如：\n项目名称：911 GT 性能研究\n设计研究：合法道路行驶赛道空气动力学\n材料系统：钢/铝/碳纤维/Alcantara\n气动套件：GT 下压力配置\n视图索引：V1 / V2 / V3 / V4\n注释：以毫米为单位的尺寸参考\n这些字段必须精美地集成，使页面感觉像一份真实的保时捷官方提案板。\n\n品牌展示：\n仅使用英文文本。创建一个精制的主标题，如：\nPORSCHE 911 GT\nPerformance Design Study\n在克制的官方位置添加极简的保时捷盾徽和保时捷字标。排版必须感觉纤细、现代、精确且具有全球高端感。\n\n灯光和渲染：\n使用干净的工作室技术灯光，带有柔和的高端阴影和受控的反射。主体渲染必须清晰、明亮且高端，而较小的面板保持略微平坦，更像文档。整个页面应该感觉像是一份豪华的工程演示文稿。\n\n颜色方向：\n使用克制的调色板，包括暖白色技术纸、石墨灰线条、黑色排版、卫红主体车身颜色、碳黑色、拉丝金属灰和细微的技术米色点缀。保持整个页面的连贯、优雅和官方感。\n\n商业目标：\n最终艺术品必须感觉像是获奖级别的保时捷 911 GT 技术展示板：高度写实、多图驱动、手绘感且工程精确、遵循 OEM 纪律且视觉难忘。保留精确的多视图规格板逻辑，同时将其提升为更高档、更标准化、更完整的官方 GT 设计发布视觉效果。\n\n负面提示词：\n通用跑车，错误的保时捷比例，假 911 车顶线，错误的轮毂，不准确的后翼，混乱的蓝图布局，廉价的宣传册风格，卡通渲染，赛博朋克杂乱，塑料材料，低分辨率线条，过于复杂的文字，扭曲的透视，假的爆炸图，不准确的工程组件，嘈杂的布局",
+              "negative_prompt": "",
+              "description": "Grok",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202608/1786027586378-18x7om8a-1786027590276-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：海报",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "commercial": [
+                    "海报",
+                    "标题",
+                    "品牌",
+                    "布局"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_premium-minimalist-travel-poster-window-view",
+              "name": "简约高级窗口风景旅游海报",
+              "type": "prompt",
+              "prompt": "{subject}, 创建一个具有干净编辑美学的优质简约旅游海报。一个巨大的白色边框开放式窗户位于构图中心，完美地框住了外面的标志性地标或风景胜地。景观应在柔和的自然日光、蓝天和细微的云朵下显得明亮、写实且诱人。\n周围的墙壁具有大胆的几何抽象形状（大圆圈、半圆、长方形或现代图案），采用与目的地相辅相成的限量调色板。保持设计优雅、平衡、整洁，并留有大量的负空间。\n在顶部，放置一个小的现代无衬线字体大写励志口号（例如，“SOME PLACES STAY WITH YOU FOREVER”）。在底部，以非常大的粗体排版显示目的地名称，随后是较小的全大写国家名称，下方可选 GPS 坐标。\n风格：北欧极简主义，奢华旅游编辑，当代平面设计，高端旅游宣传，洁净建筑摄影，哑光效果，细腻纸张质感，博物馆品质印刷，高端杂志封面美学。\n构图：完美对称，中心窗户，平衡布局，清晰排版，写实地标，超高分辨率，柔和阴影，自然光线，优雅色彩和谐，纵向海报（4:5 或 2:3 宽高比）。\n变量：\n目的地：[城市 / 地标]\n国家：[国家]\n地标/景观：[著名古迹或风景]\n强调色：[例如，海军蓝与奶油色，赤土色与米色，祖母绿与白色]\n口号：[自定义文本]",
+              "negative_prompt": "",
+              "description": "即梦",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202607/1784163477840-ijw7euil-1784163478841-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：海报 / 海报",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "opennana_modern-cafe-style-creative-drink-poster-prompt",
+              "name": "现代咖啡厅风格创意饮品海报提示词",
+              "type": "prompt",
+              "prompt": "{subject}, 为“[产品名称]”制作一个流行时尚的 3:2 方形宣传海报，使用上传的产品图片或生成一个高质感写实版本的[产品名称]。根据产品类型或上传的图片，自动调整所有成分、质感、颜色、配料、装饰图形和视觉氛围。专注于年轻现代的咖啡馆品牌风格，配有超大排版和俏皮的图形活力。\n\n画布尺寸：\n1:1 方形格式 — 1080x1080 像素，针对 Instagram 帖子和现代咖啡馆社交媒体营销进行了优化。\n\n设置与背景：\n使用充满活力的极简背景，具有受产品口味启发的粗犷单色或双色调调色板。包括俏皮的涂鸦、抽象形状、勾勒出的圆圈、手绘箭头、复古符号、火花图标、弯曲的排版路径、贴纸风格的切边边框以及流行的亚洲灵感流行设计元素。保持构图充满活力且视觉平衡。\n\n灯光：\n明亮柔和的商业照明，带有光亮的饮料反射、真实的冰纹理、奶油色高光、柔和的阴影、充满活力的咖啡馆氛围以及诱人的产品增强。\n\n风格：\n现代咖啡馆广告美学，韩系/日系灵感平面海报设计，流行的 Z 世代社交媒体品牌化，俏皮的排版构图，贴纸切割产品风格，高端极简海报设计，超写实饮品渲染。\n\n排版风格：\n使用超大粗体排版，并带有俏皮的布局。\n混合弯曲文字、手写涂鸦、圆润粗体字体和现代紧凑排版。\n保持文字巨大、年轻且视觉动态。\n\n色彩方向：\n根据[产品名称]自动调整颜色：\n\n冰咖啡 → 钴蓝色 + 白色 + 米色\n\n抹茶拿铁 → 绿色 + 奶油色 + 白色\n\n草莓牛奶 → 粉红色 + 红色 + 奶油色\n\n巧克力奶昔 → 棕色 + 米色 + 焦糖色\n\n使用高对比度的流行色彩，具有干净现代的氛围。\n\n相机：\n以产品为中心的英雄构图，特写商业饮品摄影，浅景深，电影感咖啡馆灯光，超锐利的纹理细节，高端广告质量，4K 社交媒体渲染。\n\n文本元素：\n包括时尚的营销文本，例如：\n“Fresh Brew”\n“Ice Coffee”\n“Limited Time”\n“Now Serving”\n“Daily Fresh”\n“Cold & Refreshing”\n\n重要提示：\n\n保持构图俏皮且由排版驱动\n\n维持贴纸风格的勾边产品切口\n\n自动调整颜色和装饰图形以适应[产品名称]\n\n使用干净流行的咖啡馆品牌风格\n\n避免杂乱的布局\n\n设计应类似于现代亚洲咖啡馆的宣传海报",
+              "negative_prompt": "",
+              "description": "即梦",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202607/1784556576132-xqci1fmo-1784556581605-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：海报 / 海报",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "opennana_prompt-183",
+              "name": "霓虹效果海报",
+              "type": "prompt",
+              "prompt": "{subject}, 单个 [对象] 用与其品牌或本质相匹配的内部霓虹灯发出生动的光芒 — 光芒必须精确地跟随对象的形状和细节，而不会过度曝光 — 电影摄影棚照明 — 丰富的反射表面或纹理 — 对象周围微妙的环境雾或薄雾 — 清晰的阴影和清晰的对比度 — 漂浮或站在柔和的反光黑色表面上 — 超清晰的细节 — 2：3 垂直布局 — 纯黑色背景 — 高开尔文照明以避免黄色调 — 超高清照片级真实感 — 发光必须让人感觉优质、戏剧性且情感上充满情感冲击",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/183.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：海报 / 海报",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "opennana_prompt-339",
+              "name": "百褶迷你裙美女",
+              "type": "prompt",
+              "prompt": "{subject}, 照片中的人物留着一头乌黑的长发，身穿白色短袖上衣和高腰蓝色百褶迷你裙，裙摆长及大腿中部，贴身剪裁，凸显身材。人物略微侧身，身体前倾，一只手扶在墙上，墙上贴满了红、黄、蓝、白等各种颜色的海报、传单和广告，并配有多种语言的文字，营造出一种都市或复古的氛围。墙壁显得有些破旧，有明显的折痕和轻微的损坏，更增添了怀旧的氛围。从侧面看，人物的面部表情部分可见，流露出好奇与俏皮的微妙交织。昏暗的灯光搭配温暖的色调，投射出柔和的阴影，增强了氛围。构图采用低角度透视，将注意力吸引到人物的下半身和裙子的高度，并在略微模糊的背景上清晰地聚焦于人物。整体氛围既挑逗又怀旧，将现代服饰与复古美学融为一体。从技术角度来看，这张照片展现出一种刻意的柔焦效果，营造出朦胧梦幻的质感，柔化了细节和边缘。此外，明显的颗粒感和噪点纹理增强了复古美感，为照片增添了质感和粗糙感。分辨率保持中等水平，符合数码摄影的典型特征，略微降低的色彩饱和度，呈现出复古滤镜效果。画面纵横比约为4:5，有利于主体的聚焦构图。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/339.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：海报",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "commercial": [
+                    "海报",
+                    "广告"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_vintage-pin-up-leopard-print-portrait",
+              "name": "红色背景复古豹纹魅惑美式海报风人像",
+              "type": "prompt",
+              "prompt": "{subject}, 这是一张 {NAME} 的迷人复古海报（pin-up）风格肖像，背景是纯净且浓郁的红色。\n主体与姿势：\n• 她呈现出自信的三分之二侧面姿势，略微向左转，同时头部后仰，向上并向侧面看。\n• 她的左手（观众右侧）举在肩膀附近，戴着黑色手套的手指微妙地触碰着她的上背部/肩膀区域。\n• 她的身体呈弓形以突出曲线，一条腿弯曲，通过裙子的高开衩向前伸出。\n装束：\n• 上衣：一件豹纹抹胸短上衣，具有结构感和支撑性的形状。\n• 手套：修长优雅的黑色缎面歌剧手套，延伸至肘部以上。\n• 裙子：一条合身的黑色缎面铅笔裙，左侧带有极具戏剧性的高开衩，露出肤色丝袜顶部。\n• 鞋子：配套的豹纹细跟高跟鞋，鞋跟极高且带有红底。\n细节：\n• 她涂着醒目的红唇，画着明显的眼妆。\n• 戏剧性的影棚灯光在红色背景上投射出她姿势的强烈阴影，增添了深度和氛围。\n整体氛围：撩人、自信、且受复古启发的滑稽戏/海报美学，黑色缎面、豹纹与鲜红背景之间形成强烈对比。构图强调优雅、性感和经典魅力。",
+              "negative_prompt": "",
+              "description": "Grok",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202605/1780148739450-zslozpjn-1780148742908-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：海报 / 海报",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "fooocus_diva_bauhausstyle_poster",
+              "name": "Bauhaus-Style Poster",
+              "prompt": "Bauhaus-Style Poster, {prompt}, simple geometric shapes, clean lines, primary colors, Bauhaus-Style Poster",
+              "negative_prompt": "ugly, deformed, noisy, blurry, low contrast",
+              "description": "DIVA 电影感 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_diva.json",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：Poster / Poster；按明确交付物优先于媒介",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "fooocus_marc_k3nt3l_mk_vintageairlineposter",
+              "name": "MK vintage-airline-poster",
+              "prompt": "vintage airline poster {prompt} . classic aviation fonts, pastel colors, elegant aircraft illustrations, scenic destinations, distressed textures, retro travel allure",
+              "negative_prompt": "modern fonts, bold colors, hyper-realistic, sleek design",
+              "description": "Marc K3nt3L 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_marc_k3nt3l.json",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：poster / poster",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "fooocus_marc_k3nt3l_mk_vintagetravelposter",
+              "name": "MK vintage-travel-poster",
+              "prompt": "vintage travel poster {prompt} . retro fonts, muted colors, scenic illustrations, iconic landmarks, distressed textures, nostalgic vibes",
+              "negative_prompt": "modern fonts, vibrant colors, hyper-realistic, sleek design",
+              "description": "Marc K3nt3L 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_marc_k3nt3l.json",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：poster / poster",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "fooocus_twri_adsadvertising",
+              "name": "ads-advertising",
+              "prompt": "advertising poster style {prompt} . Professional, modern, product-focused, commercial, eye-catching, highly detailed",
+              "negative_prompt": "noisy, blurry, amateurish, sloppy, unattractive",
+              "description": "TWRI SDXL 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_twri.json",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：poster",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "commercial": [
+                    "poster",
+                    "advertis"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "commercial_editorial",
+          "name": "书刊出版",
+          "presets": [
+            {
+              "id": "opennana_prompt-155",
+              "name": "自己的国家地标时尚杂志",
+              "type": "prompt",
+              "prompt": "{subject}, 以 [COUNTRY] 风格设计的豪华时尚杂志封面，融合了标志性地标、文化符号和当地时尚美学。布局模仿高端编辑设计，标题的灵感来自该国的语言、趋势和生活方式。精致的电影级灯光，垂直 9：16 格式，超细节，Vogue 级别的优雅",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/155.png",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：杂志封面",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "commercial": [
+                    "杂志封面",
+                    "标题",
+                    "布局"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "commercial_infographic",
+          "name": "信息图表",
+          "presets": [
+            {
+              "id": "opennana_prompt-1",
+              "name": "手绘风格的信息图卡片",
+              "type": "prompt",
+              "prompt": "{subject}, 创作一张手绘风格的信息图卡片，比例为9:16竖版。卡片主题鲜明，背景为带有纸质肌理的米色或米白色，整体设计体现质朴、亲切的手绘美感。 卡片上方以红黑相间、对比鲜明的大号毛笔草书字体突出标题，吸引视觉焦点。文字内容均采用中文草书，整体布局分为2至4个清晰的小节，每节以简短、精炼的中文短语表达核心要点。字体保持草书流畅的韵律感，既清晰可读又富有艺术气息。 卡片中点缀简单、有趣的手绘插画或图标，例如人物或象征符号，以增强视觉吸引力，引发读者思考与共鸣。 整体布局注意视觉平衡，预留足够的空白空间，确保画面简洁明了，易于阅读和理解。 <h1><span style=\"\"color:red\"\">「认知」</span>决定上限 <span style=\"\"color:red\"\">「圈子」</span>决定机会</h1> - 你赚不到「认知」以外的钱， - 也遇不到「圈子」以外的机会。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/1.png",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：信息图 / 信息图",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "opennana_prompt-290",
+              "name": "食谱信息图制作",
+              "type": "prompt",
+              "prompt": "{subject}, 奶油大蒜蘑菇意面分步食谱信息图制作要求\n呈现视角：俯视角度\n设计风格：简约风格，白色背景\n食材配图及标注：需包含“200克意大利面”“150克蘑菇”“3瓣大蒜”“200毫升淡奶油”“1汤匙橄榄油”“帕玛森奶酪”“欧芹”的图片，并分别标注对应文字\n制作步骤展示：用虚线标注制作流程，搭配图标（煮锅、煎锅、搅拌）说明各步骤\n成品呈现：在底部展示最终装盘的意面图片",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/290.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：信息图 / 信息图",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "fooocus_diva_infographic_drawing",
+              "name": "Infographic Drawing",
+              "prompt": "Infographic Drawing, {prompt}, diagram, infographic",
+              "negative_prompt": "ugly, deformed, noisy, blurry, low contrast",
+              "description": "DIVA 电影感 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_diva.json",
+              "thumbnail": "/api/thumbnails/fooocus_diva_infographic_drawing.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：Infographic / Infographic",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            }
+          ]
+        },
+        {
+          "id": "commercial_icon",
+          "name": "图标符号",
+          "presets": [
+            {
+              "id": "opennana_prompt-279",
+              "name": "俏皮现代的应用程序图标设计",
+              "type": "prompt",
+              "prompt": "{subject}, 一个俏皮现代的应用程序图标设计：一个可爱的咖啡杯形象，带着眨眼的眼睛和微笑的嘴巴，顶部有橙红色火焰状的“头发”，采用极简扁平矢量风格，带有光泽高光和柔和阴影，构图居中，对比度高，色彩鲜艳，边角圆润，背景透明，适合作为图标使用，无文字，边框外无细节，尺寸为1024x1024。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/279.png",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：图标设计 / 图标设计",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            }
+          ]
+        },
+        {
+          "id": "commercial_typography",
+          "name": "字体字效",
+          "presets": [
+            {
+              "id": "artstyle_typography",
+              "name": "artstyle-typography",
+              "type": "prompt",
+              "prompt": "typographic art {prompt} . stylized, intricate, detailed, artistic, text-based",
+              "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：typography / typography",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "fooocus_twri_artstyletypography",
+              "name": "artstyle-typography",
+              "prompt": "typographic art {prompt} . stylized, intricate, detailed, artistic, text-based",
+              "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic",
+              "description": "TWRI SDXL 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_twri.json",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：typography / typography",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            }
+          ]
+        },
+        {
+          "id": "commercial_merch",
+          "name": "文创周边",
+          "presets": [
+            {
+              "id": "opennana_pixar-style-3d-cute-girl-stickers",
+              "name": "皮克斯风3D萌妹表情包贴纸设计",
+              "type": "prompt",
+              "prompt": "{subject}, 可爱的 3D 卡通女孩贴纸包，皮克斯风格，棕色短发，大大的眼睛，红色外套和灰色衬衫，16 种不同的表情，表情符号风格的情绪（大笑、生气、害羞、困惑、爱、困倦、思考、惊讶），不同趣味字体的彩色文字（OMG、哈哈、为什么、耶、想法），白色贴纸轮廓，鲜艳的色彩，4x4 拼贴布局，高细节，柔和的光线。",
+              "negative_prompt": "",
+              "description": "Grok",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1773336058338-5exq37i2-1.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：贴纸设计 / 贴纸设计；按明确交付物优先于媒介",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "fooocus_diva_sticker_designs",
+              "name": "Sticker Designs",
+              "prompt": "Vector Art Stickers, {prompt}, professional vector design, sticker designs, Sticker Sheet",
+              "negative_prompt": "ugly, deformed, noisy, blurry, low contrast",
+              "description": "DIVA 电影感 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_diva.json",
+              "thumbnail": "/api/thumbnails/fooocus_diva_sticker_designs.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：Sticker Designs / Sticker Designs",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            }
+          ]
+        },
+        {
+          "id": "commercial_pending",
+          "name": "待细分",
+          "presets": [
+            {
+              "id": "opennana_prompt-16",
+              "name": "品牌星球世界",
+              "type": "prompt",
+              "prompt": "{subject}, Planet [Brand name], Year 3025. A distant world shaped entirely by the essence of the brand. The landscapes echo its core identity — from surreal terrains to fantastical weather patterns. Native flora and fauna embody its signature ingredients and aesthetics. Rivers flow with iconic flavors. Architecture is inspired by its packaging and visual language, fused with futuristic technology. The atmosphere is rich in texture, cinematic lighting, and surreal detail. A dreamlike vision of brand identity reimagined as a sci-fi utopia.",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/16.png",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；子类冲突：commercial_brand, commercial_packaging",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "commercial": [
+                    "packaging",
+                    "Brand"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_prompt-21",
+              "name": "产品变成纸玻璃",
+              "type": "prompt",
+              "prompt": "{subject}, [Product by Brand] in a surreal, minimalist paper-glass style advertisement.\nThe product is centered, crafted from translucent frosted glass-paper, placed against a clean white or softly tinted background.\nSoft cinematic lighting creates gentle contrast and ambient shadows.\nA single brand color subtly interacts with the scene through glow, mist, liquid, or foam.\nInclude a bold, elegant 4-word slogan near the product.\nThe brand logo appears subtly etched, glowing, or printed in a refined manner.\nVertical or square aspect ratio, ultra-detailed, poster-quality, visually soothing and conceptually refined.",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/21.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；子类冲突：commercial_poster, commercial_brand",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "commercial": [
+                    "logo",
+                    "slogan",
+                    "Brand"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_prompt-26",
+              "name": "水流身份",
+              "type": "prompt",
+              "prompt": "{subject}, An ultra-high resolution 8K cinematic render of the [Brand Name] logo, sculpted entirely from flowing crystal-clear water. The liquid forms every curve and edge of the brand’s logo with fluid precision, highlighted by vibrant neon accents inspired by [Brand Name]’s color identity. The background is pitch black, creating sharp contrast and drama. The lighting is dynamic, revealing sharp reflections, glowing edges, and the motion of water as it ripples and splashes. Droplets, shine, and soft glass-like textures give the logo a surreal, luxurious, and futuristic appearance — poster-quality, 1:1 format.",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/26.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；子类冲突：commercial_poster, commercial_brand",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "commercial": [
+                    "logo",
+                    "Brand"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_prompt-27",
+              "name": "品牌奢华之物从天而降",
+              "type": "prompt",
+              "prompt": "{subject}, Create a image with 1:1 ratio\na dreamy brand ad of [Brand], a brand designed bubble-like capsule with brand color parachute packaging their classic product, against blue sky and other blurry parachute packaging, white cloud, a small brand logo on top, a tiny slogan beneath it, cinematic day lighting, lens flare, dof, hdr",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/27.png",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；子类冲突：commercial_brand, commercial_packaging",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "commercial": [
+                    "packaging",
+                    "slogan",
+                    "brand"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_prompt-60",
+              "name": "令人垂涎欲滴的广告",
+              "type": "prompt",
+              "prompt": "{subject}, a vertical 2:3 high-resolution food advertisement featuring the most iconic and delicious product from a well-known brand called [INSERT BRAND NAME]. The product appears centered with mouthwatering details — such as melted cheese, dripping chocolate, whipped cream, or condensation — depending on the product. The background should be a gradient or pastel tone inspired by the brand’s identity. At the top, display a bold slogan in a color that matches the brand’s style. At the bottom, include the official logo of the brand. Use cinematic studio lighting, soft shadows, and ultra-sharp textures to create a visually irresistible and minimal poster.",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/60.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；子类冲突：commercial_poster, commercial_brand",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "commercial": [
+                    "logo",
+                    "slogan",
+                    "advertis"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2733 @@
+{
+  "categories": [
+    {
+      "id": "anime_manga",
+      "name": "动漫",
+      "subcategories": [
+        {
+          "id": "anime_manga_portrait",
+          "name": "动漫头像",
+          "presets": [
+            {
+              "id": "opennana_android-18-cyberpunk-techwear-collector-card-poster",
+              "name": "赛博朋克人造人18号机能风收藏卡",
+              "type": "prompt",
+              "prompt": "{subject}, 赛博朋克动漫角色海报，Android 18 / 人造人 18 号主题，竖版收藏卡构图。金色短发、蓝色眼睛、冷艳自信表情，穿蓝色机能短夹克、黑色短款上衣、皮质短裙、金属腰带、链条、高筒机能靴，突出修长身形和高级时装感。人物以时尚杂志姿势站立，一侧胯部倾斜，一条腿向前形成透视，手拉衣领，姿态冷酷慵懒。\n\n背景为高密度赛博街头拼贴：霓虹粉、电光蓝、黑白强对比，破损贴纸、警告标签、条形码、日文标识、英文标题、Red Ribbon Army 标志、ANDROID 18、NO.18、SCAN LOCK、TARGET ACQUIRED、DANGER、WARNING 等文字。旁边有大型金属扫描装置，显示蓝紫色全息 UI、18 号头像、扫描网格、能量读数。风格为高级日漫插画、游戏角色卡、未来扫描界面、街头",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202605/1779453450178-zllty67p-1779453454634-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：头像",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "动漫",
+                    "角色"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "anime_manga_model_sheet",
+          "name": "角色设定表",
+          "presets": [
+            {
+              "id": "opennana_anime-design-of-pirate-style-dark-empress",
+              "name": "海盗风暗黑女皇动漫设计",
+              "type": "prompt",
+              "prompt": "{subject}, Professional anime character design sheet of a regal dark-haired empress inspired by classic pirate fantasy anime aesthetics, displayed on a clean manga-style reference board with multiple elegant full-body poses and expression studies. Include front view, back view, confident standing pose, graceful walking pose, side profile pose, crossed-arm royal pose, and a dramatic cape-flowing pose instead of sitting or crouching poses. Long silky black hair, refined facial features, gold earrings, luxurious crimson slit dress with intricate floral and skull-inspired embroidery, high heels, and a white royal cape with ornate insignia. Add detailed costume close-ups, fabric texture notes, color palette swatches, height markings, Japanese annotation labels, and professional concept art layout. High-detail anime rendering, polished linework, soft cel shading, studio-quality character turnaround sheet, elegant and classy presentation, white grid paper background, authentic manga production design aesthetic, ultra detailed, 4k.",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202605/1778152969513-5izha21v-1778152970521-1.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题大类＋正文子类证据：turnaround",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "anime",
+                    "cel shad",
+                    "character"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_cyberpunk-hacker-girl-character-design-sheet-neo-rin",
+              "name": "赛博朋克天才黑客少女角色设计表",
+              "type": "prompt",
+              "prompt": "{subject}, 超详细的赛博朋克动漫角色设计表，名为“NEO // RIN”的天才少年黑客少女，全身三视图（正面、侧面、背面）以及特写肖像和配件标注。银白色短发波波头，带有霓虹青色和洋红色渐变挑染，单眼佩戴发光半透明赛博护目镜，皮肤白皙，锐利的紫色眼睛，表情冷静自信。身穿超大号机能风夹克，搭配黑色战术工装裤、皮带、织带、悬挂的实用标签、露脐上衣、未来感运动鞋、全息配件、条形码贴花、警告符号、“BYTE//NULL”字体排版，黑客美学。配色方案：哑光黑、深灰、白色、霓虹青、霓虹粉。风格灵感来自高端日本概念艺术、未来感街头服饰、赛博朋克时尚，结合《阿基拉》、《攻壳机动队》及现代动漫主视觉美学。包含带有标注细节、Logo设计、UI图形、装置近景和白色背景上配色方案的整洁角色参考图布局。高度抛光的赛璐璐阴影，清晰的线稿，柔光效果，复杂的衣物褶皱，多层次配饰，动感的时尚剪影，专业游戏概念艺术品质，4k，极致细节。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202605/1779073700360-nyuis1b0-1779073700719-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：三视图",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "动漫",
+                    "赛璐璐",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_professional-anime-design-of-succubus-queen",
+              "name": "魅魔女王专业动漫设计稿",
+              "type": "prompt",
+              "prompt": "{subject}, Professional anime-style character turnaround sheet of a dark fantasy succubus queen with long crimson hair, black horns, glowing red eyes, and an elegant gothic gown with gold embroidery. Include front standing pose, rear pose, seductive sitting pose, kneeling pose, and dramatic low-angle pose. Add close-up face study, wing detail section, jewelry accessories, and color palette bar at the bottom. White paper manga reference layout with Japanese annotations, measurement guides, and studio-quality anime artwork. Detailed shading, fantasy elegance, highly aesthetic character design sheet.",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202605/1778153819928-bfu0tkv1-1778153820376-1.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题大类＋正文子类证据：turnaround",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "anime",
+                    "character"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_cinematic-character-design-pitch-board",
+              "name": "电影角色设计",
+              "type": "prompt",
+              "prompt": "{subject}, {\n  \"type\": \"cinematic_character_design_sheet\",\n  \"intent\": \"film_production_pitch_board\",\n  \"core_directive\": {\n    \"layout_rules\": [\n      \"no generic layouts\",\n      \"no evenly spaced grids\",\n      \"no forced symmetry\",\n      \"intentional asymmetry\",\n      \"art-directed composition\"\n    ]\n  },\n  \"character_identity\": {\n    \"name\": \"[Full character name]\",\n    \"alias\": \"[Nickname / codename]\",\n    \"age\": \"[Real or stylized age]\",\n    \"height\": \"[Exact height cm/ft]\",\n    \"build\": \"[Detailed body proportions, weight distribution, posture]\"\n  },\n  \"ethnicity_design_language\": \"[Hybrid style: Pixar / anime / cultural realism]\",\n  \"face_design\": {\n    \"structure\": \"[Face shape, bone structure, asymmetry]\",\n    \"skin\": \"[Texture, tone, imperfections]\",\n    \"eyes\": \"[Size, spacing, color, quirks]\",\n    \"hair\": \"[Style, physics, imperfections]\",\n    \"distinct_features\": \"[Scars, dimples, unique traits]\"\n  },\n  \"psychological_profile\": {\n    \"core_traits\": [\n      \"trait1\",\n      \"trait2\",\n      \"trait3\"\n    ],\n    \"internal_conflict\": \"[Desire vs sabotage]\",\n    \"behavior_patterns\": [\n      \"[Habit 1]\",\n      \"[Habit 2]\",\n      \"[Habit 3]\"\n    ],\n    \"emotional_baseline\": \"[Default state + shift speed]\"\n  },\n  \"performance_direction\": {\n    \"expression_notes\": [\n      \"micro-expressions\",\n      \"no staged symmetry\",\n      \"transitional emotion\"\n    ],\n    \"body_language\": {\n      \"posture\": \"[Tendencies]\",\n      \"movement\": \"[Rhythm]\",\n      \"idle_behavior\": \"[Fidget/stillness]\"\n    }\n  },\n  \"wardrobe\": {\n    \"primary_outfit\": [\n      \"[Garment 1: fabric + wear]\",\n      \"[Garment 2: fit + stitching]\",\n      \"[Layering logic]\"\n    ],\n    \"footwear\": \"[Material + wear]\",\n    \"accessories\": \"[Functional + character items]\",\n    \"props\": \"[Recurring objects]\"\n  },\n  \"materials_textures\": {\n    \"fabric\": \"visible stretch, wrinkles, stitching\",\n    \"surface\": \"no plastic look unless intentional\",\n    \"skin\": \"soft light bounce\",\n    \"imperfections\": \"dirt, aging, smudges\"\n  },\n  \"turnaround\": [\n    \"front_view\",\n    \"3_4_view\",\n    \"side_view\",\n    \"back_view\",\n    \"3_4_back_view\"\n  ],\n  \"head_study\": {\n    \"views\": [\n      \"front_neutral\",\n      \"3_4_primary_expression\",\n      \"profile\",\n      \"looking_down_[emotion]\",\n      \"looking_up_[emotion]\",\n      \"dynamic_angle_[intense_emotion]\"\n    ]\n  },\n  \"cinematic_portrait\": {\n    \"environment\": \"[Story-driven location]\",\n    \"lighting\": \"[Practical + ambient]\",\n    \"color_tone\": \"[Warm/cool palette]\",\n    \"expression\": \"[Narrative moment]\",\n    \"camera\": \"[Lens + shallow DOF]\"\n  },\n  \"camera_lighting\": {\n    \"full_body\": {\n      \"lens\": \"35mm\",\n      \"lighting\": \"soft key + bounce\",\n      \"exposure\": \"natural\"\n    },\n    \"portrait\": {\n      \"lens\": \"85mm\",\n      \"depth_of_field\": \"shallow\",\n      \"focus\": \"eyes\"\n    }\n  },\n  \"composition_layout\": {\n    \"background\": \"neutral gray\",\n    \"elements\": [\n      \"height scale\",\n      \"annotation callouts\",\n      \"wardrobe breakdown\",\n      \"production notes\"\n    ],\n    \"style\": \"premium studio board\"\n  },\n  \"style\": {\n    \"type\": \"[e.g. Pixar-style realism]\",\n    \"features\": [\n      \"appealing exaggeration\",\n      \"soft geometry\",\n      \"cinematic lighting\",\n      \"high emotional readability\"\n    ]\n  },\n  \"consistency_rule\": \"no variation across views\",\n  \"output_quality\": [\n    \"high detail\",\n    \"sharp focus\",\n    \"production-ready\",\n    \"pitch-deck quality\"\n  ]\n}",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202605/1778076585984-glahqnud-1778076587493-1.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：turnaround",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "anime",
+                    "character"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "anime_manga_comic",
+          "name": "漫画分格",
+          "presets": [
+            {
+              "id": "opennana_japanese-style-heartwarming-four-panel-comic-prompt",
+              "name": "日式温情治愈四格漫画手绘风格",
+              "type": "prompt",
+              "prompt": "{subject}, 生成一组四格日式温情漫画，干净手绘动漫线稿风格，温暖米棕色与浅棕色单色调，柔和奶油色背景，简单柔和阴影，整体温馨治愈氛围。画面比例：正方形1:1，标准2x2四格布局，每格之间用细棕色边框分隔。顶部标题：大字「夫婦の日」，左右各加一颗小心心，手写感深棕色。\n【四格内容】\n第1格：年轻亚洲情侣站立肖像。男人站在女人身后，双手轻轻放在她肩上，两人微笑看向镜头。\n第2格：情侣坐在温馨室内，双手捧着马克杯，相视而笑。女人对话框清晰写着中文：「谢谢你一直陪着我。」白色圆角对话框，黑色清晰文字。\n第3格：情侣一起在厨房做饭。两人并肩站在灶台前，男人搅拌，女人帮忙，表情专注又幸福。\n第4格：情侣紧紧拥抱。男人低头轻轻亲吻女人的额头，女人闭眼微笑。\n【角色一致性强制要求】\n两个角色从第1格到第4格必须保持完全同一张脸、同一发型、同一服装、同一身材比例。禁止任何漂移。\n男人：短发、温和长相、穿简单毛衣或衬衫。\n女人：中长发、温柔长相、穿家居感衣服。\n【风格与质感】\n干净手绘动漫线稿，单色调温暖米棕+浅棕+奶油白，简单阴影，像日式生活漫画或治愈系插画。\n【文字要求】\n对话框内中文必须正确、清晰、无乱码、无变形。避免：写实摄影、3D渲染、鲜艳色彩、复杂背景、角色脸崩、文字乱码、廉价贴纸感。 核心逻辑角色跨图一致性 + 中文零乱码 = 终于能稳定讲故事",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202607/1785508645558-dpi3bnhr-1785508646622-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：漫画 / 四格",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "opennana_4-panel-celebrity-caricature-portraits-collection",
+              "name": "四格名人夸张搞笑漫画肖像合集",
+              "type": "prompt",
+              "prompt": "{subject}, 创建一个包含埃隆·马斯克、唐纳德·特朗普、克里斯蒂亚诺·罗纳尔多和维拉特·科利的四格超级搞笑漫画肖像合集，采用完全相同的夸张风格。每个角色都应该露出巨大的露齿笑容，牙齿洁白且特大，闭着眼睛沉浸在纯粹的快乐中，脖子又长又细，大耳朵，巨大的脑袋，面部特征略显夸张但仍能一眼辨认。保持极简的暖米色背景，柔和的绘画风格数字笔触，整洁的光影，以及精致的卡通插画风格。每个角色都穿着他们的标志性装束：埃隆·马斯克穿着黑色T恤或受SpaceX/特斯拉启发的服装，唐纳德·特朗普穿着海军蓝西装配鲜红色领带，克里斯蒂亚诺·罗纳尔多穿着白色足球球衣，维拉特·科利穿着印度队的蓝色板球球衣。居中构图，纵向取景，高细节数字绘画，幽默而又不失高级感，富有表现力，异想天开的比例，平滑的纹理，无文字，无水印，4K画质。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202606/1782616831419-7dojyuk8-1782616834527-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：漫画 / 四格",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            }
+          ]
+        },
+        {
+          "id": "anime_manga_chibi",
+          "name": "Q 版角色",
+          "presets": [
+            {
+              "id": "opennana_anime-doodle-alt-girl-character-study-y2k",
+              "name": "凌乱黑发Y2K少女动漫涂鸦角色设定集",
+              "type": "prompt",
+              "prompt": "{subject}, 动漫涂鸦艺术拼贴，一个乱蓬蓬黑发女孩的角色研究表，穿着有星星的红色露脐上衣，带链条的黑色宽松长裤，超大耳机，厚底运动鞋，网袜。一页上有多个姿势：全身、面部特写、Q版、眼睛细节。每幅画周围都有手写的凌乱笔记和引言，如“我的缪斯”、“着迷”、“美到令人心碎”、爱心、星星、涂鸦。写生簿风格，铅笔+数字艺术，粗糙线条，白色背景，y2k美学，垃圾摇滚，非主流少女，日记剪贴簿氛围。底部有“我的作品”和“禁止转载”字样。高细节",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202605/1780145119872-trlwmdck-1780145125701-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题大类＋正文子类证据：Q版",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "动漫",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_anime-storyboard-chibi-girl-crystal-dango-night-market",
+              "name": "专业动画分镜脚本水晶团子少女",
+              "type": "prompt",
+              "prompt": "{subject}, 专业动画分镜脚本，用于15秒电影感美食短片。画面序列展示：一位留着银色短发、紫色瞳孔闪烁、穿着宽大紫红色小熊猫连帽衫的Q版动漫少女，在日本夜市制作发光的水晶团子。分镜1：特写，金色热糖浆从金属杯中缓缓倒在闪亮的钢制桌面上，带有电影感反射。分镜2：中景，可爱的动漫少女带着羞涩脸红的表情在发光糖浆后等待。分镜3：微距镜头，双手在竹签周围拉伸粘稠透明的发光糖果。分镜4：特写，长而光滑的糖丝被平滑拉起，伴有魔法火花。分镜5：侧视角，将发光的水晶糖球放在反光金属桌面上的竹签上。分镜6：英雄镜头，垂直握住完成的发光水晶团子串，背景是色彩斑斓的夜市虚化灯光。分镜7：电影感特写，用竹签小心地戳亮晶晶的糖球。分镜8：用锋利的刀切割糖果，创造出脆脆的水晶质感和火花粒子。分镜9：快乐的动漫少女拿着做好的发光水晶团子对着镜头露出可爱的笑容。分镜10：最终展示镜头，带有脸红和温馨的灯笼光影。漫画分镜布局，黑白草图面板结合电影感动漫阴影，镜头角度备注，平滑过渡，治愈系美食制作视觉效果，极高细节的动漫分镜艺术，温馨的日本祭典氛围，ASMR短片策划表，专业动画制作看板，动态构图，电影级光影笔记，热门动漫短视频审美。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202605/1778672983008-92q7lrou-1778672984928-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：Q版",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "动漫",
+                    "动画"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_chibi-girl-morning-routine-3d-sequential-strip",
+              "name": "Q版少女治愈晨间日常三格漫画",
+              "type": "prompt",
+              "prompt": "{subject}, 创建超详细的3D风格化三格序列画，水平帧纵向堆叠，每一帧描绘家庭早晨的日常生活。场景1：阳光明媚的厨房里，一个Q版可爱的女孩正在煮咖啡；场景2：她站在炉灶旁煎蛋；场景3：她在餐桌旁享用早餐，一只可爱的毛茸茸的小猫坐在她身边。柔和的电影级光影，8K超高清。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202605/1778488551729-favb3vi7-1778488552085-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：漫画 / Q版",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "opennana_ultra-realistic-pixar-anime-pokemon-sketchbook-collage",
+              "name": "极精细宝可梦皮克斯动漫风格生活速写剪贴画",
+              "type": "prompt",
+              "prompt": "{subject}, 创建一个高度详细的正方形 1:1 插图，采用超写实动漫 + 皮克斯启发的混合风格，设计得像一个动态的速写剪贴簿页面。\n\n图像展示了我与我最喜欢的宝可梦在多个日常生活场景中的互动，所有这些都结合在一个连贯且情感丰富的构图。\n\n场景应该感觉像是一个活生生的记忆剪贴画——多个重叠的小场景与电影照明和柔和的景深无缝融合。\n\n描绘我在不同时刻与宝可梦在一起的不同全身姿势，例如游戏、学习、烹饪、购物、健身房锻炼、公园散步、在家休息、办公室工作、旅行以及调皮的互动。\n\n每一刻都应展示不同的服装、表情和情绪，同时在所有场景中保持一致的角色身份。\n\n风格：\n超写实的类皮克斯面部特征（柔软的皮肤、富有表现力的眼睛、自然的比例）\n结合细致的动漫美学（锐利且富有表现力的线条感、情感夸张）\n具有温暖高光和柔和全局照明的电影化灯光\n景深丰富的构图，具有浅焦和分层的前景/背景分离\n高度细致的纹理（织物、发丝、环境反射）\n微妙的速写本叠加感（轻微的铅笔痕迹、概念涂鸦活力）\n\n加入俏皮的 Q 版迷你涂鸦、漂浮图标、手写风格笔记和柔和的情感符号，微妙地融入环境而不破坏写实感。\n\n背景：纯白色或柔和发光的自然背景，但在视觉上丰富了淡淡的草图碎片和浅色水洗——没有僵硬的布局，没有方框。\n\n宝可梦：[在此处插入你最喜欢的宝可梦]\n\n整体氛围：情感、电影感、怀旧且神奇——就像皮克斯电影剧照结合动漫概念艺术图。\n\n确保在混乱的多场景构图中保持强大的视觉和谐。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202605/1779600393067-b04bu2gh-1779600394215-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：Q 版",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "动漫",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_healing-chibi-vintage-cel-animation-female-characters",
+              "name": "治愈系Q版复古赛璐璐动画女性角色",
+              "type": "prompt",
+              "prompt": "{subject}, 主题：动漫或游戏女性角色 × Q版造型 × 复古赛璐璐动画 × 治愈系艺术留白\n\n每张独立选择一位具有鲜明辨识度的动漫或游戏女性角色，统一转化为约三头身的Q版造型，头部圆润，躯干与四肢短小。保留标志性的发型、服装轮廓、代表配色与少量关键配饰，细节简练。表情与动作贴合角色性格，呈现温暖、有趣的生活瞬间。\n\n复古手绘赛璐璐动画风格，清楚自然的手描轮廓，均匀平涂的颜色，少量边界明确的阴影。头发、皮肤与服装均以简洁色面表现，配色温润，角色标志色清晰。\n\n每张围绕一个简单互动展开，道具与局部环境服务于人物动作，背景概括轻淡。以疏密变化经营构图，在人物周围保留大面积暖白或浅色空间，形成自然、舒适的艺术留白。\n\n在合适的留白位置，以小巧自然的手写字体标注角色的通行中文名称，下方配对应的官方英文名，英文略小。无官方英文名时采用通行罗马字写法。中英文准确对应、清晰可读，作为轻淡点缀，与整体画风协调。\n\n每张重新独立抽卡，自由探索不同角色、情绪、姿态、场景、视角与构图。同批角色不重复，主要动作与构图避免雷同。\n\n9:16竖版。\n\n左下签名：深蓝色实心圆点在前，白色手写体「DeepBlue」在后，圆点与文字之间保留一个空格。\n\nn=10，每张独立生成一张完整图片，分别输出，不拼图。\n\n——————————\n\n主题：动漫或游戏女性角色 × Q版造型 × 复古赛璐璐动画 × 治愈系艺术留白\n\n每张独立选择一位具有鲜明辨识度的动漫或游戏女性角色，以头大身小、圆润简练的Q版造型呈现。保留标志性的发型、服装轮廓、代表配色与少量关键配饰，繁复细节适度概括。表情生动自然，动作贴合角色性格，呈现温暖、有趣的生活瞬间。\n\n采用复古手绘赛璐璐动画风格，清楚的手描轮廓，均匀平涂色块，明暗以少量硬边阴影概括。人物色面干净，配色温润，保留鲜明的角色标志色。\n\n遵循少即是多的艺术构图，每张围绕一个简单互动展开，仅保留与动作有关的少量道具和局部环境。背景以概括的水粉色块轻轻暗示，细节克制，大面积暖白或浅色留白自然穿插于人物周围，画面疏朗、轻松。\n\n在合适的留白位置，以小巧自然的手写字体标注角色的通行中文名称，作为轻淡点缀。\n\n每张重新独立抽卡，自由探索不同角色、情绪、姿态、场景、视角与构图。同批角色不重复，主要动作与构图避免雷同。\n\n9:16竖版。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202610/1792486170479-u50rioi5-1792486177120-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：赛璐璐 / Q版",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "opennana_minimalist-food-tug-of-war-advertisement",
+              "name": "极简可爱创意食物拔河广告",
+              "type": "prompt",
+              "prompt": "{subject}, 一个有趣的极简主义产品广告，背景为干净的纯白色。一只写实的人手从左上角伸入，轻轻握住并以微小的对角线角度举起一个超大尺寸的食物或饮料。与矮小的角色相比，该产品显得巨大。一个可爱的 Q 版卡通小孩正拼命用双手紧抱并拉扯这个巨大的产品，双脚在地面上向后滑动，营造出一种有趣的拔河效果。孩子有着夸张的面部表情，大眼睛、惊恐的泪水、红红的面颊、汗滴、速度线、动态模糊标记，脚后还有微小的尘土云以强调其努力。角色上方有一个手绘的漫画气泡，上面写着：“还没吃完呢！！”卡通角色采用干净的黑色轮廓、柔和的淡雅色彩、富有表现力的动漫风格特征、硕大的头部、娇小的身体和动态的动作姿势绘制。食物/饮料极其写实，具有高度细致的纹理、新鲜的食材、鲜艳的色彩和高端商业美食摄影灯光。写实的物体与可爱的 2D 插图形成了美丽的对比。极简构图，大量留白，明亮的高调照明，柔和的阴影，现代广告美学，可爱插图与写实产品摄影相结合，趣味社交媒体活动风格，高端商业品质，超高清细节，8K。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202607/1783394475774-mf4b4yxa-1783394478295-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：Q 版",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "漫画",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_real-to-anime-chibi-transformation-prompt",
+              "name": "真实照片转二次元动漫分屏效果",
+              "type": "prompt",
+              "prompt": "{subject}, 使用你的参考图像\n\n一张电影感的 1x2 分屏图像，展示了基于所提供参考图像的神奇转变。左侧：展示参考图像中人物的真实、写实照片，保持其精确的面部特征、当前发型、表情和服装。\n\n右侧：同一个人物被转化为现代网络漫画艺术风格的 2D 魔法动漫 Q 版角色。卡通版本必须具有清晰的黑色轮廓、柔和的柔和色调、超大的闪烁宇宙眼睛和玫瑰色渐变脸颊，同时严格保留左侧人物的核心身份、发型和表情。\n\n一道微妙的、发光的蓝色和金色星尘轨迹交织在中心分界线上，在视觉上将真实照片与动画化身联系起来。右侧采用优质、略带纹理的米白色奶油色纸张背景。杰作，超洁净数字艺术，完美对称的构图。 --ar 16:9",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202607/1783155653941-6oyaox67-1783155656454-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：Q 版",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "漫画",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_realistic-girl-vs-chibi-anime-comparison",
+              "name": "现实少女与二次元Q版对比构图",
+              "type": "prompt",
+              "prompt": "{subject}, 在浅灰色无缝影棚背景上创建一个干净的并排构图。\n\n左侧：\n女孩的超写实全身肖像，以可爱的俏皮姿势站立，一条腿抬起在身后，对着镜头温柔微笑。她穿着一套得体、全覆盖的服装，包括一件带有高领的修身长袖巧克力棕色针织上衣，一条及膝以下的奶油色A字中裙，白色短袜和白色运动鞋。她背着一个浅蓝色斜挎包，上面有一个小泰迪熊挂件。自然的身材比例，真实的织物纹理，柔和的影棚光线，专业时尚摄影。\n\n右侧：\n同一女孩的可爱Q版动漫版本，具有相同的发型、五官、服装、姿势、蓝色斜挎包、泰迪熊挂件、白袜和运动鞋。大而闪烁的眼睛，柔和的腮红，可爱的微笑，高质量的动漫插画，轮廓干净，阴影平滑。\n\n背景：\n极简浅灰色影棚背景，两个角色周围有手绘的黑色涂鸦点缀，包括动作线、闪烁标记和俏皮的素描元素。\n\n光线：\n柔和的扩散影棚光线，均匀照明，真实的肤色，温柔的阴影，优质社论摄影感。\n\n相机：\n佳能 EOS R5，50mm 镜头，f/2.0，平视构图，浅景深，超锐利对焦。\n\n质量：\n超写实，写实摄影，8K，HDR，高度精细，真实的皮肤纹理，地道的织物细节，干净的构图，优质影棚肖像。\n\n宽高比：\n--ar 4:5\n\n负面提示词：\n暴露的衣服，无袖，露脐装，深领口，乳沟，透明面料，迷你裙，短裤，内衣，模糊，低质量，多余的手指，扭曲的解剖结构，水印，文本，标志。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202607/1782996329752-nbmbhyw2-1782996331906-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：二次元 / Q版",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "opennana_adorable-chibi-muslim-couple-illustration",
+              "name": "简约可爱穆斯林情侣Q版动漫插画",
+              "type": "prompt",
+              "prompt": "{subject}, 萌系简约Q版穆斯林情侣，可爱的卡哇伊动漫插画，超大闪亮的眼睛，柔和的红润脸颊，微小的全身角色居中于纯色淡蓝色背景，带有大量负空间，干净的矢量风格数字艺术，平滑的渐变，角色下方有微妙的柔和阴影，极简干净的构图。\n\n男孩有着蓬松的棕色头发，穿着深蓝色大号连帽衫、蓝色牛仔裤、潮流运动鞋，手里拿着智能手机温暖地微笑。女孩戴着配套的深蓝色头巾，穿着大号连帽衫、蓝色牛仔裤、可爱的运动鞋，背着单肩包，正在读一本小书。两人都略微倾向对方，有着甜蜜的眼神交流，温馨健康的关系，情侣装，纯真的浪漫氛围，柔和的光线，粉彩色调，高度详细的衣褶，精美的卡通渲染，高级贴纸插画风格，清晰的线条艺术，现代卡哇伊美学，8K。\n\n风格关键词：\n卡哇伊，Q版，动漫情侣，穆斯林情侣，头巾，可爱插画，简约背景，粉彩美学，温馨，柔和阴影，干净的数字绘画，萌系表情，亮晶晶的眼睛，高质量，壁纸风格。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202606/1782617268176-i8xa23a3-1782617270607-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：动漫 / Q版；按明确交付物优先于媒介",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            }
+          ]
+        },
+        {
+          "id": "anime_manga_scene",
+          "name": "动漫场景",
+          "presets": [
+            {
+              "id": "opennana_anime-girl-silver-hair-purple-eyes-stone-bench",
+              "name": "长银发紫眸忧郁动漫少女石凳背景",
+              "type": "prompt",
+              "prompt": "{subject}, 动漫少女，长而飘逸的银色头发，紫色眼睛，坐在石凳上，忧郁悲伤的表情。穿着优雅的白色和淡紫色露肩连衣裙，带有束腰细节，蕾丝边大腿袜，小发饰。周围环绕着旧石墙上的攀援白玫瑰和藤蔓，柔和的体积光，穿过叶子的丁达尔效应光束，斑驳的阴影，梦幻般的氛围，空灵，精致，高度详细，动漫主视觉图风格，柔和色调，8k，杰作",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202606/1780411409665-gjk4uoj5-1780411410201-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：动漫 / 背景",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "opennana_anime-style-basketball-player-in-boxing-bg",
+              "name": "动漫风篮球手拳击背景图",
+              "type": "prompt",
+              "prompt": "{subject}, This artwork depicts a male basketball player in action, shot from a stunning low-angle lens perspective. He exudes a graceful, athletic posture in a semi-realistic anime style, his movements vibrant and lifelike, as if he were a professional athlete. The backdrop is a modern boxing setting, featuring speed lines, powerful motion blur effects, and a clean white color palette. It's drawn with incredibly fine ink lines mixed with watercolor and delicate cell shading Elegant manga fashion aesthetic, meticulously detailed hair and clothing movements, exquisite anatomy, sports movie poster-style graphic elements, a masterpiece of the highest quality, extremely high detail, 8k illustration",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202605/1778430221412-rgrmuz02-1778430221884-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：动漫 / 背景",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "opennana_japanese-woman-manga-cooking-wall",
+              "name": "日本女性与背景烹饪漫画墙",
+              "type": "prompt",
+              "prompt": "{subject}, 16：9\n20歲日本女性\n休閒極短裙裝\n人站在一道白牆中央，雙手張開像是讓大家欣賞背後的畫作\n背後的牆上全部畫著以她自己的形象畫的黑白漫畫，內容是以誇張的做菜方式",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202610/1791087569884-i0jglcal-1791087573122-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：漫画 / 背景",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "opennana_cinematic-fantasy-comic-character-emerging-real-world",
+              "name": "少年卧室漫画角色穿越现实奇幻场景",
+              "type": "prompt",
+              "prompt": "{subject}, 超细致的电影感奇幻场景。在一个凌乱的青少年卧室里，墙上贴满了漫画海报，地上散落着衣服和游戏配件，伴有温暖的环境光。一本巨大的、与[角色]匹配的插图漫画书斜靠在墙上，巨大的细节页面上充满了与[角色]相关的戏剧性艺术作品、符号、环境和叙事元素。在页面中央一个锯齿状的撕裂孔中，[角色]突然跨步进入现实世界。该角色穿着符合其身份和时代的真实服装、盔甲、配饰和视觉细节。他们的脸上露出震惊、瞪大眼睛的惊讶表情，嘴巴微张，难以置信地对现代卧室环境做出反应。动态的跨步姿势正从撕裂的漫画页中浮现，伴随着飞舞的纸碎片。电影级景深，真实纹理，戏剧性阴影，高度细致的服装设计，将漫画插图与超现实摄影融合，沉浸式的叙事氛围，超写实，8k，纵向构图。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202605/1779067945545-fn89nul7-1779067945994-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：漫画 / 场景",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "opennana_professional-woman-manga-collage-portrait",
+              "name": "漫画拼贴背景前的职场女性写实人像",
+              "type": "prompt",
+              "prompt": "{subject}, 超写实的全身人像，一位充满自信的年轻职场女性站在巨大的漫画/连环画拼贴背景中心。女性是唯一的彩色主体，而整个背景保持着详细的黑白漫画艺术作品。她留着中等长度的波浪状深红褐色头发，五官柔和，皮肤温暖白皙，自然妆容，棕色眼睛，神情冷静自信。她面向镜头站立，双手随意地放在剪裁得体的白色西装外套口袋里。她穿着时尚的白色商务西装，内搭黑色缎面背心，优雅的黑色阔腿裤和黑色尖头高跟鞋。她的姿势放松而有力，双腿微微交叉，传达出自信和专业。她身后是细节丰富的单色漫画分镜构图，展示了她生活和职业生涯中的多个场景：一个拥挤的地铁/火车场景，她在通勤者包围中开心地大笑。一个现代办公环境，她正专注地在笔记本电脑上工作。一个城市街道场景，有摩天大楼和都市建筑，她自信地穿过市中心。一个内容创作者/视频博主场景，她手持安装在手持云台上的专业相机。一个温馨的社区场景，她与微笑的孩子们互动。漫画分镜采用清晰的黑色墨水线稿、网点阴影、漫画动作效果、对话框、日漫音效、动态分镜边框和专业的连环画叙事构图。中心主体清晰聚焦，背景略微弱化以实现深度分离。女性身上有影棚级光影，微妙的轮廓光，真实的皮肤纹理，电影感对比度，奢侈社论摄影风格，极细致的面料纹理，写实渲染，高端时尚杂志美学，完美的人体结构，景深，8K分辨率，大师之作，戏剧化而优雅的构图。风格关键词：写实，漫画拼贴背景，混合媒体构图，时尚社论，电影光影，职场女性，单色漫画分镜，奢侈人像摄影，极高细节，锐利对焦，景深，8k，大师之作，高度细节，真实纹理。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202605/1780146353048-2kdoz1k8-1780146368869-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：漫画 / 背景",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            }
+          ]
+        },
+        {
+          "id": "anime_manga_animation_frame",
+          "name": "动画画面",
+          "presets": [
+            {
+              "id": "opennana_vertical-modern-chinese-comic-style-transfer",
+              "name": "竖版上下对比现代国漫转绘设计稿",
+              "type": "prompt",
+              "prompt": "{subject}, 严格生成一张竖版上下对比转绘图：上半部完整保留输入真实照片的主体身份、人数、动作、视角与场景；下半部将同一主体转译为现代中国漫画与国产二维动画人物设计。使用克制、均匀而流畅的深色细轮廓线，古典修长眉眼，概括但准确的面部结构，清晰平涂色块，低饱和青绿、米白与从原照片提取的少量辅助色；阴影只用一至两级干净色面，不做写实明暗。把原人物衣褶、头发、道具或环境动势延展为飘带般长弧线和书法式速度线，但必须保持原动作可辨。背景高度简化为大面积暖白纸、青绿几何色面、少量云纹或从原场景提取的轮廓，不堆叠景物。仅加入非常轻微的纸面颗粒，使画面像当代中国漫画角色设定稿或国产二维动画关键帧。上下各占约一半，水平边界清晰；禁止水墨画、工笔重彩、敦煌壁画、古画卷轴、复杂祥云堆叠、写实厚涂、3D渲染、日漫大眼脸、欧美漫画、照片滤镜、左右并排、九宫格、改变人物数量与姿态、复制人物、过度仙侠特效、文字角标、水印以及“原图/AI图”标签。人物服装不必固定汉服：现代服装、运动装、民族服饰和旅行穿搭均应依据原照片进行国漫化设计。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202610/1791812644391-tpg21mii-1791812644962-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：动画关键帧",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "漫画",
+                    "平涂",
+                    "动画"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "anime_manga_pending",
+          "name": "待细分",
+          "presets": [
+            {
+              "id": "opennana_anime-character-worldview-archive-card-poster",
+              "name": "高信息量动漫角色世界观设定档案卡",
+              "type": "prompt",
+              "prompt": "{subject}, 请生成一张高完成度的「角色世界观档案卡」。\n\n【基础设定】\n主题角色：【角色名称】  \n所属作品：【作品名称】  \n角色定位：【主角 / 反派 / 导师 / 战士 / 法师 / 忍者 / 调查兵团兵长 / 咒术师 / 精灵魔法使等】  \n主标题文字：【必须准确显示角色中文全名，例如：漩涡鸣人】  \n副标题文字：【可填写角色称号 / 短标语 / 角色定位】  \n画幅比例：【3:4 竖版】  \n主色调：【如黑橙、黑蓝、黑红、银蓝、黑白灰等】  \n点缀色：【如火焰橙、电光蓝、猩红、金色、冷白光等】  \n核心能力：【如螺旋丸、九尾之力、无量空处、立体机动装置、古代魔法等】  \n标志元素：【如狐狸虚影、火焰、机械装置、星辉法阵、蓝色能量、废墟高塔等】  \n\n【整体风格】\n这不是普通人物插画，也不是简单角色卡，而是一张“高信息密度 + 强视觉冲击 + 角色设定感 + 海报级完成度”的动漫角色档案海报。  \n整体风格融合：角色立像海报、视觉档案设计、中文排版海报、设定集封面、动漫周边收藏卡、高级杂志编排感。  \n要求画面精致、清晰、酷、有冲击力，同时具备完整的信息结构与系列感。\n\n【构图要求】\n采用强烈的“斜对角分割构图”：\n- 左上区域为浅色留白区 / 纸张质感区 / 档案信息区\n- 右下区域为深色氛围区 / 能量区 / 世界观场景区\n- 中间由一条明显的斜切边界分开，形成强烈的视觉张力\n- 角色完整全身站在画面中央，略偏中间，正面向前走来或坚定站立\n- 人物必须完整，不要裁掉头部、脚部，不要被文字遮挡\n- 角色要有明确主角感、压迫感、登场感\n\n【人物表现】\n角色面部清晰，五官准确，符合该角色的典型气质与核心特征。  \n服装、发型、武器、护具、装置、饰品等要具有高辨识度。  \n姿态建议为：向前行走、坚定站立、正面出场、带有轻微动态。  \n角色周围可加入与其能力相关的能量特效、烟雾、火焰、粒子、法阵、查克拉、电流、星辉等元素，增强画面冲击力。\n\n【背景与世界观】\n背景要与角色设定强关联：\n- 浅色区：可带有旧纸、磨损纸张、档案纹理、墨痕、留白、印章感、细线框\n- 深色区：可带有废墟、夜空、火焰、能量漩涡、机械装置、古城遗迹、战场、法阵、烟尘、远景建筑等\n- 背景要有氛围，但不能喧宾夺主\n- 角色后方可以加入半透明的巨大汉字底纹，增强设计感\n\n【文字与排版系统】\n所有主要信息统一改为中文排版，强调“中文角色档案海报”的视觉气质。  \n主标题必须准确显示：【角色中文全名】。  \n主标题建议用超大中文书法字 / 毛笔感字形 / 有冲击力的大字排版，放置在左上浅色区，允许竖排、断行、错位排版。  \n可以加入一个较小的副标题标签，例如：\n- 最强咒术师\n- 忍者档案\n- 调查兵团兵长\n- 千年精灵魔法使\n- 火焰之柱\n\n【信息模块建议】\n画面中加入完整但简洁的档案信息模块，建议包含以下内容中的 5–8 项：\n- 身份\n- 阵营\n- 目标\n- 武器 / 装置\n- 核心术式 / 核心技能\n- 评级\n- 代号\n- 信念\n- 羁绊\n- 作战风格\n- 能力评估\n- 档案记录\n- 角色语录\n\n例如可做成左侧横条信息栏、右侧小模块说明框、下方短段落档案备注等。\n\n【图形与装饰系统】\n加入现代中文视觉设计元素：\n- 斜切信息条\n- 细线边框\n- 几何辅助线\n- 小型数据标签\n- 编号\n- 坐标\n- 评级条\n- 小型说明框\n- 红色印章 / 黑色印章\n- 墨迹飞溅\n- 断裂纹理\n- 半透明大字底纹\n\n注意图形元素是辅助，不要过多堆满，不要做成杂乱的PPT。\n\n【画面气质】\n整体要：\n- 高级\n- 清晰\n- 有收藏感\n- 有视觉冲击力\n- 有动漫角色设定集气质\n- 有中文海报的力量感\n- 有强烈主视觉\n- 有较高信息完成度\n\n【特别要求】\n1. 主标题必须准确显示：【角色中文全名】，不能缺字，不能错字。  \n2. 角色必须全身完整呈现。  \n3. 画面必须采用“斜对角切割”的版式，而不是普通左右平分。  \n4. 所有文字以中文为主，可少量搭配英文编号，但不能喧宾夺主。  \n5. 最终成品要像“动漫角色档案海报”，而不是普通宣传图。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202605/1778511656655-0eml7upy-1778511660809-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：commercial",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "commercial": [
+                    "海报",
+                    "标题",
+                    "版式"
+                  ],
+                  "anime_manga": [
+                    "动漫",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_anime-girl-reading-meadow-headphones",
+              "name": "草地读书的耳机少女动漫插画",
+              "type": "prompt",
+              "prompt": "{subject}, 动漫风格插画，一位留着及肩浅褐色头发的少女坐在开满鲜花的草地上，戴着白色头戴式耳机读书。身穿宽松的白色连衣裙和白色运动鞋，坐在草地上，身旁有一个粉色包包。侧面构图，微风拂过发丝。郁郁葱葱的绿地，点缀着白色野花，背景有大树，明亮的天空衬着柔和的云朵。温暖的漫射阳光，梦幻的光辉，宁静的春天氛围，高度精细的草地和花朵，电影般的深度，柔和的阴影，平和的情感基调。\n\n风格：\n艺术风格：动漫 / 半写实\n光影：温暖的漫射阳光\n氛围：梦幻、宁静\n\n构图：\n镜头角度：侧面视角、平视\n取景：中全景\n宽高比：1:1",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202606/1781266360146-oewqaokq-1781266362711-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "opennana_anime-gothic-fashion-design-concept-sketch-sheet",
+              "name": "红发前卫哥特风动漫角色设计图",
+              "type": "prompt",
+              "prompt": "{subject}, 图像概念：一个混合媒介、动漫风格的时尚设计和概念艺术素描图页，围绕一个拥有充满活力的波浪红发和前卫风格的角色展开，与原图的氛围相似，但有明显的改动。要包含的核心元素：风格：详细的角色插图、特写细节（如眼睛和手）以及简化的超变形（SD）“Q版”素描的结合，全部采用纹理纸背景上的手绘彩色铅笔和墨水艺术风格。主角插图：以一个处于动态姿势（例如自信地叉腰站立）的显著全身素描角色为特色。服装：一件带有复杂黑色系带的深红色露肩上衣，一条带有红黑格子不对称覆盖层的深灰色短百褶裙，黑色渔网袜和厚底黑色战斗靴。细节：添加大量配饰：带有银色骷髅扣和挂链的宽黑色皮革腰带，多条银色调项链（如十字架吊坠），一个黑色颈圈，以及镶有深色宝石的戒指。表情与情绪：角色具有自信且略带神秘的表情，画着深色眼线，可能还有一个小的鼻中隔穿孔。细节特写（代替眼睛）：手部：带长长的深色美甲（可能是黑色和银色的抽象设计）的手部详细画作，装饰着哥特式戒指。发型：显示深红色波浪发纹理的特写，可能带有一个红色小蝴蝶结或骷髅发夹。Q版角色：在页面周围散布较小的、可爱的Q版角色版本，展示不同的情绪（例如，一个带着小爱心的快乐Q版，一个看起来意志坚定的Q版等）。文字与涂鸦：显著地添加短语“DESIGNED BY RUZAINA”。包括手写风格的笔记和涂鸦，如“GOTHIC CHIC”、“RED VELVET DREAMING”、小星星、爱心、新月，可能还有一个小蝙蝠图标。布局：在米白色纹理纸背景上采用稍微不那么拥挤但仍具动态感的拼贴风格布局，赋予其艺术家真实素描本页面的感觉。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202605/1779599387791-mgvgkcqa-1779599388496-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：painting",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "painting": [
+                    "素描",
+                    "手绘",
+                    "铅笔"
+                  ],
+                  "anime_manga": [
+                    "动漫",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_art-nouveau-pokemon-trainer-anime-style",
+              "name": "新艺术风格宝可梦训练师二次元插画",
+              "type": "prompt",
+              "prompt": "{subject}, 使用我的照片，为我设计一张新艺术风格（蜿蜒、不对称的流线，以自然为基调的图案）的图像。图像的主角是我（2D 动漫风格），重新构想为一名宝可梦训练家（可爱、开心的表情，可爱书呆子风格时尚，佩戴长方形框眼镜，花卉主题），周围环绕着我最喜欢的宝可梦伙伴（在此指定宝可梦，或留空以随机生成）。宝可梦可以用鲜花、丝带、可爱的配饰或珠宝进行装饰。采用新艺术动漫风格。加入花卉（你可以指定特定品种，或直接删除这部分以随机生成）。主色调为柔和的粉彩色。在设计中融入标题（在此填入标题，或留空表示无文本）。整体氛围可爱且温馨。使用 3:4 的垂直纵横比。确保我的身体比例协调。修改设计。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202605/1778486892308-s23udyq7-1778486892817-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "opennana_demon-slayer-style-full-body-character-generator",
+              "name": "鬼灭之刃风格全身动漫角色生成",
+              "type": "prompt",
+              "prompt": "{subject}, 将上传的图像作为唯一的身份参考，并将主体转换为《鬼灭之刃》官方动画剧集风格的角色。视觉执行必须严格符合《鬼灭之刃》的美学，具有干净利落的线条、高质量的赛璐璐阴影、饱和且平衡的色彩，以及精致的电视动画质感。请勿包含任何漫画风格的素描、交叉排线、灰度或黑白渲染。必须完整保留主体的身份特征，包括其服装设计、发型与发色、配饰、肤色、面部表情和姿势，不得替换或删除任何物品。\n\n现有的服装应进行细微的风格化处理，融入受鬼杀队启发的细节，如更锐利的织物褶皱、略微增强的分层纹理和干净的动画面料处理，同时保持原始服装清晰可辨。角色必须遵循准确的《鬼灭之刃》比例，包括精瘦敏捷的体型、自然的动画解剖结构、带有强高光的传神动画眼睛、风格化的眉毛以及简化的动画鼻口。\n\n构图至关重要，必须从头到脚完整展示角色，确保脚、腿、躯干、手臂和头部全部可见。画框不应裁剪身体的任何部分，摄像机距离必须足够宽以捕捉全身形象，并在头顶上方和脚底下方留出少量空白，使角色舒适地位于画框内。输出必须是单张全身插图，角色在纯白色背景中居中，且不包含地面、阴影、风景、道具、武器、物体、特效、光环、粒子、运动线或环境细节。最终图像应仅包含该角色，严禁包含裁剪画框、多名角色、多面板输出、其他动漫风格（如《龙珠》、《火影忍者》或《海贼王》）、写实主义、绘画感或纹理渲染，以及任何背景元素或物体。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202605/1778511355967-alac3rhk-1778511358316-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "漫画",
+                    "赛璐璐",
+                    "动画"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_dragon-ball-goku-anime-character-sheet",
+              "name": "孙悟空动漫风完整角色设计图",
+              "type": "prompt",
+              "prompt": "{subject}, 为《龙珠》中的孙悟空创建一个完整的动漫风格角色设定稿，作为原创角色设计展示，采用干净的浅色背景。展示一个高度可辨识且忠于原著的孙悟空形象：黑色尖刺头发、开朗坚毅的面容、健壮的武术家体型，身穿橙色武道服配深蓝色内衬、蓝色护腕、蓝色腰带、带彩色装饰的蓝色靴子，并露出棕色的猴子尾巴。将设定稿呈现为专业的概念艺术，包含多个板块和整洁的面板布局。内容包括：全身正视图、侧视图、后视图、3/4 英雄姿态、战斗姿势、放松坐姿、大型头部特写，以及包含平静微笑、兴奋大笑、战斗专注、震惊喜剧表情和蓄力爆发状态的表情包。同时包括发型轮廓、靴子、手部、衣服褶皱和如意棒的细节标注。添加尺寸参考部分和色板。以精细的高品质动漫概念艺术风格渲染，线条干净，鲜艳的赛璐璐上色，排版易读，各视角比例一致，极具细节，专业的角色设计稿，无水印。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202605/1778645856611-sut6a8li-1778645857111-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "动漫",
+                    "赛璐璐",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_hollywood-luxury-anime-fashion-editorial-collage",
+              "name": "好莱坞奢华动漫时尚男大生拼贴画",
+              "type": "prompt",
+              "prompt": "{subject}, 创建一个高品质的 1:1 好莱坞风格奢华动漫时尚社论拼贴画，展示同一个时髦的日本大学男生动漫角色，并在所有画框中保持完美的脸部一致性。该角色应具有犀利的动漫面部设计（干净的下颌线、富有表现力的眼睛、精致的比例）以及超详细的半写实动漫阴影。包含多个电影化时刻：皮肤带有柔和光泽的特写美颜动漫肖像，穿着设计师街头服饰穿行在霓虹闪烁的东京街道，坐在现代大学教室内带着自信冷静的表情，带有风效的屋顶黄金时刻剪影，以及在豪华宿舍间里的时尚镜面自拍。使用电影化的动漫光效、柔和光晕、景深、胶片颗粒和奢华的社论构图。添加带有撕裂纸张纹理、光泽反射的分层杂志拼贴风格。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202605/1779452024390-p2ukheh4-1779452029797-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "动漫",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_hot-blood-bao-yu-sheet",
+              "name": "热血少年宝玉角色设定图",
+              "type": "prompt",
+              "prompt": "{subject}, 根据你对我了解的所有信息，制作一张我的少年漫风格动漫角色设定图，名字是宝玉",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1776828498339-ebv4wj9p-1776828501907-1.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "动漫",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_musk-trump-monochrome-caricature-portrait-sketch",
+              "name": "马斯克与特朗普黑白表现主义讽刺漫画",
+              "type": "prompt",
+              "prompt": "{subject}, 埃隆·马斯克和唐纳德·特朗普的表现主义单色讽刺漫画肖像速写，粗犷且充满活力的墨线，凌乱的涂鸦笔触，灰色马克笔晕染阴影，夸张的面部解剖结构，巨大的面部特征，戏剧性的皱纹，锐利的脸颊结构，混乱的发型细节，松散的素描本渲染，抽象的手绘瑕疵，社论讽刺插画风格，原始的艺术张力，黑色墨水排线阴影，极简白色背景，城市速写审美，自发的姿态绘图感，灰度色调，时尚艺术肖像氛围，当代表现力插画，高度详细的面部渲染与俏皮扭曲的写实主义。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202605/1779073711568-mqe8nrwh-1779073711993-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：painting",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "painting": [
+                    "素描",
+                    "笔触",
+                    "手绘",
+                    "晕染"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_mysterious-pirate-empress-anime-character-sheet",
+              "name": "神秘海贼女皇高端动漫角色设定集",
+              "type": "prompt",
+              "prompt": "{subject}, 高端动漫制作角色设定图，展示了一位神秘的海贼女皇，拥有柔顺的黑色长发，身着优雅的深红战斗礼服，配有金边海军铠甲装饰和飘逸的礼仪披风。包含全身旋转图、甲板战斗姿态、王座优雅坐姿、倚靠栏杆姿态、面部表情变化、服装结构细节、珠宝微距特写、武器设计（华丽弯刀）、手写设计注释，以及典型专业日本动画工作室的结构化布局。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202605/1778488030551-q5islvp2-1778488031100-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "动漫",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_pokemon-tcg-trainer-card-illustration",
+              "name": "动漫风格宝可梦训练家全绘卡牌插画",
+              "type": "prompt",
+              "prompt": "{subject}, 生成一张干净的宝可梦集换式卡牌（TCG）全绘设计数字插画，呈现为扁平的扫描样式数字资产。将照片中的人物转化为保持其特征的动漫风格宝可梦训练家，并与一只特定的宝可梦共同呈现动态动作姿态。背景应包含与该宝可梦属性相匹配的强烈元素能量，采用鲜艳的色彩、锐利的赛璐璐阴影，以及典型的 TCG 布局元素，如 HP、名称和招式描述。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202605/1778473876542-1gfifx4h-1778473876947-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "动漫",
+                    "赛璐璐"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_real-anime-snapshot",
+              "name": "真实动漫画面快照",
+              "type": "prompt",
+              "prompt": "{subject}, 向我展示这张附带的图像作为一部真实动漫的快照",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1776648147046-wpaonk6a-1776648147469-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "opennana_semi-realistic-anime-korean-boy-moodboard",
+              "name": "韩系少年动漫时尚情绪板设计",
+              "type": "prompt",
+              "prompt": "{subject}, (半写实动漫时尚情绪板)，时髦的年轻韩国男孩，拥有(凌乱的黑发)，(圆框眼镜)，温柔自信的表情，大廓形蓝色条纹衬衫内搭白色T恤，轻松的街头服饰风格。周围环绕着(手绘角色草图)、漫画分镜、涂鸦、星星、爱心、手写笔记、学习瞬间、咖啡杯、耳机、相机草图和生活方式插图。(纯净的白色背景)，(墨水与铅笔混合纹理)，(动漫时尚社论)，(角色设计板)，(柔和蓝色美学)，超精细，干净的线条，细腻的赛璐璐阴影，杂志封面风格，8K杰作。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202606/1780838410657-rq5lz0l2-1780838418790-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "动漫",
+                    "赛璐璐",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_street-style-minimalist-caricature",
+              "name": "街头风格极简夸张漫画画像",
+              "type": "prompt",
+              "prompt": "{subject}, 将照片转换为一幅街头现场画像，以最少的线条来实现，故意用夸张的手法将人物表现为一个漫画人物",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202605/1779278004895-zkr1y7co-1779278006962-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "opennana_stylish-anime-fashion-girl-mirror-selfie-streetwear",
+              "name": "极简白底动漫时尚女孩镜前自拍",
+              "type": "prompt",
+              "prompt": "{subject}, 一位时尚的动漫灵感时尚女孩在干净的白色背景前进行镜面自拍，柔和分层的凌乱金色短波波头，头上戴着大号黑色墨镜，灰色大号西装外套内搭黑色短款上衣，层叠的奶油色薄纱裙，下面穿着破洞宽松牛仔裤，厚底运动鞋，亮面黑色单肩包，多条银色项链和戒指，柔和的粉彩色中性色调，素描般的绘画笔触，高度详细的面料纹理，梦幻的社论时尚美学，极简背景，韩式/日式街头时尚氛围，柔和光线，略微降低饱和度的色彩，优雅而凌乱的构图，数字水彩和墨水插画风格，全身角色设计，Pinterest 美学，高细节，潮流 Z 世代时尚氛围",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202605/1780071797307-s7ceflo8-1780071799936-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "动漫",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_trending-anime-style-subject-creation",
+              "name": "热门动漫风主体创意图",
+              "type": "prompt",
+              "prompt": "{subject}, 根据上传的主题创建一个流行的动漫艺术风格图像。使用自信的线条工作，略带变化，并使用最小的赛璐珞着色，通过平面阴影形状。使用明亮、饱和的颜色和干净的图形照明。该风格以夸张、卡通化的角色比例为定义特征，具有高度表现力、简化的面部特征，能够展现极大的情感范围，并带有高度变化的拉伸解剖结构。将环境转变为略微扭曲的空间，带有俏皮的透视扭曲和简化的物体。构图和基调应充满活力、生动且喜剧化，在一个完全风格化、非现实的世界中。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202605/1778340587234-rmlym9k6-1778340588364-1.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "动漫",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_young-korean-woman-semi-realistic-anime-activewear",
+              "name": "韩国女性半写实动漫运动时尚封面",
+              "type": "prompt",
+              "prompt": "{subject}, 上传图像中的年轻韩国女性，半写实动漫风格，白色运动T恤数字6，白色宽腿裤，白色平底鞋，蓬松盘发，双腿分开自信站姿，被巨大的光泽赤陶土波浪抽象雕塑形状环绕，巨大的粗体“636”图形排版，中性温暖工作室，运动装时尚封面编辑，电影深度，8k，照片写实，杰作",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202606/1780409832185-lvfdr0bu-1780409833223-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "opennana_anime-world-photorealistic-miniature-diorama",
+              "name": "动漫世界写实等轴测微缩模型景观",
+              "type": "prompt",
+              "prompt": "{subject}, 超精细写实等轴测微缩景观，展示来自 [ANIME] 的世界，呈现为漂浮在干净温暖的米白色影棚背景上的高级收藏级比例景观雕塑，下方带有微妙的自然阴影。\n\n（为了获得最佳准确度，请上传官方地图/世界布局的清晰参考图。）\n\n世界形状与地理\n\n如果 [ANIME] 具有虚构的世界、大陆、岛屿或地区，请准确重建其正统地图轮廓。整个陆块应看起来像是从大地中物理雕刻而成，并作为一个连续的微缩地形板向上抬起，具有自然破碎的岩石侧面、暴露的土壤层、悬崖和地质纹理。\n\n如果 [ANIME] 发生在真实或半真实的位置，请使用最重要的正统城市、地区或国家作为物理底座形状，保持其可识别的地理轮廓。\n\n外部边界必须感觉像是直接从地图上切下的实际土地——绝不能像平面的印刷地图或漂浮的木板。\n\n正统世界重建\n\n在整个微缩表面上重建 [ANIME] 的世界，并保持最大的背景设定准确性。\n\n每个主要地区、定居点、城市、地标、山脉、河流、森林、道路、战场、城堡、神社、未来派结构或其他可识别的位置都应出现在其正确的相对位置。\n\n保留动画独特的视觉语言：\n\n- 正统建筑\n- 可识别的环境\n- 真实的地形\n- 势力范围\n- 标志性地标\n- 特色色彩\n- 特定世界的科技或奇幻元素\n- 环境氛围\n\n避免通用的西方建筑或写实的替代品。结果必须立即让人感觉到 [ANIME] 转化为一个物理微缩世界。\n\n为重要地点添加微小但可读的位置标记，设计得像优雅的博物馆式地图标签，而不是大字。\n\n微观尺度故事细节\n\n在景观中填充精心放置的微缩叙事元素：穿着可识别的符合原作服装的微小人物、特定世界的生物、车辆、船只、火车、旗帜、势力符号、市场区域、农场、桥梁、小径、树木、植被以及其他让世界感到充满活力的细节。\n\n角色应保持为微小的环境元素，而不是主导构图。\n\n在整个地形中包含微妙的活动，使微缩景观感觉像是动画宇宙的一个活生生的快照。\n\n材料与摄影\n\n超写实的高级微缩摄影结合高端电影感环境设计。\n\n极其清晰的微观细节、写实的岩石形成、微缩植被、微小的建筑纹理、可信的比例关系和物理准确的材料。\n\n一切都应保持焦点清晰，没有人工背景虚化。\n\n使用来自上方柔和温暖的影棚照明，在建筑、地形和岩层之间带有柔和的接触阴影和微妙的环境光遮蔽。\n\n该微缩模型应具有精致的博物馆级收藏品外观，同时仍保留动画的原始视觉特征。\n\n色彩与氛围\n\n使用 [ANIME] 的真实色彩语言作为主要视觉参考。\n\n将动画的标志性色调转化为写实的微缩材料，而不丢失其可识别的情绪、氛围或世界特征。\n\n丰富但受控的色彩、电影级的色调深度、高级印刷般的对比度和真实的表面纹理。\n\n构图\n\n将完整的定型微缩景观置于 4:5 垂直画面的下三分之二中心。\n\n在整个陆块周围留出大量的干净负空间。\n\n微缩景观绝不能接触画面边缘。\n\n上三分之一几乎完全留白且呈米白色，营造出精致的社论海报构图。\n\n在最顶部，放置间距较宽的小号大写字母，显示世界/地区名称。\n\n紧随其下，放置：\n\n[ANIME]\n\n采用粗体紧凑的无衬线字体，中深灰色，巨大且占据主导地位。\n\n在其下方，添加一行间距较宽的小号大写字母，包含工作室名称和年份。\n\n排版应感觉像奢侈品博物馆展览海报——克制、优雅且次于微缩世界。\n\n最终艺术指导\n\n高级社论旅行海报美学 + 电影级微缩摄影 + 收藏级世界观构建雕塑 + 博物馆级地图学。\n\n最终图像看起来应该像是 [ANIME] 的整个世界被从大地中物理雕刻出来，并在专业摄影棚内拍摄。\n\n无通用奇幻地图，无扁平插画，无随机地标，无重复建筑，无扭曲地理，无过多文字，无现代西方替代。\n\n4:5 垂直纵横比，超高细节，写实材料，电影级灯光，高级打印质量。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202608/1787928902862-oclj3n70-1787928904080-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：commercial",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "commercial": [
+                    "海报",
+                    "字体",
+                    "布局"
+                  ],
+                  "anime_manga": [
+                    "ANIME",
+                    "动画"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_graphic-feral-manga-stylization-guide",
+              "name": "狂野图形化漫画风格视觉导向",
+              "type": "prompt",
+              "prompt": "{subject}, 你是一位图形化狂野漫画风格化（graphic feral manga stylization）的视觉导演。 \n\n将此风格应用于用户提供的任何主体。主体可以是人、动物、物体、植物、建筑、房间、服装、生物、雕塑、机器或抽象形式。不要将风格简化为通用的动漫、可爱的 Q 版设计或装饰性的漫画模仿。将该风格深层的视觉逻辑转化为待表现的主体：压缩的比例、主导性的图形形状、对抗性的构图、锐利的墨迹控制、选择性的纹理、大胆的平涂色彩，以及在可爱、严峻和动物性警觉之间的紧张平衡。\n\n核心理念是将主体转变为一张紧凑、高冲击力的漫画图像，这种图像由图形对比、夸大的焦点特征和压缩的情感力量构建而成。主体应该给人以即时感、标志性、淘气感和物理存在感，仿佛它正挤入画面平面。图像的感觉应该像是一个设计精良的强力插画版面或封面图像，而不是一个自然主义的场景。\n\n图像不应感到柔软、有绘画感、有氛围感或装饰性。它应该感到刻意、锐利、压缩且具有图形感。每一根线条、轮廓、阴影形状、排线、纹理簇和色块都必须为形式、态度和视觉冲击力服务。避免过度渲染。避免不能强化剪影、表情或触觉重点的装饰。\n\n使用受限的、高清晰度的色调。偏好深黑色、米白色、浅肤色、鲜艳的青色或绿松石色、锐利的红色点缀、温暖的琥珀色或黄色点缀、柔和的乳白色以及偶尔使用的冷灰色。大多数颜色应以大胆的平涂区域出现。黑色应作为一种结构性力量发挥作用，而不不仅仅是阴影颜色。小的点缀色应在黑白场中产生强烈的视觉撞击。保持色调受限且有目的性。\n\n将主体视为具有触觉区域的图形对象。表面应通过线条表现和纹理策略进行清晰区分。头发可能表现为被高光带和密集的垂直墨迹切开的亮黑色块。皮毛可能通过成簇的簇状线条表现得蓬松而锐利。织物可能通过轮廓节奏和选择性的褶皱指示表现得柔软、厚实且略显臃肿。皮肤可能保持相对干净和苍白，在需要的地方辅以极少的红晕或细线细节。不要对形式进行过度建模。\n\n线条工作至关重要。使用干净、自信的轮廓线，精细的内部标记，受控的粗细变化，稀疏的跨轮廓排线，以及选择性的纹理堆积。不要使用松散的草图感。不要使用柔软的绘画式混合。不要使用过度机械的矢量平滑感。线条应该感到是手绘的、精确的、活泼的且刻意的。它应通过压力、锥度、间距和节奏承载个性。\n\n阴影应该是图形化且节省的。相比平滑渲染，更倾向于平涂的阴影块、选择性的排线和精心布置的色调重音。使用阴影来刻画形式、压缩空间并加强冲击力。保留大面积的开放式平涂颜色和暴露的类纸亮度。图像应感觉首先由墨迹驱动，其次由颜色支持。\n\n构图应是亲密的、侵略性的且压缩的。使用特写裁剪。将重要的形式推向观众。偏好正面交锋、低空间深度，以及将手、爪、袖子、脸部或其他有表现力的形式推向前景的姿态。缩短透视法可以夸张，但必须保持可读性和力量感。画面框应该让人感觉到主体正挤满整个图像。\n\n比例应经过精心风格化。头相对于身体可能很大。眼睛可能占据脸部主导地位。手、袖子、耳朵或关键配件可能因透视而放大。然而，不要让风格变成通用的婴儿比例、吉祥物设计或柔软的毛绒插画。这种畸变应该产生冲击力、顽固感、态度和图形集中感。\n\n表情应克制但有力。偏好阴沉的凝视、缩小的焦点、顽固的挑战、安静的激怒、顽皮的自信、动物性的警觉或冷面强度。除非明确要求，否则主体不应大口而笑或表演夸张的卡通喜剧。情感效果应源于压缩感、眼神、姿态和线条张力，而非戏剧化的表演。\n\n眼睛是主要的锚点。它们可能非常大、非常清晰且非常图形化。虹膜可能使用鲜艳的对比色。眼睑、睫毛和眼周的线重应增强凝视感。眼睛应感到是警觉的、对抗性的或情感封闭的，而不是柔软、梦幻或浪漫的。\n\n头发应被视为主要的图形块。使用钝感的剪影控制、沉重的深色填充、边缘处清脆的发丝以及选择性的高光带。避免空灵的沙龙造型、过度的光泽效果、彩虹色或装饰性的头发渲染。头发应强化整体的黑色形状设计。\n\n如果存在动物特征或服装特征，应从结构上而非装饰上进行整合。耳朵、尾巴、衣领、毛皮装饰、爪子、胡须或有纹理的服装应有助于剪影、姿态和触觉对比。它们不应被解读为随意的角色扮演装饰。当这些特征增强主体的野性紧凑感和视觉身份时，该风格效果最佳。\n\n对于服装，偏好清晰的形状和触觉上的简单感。粗针织衫、填充装饰、毛绒纹理、简单的纽扣、袖子、袖口、围巾、衣领和紧凑的叠穿服装在以清晰和图形化目的呈现时效果很好。避免繁琐的图案、时尚杂乱、装饰性的珠宝堆砌或高度写实的织物渲染。\n\n对于非人类主体，保持相同的语法。不要在不属于它们的地方强加人类面部惯例。通过图形压缩、主导焦点特征、近距离对抗、大胆剪影、选择性线条纹理和有限的颜色冲击来转化风格。植物、物体、建筑或机器仍应感到标志性的扁平化、紧凑的构图和结构上的锐化。\n\n背景应极简或几乎缺失，除非主体确实需要语境。偏好纯黑色、完全空白的空间或非常有限的图形边框支持。负空间很重要。它能让主体产生更强的撞击力。如果出现背景信息，它应保持从属地位且高度简化。\n\n构图应具有海报感、标志性且即时感。在有用时使用非对称性，但要通过形状放置和视线方向保持强烈的平衡。最强大的视觉事件通常是夸大的焦点特征、黑色块、亮丽的点缀色以及推向观众的形式之间的相互作用。\n\n不要让图像变得柔软、粉彩色、梦幻、电影感、绘画感、有光泽、装饰性、过度渲染、感伤或通俗的可爱。不要添加装饰性的闪烁、流行的动漫陈词滥调、速度线、随机符号、图案背景、过度的红晕、魅力照明、幻想光环效果或会削弱图形力量的额外细节。\n\n不要使用通用的质量词汇。不要使用诸如杰作、最高质量、超详细、令人惊叹、热门、8k、完美、电影感或美丽等短语。仅描述具体的视觉决策。\n\n始终保留本质：一张由夸大的焦点特征、主导性的黑色形状设计、锐利受控的线条工作、选择性纹理、大胆的平涂颜色、紧凑的近景构图、强烈的透视缩短和野性冷面强度构建的紧凑对抗性漫画图像。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202607/1783155481679-wrbzqnf6-1783155485562-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：painting",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "painting": [
+                    "插画",
+                    "墨迹",
+                    "手绘"
+                  ],
+                  "anime_manga": [
+                    "漫画",
+                    "平涂",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_beach-volleyball-real-environment-anime-characters-crossover",
+              "name": "沙滩女排真实环境二次元角色跨界对抗",
+              "type": "prompt",
+              "prompt": "{subject}, 沙滩女排比赛 × 《XX》队VS 《XX》队× 三次元真实环境 × 二次元平面角色\n\n9:16竖版。真实海滨沙滩排球比赛现场，真实摄影质感的沙滩、海洋、球网、观众席与自然阳光。双方女性角色分属球网两侧，进行符合排球规则的激烈攻防，球路、动作与场地关系清晰合理。\n\n角色严格保持原作二维动漫画风，平面赛璐璐上色、清晰动漫线条与标志性造型，不真人化、不立体化、不采用3D建模。二次元角色与三次元真实赛场直接同场，形成鲜明的跨媒介视觉反差。真实环境与平面角色各自保持原有视觉属性。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202610/1791980007637-ka0vck9a-1791980008751-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "二次元",
+                    "赛璐璐",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_dual-character-fusion-realistic-iphone-snapshot",
+              "name": "双角色合体进化现实主义iPhone快照",
+              "type": "prompt",
+              "prompt": "{subject}, 【角色1】 × 【角色2】 → 双角色合体进化 → 全新第三角色 × iPhone快照\n\n两个角色完全融合为一个独立的新角色，继承双方核心优势与辨识特征，并产生双方原本不存在的新外观、新能力、新形态、新材质与新身份，实现1+1>2。\n\n禁止拼接、换装、各取一半、五官混合、元素堆砌。最终必须像一个原本就独立存在的新角色。\n\n现实Cosplay化：将第三角色转化为现实世界中真实可拍摄的形态，主体类型随角色自然决定。真实结构、材质与环境互动。禁止动漫、二次元、游戏立绘、插画、CG、3D及原角色画风。\n\n动漫展现场 × iPhone随手抓拍：展馆、后台或走廊，普通人临时拍摄，无准备、无摆拍、无专业构图。随机视角构图，人物朝向自然变化。普通iPhone成像，自然展馆光线与取景误差。少量观众、Cosplayer、工作人员和展会日常物件自然进入背景。\n\n自动创造第三角色的中文名、虚构拉丁学名与一句简短角色注释，并实际呈现在照片画面中，作为自然的现场文字信息出现，不做成海报或设定稿。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202610/1790947925482-8pc5at21-1790947928342-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "动漫",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_photorealistic-and-anime-companion-portrait",
+              "name": "写实人像与可爱动漫分身高级肖像",
+              "type": "prompt",
+              "prompt": "{subject}, 使用上传的照片作为最终的样貌参考，生成一张垂直的高端肖像照，将受试者的写实渲染图与同一个人、但在面部特征、发型、服装和整体氛围上都匹配的小型化、风格化动漫版本配对。动漫人物应表现出积极的亲昵感（挽着手臂、紧紧依偎、比心、用闪亮的眼睛仰望），而现实人物则带着可爱、假装生气的表情，暗示着内心深处的喜爱。力求在能量上形成强烈对比：一个表现出过度亲昵的动漫同伴，对比一个俏皮地假装烦恼但显然被迷住了的现实人物。风格应唤起韩国网红内容的质感——柔和的粉彩色背景、讨喜的光线、写实的主体人物、精致的动漫同伴艺术、强烈的相似度以及整体磨光的质感。避免：敌意、冷漠、过于严肃的基调、令人不安的氛围、相似度低、3D娃娃感、解剖学错误、多余的肢体或手指、视觉混乱、文本或水印。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202607/1785425535998-qf9wrxdx-1785425545625-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "opennana_realistic-person-and-2d-anime-cute-interaction",
+              "name": "现实人物与二次元版本可爱互动人像",
+              "type": "prompt",
+              "prompt": "{subject}, 使用上传的肖像作为准确的身份参考。创作一张垂直的高级肖像，展示该人物的写实版本，旁边是同一个人的较小二维动漫版本，且具有匹配的面部、发型、服装和氛围。二维角色应积极地做出可爱的撒娇动作（搂着手臂、紧贴、比心、依偎、眼神闪烁地抬头看），而写实的人物则表现出一种可爱的撅嘴、略显委屈的表情，并暗中流露出温暖和幸福。强烈的情感对比：粘人深情的二维同伴 vs 调皮尴尬、假装恼怒的真人。韩国网红审美，柔和的马卡龙背景，修饰性的光影，写实的主体，精致的动漫同伴，高度相似，高级品质。负面提示：愤怒，冷漠，严肃，诡异，低相似度，3D人偶，解剖结构错误，多余的肢体/手指，杂乱，文本，水印。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202607/1783261041793-629yd7dd-1783261091612-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "动漫",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_manga-to-reality-3d-character-top-down-photography",
+              "name": "漫画少女破次元壁超写实俯拍视觉",
+              "type": "prompt",
+              "prompt": "{subject}, 垂直 9:16，超写实俯拍摄影。一本打开的 [漫画类型] 躺在深色核桃木桌子上，带有干净的黑白漫画面板、对话框和角色线条艺术。漫画内容围绕 [主角] 展开，展示了他们的 2D 漫画版本、相关动作、情感特写和匹配的故事时刻，让人感觉真实的画面最初就属于漫画内部。\n\n一个真实的成年角色从漫画页面中浮现出来，躺在或半撑在打开的书上作为主体。角色穿着 [服装]，风格为 [校园制服女主角 / 浪漫女主角 / 侦探女孩 / 魔法少女 / 其他主题]。写实的皮肤纹理，自然的毛发，可信的衣服褶皱。脸部微微抬起，直接向上看向俯拍镜头，与读者进行清晰的眼神交流。表情自然、生动且富有情感。\n\n身体、头发、手臂、衣服、裙子和腿部必须与漫画页面产生真实的物理交互，带有真实的接触阴影、轻微的纸张挤压和细微的页面弯曲。黑白漫画页面 + 全彩 3D 角色营造出强烈的 2D 到 3D 漫画转现实的错觉。\n\n前景增加一只成年男性的手，自然地握住或翻动页面的一角，指甲整洁简短。保持木桌有生活气息但极简，只有几个边缘道具，如笔、书签、杯缘或另一本漫画书的角落。写实摄影，高细节，纸张纹理，俯视图，清晰聚焦。\n\n避免悬浮、糟糕的手、多余的手指、扭曲的腿或脚、微弱的眼神接触、混乱的面板、过多的道具、杂乱的桌面、低细节、塑料感皮肤、CGI 效果、孩子气或未成年外观。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202606/1782662896879-k07dq9qy-1782662898262-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：photography",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "photography": [
+                    "拍摄",
+                    "镜头"
+                  ],
+                  "anime_manga": [
+                    "漫画",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_argentina-caricature-footballer-pixar-style",
+              "name": "阿根廷十号球星皮克斯风全身漫画",
+              "type": "prompt",
+              "prompt": "{subject}, 著名男性足球运动员的全身漫画，拥有夸张的大头，夸张的面部特征，大而富有表现力的眼睛，突出的鼻子，修整整齐的胡须，自信的坏笑，穿着带有浅蓝色和白色垂直条纹的阿根廷国家队球衣，胸前有10号，黑色短裤上也有10号，一只脚踩在足球上，另一只手叉腰，肌肉发达的手臂上有可见的纹身，穿着带有10号的白金足球鞋，动态低视角拍摄，3D皮克斯风格渲染，充满活力的数字绘画，背景带有阿根廷国旗颜色浅蓝色和白色，五月太阳标志，手绘涂鸦，星星，箭头，足球草图，世界杯奖杯插图，纹理油漆效果，戏剧性光照，超细节，8K分辨率，俏皮充满活力的氛围，运动海报美学",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202606/1781959002015-11gi38y7-1781959009712-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：painting",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "painting": [
+                    "绘画",
+                    "手绘"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_anime-warrior-red-moon-golden-field",
+              "name": "红月荒原之上的和服动漫武士",
+              "type": "prompt",
+              "prompt": "{subject}, 一位年轻的男性动漫战士站在一片广阔的金色高大荒草地中，从低角度侧面拍摄。他穿着一件黑灰方格图案的羽织/和服，腰间插着一把武士刀。他短而尖的黑色头发轻微飘动，戴着小巧的垂坠矩形耳环。他的目光向上注视着天空，神情冷静且坚定。\n\n在他身后，一轮巨大的深绯红色满月占据了背景天空。天空涂抹着鲜艳的日落色调——炽烈的橙色、珊瑚红和深靛蓝——地平线上散布着富有戏剧性的绘画感云彩。\n\n一群翅膀锐利的红黑相间的鸟儿（燕子/雨燕）在天空中向各个方向动态地翱翔，为构图增添了动感和能量。\n\n前景中的荒草和麦穗沐浴在温暖的红橙色逆光中，营造出一种电影般的剪影效果。\n\n艺术风格：电影感动漫插画，超精细2D数字绘画，带有柔和绘画质感的赛璐璐着色，忧郁的氛围照明，带有深影对比的逆光黄金时段，由绯红、琥珀、靛蓝和木炭黑组成的生动饱和色调。\n\n纵横比：9:16 纵向。情绪：史诗、沉思、忧郁。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202606/1780733952059-0edkahrn-1780733955212-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "动漫",
+                    "赛璐璐"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_cherry-blossom-wind-silhouette",
+              "name": "樱花风粒幻化动漫少女剪影",
+              "type": "prompt",
+              "prompt": "{subject}, 一张标题为“INPUT NAME”的角色宣传海报，采用电影感的垂直主视觉构图（9:16）。上半部分是一个大型、柔和发光的动漫女孩脸部剪影，由流动的风和樱花粒子组成。这个剪影感觉梦幻、精致且略带透明感。\n下半部分展示全身角色以平静的姿态温柔地站立，穿着优雅的现代受和服启发的服装，带有轻盈的布料飘动。\n在剪影内部，使用双重曝光叙事：漂浮的樱花、记忆碎片、柔和的天空渐变、充满情感的特写瞬间，以及与水彩薄雾融合的微妙自然元素。\n左侧包含温暖的粉色调和花卉能量，而右侧则使用冷调的天空蓝以保持平衡。一条细长的发光微风线将顶部的剪影与下方的角色连接起来。\n边缘柔和、具有绘画感，并淡入白色的负空间中，呈现出空灵的动漫美学。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202605/1777653074197-7r1sptlx-1777653075561-1.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：commercial",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "commercial": [
+                    "海报",
+                    "标题",
+                    "宣传"
+                  ],
+                  "anime_manga": [
+                    "动漫",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_cinematic-anime-tokyo-neon-rain-girl",
+              "name": "霓虹雨夜街头赛博朋克风少女",
+              "type": "prompt",
+              "prompt": "{subject}, 创建一个超细腻的电影级动漫插画，风格仿照高预算的现代日本动画电影。一位美丽的年轻女子站在雨中霓虹闪烁的东京深夜街头，身穿带有微妙蓝色发光图案的超大黑色连帽衫、宽松工装裤和时尚运动鞋。她潮湿的长发在风中自然飘动，脸部和衣服上映射着霓虹光彩。氛围充满情感、神秘且极具未来感。环境周围环绕着全息广告牌、发光的商店招牌、模糊的红绿灯、街道上的雨点倒影、飘动的雾气和柔和的容积光。加入动态动漫风格的运动模糊、戏剧性的透视效果、真实的雨水物理表现以及极具表现力的电影感眼神。色调：霓虹蓝、紫色、粉色、青色和柔和的白光。风格灵感源自新海诚 + 赛博朋克动画美学 + 顶级动画电影画质。相机角度：低角度电影化镜头，浅景深，前景与背景分离感强。极高清晰度细节，动漫写实主义，情感叙事构图，8K画质，大师级动漫艺术品，无文字，无水印。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202605/1778554264289-mt0b9c3p-1778554264774-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "动漫",
+                    "动画"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_cinematic-japanese-anime-warrior-princess-fashion-editorial",
+              "name": "日系动漫武士公主时尚大片",
+              "type": "prompt",
+              "prompt": "{subject}, 使用上传的参考图作为主角参考。创建一个电影感的日系动漫武士公主时尚社论。包括武士刀特写肖像、樱花散步镜头、传统寺庙构图、戏剧性的随风动作姿态以及皇家电影级美感镜头。风格：超写实动漫，鲜艳的樱花色彩，精致的丝绸和服，戏剧性的动漫光影，电影级的日本奇幻氛围。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202605/1779676653622-flw6ndqy-1779676655426-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "opennana_elegant-red-hair-anime-girl-back-view-glance",
+              "name": "红发幻梦回眸优雅二次元少女",
+              "type": "prompt",
+              "prompt": "{subject}, 一位成年幻想系女性角色，精致二次元插画风格，9:16 竖版构图，半身到大腿视角。人物以侧后方站姿出现在画面中，背部朝向镜头，身体微微转向一侧，腰部自然扭转，头部轻轻回眸看向观众，姿态优雅、轻盈、从容，整体强调高级女性身材美与流畅的 S 型曲线，肩颈修长，背部线条自然，纤细腰身与优雅腰臀曲线形成柔和而明显的视觉节奏，气质神秘、浪漫、清冷而迷人。\n\n人物拥有精致柔和的东方幻想五官，白皙通透的肌肤，脸部是高级二次元美少女风格，大而清澈的红玫瑰色眼睛，睫毛纤长，眼神安静温柔，略带疏离感与梦幻感。唇色柔和，面部线条干净精致，整体表情为轻轻回眸的一瞬，带有风中回望的电影感。\n\n她拥有鲜艳的玫红色 / 深红色长发，发丝被强风吹向画面左侧，大量发丝飘散延展，形成强烈的流动感和视觉动势。发丝需要有清晰的二次元发束结构、细腻高光、透明感边缘光，整体像高质量动画电影角色设定图。\n\n她戴着一顶宽大的浅米色草编宽檐帽，帽檐宽大而优雅，带有清晰的草编纹理与透光质感。帽子上点缀红色花朵、金色枝叶、细小枝条与白色羽毛装饰，整体精致、浪漫，具有度假幻想感和高级时装感。\n\n服装为高级幻想礼服设计，上半身是黑白拼接的露背吊带礼服，背部由纤细金色链条连接，链条中央悬挂一枚蓝色水晶吊坠，水晶在阳光下微微发光。裙装由黑色、银白色、半透明薄纱与轻盈丝绸层层交叠组成，局部加入深蓝色丝带、金色细链和星点装饰。裙摆被风吹起，沿着人物腰部与臀部曲线自然展开，形成飘逸、轻盈、梦幻的弧线，既凸显 S 型身材曲线，又保持高级、唯美、克制的视觉表达。\n\n画面背景为明亮的高层建筑窗边空间，远处城市天际线虚化，蓝天、白云与都市高楼在浅景深中形成柔和背景。阳光从人物身后照射进来，形成强烈但柔和的逆光、边缘轮廓光、空气透亮感和温暖光晕。画面中有红色花瓣随风飘散，增强浪漫、梦幻、动态氛围。\n\n镜头语言为电影感侧后方近景，人物位于画面右侧偏中位置，头发、丝带与裙摆向左侧大幅延展，形成强烈的风向动势与视觉张力。构图要突出人物回眸、背部线条、腰臀曲线、飘动长发与轻纱裙摆之间的整体美感。\n\n整体风格为高质量二次元数字插画，精致动漫美少女风格，干净线稿，柔和赛璐璐上色，细腻光影，通透肤色，鲜明色彩，高饱和但不刺眼，阳光感强，画面清透唯美。要求具有高级动画电影海报质感、精美角色立绘质感、浪漫幻想时装插画质感。人物清晰聚焦，背景柔和虚化，画面高级、唯美、梦幻、明亮、清透。\n\n负面提示词：低清晰度，模糊，噪点，脸部崩坏，眼睛畸形，手指错误，多余手指，多余手臂，多余肢体，身体比例错误，腰部断裂，脊椎畸形，姿势僵硬，皮肤塑料感，服装破碎，帽子变形，发丝杂乱成块，背景脏乱，过曝严重，文字，水印，logo，低质量插画，廉价二次元感，AI感过强，过度暴露，色情化表达",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202605/1778829585961-xo5itvk7-1778829586341-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：painting",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "painting": [
+                    "插画",
+                    "线稿"
+                  ],
+                  "anime_manga": [
+                    "二次元",
+                    "线稿",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_epic-anime-crossover-streetwear-squad-portrait",
+              "name": "史诗级潮流街头动漫角色大合集",
+              "type": "prompt",
+              "prompt": "{subject}, 史诗级动漫联动小队肖像，灵感源自现代少年动漫美学，时尚街头服饰，一大群魅力角色在霓虹闪烁的城市小巷中共同摆姿势，东京夜生活氛围，布满涂鸦的墙壁，发光的日本招牌，电影感构图，强大的团队能量。\n\n角色穿着超大号连帽衫、飞行员夹克、机能服、工装裤、运动鞋、链条、配饰，动漫发型，独特个性，自信表情，动态姿势。多元化阵容，包括英雄、对手、战士、忍者、恶魔猎人、帮派头目和冒险家，聚集在一个场景中。\n\n背景：下雨的东京后街，潮湿路面上多姿多彩的霓虹反射，涂鸦壁画，动漫海报，日语排版，挂灯笼，赛博朋克点缀，城市街头文化。群体分多排排列，具有极强的深度和视觉平衡感。\n\n风格：超详细动漫插画，杰作画质，鲜艳色彩，清晰线条，戏剧性光影，电影感阴影，高对比度，高度详细的服装褶皱，精致配饰，富有表现力的面孔，流行动漫主视觉图，海报级构图。\n\n氛围：友谊，竞争，团结，传奇联动盛事，酷炫且叛逆的能量，标志性团队照片，强大的群体阵容。\n\n摄像机：全身群像，低角度透视，广角镜头，中心构图，景深，电影级画幅。\n\n光影：霓虹闪烁，边缘光，城市环境光，湿地反射，戏剧性动漫光效，体积感氛围。\n\n质量标签：\n杰作，最佳质量，极高细节，动漫主视觉图，电影感，8k，高度详细，锐利聚焦，鲜艳色彩，ArtStation热榜，动漫海报，专业插图。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202605/1780149112144-cqra8u5e-1780149116427-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：photography, commercial",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "photography": [
+                    "照片",
+                    "镜头",
+                    "景深"
+                  ],
+                  "commercial": [
+                    "海报",
+                    "排版"
+                  ],
+                  "anime_manga": [
+                    "动漫",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_japanese-sakura-train-anime-girl-cinematic",
+              "name": "樱花季富士山下的红色列车与少女",
+              "type": "prompt",
+              "prompt": "{subject}, 超精细电影感3D写实动漫艺术风格，展现樱花盛开季节的经典日本。一辆鲜红色的传统日本列车正缓缓穿过无尽的樱花树，粉红色的花瓣随风四处飞扬，富士山在背景中散发着柔和的光芒，温暖的落日余晖，点缀着灯笼光芒的传统木屋，宁静而富有感染力的氛围。画面中包含一位穿着时尚动漫服饰的美丽日本少女，她站在铁路平交道附近，带着温柔的微笑，微风轻轻吹动她的头发。场景应呈现出怀旧、梦幻、感性且神奇的感觉，仿佛传奇日本动画电影中的瞬间。超逼真的纹理，电影深景效果，体积光，柔和的光晕，电影剧照质感，吉卜力工作室风格，极高细节的环境，2K杰作。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202605/1779086517189-6mv2844s-1779086517614-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "动漫",
+                    "动画"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_lighthearted-sketch-anime-woman-beach-walk",
+              "name": "轻松手绘风动漫少女沙滩散步",
+              "type": "prompt",
+              "prompt": "{subject}, 轻松的手绘素描风格动漫美学，一名年轻女性在退潮时阳光明媚的沙滩上行走的全身肖像；动漫半写实风格，干净的线条和绘画般的阴影处理；她穿着一件清爽的白色纽扣衬衫，袖子卷到肘部，松松地扎进高腰浅蓝色卷边牛仔裤里，脚穿白色运动鞋；她的头发扎成凌乱的丸子头，几缕碎发修饰着脸庞；她的脸上带着淡淡的红晕和温柔而沉思的微笑，目光看向侧面；一只手提着棕色皮质旅行包，另一只手拿着带挂绳的复古相机，一条皮质肩带斜挎在胸前，脖子上戴着一条小项链，手腕上戴着一只简单的手表和一条细手链；背景：起伏的绿山，成群的红屋顶白色小屋，岩石岬角，带有微浪的温柔蓝色大海和反射光线的湿沙，散落的石头和脚印；温暖的晨光，柔和的阴影，微风，轻松的向往旅行的心情。色彩运用：温暖的粉彩和自然的绿色，完美的人物细节，略显柔和且富有氛围感的背景，浅景深，电影级构图，布料和皮革的清晰纹理，细腻的胶片颗粒。具有粗细变化线条的手绘风格线稿",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202605/1779455594406-6cymjwbp-1779455596175-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：painting",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "painting": [
+                    "素描",
+                    "手绘",
+                    "线稿"
+                  ],
+                  "anime_manga": [
+                    "动漫",
+                    "线稿"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_luxury-liyue-inspired-anime-woman-selfie",
+              "name": "奢华璃月风露脐装动漫女性自拍",
+              "type": "prompt",
+              "prompt": "{subject}, 垂直 9:16 超写实智能手机自拍 | 成年虚构动漫灵感女性 | 奢华璃月风更衣室 | 极端虫眼视角自拍角度 | 优雅的露脐重点时尚姿态 | 高端网红审美 | 华丽的露脐上衣和低腰时尚下装 | 金色、翡翠、蕾丝、丝绸和元素色彩点缀 | 亚克力美甲 | 腹部饰品 | 装饰性下腹纹身 | 电影级光效 | 精致的社交媒体写实主义 | 无角色名称，无官方身份声明",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202606/1780734585067-456pp9dk-1780734587785-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "动漫",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_pop-art-party-comic-book-style-illustration",
+              "name": "波普艺术风格漫画色彩派对狂欢",
+              "type": "prompt",
+              "prompt": "{subject}, 波普艺术风格插图，描绘了一群充满活力的朋友在极具感染力的派对上。采用大胆的漫画美学，具有粗黑轮廓、半色调网点纹理和夸张的丰富面部表情。场景充满了鲜艳的霓虹色和原色（电光粉、亮黄、青蓝和鲜红），营造成动态且充满能量的氛围。构图略微倾斜以产生运动感和混乱感，角色们相互交叠互动——大笑、跳舞、手持饮料并尽情庆祝。背景中飘浮着纸屑和“WOW!”、“LOL!”、“BOOM!”等音效文字元素。强烈的边缘光和高饱和度光影增强了深度和对比度。环境是一个风格化的室内派对空间，融合了抽象形状、涂鸦墙面艺术，并巧妙地嵌入了漫画分镜背景。极高细节，电影级构图，高对比度，清晰对焦，8K分辨率，现代波普艺术与漫画插画风格的结合。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202605/1778743365932-k88g3uqx-1778743366664-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "漫画",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_realistic-runner-breaking-manga",
+              "name": "冲破次元壁的写实漫画跑者",
+              "type": "prompt",
+              "prompt": "{subject}, {\n  \"prompt\": \"超写实，一位留着深色短卷发、修剪整齐的胡须和黑色方形眼镜的年轻男子的鲜艳逼真渲染，身穿深色纹理高领毛衣和牛仔裤。他奔跑到一半被捕捉下来，姿态充满动感，向前突破，充满戏剧性地从一个破碎的漫画分镜框中显现——一条腿和一只手臂冲入现实世界，而身体的其余部分仍留在漫画框内。他的表情充满活力和喜悦，拥有锐利的面部细节，自然的皮肤纹理，以及具有高对比度和深度的戏剧性电影灯光。\\n\\n背景：一个非常详细的黑白漫画布局，充满了幽默、夸张的且与他直接互动的反应场景。周围的漫画人物表现出震惊和喜剧的表情，配有粗体的对话气泡和速度线。漫画分镜采用经典的高对比度水墨风格绘制，线条清晰，网点阴影。撕裂的纸张边缘和碎片增强了他冲破漫画世界的幻觉。全彩色的写实人物与单色的漫画环境形成强烈对比，创造出写实与漫画艺术之间的动态混合体。超精细，8k分辨率，清晰聚焦，戏剧性的阴影，电影级景深。\"\n}",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1772370879093-klk7hbpq-1.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：painting",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "painting": [
+                    "水墨",
+                    "画布"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_semi-realistic-anime-woman-gundam-rooftop",
+              "name": "半写实动漫风都市天台高达少女",
+              "type": "prompt",
+              "prompt": "{subject}, 上传图像中的半写实动漫风格年轻女性，全身时尚社论，随意坐在阳光明媚的屋顶边缘，巨大的 RX-78-2 高达在背后耸立，超精细的机械装甲，图形动漫叠加元素，HUD 图形，未来感文字，电影级 HDR 照明，城市天际线背景，白蓝红黄调色板，8K。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202606/1781092617786-bnttobqs-1781092619641-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "opennana_three-panel-kpop-anime-fashion-collage",
+              "name": "三联屏霓虹Kpop时尚动漫少女",
+              "type": "prompt",
+              "prompt": "{subject}, 极度疯传的三格动漫时尚拼贴，并排构图，展现三位风格各异的时髦K-pop风少女，每个画幅都有独特的感性霓虹色彩主题，电影级动漫写实主义，奢华时尚大片美学，极具细节的脸部，富有表现力的眼睛，潮爆的日韩街头服饰，柔和的发光氛围，极具视觉吸引力的构图，高级电影级光影，充满活力的社交媒体美学，杰作画质，极致细节，8k画质\n\n左侧画幅 —— 粉色梦想\n\n柔和的粉色与薰衣草紫霓虹微光，身穿超大号连帽衫的可爱俏皮女孩，水润双唇，闪闪发光的配饰，梦幻般的可爱氛围，温柔微笑，魔法粒子，原宿风时尚，感性柔和的光影\n\n中间画幅 —— 蓝色赛博\n\n电子蓝与青色的未来主义氛围，自信酷炫的偶像女孩戴着未来感耳机、身穿赛博街头服饰，富有张力的阴影，闪烁的城市灯光，时尚的银色配饰，电影般的雨天倒影，充满力量感的表情\n\n右侧画幅 —— 红色午夜\n\n深红与洋红的霓虹氛围，身穿奢华黑色时尚服饰的神秘优雅女孩，飘逸长发，强烈的电影感光影，富有情感的眼睛，东京雨夜小巷的氛围，高端时尚杂志感\n\n无缝并排布局，平衡的构图，画幅间平滑的色彩过渡，电影级的景深，动漫电影海报美学，极具视觉催眠效果",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202605/1779120199926-nt4pt2u7-1779120200358-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：commercial",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "commercial": [
+                    "海报",
+                    "布局"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_vintage-1930s-rubber-hose-cartoon-character",
+              "name": "1930年代橡胶管风格复古卡通转换",
+              "type": "prompt",
+              "prompt": "{subject}, 将照片中的人物转换为 1930 年代至 1940 年代的复古卡通角色，灵感来自贝蒂娃娃、茶杯头、威利号汽船和旧弗莱舍工作室卡通等经典“橡胶管动画”风格。\n\n重要提示：\n\n清晰地保留照片中人物的身份（可辨认的发型、胡须、眼镜、脸部和面部表情）。\n\n夸张、有弹性的卡通风格身体。\n\n黑色的大复古派切眼。\n\n富有表现力的大笑容。\n\n经典的白色卡通手套。\n\n超大的 1930 年代风格卡通鞋。\n\n纤细的橡胶管风格手臂和腿部。\n\n粗黑的轮廓和正宗的复古动画外观。\n\n视觉风格：\n\n黑白或复古棕褐色调。\n\n陈旧的老电影质感。\n\n像旧电影胶卷一样的小颗粒、划痕和瑕疵。\n\n简单的赛璐璐动画风格阴影。\n\n漫画化但比例自然。\n\n灵感来自照片原始环境的背景。\n\n艺术风格：\n\n1930 年代 / 1940 年代卡通动画。\n\n橡胶管卡通美学。\n\n复古动画海报风格。\n\n弗莱舍工作室美学。\n\n受茶杯头启发的复古卡通风格。\n\n墨水轮廓和夸张的表情。\n\n质量：\n\n超详细的复古卡通。\n\n电影级构图。\n\n面部相似度细节极高。\n\n柔和的复古灯光。\n\n真实的复古动画感。\n\n全身角色。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202605/1779899928596-2b1ohtxf-1779899929642-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "漫画",
+                    "赛璐璐",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_beautiful-anime-character-page",
+              "name": "唯美二次元角色介绍网页",
+              "type": "prompt",
+              "prompt": "{subject}, 埋まってないところはパートナーさんかご自身で埋めてあげてください\n #観測塔朝お題  #観測塔おはようお題\n\n最新モデルの画像生成ツールを使用して、\nこのちびキャライラストと立ち絵を使って本物のサイトページのようにキャラクター紹介ページ風イラストを作ってください。 （紹介ページとして使ってもおかしくないもの）\nギャルゲーのキャラクター紹介ページをイメージした高品質なもの。 顔の差分なども乗っている、CGイラストが存在する。ちびキャラが存在する。\n\n「ここに自己紹介」\n\n名前:（ここに名前） \nイメージカラー:（ここに色） \n身長:（ここに身長）cm \n体重:（ここに体重）kg\nキャッチコピー:\"「ここにセリフ」\"",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1776648297166-88zmyt84-1776648297688-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "opennana_cherry-blossom-twin-tails-girl",
+              "name": "樱花树下害羞双马尾少女",
+              "type": "prompt",
+              "prompt": "{subject}, 生成一张高质量二次元美少女图片。 \n\n 角色设定：\n\n- 年龄：17岁 \n- 发型：双马尾，颜色：樱花粉，发梢带点渐变紫色\n - 眼睛：大而明亮，紫色瞳孔，有星星高光\n - 服装：JK制服，白色衬衫，深蓝色格子裙，红色领结\n - 配饰：白色过膝袜，棕色小皮鞋，头上戴一个粉色蝴蝶结  \n\n风格要求：\n - 日系动画风格，线条清晰 - 色彩鲜艳，对比度高 - 光影柔和，有层次感 \n- 背景：樱花树下，花瓣飘落，远处是学校教学楼  表情：微笑，有点害羞 姿势：站姿，双手放在身后，身体微微前倾  \n\n比例：16:9（手机壁纸） 质量：8K，超精细，细节丰富",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1776783213825-go8euvql-1776783221725-1.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "二次元",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_anime-cosplay-red-dress-direct-flash",
+              "name": "红裙金发动漫风女性角色扮演写实快照",
+              "type": "prompt",
+              "prompt": "{subject}, 一名年轻可爱的成年日本女性正在角色扮演一个迷人的金发动漫风角色，她斜靠在深色瓷砖地板上，背景是饱经风霜的浅灰色横向金属卷帘门。她穿着一件鲜艳的红色贴身细肩带连衣裙、特大号绿松石耳环、金饰、明黄色的腕带和红色系带高跟鞋。她的长金色假发有戏剧性的雕塑感刘海，向上并向侧面扫过，长直发垂在肩膀后面。她用生动的蓝色眼睛直视镜头，带着调皮的半笑，一只手举在唇边。她的腿部呈放松、不对称的坐姿，一个膝盖显著地正对镜头。照片具有在展会角色扮演快照中采用相机直闪拍摄的那种坦率、略带粗糙的特征。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202610/1792671499159-gjy4ddbv-1792671499997-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：photography",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "photography": [
+                    "照片",
+                    "镜头"
+                  ],
+                  "anime_manga": [
+                    "动漫",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_anime-female-characters-x-ray-transmission-minimalist",
+              "name": "动漫女性角色X光透射极简留白风格",
+              "type": "prompt",
+              "prompt": "{subject}, 動漫遊戲女性角色 × X光透射攝影 × 二維透射投影 × 淺底深像 × 極簡留白\n\n暖灰白底，角色呈細膩灰黑影像，保留標誌性髮型、原服裝輪廓與關鍵配飾。均勻透射成像，以吸收灰階取代表面明暗，灰階隨材質吸收與沿射線方向的重疊累積變化：髮絲與薄衣料淺淡，身體組織層次柔和，骨骼較深，金屬配件形成局部深色。前後結構穿透相交，細部顯隱不一，部分輕薄邊緣融入背景，整體呈平面的放射攝影印相質感。\n\n六張各選一位廣為人知的不同女性角色，全身、半身與局部自由變化，姿態、朝向及構圖不重複。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202610/1792670577967-zgk3lijc-1792670578448-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "opennana_realistic-subject-to-anime-flashlight-backlight",
+              "name": "现实人物与动漫化分身背光照射效果",
+              "type": "prompt",
+              "prompt": "{subject}, 将主体转换为一个小型的全身动漫/卡通版本，匹配他们的发型、服装、配饰、颜色和可识别的细节。使用参考的干净现代动漫美学，锐利的线条，略大的头部，紧凑的比例，赛璐璐渲染和富有表现力的细节。将动漫角色直接放置在真实主体背后，手持手电筒向前照向他们的背部。创造一道强烈的写实白色光束，从后面完全照亮主体，产生明亮的轮廓光、光晕和自然阴影。调暗周围的户外光线以产生戏剧性的对比。保留原始场景、摄像机角度、构图和真实感。比例 4:5。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202610/1792063336634-zy33bxgq-1792063337185-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "动漫",
+                    "赛璐璐",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_hyperrealistic-anime-gothic-dark-fantasy-marionette",
+              "name": "超写实动漫风哥特暗黑幻想少女",
+              "type": "prompt",
+              "prompt": "{subject}, 超写实动漫风哥特暗黑幻想，垂直 9:16，中心对称构图，85mm 电影级浅景深。\n\n一位忧郁的年轻西方女性，瓷肌，巨大的忧郁蓝宝石眼睛，额头和脸颊上有细微的伤痕，铂金白色的维多利亚式双丸子头，系着血红色丝带。破旧的象牙色维多利亚哥特萝莉塔连衣裙，风化的蕾丝，泡泡袖，钟形裙，缠着深色绷带的前臂。\n\n双手举在肩旁，掌心向前，每只手正好五根纤细的手指，深红色的提线木偶线缠绕在手指上且没有融合。\n\n她的胸前悬挂着一个破裂的古董瓷娃娃，有着银灰色的头发，褪色的深蓝色天鹅绒裙子，黑色蕾丝，两只小手（各有五根手指）伸向观众。\n\n黑暗中腐朽的维多利亚木偶剧院，无数悬挂的瓷娃娃消失在阴影中，数百条深红色丝线，蓝灰色雾气，漂浮的余烬颗粒。\n\n调色板：午夜蓝、钴蓝、银色月光、象牙白、克制的血红色。明暗对比，35mm 胶片颗粒。美丽、忧郁、在沉默中令人不安。\n\n无文字，无水印，无多余或融合的手指。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202610/1791812652427-vxn3m758-1791812653141-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "opennana_realistic-animal-anthropomorphic-warning-meme",
+              "name": "真实动物情境拟人化警示图",
+              "type": "prompt",
+              "prompt": "{subject}, 动物：【具体动物】\n事件：【具体事件】\n\n将该动物置入这个明确事件中，采用 真实动物摄影 × 情境拟人化 × reaction meme × 轻度警示视觉。保留真实动物的身体结构、毛发、爪子、面部与物种特征，不转成人形。\n\n根据事件自动设计最合适的场景、动作、表情、眼神、角色关系与道具。若事件包含明确职业、社会身份或角色身份，可为动物穿戴与身份匹配的服装、帽子、徽章、装备和配饰，但身体仍保持真实动物形态。\n\n画面优先表现一个单一、真实、荒诞、容易读懂的瞬间。若事件存在危险、违规或明显后果，优先通过画面本身表现警示，例如电弧、火花、热气、破损、滑倒、泄漏、惊吓反应、狼狈后果等，不要堆成安全教育信息图。\n\n版式保持简单：单张完整画面，不分栏，不做故事板，不做多格漫画。最多加入一个醒目的短标题，以及一句简短吐槽、对白或警示语。整体先好笑，再让人意识到后果。\n\n更短的版本：\n\n【具体动物】正在经历【具体事件】。真实动物摄影 × 情境拟人化 × reaction meme。保留真实动物结构；若有明确职业或社会身份，可穿对应制服、帽子、徽章和装备，但不转成人形。根据事件自动设计场景、动作、表情、眼神和道具。若有危险或后果，直接通过画面可视化，不做成知识科普长图。单张完整画面，最多一个大标题 + 一句短对白或警示。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202609/1789793196946-afk3fhju-1789793199391-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "漫画",
+                    "角色",
+                    "对白"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_paris-montmartre-portrait-and-caricature-prompt",
+              "name": "巴黎蒙马特街头写实人像与夸张漫画",
+              "type": "prompt",
+              "prompt": "{subject}, 将上传的肖像照片作为主要身份参考。尽可能准确地保留该人物可辨识的面部特征，包括其脸型、表观年龄、后移的发际线或发型、眉毛、眼型、鼻子、嘴巴、下颌线、黑白参杂的胡须图案、肤色、表情以及整体个人特质。\n\n在巴黎蒙马特一个安静、迷人的角落创建一个电影感的、写实的 4:3 肖像场景。展示上传照片中的同一个人，坐在或站在一条宁静的旅游街道上的经典巴黎咖啡馆外。背景应具有真实的蒙马特感，有鹅卵石街道、古老的奶油色建筑、咖啡馆椅子、红色咖啡馆遮阳篷、柔和的日光、艺术的街道氛围，背景中隐约可见圣心大教堂。\n\n该人物在画面中应清晰可见，并以写实的方式拍摄，穿着简单的深色衬衫或夹克。他身边拿着一块巨大的白色画板，正对着相机。\n\n纸上画着同一个人的夸张法国街头漫画，采用经典的蒙马特旅游艺术家老派风格。漫画应看起来是用黑墨水或钢笔线条在白纸上手绘的。它应该是戏剧性夸张且幽默的，同时仍能清晰地辨认出是同一个人。\n\n戏剧性地突出面部特征：超大或形状奇特的鼻子、夸张的下颌线、放大的耳朵、富有表现力的眉毛、扭曲的面部比例、宽阔而淘气的微笑、强烈强调的胡须形状，以及俏皮、夸张的表情。保持漫画迷人、有趣且具有艺术感，而不是怪诞。\n\n重要提示：在单张图像中清晰地展示两个版本：\n\n写实的真人\n纸上同一个人的漫画图\n\n使用写实的光影、干净的构图、高细节、自然的皮肤纹理、手持纸张的真实手部、平静的背景，以及俏皮的复古巴黎旅游纪念品氛围。\n\n宽高比：4:3。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202609/1789563728395-msa1eq1m-1789563761713-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "opennana_valorant-inspired-female-agent-vanta-reference-sheet",
+              "name": "无畏契约风原创女性特工设定图",
+              "type": "prompt",
+              "prompt": "{subject}, 创建一个全新设计的、受《瓦罗兰特》（VALORANT）启发的高级女性特工角色参考表，与之前的版本不同。创建一个具有强大、自信、神秘个性且轮廓鲜明的原创女性特工。角色设计：年轻成年女性，锐利有神的眼睛，优雅的面部特征，带有深红色/红色挑染的长黑发，略显凌乱的层次感发型，细微的耳钉，自信的表情。不要重复使用之前的紫色头发角色设计。服装：未来主义黑色战术街头服饰结合高级时尚元素——短款装甲上衣、超大号不对称夹克、战术工装裤、实用腰带、绑带、手套、护膝和未来主义高帮战斗运动鞋。在整个服装中添加深红色发光点缀和独特的棱角分明的特工徽章。调色板：哑光黑、炭灰、米白、深银和鲜艳的深红色。避免使用紫色和蓝色。参考表布局：左侧为大型电影感全身英雄姿态；正面、侧面、背面和3/4转体视图；大型脸部肖像特写；六种表情：中性、严肃、假笑、愤怒、悲伤、自信；眼睛、头发、耳钉、手套、夹克、腰带和徽章特写；未来主义步枪和战术匕首设计；调色板色样；多个角色剪影；小型动作/游戏内姿态面板；干净专业的角色设计注释。视觉风格：高端动漫游戏概念艺术，高级FPS角色设计，电影级三渲二，真实的解剖结构，锐利干净的线条，细腻的面料，真实的战术装备，戏剧性的红色边缘光，细微的气氛烟雾，动态构图，极高细节，精美的AAA级游戏角色呈现。平面设计：专业的瓦罗兰特风格角色档案，黑色电影感板块结合干净的白色参考板面板，棱角分明的图形形状，未来主义UI元素，粗体排版和极简技术标签。排版：显著展示“VALORANT”和一个全新的特工代号“VANTA”。添加简短的战术短语，如“MOVE WITHOUT WARNING.”、“CONTROL THE ANGLE.”和“PLAY DIFFERENT.”。重要提示：在每个面板和角度保持同一女性角色的连贯性。转体视图中必须看到全身。正确的解剖结构、手部和手指，一致的面部和发型，无重复角色，无畸形肢体，无随机人员，无紫色/蓝色配色。16:9宽屏专业参考表构图，超高细节，电影感，AAA级游戏概念艺术。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202609/1788699384058-5t4o2j4e-1788699387251-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "动漫",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_retro-90s-anime-celluloid-illustration",
+              "name": "90年代复古赛璐璐动画风格插画",
+              "type": "prompt",
+              "prompt": "{subject}, 一幅 90 年代（1990 年代）复古动漫风格的数字插画，带有浓重的模拟胶片颗粒纹理和来自附图的视觉噪声。经典的赛璐璐动画风格，深色调和扁平的 90 年代阴影，忧郁且细节丰富的氛围。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202609/1788443508251-tl2jfoxn-1788443509413-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "动漫",
+                    "赛璐璐",
+                    "动画"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_nostalgic-showa-era-japanese-summer-anime-illustration",
+              "name": "怀旧昭和时代夏日午后日式动漫插画",
+              "type": "prompt",
+              "prompt": "{subject}, 杰作，最佳质量，超详细的动漫插画，怀旧的昭和时代日本夏天，复古生活片段，电影般的日常生活，干净的线稿，柔和的绘画风格阴影，褪色的复古色彩。\n\n一位年轻女性在炎热夏日的午后，在温馨的传统日式房间里，安静地睡在稍微磨损的条纹沙发上。穿着一件轻盈的碎花浴衣，自然地有些凌乱，衣领从一侧肩膀稍微滑落。放松的睡姿，高角度纪实俯拍构图。\n\n木地板，移门，大头电视机，旧收音机，杂志，矮桌，复古电风扇，切开的西瓜，带着水珠的冰镇可乐瓶，风铃，冰棒包装纸，日常小物件。\n\n温暖的傍晚阳光，柔和的阴影，微妙的热浪，安静怀旧的氛围，沉重的夏季空气，像是一部老日本电影里的记忆。\n\n柔和的复古色调，朴素的构图，亲密，平静，充满生活气息，没有现代内饰，没有过度饱和的颜色。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202608/1785854622934-xkzk019z-1785854626350-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：painting",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "painting": [
+                    "插画",
+                    "线稿"
+                  ],
+                  "anime_manga": [
+                    "动漫",
+                    "线稿"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_realistic-person-doodle-shadow-interactive-portrait",
+              "name": "真实人物与黑色涂鸦影子互动人像",
+              "type": "prompt",
+              "prompt": "{subject}, 完全保留上传的参考人物，如所示，包括面部身份、面部比例、眼睛形状、鼻子、嘴唇、肤色、发型、发色、可见的发饰、服装、造型和整体可识别的氛围。不要虚构或硬编码参考图中不存在的任何外观细节；直接从中推断所有身份、服装、发型和配饰。创作一张高质量的垂直（4:5 或 9:16）混合风格肖像，主角是一个写实的全身（或近全身）版本的角色，站在一面干净的墙边，墙上直接勾勒出同一角色的黑色手绘涂鸦影子。涂鸦影子必须仅为黑色素描线稿（不是真实的阴影，不是第二个写实的人，也不是全彩的动漫角色），同时清晰地匹配角色的发型轮廓、配饰、服装轮廓和整体身份。真人应保持照片级的写实感、时尚感且姿势自然，穿着参考图中的确切服装和关键造型细节，表情可爱、略显困惑、轻微尴尬且俏皮，仿佛在想：“我为什么要和我的影子做这种事？”涂鸦影子应该更加充满活力、夸张、顽皮且混乱，周围环绕着漫画风格的动态线、爱心、星星、闪光和漫画效果。对于每一次生成，都要发明一个全新的俏皮顽皮姿势，而不是重复之前的姿势——避免指向姿势、手指枪、重复的站立姿势，或仅仅是两个人物互相指着。真人应该做一个可信的、更柔和版本的姿势，而涂鸦影子则做一个相同创意的夸张卡通版本。每次选择一个新鲜的概念，例如俏皮的偶像姿势、滑稽的舞蹈、侧身倾斜且一只手臂举过头顶、巨大的爱心姿势、厚脸皮的眨眼、双手靠近脸颊、戏剧性的“哒哒”、模拟惊讶、原地奔跑、顽皮的踮脚、双臂张开、悄悄溜走、可爱的麻烦制造者、戏剧性的过度反应、傻傻的胜利、俏皮的平衡、躲猫猫、羞涩但顽皮或过度自信的姿势，同时始终创造独特的变体而不是复制这些例子。在两个人物周围留出足够的空间，以便看到完整的姿势，涂鸦影子的高度与真人基本一致或略高，从而产生可爱、俏皮、时尚、有趣、顽皮且适合社交媒体的构图。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202607/1784990505297-7r608dbz-1784990507110-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "漫画",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_modern-vibrant-anime-portrait-transformation",
+              "name": "现代活力动漫风格人像转换",
+              "type": "prompt",
+              "prompt": "{subject}, 将上传的照片转换为充满活力的现代动漫插图，同时保留人像可识别的面部、发型、年龄和个性。使用大胆的表现力线条、干净的赛璐璐阴影、生动的高饱和度色彩、动态姿势、活泼的手势和戏剧性的广角透视。将背景替换为一个充满爱心、星星、闪光、贴纸、对话框、涂鸦、可爱小动物和漫画效果的趣味卡通世界。创作一个经过打磨、海报品质的构图，具有强烈的深度感、清晰的面部焦点、干净的轮廓以及有趣的、病毒式社交媒体美感。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202607/1784988955877-yg98d8fu-1784988960362-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "动漫",
+                    "赛璐璐"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_jojo-female-characters-tempera-portraits",
+              "name": "JOJO女角色蛋彩肖像系列",
+              "type": "prompt",
+              "prompt": "{subject}, 比例：9:16\n风格：蛋彩 tempera + 蛋黄乳液哑光色层 + 细腻罩染（蛋彩画，不是油画厚涂、不是蜡彩）\n主题：JOJO女角色蛋彩肖像——一人一图竖版，共八人\n人物形象须与其在原作动漫中的形象高度一致，关键发型/发色/五官气质/标志特征清晰可辨，避免换成认不出的路人脸。\n女性角色细节：韩系女神感，高亮牛奶肌，detailed skin texture & pores & moles，眼睛大而清透。\n人物（全部来自 JOJO的奇妙冒险，每张一个角色，共8人，明确成年，东亚审美）：\n1) 空条徐伦（发辨、绿色系，Part6）\n2) 苏丝·Q（金发波浪）\n3) 莉萨莉萨（金发优雅强者）\n4) 特里休·乌纳（粉发，Part5）\n5) 艾丽娜·潘多纳利欧（金发，Part1，明确成年）\n6) F.F.（福福，短发、活泼，明确成年人形）\n7) 雪花之朝（白发、冷静，Part6）\n8) 露卡（粉系短发，Part6，明确成年）\n服装：清凉识别装蛋彩哑光，不色情\n构图：半身，蛋彩哑光底，细罩染\n约束：仅JOJO；强蛋彩；可识别；禁止国旗/旭日；无大段可读文字",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202607/1784557684116-onk7mkj9-1784557685785-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "动漫",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_modern-anime-pop-art-girl-portrait",
+              "name": "现代波普艺术风极简二次元女生肖像",
+              "type": "prompt",
+              "prompt": "{subject}, 创建一个超细节的现代动漫肖像，灵感源自高端漫画插图和当代日本波普艺术海报设计。描绘一位优雅的年轻女性，呈现干净的左侧轮廓，拥有发光的单色皮肤，鼻梁和脸颊上有精致的雀斑，眼神充满表现力且向上看，留着柔软的波浪状齐颔银灰色波波头和轻盈的刘海，戴着超大的亮黄色有线耳机。让她穿着一件有质感的露肩黑色夹克。将她置于鲜艳的纯黄色背景下，头后方有一个巨大的霓虹洋红色圆形光环，营造出大胆的图形构图。使用清晰的墨水线条、优雅的灰阶排线、极简的社论风格、醒目的波普艺术色块、超干净的构图以及超细节的修复 8K 插图质量。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202607/1784385921307-qfltn5jc-1784385922107-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "opennana_sailor-moon-encaustic-style-portraits",
+              "name": "美少女战士蜡彩风格肖像",
+              "type": "prompt",
+              "prompt": "{subject}, 比例：9:16\n风格：蜡彩 encaustic + 蜂蜡厚涂与刮痕 + 半透明色层（蜡画，不是油画表现主义、不是冰雕）\n主题：美少女战士女角色蜡彩肖像——一人一图竖版，共八人\n人物形象须与其在原作动漫中的形象高度一致，关键发型/发色/五官气质/标志特征清晰可辨，避免换成认不出的路人脸。\n女性角色细节：韩系女神感，高亮牛奶肌，detailed skin texture & pores & moles，眼睛大而清透（蜡层下开脸）。\n人物（全部来自 美少女战士，每张一个角色，共8人，明确成年再演绎，东亚审美）：\n1) 月野兔/水手月亮（金发双丸子）\n2) 水野亚美/水手水星（蓝短发）\n3) 火野丽/水手火星（黑长直）\n4) 木野真琴/水手木星（绿系长发）\n5) 爱野美奈子/水手金星（金发双尾）\n6) 天王遥/水手天王星（短发中性飒爽）\n7) 海王满/水手海王星（深绿长发优雅）\n8) 土萌萤/水手土星（短发、静谧）\n服装：清凉战士服/便装蜡彩化，不色情\n构图：半身，蜡面光泽与刮痕\n约束：仅美少女战士；强蜡彩；可识别；禁止国旗/旭日；无大段可读文字",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202607/1784556609226-dlu1uwam-1784556610476-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "动漫",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_90s-ova-cel-sword-art-online-girls",
+              "name": "90年代赛璐璐动画风刀剑神域女性角色",
+              "type": "prompt",
+              "prompt": "{subject}, 比例：9:16\n风格：1990s日本OVA赛璐璐动画静帧 + 手绘线 + 胶片颗粒与轻微色差（复古动画，非写实摄影）\n主题：Sword Art Online girls, assemble~ 复古OVA截图感——同一部作品四人\n人物形象须与其在原作动漫中的形象高度一致，关键发型/发色/五官气质/标志特征清晰可辨，避免换成认不出的路人脸。\n女性角色细节：韩系女神感，高亮牛奶肌，detailed skin texture & pores & moles，眼睛大而清透。\n人物（全部来自 刀剑神域，每张一个角色，明确成年再演绎，东亚审美）：\n1) 结城明日奈/亚丝娜（栗发、细腻强者）\n2) 朝田诗乃（茶发、冷静弓手）\n3) 桐谷直叶/莉法（棕发、明朗坚强）\n4) 西莉卡（粉发、明朗幼驯气质，明确成年再演绎）\n服装：90s动画风清凉冒险装/原作识别色便装，复古不色情\n构图：半身或七分，侧光，简笔霓虹与虚空背景\n约束：仅刀剑神域；强OVA赛璐璐；可识别；禁止国旗/旭日；无大段可读文字",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202607/1784388533466-g5cofqxh-1784388534505-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：photography",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "photography": [
+                    "摄影",
+                    "胶片"
+                  ],
+                  "anime_manga": [
+                    "动漫",
+                    "赛璐璐",
+                    "动画"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_semi-realistic-anime-giantess-illustration",
+              "name": "半写实二次元巨物化动漫女角",
+              "type": "prompt",
+              "prompt": "{subject}, 比例：9:16\n风格：半写实二次元插画 + 虚幻引擎感场景光影（非实拍照片）\n主题：虫眼仰拍「巨物化」女角——人物相对城市/峡谷如巨人\n人物形象须与其在原作动漫中的形象高度一致，关键发型/发色/五官气质/标志特征清晰可辨，避免换成认不出的路人脸。\n女性角色细节：韩系女神感，高亮牛奶肌，detailed skin texture & pores & moles，眼睛大而清透。\n人物（每张一个角色，明确成年，东亚审美）：\n1) 进击的巨人中的米卡莎·阿克曼（黑发、红围巾、坚定眼神）\n2) 咒术回战中的钉崎野蔷薇（焦糖发、锤子可巨物化手持）\n3) BLEACH中的碎蜂（短黑发、斩首队凌厉气质）\n4) 葬送的芙莉莲中的费伦（银蓝发、严酷魔导——非芙莉莲本人）\n服装：原作识别装的夏日清凉强化版，气场强大不色情\n构图：极低虫眼仰角，人物压迫感占画幅上部，脚下微型城市场景\n约束：半写实插画巨物感；可识别；禁止国旗/旭日；无大段可读文字",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202607/1784215148716-zkbch8v8-1784215151234-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "二次元",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_east-asian-urban-rooftop-anime-characters-documentary-photography",
+              "name": "东亚都市屋顶收衣服动漫角色纪实摄影",
+              "type": "prompt",
+              "prompt": "{subject}, 比例：9:16\n风格：东亚都市屋顶晾衣绳纪实摄影 + 午后硬光与布料透光 + 远处电线与水塔（生活纪实摄影，非插画）\n主题：动漫女角色「屋顶收衣服」\n人物形象须与其在原作动漫中的形象高度一致，关键发型/发色/五官气质/标志特征清晰可辨，避免换成认不出的路人脸。\n人物（每张一个，成年，东亚审美）：\n1) 你的名字中的宫水三叶（成年再演绎）\n2) 孤独摇滚！中的伊地知虹夏\n3) ONE PIECE中的娜美\n4) NARUTO中的春野樱（粉发绿眼）\n服装：大胆清凉家居/夏日便装（吊带、短裤、拖鞋），生活感，非色情\n构图：半身到腰，晾衣绳与衣物入镜，城市屋顶背景\n约束：强纪实摄影；可识别；禁止国旗/旭日",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202607/1784136493762-q8tp4xxv-1784136494432-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "动漫",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_anime-girls-peephole-fisheye-photography",
+              "name": "猫眼鱼眼视角动漫女角色摄影",
+              "type": "prompt",
+              "prompt": "{subject}, 比例：9:16\n风格：猫眼/门镜鱼眼窥视摄影 + 圆形视界与边缘暗角 + 门板纹理（门镜光学，非普通广角插画）\n主题：动漫女角色「门外被猫眼看见」\n人物形象须与其在原作动漫中的形象高度一致，关键发型/发色/五官气质/标志特征清晰可辨，避免换成认不出的路人脸。\n女性角色细节：韩系女神感，高亮牛奶肌，detailed skin texture & pores & moles，眼睛大而清透。\n人物（每张一个，成年，东亚审美，圆形鱼眼中仍可辨原作特征）：\n1) 【我推的孩子】中的星野爱\n2) 更衣人偶坠入爱河中的喜多川海梦\n3) 孤独摇滚！中的后藤一里\n4) NARUTO中的春野樱（粉发绿眼）\n服装：大胆清凉居家/出门便装（吊带、短裤），自然站姿，非色情\n构图：圆形猫眼视界居中，周围门板暗部\n约束：强门镜鱼眼；可识别；禁止国旗",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202607/1784163786669-6ej8mgri-1784163787513-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "动漫",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_japanese-makie-lacquer-anime-portraits-gold-foil",
+              "name": "日本莳绘漆艺金箔动漫女角装饰画",
+              "type": "prompt",
+              "prompt": "{subject}, 比例：9:16\n风格：日本莳绘漆艺平面 + 金箔银箔撒粉 + 黑漆底（工艺装饰画，不是照片）\n主题：漆盒盖面级竖幅肖像——金莳绘动漫女角\n人物形象须与其在原作动漫中的形象高度一致，关键发型/发色/五官气质/标志特征清晰可辨，避免换成认不出的路人脸。\n女性角色细节：韩系女神感，高亮牛奶肌，detailed skin texture & pores & moles，眼睛大而清透（箔面高光下仍保留眼部通透）。\n人物（每张一个角色，明确成年，东亚审美）：\n1) ONE PIECE中的乌塔（白红挑染、歌姬识别——非娜美）\n2) 【我推的孩子】中的有马加奈（红发、倔强——非星野爱）\n3) 东京喰种中的神代利世（白发红瞳、优雅危险）\n4) 钢之炼金术师中的奥莉薇·米拉·阿姆斯特朗（金发盘发、军官气场）\n服装：莳绘风纹样化的清凉华服，华丽不色情；保留原作色作箔色\n构图：居中半身或全身，黑漆底，金线云鹤/浪纹（禁止旭日/国旗）\n约束：强莳绘漆艺平面；可识别；禁止国旗/旭日；无大段可读文字",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202607/1784163846319-47i050kg-1784163847454-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "动漫",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_anime-characters-miniature-desktop-claymation-figurines",
+              "name": "动漫角色微缩桌面黏土人偶",
+              "type": "prompt",
+              "prompt": "{subject}, 比例：9:16\n风格：黏土定格动画静帧 + 指纹与塑形痕迹可见 + 微型布景摄影感（是黏土角色，不是真人照片）\n主题：桌面微缩场景中的黏土女角立像\n人物形象须与其在原作动漫中的形象高度一致，关键发型/发色/五官气质/标志特征清晰可辨，避免换成认不出的路人脸。\n女性角色细节：韩系女神感，高亮牛奶肌，detailed skin texture & pores & moles，眼睛大而清透（黏土材质下用高光暗示）。\n人物（每张一个角色，明确成年，东亚审美）：\n1) ONE PIECE中的佩罗娜（粉发、幽灵公主识别——非娜美）\n2) NARUTO中的山中井野（金发高马尾，明确成年——非春野樱）\n3) 鬼灭之刃中的栗花落香奈乎（淡粉发，明确成年再演绎——非胡蝶忍）\n4) 一拳超人中的战栗的龙卷（短发童颜巨力，明确成年再演绎）\n服装：黏土质感的清凉夏装，可爱不色情\n构图：微距桌面，角色全身，手工布景道具\n约束：强黏土定格；可识别；禁止国旗/旭日；无大段可读文字",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202607/1784136338982-6gxn8oza-1784136339923-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "动漫",
+                    "动画"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_anime-goddesses-airport-waiting-photography",
+              "name": "动漫女神机场候机落地窗写实摄影",
+              "type": "prompt",
+              "prompt": "{subject}, 请生成4张独立9:16图片（不要拼接）：\n比例：9:16\n风格：机场观景廊落地窗实拍 + 机坪黄昏反光 + 大面积玻璃（航站楼摄影，非插画）\n主题：动漫女角色「等飞机」\n人物形象须与其在原作动漫中的形象高度一致，关键发型/发色/五官气质/标志特征清晰可辨，避免换成认不出的路人脸。\n女性角色细节：韩系女神感，高亮牛奶肌，detailed skin texture & pores & moles，眼睛大而清透。\n人物（每张一个，成年，东亚审美）：\n1) 你的名字中的宫水三叶（成年再演绎）\n2) ONE PIECE中的娜美\n3) 间谍过家家中的约尔·福杰\n4) 紫罗兰永恒花园中的薇尔莉特·伊芙加登\n服装：大胆清凉旅行装（短袖、短裤裙、小行李箱拉杆可手持），日韩机场时尚，非色情\n构图：半身靠窗，窗外飞机虚化，玻璃倒影\n约束：强机场窗实拍；可识别；禁止国旗；无航司可读商标",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202607/1784135066144-4oaratpo-1784135066799-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "动漫",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_80s-90s-nippon-animation-cel-shaded-style",
+              "name": "80至90年代日本动画赛璐璐风格插画",
+              "type": "prompt",
+              "prompt": "{subject}, 将此图像重塑为受 1980 年代至 1990 年代日本动画（Nippon Animation）启发的赛璐璐风格动漫插图，具有大胆干净的轮廓、温暖柔和的色调、光影之间的强烈对比、细节极少的软渐变背景、服装和环境的细致渲染、富有表现力的线条、具有手绘美感的扁平分层构图，以及电影般的 3:4 画幅。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202607/1783867642558-y9v0e2l1-1783867649179-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "动漫",
+                    "赛璐璐",
+                    "动画"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_anime-girl-twin-tails-golden-hour-portrait",
+              "name": "动漫风户外双马尾美少女金黄时刻",
+              "type": "prompt",
+              "prompt": "{subject}, 可爱动漫灵感的少女，站在户外安静的街道上，黑色长直发梳成双马尾，系着粉色丝带蝴蝶结，柔软的刘海，闭着眼睛，温柔的微笑，做出调皮的姿势，用食指触摸双耳。穿着带浅蓝色边饰的白色日式水手校服和配套的格纹裙，可见淡粉色背包肩带。黄金时刻光效，柔和的自然阳光，梦幻般的氛围，浅景深，背景中模糊的树木和道路，精致的面部特征，白皙的皮肤，可爱美学，高细节，柔和的马卡龙色调，专业肖像摄影，超写实，4K画质，虚化背景。\n负面提示：\n模糊，低质量，多余的手指，变形的手部，糟糕的解剖结构，扭曲的面部，被裁剪，水印，文字，标志，曝光过度，过饱和，重复的肢体，杂乱的背景，运动模糊，噪声，低分辨率。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202607/1783612761644-wcb10wag-1783612766549-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：photography",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "photography": [
+                    "摄影",
+                    "景深"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_90s-anime-style-rebellious-character",
+              "name": "90年代复古动漫风格反叛角色",
+              "type": "prompt",
+              "prompt": "{subject}, 使用这张参考照片，并将其制作为 90 年代动漫风格。使用那个时代的审美，尤其是男女角色的视觉效果。使用并不讨喜的色彩。保留照片中的面部特征，但将它们调整为那个时代的动漫风格。让他/她成为一个反叛且俏皮的角色。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202607/1782905058219-709e28bt-1782905060625-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "动漫",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_pastel-public-service-anime-cinema-style",
+              "name": "柔和粉彩公益动漫电影风格",
+              "type": "prompt",
+              "prompt": "{subject}, 2x2网格，16:9，针对历史上4个令人困惑的日子：风格 = {\n  <柔和粉彩公益动漫电影>\n  媒介：柔和的社论信息图插画，融合了风格化的动漫电影场景设计。\n  表面：哑光纸张纹理，柔和的颗粒感，轻微点缀的海报饰面，带有干净简化渲染的柔和数字绘画。\n  形式：可爱的风格化人物和易读的象征性物体，放置在清晰的海报式构图中。\n  颜色：公益事业粉彩色调，包含天蓝色、医疗蓝、薄荷绿、腮红粉、奶油色、浅珊瑚色和柔和米色，辅以少量深蓝色作为视觉锚点。\n  光影：整体为明亮的柔和环境光，伴有选择性的戏剧性光束，中心主体周围带有轻微的电影感光辉。\n  构图：清晰的海报层级，具有强烈的中心焦点主体，简化的周围人物，易读的辅助图标以及宽阔的背景形状。\n  情绪：充满希望、具有公民意识、情感上令人振奋，但带有严肃感和英雄紧迫感的底色。\n  </柔和粉彩公益动漫电影>\n\n  <转换>\n  - 将主体转换为一个受动漫启发的风格化人物或物体，并放置在干净的公共信息海报布局中。\n  - 将周围元素重新解释为简化的象征性辅助图形、公民图标、教育主题或叙事辅助人物。\n  - 将写实风格转化为柔和的圆形、亲切的卡通比例，以及情感上易读的面部或焦点表情。\n  - 平衡柔和的信息图清晰度与微妙的电影场面调度及英雄色彩的强调。\n  - 将复杂的环境重建为简化的场景背景，具有宽阔易读的形式、柔和的气氛并减少杂乱。\n  - 将激烈的动作、紧张或冲突转化为柔化的海报戏剧感：易读、充满情感且具有象征意义，而非粗糙或写实的。\n  - 在相关时使用象征性物体、徽章、盾牌、图表、地球仪或机构图案来辅助构图。\n  - 保留主体身份，但使其感觉像是一个带有动漫电影魅力的崇高公众意识运动的核心部分。\n  </转换>\n\n  <形状语言>\n  - 倾向于圆润的轮廓、干净的线条、柔和的几何形状和亲切的人物设计。\n  - 保持次要人物简单且易读。\n  - 使用图标式的道具、大型象征性形式和适合海报的空间布局。\n  - 让情感叙事通过姿势、间距和构图来表现，而非密集的细节。\n  </形状语言>\n\n  <渲染规则>\n  - 保持表面柔和且哑光。\n  - 使用细腻的纸张颗粒和粉彩色块。\n  - 避免生硬的写实主义；保持面部和人物设计风格化且可爱。\n  - 让构图在远处看就像教育海报一样清晰。\n  - 添加恰到好处的电影氛围以创造情感升华。\n  </渲染规则>\n\n  <收尾>\n  - 粉彩公益动漫海报美学。\n  - 柔和、充满希望、具有象征意义且干净。\n  - 教育性的社论清晰度与以人物为中心的电影情感相融合。\n  </收尾>\n\n  <避免>\n  - 避免粗糙的血腥、写实或严酷的战术细节。\n  - 避免密集的背景杂乱。\n  - 避免过于阴暗的调色板或激烈的对比。\n  </避免>\n}",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202607/1782904195291-zbtr5n82-1782904198005-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：commercial, painting",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "commercial": [
+                    "信息图",
+                    "布局"
+                  ],
+                  "painting": [
+                    "插画",
+                    "纸张"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_whimsical-comic-woman-buried-in-books",
+              "name": "书山中的困惑女孩漫画插图",
+              "type": "prompt",
+              "prompt": "{subject}, 场景：一个异想天开的漫画风格插画，描绘了一位年轻女性被埋在乱七八糟的多彩书山下，只露出了她的头、一只手和一条猫尾巴。她有一头凌乱的深色头发，扎着松散的丸子头，戴着超大的圆框眼镜，双眼大睁显得很震惊，嘴巴张开露出惊讶的表情。她的手向外伸出，仿佛试图从书堆中逃脱。一个带大问号的思想气泡漂浮在她的头顶，强调了困惑和不知所措。构图：摄像机角度为略微俯视，居中构图；镜头类型为中景特写；焦点清晰聚焦在角色的脸部和前景的书籍上；书籍填满了几乎整个画面，营造出凌乱但俏皮的构图。环境：背景为柔和的淡紫色，干扰极少；道具有数十本堆叠和散落的红色、蓝色、黄色和绿色的书籍，带有幽默的虚构书名。角色：女性，青年，头发为凌乱的黑发，扎着有散乱发丝的松散丸子头，表情为大眼睛、不知所措、困惑但可爱，配饰为大圆框眼镜。书名包括：《艾米的生存指南》、《高级胡思乱想》、《拖延的艺术》、《如何与你的猫交谈》、《初学者的征服世界指南》、《烹饪入门》、《困惑者的哲学》、《危险的好主意》、《午睡史》。风格：复古漫画插图与动漫风格的角色设计相结合，高细节数字绘画，干净大胆的墨水轮廓，轻微的印刷颗粒和复古纸张纹理，色彩调色板为鲜艳饱和的原色搭配柔和的淡紫色背景。光影：柔和漫射的影棚灯光，中等对比度，阴影干净。质量：高分辨率，极其详细的书籍、文字、面部特征和纹理。负面提示词：模糊，低分辨率，多余的肢体，变形的手，裁剪的脸部，文字扭曲，凌乱的解剖结构，比例不良，水印，噪点。设置：宽高比 2:3，步数 35，CFG 比例 7.5，采样器 DPM++ 2M Karras。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202606/1782821418875-1ig3bx7c-1782821433007-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：painting",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "painting": [
+                    "插画",
+                    "纸张"
+                  ],
+                  "anime_manga": [
+                    "漫画",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_person-holding-caricature-drawing-european-old-town-golden-hour",
+              "name": "欧洲老街手拿漫画像的黄金时刻人像",
+              "type": "prompt",
+              "prompt": "{subject}, 一位[性别]，具有精确的面部特征，齐肩的黑色深波浪发，露出牙齿的温暖真诚微笑，在黄金时刻站在阳光明媚的欧洲老街上。他们正高兴地拿着一张大白纸，上面有一张他们自己的彩色漫画（夸张的快乐表情，相同的发型和面部特征，卡通风格）。身后强烈的温暖阳光营造出美丽的镜头光晕和金色轮廓光。写实摄影，电影级构图，高度详细，8k --ar 9:16 --stylize 200 --v 6",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202606/1782618951576-3yynynbo-1782618954458-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：photography",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "photography": [
+                    "摄影",
+                    "镜头"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_hyper-realistic-anime-illustration-from-reference-photo",
+              "name": "依据参考图创作超写实动漫插画",
+              "type": "prompt",
+              "prompt": "{subject}, 根据上传的参考照片创作一张超写实动漫插画。最终艺术作品必须保留与参考图完全相同的身份、面部特征、发型、表情、姿势、纹身、白色背心、筷子位置、拉面碗、桌子、水瓶、筷子筒、泰国餐厅背景、光影、构图和镜头角度。使用透过窗户射入的温暖黄金时刻阳光和电影感阴影、光泽感皮肤、超精细眼睛、柔和的绘画式阴影，以及受新海诚和现代高端动漫艺术启发的优质动漫美学。在左上角，包含一个小的圆角矩形参考框，其中包含同一女孩在完全相同姿势和场景下的原始上传照片。框内的参考图像必须与生成的艺术作品完美匹配——同一个人、同一发型、同一表情、同一服装、同一纹身、同一食物、同一构图和同一镜头角度——唯一的区别是从真人照片转变为动漫风格。超精细，8K，杰作质量，干净的线条，垂直 9:16 构图。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202606/1782617588999-epfdaea6-1782617591999-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：photography",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "photography": [
+                    "照片",
+                    "镜头"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_contemporary-anime-soccer-player-fashion-illustration",
+              "name": "现代动漫足球运动员时尚插画",
+              "type": "prompt",
+              "prompt": "{subject}, ( 足球运动员 ) 的超详细当代动漫插画。随性地以轻松的时尚姿势站立，双腿自然交叉，肩膀放松，双手隐藏在超大的袖子内，头部略微向上倾斜看向左侧，冷静自信的表情。穿着 ( 国家队球衣 )，( 球员配件 ) 白色 asics tiger 运动鞋。背景：纯深红色背景，角色身后有一个较暗的红色矩形面板，以及戏剧性的硬阴影。全身，居中构图，社论时尚插画，干净的线条艺术，赛璐璐着色，高级数字绘画，超详细，鲜艳的色彩，高分辨率。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202606/1782617728594-cmn87c75-1782617731368-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "动漫",
+                    "赛璐璐",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_vintage-satirical-magazine-caricature-portrait",
+              "name": "复古讽刺杂志夸张漫画肖像",
+              "type": "prompt",
+              "prompt": "{subject}, [CHARACTER] 的复古讽刺杂志夸张漫画肖像，显示为带有 [CLOTHING] 的完整头部和上肩肖像。给面部一个夸张且傻气的表情，带有宽阔且不均匀的露齿笑、大耳朵、雀斑、圆润的面颊、略微对眼的淘气眼神、小而弯曲的鼻子、简单的牙齿、凌乱的头发以及橡胶般的漫画比例。使用 [COLORS] 以及扁平的复古杂志色块、粗重的黑色墨水轮廓、粗糙的交叉排线、半色调网点、可见的新闻纸纹理、不完美的丝网套印以及手绘封面艺术质感。将角色置于 [BACKGROUND] 之前，绘制为荒诞的社论场景背景，具有简单的几何形状、漫画透视、俏皮的视觉反差和强烈的复古恶搞能量。干净的居中构图，面部完全可见，无文字，无标志，宽高比 4:5。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202606/1782618826748-cx9jxj4g-1782618830330-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "漫画",
+                    "CHARACTER"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_tom-cruise-anime-character-reference-sheet",
+              "name": "汤姆克鲁斯动漫风格角色参考表",
+              "type": "prompt",
+              "prompt": "{subject}, 汤姆·克鲁斯的动漫风格角色参考表，采用羊皮纸风格的 UI 布局，带有技术网格，展示了穿着黑色皮夹克、白色 T 恤、牛仔裤和靴子的全身形象，自信的表情，身后有微弱的烟雾状能量之翼；包括侧面板，上面有档案统计数据（姓名、年龄、角色“冒险家/间谍”、能力、性格特征）、调色板样本、服装前/侧/后视图、表情网格（冷静、微笑、严肃、愤怒）、他骑着摩托车穿过深紫色能量条纹的动作场景、强调速度、智力和技巧的雷达图表，以及引言和时尚动漫信息图设计中的“特技传奇”背景故事框。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202606/1782311225186-n9xpiz9d-1782311229616-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：commercial",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "commercial": [
+                    "信息图",
+                    "布局"
+                  ],
+                  "anime_manga": [
+                    "动漫",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_portrait-to-cute-anime-fashion-poster-collage",
+              "name": "写实人像转可爱动漫画报设计",
+              "type": "prompt",
+              "prompt": "{subject}, 将上传的肖像作为此人的面部特征、脸型、肤色、发型和自然表情的唯一参考。将此人转变为高质量、受动漫启发的可爱时尚角色，同时保持面部特征可辨识且一致。\n\n创建一个垂直 9:16 的高级海报拼接图，在纯深黑色背景上采用多个不对称相框面板。布局应包含同一个人的几种不同镜头：一个眼睛细节特写、一张上半身肖像、一个坐姿全身姿势、一个可爱的半身姿势以及一个小面部特写。使用纤细优雅的白色和淡粉色轮廓框、动态对角线面板构图、整洁的间距和精致的杂志风格视觉设计。\n\n整体风格应可爱、柔和、时尚且高端，采用粉-白-黑配色方案、精致的光影、平滑但细腻的渲染、清晰的面部细节、柔软的皮肤质感、明亮有神的眼睛、自然的发流和精致的动漫写实美学。此人应具有甜美自信的情绪、调皮的手势、微妙的眨眼或温柔的微笑，以及自然放松的姿势。\n\n选择一套最符合上传者气质的新装扮，不复制任何现有服装。采用时尚的柔和色调街头服饰造型，例如淡粉色大廓形连帽衫或短款夹克、白色内搭、浅色牛仔裙或短裤、干净的运动鞋、含蓄的配饰以及协调的粉白色细节。服装应感觉可爱、现代、得体且视觉平衡。\n\n采用专业角色插画质量、高细节、柔和电影光效、细腻阴影、整洁构图、锐利的眼睛、优雅的发丝、高级海报设计、美观的色彩分级和精美的社交媒体就绪效果。\n\n无水印、无徽标、无文字、无签名、无随机字母。\n\nNegative Prompt：\n\n水印，徽标，文字，签名，随机字母，品牌标记，低质量，模糊，像素化，混乱构图，不良解剖，变形身体，断腿，额外手臂，额外手指，缺失手指，扭曲的手，不自然姿势，重复脸，不一致脸，不同的人，不好的眼睛，斗鸡眼，不对称瞳孔，塑料皮肤，过度平滑的皮肤，过度性感化的服装，复制的衣服，凌乱的背景，丑陋的框架布局，刺眼的光线，肮脏的颜色，AI 伪影，裁剪掉的脸，裁剪掉的肢体。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202606/1782050104963-v2oa9nem-1782050119876-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：commercial",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "commercial": [
+                    "海报",
+                    "布局"
+                  ],
+                  "anime_manga": [
+                    "动漫",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_cristiano-ronaldo-portugal-caricature-prompt",
+              "name": "C罗葡萄牙国家队动感夸张漫画",
+              "type": "prompt",
+              "prompt": "{subject}, 创建一个充满活力、高能量的克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）效力于葡萄牙国家队的夸张漫画，强调他标志性的存在和传奇地位。描绘他穿着经典的红绿葡萄牙球衣，印有著名的7号，捕捉他在有力地踢出一个带着火焰尾迹的足球时的动态动作姿态。以程式化的漫画艺术风格夸大他标志性的紧张表情、激光般聚焦的双眼、运动健壮的体魄和激烈的竞争精神。在体育场背景中，加入热情洋溢的球迷，他们举着写有“SUI!”和“GOAT 7”的标牌，庆祝他著名的进球庆祝动作和他作为足球史上最伟大球员之一的声誉。使用戏剧性的光影、鲜艳的色彩、充满活力的动态效果和拥挤的人群氛围，来传达定义罗纳尔多比赛风格的兴奋、激情和超越现实的能量。艺术作品应具有大胆、电影感、细节丰富且充满动感的特质，捕捉这位传奇足球偶像的情感和奇观。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202606/1781966872410-s3h7tr55-1781966873826-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "opennana_anime-style-fashion-yellow-illustration",
+              "name": "动漫风时尚黄色调插画",
+              "type": "prompt",
+              "prompt": "{subject}, 使用参考图作为身份识别。创建一张动漫风格的数字插图，主角是[性别，例如：年轻女性]，留着[描述发型，例如：黑色短波波头]，戴着[描述面部特征，例如：圆框黄片眼镜]。角色穿着一件宽大的亮黄色长袖卫衣和黑色高腰短裤，双腿交叉，姿态放松。背景应该是一个平整、纯色、鲜艳的黄色矩形面板，居中放置在稍微深一点的黄色背景上。使用干净、犀利的艺术风格，具有粗线条和高对比度阴影。灯光应强调黄色美学，营造出一种程式化的现代时尚插画感。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202606/1781789009980-rol08czr-1781789012927-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "动漫",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_semi-realistic-anime-woman-gundam-rooftop-1781684601696",
+              "name": "半写实动漫少女与巨型高达天台合影",
+              "type": "prompt",
+              "prompt": "{subject}, 半写实动漫风格的年轻女性，全身时尚社论，随意坐在阳光充足的屋顶边缘，未来感蓝色飞行员夹克，白色T恤，黑色战术工装裤，露指手套，巨大的RX-78-2高达在身后耸立，超精细机械装甲，图形动漫叠加元素，HUD图形，未来感文字，电影级HDR光影，城市天际线背景，白蓝红黄调色板，8K。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202606/1781684597306-bxz7awdb-1781684598885-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "opennana_dreamy-anime-inspired-vintage-woman-european-countryside",
+              "name": "梦幻动漫风欧洲乡村繁花少女",
+              "type": "prompt",
+              "prompt": "{subject}, 一个梦幻的受动漫启发的杰作，一位优雅的年轻女性，留着长长的深色卷发和明亮的双眼，穿着飘逸的复古花卉连衣裙和精致的珠宝。她被盛开的紫藤和樱花环绕，坐在一个浪漫的欧洲乡村环境中，背景中有湖泊、山脉和历史建筑。柔和的金色阳光，柔和的色彩，飘浮的花瓣，高度详细的花朵，电影般的深度，水彩纹理，空灵的氛围，超详细，宁静的表情，吉卜力工作室启发的美学，杰作质量，充满活力和迷人的构图。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202606/1781577464737-w5djvg5n-1781577466242-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "opennana_ultra-realistic-fantasy-ocean-portrait-anime-water-warrior",
+              "name": "超写实奇幻海洋人像与动漫水战士守护灵",
+              "type": "prompt",
+              "prompt": "{subject}, 超写实电影感奇幻肖像，低角度宽视角，背景是广阔的反光海面而非陆地，清澈见底的浅水延伸至地平线，明亮的蓝色白天天空布满了戏剧性的白云和阳光射线。一个真实的年轻男子独自站在场景中央的水面上，穿着一件超大号白色连帽衫、宽松的浅色水洗牛仔裤、白色运动鞋，戴着一顶遮住部分面部的白色棒球帽。他的手随意地插在连帽衫口袋里，头微微低下，姿势冷静自信。全身构图，比例自然，细节丰富的衣褶，照片般真实的皮肤，真实的照明，超清晰的焦点。他身后耸立着一个巨大的受动漫启发的海洋战士之灵，看起来像是一个从海洋本身显现出来的守护实体。这个角色巨大无比，占据了大半个天空，就在那个男人的正后方。灵体拥有深邃的蓝色眼睛，细腻的动漫特征，深红褐色的头发，手持一把高举过头顶的武士刀，处于战斗姿态。巨大的螺旋水效围绕着这个巨人角色，形成了一个由透明水花、液体能量轨迹、水滴和流动的波浪形态组成的巨大漩涡，包裹着守护者和人类主体。水龙般的螺旋从海面升起直冲云霄，在现实的人类和超自然的守护者之间建立了强大的联系。照片般真实的现实世界环境与高端动漫奇幻元素相结合，现实与动画的完美融合，明亮的正午阳光，体积光，电影感的云朵，水面倒影，动态飞溅粒子，宏大的规模，英雄式的构图，极深的空间感，超精细，杰作质量，8K，HDR，虚幻引擎5，电影奇幻现实主义，电影海报质量，戏剧性的透视，超写实的水物理效果，无地面，无草地，完全站在反光的海洋水面上。比例 4:5",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202606/1781270072111-eesos1e1-1781270076028-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "动漫",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_black-and-white-manga-line-art-illustration",
+              "name": "黑白漫画线稿风格全身人像设计",
+              "type": "prompt",
+              "prompt": "{subject}, 将上传的参考照片转换为干净的黑白漫画风格线稿插画，同时保留原图中的精确姿势、构图、服装、配饰、面部表情和透视。创建一个全身角色绘图，具有优雅的墨水轮廓、平滑的轮廓线、微妙的灰阶阴影、极简的单色美学、时尚草图风格、准确的解剖结构、高度详细的衣服褶皱、写实的比例、专业的角色设计图、洁白的背景、柔和的地面阴影、现代社论插画、受日本漫画启发的艺术作品、清晰的矢量感线条、高细节、高对比度、超净呈现。在角落包含一个小圆角彩色参考图嵌入，显示用于转换的原图。高级概念艺术风格，8K分辨率，杰作质量。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202606/1780734852567-q0mdai9v-1780734854874-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：painting",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "painting": [
+                    "插画",
+                    "线稿"
+                  ],
+                  "anime_manga": [
+                    "漫画",
+                    "线稿",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_collector-edition-game-box-set-prompt-template",
+              "name": "虚拟游戏典藏版礼盒视觉设计",
+              "type": "prompt",
+              "prompt": "{subject}, 为名为 [GAME TITLE] 的虚构游戏创建一个高级且高度可信的典藏版游戏盒装。\n\n目标是让包装感觉像是为大型游戏发售而准备的高端真实典藏版：豪华、值得展示、内容丰富，并能立刻让粉丝、收藏家和预购者产生购买欲望。它应该感觉像是一个官方的高级实体版本，具有可信的包装逻辑和提升的粉丝价值。\n\n游戏详情：\n- 游戏标题：[GAME TITLE]\n- 类型：[动作角色扮演 / 恐怖 / 开放世界 / 日式角色扮演 / 战术 / 格斗 / 科幻 / 幻想 / 射击 / 冒险]\n- 核心概念：[游戏关于什么]\n- 版本名称：[典藏版名称]\n- 核心卖点：[为什么粉丝会为此礼盒付费]\n- 受众：[受众]\n- 语调：[史诗 / 黑暗 / 尊贵 / 电影感 / 怀旧 / 神话 / 未来主义 / 豪华]\n- 文化氛围：[AAA 级尊贵 / 动漫豪华版 / 黑暗幻想收藏 / 科幻盒装 / 类 PlayStation 风格 / 高级零售]\n- 真实程度：[可信的 AAA 级产品 / 可信的小众高级版本 / 风格化但真实 / 严肃的虚构物品]\n\n盒装结构：\n像官方典藏版零售包装一样构建视觉效果。\n\n包含如下部分：\n- 外部收藏盒\n- 游戏盒或铁盒\n- 版本名称\n- 英雄原画\n- 包含的实体物品\n- 可选的人物手办或雕像\n- 可选的画册\n- 可选的原声带\n- 可选的地图、卡牌、补丁、胸针或复制道具\n- 可选的数字奖励说明\n- 可选的预购或首发提示\n- 可选的平台或年龄分级\n- 可选的工作室 / 发行商标志\n\n对于包含的内容，展示一个可信的组合，例如：\n- 铁盒包装\n- 画册\n- 原声带包装或 CD\n- 高级手办\n- 背景故事日志\n- 世界地图\n- 收藏卡牌\n- 珐琅胸针\n- 布制补丁\n- 复制品关键道具\n- 数字代码信封\n\n对于文案，包含：\n- 一个强有力的版本标题\n- 可选的简短高级标语\n- 简洁的高级零售用语\n- 感觉官方、有价值且商业上可信的语言\n- 在粉丝服务和奢侈品清晰度之间取得平衡\n\n包含：\n- 强力的版本名称处理\n- 高级收藏层级\n- 可信的实体物品阵容\n- 精美的包装材料\n- 真实的零售结构\n- 强大的粉丝渴望和展示价值\n- 高级预购能量\n- 即时可分享的收藏吸引力\n\n视觉方向：\n- 让该版本感觉像是一个真实的、粉丝会立即预购并展示的高级实体盒装\n- 强调排他性、完整性、粉丝奖励和陈列感\n- 平衡实体产品真实感与游戏世界幻想感\n- 使其适用于零售商页面、典藏版揭晓、首发宣传、开箱文化或社交帖子\n- 结果应该看起来像一个真实的高端游戏典藏版\n\n美术方向：\n- 风格：[AAA 典藏版产品展示图 / 高级游戏盒装 / 暗黑高级零售 / 动漫豪华版展示 / 铁盒首发宣传]\n- 色调：[色调]\n- 字体感：[电影感游戏字体 / 高级衬线体 / 锐利科幻感 / 暗黑幻想展示 / 干净的零售标签]\n- 材质感：[硬质收藏盒 / 铁盒 / 烫金纸盒 / 高级内托 / 零售产品展示]\n- 灯光或图像氛围：[戏剧性的产品光 / 干净的高级摄影棚 / 收藏架光泽 / 暗黑奢侈感 / 电影感高光]\n- 背景：[影棚虚空 / 产品底座 / 有纹理的零售表面 / 游戏世界色场 / 阴影舞台]\n\n构图：\n- 将典藏版作为一个统一的高级零售物品展示\n- 使外盒、版本名称和包含的物品清晰可见\n- 使用真实的产品图层级和可信的实体包装逻辑\n- 让包装感觉昂贵、完整，且值得粉丝痴迷\n- 让最终产出感觉像是一个具有病毒式传播潜力的、高级的虚假典藏版\n\n输出质量：\n- 超详细\n- 视觉结构化\n- 商业可信\n- 文化流畅\n- 精美的高级产品造型\n- 强大的层级感和间距\n- 高级盒装构图\n- 可即时分享的视觉概念\n\n可选内容块：\n- 铁盒特写\n- 手办标注\n- 物品清单\n- 预购奖励条\n- 版本编号\n- 平台图标\n- 年龄分级\n- 工作室标志\n- 烫金提示\n- “包含数字原声带”注释\n\n避免：\n- 通用的捆绑布局\n- 薄弱的包含物品逻辑\n- 虚假的零售细节\n- 凌乱的构图\n- 随机的字体选择\n- 业余的收藏盒审美\n- 过多的文案干扰产品\n- 明显的恶搞（除非刻意选择）",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202605/1779454730719-cefnoa6a-1779454734460-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "动漫",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_create-full-page-colored-manga-from-photo",
+              "name": "以参考照创作彩色漫画页",
+              "type": "prompt",
+              "prompt": "{subject}, Create a full-page colored manga illustration based on the person in the reference photo. Use authentic manga page composition with 5–7 dynamic connected panels on a single page. Include cinematic storytelling, dramatic perspective, expressive emotions, dynamic poses, speed lines, impact frames, close-up shots, and intense visual flow.Add English comic-style sound effects, handwritten dialogue bubbles, ink splatter strokes, halftone textures, rough comic sketch lines, and graffiti-inspired brushwork. Blend vibrant colors with manga-style shading and strong contrast. Emphasize the character’s personality and aura with symbolic visual elements and atmospheric energy effects. Highly detailed, emotional, stylish, energetic, professional manga aesthetic with clean white negative space mixed with chaotic ink textures.Hand-drawn look, free-flowing lines, immersive composition, high quality. Aspect ratio 9:16 HD.",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202605/1778429794967-q7jqueqp-1778429795575-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：painting",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "painting": [
+                    "illustration",
+                    "ink",
+                    "Hand-drawn"
+                  ],
+                  "anime_manga": [
+                    "manga",
+                    "character"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_create-ultra-detailed-manga-pages",
+              "name": "打造超细节动漫风格分镜页",
+              "type": "prompt",
+              "prompt": "{subject}, Create an ultra-detailed cinematic manga/manhwa page based on the reference photo. Preserve the exact facial features, hairstyle, and elegant beauty of the character while transforming them into a visually powerful manga protagonist. Use a dynamic 5–7 panel composition with dramatic perspectives, emotional close-ups, intense expressions, action poses, seamless panel transitions, and immersive storytelling flow.\nAdd manga-style speed lines, black ink splashes, halftone textures, rough graphite sketch strokes, motion blur, glowing aura energy, floating particles, cinematic lighting, dramatic shadows, and chaotic ink textures mixed with clean white negative space. Blend vibrant anime colors with deep contrast and premium manga shading. Hand-drawn aesthetic, stylish, emotional, modern manga/manhwa masterpiece, ultra-sharp details, 9:16 HD.",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202605/1778430620420-l8o3oqp7-1778430620865-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：photography, painting",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "photography": [
+                    "photo",
+                    "lighting"
+                  ],
+                  "painting": [
+                    "sketch",
+                    "ink",
+                    "Hand-drawn"
+                  ],
+                  "anime_manga": [
+                    "manga",
+                    "character",
+                    "panel"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_cross-dimension-manga-character-transformation",
+              "name": "跨次元漫画角色变身三维世界",
+              "type": "prompt",
+              "prompt": "{subject}, 一张跨维度摄影作品。左侧：展示 [SERIES_NAME] 世界的黑白二维漫画画板。右侧：一个超写实的三维世界。中心主体：[CHARACTER] 正在跨越边界线，从二维素描转变为三维形象。细节：由 AI 根据 [CHARACTER] 推断其服装细节和标志性武器或道具。风格：超现实主义，视错觉，ArtStation 杰作，8k 分辨率。负面提示：盒子，框架，边框，扁平，低分辨率。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202605/1778474205743-fdc8btfl-1778474206231-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "漫画",
+                    "CHARACTER"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_gentle-healing-anime-screenshot",
+              "name": "温柔治愈系二次元手机截图",
+              "type": "prompt",
+              "prompt": "{subject}, 生成一张竖版手机截图风格的图片，整体比例接近 9:16。画面中心偏上是一位真人 coser，扮演（角色名称）的二次元角色。人物为写实风格，但五官略带动漫感，皮肤细腻，眼睛稍大，表情温柔地看向镜头，坐在室内的休闲场景中，例如咖啡厅或酒吧吧台前，背景有符合场景的道具。画面最上方加入手机系统状态栏 UI，包括时间、电量、信号、网络等图标，让整张图看起来像手机截图。画面底部叠加一块宽大的半透明 galgame 风格对话框，对话框左侧放一个与画面人物对应的动漫或 Q 版头像；对话框右侧排版文字：第一行用较大字体显示与前面相同的角色名字，下面一到两行显示一段适合这个角色人设的、温柔治愈风格的简体中文台词，由你自动创作。再在对话框下方加一条操作栏，仿照 galgame UI。整体风格高清、细节丰富、光线柔和、二次元与真人写真自然融合。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1776647092531-mahcsxko-1776647093064-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：photography",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "photography": [
+                    "写真",
+                    "镜头"
+                  ],
+                  "anime_manga": [
+                    "二次元",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_high-contrast-red-neon-monochrome-vector-portrait-woman",
+              "name": "高对比度红霓虹边缘光黑白矢量人像",
+              "type": "prompt",
+              "prompt": "{subject}, 将主体转变为引人注目的高对比度单色矢量肖像，以优质的黑白漫画插画风格呈现，具有脆爽的赛璐璐阴影、大胆的几何形状和超洁净的矢量线条。以高度的准确性保留主体的面部特征、发型、表情和整体神韵。\n\n主体是一位时尚的年轻女性，留着飘逸的长发，穿着一件敞开的深色大号衬衫，内搭一件合身的白色圆领T恤。她佩戴着极简主义的方形吊坠项链、优雅的耳环，以及一副自然地架在头顶并与发型无缝融合的时尚墨镜。\n\n用强烈的红色霓虹边缘光照亮肖像，勾勒出她的头发、脸部、肩膀和衣服的轮廓，在单色作品中营造出戏剧性的光泽。红色高光应在不压倒黑白设计的前提下，增加深度、分离感和未来主义的电影氛围。\n\n以纯黑色背景为衬托，强调强烈的对比度和视觉冲击力。作品风格具有锐利的矢量边缘、大胆的阴影、干净的负空间、图形小说美学、现代街头服饰时尚能量以及优质的海报级构图。超细致而极简，前卫，当代，视觉强大，且具有杂志封面水准。强大的自信女性风采，电影般的姿态，奢华的社论感，以及完美的矢量插画质量。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202606/1781092788758-8sqe5si1-1781092790008-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "漫画",
+                    "赛璐璐"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_late-night-study-panic",
+              "name": "深夜赶稿崩溃与自动保存救赎",
+              "type": "prompt",
+              "prompt": "{subject}, {\n  \"type\": \"6格漫画页面\",\n  \"aspect_ratio\": \"2:3竖版人像\",\n  \"art_style\": \"精细的动漫漫画，高对比度，电影级光照\",\n  \"panel_borders\": \"粗白色分格线清晰分隔每个画格，每个画格之间有可见的白色留白，每个单独画格周围有硬质黑色边框轮廓，传统漫画页面网格布局\",\n  \"color_palette\": {\n    \"primary\": \"深海军蓝（非纯黑）暗室背景\",\n    \"secondary\": \"温暖的琥珀色/橙色台灯光晕\",\n    \"accent\": \"冷蓝色笔记本电脑屏幕光\",\n    \"effects\": \"明亮的红色恐慌特效，白色对话气泡\",\n    \"panel_gutters\": \"画格之间干净明亮的白色分隔线\"\n  },\n  \"characters\": {\n    \"character_A\": \"扎着双马尾戴眼镜的女孩，深色校服，红色蝴蝶结\",\n    \"character_B\": \"棕色短发女孩，深色校服，起初趴在桌上睡觉\"\n  },\n  \"setting\": \"凌晨2:47的黑暗卧室书桌，单一温暖的台灯，打开的笔记本电脑，散落的笔记和课本，海军蓝背景\",\n  \"layout\": {\n    \"sections\": [\n      {\n        \"panel\": 1,\n        \"position\": \"顶部，宽幅\",\n        \"description\": \"深海军蓝房间。上方有温暖的灯光，下方有冷蓝色的笔记本电脑光晕。角色A弓着背在书桌前学习。角色B趴在她旁边睡觉。电子钟清晰显示凌晨2:47。戏剧性的阴影对比。可见白色画格边框。\"\n      },\n      {\n        \"panel\": 2,\n        \"position\": \"中上偏左\",\n        \"description\": \"角色A面部的特写，被下方蓝色的笔记本电脑光晕照亮，因恐惧而睁大双眼。红色闪电恐慌特效。对话气泡写着‘等等……我保存了吗？！’画框周围清晰可见白色画格边框。\"\n      },\n      {\n        \"panel\": 3,\n        \"position\": \"中上偏右\",\n        \"description\": \"角色A的特写，空洞布满血丝的眼睛，死鱼眼凝视，被冷蓝色光晕照亮。对话气泡写着‘我不记得睡眠是什么了……’清晰可见白色画格边框。\"\n      },\n      {\n        \"panel\": 4,\n        \"position\": \"中下，宽幅\",\n        \"description\": \"角色A双手猛拍桌子尖叫‘全都没了！！’左侧有巨大的白色猛拍音效字。角色B猛然惊醒。书本四处飞散。海军蓝背景。四周有粗白色画格边框。\"\n      },\n      {\n        \"panel\": 5,\n        \"position\": \"底部偏上，宽幅\",\n        \"description\": \"角色A举着显示自动保存通知的笔记本电脑，精神错乱的狂热笑容，身后散发红色和金色闪光特效。对话气泡写着‘自动保存……技术就是神’。清晰的白色画格边框。\"\n      },\n      {\n        \"panel\": 6,\n        \"position\": \"底部偏下，宽幅\",\n        \"description\": \"前景中的角色B面无表情生无可恋，眼下有浓重的黑眼圈。背景显示角色A正在亲吻笔记本电脑，带有啾啾啾闪光特效。角色B有一个小的‘……’对话气泡。清晰可见白色画格边框。\"\n      }\n    ]\n  },\n  \"global_notes\": \"关键：所有6个画格必须由中等大小的明亮白色留白线清晰分隔。画格之间不应相互溢出。画格之间的页面背景为白色。应使用深海军蓝代替纯黑色以保持深度可见。\"\n}",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1776961704020-bsc7ddof-1776961713535-1.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "漫画",
+                    "角色",
+                    "分格"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_makoto-shinkai-style-girl-on-rainy-tokyo-street-anime",
+              "name": "新海诚风东京雨夜少女动漫绘",
+              "type": "prompt",
+              "prompt": "{subject}, Create an ultra-detailed cinematic anime illustration in the style of a high-budget modern Japanese anime film. A beautiful young woman stands on a rainy neon-lit Tokyo street at night, wearing an oversized black hoodie with subtle glowing blue patterns, loose cargo pants, and stylish sneakers. Her long wet hair flows naturally in the wind, with reflective neon highlights on her face and clothes.\nThe atmosphere feels emotional, mysterious, and futuristic. Surround the environment with holographic billboards, glowing shop signs, blurred traffic lights, rainy reflections on the street, drifting fog, and soft volumetric lighting. Add dynamic anime-style motion blur, dramatic perspective, realistic rain physics, and highly expressive cinematic eyes.\nColor palette: neon blue, purple, pink, cyan, and soft white glow.\nStyle inspired by Makoto Shinkai + Cyberpunk anime aesthetics + premium anime movie quality.\nCamera angle: low-angle cinematic shot with shallow depth of field and strong foreground/background separation.\nUltra-sharp details, anime realism, emotional storytelling composition, 8K quality, masterpiece anime artwork, no text, no watermark.",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202605/1778469304134-mh0m7e88-1778469304740-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：photography",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "photography": [
+                    "shot with",
+                    "lighting",
+                    "depth of field"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_street-art-lifestyle-portrait-caricature",
+              "name": "街头艺术风人物肖像与趣味夸张漫画",
+              "type": "prompt",
+              "prompt": "{subject}, 使用上传的人物肖像作为主体面部、发型、面部结构及整体印象的身份参考。\n\n创作一张高质量的生活方式社论人像，画面中该人物坐在户外，身旁的一个木制画架上展示着一幅色彩丰富的街头风格夸张漫画。\n\n真人与漫画必须能明显看出是同一个人。\n\n场景：\n- 人物坐在简单的木制折叠椅上\n- 身旁是一个放着大型漫画作品的木制画架\n- 背景是一个充满温情的都市艺术市集\n- 包含插画摊位、手工创意摊位、素描展示、海报、温馨的创意店面以及少量柔化的行人\n- 活泼但不拥挤\n- 明亮的柔和自然光，温暖自然色调，浅景深\n- 人物与环境采用写实摄影风格\n- 垂直构图，清晰展示人物和漫画\n\n主体：\n- 保持上传人物的可辨识身份\n- 自然的姿势\n- 冷静、放松、略带趣味的表情\n- 适合主体的时尚休闲装束\n- 干净的社论生活方式摄影风格\n- 不要为每个主体强制使用相同的姿势或表情\n\n漫画指导：\n- 画架上的画作必须是真实的观察式街头漫画，而非通用的可爱卡通\n- 漫画家应夸张处理主体最显著的面部特征\n- 分析上传的面部，仅夸张2–4个显著特征，如眼形、眉毛、鼻子、嘴唇、脸颊、下颚线、下巴、耳朵、发型或面部比例\n- 每张漫画都应感觉是为特定人物定制的\n- 避免对每个人使用相同的默认可爱脸\n- 避免通用的“大眼睛加吐舌头”表情\n- 漫画的趣味性应源于对独特特征的捕捉，而非随机的滑稽姿势\n\n漫画风格：\n- 大头小身子，比例简化\n- 调皮但具辨识度的面部比例\n- 大胆的手绘马克笔线条\n- 快速的素描笔触感\n- 彩色铅笔纹理\n- 充满活力的街头艺术家能量\n- 幽默且讨喜\n- 机智、富有表现力且突出个性\n- 迷人的手作瑕疵感\n- 可添加彩色点缀涂鸦，但重点保持在面部\n\n漫画表情：\n- 选择适合人物面部特征的自然趣味表情\n- 可能的表情：挑眉、羞涩微笑、惊讶眼神、自信得意的笑、尴尬而不失礼貌的微笑、夸张的冷静脸、嘟嘴、困惑的萌态或温柔的呆滞感\n- 表情应随主体变化\n- 不要总是吐舌头\n- 不要总是使用相同的大眼可爱表情\n\n漫画画布：\n- 木制画架上的大型垂直画板或画布\n- 漫画应清晰可见并占据图像的主要部分\n- 应能立即被识别为趣味街头漫画\n- 应比肖像素描更夸张\n- 不应看起来像写实的时尚插画\n- 不应看起来像精致的美妆图\n\n重要提示：\n- 漫画必须根据上传的人物定制\n- 通过夸张特征保持可辨识的身份\n- 优先考虑个性、相似度和幽默感，而非通用的可爱\n- 让漫画感觉像是真实的街头艺术家观察人物后创作的机智夸张版本\n\n负面提示：\n- 无通用可爱Q版脸，无重复的默认漫画脸，无吐舌头姿势，无相同滑稽表情，无随机动漫表情，无写实肖像素描，无精致时尚插画，无美妆草图，无微弱的夸张，无恐怖扭曲，无丑陋恶心的夸张，真人无解剖结构扭曲，无多余手指，无画错的手部，无杂乱拥挤的背景，无文字，无水印，无埃菲尔铁塔，无著名地标",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202605/1779074504163-93sz10hu-1779074504564-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：photography, painting",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "photography": [
+                    "摄影",
+                    "自然光",
+                    "景深"
+                  ],
+                  "painting": [
+                    "插画",
+                    "笔触",
+                    "手绘",
+                    "铅笔"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_stunning-idol-hero-key-art",
+              "name": "绝美偶像英雄动漫主视觉图",
+              "type": "prompt",
+              "prompt": "{subject}, 你是一名专注于原创女性偶像英雄动漫主视觉图的图像生成艺术总监。\n\n始终创建原创图像。不要复制任何上传的图像、特定艺术家、工作室、系列、受版权保护的角色或商标设计。不要从任何参考中重现相同的主题、姿势、道具、地标或构图。仅将参考用于广泛的质量、打磨、密度和氛围。\n\n核心风格：\n创建以女性偶像英雄为中心的高冲击力动漫主视觉图：一位结合了明星魅力、象征性服装设计、情感存在感和战斗就绪能量的女主角。该图像应该让人感觉像是主要动漫、游戏或幻想偶像动作系列的优质宣传艺术。\n\n角色方向：\n女主角必须感觉具有标志性、受人敬仰且一眼就能认出。她应该具有强烈的轮廓、富有表现力的眼睛、精致的面部设计、美丽的头发流动，以及融合了偶像魅力与英雄实用性的服装。她的设计应该感觉令人向往且令人难忘，而不是普通的。\n\n服装语言：\n使用分层、优雅的舞台英雄时尚：紧身胸衣或表演夹克、装饰性饰边、丝带、不对称配饰、装饰性扣件、手套、靴子、结构化的裙板或英雄披风元素，以及一个连贯的主题，如天体、花卉、水晶、皇家、未来主义或元素。该服装应该看起来优质、具有表演性且具备战斗能力。\n\n姿势与存在感：\n优先考虑具有指挥力、像明星一样的肢体语言。她应该投射出自信、优雅和英雄般的领导力。使用动态但可读的姿势，使她感觉既是表演者又是救世主形象。避免僵硬的写真相片姿势。\n\n构图：\n使用具有清晰焦点层次结构的宣传主视觉构图。女主角应该主导画面。在头发、丝带、面料、粒子和光弧中采用优雅的运动。使用强烈的轮廓可读性、分层深度和电影般的比例感。偏好戏剧性的低角度或舞台前框取。\n\n世界与氛围：\n将幻想英雄主义与偶像奇观相融合。背景可能包括天体建筑、魔法舞台元素、耀眼的城市灯光、漂浮的符文、水晶结构、英雄徽章或风格化的大气风景。环境应该支持女主角的神话和名望。\n\n光照与色彩：\n使用大胆、打磨、优质的动漫光照。将迷人的舞台般高光与英雄般的幻想光芒相结合。偏好干净的对比、发光的轮廓光、闪烁的点缀和强烈的标志性调色板。图像应该感觉光芒四射、令人向往且充满情感。\n\n渲染：\n清晰的动漫线条、打磨的面部渲染、带有绘画般光点缀的干净赛璐璐阴影、详细的服装纹理、发光的粒子、锐利的眼睛、优雅的双手和优质的海报润色。\n\n避免：\n普通的女学生造型、随机的幻想盔甲、虚弱的轮廓、平淡的服装设计、无生命的表情、过度性化的呈现、杂乱的构图、浑浊的颜色、照片写实主义、3D渲染外观、Q版比例、扭曲的解剖结构、额外的手指、额外的四肢、文本、徽标、水印以及对任何参考图像的明显复制。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1777289871880-wzycwsez-1777289875159-1.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：commercial",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "commercial": [
+                    "海报",
+                    "宣传"
+                  ],
+                  "anime_manga": [
+                    "动漫",
+                    "赛璐璐",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_ultra-realistic-anime-fashion-lookbook-collage",
+              "name": "超真实动漫时尚穿搭拼贴画",
+              "type": "prompt",
+              "prompt": "{subject}, 超真实动漫时尚Lookbook拼贴画，温暖的金黄时刻阳光透过大窗户洒入，舒适的奢华公寓室内，配有柔和的米色墙壁、装裱好的艺术品、玻璃花瓶里的花朵、烛光氛围、优雅的女性美学。\n\n一位美丽的年轻女性，有着长波浪深棕色头发，柔润发光的皮肤，富有表现力的棕色眼睛，精致的金耳环和极简主义金项链。她穿着一件深酒红色的大码纽扣衬衫，随意地塞进浅色水洗超宽腿宽松牛仔裤中，搭配白色运动鞋。一个复古棕色皮革单肩包完成了这套穿搭。\n\n创建一个Pinterest风格的多面板时尚拼贴布局，包含：\n\n中心的全身站立肖像。\n\n看向侧面的特写肖像。\n\n背面视图的穿搭拍摄。\n\n在奶油色沙发上的放松坐姿。\n\n衬衫、牛仔裤、运动鞋和手提包的平铺摆放。\n\n项链和衬衫衣领的时尚细节特写。\n\n包含手提包、蜡烛、花朵和装裱艺术品的生活方式角落。\n\n柔和的电影感光效，金色阳光，真实的织物纹理，奢华时尚杂志社论摄影，舒适的秋季美学，温暖的中性色调，浅景深，高度细致的衣服褶皱，顶级生活方式杂志质量，优雅的构图，Pinterest穿搭灵感板，杰作，8K，超细节，写实动漫插图。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202606/1780825326912-i11t4wtq-1780825327904-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：photography",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "photography": [
+                    "拍摄",
+                    "景深"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_one-piece-female-characters-late-night-convenience-store-phone-snapshot",
+              "name": "海贼王女角色深夜便利店手机抓拍",
+              "type": "prompt",
+              "prompt": "{subject}, 比例：9:16\n风格：真人手机随拍写实（photorealistic candid phone photo）。朋友用手机后置主摄26mm随手抓拍，手持轻微倾斜，画面有轻微手机噪点和局部过曝，未经精修，非影棚非商业大片非电影调色。\n主题：海贼王女角色深夜便利店——像被朋友偷拍到的真实生活瞬间，一人一图，共八人。\n人物形象须与其在原作动漫中的形象高度一致，关键发型/发色/五官气质/标志特征清晰可辨，避免换成认不出的路人脸。\n女性角色颜值：韩系女神感，精致小巧鹅蛋脸，眼睛大而清透有湿润感，虹膜有环境光反射，唇纹自然，左右脸极轻微自然不对称。\n皮肤：中度真实——细小毛孔（脸颊鼻翼）、面部绒毛、一两颗浅痣、T区轻微皮脂高光、局部肤色冷暖变化；禁止塑料/陶瓷/蜡像/过度磨皮/全脸统一砂纸感。\n身材：纤细苗条，大长腿，比例修长，腰肢纤细；全身站立时腿部线条修长优美。\n服装：以原作标志性服饰为基底（保留轮廓、主色与标志配件，一眼可认出），在便利店语境下自然穿着（可略清凉但生活化）；非色情非擦边；适合公开平台。\n叙事钩子（每张必须）：她正在挑零食/吃糖/看手机/拿饮料时，被朋友从侧后方叫了一声，反应为——回头、嘴里还有东西、或动作停在半空、或先愣一下再忍不住笑。不是摆拍，是被抓到的瞬间。\n环境clutter（每张必须包含5+生活杂物）：便利店货架、冰柜冷白光、零食包装袋、收银台、饮料瓶、价签、塑料袋、地面反光、门口地垫、关东煮蒸汽。\n光线：便利店冷白日光灯为主+冰柜侧光+门外路灯暖光渗入；不要电影级布光，不要均匀柔光，允许冷暖不均和局部过曝。\n相机：朋友手持手机后置26mm，略低于视线高度，画面轻微倾斜1-3度，有轻微广角透视（腿部略拉伸），噪点可见，非三脚架非稳定器。\n人物（全部来自 ONE PIECE，每张一个，共8人，明确成年，东亚审美）：\n1) 娜美（橙发、导航员经典装与左肩纹身，嘴里叼着棒棒糖回头）\n2) 妮可·罗宾（黑发、紫系经典装，手里拿着书和咖啡，被叫时微笑侧头）\n3) 波雅·汉库克（黑长直、女帝经典装，嫌弃地看零食货架时被拍到）\n4) 乌塔（白红挑染、歌姬服与耳机挂脖，边喝饮料边哼歌被拍）\n5) 薇薇（蓝发、公主旅行装，拎着购物袋回头笑）\n6) 佩罗娜（粉发、哥特裙与幽灵帽，抱着零食袋被叫到吓一跳）\n7) 大和（白蓝长发、和装短裤与角饰，赤足穿拖鞋拿冰棍）\n8) 蕾贝卡（粉发、剑斗士裙，坐在便利店门口台阶吃关东煮）\n构图：全身或七分身，大长腿可见，朋友视角略低于视线，背景是便利店实景不虚化过度。\n禁止：影棚/商业精修/电影调色/塑料皮肤/网红脸/医美脸/3D CG/动漫插画/过度磨皮/完全对称脸/发光瞳孔/水印文字/国旗/旭日。",
+              "negative_prompt": "",
+              "description": "ChatGPT",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202607/1784730604138-s2f2fw9o-1784730605386-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "动漫",
+                    "角色"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

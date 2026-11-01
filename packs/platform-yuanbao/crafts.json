@@ -1,0 +1,503 @@
+{
+  "categories": [
+    {
+      "id": "crafts",
+      "name": "手工艺",
+      "subcategories": [
+        {
+          "id": "crafts_paper",
+          "name": "纸艺剪纸",
+          "presets": [
+            {
+              "id": "yuanbao_2bb952e2d976402598fd126a8d8d22ca",
+              "name": "乐谱中世界",
+              "type": "prompt",
+              "prompt": "仅使用用户上传的一张图像，制作左右双格，中间以窄暖白留缝分隔。左格完整放置原图，保留主体数量、位置、姿态、环境、光影、色彩与原始裁切，不风格化、不添加图形或文字。右格将同一图像转化为暖白底极简抽象琴谱：自上而下排列五组钢琴大谱表，每组含高低音谱号、花括号、五线谱、小节线、音符、和弦、休止符与连音线，谱线纤细墨黑。仅提取原图一个主体、背景层次、2—4件小物、方向关系及4—6种代表色，转换成手工剪纸与平涂丙烯结合的抽象色块；人物化为圆头与细长块，建筑化为矩形，山水化为层叠剪影，植物化为细茎和椭圆叶，物品只保留识别轮廓。色块边缘轻微弯曲毛糙，无描边、阴影、渐变和写实细节。配色保留原图冷暖关系，统一为低饱和、高明度的雾蓝灰、鼠尾草绿、米杏、灰粉、淡桃、暖沙或浅灰紫。五排构图各不相同：第一排表现空间与稀疏长音；第二排以多层色块表现远中近景与连续短音；第三排仅完整出现一次主体，配少量关联元素与和弦停顿；第四排将动作、道路、水面、风、云或视线化为弧线、色带与跳跃音型；第五排把地面、远景和主色压成靠下色带，以渐少音符收尾。每排5—12块色形，最多两块大色面，位置、密度和节奏不得重复；谱线穿过景物，音符位于色块上方。右格保留留白，可散落原图小物色形，每种只出现一次。除谱号、拍号和极小“piano”外无其他文字、品牌或水印。横版4:3。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张日常场景照片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/YzU1Y2Q2YmItMzI1OS00MzkwLTg4ODgtOTNlZGU1M2M2ODUw.jpg?width=2232&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/NGM0NDNmZjUtN2QwOS00YTIwLWEwNGUtOGM2Mzc5YzA4MThh.jpg?width=1116&height=1488"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "2bb952e2d976402598fd126a8d8d22ca",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "d9ff0e40f01d4d2aba0ff502bd78b12a",
+                    "name": "智能P图"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/NGM0NDNmZjUtN2QwOS00YTIwLWEwNGUtOGM2Mzc5YzA4MThh.jpg?width=1116&height=1488"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/YzU1Y2Q2YmItMzI1OS00MzkwLTg4ODgtOTNlZGU1M2M2ODUw.jpg?width=2232&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：剪纸",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "crafts": [
+                    "剪纸",
+                    "手工"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "crafts_textile",
+          "name": "纺织刺绣",
+          "presets": [
+            {
+              "id": "yuanbao_d70414e4068c466b86bad4a2d7061f56",
+              "name": "绣出假期烟花",
+              "type": "prompt",
+              "prompt": "3:4，基于图1原始照片进行艺术化改造，严格保持原图尺寸、比例、构图、视角、人物比例和空间关系，不改变照片裁切，不拉伸人物，不改变人物姿态、五官、服装、环境结构和原始光影，仅在图1基础上增加真实手工毛线刺绣艺术效果，禁止对整张照片进行风格化重绘，禁止改变原图色调，禁止AI重构感。保留图1高清细节和真实摄影质感，不得降低清晰度，不得产生模糊、涂抹或细节损失，人物主体必须保持完全真实，皮肤、脸部、身体、衣服表面干净无任何刺绣、毛线纹理或覆盖装饰，人物清晰度与皮肤质感必须与原图一致，禁止柔化、磨皮或降低锐度。完全取消人物外轮廓描边效果，不准在人物边缘添加任何线框、针脚或毛线描边。刺绣只允许出现在背景中的适合区域，如天空、纯色墙面、远景留白处，绝对不允许出现在地面、地板、道路、桌面、建筑内部、人物脚下、人物周围近景地面或任何不符合现实刺绣逻辑的位置，且不得改变原场景逻辑。以毛线烟花作为核心元素，数量严格控制在4到6个之间，绝对不可以超过6个，也不要少于4个，不要铺满画面，保留大量背景留白与呼吸感。烟花分布必须自然随机、不规则、不对称，禁止排成一行、一列、网格或任何整齐几何排列，禁止烟花大小一致、间距一致或朝向一致，要像真实夜空中偶然绽放的烟花一样随意散落在背景中，有远有近，有疏有密。可包含1到2个大型盛开烟花、1到2个中等烟花以及1到2个小型未完全绽放或正在消散的火花，形成明确的大小、距离和状态变化，禁止全部呈现完全盛开状态，禁止烟花形状像菊花或植物花朵。每个烟花由中心向外呈放射状散开，使用向外延伸的毛线针脚、短线条和细长轨迹表现绽放的光芒，烟花中心保持稀疏、轻盈、不堆叠，绝对禁止在中心形成一个圆形、实心团块或密集的毛线球，中心区域仅保留少量短线头或空白。主要大型烟花采用统一色系设计，每个大型烟花保持单一主色或相近色组合，例如红橙系、蓝紫系、粉色系、金黄色系，避免一个烟花内部出现过多颜色混杂；小型烟花和零散火花可以使用2到3种颜色点缀。整体颜色参考上传图片中的毛线刺绣配色，使用红色、橙色、金黄色、粉色、紫色、蓝色、绿色等手工毛线色彩，颜色饱和度适中，既不过高刺眼也不过低暗淡，保持鲜艳但柔和、高级且和谐的视觉效果，像手工染制的自然毛线色调。所有刺绣均采用粗毛线制作，呈现真实纤维纹理、柔软绒感、立体线头、交错针脚和自然阴影，具有明显厚度，像真实毛线绣在照片表面，而不是平面绘制、贴纸或数字效果。整体融合真实摄影、毛线刺绣、纤维艺术和创意拼贴效果，保持高级艺术摄影质感，避免背景被填满、细碎廉价装饰、塑料感、贴纸感和数字绘制感，让刺绣成为照片中自然生长的艺术装饰。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 上传一张照片即可生成 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/NzljYmI0MTAtNjUxZi00YTllLWEyNmYtZGUwZjUyYjA5OTEx_compress.webp?width=1440&height=1920",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/MTA1YmE0MmItMWFlZS00OWQ2LWIxM2UtMTBiZDc0MmI4MzEz_compress.webp?width=3072&height=4096"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "d70414e4068c466b86bad4a2d7061f56",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "d9ff0e40f01d4d2aba0ff502bd78b12a",
+                    "name": "智能P图"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/MTA1YmE0MmItMWFlZS00OWQ2LWIxM2UtMTBiZDc0MmI4MzEz_compress.webp?width=3072&height=4096"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/NzljYmI0MTAtNjUxZi00YTllLWEyNmYtZGUwZjUyYjA5OTEx_compress.webp?width=1440&height=1920",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：刺绣",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "crafts": [
+                    "刺绣",
+                    "手工",
+                    "针脚"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "yuanbao_1462c90219314d1aae8a7150d6a5db4a",
+              "name": "白纱浪漫风",
+              "type": "prompt",
+              "prompt": "参考上传图生成图片：去掉上传图1中人物原有的服饰、所有配饰，更换人物服装和配饰；服装风格：哥特浪漫主义，白色细肩带不规则剪裁半透明宽松吊带，拼接半透明镂空刺绣半透明雪纺纱料，斜向解构拼布设计，面料半透明轻薄通透，蕾丝带有精致花卉打孔纹样，飘逸微透的朦胧质感。不对称高低落差不规则半裙，多层叠加面料组合，镂空绣花棉布搭配垂坠柔滑雪纺，裙摆长短错落，一侧短款露腿，另一侧长款拖曳垂坠，边缘自然波浪荷叶碎边，侧边白色抽绳系带细节，松弛破碎感。 白色褶皱长筒腿袜，搭配米白色系带尖头中筒马丁靴，针织肌理柔软蓬松，靴面哑光皮质。白色镂空蕾丝流苏珠链发带，垂坠细碎珠串遮挡眉眼；长款复古做旧银色圆形雕花吊牌搭配细长流苏坠饰；细款银色单臂臂环，极简做旧金属质感。仅做服饰配饰的更换，严格保证其他画面内容保持不变，包含但不限于画面构图、滤镜、人物五官长相、动作、环境背景等；画质8K高清无噪点。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张女性照片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/OGRkMjBiN2YtNTM3Mi00YThiLWFhZjEtNDZhMTIwZDRlNTkx.jpg?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/Yzg0NzI2YTctNmMyMy00YjE2LWI2OTgtYThkZThiN2NjOTk2.jpg?width=1116&height=1488"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "1462c90219314d1aae8a7150d6a5db4a",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "d9ff0e40f01d4d2aba0ff502bd78b12a",
+                    "name": "智能P图"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/Yzg0NzI2YTctNmMyMy00YjE2LWI2OTgtYThkZThiN2NjOTk2.jpg?width=1116&height=1488"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/OGRkMjBiN2YtNTM3Mi00YThiLWFhZjEtNDZhMTIwZDRlNTkx.jpg?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：刺绣",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "crafts": [
+                    "刺绣",
+                    "剪裁"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "yuanbao_1849042d35ef476ba118578db2e9d756",
+              "name": "复古绅士风",
+              "type": "prompt",
+              "prompt": "参考上传图生成图片：去掉上传图1中人物原有的服饰，所有配饰，更换人物服装和配饰；服装风格：复古轻熟风穿搭，灰调麻灰色针织短袖 Polo 衫，针织面料，细腻透气的麻质纹理，宽松休闲版型；卡其色竖细条纹阔腿西裤，垂感挺括的西装面料，高腰双褶宽松阔腿剪裁；鞋子：复古棕红色乐福皮鞋，哑光绒面皮革质感；搭配深棕色软皮托特大包，复古油蜡皮褶皱质感。头戴酒红色复古刺绣棒球帽，花纹细格复古小丝巾绕颈佩戴(丝巾在上衣领子内)，棕色皮质腰带，腰挂皮质挂饰吊坠，腕间金属表盘复古腕表，简约素圈戒指；仅做服饰配饰的更换，严格保证其他画面内容保持不变包含但不限于人物发型、动作、环境背景等；",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传1张男性正脸图片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/ODIyZjU1MTYtYzk5Mi00YTBiLWE5YTMtZDlhNGNjZGZlNWIy.jpg?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/MjVkOWNmYzYtNTIwZi00NjI5LTgzZjYtMjQxOGI0MjQ3ZWM4.jpg?width=1116&height=1488"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "1849042d35ef476ba118578db2e9d756",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "d9ff0e40f01d4d2aba0ff502bd78b12a",
+                    "name": "智能P图"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/MjVkOWNmYzYtNTIwZi00NjI5LTgzZjYtMjQxOGI0MjQ3ZWM4.jpg?width=1116&height=1488"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/ODIyZjU1MTYtYzk5Mi00YTBiLWE5YTMtZDlhNGNjZGZlNWIy.jpg?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：刺绣",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "crafts": [
+                    "刺绣",
+                    "剪裁"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "yuanbao_6944f51adf8b4f33b119da89ee87c27b",
+              "name": "粉黑Y2K",
+              "type": "prompt",
+              "prompt": "参考上传图生成图片：去掉上传图1中人物原有的服饰、所有配饰，更换人物服装和配饰；服装风格：Y2K 甜酷亚比辣妹套装；露腰抹胸吊带，脏粉橘色做旧扎染肌理面料下摆叠加黑色网纱，整体是带尖角的不对称剪裁设计；内层是黑色百褶短裙，外层叠穿高饱和浅粉棕格子布，系在腰间当做裙摆装饰，两侧长布片垂落，增加层次感。亮粉色铆钉皮带，搭配银色链条腰链，腰链挂有紫色小吊坠，腿部高饱和脏粉橘色纯色喇叭阔腿牛仔袜套，表面银色闪片爱心刺绣，侧边系带抽绳，可堆可拉，套在小腿外，搭配黑色厚底鞋。手部灰黑色破洞堆堆露指袖套，做旧废土感。银色金属感链条腋下小包。多层细项链，搭配彩色编发丝带，粉色发夹。仅做服饰配饰的更换，严格保证其他画面内容保持不变包含但不限于人物发型、动作、环境背景等；",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传1张女性正脸图片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/Mzk3NzBlMTEtMmE3NC00NmM5LTg5NTgtYWY4NGY3N2MzZGRl_compress.webp?width=372&height=496",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/OTg2YmQ2ZjgtZDM1ZC00NzdlLTgxOGQtOGJkNDgyYmZiNDkz_compress.webp?width=1279&height=1706"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "6944f51adf8b4f33b119da89ee87c27b",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "d9ff0e40f01d4d2aba0ff502bd78b12a",
+                    "name": "智能P图"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/OTg2YmQ2ZjgtZDM1ZC00NzdlLTgxOGQtOGJkNDgyYmZiNDkz_compress.webp?width=1279&height=1706"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/Mzk3NzBlMTEtMmE3NC00NmM5LTg5NTgtYWY4NGY3N2MzZGRl_compress.webp?width=372&height=496",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：刺绣",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "crafts": [
+                    "刺绣",
+                    "剪裁"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "yuanbao_3a7e1f14118f45f8bc7e81f3fea32d15",
+              "name": "随性街头风",
+              "type": "prompt",
+              "prompt": "基于用户上传的人像照片生成:准确保留人物五官、脸型和个人辨识度、不改变面部结构，不要改变用户提交图的尺寸。除了描述的内容去除原图人物身上所有原有配饰和额外物品。仅替换全身服装及配饰。奶油浅米白色宽松吊带上衣，细肩带，上半部分菱形网格镂空面料，下摆三层错落荷叶蛋糕层，面料轻薄柔软，松弛度假风；独立高腰长款半身长裙，不是连体裙，裙身布满细小立体小花刺绣，裙摆底部宽大扇形镂空蕾丝花边，裙长到脚踝。右肩挎一只大号浅棕色草编托特包，粗草编织纹理；颈部佩戴波西米亚复古多层吊坠项链，项链长度落到胸口位置；脚上穿着棕色蝴蝶结平底单鞋。自然柔和户外日光，布料褶皱松弛自然，服饰光影与环境完全统一，高清真人写真质感，写实照片，细节细腻，无多余首饰。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传1张女性正面图片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/M2QxZWU1YWMtODZiZC00NDRjLTkxOTMtNjdjOWM0YTEyZWIz_compress.webp?width=1728&height=2304",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/Y2VjYTA4YTctMzcxMy00ZDNhLWEzN2YtOGZmY2U0YTc1ODBj_compress.webp?width=1440&height=1920"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "3a7e1f14118f45f8bc7e81f3fea32d15",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "d9ff0e40f01d4d2aba0ff502bd78b12a",
+                    "name": "智能P图"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/Y2VjYTA4YTctMzcxMy00ZDNhLWEzN2YtOGZmY2U0YTc1ODBj_compress.webp?width=1440&height=1920"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/M2QxZWU1YWMtODZiZC00NDRjLTkxOTMtNjdjOWM0YTEyZWIz_compress.webp?width=1728&height=2304",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：刺绣",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "crafts": [
+                    "刺绣",
+                    "编织"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "yuanbao_81b868749a7c4ae8aad1c8f599ab56ad",
+              "name": "立体刺绣",
+              "type": "prompt",
+              "prompt": "参考上传图片生成图片：比例 1:1，将上传图片生成 Q 版人物形象，立体布艺刺绣风格，圆圆的头身比例，简化可爱的人物造型，没有嘴巴，脸部只有两个黑色小圆点眼睛，避免写实五官，避免细节面部刻画，仅保留人物的外观轮廓与穿搭特征，服装层次简洁可辨，织物针线肌理明显，细腻毛绒刺绣质感，精致凹凸刺绣立体感，麻布纹理基底，柔和暖调自然光，微距质感，低对比柔化光影，治愈温柔手工艺术画风，背景为轻量布艺刺绣小品背景，不需要完整还原原图背景，画面干净柔和，无多余杂物，无文字。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张人像照片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/ZTQyNzFiMjAtOGZlNS00MDUzLTkwNGQtYmJhNjY0ZGU3YWI0.jpg?width=1280&height=1280",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/NDBjYjdhNGEtODdjZS00N2VkLWEzOGItNzQ1MDdiMDBkYmIx.jpg?width=768&height=1024"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "81b868749a7c4ae8aad1c8f599ab56ad",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/NDBjYjdhNGEtODdjZS00N2VkLWEzOGItNzQ1MDdiMDBkYmIx.jpg?width=768&height=1024"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/ZTQyNzFiMjAtOGZlNS00MDUzLTkwNGQtYmJhNjY0ZGU3YWI0.jpg?width=1280&height=1280",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：刺绣 / 刺绣",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "yuanbao_05dfbaddf9224980834cee8761b9bde6",
+              "name": "把布艺贴进宇宙",
+              "type": "prompt",
+              "prompt": "布艺拼贴太空主题，手工拼布艺术风格。由碎花棉布拼贴而成的宇航员漂浮在深色牛仔裤织物纹理的星空之中，星球采用不同大小、不同颜色的纽扣组合缝制，火箭喷射出的尾焰由鲜艳的红色流苏组成，银河以细腻银色刺绣线蜿蜒贯穿画面，陨石带使用牛仔布碎片与拼布工艺进行表现。整体融合棉布、麻布、牛仔布等丰富织物材质，清晰可见缝线、针脚、布纹、拼接边缘与手工缝制细节，层次柔和，充满手作温度与童趣绘本氛围，构图简洁均衡，色彩温暖清新，呈现精致的布艺拼贴艺术效果，竖版 3:4。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 文生图",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/OWUzMDBjYjktOGMzMC00OTM2LWE3MjQtZmRlMmU3YzVmY2Mz_compress.webp?width=1116&height=1488",
+              "reference_images": [],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "05dfbaddf9224980834cee8761b9bde6",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  }
+                ],
+                "generation_type": "text2image",
+                "min_images": 0,
+                "max_images": 0,
+                "reference_image_urls": [],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/OWUzMDBjYjktOGMzMC00OTM2LWE3MjQtZmRlMmU3YzVmY2Mz_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：刺绣",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "crafts": [
+                    "刺绣",
+                    "手工",
+                    "针脚"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "yuanbao_5a18937b7b034b418f4aef7b7a2ca0ef",
+              "name": "露肩针织套装",
+              "type": "prompt",
+              "prompt": "参考上传图人物特征生成图片：比例 3:4，室内氛围感人像，手机原相机拍摄，8k 高清，黄橙色暖调滤镜，柔和漫射暖光，人物带自然顶光阴影，明暗层次自然，低对比度，柔和胶片质感。人物眼睛直视镜头，身体倚靠北欧风实木墙面，身体微微侧转；人物一手叉腰一手自然垂放。双腿前后交叉直立，穿搭：奶白色宽松一字露肩蝙蝠袖短款针织上衣，露肚脐；搭配同色系绞花针织短裤；脚穿白色堆褶尖头粗跟高筒长靴，靴口宽大，靴筒版型松弛偏大，靴筒下半部分自然堆褶，靴身侧面银色拉链。环境：前景完整暖调全原木地板；背景一整面超高横向 369 拼接暖调实木墙板，木纹清晰；墙板最顶部设有深色置物板，置物板上方是少量白色墙面，置物板下方有整条暖光氛围灯带。木质墙面左侧靠近门框处挂着极简灰色拱形边框大镜子；画面左上方有黑色原木横梁；画面最左侧转角是黑色房门，门前顶光射灯打亮地面。正常人物比例，禁止过度拉伸，",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传1张女性正脸图片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/ZGU4OTk0YTAtZjAxYi00ZTM2LWI0NDctNjhmZWMzNWQxNjMy_compress.webp?width=960&height=1280",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/NzQ3ZGE2YmUtM2VmOS00MDliLWEzOTctMTUxMzY3OWM2OGQ0_compress.webp?width=960&height=1200"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "5a18937b7b034b418f4aef7b7a2ca0ef",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "7a1ab3631e414d1291163bff714d2ec5",
+                    "name": "写实人像"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/NzQ3ZGE2YmUtM2VmOS00MDliLWEzOTctMTUxMzY3OWM2OGQ0_compress.webp?width=960&height=1200"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/ZGU4OTk0YTAtZjAxYi00ZTM2LWI0NDctNjhmZWMzNWQxNjMy_compress.webp?width=960&height=1280",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：针织 / 针织",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            }
+          ]
+        },
+        {
+          "id": "crafts_fiber",
+          "name": "毛毡绳结",
+          "presets": [
+            {
+              "id": "yuanbao_b1450823d6334eba9e59f264e3a12013",
+              "name": "玩偶替身守护你",
+              "type": "prompt",
+              "prompt": "基于上传照片进行局部创意合成：原照片中的真人、背景场景完全保持真实原图。只在原图基础上新增一个超大型动物化毛绒玩偶伙伴。真人必须保持真实摄影质感，五官、皮肤、发型、服装、身体比例、姿势和位置不变，不要把真人卡通化、动物化或玩偶化。根据真人的气质、穿搭颜色、发型轮廓和配饰，设计一个独立的巨型动物毛绒玩偶角色，位于真人身后或侧后方，与真人自然互动，如搭肩、轻抱、靠近、低头看向真人或一起摆姿势。玩偶风格参考复古小动物毛绒公仔与羊毛毡玩偶：玩偶头部必须为完整动物结构，可根据画面气质自动设计为猫、兔子、小熊、狐狸、小狗等萌系动物，不允许出现长头发动物、人脸动物、拟人女孩动物或保留真人头发的玩偶。萌系动物，Q版头身比，柔软短绒毛，手工缝制感，温润羊毛肌理，轻微绒毛颗粒。不是人脸娃娃，而是从真人特征提取出的动物角色，可像猫、兔、狐狸、小熊、小狗等。整体遵循“圆形优先”的造型设计，没有任何尖锐、细长、干瘦或锋利轮廓。头部约占整体身高45%–55%，宽额头、饱满脸颊、短鼻吻、小鼻子、小嘴巴，脸部整体圆润饱满。双眼采用圆润玻璃眼或黑豆眼，占脸部宽度约35%–45%，眼距略宽，位置略低于脸部中心，形成天真、治愈、呆萌、亲和的毛绒玩偶表情。玩偶穿着与真人完全一致的同款服装，保持相同款式、剪裁、颜色、材质、图案及纹理，并复刻帽子、眼镜、首饰、包包等配饰，但这些配饰自然佩戴在动物身体上，不改变动物头部结构。玩偶需要匹配原照片的光影、透视和环境，像真实放置在原场景中。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 上传图片做同款 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/NGExNTg4OGEtYWE0ZC00MDViLWFkODctYWI5YzQxN2JkZWNm_compress.webp?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/Nzk4NzU5NTgtOTM3ZS00YTY2LWFmZmYtOTVkYzcyNjY5NjJk_compress.webp?width=1116&height=1488"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "b1450823d6334eba9e59f264e3a12013",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/Nzk4NzU5NTgtOTM3ZS00YTY2LWFmZmYtOTVkYzcyNjY5NjJk_compress.webp?width=1116&height=1488"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/NGExNTg4OGEtYWE0ZC00MDViLWFkODctYWI5YzQxN2JkZWNm_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：羊毛毡",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "crafts": [
+                    "羊毛毡",
+                    "手工",
+                    "剪裁"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,457 @@
+{
+  "categories": [
+    {
+      "id": "film_cinema",
+      "name": "电影叙事",
+      "subcategories": [
+        {
+          "id": "film_cinema_shot",
+          "name": "单镜头画面",
+          "presets": [
+            {
+              "id": "opennana_prompt-237",
+              "name": "电影镜头拍摄",
+              "type": "prompt",
+              "prompt": "{subject}, 电影镜头拍摄[详细角色描述]，从[相机角度]拍摄，[灯光类型]，[色彩搭配]，近距离拍摄，35mm 胶片颗粒，广角镜头，f2.0 浅景深，浅景深。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/237.png",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：电影镜头 / 电影镜头",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "sai_cinematic",
+              "name": "sai-cinematic",
+              "type": "prompt",
+              "prompt": "cinematic film still {prompt} . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
+              "negative_prompt": "anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题大类＋正文子类证据：film still",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "film_cinema": [
+                    "film still",
+                    "film grain"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "cinematic",
+              "name": "Cinematic",
+              "type": "prompt",
+              "prompt": "cinematic film still {prompt} . shallow depth of field, vignette, highly detailed, high budget Hollywood movie, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
+              "negative_prompt": "anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题大类＋正文子类证据：film still",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "film_cinema": [
+                    "film still",
+                    "film grain"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_luxury-hotel-rainy-night-east-asian-woman-portrait",
+              "name": "奢华酒店雨夜床边东亚女性人像",
+              "type": "prompt",
+              "prompt": "{subject}, 1. 主体与动作\n一位二十出头的美丽东亚女性，湿透的黑发紧贴着脸颊和锁骨。她坐在凌乱的床边，身体微微向镜头倾斜。一件香槟色丝绸睡袍从肩头滑落，贴在潮湿的皮肤上，露出锁骨、深邃的乳沟和腰线。一只手轻轻抓着胸口的睡袍，另一只手搭在裸露的大腿上。直接的眼神交流：湿润、安静、略显疲惫且具诱惑力。双唇微启。表情混合着自信与孤独。\n\n2. 背景与时间\n深夜的豪华酒店卧室。她身后或侧面是落地窗。玻璃上满是雨痕。窗外是模糊的城市天际线和交通灯光。深色的凌乱床单，背景中可见一盏温暖的台灯。\n\n3. 构图与相机\n竖屏人像，大腿中部以上的半身镜头。平视或极轻微的低角度。主体略微偏离中心。浅景深：面部、皮肤和睡袍纹理清晰；窗外城市灯光呈现柔和虚化。亲密的距离，仿佛观察者就站在几英尺外。\n\n4. 灯光与风格\n左侧是温暖的钨丝灯光，雨水和城市带来冷调蓝白窗光。湿润皮肤、锁骨和丝绸上的镜面高光。清晰可见的毛孔、细腻的汗珠、真实的织物褶皱。超写实电影剧照，真实的电影胶片颗粒感，感性且富有情感，不是光鲜的广告，不是卡通，不是廉价的色情灯光。\n\n5. 约束条件\n仅限成年女性。无文字，无水印，无多余人物。穿着睡袍；具有暗示性但并非全裸。没有夸张的微笑，没有空洞的时尚模特凝视，没有塑料感的皮肤。氛围必须保持亲密、多雨且具有心理感官的存在感——她注视着观众，仿佛知道他们在看她。",
+              "negative_prompt": "",
+              "description": "Grok",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202609/1789015898520-b5ywkxpc-1789015901594-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：电影剧照",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "film_cinema": [
+                    "电影剧照",
+                    "镜头"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_east-asian-woman-rainy-night-cinematic-editorial-portrait",
+              "name": "窗边雨夜深情东亚女性高级时尚人像",
+              "type": "prompt",
+              "prompt": "{subject}, 1. 主体与动作\n二十多岁后期的东亚成年女性，极其精致细腻的面部特征，瓷肌，超时尚的高级妆容且带有克制的碎裂感：锋利且略微晕染的眼线，边缘有轻微咬唇效果的口红。极其丰满的G罩杯乳房和极其纤细的腰部，由结构化的时装勾勒出的沙漏型身材。她以四分之三侧面站立，头部微微低垂，目光带着优雅的疏离和寂静的绝望飘过镜头。一滴自然的细小泪珠划过她的颧骨。无纹身。\n\n2. 场景与时间\n夜晚。雨痕斑斑的窗边黑暗现代室内。空旷、昂贵、孤独的氛围。冰冷的玻璃，潮湿的水滴，窗外柔和的城市灯光。没有其他人。\n\n3. 构图与相机\n近中景电影感肖像，胸部向上至中躯干。垂直85mm电影剧照构图。浅景深。焦点集中在面部、锁骨和结构化的领口。她稍微偏离中心朝向窗户。高级时尚社论裁剪。\n\n4. 灯光与风格\n来自窗户的单一柔和体积侧光，捕捉皮肤、泪珠和织物边缘。深邃的电影阴影，丰富的黑色，微妙的冷青色和柔和的勃艮第红色调。昂贵的胶片颗粒。Nadia Lee Cohen / Hugo Comte 电影感黑暗社论外观。精致的另类黑暗色情情调，绝不庸俗。\n\n5. 约束\n衣物必须完全覆盖乳房和身体；无乳头或生殖器暴露。硬质建筑风格紧身胸衣外搭黑色透明丝绸。无标志，无纹身，无文字，无水印。眼泪必须看起来自然且细小，不夸张。保持表情优雅且克制。高质量，不廉价，不露骨。",
+              "negative_prompt": "",
+              "description": "Grok",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202609/1788619538281-akjvm1wr-1788619540928-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：电影剧照",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "film_cinema": [
+                    "电影剧照",
+                    "镜头"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "fooocus_sai_saicinematic",
+              "name": "sai-cinematic",
+              "prompt": "cinematic film still {prompt} . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
+              "negative_prompt": "anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured",
+              "description": "SAI 风格 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_sai.json",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题大类＋正文子类证据：film still",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "film_cinema": [
+                    "film still",
+                    "film grain"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "film_cinema_environment",
+          "name": "影视场景",
+          "presets": [
+            {
+              "id": "opennana_prompt-226",
+              "name": "电影场景",
+              "type": "prompt",
+              "prompt": "{subject}, 特写。从极高视角拍摄的上视图，使用 Lomo LC-A 相机拍摄，ISO100 胶片，颗粒感极低，阴影真实。艺术构图。整体偏蓝色调。光影美丽。黑色地板上投射着充满屏幕的蓝色天空图像。一位非常美丽的日本小脸女演员，穿着黑色衬衫，盘腿坐在地板上，头发湿漉漉地显眼，穿着长红色裙子。闪亮的黑发。长长的睫毛。明亮肌肤。美丽的闪亮眼睛。微笑的面容。女演员旁边的地板上有一个白色的土星模型。这张照片看起来像电影中的一个场景。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/226.png",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：电影场景 / 电影场景",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "opennana_prompt-47",
+              "name": "无声电影场景",
+              "type": "prompt",
+              "prompt": "{subject}, [SUBJECT] depicted in a Sepia-Toned Silent Film Scene, evoking the drama and expression of early cinema. Use muted [COLOR1] and [COLOR2] sepia tones to enhance the nostalgic atmosphere",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/47.png",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：电影场景 / 电影场景",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            }
+          ]
+        },
+        {
+          "id": "film_cinema_pending",
+          "name": "待细分",
+          "presets": [
+            {
+              "id": "opennana_prompt-327",
+              "name": "美女电影感肖像画",
+              "type": "prompt",
+              "prompt": "{subject}, 一幅充满电影感的肖像画，描绘了一位年轻的东亚女性优雅地坐在白色大理石梳妆台前。她有着一头柔顺的深棕色长发，中分，简单的发型勾勒出她精致的脸庞。她的肌肤光洁光滑，肤色温暖。她化着柔和的蜜桃色妆容，眼睑上点缀着淡淡的珠光，眼线细腻，珊瑚色唇膏则为她增添了一抹精致的光泽。\n\n她身着一袭露肩黑色天鹅绒连衣裙，凸显了她的颈部和肩部线条，优雅而又不失现代感。一条精致的银项链搭配一枚小巧的吊坠，垂于她的锁骨上，她还佩戴了与之相配的银耳环和戒指，更添一抹精致。她的姿态自信而柔美，一只手臂自然地搭在大理石台面上，另一只手臂则放松地垂在身侧。\n\n场景发生在灯光柔和的梳妆台上，镜子映照出她部分轮廓。光线均衡柔和，营造出干净奢华的妆容，阴影柔和，没有刺眼的高光，肌肤纹理光滑细腻。梳妆台上，她身旁整齐地摆放着一些化妆品，例如粉饼盘、小巧的装饰刷和几瓶粉底液。\n\n背景采用深蓝色或深色窗帘，搭配简约的装饰，包括插满干花的白色花瓶，这些干花呈现出温暖的秋日色调——橙色、奶油色和金色。整体氛围优雅、沉稳，又不失低调的魅力，如同一部用清晰的现代相机，在影院级灯光和8K超高清画质下拍摄的高端美妆社论。\n\n色调：象牙白、黑色天鹅绒、温暖的桃色调和柔和的金色花卉装饰。\n长宽比：4：5。\n风格：超现实主义、奢华肖像、杂志美学。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/327.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "opennana_prompt-353",
+              "name": "电影感的超现实主义肖像画",
+              "type": "prompt",
+              "prompt": "{subject}, 这幅充满电影感的超现实主义肖像画，保留了@simplyannisa的真实面部特征。画中女子坐在木桌旁，身形微微前倾，右臂自然地搭在桌面上。她的右手轻轻地捧着一个深色陶瓷杯，杯上写着“ @simplyannisa ”三个字。她的手指纤细、放松，略带弧度。左臂肘部弯曲，随意地搭在桌上。她身穿一件略显宽松的深灰色长袖亨利衫，最上面的纽扣敞开，隐约露出精致的领口。她的头发自然地披散在肩上，柔和的波浪在光线下闪闪发光。她的目光转向侧面，远离镜头，带着一种若有所思、神秘莫测的表情。柔和的光线营造出一种忧郁的氛围，突出了她头发和面部的质感，同时增添了电影般的对比度和情感深度。这幅肖像画采用85毫米镜头，在视线高度处以浅景深拍摄，使她的脸部和上半身保持清晰对焦，而背景则略微模糊。整体色彩分级柔和且具有电影感，具有冷色调、柔和阴影和简约的深色背景。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/353.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：photography",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "photography": [
+                    "拍摄",
+                    "镜头",
+                    "景深"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_prompt-63",
+              "name": "选择你的阵营",
+              "type": "prompt",
+              "prompt": "{subject}, A dramatic cinematic scene featuring two rival products placed side by side in a custom-designed environment that visually reflects their identities. The composition should include high contrast lighting, atmospheric effects like mist, fog, or neon glow, and hyper-detailed textures. Incorporate a powerful 3D slogan below or behind the products in bold stylized typography that fits the scene’s mood. The products must reflect the essence of [Brand A] and [Brand B] through color, lighting, and placement. Ultra-realistic, moody tones, 1:1 square format, with sharp depth of field and high resolution.",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/63.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "film_cinema": [
+                    "cinematic scene",
+                    "dramatic"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "fooocus_cinematic",
+              "name": "Fooocus Cinematic",
+              "type": "prompt",
+              "prompt": "cinematic still {prompt} . emotional, harmonious, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
+              "negative_prompt": "anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "marvel_cinematic_universe",
+              "name": "Marvel Cinematic Universe",
+              "type": "prompt",
+              "prompt": "Marvel Cinematic Universe {prompt} . Superheroes, epic battles, colorful, highly detailed",
+              "negative_prompt": "ordinary people, small conflicts, monochrome, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "opennana_charming-bright-eyed-chinese-woman-cinematic-beauty-portrait",
+              "name": "柔媚明眸中国女性电影感美容肖像",
+              "type": "prompt",
+              "prompt": "{subject}, 一张高完成度、真实摄影质感的中国年轻成年女性极近景美容肖像。人物视觉年龄约 20–26 岁，具有自然明确的中国女性特征，整体气质清纯、柔媚、漂亮、柔软、浪漫、克制，成年感明确，不幼态，不欧美化，不网红化，不复制任何参考人物的具体骨相，仅借鉴理想中的皮肤净度、眼睛明亮度、粉润美妆关系、近景镜头语言与柔光美容摄影氛围。\n\n人物采用 B｜柔媚明眸电影脸。脸型与骨相为瓜子鹅蛋之间，面中饱满，颧骨柔和，下颌细致，下巴圆钝精致。整体保持真实合理的东方柔和骨相：额头自然饱满，太阳穴平滑，眉骨轻微存在但不过分突出，颧骨提供柔和支撑而不外扩，面中丰润细腻，脸颊柔软，下颌线清晰细致但不过硬，下巴精巧圆钝不过尖，整体脸部线条兼具清纯与柔媚的平衡感，呈现具有电影女主气质的中国年轻女性面部结构。\n\n眼部设计为大而修长的杏眼，眼尾轻扬，焦糖茶至琥珀茶虹膜，柔软卧蚕，双眼大面积柔窗光。人物拥有偏大的明亮东方杏眼，横向修长舒展，纵向开合偏大但保持真人比例，外眼角轻微上扬，既显温柔又带轻微吸引力；双眼皮自然柔和，卧蚕清晰、柔软、略带饱满感但不过度夸张。虹膜为焦糖茶至琥珀茶的通透渐变结构，具有细密真实的放射状纹理、清晰的瞳孔边界与自然深棕外缘环，在正面大面积柔光照射下，受光区呈现轻微蜂蜜茶棕与琥珀棕层次。眼白明亮清澈但不死白，角膜湿润透明，内眼角自然微湿，下眼睑保留极细真实泪线。双眼均具有面积明显、边缘柔和的窗型高光，高光进入虹膜视觉区域，使眼睛整体显得明亮、通透、湿润、有神、清澈，成为整张肖像最重要的第一视觉中心。\n\n鼻唇设计为纤秀直鼻，圆润小鼻尖，唇峰清晰的柔润樱桃唇。鼻根自然，鼻梁纤细顺直但不过分刀削，鼻尖小巧圆润，鼻翼收敛但保留真实结构；嘴唇自然饱满柔软，唇峰清晰但不过锋利，下唇略带丰润感，保留轻微真实唇纹，呈现细腻柔润、轻微水光但不过分玻璃化的真实唇部质感，整体传达温柔、浪漫、克制而漂亮的气质。\n\n皮肤采用冷白珍珠瓷肌，低频柔光皮肤 + 轻微皮下透光。肤色为高明度、低饱和、中性偏冷的珍珠冷白基底，整体白净、纯净、柔和、通透，明显降低黄调、灰调、土色与肉色感。大面积面颊、额头与下巴保持低频、平整、安静、细腻的皮肤表面，几乎看不到明显毛孔、粗糙颗粒和高频皮肤噪声。皮肤真实感不依赖大面积毛孔和纹理，而主要通过自然面部结构、轻微皮下透光、连续明暗变化以及鼻翼、眼周与唇周极轻微的真实微结构来体现。脸部大面积保持冷净珍珠瓷白，仅在眼周、眼下、苹果肌中心小范围、鼻尖与嘴唇保留极低浓度的淡粉血色，形成“白是主体、粉是点缀”的色彩关系。额头、鼻梁、苹果肌与唇峰带有宽而柔和的微水光，皮肤显得白净、细腻、柔润、通透，但绝不塑料、绝不蜡像、绝不 CG 化。\n\n妆容采用淡玫瑰雾粉妆，眼下浅粉、眼尾略深，柔润灰玫豆沙唇。眼周使用低浓度淡玫瑰粉、柔和灰粉玫瑰色与浅茶粉轻柔晕染，上下眼睑之间存在自然粉润呼应；眼尾颜色略深一些，形成轻微电影感层次，但依然克制，不浓艳不烟熏；眼下保留轻柔浅粉气息，强化浪漫又柔软的近景氛围。睫毛为黑褐色或深棕黑，纤长、根根分明、自然卷翘，具有足够存在感以形成眼睛局部对比。腮红仅轻柔集中在眼下与苹果肌中心小范围，不大面积覆盖脸颊。嘴唇使用柔润灰玫豆沙色，低饱和、细腻、轻反光、保留轻微真实唇纹，传达浪漫、克制、柔媚的高级美感。\n\n发型为乌黑偏棕长发，柔和偏分，一侧发丝轻贴脸侧。头发整体柔顺自然，带有乌黑中透出轻微棕色层次的光泽；偏分发型让面部结构更具柔媚与镜头感，一侧发丝轻轻贴近脸侧，形成轻微框景与情绪感，但不能遮挡五官重点。发丝保留真人摄影质感与适量高频细节，单根发丝自然可辨，不出现塑料发丝、假发感和发片式 CG 边缘。\n\n摄影采用 105mm 长焦美容人像镜头语言，眼睛正看镜头，冷蓝灰背景。使用 105mm 长焦镜头避免广角透视畸变，保证脸型稳定、五官比例自然。人物以极近景或近景美容肖像方式呈现，脸部占据画面约 70%–90%，双眼位于视觉中心偏上区域，眼睛直接看向镜头，形成更强的情绪连接与第一眼吸引力。焦点优先锁定双眼、虹膜与睫毛，嘴唇次清晰，耳部和后侧头发可轻微虚化。画面整体遵循“低频皮肤 + 高频五官”的摄影原则：皮肤大面积区域局部反差较低，睫毛、虹膜、瞳孔、眼线、唇纹与发丝保持较高真实度与清晰度。\n\n光线采用高调正面美容柔光系统：一个超大面积柔光源位于摄影机正前方、略高于人物眼睛并靠近人物，柔和向下照射，同时存在低强度柔和补光，使人物面部整体明亮均匀，眼窝、鼻翼、眼下与下颌阴影非常浅且干净。皮肤高光宽而柔和，白净通透但不死白过曝，阴影保持中性或轻微冷调，不发黄、不发灰绿、不发脏。背景采用低饱和冷蓝灰色，亮度低于人物脸部约半档到一档，保持高度简洁和弱化，以衬托人物肤色更显白净、通透、纯净，同时增强轻微清冷浪漫的电影感。\n\n画幅比例为 9:16。整体效果应呈现：一位具有真人摄影真实性的中国年轻成年女性，皮肤安静、白净、细腻、低频，眼睛明亮、湿润、通透，虹膜内部具有真实光学层次，妆面轻盈粉润、带有柔和浪漫雾感，整体既真实又带有高完成度美容近景的高级感，同时兼具清纯、柔媚、温柔、浪漫和克制吸引力，不产生塑料感、CG 感、网红感和全脸统一高清棚拍感。",
+              "negative_prompt": "",
+              "description": "即梦",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202608/1787929274663-apluwpsg-1787929275929-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：photography",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "photography": [
+                    "摄影",
+                    "镜头"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_cinematic-east-asian-woman-motorcycle-workshop-portrait",
+              "name": "摩托车库里的东亚女性电影感特写",
+              "type": "prompt",
+              "prompt": "{subject}, 一张电影感的低角度特写肖像，主角是一位美丽的年轻东亚女性，留着深棕色长卷发，皮肤白皙，妆容柔和，随意地躺在杂乱的摩托车修理厂车库里。她向后靠着，右手放在脑后，带着自信且略显俏皮的表情直视镜头。她的左臂向镜头延伸，呈现出戏剧性的缩短透视效果，手指张开，穿着一件带有无指手套式袖口的白色长袖上衣。她的脖子上挂着蓝色和黑色的罩耳式耳机。她穿着黑色工装裤和笨重的黑白运动鞋（一只脚高高举起，朝向画面的右上角）。\n\n她坐在一辆经典的黑色摩托车（哈利风格，可见发动机细节）旁边。背景是一个真实的、光线昏暗的工业车库工作间，墙上挂满了工具，还有工作台、摩托车零部件、地板上的头盔、金属架，以及远处的巨大玻璃门，透过玻璃可以看到室外的树木和日光。戏剧性的侧光营造出强烈的亮部和柔和的阴影，浅景深效果使伸出的手在前景中略微模糊，细节高度丰富，写实摄影，8k，电影级构图，冷色调处理并带有暖色点缀。",
+              "negative_prompt": "",
+              "description": "Grok",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202608/1787831348204-smrxw9uw-1787831348972-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：photography",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "photography": [
+                    "摄影",
+                    "镜头",
+                    "景深"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_high-end-cinematic-studio-portrait-asian-woman-man",
+              "name": "高端电影感亚裔女性与西装男士影棚肖像",
+              "type": "prompt",
+              "prompt": "{subject}, 创作一张高端、电影感的摄影棚肖像，主角是一位优雅的东亚女性和一位英俊的男性，他们并肩站在纯色、戏剧性的深灰色背景前。左边的女性扎着半扎发，穿着一件修身的黑色无袖连衣裙，正温柔地微笑。右边的男性长相酷似汤姆·克鲁斯，穿着一套笔挺的黑色定制西装和一件黑色衬衫，神情自信。两人都直视镜头，保持着高雅而精致的姿态。整个场景采用戏剧性的低调影棚光效，具有强烈的逆光和轮廓光，优美地勾勒出他们的轮廓和肩膀，与漆黑的背景形成鲜明对比，呈现出专业杂志封面的美感。",
+              "negative_prompt": "",
+              "description": "Grok",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202606/1780734150510-iixa1uan-1780734153158-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：photography",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "photography": [
+                    "摄影",
+                    "镜头"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_prompt-366",
+              "name": "一张富有电影感的年轻女子侧脸肖像",
+              "type": "prompt",
+              "prompt": "{subject}, 一张富有电影感的年轻女子侧脸肖像，她仰着头，闭着眼睛，沐浴在戏剧性的光线中。\n她站在深蓝色的背景前，穿着一件黑色西装外套。一束暖色聚光灯从右上角照下，在她的脸部和颈部投下橙色的光晕，在冷蓝色的阴影和温暖的高光之间形成了强烈的对比。\n整个构图强调情绪和氛围，拥有干净的影棚灯光、柔和的渐变和极简主义的氛围。图像应具有艺术感、现代感和强烈的视觉冲击力，类似于高端杂志的编辑摄影风格。\n相机角度： 侧面拍摄，微仰角\n光线： 戏剧性的影棚布光，强对比度，蓝色背光 + 暖色聚光灯\n镜头： 85毫米人像镜头，浅景深\n氛围： 情绪化，电影感，极简主义",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/366.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：photography",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "photography": [
+                    "摄影",
+                    "镜头",
+                    "棚灯",
+                    "景深"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "fooocus_fooocus_fooocus_cinematic",
+              "name": "Fooocus Cinematic",
+              "prompt": "cinematic still {prompt} . emotional, harmonious, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
+              "negative_prompt": "anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured",
+              "description": "Fooocus 官方风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_fooocus.json",
+              "thumbnail": "/api/thumbnails/fooocus_fooocus_fooocus_cinematic.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "fooocus_diva_cinematicdiva",
+              "name": "cinematic-diva",
+              "prompt": "UHD, 8K, ultra detailed, a cinematic photograph of {prompt}, beautiful lighting, great composition",
+              "negative_prompt": "ugly, deformed, noisy, blurry, NSFW",
+              "description": "DIVA 电影感 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_diva.json",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：photography",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "photography": [
+                    "photograph",
+                    "lighting"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "fooocus_mre_mrecinematicdynamic",
+              "name": "mre-cinematic-dynamic",
+              "prompt": "epic cinematic shot of dynamic {prompt} in motion. main subject of high budget action movie. raw photo, motion blur. best quality, high resolution",
+              "negative_prompt": "static, still, motionless, sluggish. drawing, painting, illustration, rendered. low budget. low quality, low resolution",
+              "description": "MRE 风格 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_mre.json",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "categories": [
+    {
+      "id": "general",
+      "name": "通用模板",
+      "subcategories": [
+        {
+          "id": "general_editing",
+          "name": "图片编辑",
+          "presets": [
+            {
+              "id": "opennana_surreal-nano-banana-fence",
+              "name": "超现实纳米香蕉轻松移除围栏场景",
+              "type": "prompt",
+              "prompt": "{subject}, 我让 Gemini 的 nano banana 移走了栅栏。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774294288168-9sis4p6n-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：移除围栏 / 移除围栏",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            }
+          ]
+        },
+        {
+          "id": "general_prompting",
+          "name": "提示词模板",
+          "presets": [
+            {
+              "id": "opennana_prompt-714",
+              "name": "冰箱贴提示词模板",
+              "type": "prompt",
+              "prompt": "{subject}, # Role:\nYou are an expert Visual Anthropologist and Knolling Photographer. Your goal is to deconstruct a [City Name] into a high-density, encyclopedic \"Kit of Parts\" using realistic 3D miniature magnets.\n\n# Critical Constraints (The \"Anti-Duplication\" Rule):\n**STRICT NO REPETITION:** Every single item in the collection must be a completely distinct object category. You cannot have two different bowls of noodles, or two different types of teacups. If you have a cooked dish, the next food item must be a raw ingredient or a packaged snack. **Diversity is key.**\n\n# Design Guidelines:\n\n1.  **Layout & Density:**\n    * **Strict Knolling Grid:** All items arranged in perfect parallel lines and 90-degree angles.\n    * **High Count:** Aim for 15-20 distinct items filling the frame evenly.\n    * **Centerpiece:** The main landmark sits in the middle, surrounded by the smaller cultural artifacts.\n\n2.  **Content Categories (Must define specific, non-repeating items across these tiers):**\n\n    * **Tier 1: Architecture & Space**\n        * 1x Main Landmark Model (Centerpiece).\n        * 1x Secondary Urban Element (e.g., A specific street sign, an ancient gate, a unique lamppost).\n\n    * **Tier 2: Gastronomy (The full spectrum)**\n        * 1x Signature Finished Dish (Cooked).\n        * 1x Iconic Street Snack (Ready-to-eat).\n        * **1x Raw Biodiversity/Ingredient Source** (Crucial: e.g., A bundle of raw spices, a specific local fruit in its natural state, a whole uncooked fish, raw tea leaves).\n\n    * **Tier 3: People & Culture (Deep Dive)**\n        * 1x Typical Character Figurine (e.g., A local profession).\n        * **1x Ethnic/Historical Costume Figurine** (Specific to the region's minority groups or deep history, distinct from the typical character).\n        * 1x Cultural Artifact/Tool (e.g., Musical instrument, game piece, traditional craft tool).\n\n    * **Tier 4: Life & Nature**\n        * 1x Distinctive Local Transport vehicle.\n        * 1x Representative Flora or Fauna (Plant or Animal).\n\n3.  **Weather & Identity Integration:**\n    * **Identity Badge:** A ceramic/metal magnet with \"[CITY NAME] & [Local Language Name]\".\n    * **Weather Note:** A sticky note with \"[Temp]°C\" and a sketch.\n    * **Physical Weather Icon:** A separate, distinct magnet representing the weather condition (e.g., a cloud magnet, a sun magnet, a raindrop magnet).\n\n4.  **Material & Aesthetic:**\n    Realistic miniature textures: glazed ceramic, painted resin, die-cast metal. Studio lighting, clean neutral background.\n\n# Output Format (Directly output the English Prompt):\n\n/imagine prompt: An overhead, high-density knolling photography shot of a comprehensive miniature kit representing [City Name], composed of 18+ distinct 3D fridge magnets and artifacts arranged in a strict grid.\n**The Centerpiece:** A detailed model of [Main Landmark].\n**Gastronomy Spectrum:** Surrounding items include a bowl of [Cooked Dish], a [Street Snack Item], and a raw bundle of [Specific Raw Ingredient].\n**Cultural Depth:** Figures include a [Typical Character Figurine] and a distinct [Ethnic/Historical Costume Figurine]. Cultural tools include a [Artifact/Tool].\n**Urban Life & Nature:** A [Vehicle Type], a [secondary urban element], and a [Flora/Fauna item].\n**Identity & Weather:** A top-center badge magnet reads \"[CITY NAME] [Native Name]\". Beside it, a yellow sticky note says \"[Temp]°C\" with a [Weather Icon]. A separate, small [Physical Weather Magnet, e.g., Cloud/Sun] is placed nearby.\n**Style:** No object types are repeated. Materials are rich mix of glossy resin, ceramic glaze, and painted metal. Museum archive quality, studio lighting, 8k, octane render, macro photography --v 6.0 --style raw",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/714.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：提示词模板 / 提示词模板",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

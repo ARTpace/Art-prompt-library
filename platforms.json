@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "defaultPlatform": "other",
+  "platforms": [
+    {
+      "id": "nano-banana",
+      "name": "Nano Banana",
+      "description": "Nano Banana 系平台产出的风格提示词",
+      "order": 120,
+      "match": [
+        "nano banana",
+        "nanobanana",
+        "nano-banana"
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "description": "ChatGPT 系平台产出的风格提示词",
+      "order": 110,
+      "match": [
+        "chatgpt",
+        "gpt image",
+        "gpt-image",
+        "openai"
+      ]
+    },
+    {
+      "id": "pia",
+      "name": "PromptImageAtlas",
+      "description": "PromptImageAtlas 系列风格库",
+      "order": 130,
+      "match": [
+        "promptimageatlas",
+        "promptsref",
+        "promptimage"
+      ]
+    },
+    {
+      "id": "yuanbao",
+      "name": "腾讯元宝",
+      "description": "腾讯元宝文生图与图生图风格",
+      "order": 140,
+      "match": [
+        "腾讯元宝",
+        "元宝"
+      ]
+    },
+    {
+      "id": "other",
+      "name": "其它来源",
+      "description": "Grok、ComfyUI、即梦、通义等其余来源，以及未标注来源的条目",
+      "order": 190,
+      "match": []
+    }
+  ]
+}

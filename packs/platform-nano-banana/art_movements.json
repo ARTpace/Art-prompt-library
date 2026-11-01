@@ -1,0 +1,64 @@
+{
+  "categories": [
+    {
+      "id": "art_movements",
+      "name": "艺术风格",
+      "subcategories": [
+        {
+          "id": "art_movements_abstract",
+          "name": "抽象构成",
+          "presets": [
+            {
+              "id": "opennana_minimalist-black-white-abstract-art",
+              "name": "极简主义黑白交织的抽象视觉艺术",
+              "type": "prompt",
+              "prompt": "{subject}, 🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774213339230-51stlcpr-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：抽象视觉艺术 / 抽象视觉艺术",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            }
+          ]
+        },
+        {
+          "id": "art_movements_art_nouveau",
+          "name": "新艺术装饰",
+          "presets": [
+            {
+              "id": "opennana_mystical-moon-tarot-gothic-art-nouveau",
+              "name": "神秘月亮塔罗牌：哥特与新艺术运动的华丽融合",
+              "type": "prompt",
+              "prompt": "{subject}, 将你最爱的插画转化为“Moon”奥秘！ 神秘的“Gothic decoration”×“Art Nouveau”风格 🌙",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1773188615336-0ljocb74-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：Art Nouveau",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "art_movements": [
+                    "Art Nouveau",
+                    "风格"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

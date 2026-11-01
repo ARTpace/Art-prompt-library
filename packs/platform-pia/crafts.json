@@ -1,0 +1,83 @@
+{
+  "categories": [
+    {
+      "id": "crafts",
+      "name": "手工艺",
+      "subcategories": [
+        {
+          "id": "crafts_paper",
+          "name": "纸艺剪纸",
+          "presets": [
+            {
+              "id": "pia_wt-34368",
+              "name": "层叠剪纸风格现代插画",
+              "type": "prompt",
+              "prompt": "[ 主体 ]的层叠剪纸插画， 由柔和的[ 颜色1 ]和[ 颜色2 ]的重叠形状构建， 手工纹理， 层与层之间的细微阴影， 干净的矢量边缘， 居中于哑光乳白色背景， 奇幻且现代的视觉叙事。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · webtomind",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/dbca1ca2-d97a-4957-bcb8-1d27a02f5bfa_0.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：剪纸 / 剪纸；按明确交付物优先于媒介",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            }
+          ]
+        },
+        {
+          "id": "crafts_textile",
+          "name": "纺织刺绣",
+          "presets": [
+            {
+              "id": "pia_relief-embroidery-bird-floral",
+              "name": "鸟3D插画优雅",
+              "type": "prompt",
+              "prompt": "精致的 3D 刺绣风格插画，浮雕纤维艺术效果，纯“{argument name=\"background color\" default=\"丝绸白 + 乳白色\"}”底色，细腻的丝线质感。画面主体为 {argument name=\"subject\" default=\"几只小鸟\"} 栖息在蜿蜒的花枝上，点缀着 {argument name=\"accent colors\" default=\"粉白色、浅桃色、珊瑚粉和淡金色\"} 的花朵与叶片。构图轻盈优雅，留白充足。鸟儿的羽毛采用乳白、浅蓝、淡粉和浅金色的丝线刺绣呈现。花枝纤细自然，花朵采用层叠缝合工艺，营造出高端手工刺绣、丝绒堆绣效果，光影柔和，细节丰富，呈现出温润清新的艺术质感。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/16299.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：刺绣",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "crafts": [
+                    "刺绣",
+                    "手工",
+                    "纤维"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "pia_feminine-y2k-ribbed-knit-dress",
+              "name": "女性化 Y2K 风格罗纹针织连衣裙",
+              "type": "prompt",
+              "prompt": "服装：一件 {argument name=\"color\" default=\"灰米色至浅粉米色\"} 的修身微喇迷你裙，采用精细的竖条纹弹力针织面料制成。设计包括一个宽大的圆领，正常穿着不偏移；短款合身盖肩袖，平整地覆盖在双肩上；宽大的针织肩部及上胸拼接；上胸部设有一个大型横向镂空，镂空为服装自带设计而非通过穿着方式形成；胸部下方为紧身抹胸式罗纹面板，通过两条细长的垂直针织带与上部拼接边缘相连。在上胸部两侧外缘各有一条细针织绳，每条绳子系成一个小巧自然的蝴蝶结，长长的尾端自然垂下，而非散开。修长的躯干部分紧贴身体延伸至低腰处，腰部正中另有一对细针织绳系成小巧松散的蝴蝶结，长尾端垂向臀部接缝。低腰处设有褶皱接缝，连接至单层短款微喇迷你裙摆，裙摆下缘自然垂落，未塞入、未折叠、未打结、未卷起。无可见纽扣、拉链或挂钩。搭配一双修身的 {argument name=\"boots type\" default=\"黑色高筒靴\"}，采用光滑皮革质感或弹力材质，靴筒紧贴腿部并延伸至裙摆下方，靴口被遮盖，鞋头为柔和的圆头，鞋跟、鞋底及闭合结构未作具体说明。此外，搭配一个中小型结构感 {argument name=\"handbag color\" default=\"象牙白或奶油色\"} 手提包，采用细纹皮革质感材质，包身呈柔和的梯形，配有前翻盖、长方形金色金属扣、短弧形手柄及一条附带的细长肩带。手提包通过短手柄挂在小臂上，长肩带保持连接并自然垂在包前，而非背在肩上或斜挎。无挂饰或装饰性钥匙扣。搭配极简风格的银色耳环，带有低调的透明宝石和通用的互扣环标志细节。整体呈现高级针织质感、写实的服装结构、干净的缝线、精致的镂空与领口处理、可见的接缝、自然的缝线张力、真实的针织重量感、细微的褶皱、逼真的垂坠感、真实的折痕、精细的褶皱结构、真实的层叠深度、可信的系带张力、自然的织物轮廓、精致的金属五金件、逼真的手柄接触感、稳固的配饰位置，以及做工精良的日常服装质感，避免廉价的戏服感。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/28912.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：针织 / 针织",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

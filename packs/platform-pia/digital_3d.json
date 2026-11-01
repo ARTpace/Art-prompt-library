@@ -1,0 +1,1677 @@
+{
+  "categories": [
+    {
+      "id": "digital_3d",
+      "name": "数字 3D",
+      "subcategories": [
+        {
+          "id": "digital_3d_character",
+          "name": "三维角色",
+          "presets": [
+            {
+              "id": "pia_retro-tactical-snow-selfie",
+              "name": "角色3D电影感雪复古忧郁",
+              "type": "prompt",
+              "prompt": "创作一张低分辨率复古 3D 电子游戏过场动画风格的特写自拍，画面中两名角色在灰蒙蒙的雪山环境中肩并肩站立。采用深沉、忧郁的 PlayStation 1 / 早期 PlayStation 2 美学，呈现可见的多边形几何结构、块状纹理、锯齿边缘、柔和的灯光以及 4:3 的纵横比。左侧角色为 {argument name=\"left character\" default=\"一位名叫 Yuki 的娇小蓝发精灵女孩\"}，留着长长的亮蓝色头发，长着尖尖的精灵耳朵，戴着带有黑色丝带系带的深色缝合帽或兜帽，身穿黑色战术服装；她的脸部被一个冷灰蓝色的不透明方形遮挡块刻意遮住。右侧角色为 {argument name=\"right character\" default=\"一名类似 Solid Snake 的粗犷士兵\"}，留着尖尖的深棕色头发，系着海军蓝色的头带，拥有古铜色皮肤，身穿带有高领的厚重黑色战术护甲；他的脸部被一个更大的深棕黑色渐变不透明方形遮挡块刻意遮住。构图为亲密的仰角特写，左侧角色位置较低且左侧部分被裁剪，右侧角色更高，占据右侧主导地位且顶部被裁剪。添加一个寒冷的雾气背景，远左侧有模糊的雪坡，画面中清晰可见两个遮挡面部的方形遮挡块，每个角色各一个。包含在背景中散落的由微小方形像素状雪花组成的柔和飘雪。保持画面深沉、具有电影感且刻意呈现不完美的效果，如同从老式潜行动作游戏中截取的一帧画面。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/20858.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：角色",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "digital_3d": [
+                    "3D",
+                    "几何"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "pia_whimsical-animated-townsfolk-lineup",
+              "name": "角色3D写实工作室优雅",
+              "type": "prompt",
+              "prompt": "一张纯白背景下的清晰角色阵容表，展示了 13 个全身风格化 3D 角色，采用异想天开的定格动画风格设计，具有夸张的比例、纹理织物、磨损表面、柔和的大地色调，以及略带诡异却又迷人的个性。将它们排列成 2 行：顶部一行 7 个角色，底部一行 6 个角色，每个角色都带有柔和的接地阴影并留有充足的留白，就像动画电影的工作室选角项目（casting board）一样。顶部一行，从左到右：1）一个极高且瘦削的中年男子，身穿破旧的棕色西装、白衬衫、窄红领带和格子裤，手指修长，姿态慵懒；2）一个矮胖的老年妇女，留着红色的卷发，穿着粉色开衫搭配碎花连衣裙，穿着舒适的鞋子，拎着棕色手提包；3）一个非常魁梧的壮汉，前臂有纹身，穿着红色格子法兰绒衬衫、背带、深色磨损长裤和厚重的靴子，呈现出粗犷的工人形象；4）一个瘦削的哥特风少女，皮肤苍白，扎着凌乱的黑色马尾，穿着黑色夹克、深色衬衫和紧身牛仔裤，双臂交叉，表情无聊；5）一个瘦长的少年，戴着针织帽，穿着叠穿的连帽衫和夹克，搭配紧身牛仔裤和运动鞋，双手插兜；6）一个非常高大的老妇人，留着优雅的蜂窝头，脸型狭长，穿着棕褐色衬衫、围巾、长棕色裙子，搭配高跟鞋和手提包，一只手拿着香烟；7）一个苗条的青少年或年轻男性，留着深色卷发，穿着条纹毛衣、窄腿裤和棕色鞋子。底部一行，从左到右：8）一个憔悴虚弱的老人，穿着破烂的叠穿衣服和沾有污渍的围裙，身体前倾，姿态疲惫；9）一个瘦削的中年妇女，头发盘成高发髻，穿着芥末黄开衫、蓝色长裙，搭配平底鞋和单肩包，双手在胸前小心翼翼地拿着东西；10）一个敦实的警官，穿着厚重的海军蓝冬季制服，带有毛领、徽章、多功能腰带、深色长裤和黑色鞋子；11）一个胖乎乎的卷发男孩，穿着连帽衫外搭无袖棒球夹克，搭配及膝短裤、袜子和运动鞋，紧紧抓着背包带；12）一个骨瘦如柴的老人，戴着帽子，大鼻子，脊椎佝偻，穿着长外套、紧身裤，拄着拐杖；13）一个瘦长的机械师或加油站工人，穿着深蓝色连体工作服和帽子，帽子上可见文字 {argument name=\"cap text\" default=\"GAS\"}，手里拿着一把扳手。保持渲染的高度细节，展现毛毡、羊毛、牛仔布、针织、皮革和灰尘般的材质真实感，同时保持漫画式的解剖结构和富有表现力的剪影。使用棕色、铁锈红、灰粉色、炭灰色、海军蓝、米色和褪色牛仔布的柔和色调。整体氛围应如同来自一部黑色幽默动画长片中破旧小镇的古怪居民，呈现为一张精致的群像选角项目。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/16964.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：3D / 角色",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "pia_chibi-sprite-sheet",
+              "name": "角色可爱",
+              "type": "prompt",
+              "prompt": "{\"type\":\"2D Q 版角色动画精灵图集\",\"subject\":{\"character name\":\"{argument name=\\\"character name\\\" default=\\\"Sammy\\\"}\",\"style\":\"可爱的游戏吉祥物，小巧的 Q 版比例，粗而柔和的轮廓，轻微的赛璐珞阴影，干净的贴纸式渲染\",\"face\":\"大部分为无特征的平滑米色方形脸，带有细微的渐变，在右中位置附近的一个小精灵上显示一个微小的表情\",\"hair\":\"{argument name=\\\"hair style\\\" default=\\\"深棕色短卷发\\\"}\",\"skin\":\"浅暖米色\",\"outfit\":{\"top\":\"{argument name=\\\"hoodie color\\\" default=\\\"青色连帽衫，配深蓝色袖子和小型前袋\\\"}\",\"bottom\":\"深海军蓝长裤或短裤（取决于姿势）\",\"shoes\":\"奶油色运动鞋，配深色鞋底\"}},\"canvas\":{\"background\":\"纯白色\",\"composition\":\"大型精灵图集，包含许多排列在松散行中的独立姿势，无网格线，无标签，留有大量空白\",\"view\":\"主要是正面和四分之三侧面视图，小巧的全身精灵\",\"total sprites\":57},\"layout\":{\"row count\":9,\"rows\":[{\"row\":1,\"count\":6,\"descriptions\":[\"正面待机站立\",\"正面待机站立重复\",\"正面待机站立重复\",\"正面待机站立重复\",\"正面待机站立重复\",\"正面待机站立重复\"]},{\"row\":2,\"count\":8,\"descriptions\":[\"从左到右奔跑跨步 1\",\"从左到右奔跑跨步 2\",\"从左到右奔跑跨步 3\",\"从左到右奔跑跨步 4\",\"从左到右奔跑跨步 5\",\"从左到右奔跑跨步 6\",\"从左到右奔跑跨步 7\",\"从左到右奔跑跨步 8\"]},{\"row\":3,\"count\":8,\"descriptions\":[\"奔跑循环交替跨步 1\",\"奔跑循环交替跨步 2\",\"奔跑循环交替跨步 3\",\"奔跑循环交替跨步 4\",\"奔跑循环交替跨步 5\",\"奔跑循环交替跨步 6\",\"奔跑循环交替跨步 7\",\"奔跑循环交替跨步 8\"]},{\"row\":4,\"count\":4,\"descriptions\":[\"右手握拳站立\",\"双臂举起站立\",\"单手挥手站立\",\"小型庆祝姿势站立\"]},{\"row\":5,\"count\":5,\"descriptions\":[\"低姿蹲伏\",\"单臂向上跳跃\",\"向后翻滚或跌倒\",\"空中蜷缩或滚动\",\"小型正面待机站立\"]},{\"row\":6,\"count\":8,\"descriptions\":[\"行走或慢跑姿势\",\"正面直立\",\"盘腿坐姿\",\"手膝着地爬行\",\"带有可见眉毛和闭嘴微笑的微小正面角色\",\"跪姿或侧坐姿\",\"高挑中性正面姿势\",\"双臂放松正面站立\"]},{\"row\":7,\"count\":6,\"descriptions\":[\"宽幅自信站姿\",\"双手垂下的正面待机\",\"正面放松待机\",\"正面待机微调\",\"正面待机微调\",\"正面待机微调\"]},{\"row\":8,\"count\":6,\"descriptions\":[\"单膝抬起的行走跨步\",\"行走跨步交替\",\"双臂向前的奔跑姿势\",\"行走跨步交替\",\"行走跨步交替\",\"行走跨步交替\"]},{\"row\":9,\"count\":6,\"descriptions\":[\"正面待机站立\",\"侧步或蹲伏动作\",\"正面待机站立\",\"胸前持有或拥抱小物体站立\",\"持有小物体站立交替\",\"正面待机站立\"]}]},\"rendering instructions\":\"为名为 {argument name=\\\"character name\\\" default=\\\"Sammy\\\"} 的游戏角色创建一个精致的精灵图集概念图。使用白色背景，将 57 个小型 Q 版精灵按 9 行松散排列，数量分别为 6、8、8、4、5、8、6、6 和 6。保持所有精灵设计一致：深色卷发、青色连帽衫配蓝色袖子、海军蓝下装、奶油色鞋子、超大米色无特征脸部、圆润身体、柔和阴影和干净的卡通线条。包含奔跑、行走、待机、挥手、欢呼、跳跃、蹲伏、翻滚、坐姿、爬行、跪姿和持有物体的姿势，其中一个微小的中心精灵显示一个简单可爱的微笑表情。无文字、无标签、无网格、无背景场景。\"}",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/18378.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：角色",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "digital_3d": [
+                    "rendering",
+                    "网格"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "pia_3d-animated-scene-with-reference-matching",
+              "name": "女性3D梦幻可爱",
+              "type": "prompt",
+              "prompt": "一个高质量的 3D 动画场景，主角为 {argument name=\"subject\" default=\"年轻女性\"}（基于提供的参考图像，确保面部和特征准确，皮肤纹理真实），身穿与参考图像完全相同的服装/服饰，保留所有衣物细节、颜色和纹理。她正随意地坐在 {argument name=\"furniture\" default=\"柔和色调的沙发\"} 上，身处一个 {argument name=\"room type\" default=\"温馨且富有美感的房间\"} 中。她的姿态放松且富有表现力，面部表情俏皮、略带笑意。她身旁是婴儿角色“Goo Goo Gaga”，其形象与提供的参考图像完全一致——外观、服装、比例、面部表情和风格均保持不变（不做任何改动）。Goo Goo Gaga 站在沙发上，与她俏皮互动（拉扯她的脸颊或抓着她的手臂），营造出一个可爱又略显混乱的瞬间。环境：温馨、舒适的柔和色调房间，摆满柔软的靠垫、毛绒玩具和简约美学装饰（颜色：柔粉色、桃色、奶油色、薄荷绿）。光影：柔和的电影级灯光，带有暖色调光晕、柔和阴影、景深效果，营造梦幻氛围。风格：高端 3D 卡通（皮克斯/迪士尼风格），超平滑渲染，次表面散射皮肤，蓬松的织物纹理，高度细节化，构图整洁。氛围：可爱、俏皮、治愈、富有表现力、略带混乱，符合社交媒体爆款美学。重要提示：两个角色均使用提供的参考图像——保持女性的面部和服装准确，并确保 Goo Goo Gaga 与参考图完全一致。“8K 渲染，虚幻引擎，Octane 渲染质量”",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/16254.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题大类＋正文子类证据：角色",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "pia_pixar-style-tv-reimagining",
+              "name": "角色3D温暖",
+              "type": "prompt",
+              "prompt": "将电视节目 {argument name=\"tv show\" default=\"[TV SHOW]\"} 重构为皮克斯风格的电影海报。将主要角色描绘成迷人的 3D CGI 漫画形象，具有夸张且富有表现力的特征、大而传神的眼睛，并采用温暖、光泽的皮克斯级渲染效果。将其构图为一张真实的电影海报",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/26444.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：3D / 角色",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "pia_fantasy-pirate-girl-art",
+              "name": "女孩3D海洋温暖可爱",
+              "type": "prompt",
+              "prompt": "创作一张充满活力的 2:3 纵向电影级奇幻冒险插图，采用精致的 3D 动画长片风格。展示 {argument name=\"character name\" default=\"一位年轻海盗女孩\"} 全身站在阳光明媚的海盗船木质甲板上，姿态自信，一手叉腰，另一只手臂向外伸展。她的脸被一个居中的纯中棕色方形面具遮住，没有任何面部特征。她拥有浓密的深棕色卷发，在海风中飘动，系着粉色的头巾蝴蝶结；身穿奶油色系带海盗衬衫，配有泡泡袖、带金色饰边的短款紫色马甲、装饰着小金星的宽松高腰紫色长裤、带有大黄铜扣和悬挂链条的宽棕色腰带、一侧系着粉色图案腰带、带有金星装饰的棕色翻边海盗靴，以及小巧的金饰。她的肩膀上栖息着 {argument name=\"companion creature\" default=\"一只可爱的蓝色奇幻猴鼠吉祥物\"}，有着巨大的圆耳朵、大而生动的眼睛、开心的笑容、头上长着五彩的粉色和蓝色羽毛、卷曲的尾巴，以及一根带有小金星吊坠的魔杖。场景是细节丰富的海盗船甲板，配有绳索、木桶、宝箱、黄铜配件、桅杆、索具，角色脚下环绕着闪烁的金色光芒；她身后是奶油色和红色相间的条纹帆，以及 1 面带有黄色骷髅交叉骨标志的黑色海盗旗。背景展示了带有泡沫波浪的绿松石色海洋、带有悬崖和棕榈树的热带岛屿、蓬松的白云，以及 4 只在明亮蓝天中飞翔的白色海鸥。使用温暖的黄金时刻阳光、饱和的色彩、轮廓光、浅景深、动态构图、超精细纹理、异想天开的魔法氛围，以及高端家庭冒险电影概念艺术品质。无文字，无水印，无额外角色。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/21773.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题大类＋正文子类证据：character",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "pia_pixar-style-3d-sticker-pack",
+              "name": "角色3DLogo",
+              "type": "prompt",
+              "prompt": "使用上传的自拍作为唯一的面部参考，生成一套 {argument name=\"style\" default=\"皮克斯风格 3D 动画\"} 贴纸包。角色必须与自拍中的人物高度相似。将九个贴纸排列成 {argument name=\"grid layout\" default=\"整齐的 3x3 网格拼贴\"}，并严格保持 {argument name=\"aspect ratio\" default=\"4:5\"} 的纵横比。每个单元格展示不同的姿势和独特的面部表情。风格与质感：皮克斯风格 3D 动画，带有模因（meme）感，表情夸张且略显荒诞，充满趣味性的表演。\n\n表情即使在小尺寸下也需要清晰可辨，眼睛、眉毛和嘴巴要非常生动，并在合适的地方加入细微的手势。输出为完全透明背景的 PNG 格式，无背景图，无投影。不要包含任何文字、标题、Logo 或 UI 元素。贴纸应可直接用于即时通讯软件。保持发型、服装、颜色和角色比例在所有九个单元格中一致；仅改变面部表情和姿势。\n\n最终效果应呈现出干净、精致的 3D 贴纸质感。九种表情（3x3 网格中每个单元格一个）：惊讶、恼火、困惑、沮丧、沉思、讽刺、担忧、无聊、好奇。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/23008.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：3D / 角色",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "pia_jrpg-fantasy-logo-splash-screen",
+              "name": "初音未来角色Logo3D城堡优雅",
+              "type": "prompt",
+              "prompt": "创建一个宽幅 JRPG 幻想风格标题 Logo 启动画面，对象为 {argument name=\"character name\" default=\"Hatsune Miku\"}。画布：16:9 横向白色背景，简洁的高调呈现，无边框。主体构成：左侧居中放置巨大的华丽衬线幻想风格 Logo，文字为 {argument name=\"main title text\" default=\"HATSUNE MIKU\"}，分两行排列，“HATSUNE”在上，“MIKU”在下；使用金属青色到白色的渐变字体，带有 3D 斜角边缘、锐利的哥特式衬线、明亮的星光闪烁、纤细的金色轮廓以及微妙的投影。在 Logo 下方居中添加一行小型日语副标题 {argument name=\"subtitle text\" default=\"初音ミク\"}，两侧点缀微小的装饰性闪光。角色剪影：在右侧放置一个深青色的 Hatsune Miku 动漫偶像侧面剪影，面向左方，清晰展示 2 条向右下方大幅飘动的超长双马尾，并带有 2 个点缀着粉色和青色的长方形发饰。背景幻想元素：在 Logo 后方添加一个淡金色的圆形魔法纹章，带有类似罗盘的辐条，上方有一个高耸的矛状装饰；在右侧剪影后方添加远景深青色哥特式城堡天际线，带有多个尖塔。装饰元素：添加环绕在 Logo 和角色周围的半透明水蓝色笔触波浪，特别是左侧的一个大新月形笔触和右下方的几条丝带状头发/水流笔触；散布微小的星光、油漆溅射以及少量粉色花瓣状碎片。在主 Logo 右下方附近包含一个小的洋红色数字 {argument name=\"edition number\" default=\"01\"}。视觉风格：优雅的日式幻想 RPG 关键视觉图，聚焦 Logo 设计，清爽的矢量风格排版混合水彩溅射，明亮的青色和蓝绿色调搭配淡金色点缀，高细节，精美的游戏标题呈现。约束条件：仅使用一个角色剪影、一个两行主标题、一个日语副标题以及一个版本号；保持背景大部分为白色且整洁；无额外 Logo，无水印，无边框。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/22840.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：3D / 角色",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "pia_blonde-warrior-icy-cavern",
+              "name": "女性3D冷调",
+              "type": "prompt",
+              "prompt": "创建一个 16:9 宽画幅的电影级 3D 奇幻动作场景：一位年轻的金发女战士，{argument name=\"character name\" default=\"女性奇幻骑士\"}，在黑暗的冰窟中向前冲锋，位置略低于画面中心，身体前倾奔跑，单膝抬起。她身穿带有金色饰边的蓝色无袖束腰外衣，胸前有金色徽章，搭配深色短裤、皮靴、护腕和轻型护甲。她留着浅金色短发，但面部被一个平面的不透明灰色方块遮挡。左手持一面大型圆盾，盾牌边缘为金色，盾面为深蓝色，并带有绳索状的金色十字装饰；右手持一柄长矛，矛身向左后方倾斜。环境是一个巨大的冰冻洞穴，天花板上悬挂着参差不齐的钟乳石，岩壁呈蓝黑色，散布着冰层结构，地面平坦且结冰，两侧有巨大的阴影巨石。采用低调的电影氛围光，冷蓝色调，带有淡淡的薄雾，右上角有柔和的体积光，呈现出精致的动画电影/游戏过场动画质感，具有景深效果和宏大的比例感。无文字，无水印，无多余角色。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/26471.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题大类＋正文子类证据：character",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "pia_stylized-3d-urban-skater-character",
+              "name": "蜘蛛侠角色3D宇宙街头",
+              "type": "prompt",
+              "prompt": "风格化 3D 卡通角色，采用现代动画电影风格，灵感源自 Pixar、《蜘蛛侠：平行宇宙》及独立街头艺术美学。角色特征：夸张的比例、修长的四肢、{argument name=\"outfit\" default=\"超大号连帽衫、宽松破洞牛仔裤、厚底运动鞋\"}、表情生动且带有疲惫/自信的态度、凌乱的风格化发型、大号耳机、带有徽章和补丁的背包，自然地站在滑板上。风格：干净的电影级 3D 渲染、柔和的全局光照、微妙的色差、超精细纹理、平滑着色、俏皮但符合现实的解剖结构、高端角色设计、风格化街头服饰、城市青年活力。服装颜色：可自定义 {argument name=\"hoodie color\" default=\"粉色\"}、牛仔裤、街头服饰配件、滑板美学。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/22537.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：3D / 角色",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "pia_falcon-starfighter-pilot",
+              "name": "鸟3D赛博赛博朋克未来",
+              "type": "prompt",
+              "prompt": "创作一个 16:9 画幅的电影级宽屏科幻场景，带有黑色遮幅，展示一位拟人化的 {argument name=\"bird species\" default=\"蓝猎鹰飞行员\"} 坐在未来感星际战斗机的驾驶舱内。该角色是一位逼真的 3D 游戏风格鸟类王牌飞行员，拥有鲜艳的蓝色羽毛、红色的冠羽和面部羽毛、巨大的黄色钩状喙，表情冷静专注，微微向右看，仿佛正在扫描天空。为飞行员配备一个紧凑的赛博朋克耳机，单眼处配有发光的绿色单片眼镜、小型金属耳罩和麦克风杆。为角色穿上精致的 {argument name=\"pilot outfit\" default=\"银白色科幻飞行夹克，配有肩甲、安全带、补丁、拉链细节和红色颈巾\"}。驾驶舱周围是深色的棱角分明的舱盖框架、玻璃反射、软垫座椅、控制面板、小型多色指示灯，右下角可见飞行操纵杆或控制台。在舱盖外，展示模糊的蓝色机翼和带有柔和云层的明亮天空，暗示高速飞行。采用戏剧性的自然日光、浅景深、光泽逼真的材质、高细节羽毛、电影级调色、锐利的前景焦点，呈现出优质网页游戏过场动画或次世代太空竞速资产的视觉效果。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/18699.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题大类＋正文子类证据：角色",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "digital_3d": [
+                    "3D",
+                    "反射"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "pia_tiny-3d-x-profile",
+              "name": "角色3D写实未来温暖氛围感",
+              "type": "prompt",
+              "prompt": "创作一张竖版电影级科幻 3D 渲染图，画面中心是一个巨大的透明玻璃质感 𝕏/Twitter 个人主页，垂直矗立在未来感十足的圆形展示平台上。在平台右下方，站着一个与该主页所有者对应的微型全身 3D 虚拟形象。该主页属于 {argument name=\"character name\" default=\"Alexandra Aisling\"}，账号为 {argument name=\"profile handle\" default=\"@AllaAisling\"}。虚拟形象是一位时尚的科幻探险家，拥有温暖的棕色皮肤、短卷发、橙色耳机/护目镜、红橙色工装连体裤、短款米色战术背心、手套以及厚底白橙色靴子，姿态自信，双臂自然下垂。面部应刻意处理得柔和/模糊，非写实风格，呈现出个性化虚拟形象占位符的效果。个人主页卡片后方是充满氛围感的夜间外星城市，背景中有星空、发光的未来感高塔、卫星/行星，配以温暖的轮廓光和浅景深效果。\n\n个人主页卡片应呈现深色模式的 𝕏 界面，外观如同一个巨大的半透明平板，带有圆角和光泽边缘。顶部是宽幅横幅图片，展示沙漠科幻废墟：一座带有拱形开口的圆顶白色石建筑、尘土飞扬的山脉、云层以及两颗可见的天体。左侧横幅上方叠加一个圆形头像，头像中的角色佩戴与主体一致的橙色耳机，面部模糊。名字旁包含一个蓝色认证勾选图标，右侧设有一个“编辑个人资料”的胶囊按钮。\n\n可见的个人主页文字：名称“Alexandra Aisling”，账号“@AllaAisling”，简介“AI 创作者，重新定义 AI 生成艺术的边界，通过文字和图像探索未来世界。Adobe Firefly 大使。”，加入时间“2023 年 4 月加入”，数据统计“965 个正在关注”和“5.22 万粉丝”。包含一个名为“Art Odyssey”的社区卡片，描述为“与志同道合的 AI 创作者建立联系并协作，分享知识与技巧，激发 AI 艺术创新……”，以及“4.6K 成员”。包含七个导航标签：帖子、回复、订阅、精选、文章、媒体、喜欢，其中“帖子”处于选中状态并带有蓝色下划线。包含一条由 Alexandra Aisling 置顶的帖子，开头文字为：“他们称她为‘幽灵回路’。她是最后一位拒绝将思想交给城市机械神的浪人。”，随后是“三天前，她偷走了一些埋藏在超级城市地下的东西。那东西强大到足以唤醒那些本应永远沉睡的系统。”显示模糊的互动图标及数据，包括 112、243、1.8K 和 53K。\n\n在平台上添加三个前景道具：左侧是一个装有相同沙漠废墟微缩模型的玻璃圆顶生态瓶，右侧是一盆金属盆栽，以及一个发光的前置铭牌，上面写着 {argument name=\"nameplate text\" default=\"@AllaAisling\"}。采用高端 Octane 渲染风格，材质细节丰富，电影级橙蓝光影，逼真的反射效果，体积感氛围，并聚焦于角色和个人主页卡片。保持构图居中，竖版 2:3 比例，画面中无其他人物，无水印，无无关文字。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/21411.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：3D / 角色",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "pia_ai-mascot-lounge-debate",
+              "name": "角色3DLogo温暖高级",
+              "type": "prompt",
+              "prompt": "创建一个精致的 3D 卡通社论场景，背景设在舒适的现代访谈休息室中，采用 16:9 宽幅图像格式。两个拟人化的 AI Logo 吉祥物坐在米色软垫扶手椅上，面对面围着一张圆形木制咖啡桌。左侧是一个黑色圆角方形吉祥物，正面印有巨大的白色 OpenAI 结状 Logo，配有黑色管状手臂和腿、白色手套以及超大号白色运动鞋；它正举起食指，仿佛在强调某个观点。右侧是一个棕褐色圆角方形吉祥物，正面印有巨大的黑色“AI”字样，它翘着二郎腿，戴着黑色手套和靴子，身体后倾，神情怀疑。添加 2 个气泡：左侧较大的气泡写着“i’m not charging twice so that developers feel respected instead of exploited”，其中“respected”为绿色，“exploited”为红色；右侧较小的气泡写着“that seems difficult to monetize”。包含 3 个清晰可见的文字标识：左侧一个发光的架子标牌写着“BUILD SHIP REPEAT”，右侧墙上的一张海报写着“ANTHROPIC / SAFETY FIRST* / *TERMS APPLY”，以及桌上黑色马克杯的 Logo 标志。咖啡桌上应放置 2 个物品：一个印有白色 OpenAI 风格 Logo 的黑色马克杯和一个小型多肉盆栽。背景细节包括深炭灰色墙壁、温暖的摄影棚灯光、左侧摆放植物的书架、右侧的大型盆栽、柔软的圆形地毯以及浅景深效果。采用讽刺的科技行业基调、高级玩具质感的 3D 渲染、柔和的全局光照、富有表现力的肢体语言、清晰易读的字体，且不要添加额外的角色或文字。左侧气泡文字可自定义为 {argument name=\"left speech bubble\" default=\"i’m not charging twice so that developers feel respected instead of exploited\"}；右侧气泡文字可自定义为 {argument name=\"right speech bubble\" default=\"that seems difficult to monetize\"}；墙上海报标题可自定义为 {argument name=\"wall poster text\" default=\"ANTHROPIC / SAFETY FIRST* / *TERMS APPLY\"}；左侧角色 Logo 可自定义为 {argument name=\"left mascot logo\" default=\"OpenAI knot logo\"}；右侧角色标签可自定义为 {argument name=\"right mascot label\" default=\"AI\"}。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/20118.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：3D / 角色",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "pia_character-themed-whole-cake",
+              "name": "角色写实3D温暖梦幻优雅",
+              "type": "prompt",
+              "prompt": "创作一张奢华、照片级写实的官方角色主题整蛋糕产品照，基于 {argument name=\"character name\" default=\"Nozomu\"}。这款蛋糕是一个放置在华丽金边玻璃蛋糕架上的高耸圆形庆典蛋糕，采用温暖的柔焦灯光拍摄，背景中模糊呈现着闪烁的金色烛台和柔和的淡色花朵。蛋糕应呈现出真实的高端烘焙店质感，而非平面打印的蛋糕。将该角色转化为一个从蛋糕顶部中心浮现的手工 3D 可食用玩偶：一位精致的动漫风格女孩，拥有 {argument name=\"hair color\" default=\"长款波浪形铂金色头发\"}、白皙的皮肤、硕大的宝石般蓝色眼睛、灰色荷叶边泡泡袖连衣裙、领口和袖口饰有黑色丝带蝴蝶结，表情梦幻优雅；如有必要可模糊或避免过于具体的面部特征，但需保持玩偶般的奢华美感。在她周围环绕半透明的冰晶糖片、大型淡蓝色丝带造型、白色与淡色花朵、珍珠糖珠、蓝色糖果宝石以及光泽感的可食用珠饰。糖霜呈现珍珠白色，带有微妙的银蓝色大理石纹路和细小的挤花珍珠，顶部和底部边缘饰有淡蓝色淋面和华丽的奶油挤花。添加恰好四个可见的黑色丝带蝴蝶结装饰：蛋糕正前方中心一个带有心形宝石的大型黑色蝴蝶结，左侧一个小黑色蝴蝶结，右侧一个小黑色蝴蝶结，以及角色胸前一个小蝴蝶结。添加恰好两个可读的文字区域：右前方一个奶油色椭圆形牌匾，上方写有 {argument name=\"Japanese plaque text\" default=\"のぞむ\"}，下方写有 {argument name=\"English plaque text\" default=\"NOZOMU\"}，除此之外无其他显著文字。使用 {argument name=\"color palette\" default=\"珍珠白、冰蓝色、香槟金、柔粉色、薰衣草紫和光泽黑\"} 的配色方案。构图：4:5 竖构图特写产品摄影，蛋糕居中并填满大部分画面，浅景深，高端甜点店造型，精致的可食用细节，闪烁的高光，真实的糖霜质感，无水印，无 Logo，无额外角色，无平面打印的角色图像。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/24355.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：3D / 角色",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "pia_sketch-to-reality-3d-illusion",
+              "name": "角色3D写实山雪",
+              "type": "prompt",
+              "prompt": "使用上传的人脸作为精准面部参考，创作一幅令人惊叹的超写实 3D 幻觉艺术作品。\n\n一位 {argument name=\"subject\" default=\"帅气的年轻旅行者\"} 正从放置在质朴木桌上的 {argument name=\"source\" default=\"螺旋笔记本\"} 中走出。笔记本页面上绘满了复杂的旅行素描、护照印章、飞机涂鸦、山脉轮廓、指南针和世界地图。角色的下半身依然是纸上细节丰富的石墨铅笔素描，而上半身则无缝转化为走出笔记本的逼真 3D 人物。\n\n请严格使用上传的人脸参考来呈现角色的面部特征、发型、肤色、眼型、表情和整体相似度。这位旅行者带着自信且充满冒险精神的微笑，面部细节与参考图完全一致。他穿着 {argument name=\"clothing\" default=\"休闲米色 T 恤、浅色牛仔夹克、修身工装裤、白色运动鞋\"}，并背着一个时尚的旅行背包。\n\n在他周围，微型 3D 旅行元素从笔记本中浮现，包括埃菲尔铁塔、热气球、雪山、棕榈树、复古飞机、旅行标志和漂浮的护照印章，营造出一种神奇的旅行效果。素描线条逐渐融入逼真的纹理，实现了从绘画到现实的完美过渡。\n\n温暖的黄金时刻阳光照亮了木桌，投下柔和的电影感阴影，增强了深度和真实感。写实的笔记本纹理、浅景深、超细节混合媒介艺术、创意视觉幻觉、电影级构图、旅行灵感氛围、大师级品质、超写实渲染、非凡细节、8K 分辨率、专业概念艺术、从草图到现实的无缝转换。比例 4:5",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/26246.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：3D / 角色",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "pia_stranger-things-bathroom-mirror-selfie",
+              "name": "角色电影感3D复古忧郁",
+              "type": "prompt",
+              "prompt": "电影感镜面自拍场景，灵感源自 {argument name=\"aesthetic\" default=\"复古 80 年代科幻恐怖氛围\"}，一群青少年和一名摄影师在浴室镜子前合影，复古相机闪光灯照明，镜子周围装饰着圣诞灯串，洗手台上放着对讲机和复古小玩意，镜子上用雾气手写着“{argument name=\"text on mirror\" default=\"RUN\"}”和“{argument name=\"show reference\" default=\"Stranger Things\"}”字样，怀旧氛围，忧郁的蓝红灯光，电影叙事构图，皮克斯风格 3D 角色，超精细，柔和的反射，8K 分辨率。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/27236.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：角色",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "digital_3d": [
+                    "3D",
+                    "反射"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "pia_pixar-style-3d-cartoon-character",
+              "name": "角色3D极简忧郁",
+              "type": "prompt",
+              "prompt": "一个风格化的 3D 卡通人物，主体为 {argument name=\"person\" default=\"角色\"}，拥有大而生动的眼睛和略显忧郁、闷闷不乐的表情，背景为纯色的 {argument name=\"background color\" default=\"淡绿色\"}。该角色戴着一顶毛茸茸的白色护耳针织帽，并配有同色系的白色头戴式耳机。帽子下露出凌乱的棕色短发。身穿一件宽松的淡绿色 T 恤，胸前印有醒目的黑色图案，双臂交叉，呈现出无聊或烦躁的姿态。柔和的漫反射摄影棚灯光营造出平滑的阴影，质感精致。超精细、高质量的 3D 渲染，采用 {argument name=\"art style\" default=\"皮克斯风格\"}，纹理平滑，浅景深，居中构图，背景简洁极简，配色柔和而鲜明。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/25388.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：3D / 角色",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "pia_zhu-bajie-character-poster",
+              "name": "角色3D写实温暖山",
+              "type": "prompt",
+              "prompt": "目标：为 {argument name=\"character name\" default=\"猪八戒\"} 创作一张电影级竖版奇幻角色档案海报，灵感源自《西游记》，将角色呈现为超写实 3D 全身立像，周围环绕充满神话色彩的叙事小图。\n\n画布：竖版海报，3:4 比例，深青铜色与金色调，带有精致的细边框和边角装饰，高细节奇幻电影主视觉图。使用温暖的夕阳逆光、烟雾缭绕的云层、崎岖的山路、古老的中国宝塔、尘埃以及闪耀的金色高光。\n\n主体：中央为一个全身立像，一位体型魁梧的僧侣战士正沿着岩石小路向观众走来。他身材敦实，露出肚皮，身穿层叠破旧的黑褐色长袍、围巾、布腰带、宽松长裤、裹腿靴，背着一个巨大的行囊。他的面部被一个平滑的矩形模糊/遮罩刻意遮挡，而身体其余部分保持清晰写实。他肩上斜扛着 {argument name=\"weapon\" default=\"九齿钉耙\"}；金属耙头向上延伸，突破主画框，营造出强烈的 3D 出框效果。腰间挂着两个棕色葫芦和一些小型旅行用品。\n\n背景与叙事元素：在中央人物周围包含 6 个电影级叙事小图，融入朦胧的景观中，如同发光的记忆画框。左侧有 2 个标注小图：左上角为取经队伍场景，标注「戒挑担」，配有较小的装饰性竖排中文；中左侧为村庄或婚嫁相关场景，标注「高老庄招亲」，配有较小的装饰性竖排中文。右侧有 4 个标注小图：右上角为天庭降临场景，标注「天蓬下凡」；中右侧为河中相遇场景，标注「流沙河收徒」；中下右侧为取经团队场景，标注「同行取经」；右下角为成就/觉悟场景，标注「终成正果」，每个小图均配有小型竖排中文注释。所有小图应展示山路或梯田上微小的僧侣身影，并与整体的深褐色-金色电影光影保持一致。\n\n文字内容：在左下方添加一个醒目的金色粗体毛笔书法标题，内容为 {argument name=\"large title text\" default=\"猪八戒\"}。在标题旁添加一枚红色小印章。在左下角沿底部添加一行金色小字副标题，内容为 {argument name=\"subtitle text\" default=\"西行取经/信念之心\"}。保留上述列出的 6 个中文小图标签，按垂直排列，仅允许添加额外的较小中文填充文字作为海报装饰排版。\n\n视觉风格：超细节 3D 角色渲染与中国神话绘景相结合，史诗级奇幻写实风格，戏剧性的体积光，做旧的织物纹理，华丽的历史海报设计，金色尘埃颗粒，高对比度，电影级景深，油画质感的云雾与山峦。\n\n约束：仅使用一个中心角色，仅使用一件主武器，精确包含 6 个带标签的叙事小图，一个大书法标题，以及一枚红印章。不要添加现代物品、Logo 或前景中的额外角色。保持面部模糊/遮罩作为构图的一部分。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/21572.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：3D / 角色",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "pia_pixar-style-3d-caricature-portrait",
+              "name": "角色3D写实高级",
+              "type": "prompt",
+              "prompt": "仅以上传的照片作为面部参考，创作一个超写实的 3D 卡通形象，同时 100% 保留人物的面部特征、肤色、发型、五官和表情。将主体转换为 {argument name=\"character style\" default=\"具有大头、大而富有表现力的眼睛、夸张的面部比例以及小巧写实身体的皮克斯风格卡通角色\"}。主体为 {argument name=\"pose and clothing\" default=\"自信地蹲着，手里拿着一个大号外带咖啡杯，身穿合身的黑色 T 恤、灰色长裤、休闲运动鞋，并佩戴着银色手链\"}。将角色置于 {argument name=\"background\" default=\"无缝的鲜艳橙色摄影棚背景和地面上，配以柔和的电影级灯光、微妙的阴影和清晰的反射\"}。在保持卡通比例的同时，保留逼真的皮肤毛孔、卷发纹理、衣物织物细节以及高度精细的咖啡杯纹理。使用 18mm 超广角镜头从略微仰视的角度捕捉场景，以呈现戏剧性的透视效果。超精细 3D 渲染，Octane Render，Unreal Engine 5 品质，光线追踪全局光照，电影级调色，8K 分辨率，高级广告插画，色彩鲜艳，杰作。负面提示词：低质量，模糊，平淡光照，面部扭曲，多余肢体，多余手指，身体部位重复，水印，文字，Logo，噪点，AI 伪影，低多边形，卡通轮廓",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/29289.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：3D / 角色",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            }
+          ]
+        },
+        {
+          "id": "digital_3d_product",
+          "name": "产品渲染",
+          "presets": [
+            {
+              "id": "pia_futuristic-gaming-headset-render",
+              "name": "未来感游戏耳机渲染图",
+              "type": "prompt",
+              "prompt": "{argument name=\"product\" default=\"未来感游戏耳机\"} 悬浮在 {argument name=\"environment\" default=\"霓虹赛博竞技场\"} 中，RGB 光轨，全息特效，电影级游戏氛围，戏剧性对比光影，高端产品渲染，超写实材质，高端电竞广告，8K 分辨率。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/24257.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题大类＋正文子类证据：产品渲染",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "pia_loot-screenshot-upgrade",
+              "name": "产品3D高级",
+              "type": "prompt",
+              "prompt": "使用提供的参考图，将应用宣传截图升级为精致的高端产品样机，同时保留原有的整体布局、文字、手机边框、青绿色应用界面以及植物收藏 UI。放大并锐化手机画面，使其占据更多垂直画布空间；保持上方的标题 {argument name=\"headline text\" default=\"Loot with friends.\"} 以及上方的小标签 {argument name=\"section label\" default=\"SHARED COLLECTIONS\"}。将原本微小的扁平植物缩略图替换为逼真、大型且具有照片级质感的 3D/产品渲染植物，使其看起来像是置于手机屏幕内，并带有柔和的阴影和深度感。请严格使用 4 种植物：左侧为陶土盆中的龟背竹，中间为白色罗纹盆中的虎皮兰，右侧为白色盆中的圆叶条纹竹芋/椒草类植物，左下角前景处为水泥盆中的大型石莲花多肉植物。保留 UI 标题 {argument name=\"collection title\" default=\"House Plants\"}、关闭按钮、菜单按钮，以及 3 个胶囊状筛选器，标签分别为“Type Any”、“Light Any”和“Pot Any”。使整体图像更简洁、明亮、更具高级感，并确保排版清晰、阴影真实，背景采用米色/米白色；避免添加额外的 UI 元素、多余的植物、水印或无关文字。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/27838.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：3D / 产品",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "pia_pr-32498",
+              "name": "3D产品",
+              "type": "prompt",
+              "prompt": "3D floating skincare products, minimalist clean design, soft pastel colors, modern UI card layout, gentle lighting, soft shadows, premium cosmetic bottles and containers floating in air, clean background, contemporary aesthetic, high quality render -- ar16:9",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptsref",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/49370_out.png",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：3D / 产品",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "pia_pop-mart-hirono-toy-figure",
+              "name": "动物产品3D花园忧郁",
+              "type": "prompt",
+              "prompt": "请仅使用用户上传的 1 张真实人物照片作为唯一的身份参考，将该人物延展为 {argument name=\"style direction\" default=\"POP MART Hirono\"} 美学风格的潮流设计师玩具人偶，并输出一张高完成度的单体人偶产品场景图。严格保留真实人物的辨识度，包括脸型、五官比例、发型轮廓、年龄感、性别特征、肤色倾向、整体气质，以及原图中可识别的服装和配饰特征，确保最终的人偶能被清晰地识别为照片中的本人。整体风格必须明确倾向于 POP MART / Hirono 设计师玩具美学：安静、柔和、克制、带有一丝忧郁和沉思感，呈现出高端 Pop Mart 潮流玩具的质感，而非普通的可爱毛绒玩具。人偶应采用大头小身的比例，头部约为身体的 2.5 到 3 倍大，身体短小圆润，四肢简化，鞋袜略大，整体具有扎实的雕塑感和重量感。姿态应保持平静，略微前倾或低头，带有一定的情绪感，避免夸张的动作。面部必须保留原图特征，但要转化为 Hirono 的氛围：半睁或微垂的睡眼、较厚的涂装睫毛、小巧克制的微嘟嘴、极简的鼻子、圆润的脸型、淡淡的腮红或少量雀斑，表情呈现出些许迷茫、厌世或忧郁——严禁出现灿烂的笑容或闪亮的动漫眼。发型应保留原图轮廓，但需处理成实心、圆润、成束、具有切面感的纯手工雕塑结构，而非真实发丝，发色使用低饱和度的自然色，如 {argument name=\"hair color\" default=\"柔棕色、灰棕色或柔黑色\"}，并进行哑光处理。服装应保留原图的穿搭气质，但简化为厚实、圆润、玩具般的雕塑感色块，可略微超大，带有少量玩具质感的缝线、补丁或轻微的磨损细节，避免真实的织物纹理。原图中可识别的配饰（如咖啡杯、小包、花朵、冰棒、书籍或小玩偶）可以保留，但必须转化为比例略微夸张的哑光玩具配件。材质必须呈现高端哑光搪胶 / 哑光树脂 / 哑光陶瓷质感，带有轻微的手工雕塑痕迹和手绘纹理，避免光泽感、镜面高光、玻璃感、真实皮肤、真实毛发或可见的贴图纹理。场景应输出一张单体全身人偶产品图，而非网格图、系列展示、包装海报或盲盒全套。将人偶置于精致、立体、统一的微缩主题场景中，如同品牌潮流玩具的产品海报。场景可选自 {argument name=\"scene theme\" default=\"日常咖啡、花园角落、云端白日梦、安静书房、月下发呆或动物陪伴\"}，要求场景立体、精致、具有摄影感，且不过于复杂。灯光应使用柔和的漫反射产品摄影光，配合干净的高光、柔和的阴影和中性的曝光，使整体画面看起来像一张高端的 Pop Mart 新品宣传照。严格避免普通的 Q 版插画、2D 动漫感、韩漫风格、芭比娃娃感、写实 3D 毛绒感或复杂杂乱的背景。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/19453.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：3D / 产品",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            }
+          ]
+        },
+        {
+          "id": "digital_3d_architecture",
+          "name": "建筑室内",
+          "presets": [
+            {
+              "id": "pia_tw-30168",
+              "name": "人像3D立绘梦幻室内温柔",
+              "type": "prompt",
+              "prompt": "画面中是一位成年东方幻想系女性角色，躺在柔软的床铺上，头部轻轻陷在浅蓝色枕头中，镜头从上方微俯视拍摄，构图为上半身近景人像。人物位于画面中央，画面重点表现她精致的面容、鲜艳红发、柔和眼神、肩颈线条、锁骨线条与成熟丰腴的女性体态。整体氛围温柔、暧昧但克制，高级、细腻、梦幻。\n\n角色拥有精致柔和的东方幻想系五官，白皙通透的肌肤，肤质细腻柔滑，带有自然柔光与细腻高光。脸颊带淡淡红晕，眼睛为粉紫色瞳孔，眼神柔和、湿润、安静，带有轻微羞涩感。嘴唇自然微张，表情温柔、甜美、略带慵懒气质。一只手自然靠近唇边，手势轻柔，不做夸张挑逗动作。\n\n人物体态为成熟丰腴型，肩部圆润柔和，锁骨清晰但不夸张，胸部线条自然饱满，腰部有柔和收束感，整体呈现健康、柔软、圆润、优雅的女性美。身体比例自然协调，不夸张、不畸形，强调高级角色设计中的成熟魅力与柔美曲线。\n\n发型为高饱和鲜艳红色长发，头顶扎高马尾，马尾由深色发饰固定，刘海自然垂落，部分发丝轻轻遮住额头与脸侧。长发在枕头上自然铺散，发丝蓬松顺滑，层次丰富，边缘带有细腻高光，呈现高质量 3D CG 发丝质感。\n\n服装为黑色缎面质感的高级居家吊带睡裙 / 露肩家居连衣裙，设计简洁优雅，带有精致黑色蕾丝花边。服装贴合身体但不过度紧绷，布料柔软自然，呈现丝滑反光、轻微褶皱与真实织物质感。领口设计优雅克制，展现肩颈、锁骨与成熟曲线，整体更像高级角色立绘与精致居家时尚写真。\n\n背景为柔软床铺、浅蓝色枕头与简洁卧室环境，背景虚化，不加入复杂杂物。光影采用柔和室内光，冷蓝与暖白混合照明，突出皮肤的通透感、头发的光泽感与黑色缎面服装的高级质感。整体画",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/30168.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：3D / 室内",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "pia_puppy-robot-ice-cream",
+              "name": "狗3D像素温暖室内可爱",
+              "type": "prompt",
+              "prompt": "创建一个迷人的 3D 动画玩具风格客厅场景。一个可爱的拟人化小狗男孩，有着棕色和奶油色的毛发，坐在木制咖啡桌旁，身穿带有黑色条纹的亮黄色连帽衫，头戴反向佩戴的黄色棒球帽。他开心地笑着，手里拿着一勺香草冰淇淋；桌上放着一个白色的冰淇淋杯，杯上用蓝色字样标有“ICE CREAM”并配有一个小爪印图标；冰淇淋上淋着巧克力酱并撒着彩色糖针。在他旁边站着一只小型犬形伴侣机器人，有着垂耳、奶油色身体、棕褐色斑点、小爪子，以及一个圆角方形的 CRT 风格屏幕脸，显示着发光的绿色像素眼睛和微小的狗鼻子/嘴部表情。机器人双手合十，渴望地看着甜点，头顶上方有一个白色的气泡，里面正好包含 1 个与实物相同的冰淇淋杯。桌上需包含 3 个可见物品：冰淇淋杯、小狗手中的勺子，以及一个带有爪印的小型圆形浅蓝色杯垫或盖子。背景设定为温馨、柔和的家居室内：米色沙发配有绿色和黄色靠垫，左侧有透进日光的大窗户，沙发后方有发光的落地灯，右侧有书架，书架上摆放着书籍、植物、相框（包括一张可爱的狗肖像）以及一个编织植物篮。采用高质量的皮克斯风格 3D 渲染，柔和的景深，圆润的形状，毛绒玩具质感，温暖的金色光影，富有表现力的大眼睛，营造出治愈且俏皮的氛围。构图保持 16:9 横屏，平视视角，小狗在左，机器狗在右，无额外角色，无水印。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/28766.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：3D / 室内",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "pia_japanese-saas-onboarding-screen",
+              "name": "建筑品牌3D未来高级",
+              "type": "prompt",
+              "prompt": "目标：为名为 {argument name=\"brand name\" default=\"NOVALITH\"} 的虚构 B2B 数据平台创建一个精致的移动端入门/首屏页面，采用高级日式 SaaS 视觉风格。\n\n画布：竖屏智能手机截图，9:16 比例，白色背景，顶部 iOS 状态栏显示 9:41，包含信号、Wi-Fi 和电池图标。使用宽裕的边距和简洁的 App 广告排版。\n\n布局：将 NOVALITH 标志放置在左上角附近，包含几何青蓝色“N”图标和宽间距的深蓝色文字标识。在下方设置一个深蓝色的大号加粗日文标题：{argument name=\"headline text\" default=\"データを、未来の意思決定に変える。\"}。在标题下方，添加一段较小的两行日文描述：{argument name=\"body text\" default=\"開発・運用・データの複雑さを解消し、信頼できるデータ基盤で、事業の成長を加速させます。\"}。在左下方，展示 3 个带有细青色轮廓图标的功能简介：1) 堆叠图层图标，标题“統合された基盤”，描述“データとシステムを一元的に統合”；2) 盾牌勾选图标，标题“堅牢なガバナンス”，描述“セキュリティと品質を標準で確保”；3) 上升柱状图图标，标题“高速な意思決定”，描述“信頼できるデータで意思決定を加速”。\n\n主视觉：在右半部分，创建一个大型光泽 3D 智能手机卡片，略微向后倾斜，与半透明青蓝色建筑块以及后方巨大的多面 3D 字母 N 重叠。手机屏幕显示一个日文仪表盘 UI，包含 4 个仪表盘区域：1) 顶部指标卡片，显示“データパイプライン 128 +2.4%”和“データ品質スコア 98.6% +2.4%”；2) 管道状态行，带有三个连接的图标，分别标注“データソース 24”、“処理中 128”和“出力先 36”，并带有小状态点；3) 标题为“データ量の推移”的折线图，日期从 5/06 到 5/12；4) 标题为“データソース健全性”的环形图，显示“96% 健全”以及图例“健全 46”、“警告 3”、“エラー 1”。保持仪表盘文字精简且真实，对齐整齐。\n\n底部导航与操作：在按钮上方居中放置 3 个小型轮播点；第一个点为青色且处于激活状态，其余两个为浅灰色。底部添加 2 个圆角按钮：一个填充青色渐变的主按钮，标注 {argument name=\"primary button label\" default=\"はじめる\"} 并带有向右箭头图标；以及一个带有青色轮廓的白色次要按钮，标注 {argument name=\"secondary button label\" default=\"あとで始める\"}。\n\n视觉风格：未来感企业级数据分析，清晰的矢量 UI 结合柔和的 3D 玻璃拟态。调色板为白色、深海军蓝、青色、蓝绿色和水绿色渐变。在背景中添加细微的多边形网络线、微小节点、淡淡的圆点图案和轻盈的几何叠加层。使用柔和的阴影、整洁的日文字体、高对比度，营造高级的 App Store 营销感。避免杂乱，避免多余的按钮，避免多余的功能项，且不要添加水印。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/20104.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：3D / 建筑",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "pia_-3d-",
+              "name": "建筑3D城市",
+              "type": "prompt",
+              "prompt": "一个高度精细的等轴测 3D 微缩城市模型地图，展示了 {argument name=\"city name\" default=\"重庆\"}，将中国传统建筑与现代摩天大楼融为一体，背景为复古羊皮纸地图。场景中有一条蜿蜒的河流，一座现代桥梁连接着密集的摩天大楼半岛与散发着暖光的古老多层传统建筑。一列单轨列车沿着水边的轨道弯曲行驶。主要地标用带有汉字的垂直旗帜标注，例如“洪崖洞”和“解放碑”。左上角显示醒目的书法字“{argument name=\"main title\" default=\"重庆\"}”，下方为英文文本“{argument name=\"english subtitle\" default=\"CHONGQING\"}”以及较小的中文文本“山城雾都·江城重庆”和一枚红色印章。光影温暖且具有电影质感，突显了微缩建筑、树木和水面的复杂纹理，营造出移轴摄影的效果。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/14256.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：3D / 建筑",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "pia_cross-section-cutaway-3d-render",
+              "name": "剖面透视图渲染",
+              "type": "prompt",
+              "prompt": "一个 {argument name=\"mood\" default=\"氛围\"} {argument name=\"style\" default=\"3D 渲染 / 插画\"}，展示了 {argument name=\"subject\" default=\"主体\"} 的详细剖面透视图，揭示了其 {argument name=\"interior details\" default=\"内部结构 / 机械系统 / 隐藏世界\"}，并采用 {argument name=\"colors\" default=\"配色方案\"} 的色调。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/22850.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题大类＋正文子类证据：interior",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "pia_milan-typographic-travel-poster",
+              "name": "建筑3D写实城市森林优雅",
+              "type": "prompt",
+              "prompt": "目标：为 {argument name=\"city name\" default=\"MILAN\"} 创作一张高端奢华旅行海报，核心在于纪念碑式的 3D 字体设计，每个字母均为受米兰著名地标启发的写实建筑雕塑。\n\n画布：3:2 横向比例，编辑类目的地广告构图，明亮通透的日光，淡蓝色天空伴有柔和云朵，底部为暖米色石质广场，呈现出精致奢华杂志质感的超写实建筑渲染效果。\n\n主要布局：将 {argument name=\"main word\" default=\"MILAN\"} 置于海报下方三分之二处的中心位置，作为五个巨大的独立字母排列在干净的地平线上。每个字母必须是不同建筑地标的形态，细节丰富、写实且具有雕塑感：\n1. M：受米兰大教堂（Duomo di Milano）启发的哥特式白色大理石建筑，带有高耸的尖塔、小尖顶、尖拱、玫瑰窗、扶壁、雕像和金色十字架。\n2. I：受埃马努埃莱二世拱廊街（Galleria Vittorio Emanuele II）启发的优雅玻璃石材拱廊塔，带有巨大的拱形玻璃立面、华丽的古典圆柱，底部可见拱形通道。\n3. L：受斯福尔扎城堡（Castello Sforzesco）启发的红砖中世纪塔楼和城堡体块，带有钟楼、雉堞、拱形入口、石质装饰和浮雕面板。\n4. A：受垂直森林（Bosco Verticale）启发的现代绿色住宅建筑，呈大写字母 A 形，带有露台、混凝土梁、茂密的树木、灌木和种植阳台。\n5. N：受米兰商业区建筑启发的现代玻璃摩天大楼形态，包括一座高大的圆柱形反射塔和一座倾斜的对角线玻璃钢结构建筑。\n\n顶部信息栏：添加一个纤细优雅的目的地系列标题，使用小号间距的大写字母。左侧文字为“SERIE DESTINOS”，配有细横线和一个小圆点。右侧文字为“CIUDAD / 01”，配有相应的细横线。顶部中央包含六个浅灰色的小型地标线条图标，图标下方配有细垂直分隔符和全大写说明文字。六个说明文字分别为：“DUOMO DI MILANO”、“GALLERIA VITTORIO EMANUELE II”、“CASTELLO SFORZESCO”、“BOSCO VERTICALE”、“TEATRO ALLA SCALA”、“ARCO DELLA PACE”。\n\n底部栏：添加一个精致的米色页脚条，带有细线条和小号编辑文字。左侧微型文案为“ELEGANCIA QUE INSPIRA. HISTORIA QUE ACOGE. DISEÑO QUE LIDERA.”。中央标题为“VISITA MILAN”，使用宽间距大写字母，两侧配有细横线和小圆点。右侧包含坐标“45.4642° N, 9.1900° E”和期号“N.º 01-MMXXV”。\n\n视觉风格：照片级写实的 3D 建筑字体，高端旅行编辑风格，写实的石材、砖块、玻璃、金属、绿植，精准的阴影，高分辨率细节，平衡的对称感，柔和的电影级日光，微妙的大气雾感，极简构图，精致的米灰蓝配色。\n\n约束条件：使用五个主要地标字母和六个顶部地标图标。保持海报简洁奢华。画面中不得出现人物、车辆、多余地标、水印或底部黑色署名栏。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/20393.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：3D / 建筑",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "pia_antique-bedroom-morning-portrait",
+              "name": "人像胶片3D室内清晨优雅",
+              "type": "prompt",
+              "prompt": "主题：绿荫下的清晨\n\n主体：2:3 纵向室内肖像。一位 {argument name=\"gender\" default=\"成年女性\"} 倚靠在 {argument name=\"bedroom style\" default=\"复古风格卧室\"} 中床铺的左中位置，周围环绕着植物。人物占据画面约 70%，头部略高于中心，双腿向右下方延伸。\n\n人物/表情：一位气质自然平静的成年女性。{argument name=\"hair color\" default=\"浅棕色\"} 中长发低位松散扎起，留有轻薄的空气刘海和脸颊两侧的碎发。淡淡的珊瑚色腮红，精致的棕色眼妆，自然光泽的玫瑰米色嘴唇。脸部向画面左上方倾斜，双眼注视着窗外的光线。嘴唇微张，表情宁静，仿佛正在安静地呼吸。\n\n服装/姿势：象牙白蕾丝吊带和带有配套精致荷叶边的短裤。胸部采用优雅的 3D 剪裁，躯干装饰着透明刺绣蕾丝。左手置于身后床铺上以支撑上半身。右臂向右下方斜向伸展，右手手指轻轻触碰弯曲的脚尖。一条腿深深弯曲并交叉在身前，另一条腿从床沿向右下方延伸。脊椎微微拱起，肩部和锁骨自然舒展。\n\n背景/光线：带有旧木框的大窗户，米白色蕾丝窗帘，花卉图案床品，白色荷叶边枕头，以及玻璃花瓶中的淡粉色花朵。从窗边到床头错落有致地摆放着各种大小的观叶植物，通过前景、中景和背景的叶片层次营造出深度感。强烈的清晨自然光从窗户左上方射入，在肩膀、胸部、大腿和小腿上投下带有叶影的光斑。右侧有绿色的反射光，地板上有一片温暖的阳光。背景花园呈现出圆形的虚化效果。\n\n构图/相机：接近全身的三分之二身位拍摄。相机位于视平线高度，大致与床齐平，相当于 50mm 镜头。人物位于中心偏左，为右侧的植物和延伸的腿部留出空间。顶部有大面积的窗户和绿植留白，前景下方有模糊的铁艺床架。焦点对准面部和上半身，由于浅景深，背景呈现柔和的虚化效果。\n\n质感/风格：利用自然光的日系肖像摄影。保留白皙皮肤的细腻纹理，避免过度磨皮。以象牙白、淡粉色、深绿色和木框棕色为基调，低对比度，柔和的高光。细致描绘蕾丝、植物叶片和花卉织物的质感，增加少量胶片颗粒感和细腻的光晕效果。\n\n负面提示词：未成年人形象、不自然的面部、不自然的眼神、多余的手指、缺失的手指、肢体融合、关节断裂、脚趾畸形、手脚接触不良、重力感不自然、透视错误、阴影与光源不一致、过度曝光、文字、Logo、水印、过度磨皮、塑料感皮肤。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/29200.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：3D / 室内",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "pia_new-york-archive-diorama",
+              "name": "建筑3DLogo夜景城市优雅",
+              "type": "prompt",
+              "prompt": "目标：创建一个高度精细的物理博物馆立体模型风格的城市档案地图，主题为 {argument name=\"city name\" default=\"New York City\"} 的夜景，标题为“景观档案模型 / 夜间城市档案”。图像应呈现为一张经过摄影的、手工制作的建筑档案项目：底座为平面印刷地图，上方浮现出 3D 微缩城市模型，由微小的暖色建筑灯光和冷色调海军蓝环境光照亮。\n\n画布：宽屏 16:9 风景摄影，四分之三俯视视角，整个矩形档案项目完整呈现在深色桌面上。使用深海军蓝、炭灰、黄铜和暖琥珀色调。项目带有厚实的深色边框、细腻的纸张纹理、斜切边缘、投影效果以及博物馆模型般的真实质感。\n\n布局：将曼哈顿的 3D 微缩模型置于中心，周围环绕着平面的雕刻地图区域和水道。河流应呈现为深光泽蓝色，带有细微的反射。背景地图包含精细的街道网格、坐标线、经纬度风格的引导标记以及档案边框编号。添加精确的顶部和侧面网格系统，顶部和底部标有字母，左右边缘标有数字。包含连接标签与地标的细黄铜注释线。\n\n主体细节：将曼哈顿展示为密集且隆起的微缩建筑群，窗户散发着光芒。帝国大厦（Empire State Building）应在中心附近高耸，塔尖灯光璀璨。在曼哈顿左下区域包含世界贸易中心一号大楼（One World Trade Center），中城右侧为克莱斯勒大厦（Chrysler Building），时代广场（Times Square）作为发光的中心区域，中央公园（Central Park）表现为曼哈顿上城的一块深色矩形绿黑色空地，布鲁克林大桥（Brooklyn Bridge）横跨东河（East River）通往布鲁克林。周围行政区和区域标签应平铺在地图上。\n\n文本内容与标签：使用优雅的米白色和黄铜色大写档案字体。包含 18 个可见的标签/注释元素：1) 主标题“NEW YORK CITY”，2) 副标题“NOCTURNAL URBAN ARCHIVE”，3) 档案 ID “NYC-NAM-2024-001”，4) 顶部微型标签“LANDSCAPE ARCHIVE MODEL”，5) “EAST RIVER CORRIDOR STUDY / EDITION 01”，6) “EMPIRE STATE BUILDING / 1,454 ft / 443 m”，7) “TIMES SQUARE / THEATER DISTRICT”，8) “ONE WORLD TRADE CENTER / 1,776 ft / 541 m”，9) “CENTRAL PARK”，10) “CHRYSLER BUILDING / 1,046 ft / 319 m”，11) “BROOKLYN BRIDGE / 1,595 ft / 486 m”，12) “NEW JERSEY / HUDSON COUNTY”，13) “HUDSON RIVER”，14) “EAST RIVER”，15) “QUEENS / LONG ISLAND CITY”，16) “BROOKLYN / DOWNTOWN BROOKLYN”，17) “LEGEND”，以及 18) “ARCHIVE NOTES”。\n\n嵌入面板：在项目上集成 4 个方框信息面板：左上角的标题面板、左下角的图例面板、左下方的比例尺和指北针面板，以及右下角的档案备注/模型代码面板。图例面板应包含 6 个线条/图标条目：主干道、次干道、铁路线、水体、公园/绿地以及主要地标/建筑占地。右下角的档案面板应包含模型代码“NYC-NAM-2024-001”、模型编号“001”和页码“01 / 01”。\n\n灯光与材质风格：夜间编辑摄影风格，暖琥珀色城市灯光，冷蓝色阴影，清晰的微缩细节，逼真的景深，轻微的暗角，哑光印刷纸张纹理，金属墨水线条，树脂/木质浮雕模型建筑，微小的发光窗户，以及逼真的投影。整体效果应如同在博物馆工作室中拍摄的制作级建筑档案模型。\n\n约束条件：保持设计克制、精确且高端。不要添加人物、车辆、Logo、水印或现代 UI 元素。保持一致的档案地图语言，使所有文本看起来像是印刷在项目上的，避免幻想或科幻风格。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/20069.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：3D / 建筑",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "pia_3d-cg-home-sweet-selfie",
+              "name": "女性3D温暖室内可爱",
+              "type": "prompt",
+              "prompt": "一位成年甜美女性角色，高精度 3D CG 渲染风格，9:16 竖构图。角色侧卧在浅米色软沙发上，采用俯视视角，略带倾斜角度，营造出亲密、自然且放松的居家氛围。身体呈对角线分布于画面中，头部位于下方，双腿自然抬起并微微弯曲于上方，姿态慵懒可爱。她正静静地注视着镜头，眼神明亮柔和，表情略带羞涩与甜美。精致的东方人面部特征，皮肤白皙通透，质感细腻，透着自然的红润光泽。琥珀色双眸，深棕色短发散落在沙发上。服装：浅蓝白条纹短款背心、粉色运动短裤以及一件宽松的粉色拉链外套。场景：明亮温暖的室内角落，背景为米色皮质或布艺沙发及绿植。柔和光线，带有侧面高光。风格：高质量 3D CG 角色渲染，精细建模，PBR 材质，细腻的皮肤着色，SSS 次表面散射，以及电影级柔光效果。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/20045.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：3D / 室内",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            }
+          ]
+        },
+        {
+          "id": "digital_3d_diorama",
+          "name": "微缩等距",
+          "presets": [
+            {
+              "id": "pia_isometric-science-concept-diorama-grid",
+              "name": "建筑3D等距未来宇宙高级",
+              "type": "prompt",
+              "prompt": "在柔和的浅色背景上呈现一个整洁的 2x2 概念实体模型信息图，展示四个独立的悬浮等距视角立体模型板块，以精美的 3D 插画风格体现 {argument name=\"theme\" default=\"科学\"} 的分支，采用柔和的渐变色、光泽材质、柔和的环境光、细腻的阴影、圆润的未来感造型以及高细节表现。左上角：生物学（BIOLOGY），一个郁郁葱葱的生物实验室岛屿，中心矗立着巨大的 DNA 双螺旋塔，配有弧形玻璃温室建筑、螺旋楼梯、层叠的有机路径、绿植、花坛和流体仿生结构；平台前缘整合了“BIOLOGY”字样。该板块周围环绕 4 个小型生物相关图标：显微镜、DNA 符号、发芽的植物以及圆形细胞或培养皿符号。右上角：物理学（PHYSICS），一个冷色调的高科技能源实验室板块，中心设有发光平台、圆形加速器环、类铜电磁线圈、通往核心的楼梯、带有波形图的显示屏，以及标有“PHYSICS”的未来工业底座；添加 4 个周围的物理主题图标：原子、马蹄形磁铁、闪电和折线波形图。左下角：化学（CHEMISTRY），一个由球棍晶格框架、实验室立柱、烧杯、烧瓶和发光晶体核心构成的紫色与银色模块化分子研究结构；平台两侧显著标有“CHEMISTRY”。该板块周围环绕 4 个化学相关图标：两个分子结构图、一对实验室试管或烧瓶，以及一个小燃烧器。右下角：天文学（ASTRONOMY），一个岩石质感的月球观测岛，拥有陨石坑地形、圆顶天文台、望远镜、刻在岩石上的楼梯，以及背后圆形的宇宙星空背景；前缘标有“ASTRONOMY”。该板块周围环绕 4 个天文主题图标：带环行星、闪烁的星星、小火箭和新月。保持 4 个板块在象限布局中均匀分布，每个板块都有各自柔和的几何背景形状，根据学科调整统一的柔和色调，并采用高级的 gpt-image-2 风格，使每个概念都如同一个可收藏的微型世界。画面中不包含人物，除四个学科标签外无额外文字。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/16596.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：3D / 等距",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "pia_3d-isometric-city-weather",
+              "name": "3D 等轴测微缩城市天气地图",
+              "type": "prompt",
+              "prompt": "等轴测 3D 卡通 / PBR 材质 / 天气集成 / 微缩城市 / 俯视 45° / {argument name=\"city name\" default=\"London\"} / {argument name=\"weather\" default=\"Snow\"}",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/17565.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：3D / 微缩",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "pia_isometric-evolution-room-timeline",
+              "name": "等距视角房间历史时间轴",
+              "type": "prompt",
+              "prompt": "2x2 网格，16:9，AI 推理：一个单间房间（例如 {argument name=\"room type\" default=\"书房或厨房\"}）的等距剖面图，分为四个无缝象限。左下象限陈设着最早期的 {argument name=\"theme\" default=\"[THEME]\"} 物体，左上为中期，右上为后期，右下为最现代的时期。房间架构有细微演变但保持一致；物体体现时间变迁 ::5 时间逻辑：AI_INFER 在四个时间象限中分布 25–30 个物体，每个区域在历史上保持一致。象限按顺时针方向流动，如同时间循环 ::5 构图：等距视角（无透视畸变），象限过渡无缝，无杂乱，物体整齐排列在表面上 ::3 材质物理：真实材质，符合时代的陈旧感，柔和阴影，无发光物体 ::2 照明：所有区域光照均匀，无夸张阴影 ::2 排版：每个象限的地板上巧妙地放置小字体的年份范围 ::2 渲染堆栈：等距时间房间，演变立体模型，室内时间轴，8k ::1 负面提示词：[透视，破碎的房间几何结构，象限间时代错误混搭，挖掘，苔藓，生物发光] ::-1",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/27629.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：等距视角 / 等距",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "pia_isometric-businesswoman-poses",
+              "name": "女性等距3D",
+              "type": "prompt",
+              "prompt": "目标：创建一套包含 14 个一致的等距视角商务女性姿势的简洁角色素材表，涵盖多种演示和工作场景，适合作为可重复使用的插图资源集。\n\n画布：宽幅横向 16:9 白色或极浅灰色背景，留有充足的负空间，无边框、无标题、无标签、无水印。\n\n主体细节：在所有姿势中展示同一位成年女性，留着 {argument name=\"hair color\" default=\"中棕色\"} 的马尾辫，面部特征简化或无面部，浅肤色，身材苗条专业，身穿黑色无袖上衣、黑色高腰阔腿裤、黑色平底鞋，佩戴细腰带和精致项链。采用现代扁平化 3D 等距插图风格，每个角色下方带有柔和的阴影。\n\n布局：在画布上整齐排列 14 个独立的全身角色插图，分为两行，每行 7 个，间距均匀。每个角色应有其独立的柔和椭圆形灰色地面阴影，且互不重叠。\n\n姿势数量与动作：包含以下 14 个明确的姿势：1) 站立并双手举起，做出讲解姿势；2) 站立并手持查看小型平板电脑；3) 站立，一手插兜并指向侧面；4) 站立并举起一块灰色布料或样品；5) 向前行走，携带纤薄文件夹或笔记本；6) 慢跑或匆忙赶路时查看智能手机；7) 站立并单手演示，同时手持剪贴板或平板电脑；8) 侧身演示姿势，单臂伸展；9) 站立并单手抬起，做出停止或问候手势；10) 正面站立，单手靠近面部；11) 站立，双臂交叉，表现自信；12) 跪姿，用相机拍照；13) 跪姿，放置或检查一个灰色小方盒；14) 微弯腰，用触控笔在平板电脑上书写，同时手持对讲机或手持无线电靠近面部。\n\n视觉风格：柔和的等距矢量风格 3D，比例写实但经过简化，所有姿势中的角色设计保持一致，暖色调皮肤，哑光黑色服装，细腻的高光与阴影，简洁的商务演示美学。\n\n约束条件：确保所有 14 个角色形象一致，严格保持双排网格布局，避免出现文字，除列出的物品外避免添加额外道具，避免背景装饰，并保持整体外观精致、极简且符合演示需求。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/22628.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：3D / 等距",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            }
+          ]
+        },
+        {
+          "id": "digital_3d_abstract",
+          "name": "抽象装置",
+          "presets": [
+            {
+              "id": "pia_3d-abstract-data-pipeline-visualization",
+              "name": "3D 抽象数据流水线可视化",
+              "type": "prompt",
+              "prompt": "一个简洁、极简主义的 3D 渲染图，可视化了 {argument name=\"concept\" default=\"神经网络数据处理流水线\"}。在左侧，一根带有发光 {argument name=\"accent color\" default=\"蓝色\"} 尖端的白色线缆分叉成多条细长、呈弧形的白色线束。这些线束汇入一个由 10 块透明玻璃状矩形面板组成的线性序列，这些面板垂直立于 {argument name=\"environment\" default=\"无菌白色阶梯表面\"} 上。每块玻璃面板都使用白色和 {argument name=\"accent color\" default=\"蓝色\"} 的几何图案展示了不同的转换阶段。从左到右，面板依次呈现：浮动的短横线、3x3 同心圆网格、密集的点阵、分散的白色像素块、水平虚线、精细的网格，以及最后的 3D 立方体结构。光线明亮、柔和且高调，营造出一种纯净的企业科技美感，浅景深效果使最远处的面板呈现出柔和的模糊感。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/13605.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：3D / 抽象",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            }
+          ]
+        },
+        {
+          "id": "digital_3d_pending",
+          "name": "待细分",
+          "presets": [
+            {
+              "id": "pia_urban-mixed-media-collage-style",
+              "name": "女性写实3D霓虹城市",
+              "type": "prompt",
+              "prompt": "混合媒介拼贴动画风格，一位时髦的年轻女性自信地走向镜头，写实的脸部和皮肤，齐肩柔和波浪状的 {argument name=\"hair color\" default=\"赤褐色\"} 头发，轮廓分明的自然眉毛，杏仁眼，精致的女性特征，精致的金色圆环耳环，穿着一件干净的白色 {argument name=\"clothing\" default=\"T 恤\"}，轮廓由发光的 2D 霓虹绿和亮粉色涂鸦线条勾勒，{argument name=\"location\" default=\"纽约\"} 背景，具有辨识度的城市活力，摩天大楼，街道元素，消防梯，分层的城市深度，空中漂浮的 3D 铬合金流体形状，脏旧边缘，酸性图形美学，动态鱼眼镜头视角，鲜艳饱满的色彩，高对比度，超细节，时尚编辑拼贴感，定格动画感，大胆的现代构图 --ar 4:5 --raw --profile glu65pn --stylize 60 --weird 4 --hd",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/26772.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "pia_girl-bursting-phone-screen",
+              "name": "少女3D头像梦幻温暖优雅",
+              "type": "prompt",
+              "prompt": "创作一个竖屏电影级 3D 奇幻场景，画面中一位时尚少女正从一个显示着“小红书”风格社交媒体帖子的透明玻璃智能手机屏幕中破屏而出。手机呈竖直放置，透视略微倾斜，带有黑色圆角金属边框、玻璃反光、灵动岛刘海、时间 18:38、信号/Wi‑Fi/电池图标、返回箭头、圆形头像、账户名称 {argument name=\"account name\" default=\"小夏穿搭日记\"}、红色边框的关注按钮 {argument name=\"follow button text\" default=\"关注\"} 以及分享图标。帖子顶部的文案显示为 {argument name=\"post caption\" default=\"今日份温柔穿搭✨\\n出门捕捉夕阳啦～\"}。在帖子图片内，展示 {argument name=\"character description\" default=\"一位美丽、甜美、时尚的年轻女孩，留着棕色长卷发，拥有明亮的大眼睛、精致的淡妆和优雅温柔的气质\"} 正迈步穿过破碎的玻璃进入现实世界。她的姿势必须极具动感：一条腿以夸张的 3D 透视效果向观众方向大幅延伸，运动鞋鞋底显得非常大且最靠近镜头；另一条腿留在手机画面内，双臂自然张开以保持平衡。服装：米色轻薄外套、浅粉色罗纹上衣、蓝色牛仔裙、白色短袜、白色运动鞋，搭配精致的项链和耳环。手机屏幕在她身体周围破碎，可见放射状裂纹和飞溅的透明玻璃碎片。手机周围环绕着粉色纸屑、闪烁的粒子、微小的爱心、发光的尘埃、镜头光晕和梦幻的虚化效果。底部的社交栏必须准确显示 3 个互动项：心形图标配 2.3万，星形图标配 1.1万，评论气泡图标配 856。采用温暖的夕阳灯光，色调为桃粉金色，背景呈现梦幻柔焦，具备高细节的质感反光、景深效果、戏剧性的低角度镜头，采用超写实 3D 插画风格，融合精致的动漫人偶面部魅力，无水印，除社交媒体 UI 外无任何额外文字。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/28157.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：anime_manga",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "anime_manga": [
+                    "动漫",
+                    "character"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "pia_pixar-rooftop-workers",
+              "name": "男性3DLogo城市黄昏",
+              "type": "prompt",
+              "prompt": "创作一张 16:9 宽屏的皮克斯风格 3D 动画电影剧照，场景设定在黄昏时分的老旧城市天台，背景是灯火辉煌的城市天际线。画面中心前景站着两名比例友好的风格化建筑或维修工人：左侧是一名年轻男性，留着 {argument name=\"male hair color\" default=\"凌乱的棕色短发\"}，身穿奶油色卷袖工装衬衫、棕褐色工装裤和棕色工装靴，系着腰带，左手提着一个皮革工具包；右侧是一名年轻女性，留着 {argument name=\"female hair color\" default=\"赤褐色长发\"}，身穿浅蓝色牛仔工装衬衫、修身蓝色卷边牛仔裤和棕色工装靴，系着工具腰带，胸前斜抱着一张巨大的卷起蓝图。让他们靠近站立，仿佛正在讨论天台翻新事宜，面向观众，身体语言放松且自信。天台应包含 5 组标志性道具：左侧一面带有通风口和管道的风化混凝土墙，墙边有两盆盆栽，后方有一道矮砖护墙，右侧建筑上有一个天台水塔，最右侧有一盆阔叶大盆栽。添加潮湿的反射斑点、散落的小碎片、通风口、管道和温暖的窗户灯光。天际线应呈现出一种受纽约启发、充满奇幻色彩的大都市感，拥有装饰艺术风格的摩天大楼、天线和柔和的窗户灯光。采用高质量的皮克斯风格 3D 渲染，角色造型圆润柔和，具有电影级的景深效果、温暖的轮廓光、青蓝色的夜空、细腻的体积雾、光亮的积水倒影，以及精致的家庭动画质感。无文字，无 Logo，无水印。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/20373.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；子类冲突：digital_3d_character, digital_3d_architecture",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "digital_3d": [
+                    "3D",
+                    "反射"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "pia_japanese-lolita-street-style-selfie",
+              "name": "人像写实3D户外街头可爱",
+              "type": "prompt",
+              "prompt": "仅将上传的肖像作为身份参考。保留主体真实的脸型、发型、发色、肤色和自然的骨骼结构。请勿复制原图中的服装、背景、光影或 {argument name=\"pose\" default=\"姿势\"}。\n\n创作一张写实的 3:4 竖版户外照片，呈现柔和的日系 Lolita 街头风格。主体呈侧脸，站在一面有质感的旧混凝土砖墙前，举起手机，呈现出镜面自拍的效果。她身穿 {argument name=\"top\" default=\"白色蕾丝衬衫\"} 和 {argument name=\"skirt\" default=\"红色格纹 Lolita 半身裙\"}，带有柔和的荷叶边，手臂下夹着一个 {argument name=\"accessory\" default=\"米色泰迪熊\"}。温暖的自然阳光洒在头发和肩膀上，营造出柔和的逆光效果。在主体周围添加可爱的白色手绘涂鸦：爱心、花朵、轮廓线条以及简短的英文手写笔记。\n\n文字叠加应采用干净的白色手写风格：\n“Today’s Lolita Fit Check”\n“Even Teddy Wants Some Sun~”\n“The Light on the Wall Feels So Soft”\n真实的皮肤质感、自然的身体比例、柔和的阳光、真实的相机拍摄感，拒绝塑料感皮肤，拒绝动漫风格，无水印，无 Logo\n\n负面提示词：\n动漫，卡通，3D 玩偶，塑料感皮肤，假脸，过度磨皮，手部畸形，多指，人体结构错误，脸部模糊，低质量，乱码文字，不可读文字，水印，Logo，中文字符，日文字符",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/22542.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "pia_find-ruhia-shibuya",
+              "name": "角色3D等距城市温暖可爱",
+              "type": "prompt",
+              "prompt": "{\"type\":\"高度精细的等距 3D 找茬城市场景\",\"title_text\":\"{argument name=\\\"headline text\\\" default=\\\"寻找 Ruhia！\\\"}\",\"setting\":\"东京涩谷黄金周特别场景，阳光明媚，采用类似微缩模型的超高视角广角镜头，背景为蓝天下的东京塔和摩天大楼\",\"main_goal\":\"创作一张“寻找角色”的解谜图片，让观众在密集的 Q 版人群中寻找 Ruhia\",\"style\":\"GPT-image-2 风格，超精细玩具质感 3D 渲染，动漫 Q 版人物，清晰的日光，浅景深微缩效果，鲜艳的商业色彩，密集的城市标牌，俏皮的旅行海报氛围\",\"layout\":{\"camera\":\"高角度广角镜头，俯瞰挤满 Q 版行人的著名涩谷风格十字路口\",\"foreground\":\"斑马线、小型汽车和巴士、树木、路灯、商店入口、成群的 Q 版动漫人物\",\"midground\":\"中央是巨大的 QFRONT 大楼，带有 TSUTAYA 和 STARBUCKS COFFEE 标志，周围环绕着许多垂直的日文招牌和广告牌\",\"background\":\"左侧为涩谷 109 大楼，后方是红色的东京塔，现代办公楼和商业建筑填满了天际线\",\"top_right_overlay\":\"一个带有细红色装饰边框的白色矩形标牌，上面有醒目的黑色日文标题文字和一个黄色小黄鸭图标\"},\"counted_elements\":{\"rubber_ducks\":{\"count\":2,\"items\":[\"一只黄色小黄鸭坐在左上角的 SHIBUYA 109 大楼屋顶上\",\"右上角标题牌内有一个黄色小黄鸭图标\"]},\"major_brand_or_landmark_signs\":{\"count\":17,\"items\":[\"SHIBUYA 109\",\"UNIQLO\",\"H&M\",\"IKEA\",\"QFRONT\",\"STARBUCKS COFFEE\",\"TSUTAYA\",\"Hisamitsu\",\"サロンパス\",\"DHC\",\"109MEN'S\",\"DMM TV\",\"格力高跑男广告牌\",\"竹下通拱门\",\"东京塔\",\"もも原宿广告牌\",\"アイ♡ライブ广告牌\"]},\"headline_placards\":{\"count\":1,\"items\":[\"右上角带边框的标牌，文字为 {argument name=\\\"headline text\\\" default=\\\"寻找 Ruhia！\\\"}，旁边有一只鸭子\"]}},\"characters\":{\"crowd\":\"数百名小巧的动漫 Q 版行人，肩并肩挤在街道和人行道上，拥有各种发色、服装、动物耳朵配饰、小包和偶像风格的服饰\",\"hidden_target\":\"{argument name=\\\"hidden character\\\" default=\\\"Ruhia\\\"} 应伪装在人群中的某个位置，作为搜索游戏的目标\",\"character_style\":\"可爱的圆润 Q 版比例，大头，亮晶晶的眼睛，小巧的身体，玩具手办质感\"},\"signage_and_details\":\"建筑物上布满了色彩缤纷的日文街道招牌、偶像海报、咖啡馆招牌、卡拉 OK 招牌、扭蛋风格装饰、屋顶空调、阳台、窗户和微缩城市杂物；在左下中心处加入一个竹下通风格的装饰拱门，带有可爱的吉祥物装饰\",\"color_palette\":\"晴朗的蓝天、温暖的阳光、饱和的红色、蓝色、黄色、粉色偶像广告牌、灰色混凝土建筑以及五彩缤纷的人群点缀\",\"render_quality\":\"极其密集的细节，清晰可辨的中央标志，逼真的微缩阴影，异想天开但可信的涩谷旅行场景，没有留白区域\"}",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/17952.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：commercial, anime_manga",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "commercial": [
+                    "海报",
+                    "headline",
+                    "广告",
+                    "layout"
+                  ],
+                  "anime_manga": [
+                    "动漫",
+                    "角色"
+                  ],
+                  "digital_3d": [
+                    "3D",
+                    "模型"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "pia_frog-fighter-pilot",
+              "name": "动物3D未来可爱",
+              "type": "prompt",
+              "prompt": "创作一张 16:9 的宽屏电影级静态图像，画面中心是一只可爱的拟人化 {argument name=\"animal pilot\" default=\"绿色青蛙\"}，正坐在未来派喷气式战斗机的座舱内，视角为从座舱罩外正前方拍摄。该角色拥有光滑的绿色皮肤、巨大且富有表现力的眼睛、带着一丝温和微笑并露出一点点舌尖，头戴一顶 {argument name=\"pilot hat color\" default=\"蓝色\"} 棒球帽（帽上有小徽章），系着同色系的蓝色围巾，身穿浅灰色飞行服，配有肩部安全带，其中一只眼睛上佩戴着小型高科技单片眼镜或瞄准装置。座舱由棱角分明的深色金属面板、操纵杆、仪表盘以及闪烁的红、黄、绿控制灯组成，三角形的座舱罩支柱对称地勾勒出角色的面部。座舱外是模糊的紫蓝色机翼和带有柔和云朵的明亮蓝天，营造出高速飞行的氛围。采用合家欢 3D 动画电影风格，精致的 CGI 效果，迷人的角色设计，逼真的座舱细节，浅景深，充满活力的日光，高对比度，光泽高光，居中构图，黑色电影级遮幅黑边，呈现出充满冒险感的科幻氛围。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/18698.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：photography",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "photography": [
+                    "拍摄",
+                    "景深"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "pia_neumorphic-mobile-dashboard-ui",
+              "name": "新拟态移动端仪表盘 UI",
+              "type": "prompt",
+              "prompt": "{\"type\":\"新拟态移动端仪表盘 UI 展示\",\"style\":{\"theme\":\"简洁柔和的新拟态\",\"background\":\"浅暖灰色\",\"primary color\":\"深青色\",\"accent color\":\"橙色\",\"material\":\"哑光白色塑料卡片，带有细腻的内外阴影、圆角及柔和高光\",\"rendering\":\"高分辨率精美 3D UI 原型，正视图，居中构图\"},\"device\":{\"kind\":\"智能手机屏幕原型\",\"frame\":\"纤薄白色圆角边框\",\"status bar\":{\"count\":5,\"items\":[\"左上角汉堡菜单按钮\",\"顶部中央扬声器槽\",\"小型前置摄像头点\",\"右上角无线信号图标\",\"100% 电量指示器\"]}},\"layout\":{\"sections\":[{\"title\":\"时钟卡片\",\"position\":\"左上\",\"count\":4,\"labels\":[\"上午\",\"10:24\",\"5 月 24 日，星期五\",\"3 个页面指示点\"]},{\"title\":\"天气卡片\",\"position\":\"右上\",\"count\":4,\"labels\":[\"多云 3D 太阳与云朵图标\",\"24°\",\"局部多云\",\"纽约\"]},{\"title\":\"快捷按钮行\",\"position\":\"中上左\",\"count\":4,\"labels\":[\"网格/应用\",\"心形/收藏\",\"铃铛/通知\",\"设置\"]},{\"title\":\"湿度滑块\",\"position\":\"中上右\",\"count\":3,\"labels\":[\"水滴图标块\",\"40%\",\"水平进度条\"]},{\"title\":\"音量旋钮模块\",\"position\":\"中左\",\"count\":5,\"labels\":[\"大型圆形旋钮\",\"周围刻度\",\"橙色指示缺口\",\"左侧扬声器图标\",\"VOLUME 胶囊标签及右侧扬声器图标\"]},{\"title\":\"音乐播放器卡片\",\"position\":\"中右\",\"count\":8,\"labels\":[\"专辑封面\",\"Ocean Drive\",\"Miami Nights\",\"三点菜单\",\"1:45\",\"3:48\",\"橙色进度条\",\"上一曲/播放/下一曲控制\"]},{\"title\":\"音频控制行\",\"position\":\"音乐播放器下方\",\"count\":3,\"labels\":[\"均衡器/波形图标按钮\",\"广播/播客图标按钮\",\"滑块/设置图标按钮\"]},{\"title\":\"指南针卡片\",\"position\":\"左下\",\"count\":5,\"labels\":[\"锁定图标按钮\",\"320° NW\",\"山脉/位置图标按钮\",\"圆形指南针表盘（标有 N E S W）\",\"带有橙色尖端的青色指针\"]},{\"title\":\"均衡器卡片\",\"position\":\"右下\",\"count\":8,\"labels\":[\"+12\",\"0\",\"-12\",\"60\",\"250\",\"1K\",\"4K\",\"16K\"]},{\"title\":\"底部停靠栏\",\"position\":\"底部\",\"count\":4,\"labels\":[\"橙色电源按钮\",\"蓝牙按钮\",\"波形显示胶囊\",\"两个圆形模式按钮：月亮与太阳\"]}],\"centerpiece\":\"在智能手机仪表盘上均衡排列的新拟态小组件网格\"},\"composition\":{\"spacing\":\"均匀的边距与充裕的留白\",\"perspective\":\"正视\",\"shadow behavior\":\"极柔和的环境阴影，呈现触感浮雕效果\",\"iconography\":\"带有青色与橙色高光的极简线条图标\"}}",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/15996.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "digital_3d": [
+                    "rendering",
+                    "material",
+                    "网格"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "pia_realistic-chalkboard-handwriting",
+              "name": "逼真的黑板文字渲染",
+              "type": "prompt",
+              "prompt": "一张逼真的照片，展示了 {argument name=\"text content\" default=\"《出师表》全文\"} 手写在教室黑板上，呈现出真实的粉笔字迹，在 {argument name=\"lighting\" default=\"明亮的日光\"} 下使用 {argument name=\"device\" default=\"iPhone\"} 拍摄",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/13982.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：photography",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "photography": [
+                    "照片",
+                    "lighting"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "pia_3d-perspective-text-effect-prompt",
+              "name": "3D 透视文字效果提示词",
+              "type": "prompt",
+              "prompt": "① 场景 {argument name=\"scene description\" default=\"跨海大桥侧面\"}，戏剧性的电影级视角。巨大的粗体无衬线文字 \"___② 文字内容 {argument name=\"text content\" default=\"跨海大桥\"}\" 绘制在 ___③ 主体：无，从镜头前的近处向远端逐渐透视缩减。字形贴合表面曲率，与表面融为一体而非悬浮。部分文字区域被 ___④ 前景物体：无，遮挡，在缝隙中露出以营造深度层次感。{argument name=\"text color and style\" default=\"超大号亮黄色 + 锐利橙色轮廓\"}，极端的透视畸变与消失点对齐。电影级光影，运动模糊，海报级动态融合排版。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/13490.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：commercial",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "commercial": [
+                    "海报",
+                    "排版"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "pia_tw-31761",
+              "name": "3D极简工作室",
+              "type": "prompt",
+              "prompt": "创作一张 3:4 竖版的极简数字品牌海报，背景为绝对纯黑。画面中央放置一个超大、厚实、圆润、倾斜的连续手写体 3D 单词“edit”，字形像一根柔软的充气硅胶管一笔连成，粗细变化自然，字母相互穿插但仍清晰可读；主体横向占据画面大部分宽度，纵向位于略高于中心的位置，保留宽阔黑色负空间。颜色从左到右连续过渡：深紫与电蓝进入洋红和粉红，再到红橙、金黄、亮青绿与薄荷青；色带沿字形曲面流动而不是按字母生硬分段。表面覆盖非常细密的闪砂颗粒与微小点状高光，轮廓边缘柔和发光，具有哑光天鹅绒和细砂喷涂并存的触感；厚圆截面带真实明暗塑形，局部出现温和的次表面散射，不要镜面塑料感。在字标中央前方叠加一枚短而精致的半透明黑色圆角操作胶囊，轻微磨砂玻璃、细灰描边和柔软投影：左侧是一个原创的白色抽象折角图形，中央文字“Open in genvizu”，右侧小按钮“Launch”。胶囊尺寸克制，不遮住整个字形。整体锐利、现代、干净，像实验性动效工作室的静帧。不要真实平台名称或 logo、第三方商标、二维码、水印、额外元素、彩色背景、漂浮粒子或乱码。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/2079120729241706859.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：commercial",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "commercial": [
+                    "海报",
+                    "品牌"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "pia_technical-3d-exploded-product-view",
+              "name": "技术级 3D 爆炸视图",
+              "type": "prompt",
+              "prompt": "Render_Target = ( 3D_Accurate_Exploded_View_Of_{argument name=\"product\" default=\"[product]\"} * 1.3 ) + ( Minimal__Extremely_Accurate_Spec_Callout_And_Material_Breakdown_Panel * 1.4 ) + ( Soft_Gradient_Studio_Backdrop * 1.0 ) + ( Directional_Rim_Light_With_Soft_Fill * 1.0 ) - ( Floating_Neon_Rings_Or_Glowing_Orbs / 3.0 ) - ( Generic_Innovation_Sparks_Or_Circuit_Overlays / 2.5 ) - ( Cluttered_Desk_Props_Or_Watermarks / 2.0 )",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/18553.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "pia_luxury-3d-cg-text-rendering",
+              "name": "奢华 3D CG 文字渲染",
+              "type": "prompt",
+              "prompt": "将文本“{argument name=\"text\" default=\"从明天开始，我会尽力而为（明天是假期）\"}”渲染为色彩丰富、闪耀且奢华的 3D CG 风格。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/24102.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "pia_pr-33207",
+              "name": "复古3D 渲染",
+              "type": "prompt",
+              "prompt": "RETRO POP-ART BEVERAGE COLLAGE SYSTEM\r\n\r\nA premium commercial beverage advertising poster designed with a vibrant, playful mixed-media pop-art aesthetic.\r\n\r\nCentral Subject:\r\nA photorealistic, matte-finish aluminum soda can stands in the lower-center. The can features realistic condensation water droplets running down its side, with an elegant, modern branding label in pastel orange and teal.\r\n\r\nThe Aesthetic (Mixed-Media & Pop-Art):\r\nThe background is a solid pastel-teal backdrop. The realistic 3D can is surrounded by bold, flat 2D vector illustrations of orange slices, retro 70s-style hand-drawn sunbursts, and playful graphic splashes of juice in bright orange and white.\r\n\r\nDesign Elements:\r\nA mix of flat 2D graphic sparkles, halftone pattern overlays in the background, and 3D realistic mint leaves floating around the top of the can for a textured contrast.\r\n\r\nTypography:\r\nHuge, playful retro-serif typography in the background reading \"Zesty & Fresh\" in a bold cream color, layered behind the vector orange slices and the realistic can.\r\n\r\nLighting:\r\nBright, summery studio lighting, crisp soft shadows, realistic metallic reflections on the can, high-contrast fresh atmosphere.\r\n\r\nCommercial Value:\r\nHighly reusable for FMCG brands, healthy soda startups, organic juices, and summer social media marketing campaigns.\r\n\r\nAspect Ratio: 9:16 vertical poster format.\r\nQuality: Ultra detailed, 8K masterpiece, clean commercial rendering.",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptsref",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/16316_out.png",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：commercial",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "commercial": [
+                    "poster",
+                    "Typography",
+                    "advertis"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "pia_pr-32631",
+              "name": "电影感3D 渲染",
+              "type": "prompt",
+              "prompt": "A sleek, modern 3D promotional graphic (2:3 aspect ratio) featuring bold typography and a prominent TikTok follow button. In the upper portion, large clean sans-serif text reads \"ORGANIC PROMOTION\" in white, followed by \"For TikTok!\" in vibrant red and cyan gradient lettering with a playful cyan underline swoosh.Centered in the lower half is a highly detailed 3D TikTok follow button with rounded speech-bubble shape, black and white base with red and cyan accents. The button displays the TikTok logo (black circle with pink-cyan musical note) on top, the username \"@organicpromotion\" in clean text, and a prominent black \"FOLLOW\" button with white lettering.The background is a dynamic dark gradient transitioning from deep red to teal and dark blue with subtle abstract geometric patterns and soft glowing effects. Dramatic cinematic lighting with soft highlights on the 3D button creating depth and premium feel, subtle shadows, and floating particles for visual interest.Professional digital marketing style, ultra-realistic 3D render, sharp details, glossy and matte material contrasts on the button, perfect composition and balance between text and graphic element, modern social media advertisement aesthetic, high resolution 8k",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptsref",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/43070_out.png",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：commercial",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "commercial": [
+                    "logo",
+                    "typography",
+                    "marketing"
+                  ],
+                  "digital_3d": [
+                    "3D",
+                    "material"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "pia_3d-paper-quilling-floral-art",
+              "name": "3D 纸艺衍纸花卉艺术",
+              "type": "prompt",
+              "prompt": "一张高精度艺术品照片，主体为 {argument name=\"color\" default=\"红色和黄色\"} 的 {argument name=\"subject\" default=\"玫瑰\"}，采用 {argument name=\"style\" default=\"3D 纸艺衍纸和纸花丝\"} 工艺制作而成。画面包含精致的卷纸花瓣、立体绿色叶片、优雅的蔓藤花纹、精致的白色背景、柔和的自然光、超高清画质、精湛的工艺展示以及温暖的质感。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/16846.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：photography",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "photography": [
+                    "照片",
+                    "自然光"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "pia_isometric-3d-world-render",
+              "name": "等轴测 3D 世界渲染",
+              "type": "prompt",
+              "prompt": "一个 {argument name=\"mood\" default=\"充满活力\"} 的等轴测 {argument name=\"style\" default=\"3D 渲染\"}，描绘了 {argument name=\"world\" default=\"漂浮的城市街区\"}，具有 {argument name=\"weather\" default=\"雪天\"} 和复杂的表面细节，调色板采用 {argument name=\"palette\" default=\"冷蓝色和白色\"}。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/22105.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "pia_luxury-acrylic-capsule-museum-display",
+              "name": "奢华博物馆亚克力展示柜视觉效果",
+              "type": "prompt",
+              "prompt": "高质量方形 3D 产品视觉效果。一个 {argument name=\"exhibition case\" default=\"透明垂直长方形亚克力胶囊展示柜\"} 被放置在 {argument name=\"exhibition location\" default=\"奢华博物馆\"} 的展厅中央。采用厚实透明亚克力材质，呈现自然反射和精致的边缘高光，并配有 {argument name=\"frame\" default=\"超细香槟金\"} 边框。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/24484.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "digital_3d": [
+                    "3D",
+                    "材质"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "pia_3d-exploded-assembly-drawing",
+              "name": "3D 爆炸装配图",
+              "type": "prompt",
+              "prompt": "创建一个 3D 超级详细的爆炸装配图，主题为 {argument name=\"subject\" default=\"[主题或对象]\"}",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/16513.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "pia_pr-32397",
+              "name": "3D花",
+              "type": "prompt",
+              "prompt": "A charming florist's storefront overflowing with hanging baskets, climbing roses, flowering window boxes, elegant ironwork, and bouquets spilling onto the pavement, inviting passersby into a world of color and fragrance. Rendered in Art Nouveau style with flowing organic lines, graceful floral ornamentation, decorative curves, harmonious pastel tones, and exquisite turn-of-the-century elegance.",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptsref",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/55577_out.png",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：art_movements",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "art_movements": [
+                    "Art Nouveau",
+                    "style"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "pia_wt-33777",
+              "name": "3D 渲染",
+              "type": "prompt",
+              "prompt": "[SUBJECT], ultra realistic 3D render, smooth inflated glossy plastic material, soft pillowy balloon like contours, subtle stitched panel seams and paneling, high specular highlights, clean reflections, soft contact shadows, designer collectible toy aesthetic, cute proportions, premium polished finish, floating centered, plain light gray studio background, soft diffused studio lighting, sharp focus, high resolution, 8k, 1:1, no text, no logo, no watermark",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · webtomind",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/72e0e6fe-4e63-452f-9ca7-ff26bd94a0a7_0.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "digital_3d": [
+                    "3D",
+                    "material"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "pia_pastry-city-architectural-showpiece",
+              "name": "建筑城市",
+              "type": "prompt",
+              "prompt": "2x2 网格，16:9，制作麦加及其他 3 个著名城市，并使用 4 种不同的渲染引擎=> 一款甜点风格的艺术品，主体为 {argument name=\"city\" default=\"MECCA\"}；采用法式甜酥面团墙壁，切面可见层压纹理，撒有糖粉“雪”，巧克力桁架桥，异麦芽酮糖釉面模拟水景。顶部装饰着微型的 {argument name=\"building\" default=\"landmark\"}。温暖的烘焙光影，逼真的碎屑和冷却架压痕，35mm 镜头，f/5.6 光圈。{argument name=\"render engine\" default=\"Octane render\"}，乡村风格木质柜台",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/23466.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "digital_3d": [
+                    "render",
+                    "网格"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "pia_text-rendering-capability-test",
+              "name": "文本渲染能力测试",
+              "type": "prompt",
+              "prompt": "一个写有 {argument name=\"text\" default=\"心经\"} 的 {argument name=\"fruit\" default=\"香蕉\"}",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/13629.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "pia_3d-packaging-to-2d-net-unfolding",
+              "name": "3D 包装转 2D 平面展开图",
+              "type": "prompt",
+              "prompt": "将 3D 包装展平为 2D 平面图。展开所有面板和标签。采用正交投影，无畸变。精确映射纹理。添加对比鲜明的模切线。{argument name=\"background\" default=\"纯白色背景\"}。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/15179.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "pia_pr-33258",
+              "name": "3D3D 渲染",
+              "type": "prompt",
+              "prompt": "Cutting-edge internet operations visual design master standard, Behance / Dribbble 3D illustration style poster, C4D style, soft-light rendering, high saturation, dopamine palette, abstract art, clean minimalist background, visually fresh, youthful and cheerful, refined and delicate. Theme: Shake Off the Office Vibe — Travel Guide.",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptsref",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/11971_out.png",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "pia_pr-33256",
+              "name": "3D3D 渲染",
+              "type": "prompt",
+              "prompt": "Cutting-edge internet operations visual design master standard, Behance / Dribbble 3D illustration style poster, C4D style, soft-light rendering, high saturation, dopamine palette, abstract art, clean minimalist background, visually fresh, youthful and cheerful, refined and delicate. Theme: Street Life Festival. Ratio: 16:9, 4K.",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptsref",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/11974_out.png",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "pia_pr-33246",
+              "name": "3D3D 渲染",
+              "type": "prompt",
+              "prompt": "Make the aspect ratio 2:3 , Cutting-edge internet operations visual design master standard, Behance / Dribbble 3D illustration style poster, C4D style, soft-light rendering, high saturation, dopamine palette, abstract art, clean minimalist background, visually fresh, youthful and cheerful, refined and delicate. Theme: 清风廉洁",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptsref",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/13083_out.png",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "pia_futuristic-neon-commercial-fashion-photography",
+              "name": "女性品牌3D霓虹冷调",
+              "type": "prompt",
+              "prompt": "一位年轻时髦的 {argument name=\"subject\" default=\"双人组，男女各一人\"}，背靠背站立，表情冷峻自信。女性身穿白色短款上衣、电光蓝短裤、带有蓝银色点缀的透明 PVC 风衣，搭配白色运动鞋。男性身穿白色修身 T 恤、宝蓝色慢跑裤、带有霓虹蓝点缀的透明 PVC 夹克，搭配蓝白配色运动鞋。女性左手拿着冰镇 {argument name=\"brand\" default=\"Pepsi\"} 玻璃杯，男性右手拿着冰镇 {argument name=\"brand\" default=\"Pepsi\"} 玻璃杯。两侧各有一个巨大的超大号 {argument name=\"brand\" default=\"Pepsi\"} 罐，罐身覆盖着水珠，周围环绕着碎冰。深蓝色银色渐变摄影棚背景，带有电光霓虹灯晕。漂浮的水泡和冰块。全身双人镜头，超写实 3D 渲染，超写实商业摄影，光泽感反射地面，8K 分辨率，戏剧性电影灯光 1744x2336",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/23454.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：photography",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "photography": [
+                    "摄影",
+                    "镜头"
+                  ],
+                  "digital_3d": [
+                    "3D",
+                    "反射"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "pia_miniature-woman-forced-perspective",
+              "name": "女性像素3D梦幻优雅",
+              "type": "prompt",
+              "prompt": "一个 {argument name=\"subject\" default=\"站在人手掌上的微缩女性\"}，强制透视错觉，全身照，自信微笑，{argument name=\"hair style\" default=\"留着长款灰棕色波浪卷发，配有柔和刘海\"}，身穿 {argument name=\"jersey\" default=\"最新的阿根廷国家队足球球衣\"}，带有正宗的天蓝色和白色垂直条纹，蓝色牛仔裤，干净的白色运动鞋，休闲运动风格，优雅放松的姿势，双手插在前面的口袋里，柔和的自然妆容，照片级真实皮肤，超逼真的面部细节，浅景深，背景中有一个相同女性的巨大模糊版本，穿着同样的阿根廷球衣和牛仔裤，奶油般虚化的背景，柔和的日光，电影级布光，HDR，超细节的织物纹理，逼真的牛仔布褶皱，逼真的皮肤毛孔，超写实，85mm 镜头，f/1.4，杰作，8K，极高真实感，专业摄影，体积光，自然色彩分级，微缩人物焦点清晰，背景柔和模糊，梦幻氛围，顶级画质。\n\n负面提示词：\n低质量，低分辨率，模糊，卡通，动漫，CGI，3D 渲染，塑料皮肤，身体畸形，多余手指，多余肢体，人体结构错误，人物重复，裁剪，画面外，水印，Logo，文字，噪点，色彩过饱和，曝光不足，曝光过度，面部扭曲，比例不真实，伪影，运动模糊，手部绘制拙劣，透视错误，像素化，压缩伪影。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/28682.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：photography",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "photography": [
+                    "照片",
+                    "85mm",
+                    "布光",
+                    "景深"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "pia_female-action-figure-tech-tablet",
+              "name": "人像写实3D街头霓虹",
+              "type": "prompt",
+              "prompt": "超写实全身人像，女性姿态与参考照片完全一致，风格化为精致的女性可动人偶。她双臂交叉抱胸，站在 {argument name=\"platform\" default=\"巨大的 Microsoft Surface 平板电脑\"} 上，身着都市街头服饰 —— {argument name=\"outfit\" default=\"黑色连帽衫、牛仔裤、运动鞋\"} —— 并佩戴着 {argument name=\"accessory\" default=\"锋利的红色科技眼镜\"}。\n\n周围以动态布局悬浮着设计师工具：带有蓝色全息光效的次世代相机、闪烁电火花的几何鼠标、留有线框轨迹的数字触控笔、蓝黑配色的 Pantone 色卡，以及冒着二进制代码蒸汽的极简黑色咖啡杯。\n\n大胆的蓝橙配色方案，贯穿全场的戏剧性光影。赛博朋克氛围，霓虹细节，场景中散布着粒子特效。视觉风格融合了 3D 动画与科技摄影。焦点清晰，电影级布光，8k 分辨率。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/25166.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：photography",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "photography": [
+                    "照片",
+                    "布光"
+                  ],
+                  "digital_3d": [
+                    "3D",
+                    "几何"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "pia_pixar-miniature-earbuds-scene",
+              "name": "角色3D电影感温暖可爱",
+              "type": "prompt",
+              "prompt": "使用上传的参考图片作为角色的面部和发型参考，创作一个超精细的 3D 皮克斯风格微缩场景。\n\n一个面部、发型、肤色和整体外观与上传图片一致的 {argument name=\"subject\" default=\"可爱的年轻人\"}，正舒适地躺在放置于木质书桌上的无线耳机充电盒内。\n\n他留着黑色长发，眼神柔和且富有表现力，带着自然温和的微笑。他穿着与上传参考图片中完全相同的服装。\n\n角色以放松的姿势舒适地躺在耳机盒内，单手托头，一条腿随意地搭在另一条腿上。\n\n充电盒旁边，一部现代智能手机垂直放置在支架上，显示着简洁的极简音乐播放器界面。屏幕上显示着歌曲名称“{argument name=\"song name\" default=\"ordinary\"}”，配有优雅的专辑封面、播放按钮和进度条。\n\n两个无线耳机随意地放置在书桌上的充电盒附近。\n\n环境采用柔和温暖的自然窗光，营造出舒适的电影感氛围。背景应进行柔焦处理，呈现美学虚化效果，并搭配极简的现代书桌布置。\n\n风格应呈现为高品质的电影级 3D 渲染，具有平滑的纹理、柔和的阴影、景深效果、超逼真的光影、高度精细的材质，以及可爱的皮克斯风格比例。\n\n高分辨率，逼真的反射效果，舒适的氛围，居中构图，专业的产品广告级质量。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/19967.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；子类冲突：digital_3d_character, digital_3d_diorama",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "digital_3d": [
+                    "3D",
+                    "材质"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "pia_mixed-media-chibi-streetwear-portrait",
+              "name": "人像3D写实夜景街头可爱",
+              "type": "prompt",
+              "prompt": "混合媒介肖像，画面中是一位 {argument name=\"subject description\" default=\"潮流青年\"} 站在深夜的 {argument name=\"location\" default=\"火车站台\"} 上。他自信地摆出姿势，一只手抓着 {argument name=\"backpack color\" default=\"橄榄绿色\"} 背包的肩带，身穿街头风格服饰：黑色叠穿大廓形连帽衫、灰色运动裤和厚底运动鞋。\n\n背景展示了火车的完整侧面，车身带有标志性的红色条纹，车门大开，在城市夜空的映衬下，站台灯光营造出电影般的质感。\n\n在写实的主体周围，环绕着几个可爱的 3D Q 版形象，他们拥有与主体相同的面部特征和服饰，姿态各异：一个坐在他的肩膀上，一个正爬上他的腿，还有一个从背包里探出头来。\n\n整张图片叠加了生动的手绘涂鸦效果，主体周围带有白色描边，并点缀着发光的星星、闪光、电火花，以及漂浮的手写文字，内容包括“forever young”、“krl”、“night”和“gen z vibes”。最终呈现的效果将超写实摄影与扁平化卡通插画完美融合，同时保持了面部和身体特征不变。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/23943.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：painting",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "painting": [
+                    "插画",
+                    "手绘"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "pia_tw-32239",
+              "name": "服饰胸前的蝴蝶结和蕾丝边可太好看了～",
+              "type": "prompt",
+              "prompt": "9:16竖版，极致真实手机纪实摄影，东京表参道夏日下午，一张路人用 iPhone 17 Pro 随手记录的真实生活瞬间。28mm自然视角，正常人眼比例，无广角夸张透视。手机高度约1.5米，人物距离约3米，占画面约50%，保留真实街道、店铺、路人、车辆和城市环境。\n\n一位成年日本年轻女性，像现实中生活里的东京女生，带轻微偶像气质但没有明星写真感。清纯初恋感与成熟优雅感结合，自然亚洲五官，真实眼神，轻微脸部不对称，皮肤有真实毛孔、细微纹理和自然肤色变化。\n\n高挑修长身材，长腿比例，真实丰满女性曲线，整体比例协调自然。上半身具有明显女性曲线，丰满但符合真实人体结构，胸肩比例自然，衣物产生轻微拉伸和自然褶皱。窄腰，柔和沙漏型身材，臀部线条自然圆润，有真实重量感和人体脂肪分布。\n\n长棕色头发，被夏季微风轻轻吹动，几缕发丝自然落在脸侧。\n\n穿年轻日系夏季穿搭，薄荷绿色修身针织短袖，上面有精致小面积蕾丝边和蝴蝶结细节，搭配浅色短裙。衣服柔软轻薄，有真实布料纹理和自然贴合效果。\n\n人物刚从表参道饮品店走出，一只手自然拿透明杯冰柠檬茶，杯壁有冷凝水和冰块。另一只手整理被风吹乱的头发。正在自然行走，身体重心轻微偏移，没有看镜头，没有摆拍，没有刻意展示身体，像朋友在人群中偶然拍到的一瞬间。\n\n真实手机摄影质感，自然曝光，轻微手持抖动，轻微运动模糊，真实生活光线，未经修图。\n\n画面左下角保留低调艺术签名“DeepBlue”。\n\n负面提示：\nAI生成感，塑料皮肤，CG渲染，3D模型，影楼写真，商业摄影，网红滤镜，过度磨皮，完美对称脸，僵硬手指，错误手部结构，摆拍姿势，模特感，广角畸变，身体比例错误，衣物穿模，假背景，过度虚化，低清晰度，文字水印。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/2080971749915840611.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文大类明确；未找到明确子类",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "digital_3d": [
+                    "3D",
+                    "模型"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "pia_luxury-minimalist-social-media-portrait",
+              "name": "人像3D极简未来梦幻",
+              "type": "prompt",
+              "prompt": "一张奢华的电影级社交媒体编辑风格人像，画面中一位 {argument name=\"character\" default=\"时尚女孩\"} 坐在柔软光滑的白色地板上，身穿 {argument name=\"outfit\" default=\"白色廓形西装外套\"}，留着极简美学短发，表情自信。场景呈现极简单色时尚风格，周围环绕着带有白色发光轮廓的 {argument name=\"decorative elements\" default=\"3D 黑色 X Logo\"}。漂浮的推文截图以白色磨砂玻璃风格卡片呈现，展现出未来感网红美学与高端创作者品牌形象。画面包含柔和的摄影棚灯光、梦幻的阴影、高端杂志构图、干净的白色背景、现代数字混沌感、超现实皮肤质感、光泽反射、优雅的单色调、电影级景深、病毒式 AI 艺术风格、高端编辑摄影以及精致的审美氛围。细节丰富，8K 分辨率。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/19468.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：photography, commercial",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "photography": [
+                    "摄影",
+                    "棚灯",
+                    "景深"
+                  ],
+                  "commercial": [
+                    "Logo",
+                    "品牌"
+                  ],
+                  "digital_3d": [
+                    "3D",
+                    "反射"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "pia_brazil-football-fan-portrait",
+              "name": "人像写实3D温暖优雅",
+              "type": "prompt",
+              "prompt": "超写实时尚杂志风格肖像，一位美丽的年轻女性身穿高档巴西国家足球队球衣，深祖母绿色调搭配奢华金色装饰及队徽细节。她站在温暖的棕金色摄影棚背景前，自信地注视着镜头，带着微妙自然的微笑。金色长波浪卷发垂在肩上，皮肤散发光泽，妆容自然柔和，颧骨轮廓分明，佩戴优雅的大号金质圆环耳环。创意强制透视构图，双手向镜头伸展，手指在脸部周围形成心形框架。前景中的双手因浅景深效果而刻意模糊，而双眼保持极其清晰的对焦。温暖的电影级布光，丰富的金色高光，奶油般虚化的背景，高端生活方式摄影，时尚广告美学，奢华运动装广告，真实的皮肤纹理，高端杂志编辑风格，专业全画幅相机，85mm 镜头，超细节，HDR，8K 分辨率，竖构图，大师级品质。超写实病毒式足球球迷肖像，身穿奢华巴西国家队球衣的惊艳年轻女性，双手向镜头比心，强烈的眼神交流，受体育场启发的金色灯光，戏剧性的景深效果，闪亮的金发，高档金饰，鲜艳的巴西配色，针对社交媒体优化的构图，电影级体育时尚广告，奢华 FIFA 世界杯美学，温暖的金色光斑，极度清晰的双眼，浅景深，动态视角，Instagram 热门摄影风格，令人驻足的视觉冲击力，杂志编辑杰作，超写实，8K，竖向 3:4 比例。低质量，模糊的眼睛，扭曲的手部，多余的手指，糟糕的解剖结构，皮肤过曝，卡通，CGI，肢体重复，不自然的面部，塑料感皮肤，水印，文字，Logo 伪影，噪点，运动模糊，头部被裁切，画面外，变形的手指，不切实际的比例。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/25785.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：photography, commercial",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "photography": [
+                    "摄影",
+                    "镜头",
+                    "布光",
+                    "景深"
+                  ],
+                  "commercial": [
+                    "Logo",
+                    "广告"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "pia_totoro-puzzle-game-ui",
+              "name": "人像吉卜力3D工作室森林可爱",
+              "type": "prompt",
+              "prompt": "{\"type\":\"cute vertical mobile puzzle game screen mockup\",\"style\":\"soft Studio Ghibli-inspired kawaii 3D clay-toy illustration, rounded UI, pastel colors, gentle shadows, clean app screenshot composition\",\"canvas\":{\"aspect\":\"landscape frame containing a centered portrait phone game panel\",\"background\":\"pale mint green with large translucent circular shapes and a soft darker green floor band near the bottom\"},\"ui\":{\"outer_panel\":\"tall rounded rectangle card in very light mint with subtle drop shadow, centered\",\"header\":{\"position\":\"top of card\",\"components_count\":4,\"components\":[{\"text\":\"{argument name=\\\"game title\\\" default=\\\"コロコロトトロ\\\"}\",\"position\":\"top left\",\"style\":\"bold dark green Japanese sans serif\"},{\"text\":\"{argument name=\\\"score text\\\" default=\\\"スコア 7425\\\"}\",\"position\":\"under title\",\"style\":\"smaller dark green\"},{\"text\":\"{argument name=\\\"instruction text\\\" default=\\\"クリックで落とす\\\"}\",\"position\":\"under score\",\"style\":\"small dark green\"},{\"text\":\"{argument name=\\\"next label\\\" default=\\\"つぎ\\\"}\",\"position\":\"top right\",\"style\":\"small dark green with an acorn preview beneath it\"}]},\"playfield\":{\"position\":\"center\",\"shape\":\"tall cream-colored rounded rectangle bordered by a thick muted forest-green outline\",\"warning_line\":{\"text\":\"{argument name=\\\"game over warning\\\" default=\\\"ここを越えて詰まるとゲームオーバー\\\"}\",\"position\":\"near top inside playfield\",\"style\":\"thin red horizontal line with small red Japanese text above it\"}}},\"game_pieces\":{\"total_visible_count\":25,\"counts_by_type\":[{\"type\":\"gray Totoro pieces\",\"count\":2,\"descriptions\":[\"large gray Totoro floating near upper center\",\"large gray Totoro resting mid-left\"]},{\"type\":\"blue Totoro pieces\",\"count\":2,\"descriptions\":[\"small blue Totoro near center\",\"small blue Totoro near lower left\"]},{\"type\":\"white small Totoro ghost pieces\",\"count\":4,\"descriptions\":[\"upright white Totoro at left middle\",\"upright white Totoro at right middle\",\"sideways white Totoro at right center\",\"tiny white Totoro near upper left under the warning line\"]},{\"type\":\"Catbus piece\",\"count\":1,\"descriptions\":[\"large smiling orange Catbus crouched at lower right\"]},{\"type\":\"black soot sprite pieces\",\"count\":5,\"descriptions\":[\"black soot sprite at left middle edge\",\"black soot sprite near center-left\",\"black soot sprite at right middle\",\"black soot sprite near bottom center\",\"black soot sprite at bottom right\"]},{\"type\":\"corn cob pieces\",\"count\":5,\"descriptions\":[\"corn cob at upper right\",\"corn cob at right of center\",\"corn cob near center-left above Catbus\",\"corn cob at bottom left\",\"corn cob near mid-right beside blue Totoro\"]},{\"type\":\"acorn pieces\",\"count\":6,\"descriptions\":[\"large acorn preview above playfield near next label\",\"small acorn at upper left inside playfield\",\"small acorn at left middle\",\"small acorn at center-right\",\"small acorn at lower left edge\",\"small acorn at lower right beside Catbus\"]}]},\"composition\":\"The pieces are arranged like a Suika-style falling merge puzzle: round character tokens pile up in the lower two-thirds of the playfield, with open empty space at the top and a red game-over threshold line. Make everything soft, collectible, toy-like, cheerful, and polished, with no realistic harsh edges.\"}",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/18166.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：painting",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "painting": [
+                    "illustration",
+                    "canvas"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "pia_golden-hour-white-hoodie-portrait",
+              "name": "女性写实3D城市温暖温柔",
+              "type": "prompt",
+              "prompt": "美丽的年轻女性，留着飘逸的长黑发，身穿 {argument name=\"clothing\" default=\"一件超大款米白色连帽衫\"}，站在 {argument name=\"location\" default=\"安静的城市街道\"} 上，正值 {argument name=\"lighting\" default=\"黄金时刻\"}。她闭着双眼，温柔地微笑着，双臂舒展，姿态从容，微风吹拂着她的秀发。温暖的阳光在她的脸庞和发丝周围勾勒出明亮的轮廓光，抓拍生活照，自然的幸福感，温馨的秋日氛围，路面散落着落叶，背景中有小型本地商店和一名骑行者，浅景深，柔和的电影色调，真实的皮肤纹理，高细节，梦幻氛围，超写实人像，街头摄影，85mm 镜头，f/1.8，焦外成像，HDR，8K 画质。\n负面提示词：\n模糊，低分辨率，多余的手指，手部变形，解剖结构错误，肢体重复，高光过曝，色彩过饱和，人造皮肤，浓妆，水印，文字，Logo，面部裁剪，运动模糊，噪点，卡通，CGI，比例不协调",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/28871.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：photography",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "photography": [
+                    "摄影",
+                    "85mm",
+                    "lighting",
+                    "景深"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "pia_futuristic-nike-sportswear-ad-campaign",
+              "name": "女性3D写实街头霓虹高级",
+              "type": "prompt",
+              "prompt": "超高端 Nike 时尚广告企划，全身 {argument name=\"gender\" default=\"女性\"} 街头服饰模特悬浮在半空中，动态舞蹈姿势，单膝抬起且双脚交叉，侧脸朝下，长编织马尾辫，超大款 {argument name=\"hoodie color\" default=\"紫色\"} 帽衫，黑色未来感工装裤，配有金属链条和绑带，紫色与银色 Nike Air Max 运动鞋，高级时装编辑风格，居中构图，简洁摄影棚背景，背景色为 {argument name=\"background color\" default=\"单色活力紫渐变\"}，发光的 3D 霓虹紫色光轨环绕模特，能量丝带穿梭于场景中，背景有大型垂直粗体排版，未来感图形设计元素，极简科技界面细节，奢华运动服饰广告美学，超写实摄影，超精细织物纹理，逼真的运动鞋细节，戏剧性柔和摄影棚光效，光泽反射，浅景深，商业产品广告，高端品牌海报设计，杂志封面级质量，完美人体结构，清晰对焦，电影级光效，体积光，高对比度，专业修图，获奖级时尚摄影，Octane 渲染，Unreal Engine 5，8k 分辨率，奢华运动企划，悬浮动态效果，纯净紫色调色板，现代未来感街头文化。负面提示词：低质量，模糊，多余肢体，多余手指，人体结构错误，面部扭曲，身体部位重复，脚部被裁切，文字伪影，水印，Logo 错误，服装变形，背景杂乱，色彩过饱和，噪点，运动模糊，画面外，鞋子渲染不佳，比例失调，业余摄影。长宽比：9:16（竖版海报）",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/24741.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：photography, commercial",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "photography": [
+                    "摄影",
+                    "景深"
+                  ],
+                  "commercial": [
+                    "海报",
+                    "排版",
+                    "广告"
+                  ],
+                  "digital_3d": [
+                    "3D",
+                    "反射",
+                    "Unreal Engine"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "pia_surreal-social-adaptation-character-instruction",
+              "name": "角色3D写实夜景室内可爱",
+              "type": "prompt",
+              "prompt": "角色名称：[ ]\n用户补充想法：[ ]\n\n------------------------\n\n请优先采纳用户的输入，例如：\n- 地点\n- 情境\n- 梗/笑话\n- 媒体格式\n- 世界观\n- 对话\n- 制作/舞台设计思路\n\n将图像进行异常化演变，达到让人产生“这个世界到底是怎么变成这样的？”这种想法的程度。\n\n然而，请将重点放在“世界或社会本身很疯狂”的方向上，而不是“角色本身很疯狂”。\n\n------------------------\n\n保持附件图像中的原始角色。\n禁止转换为其他角色。\n\n保留可识别的特征，例如：\n- 发型\n- 脸部\n- 眼睛\n- 服装\n- 配色方案\n- 轮廓\n- 配饰\n- 面部习惯/表情\n\n------------------------\n\n禁止使用照片写实风格。\n禁止使用照片风格。\n禁止使用 3DCG 风格。\n\n每次都以随机的媒介、文化和类型进行描绘，例如：\n2D 动画、游戏 CG、漫画、广告、SNS、Wiki、Discord、电商页面、学校讲义、电影海报、游戏 UI、杂志、公告板、监控摄像头、对话记录、收据、手册等。\n\n每次都将风格更改到看起来像“不同的作品”或“不同的世界”的程度。\n不要每次都依赖新闻节目风格、直播风格、突发新闻滚动条风格、紫色调末日恐怖风格或巨大的滚动条特效。\n\n------------------------\n\n极其重要：\n禁止对同一角色进行以下操作：\n- 大规模放置\n- 复制品/克隆体\n- 拥挤\n- 背景中大规模出现\n- 量产型迷你角色\n\n基本上，画面中只能存在一个该角色的实例。\n\n通过以下方式表达异常感：\n- 社会适应\n- 奇怪的规则\n- 制度变革\n- 注意事项\n- 周围人的反应\n- 带有不安感的日常生活\n\n------------------------\n\n不要让画面太暗。\n不要总是收敛于夜晚、末日、停电、黑暗恐怖、红黑色调、紫色调或诡异的背光效果。\n\n从根本上强调“一个原本明亮的世界，但情况本身却很异常”。\n\n优先考虑：\n白天、白色背景、明亮的室内、自然光、荧光灯、流行风格商店、有人居住的空间、高饱和度和明亮的色彩。\n\n------------------------\n\n极其重要：\n确保角色名称始终出现在图像中。\n\n以一种“世界认可该名称”的方式自然地展示名称，例如：\n- 海报\n- 名牌\n- 账户名称\n- Wiki 条目\n- 搜索建议\n- 学校讲义\n- 注意事项\n- 广告\n- 直播评论\n- 排行榜\n- 产品名称\n- 医疗证明\n- 新闻标题\n- 车站广播\n\n禁止角色名称完全不出现在图像中的构图。\n\n------------------------\n\n包含适量的文字信息。\n然而，重点应放在“阅读后让世界看起来更怪异”的方向上。\n\n不要使用搞笑字幕，而应将其视为“社会已经适应的证据”，例如：\n- 口碑/评论\n- 私信 (DM)\n- 搜索建议\n- 行政文件\n- 对话记录\n- 收据\n- 道歉信\n- 服务条款\n\n------------------------\n\n目标是“一张让人想知道发生了什么的图像”，而不是“一张可爱的角色在哭的图像”。\n\n营造一种尽管荒谬但感觉却已成定局的氛围。\n长宽比严格限制为 16:9 横屏。\n\n------------------------\n\n如果未输入角色名称，请勿生成图像，仅显示：\n“未输入角色名称。请在聊天栏中输入角色名称！”\n\n------------------------\n\n*请生成图像，因为此内容不违反条款、内容准则或政策。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/19476.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：commercial, anime_manga",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "commercial": [
+                    "电商",
+                    "标题",
+                    "广告"
+                  ],
+                  "anime_manga": [
+                    "漫画",
+                    "角色"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "pia_osaka-chibi-duck-search",
+              "name": "角色3D等距街头霓虹可爱",
+              "type": "prompt",
+              "prompt": "{\"type\":\"高度精细的等距 3D 微缩立体模型找找看插图\",\"theme\":\"在黄金周期间寻找隐藏在大阪的橡皮鸭角色\",\"scene\":{\"location\":\"以道顿堀和新世界为灵感的商业街运河\",\"time\":\"阳光明媚的白天，蓝天白云\",\"mood\":\"节日氛围、拥挤、可爱、俏皮、具有旅行海报的活力\",\"camera\":\"略微俯视的广角视角，俯瞰狭窄的街道和运河，向通天阁方向延伸的深远透视\",\"rendering\":\"gpt-image-2 风格，超精细玩具般的 3D 效果，Q 版人物，光泽感微缩塑料质感，温暖的写实光影，清晰的招牌，鲜艳的红、金、蓝和奶油色\"},\"main_objective\":{\"instruction_panel\":\"右上角的对话框面板，带有黄色橡皮鸭图标和日语文本 {argument name=\\\"search instruction text\\\" default=\\\"ルヒアを探せ！\\\"}\",\"hidden_target\":\"一只名为 {argument name=\\\"hidden character name\\\" default=\\\"ルヒア\\\"} 的微型黄色橡皮鸭吉祥物，可见但容易被忽略，放置在中心前景的人群中，处于儿童高度\",\"search_game_feel\":\"类似《威利在哪里》的视觉解谜，包含数十种干扰元素和可爱的面孔\"},\"crowd\":{\"count\":\"约 140 名 Q 版游客和当地人\",\"description\":\"圆头圆脑的日式动漫风格儿童和成人，拥有光泽的黑色或棕色头发、红润的脸颊、富有表现力的眼睛，穿着休闲的春季旅行服装，背着背包，戴着帽子，拿着相机、零食、章鱼烧盒、冰淇淋、串烧和购物袋\",\"poses\":\"行走、吃东西、挥手、聊天、抬头看招牌、乘船、从阳台上探出身子\"},\"major_landmarks_and_props\":{\"count\":9,\"items\":[\"左侧建筑上巨大的蓝色格力高跑男广告牌\",\"背景远处居中的通天阁\",\"左侧外墙上巨大的红蟹餐厅招牌\",\"右上方外墙上巨大的饺子招牌\",\"街道上方悬挂的巨大圆形白色河豚灯笼\",\"运河中满载 Q 版乘客的黄色观光船\",\"右下角带有红色大阪字样的白色纸灯笼\",\"右下角金色的比利肯风格幸运雕像\",\"挤满观众的小型运河桥梁和栏杆\"]},\"visible_signage\":{\"count\":20,\"labels\":[\"Glico\",\"グリコ\",\"づぼらや\",\"通天阁\",\"I ♥ 通天阁\",\"大阪王将\",\"元祖 焼餃子\",\"くれおーる\",\"たこ焼・お好み焼\",\"横綱\",\"串かつ\",\"名物 串かつ\",\"かに道楽\",\"たこ焼き\",\"道頓堀 DOTONBORI\",\"大阪\",\"新世界\",\"大阪名物\",\"串かつ だるま\",\"ルヒアを探せ！\"]},\"composition\":{\"foreground\":\"街道上密集的 Q 版游客，正在吃大阪街头小吃，街道两侧有纪念品摊位和微型商店陈列\",\"midground\":\"运河穿过场景，有拥挤的黄色观光船和桥梁，许多商店招牌和悬挂的灯笼\",\"background\":\"高耸的大阪霓虹灯区，有通天阁、堆叠的垂直日式招牌、挤满微型人物的阳台\",\"right_top\":\"带有橡皮鸭图标的大型框架搜索说明牌\",\"left_side\":\"显眼的格力高广告牌、红蟹招牌、堆叠的观众阳台\"},\"style_constraints\":{\"detail_level\":\"信息密度极高，每个窗户和商店陈列都填满了微型人物、食物、玩具和招牌\",\"text\":\"日式餐厅招牌在较大的情况下应清晰可辨，采用手绘复古昭和时代风格\",\"lighting\":\"干净的日光，柔和的阴影，饱和的旅行摄影色彩\",\"aspect_ratio\":\"竖向 3:4\",\"avoid\":\"空白区域、写实的人体比例、黑暗的夜景、恐怖氛围、模糊、极简主义\"}}",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/17950.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "category_only",
+                "status": "needs_review",
+                "reason": "正文与标题大类存在冲突：photography, commercial, anime_manga",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "photography": [
+                    "摄影",
+                    "lighting"
+                  ],
+                  "commercial": [
+                    "海报",
+                    "广告"
+                  ],
+                  "anime_manga": [
+                    "动漫",
+                    "角色"
+                  ],
+                  "digital_3d": [
+                    "3D",
+                    "模型"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

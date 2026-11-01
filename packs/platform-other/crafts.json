@@ -1,0 +1,679 @@
+{
+  "categories": [
+    {
+      "id": "crafts",
+      "name": "手工艺",
+      "subcategories": [
+        {
+          "id": "crafts_paper",
+          "name": "纸艺剪纸",
+          "presets": [
+            {
+              "id": "opennana_prompt-283",
+              "name": "精致纸艺折纸模型",
+              "type": "prompt",
+              "prompt": "{subject}, 一张 1:1 正方形比例的数码照片，画面中央是用纹理彩纸折叠而成的精致纸艺折纸模型，该模型复刻了（纪念碑名称）的造型。模型上方，“（城市名称）” 一词以粗体折纸风格呈现：字母采用该国国色的鲜艳纸张折叠而成，整体排列成优雅的拱形。背景风格柔和简约，采用浅淡的马卡龙色系或中性色调，点缀着细微的纸张纹理或抽象几何元素。光线柔和且均匀扩散，投射出自然的阴影，既增强了每一处折痕的立体感，也让折痕轮廓更清晰。整体风格简洁、写实且充满手工质感，着重凸显材料纹理、几何精度与视觉和谐感。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/283.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：折纸 / 折纸",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "opennana_prompt-306",
+              "name": "分层剪纸插图",
+              "type": "prompt",
+              "prompt": "{subject}, [主题] 的分层剪纸插图，由柔和的 [颜色 1] 和 [颜色 2] 的重叠形状、手工制作的纹理、层间微妙的阴影、干净的矢量边缘构成，以哑光奶油色背景为中心，呈现出异想天开且现代的视觉叙事。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/306.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：剪纸 / 剪纸",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "papercraft_collage",
+              "name": "papercraft-collage",
+              "type": "prompt",
+              "prompt": "collage style {prompt} . mixed media, layered, textural, detailed, artistic",
+              "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：papercraft / papercraft",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "papercraft_flat_papercut",
+              "name": "papercraft-flat papercut",
+              "type": "prompt",
+              "prompt": "flat papercut style {prompt} . silhouette, clean cuts, paper, sharp edges, minimalist, color block",
+              "negative_prompt": "3D, high detail, noise, grainy, blurry, painting, drawing, photo, disfigured",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：papercraft / papercraft",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "papercraft_kirigami",
+              "name": "papercraft-kirigami",
+              "type": "prompt",
+              "prompt": "kirigami representation of {prompt} . 3D, paper folding, paper cutting, Japanese, intricate, symmetrical, precision, clean lines",
+              "negative_prompt": "painting, drawing, 2D, noisy, blurry, deformed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：papercraft / papercraft",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "papercraft_paper_mache",
+              "name": "papercraft-paper mache",
+              "type": "prompt",
+              "prompt": "paper mache representation of {prompt} . 3D, sculptural, textured, handmade, vibrant, fun",
+              "negative_prompt": "2D, flat, photo, sketch, digital art, deformed, noisy, blurry",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：papercraft / papercraft",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "papercraft_paper_quilling",
+              "name": "papercraft-paper quilling",
+              "type": "prompt",
+              "prompt": "paper quilling art of {prompt} . intricate, delicate, curling, rolling, shaping, coiling, loops, 3D, dimensional, ornamental",
+              "negative_prompt": "photo, painting, drawing, 2D, flat, deformed, noisy, blurry",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：papercraft / papercraft",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "papercraft_papercut_collage",
+              "name": "papercraft-papercut collage",
+              "type": "prompt",
+              "prompt": "papercut collage of {prompt} . mixed media, textured paper, overlapping, asymmetrical, abstract, vibrant",
+              "negative_prompt": "photo, 3D, realistic, drawing, painting, high detail, disfigured",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：papercraft / papercraft",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "papercraft_papercut_shadow_box",
+              "name": "papercraft-papercut shadow box",
+              "type": "prompt",
+              "prompt": "3D papercut shadow box of {prompt} . layered, dimensional, depth, silhouette, shadow, papercut, handmade, high contrast",
+              "negative_prompt": "painting, drawing, photo, 2D, flat, high detail, blurry, noisy, disfigured",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：papercraft / papercraft",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "papercraft_stacked_papercut",
+              "name": "papercraft-stacked papercut",
+              "type": "prompt",
+              "prompt": "stacked papercut art of {prompt} . 3D, layered, dimensional, depth, precision cut, stacked layers, papercut, high contrast",
+              "negative_prompt": "2D, flat, noisy, blurry, painting, drawing, photo, deformed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：papercraft / papercraft",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "papercraft_thick_layered_papercut",
+              "name": "papercraft-thick layered papercut",
+              "type": "prompt",
+              "prompt": "thick layered papercut art of {prompt} . deep 3D, volumetric, dimensional, depth, thick paper, high stack, heavy texture, tangible layers",
+              "negative_prompt": "2D, flat, thin paper, low stack, smooth texture, painting, drawing, photo, deformed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：papercraft / papercraft",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "sai_origami",
+              "name": "sai-origami",
+              "type": "prompt",
+              "prompt": "origami style {prompt} . paper art, pleated paper, folded, origami art, pleats, cut and fold, centered composition",
+              "negative_prompt": "noisy, sloppy, messy, grainy, highly detailed, ultra textured, photo",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：origami / origami",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "origami",
+              "name": "Origami",
+              "type": "prompt",
+              "prompt": "origami style {prompt} . paper art, pleated paper, folded, origami art, pleats, cut and fold, centered composition",
+              "negative_prompt": "noisy, sloppy, messy, grainy, highly detailed, ultra textured, photo",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：Origami / Origami",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "fooocus_sai_saiorigami",
+              "name": "sai-origami",
+              "prompt": "origami style {prompt} . paper art, pleated paper, folded, origami art, pleats, cut and fold, centered composition",
+              "negative_prompt": "noisy, sloppy, messy, grainy, highly detailed, ultra textured, photo",
+              "description": "SAI 风格 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_sai.json",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：origami / origami",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "fooocus_twri_papercraftcollage",
+              "name": "papercraft-collage",
+              "prompt": "collage style {prompt} . mixed media, layered, textural, detailed, artistic",
+              "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic",
+              "description": "TWRI SDXL 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_twri.json",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：papercraft / papercraft",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "fooocus_twri_papercraftflat_papercut",
+              "name": "papercraft-flat papercut",
+              "prompt": "flat papercut style {prompt} . silhouette, clean cuts, paper, sharp edges, minimalist, color block",
+              "negative_prompt": "3D, high detail, noise, grainy, blurry, painting, drawing, photo, disfigured",
+              "description": "TWRI SDXL 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_twri.json",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：papercraft / papercraft",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "fooocus_twri_papercraftkirigami",
+              "name": "papercraft-kirigami",
+              "prompt": "kirigami representation of {prompt} . 3D, paper folding, paper cutting, Japanese, intricate, symmetrical, precision, clean lines",
+              "negative_prompt": "painting, drawing, 2D, noisy, blurry, deformed",
+              "description": "TWRI SDXL 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_twri.json",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：papercraft / papercraft",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "fooocus_twri_papercraftpaper_mache",
+              "name": "papercraft-paper mache",
+              "prompt": "paper mache representation of {prompt} . 3D, sculptural, textured, handmade, vibrant, fun",
+              "negative_prompt": "2D, flat, photo, sketch, digital art, deformed, noisy, blurry",
+              "description": "TWRI SDXL 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_twri.json",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：papercraft / papercraft",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "fooocus_twri_papercraftpaper_quilling",
+              "name": "papercraft-paper quilling",
+              "prompt": "paper quilling art of {prompt} . intricate, delicate, curling, rolling, shaping, coiling, loops, 3D, dimensional, ornamental",
+              "negative_prompt": "photo, painting, drawing, 2D, flat, deformed, noisy, blurry",
+              "description": "TWRI SDXL 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_twri.json",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：papercraft / papercraft",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "fooocus_twri_papercraftpapercut_collage",
+              "name": "papercraft-papercut collage",
+              "prompt": "papercut collage of {prompt} . mixed media, textured paper, overlapping, asymmetrical, abstract, vibrant",
+              "negative_prompt": "photo, 3D, realistic, drawing, painting, high detail, disfigured",
+              "description": "TWRI SDXL 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_twri.json",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：papercraft / papercraft",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "fooocus_twri_papercraftpapercut_shadow_box",
+              "name": "papercraft-papercut shadow box",
+              "prompt": "3D papercut shadow box of {prompt} . layered, dimensional, depth, silhouette, shadow, papercut, handmade, high contrast",
+              "negative_prompt": "painting, drawing, photo, 2D, flat, high detail, blurry, noisy, disfigured",
+              "description": "TWRI SDXL 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_twri.json",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：papercraft / papercraft",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "fooocus_twri_papercraftstacked_papercut",
+              "name": "papercraft-stacked papercut",
+              "prompt": "stacked papercut art of {prompt} . 3D, layered, dimensional, depth, precision cut, stacked layers, papercut, high contrast",
+              "negative_prompt": "2D, flat, noisy, blurry, painting, drawing, photo, deformed",
+              "description": "TWRI SDXL 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_twri.json",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：papercraft / papercraft",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "fooocus_twri_papercraftthick_layered_papercut",
+              "name": "papercraft-thick layered papercut",
+              "prompt": "thick layered papercut art of {prompt} . deep 3D, volumetric, dimensional, depth, thick paper, high stack, heavy texture, tangible layers",
+              "negative_prompt": "2D, flat, thin paper, low stack, smooth texture, painting, drawing, photo, deformed",
+              "description": "TWRI SDXL 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_twri.json",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：papercraft / papercraft",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            }
+          ]
+        },
+        {
+          "id": "crafts_textile",
+          "name": "纺织刺绣",
+          "presets": [
+            {
+              "id": "opennana_prompt-105",
+              "name": "刺绣logo",
+              "type": "prompt",
+              "prompt": "{subject}, A hyperrealistic embroidered textile artwork of the [SUBJECT], created with colored thread and soft fabric textures. The design features dense, tactile stitching and raised embroidery that mimics the actual form and branding. Set against a plain, off-white fabric background, with clean studio lighting and a sharp close-up view. Emphasize threadwork, texture, and handmade imperfections for a realistic soft sculpture look.",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/105.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：刺绣 / 刺绣",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "opennana_prompt-103",
+              "name": "刺绣风格",
+              "type": "prompt",
+              "prompt": "{subject}, {\n  \"title\": \"Adaptive Embroidered Brooch Prompt Generator\",\n  \"version\": \"2.0\",\n  \"description\": \"Generate a prompt for an embroidered brooch based on text description or uploaded image.\",\n  \"inputs\": {\n    \"reference_mode\": {\n      \"type\": \"select\",\n      \"label\": \"Reference Source\",\n      \"options\": [\"describe manually\", \"use uploaded image\", \"combine both\"],\n      \"default\": \"describe manually\"\n    },\n    \"theme_text\": {\n      \"type\": \"text\",\n      \"label\": \"Describe the Theme or Motif\",\n      \"placeholder\": \"e.g. an owl in a forest, biomechanical skull, dancing figures\"\n    },\n    \"image_reference_description\": {\n      \"type\": \"text\",\n      \"label\": \"Describe what's in the uploaded image (if using image mode)\",\n      \"placeholder\": \"e.g. a mechanical skull with succulents growing from it\"\n    },\n    \"shape\": {\n      \"type\": \"select\",\n      \"label\": \"Brooch Shape\",\n      \"options\": [\"circular\", \"oval\", \"square\", \"irregular\"],\n      \"default\": \"oval\"\n    },\n    \"style\": {\n      \"type\": \"select\",\n      \"label\": \"Embroidery Style\",\n      \"options\": [\n        \"traditional\", \n        \"folkloric\", \n        \"surreal\", \n        \"biomech-organic fusion\", \n        \"modern minimal\"\n      ],\n      \"default\": \"traditional\"\n    },\n    \"color_palette\": {\n      \"type\": \"select\",\n      \"label\": \"Color Palette\",\n      \"options\": [\n        \"earth tones and muted greens\",\n        \"pastel shades\",\n        \"neon surreal\",\n        \"rusted metal and white florals\",\n        \"monochrome with silver threads\"\n      ],\n      \"default\": \"earth tones and muted greens\"\n    }\n  },\n  \"prompt_template\": \"{final_theme} hand-embroidered brooch, {style} style, crafted with intricate threadwork and metallic accents, soft wool and silk embroidery, fine beadwork outlining the {shape} shape, natural color palette ({color_palette}), macro shot on neutral linen or stone background, ultra-detailed artisan aesthetic, realistic embroidery textures, soft atmospheric lighting --ar 1:1 --style raw --v 6 --q 2\",\n  \"logic\": {\n    \"final_theme\": {\n      \"if\": \"reference_mode == 'describe manually'\",\n      \"value\": \"{theme_text}\"\n    },\n    \"final_theme_alt\": {\n      \"if\": \"reference_mode == 'use uploaded image'\",\n      \"value\": \"{image_reference_description}\"\n    },\n    \"final_theme_combined\": {\n      \"if\": \"reference_mode == 'combine both'\",\n      \"value\": \"{theme_text} and elements from: {image_reference_description}\"\n    }\n  }\n}",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/103.png",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：刺绣 / 刺绣",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "opennana_prompt-8",
+              "name": "刺绣插图风格",
+              "type": "prompt",
+              "prompt": "{subject}, A handcrafted illustration that simulates traditional embroidery using colorful threads on linen fabric. All elements are “stitched” with visible yarn textures, using techniques like satin stitch, backstitch, and French knots. Raised contours and directional thread flow create a tactile, cozy appearance. The background is made of woven linen, with gentle pastel or folk-inspired colors. The composition is friendly and magical, evoking a storybook charm. Include decorative details such as flowers, suns, clouds, trees or symbols to enhance the folk embroidery style.",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/8.png",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：刺绣 / 刺绣",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "opennana_prompt-154",
+              "name": "五颜六色的针织",
+              "type": "prompt",
+              "prompt": "{subject}, 一个 [OBJECT] 的超现实主义、艺术渲染，完全包裹在五颜六色、紧密编织的纱线和绣花线中。表面覆盖着复杂、细致的纺织图案 - 针织、编织和编织，具有各种纹理。[OBJECT] 的每个部分都用鲜艳、高饱和度的颜色分割，包括电光蓝、亮橙色、鲜艳的绿色、品红色和金黄色。纱线遵循 [OBJECT] 的轮廓，以分层刺绣突出其形状。场景被戏剧性地照亮，柔和的聚光灯投下阴影以强调 3D 深度和触觉表面。背景是一个纯色的深色渐变，用于将全部焦点吸引到纹理和颜色上。风格融合了超现实主义和纤维艺术，展示了极端的细节和深度",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/154.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：针织 / 针织",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "opennana_prompt-294",
+              "name": "钩针玩偶",
+              "type": "prompt",
+              "prompt": "{subject}, 制作一张 3D 超写实风格、细节丰富的阿米古米（Amigurumi，即钩针玩偶）风格海报。设计需模拟手工钩织的 [动物名称] 造型，呈现出清晰可见的毛线纹理、钩针缝线细节，以及柔软蓬松的整体比例。\n运用写实的织物阴影效果、细微的毛绒质感与自然光线，打造画面层次感。该阿米古米玩偶需搭配小巧的刺绣眼睛与简约的面部造型，置于中性风格的工作室场景中，辅以柔和阴影，呈现专业的展示效果。背景：灰色调",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/294.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：刺绣",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "crafts": [
+                    "刺绣",
+                    "手工"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "opennana_taiwan-idol-red-beanie-pearl-jewelry-portrait",
+              "name": "红色针织帽珍珠饰品台湾偶像人像",
+              "type": "prompt",
+              "prompt": "{subject}, 一个20岁出头的台湾年轻偶像的特写肖像，拥有柔软的瓷质皮肤、自然的纹理和细微的毛孔，鼻梁和脸颊散布着精致的雀斑，柔和的桃色腮红，长长的黑色睫毛，以及略微张开的亮泽丰盈双唇。她留着深棕色长直发，垂在一侧肩膀上。她戴着一顶拉得很低并盖住额头的红色粗线钩针针织帽，侧面装饰着一个小巧的白色珍珠蝴蝶结别针。长长的多串珍珠耳坠垂在耳边，一条配套的长珍珠项链贴在她的锁骨上。她穿着一件柔软的白色毛茸茸针织毛衣，带有略微宽松的质感。她的右手轻轻抬起贴在脸颊上，手指轻触脸庞，姿势柔和亲密，目光温柔地看向镜头，表情平静而梦幻。\n\n来自侧面的柔和漫射自然窗光，柔和的阴影，皮肤和珍珠上的奶油色高光，轻微的胶片颗粒，怀旧的模拟美学，Fujifilm Pro 400H 模拟，软焦，浅景深，高时尚美容编辑风格，亲密而细腻的氛围，85mm 镜头，照片写实，极尽详细的皮肤和织物纹理。",
+              "negative_prompt": "",
+              "description": "Grok",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202608/1786370805824-bzaju1bv-1786370806928-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：针织 / 针织",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "opennana_prompt-7",
+              "name": "刺绣肖像",
+              "type": "prompt",
+              "prompt": "{subject}, An embroidered portrait of Elon Musk, stitched with rich steel grey and electric blue thread on deep linen fabric. Visible needlework, layered textures, and handmade patterns give it an earthy, sacred feel.",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/7.png",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：刺绣 / 刺绣",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "fooocus_marc_k3nt3l_mk_crossstitching",
+              "name": "MK Cross-Stitching",
+              "prompt": "Cross-stitching {prompt}. Intricate patterns, embroidery thread, sewing, fine details, precise stitches, textile artistry, symmetrical designs, varied color palette, traditional and contemporary motifs, handmade and crafted,canvas, nostalgic charm.",
+              "negative_prompt": "paper, paint, ink, photography.",
+              "description": "Marc K3nt3L 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_marc_k3nt3l.json",
+              "classification": {
+                "method": "rules",
+                "stage": "content",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "正文任务及独立佐证＋子类证据：embroidery",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0",
+                "evidence": {
+                  "crafts": [
+                    "embroidery",
+                    "handmade",
+                    "stitches"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "fooocus_marc_k3nt3l_mk_embroidery",
+              "name": "MK Embroidery",
+              "prompt": "Embroidery {prompt}. Intricate stitching, embroidery thread, fine details, varied thread textures, textile artistry, embellished surfaces, diverse color palette, traditional and contemporary motifs, handmade and crafted, tactile and ornate.",
+              "negative_prompt": "minimalist, monochromatic.",
+              "description": "Marc K3nt3L 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_marc_k3nt3l.json",
+              "thumbnail": "/api/thumbnails/fooocus_marc_k3nt3l_mk_embroidery.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：Embroidery / Embroidery",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            }
+          ]
+        },
+        {
+          "id": "crafts_wood",
+          "name": "木作雕刻",
+          "presets": [
+            {
+              "id": "opennana_prompt-286",
+              "name": "Q版木雕人偶",
+              "type": "prompt",
+              "prompt": "{subject}, 超写实[人物]木雕人偶，Q版比例（大头短身），站立于一块普通木块上。保留关键面部特征和标志性[服装/道具]。木纹和凿痕清晰可见，哑光饰面。工作室暖光，柔和阴影，米色背景浑然一体。全身居中，略微3/4视角，浅景深（85毫米画质）。细节丰富，照片级写实，暖棕褐色调。宽高比为[3:4]。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/286.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：木雕 / 木雕",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            }
+          ]
+        },
+        {
+          "id": "crafts_metal",
+          "name": "金属工艺",
+          "presets": [
+            {
+              "id": "opennana_prompt-104",
+              "name": "珐琅马赛克瓷砖风格",
+              "type": "prompt",
+              "prompt": "{subject}, Visualize any selected emoji [] as an ultra-detailed, hyper-realistic 3D sculpture fully composed of luxurious enamel mosaic tiles. The emoji should retain its iconic silhouette and proportions, reinterpreted as a stylized 3D figure made entirely from curved, faceted, and geometrically interlocked enamel tiles in a radiant mosaic pattern.\n> Use high-gloss enamel tiles in varied shades derived from the emoji’s symbolic palette—integrating metallic accents, opalescent glazes, deep ceramic pigmentation, and subtle iridescence. Tile surfaces must exhibit gentle bevels, crisp joints, and tactile depth to emulate elite architectural mosaic work.\n> Ensure no visible support structures—the figure must appear freestanding and weightless, suspended mid-air at the exact center of the frame.\n> Background: pure white studio environment with soft ambient shadows directly beneath the sculpture to emphasize spatial presence and floating realism.\n> Lighting: cinematic, diffused from multiple angles to",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/104.png",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：珐琅 / 珐琅",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            },
+            {
+              "id": "fooocus_marc_k3nt3l_mk_vitreous_enamel",
+              "name": "MK Vitreous Enamel",
+              "prompt": "A sculpture made of Vitreous enamel {prompt}. Smooth and glossy surfaces, vibrant colors, glass-like finish, durable and resilient, intricate detailing, traditional and contemporary applications, artistic craftsmanship, jewelry and decorative objects, , Vitreous enamel, colored glass.",
+              "negative_prompt": "rough surfaces, muted colors.",
+              "description": "Marc K3nt3L 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_marc_k3nt3l.json",
+              "thumbnail": "/api/thumbnails/fooocus_marc_k3nt3l_mk_vitreous_enamel.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：Vitreous Enamel / Vitreous Enamel",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            }
+          ]
+        },
+        {
+          "id": "crafts_fiber",
+          "name": "毛毡绳结",
+          "presets": [
+            {
+              "id": "opennana_ultra-felt-girl-cat",
+              "name": "手工羊毛毡女孩与猫",
+              "type": "prompt",
+              "prompt": "{subject}, 超精细特写肖像，一位手工毡制玩偶女孩抱着一只橙色小毡猫，柔软羊毛质地，针毡风格，大而富有表现力的蓝色眼睛配精致睫毛，苍白肌肤上的温和雀斑，温暖舒适氛围，金色纱线头发有松散发丝勾勒脸庞，可见逼真毡纤维，柔和色调，浅景深，电影感柔光，超写实微缩艺术，异想天开且富有情感的面部表情，工作室级品质，8K，微距摄影观感",
+              "negative_prompt": "",
+              "description": "Grok",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202601/1769441393867-q50fy8su-1.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：羊毛毡 / 羊毛毡",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2+content-1.1.0"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

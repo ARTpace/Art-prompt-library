@@ -43,8 +43,11 @@ def main():
             'sizeBytes': sum(f.stat().st_size for f in files),
             'sha256': {f.name: hashlib.sha256(f.read_bytes()).hexdigest() for f in files},
             'classificationSummary': dict(statuses), 'emptyPromptIds': empty,
+            'replaces': manifest.get('replaces', []),
+            'order': manifest.get('order', 500),
         })
     assert entries, '没有可发布的数据'
+    entries.sort(key=lambda entry: (entry['order'], entry['packId']))
     catalog = {'schema': 1, 'name': 'Art Prompt Library', 'totalEntries': len(all_ids), 'packs': entries}
     (ROOT / 'catalog.json').write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print(json.dumps({'packs': len(entries), 'entries': len(all_ids), 'classification': [e['classificationSummary'] for e in entries]}, ensure_ascii=False))
