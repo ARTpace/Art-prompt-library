@@ -33,6 +33,36 @@ class StyleTitleClassifyTests(unittest.TestCase):
         classifier.write_json(self.source / 'pack.json', manifest)
         classifier.write_json(self.source / 'misc.json', {'categories': [{'id': 'misc', 'subcategories': [{'id': 'misc', 'presets': items}]}]})
 
+    def test_default_title_only_ignores_content_and_historical_body_classification(self):
+        self.make_pack()
+        path = self.source / 'misc.json'
+        data = json.loads(path.read_text(encoding='utf-8'))
+        cat = data['categories'][0]
+        cat['id'] = 'photography'
+        cat['subcategories'][0]['id'] = 'photography_portrait'
+        items = cat['subcategories'][0]['presets']
+        for item in items:
+            item['name'] = '梦境之光'
+            item['prompt'] = 'A portrait photograph of a person, 85mm lens, studio lighting.'
+            item['classification'] = {'method':'manual', 'status':'reviewed', 'stage':'content'}
+        classifier.write_json(path, data)
+        manifest = json.loads((self.source / 'pack.json').read_text(encoding='utf-8'))
+        manifest['categories'][0]['id'] = 'photography'
+        classifier.write_json(self.source / 'pack.json', manifest)
+        from unittest.mock import patch
+        with patch.object(classifier, 'load_content_rules', side_effect=AssertionError('正文规则不得加载')), patch.object(classifier, 'classify_content', side_effect=AssertionError('正文不得参与判断')):
+            report = classifier.run([self.source], self.output, write_files=True)
+        self.assertFalse(report['content_enabled'])
+        self.assertEqual(report['content_attempted'], 0)
+        self.assertEqual(report['preserved'], 0)
+        self.assertEqual(report['resolution'], {'unresolved':4})
+        self.assertFalse((self.output / 'pending-content.jsonl').exists())
+        pending = [json.loads(line) for line in (self.output / 'pending-titles.jsonl').read_text(encoding='utf-8').splitlines()]
+        self.assertTrue(all('prompt' not in row for row in pending))
+        _, records = classifier.read_pack(Path(report['directories'][0]))
+        self.assertTrue(all(row['item']['classification']['stage'] == 'title' for row in records))
+        self.assertTrue(all(row['item']['prompt'] == items[0]['prompt'] for row in records))
+
     def test_three_way_routing_and_conflicts(self):
         cases = [('自然光人像摄影', 'photography_portrait', 'resolved'),
                  ('摄影实验合集', 'photography_pending', 'category_only'),
@@ -82,7 +112,7 @@ class StyleTitleClassifyTests(unittest.TestCase):
         manifest = json.loads((self.source / 'pack.json').read_text(encoding='utf-8'))
         manifest['categories'][0]['id'] = 'photography'
         classifier.write_json(self.source / 'pack.json', manifest)
-        report = classifier.run([self.source], self.output, write_packs=True)
+        report = classifier.run([self.source], self.output, write_packs=True, use_content=True)
         self.assertEqual(report['preserved'], 1)
         _, records = classifier.read_pack(Path(report['packs'][0]))
         item = next(r for r in records if r['item_id'] == '2')
@@ -207,13 +237,13 @@ class StyleTitleClassifyTests(unittest.TestCase):
             item['name'] = '梦境之光'
             item['prompt'] = 'A portrait photograph of a person, 85mm lens, studio lighting.'
         classifier.write_json(path, data)
-        report = classifier.run([self.source], self.output, write_packs=True)
+        report = classifier.run([self.source], self.output, write_packs=True, use_content=True)
         self.assertEqual(report['resolution'], {'resolved': 4})
         self.assertEqual(report['title_resolution'], {'unresolved': 4})
         self.assertEqual(report['content_unique_evaluations'], 1)
         self.assertEqual(report['content_reuse_hits'], 3)
         self.assertEqual(report['ai_calls'], 0)
-        self.assertEqual(classifier.run([self.source], self.output)['cache_hits'], 4)
+        self.assertEqual(classifier.run([self.source], self.output, use_content=True)['cache_hits'], 4)
         title_only = classifier.run([self.source], self.output, use_content=False)
         self.assertEqual(title_only['cache_hits'], 0)
         self.assertEqual(title_only['resolution'], {'unresolved': 4})
@@ -222,7 +252,7 @@ class StyleTitleClassifyTests(unittest.TestCase):
         self.assertTrue(all(row['item']['classification']['status'] == 'suggested' for row in records))
         items[0]['name'] = '插画实验合集'
         classifier.write_json(path, data)
-        scoped = classifier.run([self.source], self.output)
+        scoped = classifier.run([self.source], self.output, use_content=True)
         self.assertEqual(scoped['content_unique_evaluations'], 2)
         self.assertEqual(scoped['content_reuse_hits'], 2)
         self.assertEqual(scoped['resolution'], {'category_only': 1, 'resolved': 3})

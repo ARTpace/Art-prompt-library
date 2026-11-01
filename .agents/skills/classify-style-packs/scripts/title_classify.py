@@ -1,4 +1,4 @@
-"""离线标题＋正文规则分类：不调用 AI、不改输入；--write-files 写 JSON 目录，--write-packs 另行打包。"""
+"""离线风格分类（默认仅标题）：不调用 AI、不改输入；--write-files 写 JSON 目录，--write-packs 另行打包。"""
 import argparse
 from collections import Counter
 from copy import deepcopy
@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[4]
 RULE_FILE = Path(__file__).with_name('title_rules.json')
 TAXONOMY = ROOT / 'docs' / 'style-pack-taxonomy-v1.md'
 CONTENT_RULE_FILE = Path(__file__).with_name('content_rules.json')
-ENGINE_VERSION = '2.1.0'
+ENGINE_VERSION = '2.2.0'
 
 
 def digest(value):
@@ -285,7 +285,7 @@ def create_pack(manifest, records, assignments, taxonomy, destination, directory
     return str(target.resolve())
 
 
-def run(inputs, output, write_packs=False, rule_file=RULE_FILE, use_content=True, content_rule_file=CONTENT_RULE_FILE, write_files=False):
+def run(inputs, output, write_packs=False, rule_file=RULE_FILE, use_content=False, content_rule_file=CONTENT_RULE_FILE, write_files=False):
     started = time.perf_counter()
     for path in inputs:
         if path.is_dir() and output.resolve().is_relative_to(path.resolve()):
@@ -318,10 +318,10 @@ def run(inputs, output, write_packs=False, rule_file=RULE_FILE, use_content=True
                 row = previous
                 cache_hits += 1
             else:
-                preserve = valid_old and (old_classification.get('status') == 'reviewed' or (old_classification.get('stage') == 'content' and old_classification.get('method') != 'rules'))
+                preserve = valid_old and ((old_classification.get('stage') == 'title' and old_classification.get('status') == 'reviewed') or (use_content and (old_classification.get('status') == 'reviewed' or (old_classification.get('stage') == 'content' and old_classification.get('method') != 'rules'))))
                 decision = ({'new_category': record['old_category'], 'new_subcategory': record['old_subcategory'],
                              'resolution': old_classification.get('resolution') or ('unresolved' if record['old_category'] == 'uncategorized' else 'category_only' if record['old_subcategory'].endswith('_pending') else 'resolved'),
-                             'reason': '保留已有人工审核或正文分类'} if preserve else classify_title(item.get('name', ''), rules))
+                             'reason': '保留已有审核（符合当前证据模式）'} if preserve else classify_title(item.get('name', ''), rules))
                 title_resolution = decision['resolution']
                 content_attempted = False
                 if use_content and not preserve and decision['resolution'] != 'resolved' and item['prompt'].strip():
@@ -352,10 +352,13 @@ def run(inputs, output, write_packs=False, rule_file=RULE_FILE, use_content=True
             if row['resolution'] != 'resolved':
                 pending.append({'record_key': key, 'item_id': record['item_id'], 'title': item.get('name', ''),
                                 'category': row['new_category'], 'subcategory': row['new_subcategory'],
-                                'resolution': row['resolution'], 'reason': row['reason'], 'prompt': item['prompt']})
+                                'resolution': row['resolution'], 'reason': row['reason'], **({'prompt': item['prompt']} if use_content else {})})
     write_jsonl(cached_path, rows)
     write_jsonl(output / 'pending-titles.jsonl', ({key: value for key, value in row.items() if key != 'prompt'} for row in pending))
-    write_jsonl(output / 'pending-content.jsonl', pending)
+    if use_content:
+        write_jsonl(output / 'pending-content.jsonl', pending)
+    else:
+        (output / 'pending-content.jsonl').unlink(missing_ok=True)
     packages = []
     directories = []
     invalid_items = [{'record_key': row['record_key'], 'item_id': row['item_id'], 'fields': row['invalid_fields']} for row in rows if row['invalid_fields']]
@@ -383,7 +386,7 @@ def run(inputs, output, write_packs=False, rule_file=RULE_FILE, use_content=True
                'packs': packages, 'directories': directories,
                'write_blocked': bool((write_packs and (conflicts or invalid_items)) or (write_files and conflicts)),
                'elapsed_seconds': round(time.perf_counter() - started, 3), 'ai_calls': 0,
-               'note': '本地规则建议，不代表语义分类准确率或人工审核；正文仅匹配正向子句'}
+               'note': '本地规则建议，不代表人工审核；仅按标题判断，正文只保留与校验' if not use_content else '本地规则建议，不代表人工审核；正文辅助已显式启用'}
     write_json(output / 'summary.json', summary)
     return summary
 
@@ -395,10 +398,12 @@ def main():
     parser.add_argument('--rules', type=Path, default=RULE_FILE)
     parser.add_argument('--write-packs', action='store_true', help='额外生成分类后的 ZIP 副本，不安装')
     parser.add_argument('--write-files', action='store_true', help='写出分类后的可编辑 JSON 目录，不打包；空正文保留并报告')
-    parser.add_argument('--title-only', action='store_true', help='只按标题初筛，不启用正文辅助')
+    mode = parser.add_mutually_exclusive_group()
+    mode.add_argument('--title-only', action='store_true', help='仅按标题分类（默认），不启用正文辅助')
+    mode.add_argument('--content-assisted', action='store_true', help='显式启用历史正文辅助；仅在用户明确要求时使用')
     parser.add_argument('--content-rules', type=Path, default=CONTENT_RULE_FILE)
     args = parser.parse_args()
-    summary = run(args.input, args.output, args.write_packs, args.rules, not args.title_only, args.content_rules, args.write_files)
+    summary = run(args.input, args.output, args.write_packs, args.rules, args.content_assisted, args.content_rules, args.write_files)
     print(json.dumps(summary, ensure_ascii=False, indent=2))
     if summary['write_blocked']:
         raise SystemExit('跨包冲突或不完整条目已记录；未生成分类包')

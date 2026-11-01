@@ -38,7 +38,7 @@
 1. 对指定原始目录或平台包执行分类 Skill 的脚本：
 
    ```powershell
-   python -X utf8 .agents/skills/classify-style-packs/scripts/title_classify.py --input packs/platform-chatgpt --output artifacts/title-classification/新批次 --write-files
+   python -X utf8 .agents/skills/classify-style-packs/scripts/title_classify.py --input packs/platform-chatgpt --output artifacts/title-classification/新批次 --title-only --write-files
    ```
 
 2. 核对报告和 `classified/<packId>/`，不确定项保留 pending。只更新受影响的平台文件和版本；ID、完整正文和未知扩展字段保留。

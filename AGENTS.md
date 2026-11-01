@@ -12,3 +12,5 @@
 - 画师、角色资产统一在本仓库维护；流程见 `docs/artist-character-maintenance.md`。`libraries/` 为两类发布资产，`config/` 为发布配置；根 catalog 按 kind 区分 styles / artists / characters / tags，统一通过 scripts/build_catalog.py 发布。
 
 - 标签包独立维护于 `libraries/tags/`；来源、ID 保留及发布流程见 `docs/tag-packs.md`，不得用风格包替代标签包。
+
+- 风格分类当前仅以标题（name）为依据；正文只保留和做完整性校验，不用于判断或传播分类。标题不确定时保留 pending，禁止默认正文辅助或沿用旧正文分类。
