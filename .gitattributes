@@ -1,0 +1,2 @@
+# 保留 JSON 原始字节，避免 Windows Git 换行转换导致 catalog 的 SHA256 失效。
+*.json -text

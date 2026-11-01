@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "name": "Art Prompt Library",
+  "totalEntries": 22248,
+  "packs": [
+    {
+      "packId": "art-canvas-core",
+      "name": "内置风格库",
+      "version": "1.0.1",
+      "entryCount": 22248,
+      "description": "随安装包分发的基础风格提示词库",
+      "path": "packs/art-canvas-core",
+      "categoryCount": 10,
+      "sizeBytes": 57441508,
+      "sha256": {
+        "pack.json": "9a526202c40d87f72fa197941d1226169865ea21e34401eb7e3946d3a6ace156",
+        "photography.json": "8a5b5e7a9627651e59dd82d0b47eb60da1be16ca785dc6b42bfa86472046f531",
+        "anime_manga.json": "4a2f7965a387624b52753e6493280b4e30c51e1b5758eb88da8cec799cbb5b9a",
+        "painting.json": "f5afdfc7b6861c0bb75ddb4874c2f4bf8a12af4211cbba53b8eb67e0cc856ab7",
+        "digital_3d.json": "f169f5b65f2cff487e3b855980bc3ffda3da7eea583e163318414fea0d4ee25a",
+        "commercial.json": "8bfe210b8fda4c533eaae4c3cbabfdb3b2b9909c1353644a2bfdab9c9f5ecd78",
+        "film_cinema.json": "f6b135b6a65e0baac51e42aa472154ce3edb362006396b69ba7b6ad42938b7f0",
+        "crafts.json": "c989a5a72113eb4aa40c901ca0750738b99f86d41ffe4adddbcf7fb2d206e1c7",
+        "art_movements.json": "ac09530e345af5b5b58b65ea2cb0fc74b2697b8101e23231dfdc3cf0f777dc8d",
+        "general.json": "2c08b884168832f7b5d4866e43d763ac442a3fc85acc096ede4abc9c71a8a765",
+        "uncategorized.json": "78e8eedd908debf73e6893936352d18f2df5327282785b465df376cb1167c853"
+      },
+      "classificationSummary": {
+        "resolved": 9620,
+        "category_only": 5782,
+        "unresolved": 6846
+      },
+      "emptyPromptIds": [
+        "fooocus_fooocus_fooocus_enhance",
+        "fooocus_fooocus_fooocus_negative"
+      ]
+    }
+  ]
+}
