@@ -30,10 +30,10 @@ python -X utf8 tools/character_pack_split.py verify
 
 ## 主工具消费
 
-现有主工具的种子数据、`static/app/characters.json` 回退文件、特征映射以及 `dist/*-packs` 是运行/构建副本，迁移未删除或改写。后续维护只改本仓库。
+画师与角色库不再内置任何资产，精华包也从仓库显式安装、更新和卸载。主工具仅扫描用户已安装目录，不加载旧种子目录或旧单文件回退数据；未安装时显示空库。
 
-主工具「内容包管理」统一按风格、画师、角色分类，支持 GitHub 仓库按包安装与检查更新，校验逐文件 SHA256 后调用对应类型的安全导入器。界面不再提供本地 ZIP 安装入口。已安装的内置基础包仍由程序管理；可选包可单独更新、卸载。
+主工具「内容包管理」统一按风格、画师、角色分类，支持 GitHub 按包安装与检查更新，校验逐文件 SHA256 后调用对应类型的安全导入器。界面不提供本地 ZIP 安装入口。
 
-更新主工具打包资产时，将 `libraries/artists/artists-seed` 复制到主工具 `data/artist-packs/artists-seed`，将 `libraries/characters/characters-seed` 复制到 `data/character-packs/characters-seed`；两个目录的 ZIP 与 catalog 分别复制到主工具 `dist/artist-packs`、`dist/character-packs`。如更新特征配置，同步 `config/character-features.json` 到主工具 `data/character-features.json`。这些是发布产物同步，不应恢复采集脚本。
+不要再将种子目录、ZIP 或 catalog 复制进主工具，构建脚本已排除这些资产。发布时在本仓库执行拆包及 `scripts/build_catalog.py`，然后发布变更；特征配置仍为主工具运行配置。旧内置资产和回退文件本机归档于 `artifacts/backups/removed-artist-character-builtins-20261101/`，不进 Git。
 
 首次迁移核验：画师源 42,197 条，按既有规则归一去重后 42,189 条（原始数据保留）；角色 36,492 条。三档包均逐字段还原核验通过。
