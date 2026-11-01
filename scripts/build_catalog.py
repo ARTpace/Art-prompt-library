@@ -2,9 +2,48 @@
 from collections import Counter
 import hashlib
 import json
+import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+
+
+def content_entries():
+    entries = []
+    for kind, folder in [('artists', 'artists'), ('characters', 'characters')]:
+        base = ROOT / 'libraries' / folder
+        for archive in sorted(base.glob('*.zip')):
+            # Splitters emit one flat JSON directory per pack; reject unexpected members.
+            with zipfile.ZipFile(archive) as zf:
+                for name in zf.namelist():
+                    parts = name.split('/')
+                    assert len(parts) == 2 and parts[0] == archive.stem and parts[1].endswith('.json')
+                    assert Path(parts[1]).name == parts[1] and '\\' not in parts[1] and '..' not in parts[1]
+                    target = base / archive.stem / parts[1]
+                    target.parent.mkdir(parents=True, exist_ok=True)
+                    target.write_bytes(zf.read(name))
+        for path in sorted(base.glob('*/pack.json')):
+            manifest = json.loads(path.read_text(encoding='utf-8'))
+            assert manifest['kind'] == kind and manifest['packId'] == path.parent.name
+            files = sorted(path.parent.glob('*.json'))
+            index = json.loads((path.parent / 'index.json').read_text(encoding='utf-8'))
+            ids = [item['id'] for item in index['items']]
+            assert len(ids) == len(set(ids)) == manifest['entryCount']
+            if kind == 'characters':
+                import sys
+                sys.path.insert(0, str(ROOT / 'tools'))
+                from library_formats.paths import detail_filename, detail_shard_of
+                shards = {f.name: json.loads(f.read_text(encoding='utf-8')) for f in files if f.name.startswith('detail-')}
+                assert all(cid in shards[detail_filename(detail_shard_of(cid))] for cid in ids)
+            entries.append({
+                **{key: manifest[key] for key in ('packId', 'name', 'version', 'kind', 'entryCount')},
+                'description': manifest.get('description', ''),
+                'path': path.parent.relative_to(ROOT).as_posix(),
+                'order': manifest.get('order', 500),
+                'sizeBytes': sum(f.stat().st_size for f in files),
+                'sha256': {f.name: hashlib.sha256(f.read_bytes()).hexdigest() for f in files},
+            })
+    return entries
 
 
 def main():
@@ -47,10 +86,11 @@ def main():
             'order': manifest.get('order', 500),
         })
     assert entries, '没有可发布的数据'
+    entries.extend(content_entries())
     entries.sort(key=lambda entry: (entry['order'], entry['packId']))
-    catalog = {'schema': 1, 'name': 'Art Prompt Library', 'totalEntries': len(all_ids), 'packs': entries}
+    catalog = {'schema': 1, 'name': 'Art Prompt Library', 'totalEntries': sum(e['entryCount'] for e in entries), 'packs': entries}
     (ROOT / 'catalog.json').write_bytes((json.dumps(catalog, ensure_ascii=False, indent=2) + '\n').encode('utf-8'))
-    print(json.dumps({'packs': len(entries), 'entries': len(all_ids), 'classification': [e['classificationSummary'] for e in entries]}, ensure_ascii=False))
+    print(json.dumps({'packs': len(entries), 'entries': sum(e['entryCount'] for e in entries), 'classification': [e['classificationSummary'] for e in entries if 'classificationSummary' in e]}, ensure_ascii=False))
 
 
 if __name__ == '__main__':
