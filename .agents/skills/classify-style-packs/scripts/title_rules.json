@@ -1,0 +1,169 @@
+{
+  "version": "1.1.2",
+  "categories": {
+    "photography": {
+      "pattern": "摄影|写真|棚拍|街拍|证件照|肖像照|\\bphotograph(?:y|ic)?\\b|\\bphoto\\b|\\bheadshot\\b|自拍|照片|胶片感|胶片人像|胶片里的|拍立得|宝丽来|单反|广角镜头|微距特写|超写实.{0,12}(?:肖像|人像)|\\bselfie\\b|\\bpolaroid\\b|\\bfilm portrait\\b|\\bastrophotography\\b",
+      "subcategories": {
+        "photography_portrait": "人像|肖像|证件照|\\bportrait\\b|\\bheadshot\\b|自拍|少女|女郎|女子|男子|肖像|\\bselfie\\b",
+        "photography_fashion": "时装|时尚|服饰|穿搭|\\bfashion\\b",
+        "photography_beauty": "美妆|妆容|美甲|发型|\\bbeauty\\b|\\bmakeup\\b",
+        "photography_family": "家庭|亲子|儿童|婴儿|\\bfamily\\b|\\bbaby\\b",
+        "photography_wedding": "婚礼|婚纱|情侣|\\bwedding\\b",
+        "photography_product": "产品|商品|静物|珠宝|首饰|香水|手表|\\bproduct\\b|\\bstill life\\b",
+        "photography_food": "美食|饮品|菜肴|甜品|食物|咖啡|\\bfood\\b|\\bbeverage\\b|饮料",
+        "photography_architecture": "建筑|室内|家居|\\barchitectur(?:e|al)\\b|\\binterior\\b|工作室照片",
+        "photography_landscape": "风景|风光|山川|山水|海岸|\\blandscape\\b",
+        "photography_city": "城市|地标|旅行|\\bcityscape\\b|\\btravel\\b",
+        "photography_documentary": "纪实|街头|街拍|\\bdocumentary\\b|\\bstreet\\b",
+        "photography_animals": "动物|宠物|猫咪|狗狗|\\banimal\\b|\\bpet\\b|北极狐|狐狸|小猫|小狗|\\bfox\\b|\\bcat\\b|\\bdog\\b",
+        "photography_macro": "微距|\\bmacro\\b",
+        "photography_sports": "运动|赛事|体育|\\bsports?\\b",
+        "photography_vehicles": "汽车|跑车|摩托|列车|\\bautomotive\\b|\\bcar\\b",
+        "photography_astro": "星空|天文|星轨|银河|\\bastrophotography\\b"
+      }
+    },
+    "commercial": {
+      "pattern": "海报|电商|详情页|包装设计|标志设计|品牌标识|社交封面|杂志封面|书籍封面|信息图|界面设计|图标设计|字体设计|吉祥物设计|\\bposter\\b|\\blogo\\b|\\bpackaging design\\b|\\binfographic\\b|\\bUI design\\b|\\bicon design\\b|图表|知识卡|封面设计|贴纸设计|品牌视觉|杂志封面|\\bsticker designs?\\b|\\bbook cover\\b|\\bmagazine cover\\b|\\bpackaging\\b|\\btypography\\b|\\blogotype\\b",
+      "subcategories": {
+        "commercial_brand": "标志设计|品牌标识|\\blogo\\b|品牌视觉|\\blogotype\\b",
+        "commercial_poster": "海报|\\bposter\\b",
+        "commercial_ecommerce": "电商|详情页",
+        "commercial_packaging": "包装设计|\\bpackaging design\\b|\\bpackaging\\b",
+        "commercial_social": "社交封面|视频封面|社媒封面",
+        "commercial_editorial": "书籍封面|杂志封面|画册设计|\\bbook cover\\b|\\bmagazine cover\\b",
+        "commercial_infographic": "信息图|\\binfographic\\b|图表|知识卡",
+        "commercial_ui": "界面设计|\\bUI design\\b",
+        "commercial_icon": "图标设计|\\bicon design\\b",
+        "commercial_typography": "字体设计|艺术字设计|\\btypography\\b",
+        "commercial_ip": "吉祥物设计",
+        "commercial_merch": "贴纸设计|\\bsticker designs?\\b"
+      },
+      "overrides": {
+        "photography": "海报|电商|详情页|包装设计|信息图|图表|知识卡|封面|标志设计|品牌标识|贴纸设计|\\bposter\\b|\\bcover\\b|\\blogo\\b|\\binfographic\\b|\\bpackaging\\b|\\bsticker designs?\\b",
+        "painting": "海报|电商|详情页|包装设计|信息图|图表|知识卡|封面|标志设计|品牌标识|贴纸设计|\\bposter\\b|\\bcover\\b|\\blogo\\b|\\binfographic\\b|\\bpackaging\\b|\\bsticker designs?\\b",
+        "anime_manga": "海报|电商|详情页|包装设计|信息图|图表|知识卡|封面|标志设计|品牌标识|贴纸设计|\\bposter\\b|\\bcover\\b|\\blogo\\b|\\binfographic\\b|\\bpackaging\\b|\\bsticker designs?\\b",
+        "crafts": "海报|电商|详情页|包装设计|信息图|图表|知识卡|封面|标志设计|品牌标识|贴纸设计|\\bposter\\b|\\bcover\\b|\\blogo\\b|\\binfographic\\b|\\bpackaging\\b|\\bsticker designs?\\b",
+        "film_cinema": "海报|电商|详情页|包装设计|信息图|图表|知识卡|封面|标志设计|品牌标识|贴纸设计|\\bposter\\b|\\bcover\\b|\\blogo\\b|\\binfographic\\b|\\bpackaging\\b|\\bsticker designs?\\b",
+        "art_movements": "海报|电商|详情页|包装设计|信息图|图表|知识卡|封面|标志设计|品牌标识|贴纸设计|\\bposter\\b|\\bcover\\b|\\blogo\\b|\\binfographic\\b|\\bpackaging\\b|\\bsticker designs?\\b",
+        "digital_3d": "海报|电商|详情页|包装设计|信息图|图表|知识卡|封面|标志设计|品牌标识|贴纸设计|\\bposter\\b|\\bcover\\b|\\blogo\\b|\\binfographic\\b|\\bpackaging\\b|\\bsticker designs?\\b"
+      }
+    },
+    "anime_manga": {
+      "pattern": "动漫|二次元|漫画|动画关键帧|动画截图|\\banime\\b|\\bmanga\\b|赛璐璐|\\bcel shading\\b|\\bcomic strip\\b|\\bchibi\\b",
+      "subcategories": {
+        "anime_manga_portrait": "头像|\\bavatar\\b",
+        "anime_manga_character": "立绘|\\bcharacter illustration\\b",
+        "anime_manga_model_sheet": "设定表|三视图|转面|表情表|\\bmodel sheet\\b",
+        "anime_manga_comic": "分格|条漫|四格|\\bcomic strip\\b",
+        "anime_manga_chibi": "Q版|Q 版|\\bchibi\\b",
+        "anime_manga_scene": "场景|背景|\\bbackground\\b",
+        "anime_manga_mecha": "机甲|\\bmecha\\b",
+        "anime_manga_animation_frame": "关键帧|动画截图|\\banimation frame\\b",
+        "anime_manga_illustration": "主题插画|\\banime illustration\\b"
+      },
+      "overrides": {
+        "painting": "动漫插画|二次元插画|动漫主题插画|\\banime illustration\\b"
+      },
+      "sub_overrides": {
+        "anime_manga_model_sheet": [
+          "anime_manga_character"
+        ]
+      }
+    },
+    "painting": {
+      "pattern": "油画|水彩|水粉|水墨|国画|素描|速写|线描|钢笔画|蜡笔画|色粉画|彩铅画|丙烯画|数字绘画|儿童绘本|植物图鉴|木刻版画|插画|\\bwatercolor\\b|\\boil painting\\b|\\bsketch\\b|\\billustration\\b|\\bwatercolour\\b|\\bacrylic painting\\b|\\bgouache\\b|\\bink painting\\b|\\bpen drawing\\b|\\bpencil sketch\\b|\\bpastel drawing\\b|\\bwoodcut\\b|\\blithograph\\b|\\bprintmaking\\b|\\bcolored pencil\\b|\\bdigital painting\\b|干刷|版画|墨流|浮世绘|\\bsuminagashi\\b",
+      "subcategories": {
+        "painting_oil": "油画|\\boil painting\\b",
+        "painting_watercolor": "水彩|水粉|\\bwatercolor\\b|\\bwatercolour\\b|\\bgouache\\b",
+        "painting_ink": "水墨|国画|\\bink painting\\b|墨流|\\bsuminagashi\\b",
+        "painting_sketch": "素描|速写|\\bsketch\\b",
+        "painting_line": "线描|钢笔画|\\bpen drawing\\b",
+        "painting_pastel": "蜡笔画|色粉画|彩铅画|\\bpastel drawing\\b|\\bcolored pencil\\b",
+        "painting_gouache_acrylic": "丙烯画|\\bacrylic painting\\b",
+        "painting_digital": "数字绘画|\\bdigital painting\\b",
+        "painting_children": "儿童绘本|童书插画",
+        "painting_botanical": "植物图鉴|博物图鉴",
+        "painting_printmaking": "木刻版画|铜版画|\\bprintmaking\\b|\\bwoodcut\\b|\\blithograph\\b|浮世绘|版画"
+      }
+    },
+    "digital_3d": {
+      "pattern": "三维|3D|渲染|建模|手办|盲盒|等距场景|\\brender(?:ing)?\\b|\\bdiorama\\b|等距视角|微缩立体|\\bisometric\\b|\\b3d\\b|\\blow.poly\\b|\\bvoxel\\b|\\bclay render\\b",
+      "subcategories": {
+        "digital_3d_character": "角色|人物|\\bcharacter\\b|\\b3d character\\b",
+        "digital_3d_toy": "手办|盲盒|潮玩|公仔|\\bfigurine\\b",
+        "digital_3d_product": "产品|电子设备|\\bproduct\\b",
+        "digital_3d_architecture": "建筑|室内|\\barchitecture\\b|\\binterior\\b",
+        "digital_3d_environment": "场景|环境|\\benvironment\\b",
+        "digital_3d_diorama": "微缩|等距|沙盘|\\bdiorama\\b|\\bisometric\\b",
+        "digital_3d_material": "材质|纹理|PBR|\\btexture\\b|\\bmaterial\\b|无缝纹理|材质球|\\bpbr\\b",
+        "digital_3d_abstract": "抽象|流体|几何装置",
+        "digital_3d_assets": "游戏资产|武器模型|\\bgame asset\\b"
+      },
+      "overrides": {
+        "anime_manga": "渲染|建模|三维模型|\\b3d render\\b|\\bcg render\\b",
+        "painting": "渲染|建模|三维模型|\\b3d render\\b|\\bcg render\\b",
+        "film_cinema": "渲染|建模|三维模型|\\b3d render\\b|\\bcg render\\b",
+        "crafts": "渲染|建模|三维模型|\\b3d render\\b|\\bcg render\\b"
+      },
+      "sub_overrides": {
+        "digital_3d_diorama": [
+          "digital_3d_environment",
+          "digital_3d_architecture"
+        ],
+        "digital_3d_toy": [
+          "digital_3d_character"
+        ]
+      }
+    },
+    "film_cinema": {
+      "pattern": "电影镜头|电影剧照|电影分镜|电影场景|影视场景|电影感|故事板|\\bcinematic\\b|\\bstoryboard\\b|\\bfilm still\\b|电影级|电影混合媒体|电影分屏|\\bcinema\\b|\\bfilm noir\\b",
+      "subcategories": {
+        "film_cinema_shot": "电影镜头|电影剧照|\\bfilm still\\b|电影分屏",
+        "film_cinema_storyboard": "电影分镜|故事板|\\bstoryboard\\b|分镜|九格|九宫格",
+        "film_cinema_environment": "电影场景|影视场景",
+        "film_cinema_mood": "电影布光|电影配色|电影氛围|\\bfilm noir\\b"
+      },
+      "overrides": {
+        "photography": "电影剧照|电影镜头|\\bfilm still\\b"
+      }
+    },
+    "crafts": {
+      "pattern": "剪纸|折纸|纸雕|刺绣|针织|软陶|黏土手作|木雕|珐琅|玻璃吹制|羊毛毡|\\borigami\\b|\\bembroidery\\b|手工纸雕|\\bpapercut\\b|\\bpaper.cut\\b|\\bpapercraft\\b|\\bknitting\\b|\\bcrochet\\b|\\bwool felt\\b|\\bwood carving\\b|\\bvitreous enamel\\b|\\bglassblowing\\b|\\bclay craft\\b",
+      "subcategories": {
+        "crafts_paper": "剪纸|折纸|纸雕|\\borigami\\b|\\bpapercut\\b|\\bpaper.cut\\b|\\bpapercraft\\b",
+        "crafts_textile": "刺绣|针织|\\bembroidery\\b|\\bknitting\\b|\\bcrochet\\b",
+        "crafts_clay": "软陶|黏土手作|\\bclay craft\\b",
+        "crafts_wood": "木雕|\\bwood carving\\b",
+        "crafts_metal": "珐琅|\\bvitreous enamel\\b",
+        "crafts_glass": "玻璃吹制|\\bglassblowing\\b",
+        "crafts_fiber": "羊毛毡|\\bwool felt\\b"
+      },
+      "overrides": {
+        "painting": "(?:剪纸|纸雕|手工|折纸|刺绣).{0,8}插画|\\bpapercraft illustration\\b"
+      }
+    },
+    "art_movements": {
+      "pattern": "艺术流派模板|视觉风格模板|印象派风格模板|超现实风格模板|波普风格模板|年代复古模板|艺术流派|抽象视觉艺术|\\b(?:neo.byzantine|rococo|baroque|art nouveau|art deco|pop art|op art|abstract expressionism|bauhaus|constructivism|suprematism|fauvism|impressionism|surrealism|pointillism|synthwave)\\b",
+      "subcategories": {
+        "art_movements_impressionism": "印象派|\\bimpressionism\\b|\\bfauvism\\b|\\bpointillism\\b",
+        "art_movements_surrealism": "超现实|\\bsurrealism\\b",
+        "art_movements_pop": "波普|\\bpop art\\b|\\bop art\\b",
+        "art_movements_retro": "年代复古|\\bsynthwave\\b",
+        "art_movements_classical": "\\bneo.byzantine\\b|\\brococo\\b|\\bbaroque\\b",
+        "art_movements_abstract": "抽象视觉艺术|\\babstract expressionism\\b|\\bbauhaus\\b|\\bconstructivism\\b|\\bsuprematism\\b",
+        "art_movements_art_nouveau": "\\bart nouveau\\b|\\bart deco\\b"
+      }
+    },
+    "general": {
+      "pattern": "构图模板|视角模板|光影模板|配色模板|换背景|替换背景|局部编辑|一致性控制|多图编排|提示词模板|\\bbackground replacement\\b|移除围栏|去除背景|背景替换|物体移除|\\bremove background\\b|\\bobject removal\\b",
+      "subcategories": {
+        "general_composition": "构图模板|视角模板",
+        "general_lighting": "光影模板|配色模板",
+        "general_editing": "换背景|替换背景|局部编辑|\\bbackground replacement\\b|移除围栏|去除背景|背景替换|物体移除|\\bremove background\\b|\\bobject removal\\b",
+        "general_consistency": "一致性控制",
+        "general_layout": "多图编排",
+        "general_prompting": "提示词模板"
+      }
+    }
+  }
+}

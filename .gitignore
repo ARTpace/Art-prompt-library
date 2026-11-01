@@ -2,3 +2,10 @@ __pycache__/
 *.pyc
 *.tmp
 .DS_Store
+/artifacts/
+/data/
+/dist/
+**/cache/
+**/last-update-report.json
+/_translate_audit.json
+/tools/translate_styles/report.txt

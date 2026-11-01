@@ -2,6 +2,8 @@
 
 Art Canvas 独立风格提示词资产仓库。保存可编辑 JSON，与工具代码分开维护；无需先打包 ZIP。
 
+网站提示词采集、下载、分类规范、整理 Skill、去重与翻译工具也统一在这里维护。AI 入口见 [AGENTS.md](AGENTS.md)，操作流程和文件位置见 [维护说明](docs/prompt-maintenance.md)。
+
 ## 在工具里安装
 
 使用支持仓库来源的 Art Canvas：进入「资产库 → 提示词库 → 风格包管理」，点击「添加仓库」，输入：
