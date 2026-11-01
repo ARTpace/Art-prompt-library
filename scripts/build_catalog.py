@@ -49,7 +49,7 @@ def main():
     assert entries, '没有可发布的数据'
     entries.sort(key=lambda entry: (entry['order'], entry['packId']))
     catalog = {'schema': 1, 'name': 'Art Prompt Library', 'totalEntries': len(all_ids), 'packs': entries}
-    (ROOT / 'catalog.json').write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    (ROOT / 'catalog.json').write_bytes((json.dumps(catalog, ensure_ascii=False, indent=2) + '\n').encode('utf-8'))
     print(json.dumps({'packs': len(entries), 'entries': len(all_ids), 'classification': [e['classificationSummary'] for e in entries]}, ensure_ascii=False))
 
 
