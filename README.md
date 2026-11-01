@@ -56,3 +56,7 @@ https://raw.githubusercontent.com/ARTpace/Art-prompt-library/main/catalog.json
 若维护的是仓库外的完整已分类数据，可用 `python -X utf8 scripts/split_platforms.py --source 完整JSON目录` 重新拆分：仅内容变化的平台包递增补丁版本，未变化包保持字节和版本不变。直接维护平台包时不必运行此拆分脚本，避免用旧上游数据覆盖平台内的新编辑。
 
 清单是安装入口；每个包用 `path` 指向 JSON 目录，用 `sha256` 登记清单与各分类文件的摘要。工具下载后校验摘要、包 ID、版本、条目数和结构，再安装到用户目录。
+
+## 画师库与角色库
+
+采集、拆包脚本和发布资产已迁入本仓库。参见 [维护说明](docs/artist-character-maintenance.md)。发布数据位于 `libraries/artists/`、`libraries/characters/`。
