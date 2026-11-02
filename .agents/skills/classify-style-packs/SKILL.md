@@ -57,6 +57,15 @@ python -X utf8 .agents/skills/classify-style-packs/scripts/semantic_classify.py 
 
 子类必须属于该父类、父类必须在该包 `pack.json` 内，否则拒绝并记入 `ai-apply-summary.json`；不得自造 ID 或新增大类。
 
+**补充阶段 大类内二次判别**（可选，语义阶段后、大模型兜底前）：只处理落在 `<category>_pending` 的条目，把候选子类收窄到该大类内部再投票，阈值放宽到 `--refine-conf 0.45 --refine-gap 0.10`。
+
+```powershell
+python -X utf8 .agents/skills/classify-style-packs/scripts/semantic_classify.py --input artifacts/标题分类批次/classified/platform-chatgpt --report-dir artifacts/标题分类批次 --refine
+```
+
+- 产出 `refine-summary.json` 和 `pending-refine.jsonl`（序号 `n` 独立编号）；仍不明确的交大模型，判定文件格式同上，`--apply-ai` 同时识别这两个清单。
+- 实测 `platform-chatgpt`：2,162 条待细分 → 1,564 条落定，剩 598 条转大模型。
+
 - `classified/<packId>/`：重组后的完整 JSON 与清单，不生成 ZIP。
 - `assignments.jsonl`：每条记录的旧路径、新分类、标题证据、阶段、审核状态及校验摘要。
 - `pending-titles.jsonl`：未解决项，仅含标题与定位，不导出正文队列。

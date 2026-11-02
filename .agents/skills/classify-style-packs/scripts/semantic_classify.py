@@ -51,6 +51,8 @@ DEFAULTS = {
     'cross_conf': 0.75,      # 跨大类改判需更高置信
     'cross_gap': 0.15,       # 跨大类改判需更高领先幅度
     'seed_weight': 0.5,      # taxonomy 文本锚点（仅零样本类）权重
+    'refine_conf': 0.45,     # 大类内二次判别的置信下限（候选少，可放宽）
+    'refine_gap': 0.10,      # 大类内二次判别的领先幅度下限
 }
 
 
@@ -282,6 +284,132 @@ def top_level(sub):
     return sub.split('_')[0] if sub else None
 
 
+# ---------------------------------------------------------------- 大类内二次判别
+
+def refine_pending(store, args, legal, cats_meta, pack_cats, report_dir, started):
+    """把 <大类>_pending 里的条目，只在该大类的子类内重新投票。
+
+    大类已确定时，候选子类从全部降到该大类下的几个，干扰大幅减少，
+    阈值可以比全局阶段更低，从而把「知道是摄影但分不清哪类」的条目落定。
+    """
+    ref_dirs = [Path(p) for p in (args.reference or [])] or sorted(
+        p for p in PACK_DIR.iterdir() if (p / 'pack.json').exists())
+    ref_titles, ref_labels = [], []
+    for root in ref_dirs:
+        if not (root / 'pack.json').exists():
+            continue
+        for path in sorted(root.glob('*.json')):
+            if path.name == 'pack.json':
+                continue
+            doc = json.loads(path.read_text(encoding='utf-8'))
+            for cat in doc.get('categories', []):
+                if cat['id'] == 'uncategorized':
+                    continue
+                for sub in cat.get('subcategories', []):
+                    if sub['id'].endswith('_pending') or sub['id'] not in legal.get(cat['id'], {}):
+                        continue
+                    for preset in sub.get('presets', []):
+                        if (preset.get('classification') or {}).get('resolution') != 'resolved':
+                            continue
+                        title = (preset.get('name') or '').strip()
+                        if title:
+                            ref_titles.append(title)
+                            ref_labels.append(sub['id'])
+    print(f'参考库：{len(ref_titles)} 条已分类样本，{len(set(ref_labels))} 个子类')
+    if len(ref_titles) < 30:
+        return fallback_all(store, report_dir, started, '参考库不足')
+
+    targets = [r for r in store.records
+               if r['title'] and r['resolution'] != 'resolved'
+               and r['cat'] in pack_cats and r['cat'] != 'uncategorized']
+    print(f'待细化 {len(targets)} 条')
+    if not targets:
+        summary = {'input': str(store.root), 'total': store.total, 'refined': 0,
+                   'to_ai': 0, 'elapsed_seconds': round(time.perf_counter() - started, 2)}
+        (report_dir / 'refine-summary.json').write_text(
+            json.dumps(summary, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+        return summary
+
+    cache_dir = Path(args.cache or (report_dir / '.model-cache'))
+    tokenizer, model, err = load_encoder(args.model, cache_dir, args.threads)
+    if err:
+        print(err)
+        return fallback_all(store, report_dir, started, err)
+    cache_path = report_dir / 'semantic-vec-cache.npz'
+    vectors = encode(ref_titles + [r['title'] for r in targets], tokenizer, model, cache_path)
+
+    labels = np.array(ref_labels)
+    X = np.vstack([vectors[t] for t in ref_titles])
+    ref_cat = np.array([top_level(l) for l in ref_labels])
+    ref_by_title = defaultdict(list)
+    for i, title in enumerate(ref_titles):
+        ref_by_title[title].append(i)
+
+    changed, decisions = [], []
+    for rec in targets:
+        sub_idx = np.nonzero(ref_cat == rec['cat'])[0]
+        if sub_idx.size < 3:
+            decisions.append({'n': len(decisions), 'id': rec['id'], 'title': rec['title'],
+                              'current': f'{rec["cat"]}/{rec["sub"]}', 'guess': None,
+                              'note': '该大类参考样本不足'})
+            continue
+        sims = X[sub_idx] @ vectors[rec['title']]
+        pos_of = {int(i): pos for pos, i in enumerate(sub_idx)}
+        for i in ref_by_title.get(rec['title'], []):
+            pos = pos_of.get(i)
+            if pos is not None:
+                sims[pos] = -1.0
+        res = class_vote(sims, labels[sub_idx], Counter(labels[sub_idx].tolist()),
+                         args.alpha, args.k)
+        if not res or res['conf'] < 0 or res['sub'] == rec['sub']:
+            decisions.append({'n': len(decisions), 'id': rec['id'], 'title': rec['title'],
+                              'current': f'{rec["cat"]}/{rec["sub"]}', 'guess': None,
+                              'note': '大类内无有效近邻'})
+            continue
+        if res['conf'] >= args.refine_conf and res['gap'] >= args.refine_gap:
+            changed.append((rec, rec['cat'], res['sub'], 'semantic_refine', res))
+        else:
+            decisions.append({'n': len(decisions), 'id': rec['id'], 'title': rec['title'],
+                              'current': f'{rec["cat"]}/{rec["sub"]}',
+                              'guess': res['sub'], 'conf': round(res['conf'], 4),
+                              'note': '大类内仍不明确'})
+
+    origin = {id(rec): (rec['cat'], rec['sub']) for rec, *_ in changed}
+    store.move([(rec, cat, sub) for rec, cat, sub, _m, _s in changed])
+    for rec, cat, sub, method, res in changed:
+        cls = dict(rec['preset'].get('classification') or {})
+        cls.update({
+            'method': method,
+            'stage': 'title',
+            'resolution': 'resolved',
+            'status': 'suggested',
+            'reason': f'大类内二次判别：{res["sub"]} 置信 {res["conf"]:.2f} / 领先 {res["gap"]:.2f}',
+            'taxonomy_version': store.pack.get('taxonomyVersion', '1.1.0'),
+            'semantic': {'model': args.model, 'k': args.k, 'alpha': args.alpha,
+                         'confidence': round(res['conf'], 4), 'runner_up': res['second']},
+            'subcategories': [{'id': sub, 'name': sub_name(legal, cat, sub)}],
+            'previous_location': f'{origin[id(rec)][0]}/{origin[id(rec)][1]}',
+        })
+        rec['preset']['classification'] = cls
+    store.rebuild(legal, cats_meta)
+
+    summary = {
+        'input': str(store.root),
+        'total': store.total,
+        'targets': len(targets),
+        'refined': len(changed),
+        'to_ai': len(decisions),
+        'thresholds': {'refine_conf': args.refine_conf, 'refine_gap': args.refine_gap},
+        'elapsed_seconds': round(time.perf_counter() - started, 2),
+        'note': '仅按标题，在大类内部二次判别；仍不明确则交大模型。',
+    }
+    (report_dir / 'refine-summary.json').write_text(
+        json.dumps(summary, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    write_jsonl(report_dir / 'pending-refine.jsonl', decisions)
+    print(json.dumps(summary, ensure_ascii=False, indent=2))
+    return summary
+
+
 # ---------------------------------------------------------------- 主流程
 
 def run(args):
@@ -295,6 +423,8 @@ def run(args):
 
     if args.apply_ai:
         return apply_ai(store, legal, pack_cats, Path(args.apply_ai), report_dir, started)
+    if args.refine:
+        return refine_pending(store, args, legal, cats_meta, pack_cats, report_dir, started)
 
     # 参考库：默认跨包复用所有已发布包
     ref_dirs = [Path(p) for p in (args.reference or [])] or sorted(
@@ -515,8 +645,10 @@ def run(args):
 def apply_ai(store, legal, pack_cats, decisions_path, report_dir, started):
     decisions = [json.loads(line) for line in decisions_path.read_text(encoding='utf-8').splitlines() if line.strip()]
     by_id = {r['id']: r for r in store.records}
-    pending_file = report_dir / 'pending-ai.jsonl'
-    if pending_file.exists():
+    for name in ('pending-ai.jsonl', 'pending-refine.jsonl'):
+        pending_file = report_dir / name
+        if not pending_file.exists():
+            continue
         for line in pending_file.read_text(encoding='utf-8').splitlines():
             if not line.strip():
                 continue
@@ -615,6 +747,10 @@ def main():
     parser.add_argument('--no-seeds', dest='seeds', action='store_false', help='不使用分类表文本锚点')
     parser.add_argument('--seed-weight', type=float, default=DEFAULTS['seed_weight'])
     parser.add_argument('--apply-ai', help='应用大模型判定 JSONL（id/category/subcategory）')
+    parser.add_argument('--refine', action='store_true',
+                        help='大类内二次判别：只把 <大类>_pending 里的条目细分开')
+    parser.add_argument('--refine-conf', type=float, default=DEFAULTS['refine_conf'])
+    parser.add_argument('--refine-gap', type=float, default=DEFAULTS['refine_gap'])
     args = parser.parse_args()
     run(args)
 

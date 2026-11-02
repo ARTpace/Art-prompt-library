@@ -2,7 +2,7 @@
   "schema": 1,
   "packId": "platform-chatgpt",
   "name": "ChatGPT 风格包",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "author": "art-canvas",
   "description": "ChatGPT 系平台产出的风格提示词",
   "order": 110,
