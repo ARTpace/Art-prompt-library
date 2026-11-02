@@ -2,7 +2,7 @@
   "schema": 1,
   "packId": "platform-chatgpt",
   "name": "ChatGPT 风格包",
-  "version": "1.1.0",
+  "version": "1.3.0",
   "author": "art-canvas",
   "description": "ChatGPT 系平台产出的风格提示词",
   "order": 110,
@@ -50,13 +50,20 @@
       "order": 60
     },
     {
+      "id": "art_movements",
+      "name": "艺术风格",
+      "file": "art_movements.json",
+      "order": 70
+    },
+    {
       "id": "uncategorized",
       "name": "待分类",
       "file": "uncategorized.json",
-      "order": 90
+      "order": 80
     }
   ],
   "taxonomyVersion": "1.1.0",
+  "dataVersion": "2026-11-02",
   "entryCount": 8880,
   "replaces": [
     "art-canvas-core"

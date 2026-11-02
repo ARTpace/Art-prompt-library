@@ -64,28 +64,29 @@
     {
       "packId": "platform-chatgpt",
       "name": "ChatGPT 风格包",
-      "version": "1.1.0",
+      "version": "1.3.0",
       "entryCount": 8880,
       "kind": "styles",
       "description": "ChatGPT 系平台产出的风格提示词",
       "path": "packs/platform-chatgpt",
-      "categoryCount": 8,
-      "sizeBytes": 25237939,
+      "categoryCount": 9,
+      "sizeBytes": 27173759,
       "sha256": {
-        "pack.json": "ddd1842a4c2dc8104d7b1d5906c2c551503263283e846001e6a35f24c8404592",
-        "photography.json": "3db5ae4676322ea3d6ecb43cf8f52402e040d9294d1656b09cfdfde1421a3ec4",
-        "anime_manga.json": "75d0294d441c458d31d81e6e2146ef37810b7d2fdd8f28b8e40faa3b124c95ff",
-        "painting.json": "12586f8963c586388c82a3158165ef65214427c9b0e905013aa16192c08fa836",
-        "digital_3d.json": "e9773c3c5197815cf3ddf309b979f9dfe5b5b79089a262add9356255705c6209",
-        "commercial.json": "f3d9a6a2f84f01a183228d42b25562ce2e05599003c362a4aad7b0d07fd79bee",
-        "film_cinema.json": "d668b5de73253e92bac25bf25cc72e5cc2932e9b9b051bec15f0af7aa41eceeb",
-        "crafts.json": "6852d1888dd5abcef989b309c82dd212d3ba84851147ba6a882164cc329fe720",
-        "uncategorized.json": "b2613f33d0844a5a93aef1e1579afe94f616c163f982a2572f0eecc1d8c021e3"
+        "pack.json": "e723a05e8b1430ffd48e170245d3b611e2a059b460847b755a700711b0dea3fb",
+        "photography.json": "36d69dc3b9cbf22cd2b095daf36da19bf8e75ef0107bb1bad3260c73a5b15ade",
+        "anime_manga.json": "ed6a5a00818d59116c0e2b4fc03b5d0897e50142e62605f5103cfb3613789303",
+        "painting.json": "bc3951799ff102852f454fea6d3557c4bf4bbe16d82b11a5989f2aa83c0ac3b7",
+        "digital_3d.json": "0fc7703be30e4a59b3a277a59695ac2a1df79acf3b5aa71589d788b480abbf5e",
+        "commercial.json": "9fd1fc2697a59d1250cfcb96185b35f84fdb1d84f5e16fdf38fa0dd1bdd4d4fc",
+        "film_cinema.json": "c102f1f7e6217f90b62c64ca49415a0dd58181400fca41f51e22db7c8656128d",
+        "crafts.json": "15bf41b51e29bd5ffe42c42b7e45ab605760ba8984a8a74fa7d85090a67a10b3",
+        "art_movements.json": "f645b8c839060d51621ab79308c02ac980e64b46d0c78933a30414be1519f2d8",
+        "uncategorized.json": "ee6d469dc48478efdced555a5240d0f7489be7307d25e7e55bdc2769682f9a98"
       },
       "classificationSummary": {
-        "resolved": 4983,
-        "category_only": 2020,
-        "unresolved": 1877
+        "resolved": 6717,
+        "category_only": 2162,
+        "unresolved": 1
       },
       "emptyPromptIds": [],
       "replaces": [

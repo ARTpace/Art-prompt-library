@@ -63,13 +63,35 @@ class StyleTitleClassifyTests(unittest.TestCase):
         self.assertTrue(all(row['item']['classification']['stage'] == 'title' for row in records))
         self.assertTrue(all(row['item']['prompt'] == items[0]['prompt'] for row in records))
 
+    def test_multiple_subcategories_keep_one_record_and_prompt(self):
+        self.make_pack()
+        path = self.source / 'misc.json'
+        data = json.loads(path.read_text(encoding='utf-8'))
+        item = data['categories'][0]['subcategories'][0]['presets'][0]
+        item['name'] = '时尚人像摄影'
+        classifier.write_json(path, data)
+        report = classifier.run([self.source], self.output, write_files=True)
+        self.assertGreaterEqual(report['multi_subcategory_items'], 1)
+        _, records = classifier.read_pack(Path(report['directories'][0]))
+        self.assertEqual(len(records), 4)
+        saved = next(r['item'] for r in records if r['item_id'] == '0')
+        self.assertEqual(saved['prompt'], item['prompt'])
+        matched = {s['id'] for s in saved['classification']['subcategories']}
+        self.assertEqual(matched, {'photography_portrait','photography_fashion'})
+        self.assertEqual(saved['classification']['stage'], 'title')
+
+    def test_membership_validation_rejects_cross_parent_duplicates_and_pending(self):
+        for ids in [['photography_portrait','painting_watercolor'], ['photography_portrait','photography_portrait'], ['photography_portrait','photography_pending']]:
+            with self.subTest(ids=ids), self.assertRaises(ValueError):
+                classifier.validate_subcategory_memberships({'id':'one','classification':{'subcategories':[{'id':s} for s in ids]}}, 'photography','photography_portrait',self.taxonomy)
+
     def test_three_way_routing_and_conflicts(self):
         cases = [('自然光人像摄影', 'photography_portrait', 'resolved'),
                  ('摄影实验合集', 'photography_pending', 'category_only'),
                  ('梦境之光', 'uncategorized_pending', 'unresolved'),
                  ('水彩人像摄影海报', 'commercial_poster', 'resolved'),
-                 ('微距珠宝摄影', 'photography_pending', 'category_only'),
-                 ('自然光人像', 'uncategorized_pending', 'unresolved'),
+                 ('微距珠宝摄影', 'photography_product', 'resolved'),
+                 ('自然光人像', 'photography_portrait', 'resolved'),
                  ('studio product photography', 'photography_product', 'resolved')]
         for title, subcategory, resolution in cases:
             with self.subTest(title=title):
@@ -192,7 +214,7 @@ class StyleTitleClassifyTests(unittest.TestCase):
             ('咖啡女孩', 'uncategorized_pending'),
             ('梦幻少女', 'uncategorized_pending'),
             ('疯狂吐槽涂鸦与批注', 'uncategorized_pending'),
-            ('电影质感冰镇饮料微距特写', 'photography_pending'),
+            ('电影质感冰镇饮料微距特写', 'photography_food'),
         ]
         for title, expected in cases:
             with self.subTest(title=title):

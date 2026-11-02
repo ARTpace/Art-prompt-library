@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[4]
 RULE_FILE = Path(__file__).with_name('title_rules.json')
 TAXONOMY = ROOT / 'docs' / 'style-pack-taxonomy-v1.md'
 CONTENT_RULE_FILE = Path(__file__).with_name('content_rules.json')
-ENGINE_VERSION = '2.2.0'
+ENGINE_VERSION = '2.3.0'
 
 
 def digest(value):
@@ -90,14 +90,14 @@ def classify_title(title, rules):
     category, match = hits[0]
     subs = [(sub, pattern.search(title)) for sub, pattern in rules[category][1].items()]
     subs = [(sub, hit) for sub, hit in subs if hit]
-    sub_ids = {sub for sub, _ in subs}
-    suppressed_subs = {other for winner, others in rules[category][3].items() if winner in sub_ids for other in others}
-    subs = [(sub, hit) for sub, hit in subs if sub not in suppressed_subs]
     priority_note = '；按明确交付物优先于媒介' if original_hits > 1 else ''
-    if len(subs) == 1:
-        sub, hit = subs[0]
-        return {'new_category': category, 'new_subcategory': sub, 'resolution': 'resolved',
-                'reason': f'标题规则证据：{match[0]} / {hit[0]}' + priority_note}
+    if subs:
+        ids = {key for key, _ in subs}
+        suppressed = {other for winner, others in rules[category][3].items() if winner in ids for other in others}
+        preferred = [(key, hit) for key, hit in subs if key not in suppressed]
+        sub, hit = (preferred or subs)[0]
+        return {'new_category': category, 'new_subcategory': sub, 'new_subcategories': [sub] + [key for key, _ in subs if key != sub], 'resolution': 'resolved',
+                'reason': '标题规则证据：' + match[0] + ' / ' + '、'.join(hit[0] for _, hit in subs) + priority_note}
     return {'new_category': category, 'new_subcategory': category + '_pending', 'resolution': 'category_only',
             'reason': '大类证据：' + match[0] + priority_note + ('；子类冲突：' + ', '.join(key for key, _ in subs) if subs else '；未命中明确子类')}
 
@@ -233,6 +233,20 @@ def read_pack(path):
     return manifest, records
 
 
+def validate_subcategory_memberships(item, category, primary, taxonomy):
+    classification = item.get('classification') or {}
+    if not isinstance(classification, dict) or 'subcategories' not in classification:
+        return
+    entries = classification['subcategories']
+    if not isinstance(entries, list) or not entries or any(not isinstance(entry, dict) or not isinstance(entry.get('id'), str) for entry in entries):
+        raise ValueError('Invalid subcategory memberships: ' + str(item.get('id')))
+    ids = [entry['id'] for entry in entries]
+    if len(ids) != len(set(ids)) or primary not in ids or any(taxonomy['children'].get(sub, {}).get('parent') != category for sub in ids):
+        raise ValueError('Invalid, duplicate or cross-category membership: ' + str(item.get('id')))
+    if len(ids) > 1 and any(sub.endswith('_pending') for sub in ids):
+        raise ValueError('Pending cannot coexist with resolved memberships: ' + str(item.get('id')))
+
+
 def create_pack(manifest, records, assignments, taxonomy, destination, directory=False):
     categories = {}
     original = {record['item_id']: record['item'] for record in records}
@@ -242,7 +256,9 @@ def create_pack(manifest, records, assignments, taxonomy, destination, directory
             item['classification'] = {key: row[key] for key in ('method', 'stage', 'resolution', 'status', 'reason', 'taxonomy_version', 'rules_version')}
             if row.get('evidence'):
                 item['classification']['evidence'] = row['evidence']
+            item['classification']['subcategories'] = [{'id': sub, 'name': taxonomy['children'][sub]['name']} for sub in row.get('new_subcategories', [row['new_subcategory']])]
         cat, sub = row['new_category'], row['new_subcategory']
+        validate_subcategory_memberships(item, cat, sub, taxonomy)
         groups = categories.setdefault(cat, {})
         groups.setdefault(sub, []).append(item)
     result = deepcopy(manifest)
@@ -322,6 +338,10 @@ def run(inputs, output, write_packs=False, rule_file=RULE_FILE, use_content=Fals
                 decision = ({'new_category': record['old_category'], 'new_subcategory': record['old_subcategory'],
                              'resolution': old_classification.get('resolution') or ('unresolved' if record['old_category'] == 'uncategorized' else 'category_only' if record['old_subcategory'].endswith('_pending') else 'resolved'),
                              'reason': '保留已有审核（符合当前证据模式）'} if preserve else classify_title(item.get('name', ''), rules))
+                if preserve:
+                    saved = old_classification.get('subcategories', [])
+                    extra = [entry['id'] for entry in saved if isinstance(entry, dict) and taxonomy['children'].get(entry.get('id'), {}).get('parent') == record['old_category']]
+                    decision['new_subcategories'] = list(dict.fromkeys([decision['new_subcategory'], *extra]))
                 title_resolution = decision['resolution']
                 content_attempted = False
                 if use_content and not preserve and decision['resolution'] != 'resolved' and item['prompt'].strip():
@@ -335,6 +355,7 @@ def run(inputs, output, write_packs=False, rule_file=RULE_FILE, use_content=Fals
                         decision = classify_content(item['prompt'], content_rules, rules, hint)
                         content_cache[body_key] = deepcopy(decision)
                         body_evaluated += 1
+                decision.setdefault('new_subcategories', [decision['new_subcategory']])
                 row = {key: value for key, value in record.items() if key != 'item'} | decision
                 row.update({'record_key': key, 'signature': signature, 'title': item.get('name', ''),
                             'title_hash': digest(item.get('name', '')), 'prompt_hash': digest(item['prompt']),
@@ -377,6 +398,8 @@ def run(inputs, output, write_packs=False, rule_file=RULE_FILE, use_content=Fals
             packages.append(create_pack(manifest, records, [row for row in rows if row['pack_id'] == manifest['packId']], taxonomy, destination))
     summary = {'total': len(rows), 'resolution': dict(Counter(row['resolution'] for row in rows)),
                'title_resolution': dict(Counter(row['title_resolution'] for row in rows)),
+               'multi_subcategory_items': sum(len(row.get('new_subcategories', [row['new_subcategory']])) > 1 for row in rows),
+               'subcategory_memberships': sum(len(row.get('new_subcategories', [row['new_subcategory']])) for row in rows),
                'content_enabled': use_content, 'content_attempted': sum(row['content_attempted'] for row in rows),
                'content_unique_evaluations': body_evaluated, 'content_reuse_hits': body_reused,
                'content_resolved': sum(row['content_attempted'] and row['resolution'] == 'resolved' for row in rows),

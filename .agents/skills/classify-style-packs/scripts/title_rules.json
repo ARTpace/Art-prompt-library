@@ -2,7 +2,7 @@
   "version": "1.1.2",
   "categories": {
     "photography": {
-      "pattern": "摄影|写真|棚拍|街拍|证件照|肖像照|\\bphotograph(?:y|ic)?\\b|\\bphoto\\b|\\bheadshot\\b|自拍|照片|胶片感|胶片人像|胶片里的|拍立得|宝丽来|单反|广角镜头|微距特写|超写实.{0,12}(?:肖像|人像)|\\bselfie\\b|\\bpolaroid\\b|\\bfilm portrait\\b|\\bastrophotography\\b",
+      "pattern": "摄影|写真|棚拍|街拍|证件照|肖像照|\\bphotograph(?:y|ic)?\\b|\\bphoto\\b|\\bheadshot\\b|自拍|照片|胶片感|胶片人像|胶片里的|拍立得|宝丽来|单反|广角镜头|微距特写|超写实.{0,12}(?:肖像|人像)|\\bselfie\\b|\\bpolaroid\\b|\\bfilm portrait\\b|\\bastrophotography\\b|人像|肖像|群像|合影|合照|婚纱|孕肚|孕妇|旅拍|艺术照|私房|闺房|证件|脸部|面孔|面容",
       "subcategories": {
         "photography_portrait": "人像|肖像|证件照|\\bportrait\\b|\\bheadshot\\b|自拍|少女|女郎|女子|男子|肖像|\\bselfie\\b",
         "photography_fashion": "时装|时尚|服饰|穿搭|\\bfashion\\b",
@@ -23,7 +23,7 @@
       }
     },
     "commercial": {
-      "pattern": "海报|电商|详情页|包装设计|标志设计|品牌标识|社交封面|杂志封面|书籍封面|信息图|界面设计|图标设计|字体设计|吉祥物设计|\\bposter\\b|\\blogo\\b|\\bpackaging design\\b|\\binfographic\\b|\\bUI design\\b|\\bicon design\\b|图表|知识卡|封面设计|贴纸设计|品牌视觉|杂志封面|\\bsticker designs?\\b|\\bbook cover\\b|\\bmagazine cover\\b|\\bpackaging\\b|\\btypography\\b|\\blogotype\\b",
+      "pattern": "海报|电商|详情页|包装设计|标志设计|品牌标识|社交封面|杂志封面|书籍封面|信息图|界面设计|图标设计|字体设计|吉祥物设计|\\bposter\\b|\\blogo\\b|\\bpackaging design\\b|\\binfographic\\b|\\bUI design\\b|\\bicon design\\b|图表|知识卡|封面设计|贴纸设计|品牌视觉|杂志封面|\\bsticker designs?\\b|\\bbook cover\\b|\\bmagazine cover\\b|\\bpackaging\\b|\\btypography\\b|\\blogotype\\b|主视觉|视觉设计|平面设计|\\bbanner\\b|易拉宝|展架|宣传图|封面图|文创|VI设计|品牌视觉设计",
       "subcategories": {
         "commercial_brand": "标志设计|品牌标识|\\blogo\\b|品牌视觉|\\blogotype\\b",
         "commercial_poster": "海报|\\bposter\\b",
@@ -143,14 +143,15 @@
       }
     },
     "art_movements": {
-      "pattern": "艺术流派模板|视觉风格模板|印象派风格模板|超现实风格模板|波普风格模板|年代复古模板|艺术流派|抽象视觉艺术|\\b(?:neo.byzantine|rococo|baroque|art nouveau|art deco|pop art|op art|abstract expressionism|bauhaus|constructivism|suprematism|fauvism|impressionism|surrealism|pointillism|synthwave)\\b",
+      "pattern": "艺术流派模板|视觉风格模板|印象派风格模板|超现实风格模板|波普风格模板|年代复古模板|艺术流派|抽象视觉艺术|\\b(?:neo.byzantine|rococo|baroque|art nouveau|art deco|pop art|op art|abstract expressionism|bauhaus|constructivism|suprematism|fauvism|impressionism|surrealism|pointillism|synthwave)\\b|复古|\\bretro\\b|\\bvintage\\b|极简|极简主义|ins风|ins风格|孟菲斯|波普艺术",
       "subcategories": {
         "art_movements_impressionism": "印象派|\\bimpressionism\\b|\\bfauvism\\b|\\bpointillism\\b",
         "art_movements_surrealism": "超现实|\\bsurrealism\\b",
-        "art_movements_pop": "波普|\\bpop art\\b|\\bop art\\b",
-        "art_movements_retro": "年代复古|\\bsynthwave\\b",
+        "art_movements_pop": "波普|\\bpop art\\b|\\bop art\\b|波普艺术",
+        "art_movements_retro": "年代复古|\\bsynthwave\\b|复古|\\bretro\\b|\\bvintage\\b|ins风|ins风格",
         "art_movements_classical": "\\bneo.byzantine\\b|\\brococo\\b|\\bbaroque\\b",
         "art_movements_abstract": "抽象视觉艺术|\\babstract expressionism\\b|\\bbauhaus\\b|\\bconstructivism\\b|\\bsuprematism\\b",
+        "art_movements_minimalism": "极简|极简主义|孟菲斯",
         "art_movements_art_nouveau": "\\bart nouveau\\b|\\bart deco\\b"
       }
     },

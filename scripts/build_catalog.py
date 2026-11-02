@@ -3,9 +3,12 @@ from collections import Counter
 import hashlib
 import json
 import zipfile
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / '.agents' / 'skills' / 'classify-style-packs' / 'scripts'))
+from title_classify import load_taxonomy, validate_subcategory_memberships
 
 
 def content_entries():
@@ -47,6 +50,7 @@ def content_entries():
 
 
 def main():
+    taxonomy = load_taxonomy()
     entries = []
     all_ids = set()
     for path in sorted(list((ROOT / 'packs').glob('*/pack.json')) + list((ROOT / 'libraries' / 'tags').glob('*/pack.json'))):
@@ -67,6 +71,8 @@ def main():
                 for item in sub['presets']:
                     assert item['id'] not in ids and item['id'] not in all_ids, '重复条目 ID：' + item['id']
                     assert isinstance(item['prompt'], str)
+                    if manifest.get('kind', 'styles') == 'styles':
+                        validate_subcategory_memberships(item, category['id'], sub['id'], taxonomy)
                     ids.add(item['id'])
                     statuses[item.get('classification', {}).get('resolution', 'unknown')] += 1
                     if not item['prompt'].strip():
