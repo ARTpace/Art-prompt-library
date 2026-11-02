@@ -5,316 +5,9 @@
       "name": "手工艺",
       "subcategories": [
         {
-          "id": "crafts_paper",
-          "name": "纸艺剪纸",
-          "presets": [
-            {
-              "id": "yuanbao_2bb952e2d976402598fd126a8d8d22ca",
-              "name": "乐谱中世界",
-              "type": "prompt",
-              "prompt": "仅使用用户上传的一张图像，制作左右双格，中间以窄暖白留缝分隔。左格完整放置原图，保留主体数量、位置、姿态、环境、光影、色彩与原始裁切，不风格化、不添加图形或文字。右格将同一图像转化为暖白底极简抽象琴谱：自上而下排列五组钢琴大谱表，每组含高低音谱号、花括号、五线谱、小节线、音符、和弦、休止符与连音线，谱线纤细墨黑。仅提取原图一个主体、背景层次、2—4件小物、方向关系及4—6种代表色，转换成手工剪纸与平涂丙烯结合的抽象色块；人物化为圆头与细长块，建筑化为矩形，山水化为层叠剪影，植物化为细茎和椭圆叶，物品只保留识别轮廓。色块边缘轻微弯曲毛糙，无描边、阴影、渐变和写实细节。配色保留原图冷暖关系，统一为低饱和、高明度的雾蓝灰、鼠尾草绿、米杏、灰粉、淡桃、暖沙或浅灰紫。五排构图各不相同：第一排表现空间与稀疏长音；第二排以多层色块表现远中近景与连续短音；第三排仅完整出现一次主体，配少量关联元素与和弦停顿；第四排将动作、道路、水面、风、云或视线化为弧线、色带与跳跃音型；第五排把地面、远景和主色压成靠下色带，以渐少音符收尾。每排5—12块色形，最多两块大色面，位置、密度和节奏不得重复；谱线穿过景物，音符位于色块上方。右格保留留白，可散落原图小物色形，每种只出现一次。除谱号、拍号和极小“piano”外无其他文字、品牌或水印。横版4:3。",
-              "negative_prompt": "",
-              "description": "腾讯元宝 · 图生图 · 建议上传一张日常场景照片 · 参考图 1–1 张",
-              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/YzU1Y2Q2YmItMzI1OS00MzkwLTg4ODgtOTNlZGU1M2M2ODUw.jpg?width=2232&height=1488",
-              "reference_images": [
-                "https://cdn-pro.yuanbao.tencent.com/public/pro/NGM0NDNmZjUtN2QwOS00YTIwLWEwNGUtOGM2Mzc5YzA4MThh.jpg?width=1116&height=1488"
-              ],
-              "source": {
-                "provider": "腾讯元宝",
-                "template_id": "2bb952e2d976402598fd126a8d8d22ca",
-                "url": "https://yuanbao.tencent.com/chat/ai-creation",
-                "categories": [
-                  {
-                    "id": "134592465a8a4336939cd666ef2b8b8a",
-                    "name": "全部"
-                  },
-                  {
-                    "id": "d9ff0e40f01d4d2aba0ff502bd78b12a",
-                    "name": "智能P图"
-                  }
-                ],
-                "generation_type": "image2image",
-                "min_images": 1,
-                "max_images": 1,
-                "reference_image_urls": [
-                  "https://cdn-pro.yuanbao.tencent.com/public/pro/NGM0NDNmZjUtN2QwOS00YTIwLWEwNGUtOGM2Mzc5YzA4MThh.jpg?width=1116&height=1488"
-                ],
-                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/YzU1Y2Q2YmItMzI1OS00MzkwLTg4ODgtOTNlZGU1M2M2ODUw.jpg?width=2232&height=1488",
-                "requires_portrait_authorization": false
-              },
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：剪纸",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "crafts": [
-                    "剪纸",
-                    "手工"
-                  ]
-                }
-              }
-            }
-          ]
-        },
-        {
           "id": "crafts_textile",
           "name": "纺织刺绣",
           "presets": [
-            {
-              "id": "yuanbao_d70414e4068c466b86bad4a2d7061f56",
-              "name": "绣出假期烟花",
-              "type": "prompt",
-              "prompt": "3:4，基于图1原始照片进行艺术化改造，严格保持原图尺寸、比例、构图、视角、人物比例和空间关系，不改变照片裁切，不拉伸人物，不改变人物姿态、五官、服装、环境结构和原始光影，仅在图1基础上增加真实手工毛线刺绣艺术效果，禁止对整张照片进行风格化重绘，禁止改变原图色调，禁止AI重构感。保留图1高清细节和真实摄影质感，不得降低清晰度，不得产生模糊、涂抹或细节损失，人物主体必须保持完全真实，皮肤、脸部、身体、衣服表面干净无任何刺绣、毛线纹理或覆盖装饰，人物清晰度与皮肤质感必须与原图一致，禁止柔化、磨皮或降低锐度。完全取消人物外轮廓描边效果，不准在人物边缘添加任何线框、针脚或毛线描边。刺绣只允许出现在背景中的适合区域，如天空、纯色墙面、远景留白处，绝对不允许出现在地面、地板、道路、桌面、建筑内部、人物脚下、人物周围近景地面或任何不符合现实刺绣逻辑的位置，且不得改变原场景逻辑。以毛线烟花作为核心元素，数量严格控制在4到6个之间，绝对不可以超过6个，也不要少于4个，不要铺满画面，保留大量背景留白与呼吸感。烟花分布必须自然随机、不规则、不对称，禁止排成一行、一列、网格或任何整齐几何排列，禁止烟花大小一致、间距一致或朝向一致，要像真实夜空中偶然绽放的烟花一样随意散落在背景中，有远有近，有疏有密。可包含1到2个大型盛开烟花、1到2个中等烟花以及1到2个小型未完全绽放或正在消散的火花，形成明确的大小、距离和状态变化，禁止全部呈现完全盛开状态，禁止烟花形状像菊花或植物花朵。每个烟花由中心向外呈放射状散开，使用向外延伸的毛线针脚、短线条和细长轨迹表现绽放的光芒，烟花中心保持稀疏、轻盈、不堆叠，绝对禁止在中心形成一个圆形、实心团块或密集的毛线球，中心区域仅保留少量短线头或空白。主要大型烟花采用统一色系设计，每个大型烟花保持单一主色或相近色组合，例如红橙系、蓝紫系、粉色系、金黄色系，避免一个烟花内部出现过多颜色混杂；小型烟花和零散火花可以使用2到3种颜色点缀。整体颜色参考上传图片中的毛线刺绣配色，使用红色、橙色、金黄色、粉色、紫色、蓝色、绿色等手工毛线色彩，颜色饱和度适中，既不过高刺眼也不过低暗淡，保持鲜艳但柔和、高级且和谐的视觉效果，像手工染制的自然毛线色调。所有刺绣均采用粗毛线制作，呈现真实纤维纹理、柔软绒感、立体线头、交错针脚和自然阴影，具有明显厚度，像真实毛线绣在照片表面，而不是平面绘制、贴纸或数字效果。整体融合真实摄影、毛线刺绣、纤维艺术和创意拼贴效果，保持高级艺术摄影质感，避免背景被填满、细碎廉价装饰、塑料感、贴纸感和数字绘制感，让刺绣成为照片中自然生长的艺术装饰。",
-              "negative_prompt": "",
-              "description": "腾讯元宝 · 图生图 · 上传一张照片即可生成 · 参考图 1–1 张",
-              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/NzljYmI0MTAtNjUxZi00YTllLWEyNmYtZGUwZjUyYjA5OTEx_compress.webp?width=1440&height=1920",
-              "reference_images": [
-                "https://cdn-pro.yuanbao.tencent.com/public/pro/MTA1YmE0MmItMWFlZS00OWQ2LWIxM2UtMTBiZDc0MmI4MzEz_compress.webp?width=3072&height=4096"
-              ],
-              "source": {
-                "provider": "腾讯元宝",
-                "template_id": "d70414e4068c466b86bad4a2d7061f56",
-                "url": "https://yuanbao.tencent.com/chat/ai-creation",
-                "categories": [
-                  {
-                    "id": "134592465a8a4336939cd666ef2b8b8a",
-                    "name": "全部"
-                  },
-                  {
-                    "id": "d9ff0e40f01d4d2aba0ff502bd78b12a",
-                    "name": "智能P图"
-                  }
-                ],
-                "generation_type": "image2image",
-                "min_images": 1,
-                "max_images": 1,
-                "reference_image_urls": [
-                  "https://cdn-pro.yuanbao.tencent.com/public/pro/MTA1YmE0MmItMWFlZS00OWQ2LWIxM2UtMTBiZDc0MmI4MzEz_compress.webp?width=3072&height=4096"
-                ],
-                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/NzljYmI0MTAtNjUxZi00YTllLWEyNmYtZGUwZjUyYjA5OTEx_compress.webp?width=1440&height=1920",
-                "requires_portrait_authorization": false
-              },
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：刺绣",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "crafts": [
-                    "刺绣",
-                    "手工",
-                    "针脚"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "yuanbao_1462c90219314d1aae8a7150d6a5db4a",
-              "name": "白纱浪漫风",
-              "type": "prompt",
-              "prompt": "参考上传图生成图片：去掉上传图1中人物原有的服饰、所有配饰，更换人物服装和配饰；服装风格：哥特浪漫主义，白色细肩带不规则剪裁半透明宽松吊带，拼接半透明镂空刺绣半透明雪纺纱料，斜向解构拼布设计，面料半透明轻薄通透，蕾丝带有精致花卉打孔纹样，飘逸微透的朦胧质感。不对称高低落差不规则半裙，多层叠加面料组合，镂空绣花棉布搭配垂坠柔滑雪纺，裙摆长短错落，一侧短款露腿，另一侧长款拖曳垂坠，边缘自然波浪荷叶碎边，侧边白色抽绳系带细节，松弛破碎感。 白色褶皱长筒腿袜，搭配米白色系带尖头中筒马丁靴，针织肌理柔软蓬松，靴面哑光皮质。白色镂空蕾丝流苏珠链发带，垂坠细碎珠串遮挡眉眼；长款复古做旧银色圆形雕花吊牌搭配细长流苏坠饰；细款银色单臂臂环，极简做旧金属质感。仅做服饰配饰的更换，严格保证其他画面内容保持不变，包含但不限于画面构图、滤镜、人物五官长相、动作、环境背景等；画质8K高清无噪点。",
-              "negative_prompt": "",
-              "description": "腾讯元宝 · 图生图 · 建议上传一张女性照片 · 参考图 1–1 张",
-              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/OGRkMjBiN2YtNTM3Mi00YThiLWFhZjEtNDZhMTIwZDRlNTkx.jpg?width=1116&height=1488",
-              "reference_images": [
-                "https://cdn-pro.yuanbao.tencent.com/public/pro/Yzg0NzI2YTctNmMyMy00YjE2LWI2OTgtYThkZThiN2NjOTk2.jpg?width=1116&height=1488"
-              ],
-              "source": {
-                "provider": "腾讯元宝",
-                "template_id": "1462c90219314d1aae8a7150d6a5db4a",
-                "url": "https://yuanbao.tencent.com/chat/ai-creation",
-                "categories": [
-                  {
-                    "id": "134592465a8a4336939cd666ef2b8b8a",
-                    "name": "全部"
-                  },
-                  {
-                    "id": "d9ff0e40f01d4d2aba0ff502bd78b12a",
-                    "name": "智能P图"
-                  }
-                ],
-                "generation_type": "image2image",
-                "min_images": 1,
-                "max_images": 1,
-                "reference_image_urls": [
-                  "https://cdn-pro.yuanbao.tencent.com/public/pro/Yzg0NzI2YTctNmMyMy00YjE2LWI2OTgtYThkZThiN2NjOTk2.jpg?width=1116&height=1488"
-                ],
-                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/OGRkMjBiN2YtNTM3Mi00YThiLWFhZjEtNDZhMTIwZDRlNTkx.jpg?width=1116&height=1488",
-                "requires_portrait_authorization": false
-              },
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：刺绣",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "crafts": [
-                    "刺绣",
-                    "剪裁"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "yuanbao_1849042d35ef476ba118578db2e9d756",
-              "name": "复古绅士风",
-              "type": "prompt",
-              "prompt": "参考上传图生成图片：去掉上传图1中人物原有的服饰，所有配饰，更换人物服装和配饰；服装风格：复古轻熟风穿搭，灰调麻灰色针织短袖 Polo 衫，针织面料，细腻透气的麻质纹理，宽松休闲版型；卡其色竖细条纹阔腿西裤，垂感挺括的西装面料，高腰双褶宽松阔腿剪裁；鞋子：复古棕红色乐福皮鞋，哑光绒面皮革质感；搭配深棕色软皮托特大包，复古油蜡皮褶皱质感。头戴酒红色复古刺绣棒球帽，花纹细格复古小丝巾绕颈佩戴(丝巾在上衣领子内)，棕色皮质腰带，腰挂皮质挂饰吊坠，腕间金属表盘复古腕表，简约素圈戒指；仅做服饰配饰的更换，严格保证其他画面内容保持不变包含但不限于人物发型、动作、环境背景等；",
-              "negative_prompt": "",
-              "description": "腾讯元宝 · 图生图 · 建议上传1张男性正脸图片 · 参考图 1–1 张",
-              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/ODIyZjU1MTYtYzk5Mi00YTBiLWE5YTMtZDlhNGNjZGZlNWIy.jpg?width=1116&height=1488",
-              "reference_images": [
-                "https://cdn-pro.yuanbao.tencent.com/public/pro/MjVkOWNmYzYtNTIwZi00NjI5LTgzZjYtMjQxOGI0MjQ3ZWM4.jpg?width=1116&height=1488"
-              ],
-              "source": {
-                "provider": "腾讯元宝",
-                "template_id": "1849042d35ef476ba118578db2e9d756",
-                "url": "https://yuanbao.tencent.com/chat/ai-creation",
-                "categories": [
-                  {
-                    "id": "134592465a8a4336939cd666ef2b8b8a",
-                    "name": "全部"
-                  },
-                  {
-                    "id": "d9ff0e40f01d4d2aba0ff502bd78b12a",
-                    "name": "智能P图"
-                  }
-                ],
-                "generation_type": "image2image",
-                "min_images": 1,
-                "max_images": 1,
-                "reference_image_urls": [
-                  "https://cdn-pro.yuanbao.tencent.com/public/pro/MjVkOWNmYzYtNTIwZi00NjI5LTgzZjYtMjQxOGI0MjQ3ZWM4.jpg?width=1116&height=1488"
-                ],
-                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/ODIyZjU1MTYtYzk5Mi00YTBiLWE5YTMtZDlhNGNjZGZlNWIy.jpg?width=1116&height=1488",
-                "requires_portrait_authorization": false
-              },
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：刺绣",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "crafts": [
-                    "刺绣",
-                    "剪裁"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "yuanbao_6944f51adf8b4f33b119da89ee87c27b",
-              "name": "粉黑Y2K",
-              "type": "prompt",
-              "prompt": "参考上传图生成图片：去掉上传图1中人物原有的服饰、所有配饰，更换人物服装和配饰；服装风格：Y2K 甜酷亚比辣妹套装；露腰抹胸吊带，脏粉橘色做旧扎染肌理面料下摆叠加黑色网纱，整体是带尖角的不对称剪裁设计；内层是黑色百褶短裙，外层叠穿高饱和浅粉棕格子布，系在腰间当做裙摆装饰，两侧长布片垂落，增加层次感。亮粉色铆钉皮带，搭配银色链条腰链，腰链挂有紫色小吊坠，腿部高饱和脏粉橘色纯色喇叭阔腿牛仔袜套，表面银色闪片爱心刺绣，侧边系带抽绳，可堆可拉，套在小腿外，搭配黑色厚底鞋。手部灰黑色破洞堆堆露指袖套，做旧废土感。银色金属感链条腋下小包。多层细项链，搭配彩色编发丝带，粉色发夹。仅做服饰配饰的更换，严格保证其他画面内容保持不变包含但不限于人物发型、动作、环境背景等；",
-              "negative_prompt": "",
-              "description": "腾讯元宝 · 图生图 · 建议上传1张女性正脸图片 · 参考图 1–1 张",
-              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/Mzk3NzBlMTEtMmE3NC00NmM5LTg5NTgtYWY4NGY3N2MzZGRl_compress.webp?width=372&height=496",
-              "reference_images": [
-                "https://cdn-pro.yuanbao.tencent.com/public/pro/OTg2YmQ2ZjgtZDM1ZC00NzdlLTgxOGQtOGJkNDgyYmZiNDkz_compress.webp?width=1279&height=1706"
-              ],
-              "source": {
-                "provider": "腾讯元宝",
-                "template_id": "6944f51adf8b4f33b119da89ee87c27b",
-                "url": "https://yuanbao.tencent.com/chat/ai-creation",
-                "categories": [
-                  {
-                    "id": "134592465a8a4336939cd666ef2b8b8a",
-                    "name": "全部"
-                  },
-                  {
-                    "id": "d9ff0e40f01d4d2aba0ff502bd78b12a",
-                    "name": "智能P图"
-                  }
-                ],
-                "generation_type": "image2image",
-                "min_images": 1,
-                "max_images": 1,
-                "reference_image_urls": [
-                  "https://cdn-pro.yuanbao.tencent.com/public/pro/OTg2YmQ2ZjgtZDM1ZC00NzdlLTgxOGQtOGJkNDgyYmZiNDkz_compress.webp?width=1279&height=1706"
-                ],
-                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/Mzk3NzBlMTEtMmE3NC00NmM5LTg5NTgtYWY4NGY3N2MzZGRl_compress.webp?width=372&height=496",
-                "requires_portrait_authorization": false
-              },
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：刺绣",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "crafts": [
-                    "刺绣",
-                    "剪裁"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "yuanbao_3a7e1f14118f45f8bc7e81f3fea32d15",
-              "name": "随性街头风",
-              "type": "prompt",
-              "prompt": "基于用户上传的人像照片生成:准确保留人物五官、脸型和个人辨识度、不改变面部结构，不要改变用户提交图的尺寸。除了描述的内容去除原图人物身上所有原有配饰和额外物品。仅替换全身服装及配饰。奶油浅米白色宽松吊带上衣，细肩带，上半部分菱形网格镂空面料，下摆三层错落荷叶蛋糕层，面料轻薄柔软，松弛度假风；独立高腰长款半身长裙，不是连体裙，裙身布满细小立体小花刺绣，裙摆底部宽大扇形镂空蕾丝花边，裙长到脚踝。右肩挎一只大号浅棕色草编托特包，粗草编织纹理；颈部佩戴波西米亚复古多层吊坠项链，项链长度落到胸口位置；脚上穿着棕色蝴蝶结平底单鞋。自然柔和户外日光，布料褶皱松弛自然，服饰光影与环境完全统一，高清真人写真质感，写实照片，细节细腻，无多余首饰。",
-              "negative_prompt": "",
-              "description": "腾讯元宝 · 图生图 · 建议上传1张女性正面图片 · 参考图 1–1 张",
-              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/M2QxZWU1YWMtODZiZC00NDRjLTkxOTMtNjdjOWM0YTEyZWIz_compress.webp?width=1728&height=2304",
-              "reference_images": [
-                "https://cdn-pro.yuanbao.tencent.com/public/pro/Y2VjYTA4YTctMzcxMy00ZDNhLWEzN2YtOGZmY2U0YTc1ODBj_compress.webp?width=1440&height=1920"
-              ],
-              "source": {
-                "provider": "腾讯元宝",
-                "template_id": "3a7e1f14118f45f8bc7e81f3fea32d15",
-                "url": "https://yuanbao.tencent.com/chat/ai-creation",
-                "categories": [
-                  {
-                    "id": "134592465a8a4336939cd666ef2b8b8a",
-                    "name": "全部"
-                  },
-                  {
-                    "id": "d9ff0e40f01d4d2aba0ff502bd78b12a",
-                    "name": "智能P图"
-                  }
-                ],
-                "generation_type": "image2image",
-                "min_images": 1,
-                "max_images": 1,
-                "reference_image_urls": [
-                  "https://cdn-pro.yuanbao.tencent.com/public/pro/Y2VjYTA4YTctMzcxMy00ZDNhLWEzN2YtOGZmY2U0YTc1ODBj_compress.webp?width=1440&height=1920"
-                ],
-                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/M2QxZWU1YWMtODZiZC00NDRjLTkxOTMtNjdjOWM0YTEyZWIz_compress.webp?width=1728&height=2304",
-                "requires_portrait_authorization": false
-              },
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：刺绣",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "crafts": [
-                    "刺绣",
-                    "编织"
-                  ]
-                }
-              }
-            },
             {
               "id": "yuanbao_81b868749a7c4ae8aad1c8f599ab56ad",
               "name": "立体刺绣",
@@ -352,50 +45,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：刺绣 / 刺绣",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "yuanbao_05dfbaddf9224980834cee8761b9bde6",
-              "name": "把布艺贴进宇宙",
-              "type": "prompt",
-              "prompt": "布艺拼贴太空主题，手工拼布艺术风格。由碎花棉布拼贴而成的宇航员漂浮在深色牛仔裤织物纹理的星空之中，星球采用不同大小、不同颜色的纽扣组合缝制，火箭喷射出的尾焰由鲜艳的红色流苏组成，银河以细腻银色刺绣线蜿蜒贯穿画面，陨石带使用牛仔布碎片与拼布工艺进行表现。整体融合棉布、麻布、牛仔布等丰富织物材质，清晰可见缝线、针脚、布纹、拼接边缘与手工缝制细节，层次柔和，充满手作温度与童趣绘本氛围，构图简洁均衡，色彩温暖清新，呈现精致的布艺拼贴艺术效果，竖版 3:4。",
-              "negative_prompt": "",
-              "description": "腾讯元宝 · 文生图",
-              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/OWUzMDBjYjktOGMzMC00OTM2LWE3MjQtZmRlMmU3YzVmY2Mz_compress.webp?width=1116&height=1488",
-              "reference_images": [],
-              "source": {
-                "provider": "腾讯元宝",
-                "template_id": "05dfbaddf9224980834cee8761b9bde6",
-                "url": "https://yuanbao.tencent.com/chat/ai-creation",
-                "categories": [
+                "rules_version": "1.1.2",
+                "subcategories": [
                   {
-                    "id": "134592465a8a4336939cd666ef2b8b8a",
-                    "name": "全部"
+                    "id": "crafts_textile",
+                    "name": "纺织刺绣"
                   }
-                ],
-                "generation_type": "text2image",
-                "min_images": 0,
-                "max_images": 0,
-                "reference_image_urls": [],
-                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/OWUzMDBjYjktOGMzMC00OTM2LWE3MjQtZmRlMmU3YzVmY2Mz_compress.webp?width=1116&height=1488",
-                "requires_portrait_authorization": false
-              },
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：刺绣",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "crafts": [
-                    "刺绣",
-                    "手工",
-                    "针脚"
-                  ]
-                }
+                ]
               }
             },
             {
@@ -435,7 +91,248 @@
                 "status": "suggested",
                 "reason": "标题规则证据：针织 / 针织",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_textile",
+                    "name": "纺织刺绣"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_6e3a2e125d77402f9b93fdfeaaa69ba5",
+              "name": "大地织锦",
+              "type": "prompt",
+              "prompt": "严格90°垂直航拍，镜头与地面完全平行。大片农田以细密平行作物带组成，呈鼠尾草绿、浅黄、灰白与淡粉色的低饱和渐变；上方深色田地与弯曲土路交汇，树木自然散布于边缘。田间通过深色作物留白形成巨大衬线字体“YUANBAO”，下方小字“CLUB”，文字真实嵌入农田而非后期叠加。整体写实、静谧、高级，具有卫星摄影质感、轻微胶片颗粒、柔和自然光与极简香氛品牌氛围。竖版3:4尺寸。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 文生图",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/NDgyNGQwODYtMmU0Yy00NTAxLWIwNGEtM2NkOGMyYzU4NmU2_compress.webp?width=1116&height=1488",
+              "reference_images": [],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "6e3a2e125d77402f9b93fdfeaaa69ba5",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "6237f94f4d53400fa1152368177cb6f8",
+                    "name": "海报设计"
+                  }
+                ],
+                "generation_type": "text2image",
+                "min_images": 0,
+                "max_images": 0,
+                "reference_image_urls": [],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/NDgyNGQwODYtMmU0Yy00NTAxLWIwNGEtM2NkOGMyYzU4NmU2_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "semantic_refine",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "大类内二次判别：crafts_textile 置信 0.79 / 领先 0.61",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_textile",
+                    "name": "纺织刺绣"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.7879,
+                  "runner_up": "crafts_fiber"
+                },
+                "previous_location": "crafts/crafts_pending"
+              }
+            },
+            {
+              "id": "yuanbao_d70414e4068c466b86bad4a2d7061f56",
+              "name": "绣出假期烟花",
+              "type": "prompt",
+              "prompt": "3:4，基于图1原始照片进行艺术化改造，严格保持原图尺寸、比例、构图、视角、人物比例和空间关系，不改变照片裁切，不拉伸人物，不改变人物姿态、五官、服装、环境结构和原始光影，仅在图1基础上增加真实手工毛线刺绣艺术效果，禁止对整张照片进行风格化重绘，禁止改变原图色调，禁止AI重构感。保留图1高清细节和真实摄影质感，不得降低清晰度，不得产生模糊、涂抹或细节损失，人物主体必须保持完全真实，皮肤、脸部、身体、衣服表面干净无任何刺绣、毛线纹理或覆盖装饰，人物清晰度与皮肤质感必须与原图一致，禁止柔化、磨皮或降低锐度。完全取消人物外轮廓描边效果，不准在人物边缘添加任何线框、针脚或毛线描边。刺绣只允许出现在背景中的适合区域，如天空、纯色墙面、远景留白处，绝对不允许出现在地面、地板、道路、桌面、建筑内部、人物脚下、人物周围近景地面或任何不符合现实刺绣逻辑的位置，且不得改变原场景逻辑。以毛线烟花作为核心元素，数量严格控制在4到6个之间，绝对不可以超过6个，也不要少于4个，不要铺满画面，保留大量背景留白与呼吸感。烟花分布必须自然随机、不规则、不对称，禁止排成一行、一列、网格或任何整齐几何排列，禁止烟花大小一致、间距一致或朝向一致，要像真实夜空中偶然绽放的烟花一样随意散落在背景中，有远有近，有疏有密。可包含1到2个大型盛开烟花、1到2个中等烟花以及1到2个小型未完全绽放或正在消散的火花，形成明确的大小、距离和状态变化，禁止全部呈现完全盛开状态，禁止烟花形状像菊花或植物花朵。每个烟花由中心向外呈放射状散开，使用向外延伸的毛线针脚、短线条和细长轨迹表现绽放的光芒，烟花中心保持稀疏、轻盈、不堆叠，绝对禁止在中心形成一个圆形、实心团块或密集的毛线球，中心区域仅保留少量短线头或空白。主要大型烟花采用统一色系设计，每个大型烟花保持单一主色或相近色组合，例如红橙系、蓝紫系、粉色系、金黄色系，避免一个烟花内部出现过多颜色混杂；小型烟花和零散火花可以使用2到3种颜色点缀。整体颜色参考上传图片中的毛线刺绣配色，使用红色、橙色、金黄色、粉色、紫色、蓝色、绿色等手工毛线色彩，颜色饱和度适中，既不过高刺眼也不过低暗淡，保持鲜艳但柔和、高级且和谐的视觉效果，像手工染制的自然毛线色调。所有刺绣均采用粗毛线制作，呈现真实纤维纹理、柔软绒感、立体线头、交错针脚和自然阴影，具有明显厚度，像真实毛线绣在照片表面，而不是平面绘制、贴纸或数字效果。整体融合真实摄影、毛线刺绣、纤维艺术和创意拼贴效果，保持高级艺术摄影质感，避免背景被填满、细碎廉价装饰、塑料感、贴纸感和数字绘制感，让刺绣成为照片中自然生长的艺术装饰。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 上传一张照片即可生成 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/NzljYmI0MTAtNjUxZi00YTllLWEyNmYtZGUwZjUyYjA5OTEx_compress.webp?width=1440&height=1920",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/MTA1YmE0MmItMWFlZS00OWQ2LWIxM2UtMTBiZDc0MmI4MzEz_compress.webp?width=3072&height=4096"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "d70414e4068c466b86bad4a2d7061f56",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "d9ff0e40f01d4d2aba0ff502bd78b12a",
+                    "name": "智能P图"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/MTA1YmE0MmItMWFlZS00OWQ2LWIxM2UtMTBiZDc0MmI4MzEz_compress.webp?width=3072&height=4096"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/NzljYmI0MTAtNjUxZi00YTllLWEyNmYtZGUwZjUyYjA5OTEx_compress.webp?width=1440&height=1920",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "semantic_refine",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "大类内二次判别：crafts_textile 置信 0.67 / 领先 0.48",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_textile",
+                    "name": "纺织刺绣"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.6711,
+                  "runner_up": "crafts_paper"
+                },
+                "previous_location": "crafts/crafts_pending"
+              }
+            }
+          ]
+        },
+        {
+          "id": "crafts_pending",
+          "name": "crafts_pending",
+          "presets": []
+        },
+        {
+          "id": "crafts_paper",
+          "name": "纸艺剪纸",
+          "presets": [
+            {
+              "id": "yuanbao_4deaf2a9bdab495c927036ead37afb36",
+              "name": "纸片轮廓叠加",
+              "type": "prompt",
+              "prompt": "参考上传图生成图片： 比例3:4 ，上下二分拼接图，水平分割为上下两块，中间分界线为不规则手撕白纸毛边，纸边缘带自然毛絮。上半部分：嵌入上传图图1，不改变内容，自然填充满上半部分。下半部分：人物风格化：完全简化/抽象化，用几何色块概括人物，减少80%人物细节，将上传图片内容居中，四周大面积留白，整体转为扁平手绘水彩插画风格，低饱和配色；极其丰富精细的图层细节每个元素带手撕毛边白色轮廓描边，纸片之间有清晰的前后遮挡、错位叠压和轻微投影，形成多层次水彩风格的纸艺拼贴结构，画面最底层为浅米白做旧纸张纹理，画面四周叠加小号彩色圆片纸、几何纸片和不规则纸胶带装饰；背景层、人物层、装饰层明确分开，整体水彩质感要明显增强，包含湿画法扩散、晕染边缘、颜料沉积、纸张颗粒、透明叠色与柔和渗痕，低对比、柔焦、水彩肌理清晰。文字排版:下半部分左上角小号黑色极细衬线字体，三行极短英文单词下方搭配极细下划线;右上角小号黑色极细衬线字体“NO.23\"搭配极细下划线;左下角两行极简英文短句;右下角椭圆极细轮廓框，内部两行文字\"GOODTIMES\".",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张人像照片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/YTYzZjk2ZDYtMzZiZC00NzQ2LWI2YzAtMmE2NzBiYzg2ZWU1.jpg?width=1280&height=1707",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/NWNiOTA5OTQtNDExZS00NzdhLTg0YWMtODdlODRmMGEyOThl.jpg?width=1707&height=1280"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "4deaf2a9bdab495c927036ead37afb36",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/NWNiOTA5OTQtNDExZS00NzdhLTg0YWMtODdlODRmMGEyOThl.jpg?width=1707&height=1280"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/YTYzZjk2ZDYtMzZiZC00NzQ2LWI2YzAtMmE2NzBiYzg2ZWU1.jpg?width=1280&height=1707",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "semantic_refine",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "大类内二次判别：crafts_paper 置信 1.00 / 领先 1.00",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 1.0,
+                  "runner_up": null
+                },
+                "previous_location": "crafts/crafts_pending"
+              }
+            },
+            {
+              "id": "yuanbao_6191814e0852458b8dbc530574561409",
+              "name": "立体睫毛",
+              "type": "prompt",
+              "prompt": "参考上传图生成图片：保持上传图比例不变，原图场景、人物五官、表情、皮肤、服饰、动作不变。仅调整人物眼睫毛：分段式仙子毛假睫毛，一簇一簇独立毛簇，中间长尖刺主仙子毛，长短错落，毛根集中，毛丝向外放射散开，眼尾毛簇拉长上扬，毛丝纤细轻盈，黑硬挺毛质，根根分明，不粘连，上睫毛层次立体，下睫毛少量纤细短毛，自然穿插原生睫毛，毛梢尖锐，空气感，不厚重浓密、自然衔接无假感，保留空隙，8k高清。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传1张女性正脸图片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/MTU0NTk0ZTMtZTk1Ni00ODQ4LTgxZWQtN2IxYTk0NmRkMjM3_compress.webp?width=1280&height=1707",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/ZGFlY2Y3NTEtZjk4Ni00MWE2LWEyMmQtNzFmMDdmZDMyMjA2_compress.webp?width=1266&height=1686"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "6191814e0852458b8dbc530574561409",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "d9ff0e40f01d4d2aba0ff502bd78b12a",
+                    "name": "智能P图"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/ZGFlY2Y3NTEtZjk4Ni00MWE2LWEyMmQtNzFmMDdmZDMyMjA2_compress.webp?width=1266&height=1686"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/MTU0NTk0ZTMtZTk1Ni00ODQ4LTgxZWQtN2IxYTk0NmRkMjM3_compress.webp?width=1280&height=1707",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "semantic_refine",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "大类内二次判别：crafts_paper 置信 0.91 / 领先 0.82",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.9121,
+                  "runner_up": "crafts_fiber"
+                },
+                "previous_location": "crafts/crafts_pending"
               }
             }
           ]
@@ -445,19 +342,141 @@
           "name": "毛毡绳结",
           "presets": [
             {
-              "id": "yuanbao_b1450823d6334eba9e59f264e3a12013",
-              "name": "玩偶替身守护你",
+              "id": "yuanbao_385a05761cf74a729ba739efea3b8fed",
+              "name": "法式羊毛卷",
               "type": "prompt",
-              "prompt": "基于上传照片进行局部创意合成：原照片中的真人、背景场景完全保持真实原图。只在原图基础上新增一个超大型动物化毛绒玩偶伙伴。真人必须保持真实摄影质感，五官、皮肤、发型、服装、身体比例、姿势和位置不变，不要把真人卡通化、动物化或玩偶化。根据真人的气质、穿搭颜色、发型轮廓和配饰，设计一个独立的巨型动物毛绒玩偶角色，位于真人身后或侧后方，与真人自然互动，如搭肩、轻抱、靠近、低头看向真人或一起摆姿势。玩偶风格参考复古小动物毛绒公仔与羊毛毡玩偶：玩偶头部必须为完整动物结构，可根据画面气质自动设计为猫、兔子、小熊、狐狸、小狗等萌系动物，不允许出现长头发动物、人脸动物、拟人女孩动物或保留真人头发的玩偶。萌系动物，Q版头身比，柔软短绒毛，手工缝制感，温润羊毛肌理，轻微绒毛颗粒。不是人脸娃娃，而是从真人特征提取出的动物角色，可像猫、兔、狐狸、小熊、小狗等。整体遵循“圆形优先”的造型设计，没有任何尖锐、细长、干瘦或锋利轮廓。头部约占整体身高45%–55%，宽额头、饱满脸颊、短鼻吻、小鼻子、小嘴巴，脸部整体圆润饱满。双眼采用圆润玻璃眼或黑豆眼，占脸部宽度约35%–45%，眼距略宽，位置略低于脸部中心，形成天真、治愈、呆萌、亲和的毛绒玩偶表情。玩偶穿着与真人完全一致的同款服装，保持相同款式、剪裁、颜色、材质、图案及纹理，并复刻帽子、眼镜、首饰、包包等配饰，但这些配饰自然佩戴在动物身体上，不改变动物头部结构。玩偶需要匹配原照片的光影、透视和环境，像真实放置在原场景中。",
+              "prompt": "参考上传图生成图片：仅改变人物发型为“超长法式羊毛卷”，柔顺偏细软健康发质，发丝拥有自然支撑力，卷度饱满持久，不会干枯毛躁打结。高蓬松垫高颅顶，发根蓬松隆起不贴头皮，柔和侧分，没有生硬分界线；发丝是蓬松的羊毛卷；额角和脸颊散落少量轻盈碎发丝，几缕发丝轻盈扬起带有动态风吹感；卷发层次错落分明，整体蓬松饱满，发尾弧度流畅。缎面柔光发丝质感，柔和细腻的水光光泽，不油腻反光，每一缕波羊毛卷清晰顺滑，真实真人发丝质感，蓬松轻盈。",
               "negative_prompt": "",
-              "description": "腾讯元宝 · 图生图 · 上传图片做同款 · 参考图 1–1 张",
-              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/NGExNTg4OGEtYWE0ZC00MDViLWFkODctYWI5YzQxN2JkZWNm_compress.webp?width=1116&height=1488",
+              "description": "腾讯元宝 · 图生图 · 建议上传1张女性正脸图片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/MWQ4NzQ1MmQtYjRlZi00OTFhLWE4NTAtNjFhM2MyNmI1ZTcx_compress.webp?width=372&height=496",
               "reference_images": [
-                "https://cdn-pro.yuanbao.tencent.com/public/pro/Nzk4NzU5NTgtOTM3ZS00YTY2LWFmZmYtOTVkYzcyNjY5NjJk_compress.webp?width=1116&height=1488"
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/NTMzYzg3YWYtZTljZi00ZjcwLTlhN2MtOWU3MWY4ZjRhY2Jh_compress.webp?width=768&height=1024"
               ],
               "source": {
                 "provider": "腾讯元宝",
-                "template_id": "b1450823d6334eba9e59f264e3a12013",
+                "template_id": "385a05761cf74a729ba739efea3b8fed",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "d9ff0e40f01d4d2aba0ff502bd78b12a",
+                    "name": "智能P图"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/NTMzYzg3YWYtZTljZi00ZjcwLTlhN2MtOWU3MWY4ZjRhY2Jh_compress.webp?width=768&height=1024"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/MWQ4NzQ1MmQtYjRlZi00OTFhLWE4NTAtNjFhM2MyNmI1ZTcx_compress.webp?width=372&height=496",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "semantic_refine",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "大类内二次判别：crafts_fiber 置信 0.60 / 领先 0.40",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_fiber",
+                    "name": "毛毡绳结"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.605,
+                  "runner_up": "crafts_textile"
+                },
+                "previous_location": "crafts/crafts_pending"
+              }
+            },
+            {
+              "id": "yuanbao_facb8475c6c84989a89bedb4a589bb86",
+              "name": "中短羊毛卷",
+              "type": "prompt",
+              "prompt": "参考上传图片生成图片：只优化人物发型“男士中短发慵懒羊毛卷造型”，柔软偏细的发丝质地，不会僵硬结块，发丝轻盈松散。整体全头均匀羊毛小卷，发丝凌乱错落，轻微偏分，几缕发丝自然垂落在额头、眼周位置，发尾柔和不整齐，蓬松饱满的颅顶高度，两侧发丝自然修饰脸型，没有铲短推边，保留完整卷发层次。柔光雾面发丝质感，轻微通透光泽感，每一缕卷曲发丝纹理清晰可见，蓬松轻盈不干枯毛躁，真实烫卷的真人发丝纤维感。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传1张男性正脸图片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/ZjVlNDVmNzQtMDM2OS00NzkwLTg5OWMtOTI2NTNkMWNhYTkw_compress.webp?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/NjRkODc0OWUtYzRlYi00NWFiLTk2NzMtYjEzZmM3MTVlYTQ1_compress.webp?width=1280&height=1600"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "facb8475c6c84989a89bedb4a589bb86",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "d9ff0e40f01d4d2aba0ff502bd78b12a",
+                    "name": "智能P图"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/NjRkODc0OWUtYzRlYi00NWFiLTk2NzMtYjEzZmM3MTVlYTQ1_compress.webp?width=1280&height=1600"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/ZjVlNDVmNzQtMDM2OS00NzkwLTg5OWMtOTI2NTNkMWNhYTkw_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "semantic_refine",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "大类内二次判别：crafts_fiber 置信 0.62 / 领先 0.28",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_fiber",
+                    "name": "毛毡绳结"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.6208,
+                  "runner_up": "crafts_paper"
+                },
+                "previous_location": "crafts/crafts_pending"
+              }
+            }
+          ]
+        },
+        {
+          "id": "crafts_clay",
+          "name": "陶瓷黏土",
+          "presets": [
+            {
+              "id": "yuanbao_7c6e7d3b11ec4700b963a3d5944c057e",
+              "name": "黏土动画风格化",
+              "type": "prompt",
+              "prompt": "根据上传图片生成图片：定格黏土动画与写实油画融合风格，人物呈现明显光滑哑光的橡皮泥质感，皮肤最光滑，其余部分保留橡皮泥质感，头发是微卷扭曲效果，人物为人偶式卡通孩童体型，Q 版拟人体型，头身比接近 1:3，四肢极纤细，头部圆润偏大，脖颈短小；人偶五官范式：面部轮廓圆润流畅，平缓柔和的立体五官，眼型偏大且轮廓简洁，眉毛线条简约柔和，五官间距宽松舒展，弱化尖锐棱角，整体五官造型简洁圆润，充满童真柔和的人偶面部特征。背景采用写实油画肌理与薄涂层次，整体颜色减淡，越靠后饱和度越低，颜色越淡，形成强烈的层次感，色彩过渡自然，线条柔和不生硬，氛围温暖治愈而略带怀旧质感，光影柔和自然，比例3:4 。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张人像照片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/NGE0NTZhNmMtNGQyNS00OGQzLTkzYzEtNzYzZGRhMDYxYTY5_compress.webp?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/N2JiZTEzOTMtMDI0Ni00ODVlLTliNTYtODY0NWIyN2VhYmQy_compress.webp?width=768&height=1024"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "7c6e7d3b11ec4700b963a3d5944c057e",
                 "url": "https://yuanbao.tencent.com/chat/ai-creation",
                 "categories": [
                   {
@@ -473,26 +492,131 @@
                 "min_images": 1,
                 "max_images": 1,
                 "reference_image_urls": [
-                  "https://cdn-pro.yuanbao.tencent.com/public/pro/Nzk4NzU5NTgtOTM3ZS00YTY2LWFmZmYtOTVkYzcyNjY5NjJk_compress.webp?width=1116&height=1488"
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/N2JiZTEzOTMtMDI0Ni00ODVlLTliNTYtODY0NWIyN2VhYmQy_compress.webp?width=768&height=1024"
                 ],
-                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/NGExNTg4OGEtYWE0ZC00MDViLWFkODctYWI5YzQxN2JkZWNm_compress.webp?width=1116&height=1488",
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/NGE0NTZhNmMtNGQyNS00OGQzLTkzYzEtNzYzZGRhMDYxYTY5_compress.webp?width=1116&height=1488",
                 "requires_portrait_authorization": false
               },
               "classification": {
-                "method": "rules",
-                "stage": "content",
+                "method": "llm",
+                "stage": "title",
                 "resolution": "resolved",
                 "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：羊毛毡",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "crafts": [
-                    "羊毛毡",
-                    "手工",
-                    "剪裁"
-                  ]
-                }
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_clay",
+                    "name": "陶瓷黏土"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_0f92477e954c4b7ebbce624b84e340cb",
+              "name": "我的千年陶偶",
+              "type": "prompt",
+              "prompt": "竖版3:4。根据用户上传照片，将人物进行古代彩塑陶俑化转译，保留较高辨识度，提取脸型轮廓、五官关系、眉眼神态、发型、穿搭色彩与气质，使陶俑具有本人神韵，但不复制真人皮肤和写实五官。无论年龄、角度、半身或局部照片，均自动补全为完整全身中国古代民间彩塑陶俑。人物采用可爱、稚拙、温润的幼态陶俑面容：保留本人脸型基础，仅适度圆润化，额头饱满、双颊丰润、面中略短、五官小巧钝化。眼睛保留本人眼型神态，再转化为小尺寸细窄微弯半睁陶塑眼，浅凹眼窝、厚钝眼睑、眼尾微扬，眼缝仅留低对比暗点，无明显眼白、瞳孔、睫毛和高光；鼻子短钝陶塑化，嘴部保留本人嘴型与神态并转为浅浮雕小嘴，脸颊带淡淡矿物红彩。整体第一眼为可爱古拙陶俑，细看神似本人。发型保持用户原发型整体轮廓和辨识度，仅轻微调整束发、发尾结构，并融入少量古代簪饰、发带或传统固定方式，使其像本人原发型的古代版本，不完全替换成固定古装发型。固定为完整全身小型馆藏陶俑，约4～4.5头身，头部略大但非夸张Q版，窄肩短颈、敦实躯干、略短完整四肢、圆钝手脚，高约30～45厘米。无论原图姿势均自动补全全身，可自然站立、抬手或捧物，头顶至双脚完整入镜。现代服装仅提取主色、层次和气质，转译为交领襦衣、圆领袍、宽袖长衣、襦裙等古代陶俑服饰结构，使其保留原穿搭风格但符合古代人物造型。采用粗粝手捏陶土、低饱和矿物彩绘、褪色釉彩、裂纹和斑驳磨损，保留手工塑形痕迹，呈现真实古代彩塑文物质感。陶俑陈列于现代博物馆玻璃展柜浅色石材展台，占展柜高度约1/2～2/3。画面左侧一只手持手机，屏幕显示用户上传原图；陶俑右下方的玻璃展柜外表面贴有纯白色纸质博物馆展签，展签与玻璃完全平行贴合，白色哑光纸质感，生成虚构幽默文物名称与简短介绍。暖白展柜灯、真实玻璃反光、游客背景轻微虚化，iPhone原相机近距离平视抓拍，自然曝光，真实博物馆参观摄影质感，避免3D渲染、现代手办与真人蜡像感。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张人物照片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/YWVjODZhZTQtYTI2Mi00ZGJiLTg2MTUtNmI1NGRlNmJkNGM4_compress.webp?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/ZjUzMDY0YjAtODFkZi00MjU1LWI0ZWYtODY2YjBhZTkzZTM5_compress.webp?width=1116&height=1488"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "0f92477e954c4b7ebbce624b84e340cb",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/ZjUzMDY0YjAtODFkZi00MjU1LWI0ZWYtODY2YjBhZTkzZTM5_compress.webp?width=1116&height=1488"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/YWVjODZhZTQtYTI2Mi00ZGJiLTg2MTUtNmI1NGRlNmJkNGM4_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_clay",
+                    "name": "陶瓷黏土"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "crafts_metal",
+          "name": "金属工艺",
+          "presets": [
+            {
+              "id": "yuanbao_8e583b40208c485ab55163188b73dde4",
+              "name": "金线浮雕",
+              "type": "prompt",
+              "prompt": "参考上传图生成图片：不改变任何服饰、配饰。工艺质感为手工掐丝彩砂画，全部轮廓由凸起纤细立体金色金属丝勾勒，流畅金丝线条分隔各个色块；色块内部填充带珠光细闪的彩砂，彩砂带有细腻闪光颗粒，砂面有细微颗粒肌理，不是平面绘画。色彩柔和，头发为带金闪暖黄彩砂，肤色浅粉珠光砂，超大蓝色通透眼瞳，淡淡的粉调腮红。背景为深蓝色细闪磨砂底色。柔和顶光，光线柔和，凸显掐丝金线的立体浮雕感，微距静物摄影，高清细节，真实手工掐丝珐琅彩砂工艺质感，8K高清。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张照片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/ZTJjYzkwNzQtM2Y2Yy00YmEyLWE3MjItYzUwZjRkMDI2NWQ2_compress.webp?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/ODAxNjMzMjAtNzI2ZS00ZDM5LTk4ZmUtMmYyNzQ5OWJhY2Fj_compress.webp?width=505&height=673"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "8e583b40208c485ab55163188b73dde4",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/ODAxNjMzMjAtNzI2ZS00ZDM5LTk4ZmUtMmYyNzQ5OWJhY2Fj_compress.webp?width=505&height=673"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/ZTJjYzkwNzQtM2Y2Yy00YmEyLWE3MjItYzUwZjRkMDI2NWQ2_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_metal",
+                    "name": "金属工艺"
+                  }
+                ]
               }
             }
           ]

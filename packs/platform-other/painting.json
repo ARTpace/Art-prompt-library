@@ -23,55 +23,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：油画 / 油画",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "fooocus_marc_k3nt3l_mk_van_gogh",
-              "name": "MK Van Gogh",
-              "prompt": "Oil painting by Van Gogh {prompt} . Expressive, impasto, swirling brushwork, vibrant, brush strokes, Brushstroke-heavy, Textured, Impasto, Colorful, Dynamic, Bold, Distinctive, Vibrant, Whirling, Expressive, Dramatic, Swirling, Layered, Intense, Contrastive, Atmospheric, Luminous, Textural, Evocative, SpiraledVan Gogh style",
-              "negative_prompt": "realistic, photorealistic, calm, straight lines, signature, frame, text, watermark",
-              "description": "Marc K3nt3L 风格",
-              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_marc_k3nt3l.json",
-              "thumbnail": "/api/thumbnails/fooocus_marc_k3nt3l_mk_van_gogh.jpg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：Oil painting",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "painting": [
-                    "painting",
-                    "brush"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "fooocus_marc_k3nt3l_mk_singer_sargent",
-              "name": "MK Singer Sargent",
-              "prompt": "Oil painting by John Singer Sargent {prompt}. Elegant, refined, masterful technique,realistic portrayal, subtle play of light, captivating expression, rich details, harmonious colors, skillful composition, brush strokes, chiaroscuro.",
-              "negative_prompt": "realistic, photorealistic, abstract, overly stylized, excessive contrasts, distorted,bright colors,disorder.",
-              "description": "Marc K3nt3L 风格",
-              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_marc_k3nt3l.json",
-              "thumbnail": "/api/thumbnails/fooocus_marc_k3nt3l_mk_singer_sargent.jpg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：Oil painting",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "painting": [
-                    "painting",
-                    "brush"
-                  ]
-                }
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_oil",
+                    "name": "油画"
+                  }
+                ]
               }
             }
           ]
@@ -94,7 +52,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：watercolor / watercolor",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_watercolor",
+                    "name": "水彩水粉"
+                  }
+                ]
               }
             },
             {
@@ -111,7 +75,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：Gouache / Gouache",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_watercolor",
+                    "name": "水彩水粉"
+                  }
+                ]
               }
             },
             {
@@ -128,25 +98,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：Watercolor / Watercolor",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "opennana_prompt-260",
-              "name": "20世纪20年代亚瑟·拉克姆风格的童话插画",
-              "type": "prompt",
-              "prompt": "{subject}, 将这张图片转换成20世纪20年代亚瑟·拉克姆风格的童话插画。采用柔和的水彩色调和精致的墨水线条。场景中要充满奇幻的森林生物、扭曲的树枝和隐藏的魔法物品。整体基调应神秘、迷人且略带诡异。添加手写书法风格的说明文字和谜语。",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/260.png",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "标题大类＋正文子类证据：水彩",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_watercolor",
+                    "name": "水彩水粉"
+                  }
+                ]
               }
             },
             {
@@ -164,31 +122,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：Watercolor / Watercolor",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "fooocus_marc_k3nt3l_mk_anthotype_print",
-              "name": "MK Anthotype Print",
-              "prompt": "Anthotype print {prompt}. Monochrome dye, soft and muted colors, organic textures, ephemeral and delicate appearance, low details, watercolor canvas, low contrast, overexposed, silhouette, textured paper.",
-              "negative_prompt": "vibrant synthetic dyes, bold and saturated colors.",
-              "description": "Marc K3nt3L 风格",
-              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_marc_k3nt3l.json",
-              "thumbnail": "/api/thumbnails/fooocus_marc_k3nt3l_mk_anthotype_print.jpg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：watercolor",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "painting": [
-                    "watercolor",
-                    "canvas"
-                  ]
-                }
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_watercolor",
+                    "name": "水彩水粉"
+                  }
+                ]
               }
             },
             {
@@ -205,7 +145,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：watercolor / watercolor",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_watercolor",
+                    "name": "水彩水粉"
+                  }
+                ]
               }
             }
           ]
@@ -214,30 +160,6 @@
           "id": "painting_ink",
           "name": "水墨国画",
           "presets": [
-            {
-              "id": "ink_wash",
-              "name": "Ink Wash",
-              "type": "prompt",
-              "prompt": "ink wash painting of {prompt} . monochromatic, loose, fluid, expressive, delicate,colorful",
-              "negative_prompt": "tight",
-              "description": "ComfyUI Style",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：ink wash",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "painting": [
-                    "painting",
-                    "ink",
-                    "wash"
-                  ]
-                }
-              }
-            },
             {
               "id": "fooocus_marc_k3nt3l_mk_suminagashi",
               "name": "MK Suminagashi",
@@ -253,7 +175,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：Suminagashi / Suminagashi",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_ink",
+                    "name": "水墨国画"
+                  }
+                ]
               }
             }
           ]
@@ -277,7 +205,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：素描 / 素描",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_sketch",
+                    "name": "素描速写"
+                  }
+                ]
               }
             },
             {
@@ -295,7 +229,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：素描 / 素描",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_sketch",
+                    "name": "素描速写"
+                  }
+                ]
               }
             },
             {
@@ -313,15 +253,47 @@
                 "status": "suggested",
                 "reason": "标题规则证据：Pencil Sketch / Sketch",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_sketch",
+                    "name": "素描速写"
+                  }
+                ]
               }
-            }
-          ]
-        },
-        {
-          "id": "painting_pastel",
-          "name": "色粉蜡笔",
-          "presets": [
+            },
+            {
+              "id": "opennana_prompt-76",
+              "name": "黑白漫画风格插图",
+              "type": "prompt",
+              "prompt": "{subject}, Highly dramatic and epic black and white manga-style illustration of [Your character and description].  Powerful, dynamic pose, exaggerated features emphasizing the intensity of the scene. Background with explosive energy bursts, lightning effects, and a whirlwind of debris",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/76.png",
+              "classification": {
+                "method": "semantic_refine",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "大类内二次判别：painting_sketch 置信 0.57 / 领先 0.44",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_sketch",
+                    "name": "素描速写"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.574,
+                  "runner_up": "painting_digital"
+                },
+                "previous_location": "painting/painting_pending"
+              }
+            },
             {
               "id": "opennana_prompt-277",
               "name": "极简风格插画",
@@ -331,21 +303,128 @@
               "description": null,
               "thumbnail": "https://img.opennana.com/prompts/images/277.png",
               "classification": {
-                "method": "rules",
-                "stage": "content",
+                "method": "semantic_refine",
+                "stage": "title",
                 "resolution": "resolved",
                 "status": "suggested",
-                "reason": "标题大类＋正文子类证据：pastel",
+                "reason": "大类内二次判别：painting_sketch 置信 0.46 / 领先 0.18",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "painting": [
-                    "插画",
-                    "纸张"
-                  ]
-                }
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_sketch",
+                    "name": "素描速写"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.4565,
+                  "runner_up": "painting_digital"
+                },
+                "previous_location": "painting/painting_pending"
               }
             },
+            {
+              "id": "fooocus_marc_k3nt3l_mk_pichwaipainting",
+              "name": "MK pichwai-painting",
+              "prompt": "Pichwai painting {prompt} . intricate detailing, vibrant colors, religious themes, nature motifs, devotional storytelling, gold leaf accents",
+              "negative_prompt": "minimalist, subdued colors, abstract design",
+              "description": "Marc K3nt3L 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_marc_k3nt3l.json",
+              "classification": {
+                "method": "semantic_refine",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "大类内二次判别：painting_sketch 置信 0.57 / 领先 0.43",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_sketch",
+                    "name": "素描速写"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.5698,
+                  "runner_up": "painting_line"
+                },
+                "previous_location": "painting/painting_pending"
+              }
+            },
+            {
+              "id": "fooocus_marc_k3nt3l_mk_tlingitart",
+              "name": "MK tlingit-art",
+              "prompt": "Tlingit art {prompt} . formline design, natural elements, animal motifs, bold colors, cultural storytelling, traditional craftsmanship, Alaska traditional art, (totem:1.5)",
+              "negative_prompt": "",
+              "description": "Marc K3nt3L 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_marc_k3nt3l.json",
+              "classification": {
+                "method": "semantic_refine",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "大类内二次判别：painting_sketch 置信 0.48 / 领先 0.22",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_sketch",
+                    "name": "素描速写"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.4816,
+                  "runner_up": "painting_digital"
+                },
+                "previous_location": "painting/painting_pending"
+              }
+            },
+            {
+              "id": "opennana_prompt-413",
+              "name": "铅笔风格的大头漫画",
+              "type": "prompt",
+              "prompt": "{subject}, {\n\"image_edit\": {\n\n主题：上传的图片，\n\n“目标”：“从下到头，全身比例构成一幅漫画，脸部和头部被极度夸张，眼睛、鼻子、嘴唇的形状都极度突出。”\n\n“风格”：“纹理纸”，“精细刻画细节，保留原有炭笔结构和强劲的笔触，美学构图和表现力，纯黑，笔触”\n\n{\"style\": \"铅笔笔触\", \"无文字\", \"position\":\"肩部附近风格化，美学替换，无右下角\"\n\n},\n\n{\n\n“输出”：\n\n“一幅大头漫画”。为了达到你想要的漫画效果，务必创作一幅头部明显夸张的图像，同时保留炭笔和笔触风格。\n\n}\n\n}",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/413.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_sketch",
+                    "name": "素描速写"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.3404,
+                  "runner_up": "anime_manga_comic"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "painting_pastel",
+          "name": "色粉蜡笔",
+          "presets": [
             {
               "id": "fooocus_diva_colored_pencil_art",
               "name": "Colored Pencil Art",
@@ -361,7 +440,45 @@
                 "status": "suggested",
                 "reason": "标题规则证据：Colored Pencil / Colored Pencil",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_pastel",
+                    "name": "色粉蜡笔"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-168",
+              "name": "水果蜡烛",
+              "type": "prompt",
+              "prompt": "{subject}, 一个装满 [水果] 的圆形玻璃蜡烛的极简静物，标有“[SCENT NAME]”，放在优雅的白色丝绸织物上。蜡烛玻璃为【玻璃色】，蜡与水果色相配。该场景由自然日光柔和照亮，具有微妙的阴影和平滑的高光。超写实的质感，简洁的美感，自上而下的视角，风格像高端产品摄影。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/168.png",
+              "classification": {
+                "method": "semantic_refine",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "大类内二次判别：painting_pastel 置信 0.78 / 领先 0.68",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_pastel",
+                    "name": "色粉蜡笔"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.7794,
+                  "runner_up": "painting_watercolor"
+                },
+                "previous_location": "painting/painting_pending"
               }
             }
           ]
@@ -384,7 +501,60 @@
                 "status": "suggested",
                 "reason": "标题规则证据：Woodcut / Woodcut",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_printmaking",
+                    "name": "版画拓印"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "lithography",
+              "name": "Lithography",
+              "type": "prompt",
+              "prompt": "lithograph of {prompt} . printmaking, smooth, detailed, bold, graphic,rough",
+              "negative_prompt": "textured",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_printmaking",
+                    "name": "版画拓印"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "fooocus_marc_k3nt3l_mk_halftone_print",
+              "name": "MK Halftone print",
+              "prompt": "Halftone print of {prompt}. Dot matrix pattern, grayscale tones, vintage aesthetic, newspaper print vibe, stylized dots, visual texture, black and white contrasts, retro appearance, artistic pointillism,pop culture, (Roy Lichtenstein style:1.5).",
+              "negative_prompt": "smooth gradients, continuous tones, vibrant colors.",
+              "description": "Marc K3nt3L 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_marc_k3nt3l.json",
+              "thumbnail": "/api/thumbnails/fooocus_marc_k3nt3l_mk_halftone_print.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_printmaking",
+                    "name": "版画拓印"
+                  }
+                ]
               }
             }
           ]
@@ -392,6 +562,80 @@
         {
           "id": "painting_pending",
           "name": "待细分",
+          "presets": []
+        },
+        {
+          "id": "painting_children",
+          "name": "儿童绘本",
+          "presets": [
+            {
+              "id": "opennana_prompt-260",
+              "name": "20世纪20年代亚瑟·拉克姆风格的童话插画",
+              "type": "prompt",
+              "prompt": "{subject}, 将这张图片转换成20世纪20年代亚瑟·拉克姆风格的童话插画。采用柔和的水彩色调和精致的墨水线条。场景中要充满奇幻的森林生物、扭曲的树枝和隐藏的魔法物品。整体基调应神秘、迷人且略带诡异。添加手写书法风格的说明文字和谜语。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/260.png",
+              "classification": {
+                "method": "semantic_refine",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "大类内二次判别：painting_children 置信 0.53 / 领先 0.32",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_children",
+                    "name": "儿童绘本"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.5304,
+                  "runner_up": "painting_digital"
+                },
+                "previous_location": "painting/painting_pending"
+              }
+            },
+            {
+              "id": "opennana_prompt-268",
+              "name": "童趣插画",
+              "type": "prompt",
+              "prompt": "{subject}, 创作一幅[角色]的全身扁平矢量插画，采用异想天开的波浪卡通风格。使用纤细的黑色轮廓和流畅的圆形造型。角色应有一个小小的白色头部，上面有极小的圆点眼睛以及简单的鼻子和嘴巴。身体比例要夸张且富有童趣。服装采用鲜明的扁平色彩。不使用渐变、阴影和晕染效果。将角色置于纯蓝色背景上。适合矢量格式。采用正方形比例。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/268.jpeg",
+              "classification": {
+                "method": "semantic",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "语义近邻投票：painting_children 置信 0.77 / 领先 0.65",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_children",
+                    "name": "儿童绘本"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.7675,
+                  "runner_up": "painting_pastel"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "painting_digital",
+          "name": "数字绘画",
           "presets": [
             {
               "id": "opennana_prompt-262",
@@ -402,42 +646,166 @@
               "description": null,
               "thumbnail": "https://img.opennana.com/prompts/images/262.png",
               "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "painting": [
-                    "插画",
-                    "手绘"
-                  ]
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_digital",
+                    "name": "数字绘画"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.2574,
+                  "runner_up": "painting_children"
                 }
               }
             },
             {
-              "id": "opennana_prompt-55",
-              "name": "彩色卡通俏皮图标和徽标",
+              "id": "opennana_prompt-247",
+              "name": "90年代美国卡通片定格动画风格插画",
               "type": "prompt",
-              "prompt": "{subject}, Create a 2D digital illustration of the [FIREFOX] logo in a colorful cartoon style with bold black outlines. The icon design should feature playful, vibrant solid colors such as pink, teal, orange, yellow, and purple, applied in a flat, bold way. Give the shapes a slightly exaggerated, bubbly form with rounded edges and fun details like starbursts, stripes, or spark effects if relevant. Keep the illustration simple and stylized with a hand-drawn look. Use thick outlines to emphasize form. Vector friendly. White background. Square aspect ratio.",
+              "prompt": "{subject}, 将这张图片转化为 90 年代美国卡通片定格动画风格插画。使用粗黑轮廓线、平面化鲜明的颜色，以及锐利的定格动画阴影效果和硬阴影。强调夸张的面部表情和风格化的几何角色形状。背景应为平面或极简，以突出角色。整张图片应感觉像是从周六早间卡通片中截取的一帧。",
               "negative_prompt": "",
               "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/55.jpeg",
+              "thumbnail": "https://img.opennana.com/prompts/images/247.jpeg",
               "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "painting": [
-                    "illustration",
-                    "hand-drawn"
-                  ]
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_digital",
+                    "name": "数字绘画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-252",
+              "name": "怪诞又梦幻的超现实插画",
+              "type": "prompt",
+              "prompt": "{subject}, 将上传的图片转换为一幅超现实插画，营造出怪诞又梦幻的氛围。\n色彩搭配：采用柔和色调（浅绿、棕色、灰色），偶尔点缀一抹淡雅的绿色。\n光线效果：柔和、弥漫的近乎空灵的光线，融合渐变色与细微的高光。\n质感与媒介感：类似油画的笔触、淡淡的水彩晕染或松散的手绘线条，带有轻微的颗粒质感。\n氛围与构图：具有夸张、富有表现力的特征（如拉长的脸型或饱含情感的眼睛），这是卡通或提线木偶风格插画的典型特点，但要将其应用于超现实、略带奇幻色彩的场景中。\n整体美学：将对细节的真实刻画与一丝超现实的怪诞感相融合 —— 营造出一种宁静又略带诡异的氛围。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/252.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_digital",
+                    "name": "数字绘画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-116",
+              "name": "任天堂风格的3D卡通插画",
+              "type": "prompt",
+              "prompt": "{subject}, Transform this image into a Nintendo-inspired 3D cartoon style illustration.\n\nUse soft, rounded 3D shapes and clean, toy-like geometry to give the characters and objects a charming, handcrafted look.\n\nCharacters should have exaggerated, childlike proportions (large heads, small limbs), with expressive, simplified faces and bright, colorful clothing — similar to designs seen in Zelda: Link’s Awakening, Animal Crossing, or Miitopia.\n\nApply smooth, matte textures with no realistic detail — everything should look cheerful and slightly plastic, as if sculpted from soft clay or digital vinyl.\n\nThe environment should be bright and whimsical, with stylized grass, puffy clouds, geometric trees, and soft lighting like a sunny afternoon.\n\nThe overall tone should be lighthearted, clean, and family-friendly, like a frame from a Nintendo fantasy adventure game.",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/116.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_digital",
+                    "name": "数字绘画"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.257,
+                  "runner_up": "painting_line"
+                }
+              }
+            },
+            {
+              "id": "opennana_prompt-274",
+              "name": "创作漫画风格插画",
+              "type": "prompt",
+              "prompt": "{subject}, 创作漫画风格插画：\n{\n\"风格\": \"漫画书插画\",\n\"线稿\": {\n\"类型\": \"粗黑轮廓线\",\n\"粗细\": \"中等\",\n\"细节\": \"突出的轮廓和阴影线条\"\n},\n\"上色\": {\n\"调色板\": \"鲜艳饱和的色彩\",\n\"阴影\": \"半色调网点和赛璐珞 shading\",\n\"高光\": \"强烈对比，带有波普艺术效果\"\n},\n\"质感\": {\n\"表面\": \"平坦，带有可见的笔触\",\n\"效果\": \"印刷漫画纸质感\"\n},\n\"构图\": {\n\"布局\": \"主体居中\",\n\"背景\": \"简洁，带有放射状爆发图案或漫画风格线条\",\n\"边框\": \"漫画分镜边框\"\n},\n\"光线\": {\n\"类型\": \"戏剧性\",\n\"角度\": \"左上角，带有强烈的高光和阴影\"\n},\n\"后期处理\": {\n\"效果\": [\"半色调网点\", \"墨水轮廓\", \"颗粒感\"],\n\"饱和度\": \"高\",\n\"对比度\": \"高\"\n},\n\"氛围\": \"充满动感和动作感\",\n\"格式\": \"根据原图，为竖版或正方形\"\n}",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/274.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_digital",
+                    "name": "数字绘画"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.3788,
+                  "runner_up": "painting_children"
+                }
+              }
+            },
+            {
+              "id": "opennana_prompt-305",
+              "name": "复古漫画风格卡通插画",
+              "type": "prompt",
+              "prompt": "{subject}, 2D卡通插画，描绘了一位[主体]以[动态动作姿势]的中途运动，采用复古漫画风格绘制，轮廓粗犷，色彩饱和。具有戏剧性的运动条纹、夸张的透视、富有冲击力的面板构图和清晰的半色调纹理。旨在以复古超级英雄的风格呈现充满活力的视觉叙事。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/305.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_digital",
+                    "name": "数字绘画"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.2113,
+                  "runner_up": "anime_manga_comic"
                 }
               }
             },
@@ -450,163 +818,27 @@
               "description": null,
               "thumbnail": "https://img.opennana.com/prompts/images/217.png",
               "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "opennana_prompt-247",
-              "name": "90年代美国卡通片定格动画风格插画",
-              "type": "prompt",
-              "prompt": "{subject}, 将这张图片转化为 90 年代美国卡通片定格动画风格插画。使用粗黑轮廓线、平面化鲜明的颜色，以及锐利的定格动画阴影效果和硬阴影。强调夸张的面部表情和风格化的几何角色形状。背景应为平面或极简，以突出角色。整张图片应感觉像是从周六早间卡通片中截取的一帧。",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/247.jpeg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "opennana_prompt-268",
-              "name": "童趣插画",
-              "type": "prompt",
-              "prompt": "{subject}, 创作一幅[角色]的全身扁平矢量插画，采用异想天开的波浪卡通风格。使用纤细的黑色轮廓和流畅的圆形造型。角色应有一个小小的白色头部，上面有极小的圆点眼睛以及简单的鼻子和嘴巴。身体比例要夸张且富有童趣。服装采用鲜明的扁平色彩。不使用渐变、阴影和晕染效果。将角色置于纯蓝色背景上。适合矢量格式。采用正方形比例。",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/268.jpeg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "botanical_illustration",
-              "name": "Botanical Illustration",
-              "type": "prompt",
-              "prompt": "botanical illustration of {prompt} . detailed, accurate, precise, delicate, naturalistic,abstract",
-              "negative_prompt": "loose",
-              "description": "ComfyUI Style",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "body_painting",
-              "name": "Body Painting",
-              "type": "prompt",
-              "prompt": "body painting of {prompt} . human canvas, vibrant, detailed, transformative, expressive,traditional canvas",
-              "negative_prompt": "subtle",
-              "description": "ComfyUI Style",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "painting": [
-                    "painting",
-                    "canvas"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "sumi_e",
-              "name": "Sumi-e",
-              "type": "prompt",
-              "prompt": "Sumi-e style {prompt} . Japanese ink painting, minimal, nature, highly detailed",
-              "negative_prompt": "non-Japanese, colorful, urban, undetailed",
-              "description": "ComfyUI Style",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "painting": [
-                    "painting",
-                    "ink"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "opennana_prompt-252",
-              "name": "怪诞又梦幻的超现实插画",
-              "type": "prompt",
-              "prompt": "{subject}, 将上传的图片转换为一幅超现实插画，营造出怪诞又梦幻的氛围。\n色彩搭配：采用柔和色调（浅绿、棕色、灰色），偶尔点缀一抹淡雅的绿色。\n光线效果：柔和、弥漫的近乎空灵的光线，融合渐变色与细微的高光。\n质感与媒介感：类似油画的笔触、淡淡的水彩晕染或松散的手绘线条，带有轻微的颗粒质感。\n氛围与构图：具有夸张、富有表现力的特征（如拉长的脸型或饱含情感的眼睛），这是卡通或提线木偶风格插画的典型特点，但要将其应用于超现实、略带奇幻色彩的场景中。\n整体美学：将对细节的真实刻画与一丝超现实的怪诞感相融合 —— 营造出一种宁静又略带诡异的氛围。",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/252.png",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；子类冲突：painting_oil, painting_watercolor",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "painting": [
-                    "插画",
-                    "笔触",
-                    "手绘",
-                    "晕染"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "opennana_prompt-380",
-              "name": "卡通插图",
-              "type": "prompt",
-              "prompt": "{subject}, [OBJECT]的卡通插图，\n在简洁干净的工作室环境中拍摄。所有物体都保持了真实感和三维立体感，但又被转化成了富有表现力的卡通人物：\n• [描述和情感]\n（描述每个物体的面部特征、表情和情绪基调）\n• [行动]\n• 涂鸦线条是黑色的，略微不均匀，并且是手绘的——就像直接在物体上绘制的快速富有表现力的素描本笔触一样。\n风格：真实产品摄影和卡通涂鸦叠加的混合。\n背景：纯色粉彩[颜色]，干净、简约。\n灯光：柔和、均匀、工作室风格——微妙的高光和柔和的阴影；没有刺眼的光线。\n心情：[心情/主题 — 例如好玩、忧郁、诗意、幽默]。\n关键词：混合照片涂鸦、产品卡通、富有表现力的人物、极简柔和背景。长宽比：1:1",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/380.jpeg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；子类冲突：painting_sketch, painting_pastel",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "painting": [
-                    "素描",
-                    "笔触",
-                    "手绘"
-                  ]
-                }
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_digital",
+                    "name": "数字绘画"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.516,
+                  "runner_up": "painting_line"
+                },
+                "previous_location": "painting/painting_pending"
               }
             },
             {
@@ -618,131 +850,442 @@
               "description": null,
               "thumbnail": "https://img.opennana.com/prompts/images/271.png",
               "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_digital",
+                    "name": "数字绘画"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.5928,
+                  "runner_up": "painting_line"
+                },
+                "previous_location": "painting/painting_pending"
               }
             },
             {
-              "id": "fooocus_diva_ink_dripping_drawing",
-              "name": "Ink Dripping Drawing",
-              "prompt": "Ink Dripping Drawing, {prompt}, ink drawing, dripping ink",
-              "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, colorful, vibrant",
-              "description": "DIVA 电影感 风格",
-              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_diva.json",
-              "thumbnail": "/api/thumbnails/fooocus_diva_ink_dripping_drawing.jpg",
+              "id": "opennana_prompt-82",
+              "name": "霓虹花卉和谐插图",
+              "type": "prompt",
+              "prompt": "{subject}, A Neon Floral Harmony illustration of [SUBJECT], with flowers and plants outlined in glowing neon hues. Use vibrant [COLOR1] and [COLOR2] to create a serene yet electrifying botanical scene",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/82.png",
               "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
+                "method": "semantic_refine",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "大类内二次判别：painting_digital 置信 0.47 / 领先 0.26",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "painting": [
-                    "Drawing",
-                    "Ink"
-                  ]
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_digital",
+                    "name": "数字绘画"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.4714,
+                  "runner_up": "painting_watercolor"
+                },
+                "previous_location": "painting/painting_pending"
+              }
+            },
+            {
+              "id": "sai_fantasy_art",
+              "name": "sai-fantasy art",
+              "type": "prompt",
+              "prompt": "ethereal fantasy concept art of  {prompt} . magnificent, celestial, ethereal, painterly, epic, majestic, magical, fantasy art, cover art, dreamy",
+              "negative_prompt": "photographic, realistic, realism, 35mm film, dslr, cropped, frame, text, deformed, glitch, noise, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, sloppy, duplicate, mutated, black and white",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "semantic_refine",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "大类内二次判别：painting_digital 置信 0.49 / 领先 0.33",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_digital",
+                    "name": "数字绘画"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.4884,
+                  "runner_up": "painting_sketch"
+                },
+                "previous_location": "painting/painting_pending"
+              }
+            },
+            {
+              "id": "sai_line_art",
+              "name": "sai-line art",
+              "type": "prompt",
+              "prompt": "line art drawing {prompt} . professional, sleek, modern, minimalist, graphic, line art, vector graphics",
+              "negative_prompt": "anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "semantic_refine",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "大类内二次判别：painting_digital 置信 0.46 / 领先 0.18",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_digital",
+                    "name": "数字绘画"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.4556,
+                  "runner_up": "painting_line"
+                },
+                "previous_location": "painting/painting_pending"
+              }
+            },
+            {
+              "id": "fooocus_sai_saifantasy_art",
+              "name": "sai-fantasy art",
+              "prompt": "ethereal fantasy concept art of  {prompt} . magnificent, celestial, ethereal, painterly, epic, majestic, magical, fantasy art, cover art, dreamy",
+              "negative_prompt": "photographic, realistic, realism, 35mm film, dslr, cropped, frame, text, deformed, glitch, noise, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, sloppy, duplicate, mutated, black and white",
+              "description": "SAI 风格 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_sai.json",
+              "classification": {
+                "method": "semantic_refine",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "大类内二次判别：painting_digital 置信 0.49 / 领先 0.33",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_digital",
+                    "name": "数字绘画"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.4884,
+                  "runner_up": "painting_sketch"
+                },
+                "previous_location": "painting/painting_pending"
+              }
+            },
+            {
+              "id": "fooocus_sai_sailine_art",
+              "name": "sai-line art",
+              "prompt": "line art drawing {prompt} . professional, sleek, modern, minimalist, graphic, line art, vector graphics",
+              "negative_prompt": "anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic",
+              "description": "SAI 风格 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_sai.json",
+              "classification": {
+                "method": "semantic_refine",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "大类内二次判别：painting_digital 置信 0.46 / 领先 0.18",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_digital",
+                    "name": "数字绘画"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.4556,
+                  "runner_up": "painting_line"
+                },
+                "previous_location": "painting/painting_pending"
+              }
+            },
+            {
+              "id": "opennana_prompt-380",
+              "name": "卡通插图",
+              "type": "prompt",
+              "prompt": "{subject}, [OBJECT]的卡通插图，\n在简洁干净的工作室环境中拍摄。所有物体都保持了真实感和三维立体感，但又被转化成了富有表现力的卡通人物：\n• [描述和情感]\n（描述每个物体的面部特征、表情和情绪基调）\n• [行动]\n• 涂鸦线条是黑色的，略微不均匀，并且是手绘的——就像直接在物体上绘制的快速富有表现力的素描本笔触一样。\n风格：真实产品摄影和卡通涂鸦叠加的混合。\n背景：纯色粉彩[颜色]，干净、简约。\n灯光：柔和、均匀、工作室风格——微妙的高光和柔和的阴影；没有刺眼的光线。\n心情：[心情/主题 — 例如好玩、忧郁、诗意、幽默]。\n关键词：混合照片涂鸦、产品卡通、富有表现力的人物、极简柔和背景。长宽比：1:1",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/380.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_digital",
+                    "name": "数字绘画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-285",
+              "name": "卡通插图药丸形象",
+              "type": "prompt",
+              "prompt": "{subject}, 为 [CHARACTER] 创建一幅风格化的卡通插图，其身体呈平滑的垂直药丸状（上下呈圆形，左右对称）。身体应为单一、统一的胶囊形状，没有四肢。不要改变角色的核心设计或个性，而是将其简化为这种俏皮的胶囊形状。使用粗黑色轮廓、扁平矢量风格的配色和简单的几何特征。赋予角色大而富有表现力的眼睛和有趣、夸张的面部表情，以反映其原始个性。如果角色穿着衣服，请包含其服装的极简标志性版本。如果没有，请保持身体干净，不穿衣服。使用纯亮黄色背景。将角色置于方形框架的中心。仅使用扁平颜色。不要使用渐变。不要使用阴影。不要使用纹理。不要使用晕染。最终结果应该干净、现代、矢量友好且清晰的药丸形状。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/285.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_digital",
+                    "name": "数字绘画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-352",
+              "name": "女人3D数字插画",
+              "type": "prompt",
+              "prompt": "{subject}, 这幅超写实的3D数字插画描绘了一位女性，其自然的五官、发型和肤色均未改变，并采用了皮克斯风格的电影风格。她面带温暖的微笑，身影透过发光的橙色矩形画框倾身而立，双手轻轻握住画框边缘。她身穿牛仔夹克，内搭黑色上衣，佩戴着精致的珠宝，手腕上戴着智能手表。灯光柔和而明亮，凸显了面部深度、逼真的织物纹理以及她脸部和双手上温暖的光芒。背景轻柔地模糊处理，营造出一种电影般的氛围，完美融合了现实主义、温暖感和皮克斯风格的魅力。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/352.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_digital",
+                    "name": "数字绘画"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "painting_other",
+          "name": "其他绘画",
+          "presets": [
+            {
+              "id": "opennana_prompt-4",
+              "name": "马斯克在公园画画",
+              "type": "prompt",
+              "prompt": "{subject}, 创作一个逼真的户外场景，其中一位日本画家正在为马斯克画画。场景中，画家坐在画架前，而马斯克则坐在对面被描绘（不带任何卡通或动漫风格）。环境应充满生机,自然且阳光明媚——比如公园或热闹的户外场所。整体风格必须完全写实，唯独画家画架上的作品例外：那应该是马斯克的吉卜力风格动漫肖像，与周围的写实环境形成强烈对比。请确保画中人物是写实风格，画上的肖像才是动漫风格。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/4.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_other",
+                    "name": "其他绘画"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.3785,
+                  "runner_up": "anime_manga_comic"
                 }
               }
             },
             {
-              "id": "fooocus_diva_japanese_ink_drawing",
-              "name": "Japanese Ink Drawing",
-              "prompt": "Japanese Ink Drawing, {prompt}, ink drawing, inkwash, Japanese Ink Drawing",
-              "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, colorful, vibrant",
-              "description": "DIVA 电影感 风格",
-              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_diva.json",
-              "thumbnail": "/api/thumbnails/fooocus_diva_japanese_ink_drawing.jpg",
+              "id": "opennana_prompt-109",
+              "name": "涂料飞溅Logo",
+              "type": "prompt",
+              "prompt": "{subject}, make a hyper-realistic 3D render of the attached logo, formed by glossy liquid paint splashes. Paint sculpts the outline using the exact palette from the reference. Smooth, fluid high-gloss splashes catch highlights; logo floats on pure white.",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/109.png",
               "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "painting": [
-                    "Drawing",
-                    "Ink"
-                  ]
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_other",
+                    "name": "其他绘画"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.2484,
+                  "runner_up": "painting_sketch"
                 }
               }
             },
             {
-              "id": "fooocus_diva_marker_drawing",
-              "name": "Marker Drawing",
-              "prompt": "Marker Drawing, {prompt}, bold marker lines, visibile paper texture, marker drawing",
-              "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, photograph, realistic",
-              "description": "DIVA 电影感 风格",
-              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_diva.json",
-              "thumbnail": "/api/thumbnails/fooocus_diva_marker_drawing.jpg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "painting": [
-                    "Drawing",
-                    "paper"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "fooocus_marc_k3nt3l_mk_herbarium",
-              "name": "MK Herbarium",
-              "prompt": "Herbarium drawing{prompt}. Botanical accuracy, old botanical book illustration, detailed illustrations, pressed plants, delicate and precise linework, scientific documentation, meticulous presentation, educational purpose, organic compositions, timeless aesthetic, naturalistic beauty.",
-              "negative_prompt": "abstract representation, vibrant colors, artistic interpretation, chaotic compositions, fantastical elements, digital appearance.",
+              "id": "fooocus_marc_k3nt3l_mk_chicanoart",
+              "name": "MK chicano-art",
+              "prompt": "Chicano art {prompt} . bold colors, cultural symbolism, muralism, lowrider aesthetics, barrio life, political messages, social activism, Mexico",
+              "negative_prompt": "monochromatic, minimalist, mainstream aesthetics",
               "description": "Marc K3nt3L 风格",
               "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_marc_k3nt3l.json",
-              "thumbnail": "/api/thumbnails/fooocus_marc_k3nt3l_mk_herbarium.jpg",
               "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "painting": [
-                    "drawing",
-                    "linework"
-                  ]
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_other",
+                    "name": "其他绘画"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.2158,
+                  "runner_up": "painting_sketch"
                 }
               }
             },
             {
-              "id": "fooocus_mre_mredynamicillustration",
-              "name": "mre-dynamic-illustration",
-              "prompt": "insanely dynamic illustration of {prompt}. best quality, high resolution. crazy artstyle, careless brushstrokes, emotional and fun",
-              "negative_prompt": "photography, realistic. static, still, slow, boring. low quality, low resolution",
+              "id": "fooocus_marc_k3nt3l_mk_madhubanipainting",
+              "name": "MK madhubani-painting",
+              "prompt": "Madhubani painting {prompt} . intricate patterns, vibrant colors, nature-inspired motifs, cultural storytelling, symmetry, folk art aesthetics",
+              "negative_prompt": "abstract, muted colors, minimalistic design, modern aesthetics",
+              "description": "Marc K3nt3L 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_marc_k3nt3l.json",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_other",
+                    "name": "其他绘画"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.3638,
+                  "runner_up": "painting_sketch"
+                }
+              }
+            },
+            {
+              "id": "fooocus_marc_k3nt3l_mk_patachitrapainting",
+              "name": "MK patachitra-painting",
+              "prompt": "Patachitra painting {prompt} . bold outlines, vibrant colors, intricate detailing, mythological themes, storytelling, traditional craftsmanship",
+              "negative_prompt": "subdued colors, minimalistic, abstract, modern aesthetics",
+              "description": "Marc K3nt3L 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_marc_k3nt3l.json",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_other",
+                    "name": "其他绘画"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.2295,
+                  "runner_up": "painting_digital"
+                }
+              }
+            },
+            {
+              "id": "fooocus_mre_mresurrealpainting",
+              "name": "mre-surreal-painting",
+              "prompt": "surreal painting representing strange vision of {prompt}. harmonious madness, synergy with chance. unique artstyle, mindbending art, magical surrealism. best quality, high resolution",
+              "negative_prompt": "photography, illustration, drawing. realistic, possible. logical, sane. low quality, low resolution",
               "description": "MRE 风格 风格",
               "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_mre.json",
               "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "painting": [
-                    "illustration",
-                    "brushstrokes"
-                  ]
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_other",
+                    "name": "其他绘画"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.2892,
+                  "runner_up": "painting_digital"
                 }
               }
             },
@@ -754,59 +1297,116 @@
               "description": "MRE 风格 风格",
               "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_mre.json",
               "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_other",
+                    "name": "其他绘画"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.4544,
+                  "runner_up": "painting_sketch"
+                },
+                "previous_location": "painting/painting_pending"
+              }
+            }
+          ]
+        },
+        {
+          "id": "painting_gouache_acrylic",
+          "name": "丙烯装饰画",
+          "presets": [
+            {
+              "id": "opennana_prompt-36",
+              "name": "马赛克壁画",
+              "type": "prompt",
+              "prompt": "{subject}, A mosaic mural of a [subject], crafted from chipped ceramic and glass shards in sun-faded [color1] and weathered [color2]. Set into a cracked plaster wall, the irregular shapes and grout lines add a rustic, timeworn charm.",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/36.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_gouache_acrylic",
+                    "name": "丙烯装饰画"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.3503,
+                  "runner_up": "painting_watercolor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "painting_line",
+          "name": "线描钢笔",
+          "presets": [
+            {
+              "id": "misc_zentangle",
+              "name": "misc-zentangle",
+              "type": "prompt",
+              "prompt": "zentangle {prompt} . intricate, abstract, monochrome, patterns, meditative, highly detailed",
+              "negative_prompt": "colorful, representative, simplistic, large fields of color",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_line",
+                    "name": "线描钢笔"
+                  }
+                ]
               }
             },
             {
-              "id": "fooocus_mre_mreheroicfantasy",
-              "name": "mre-heroic-fantasy",
-              "prompt": "heroic fantasy painting of {prompt}, in the dangerous fantasy world. airbrush over oil on canvas. best quality, high resolution",
-              "negative_prompt": "low quality, low resolution",
-              "description": "MRE 风格 风格",
-              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_mre.json",
+              "id": "fooocus_twri_misczentangle",
+              "name": "misc-zentangle",
+              "prompt": "zentangle {prompt} . intricate, abstract, monochrome, patterns, meditative, highly detailed",
+              "negative_prompt": "colorful, representative, simplistic, large fields of color",
+              "description": "TWRI SDXL 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_twri.json",
               "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "painting": [
-                    "painting",
-                    "canvas"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "fooocus_mre_mresumiesymbolic",
-              "name": "mre-sumi-e-symbolic",
-              "prompt": "big long brushstrokes of deep black sumi-e turning into symbolic painting of {prompt}. master level raw art. best quality, high resolution",
-              "negative_prompt": "photography, rendered. low quality, low resolution",
-              "description": "MRE 风格 风格",
-              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_mre.json",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "painting": [
-                    "painting",
-                    "brushstrokes"
-                  ]
-                }
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_line",
+                    "name": "线描钢笔"
+                  }
+                ]
               }
             }
           ]

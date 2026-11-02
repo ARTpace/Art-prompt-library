@@ -2,7 +2,7 @@
   "schema": 1,
   "packId": "platform-other",
   "name": "其它来源 风格包",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": "art-canvas",
   "description": "Grok、ComfyUI、即梦、通义等其余来源，以及未标注来源的条目",
   "order": 190,
@@ -59,10 +59,11 @@
       "id": "uncategorized",
       "name": "待分类",
       "file": "uncategorized.json",
-      "order": 90
+      "order": 80
     }
   ],
   "taxonomyVersion": "1.1.0",
+  "dataVersion": "2026-11-02",
   "entryCount": 1694,
   "replaces": [
     "art-canvas-core"

@@ -23,7 +23,108 @@
                 "status": "suggested",
                 "reason": "标题规则证据：剪纸 / 剪纸；按明确交付物优先于媒介",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_3d-paper-quilling-floral-art",
+              "name": "3D 纸艺衍纸花卉艺术",
+              "type": "prompt",
+              "prompt": "一张高精度艺术品照片，主体为 {argument name=\"color\" default=\"红色和黄色\"} 的 {argument name=\"subject\" default=\"玫瑰\"}，采用 {argument name=\"style\" default=\"3D 纸艺衍纸和纸花丝\"} 工艺制作而成。画面包含精致的卷纸花瓣、立体绿色叶片、优雅的蔓藤花纹、精致的白色背景、柔和的自然光、超高清画质、精湛的工艺展示以及温暖的质感。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/16846.jpg",
+              "classification": {
+                "method": "semantic",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "语义近邻投票：crafts_paper 置信 0.76 / 领先 0.63",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.763,
+                  "runner_up": "digital_3d_diorama"
+                }
+              }
+            },
+            {
+              "id": "pia_laser-cut-paper-city-sculpture",
+              "name": "激光切割纸艺城市雕塑",
+              "type": "prompt",
+              "prompt": "<papercraft_paradox> ^ / \\   <-- [ AI_INFER: 由纸张折叠而成的 {argument name=\"city\" default=\"[城市名称]\"} 最高摩天大楼 ] /   \\         /     \\        /_______\\         \\       / <-- [ 带有 AI_INFER 的纸质轨道：当地交通工具在倒置行驶 ]      \\     /          \\   / <-- [ AI_INFER: 从纸张上切割出的 {argument name=\"city\" default=\"[城市名称]\"} 桥梁与河流 ]        \\ /            v   </papercraft_paradox> 指令： 1. 渲染为物理的、激光切割的纸板和纸艺桌面雕塑。 2. {argument name=\"city\" default=\"[城市名称]\"} 的城市网格构成一个完美的、不可能实现的彭罗斯三角 (Penrose Triangle)。 3. 视觉错觉必须从摄像机的视角完美呈现。文字和网格线印在纸板边缘。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/23575.jpg",
+              "classification": {
+                "method": "semantic_refine",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "大类内二次判别：crafts_paper 置信 1.00 / 领先 1.00",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 1.0,
+                  "runner_up": null
+                },
+                "previous_location": "crafts/crafts_pending"
+              }
+            },
+            {
+              "id": "pia_blind-embossed-paper-artwork",
+              "name": "浮雕纸艺",
+              "type": "prompt",
+              "prompt": "{argument name=\"subject\" default=\"[SUBJECT]\"} 呈现为浮雕纸艺作品，仅保留细腻的凸起纹理，无油墨，单色白底构图，优雅的阴影效果，奢华文具美学，博物馆级极简主义。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/27076.jpg",
+              "classification": {
+                "method": "semantic_refine",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "大类内二次判别：crafts_paper 置信 0.88 / 领先 0.75",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.877,
+                  "runner_up": "crafts_wood"
+                },
+                "previous_location": "crafts/crafts_pending"
               }
             }
           ]
@@ -32,31 +133,6 @@
           "id": "crafts_textile",
           "name": "纺织刺绣",
           "presets": [
-            {
-              "id": "pia_relief-embroidery-bird-floral",
-              "name": "鸟3D插画优雅",
-              "type": "prompt",
-              "prompt": "精致的 3D 刺绣风格插画，浮雕纤维艺术效果，纯“{argument name=\"background color\" default=\"丝绸白 + 乳白色\"}”底色，细腻的丝线质感。画面主体为 {argument name=\"subject\" default=\"几只小鸟\"} 栖息在蜿蜒的花枝上，点缀着 {argument name=\"accent colors\" default=\"粉白色、浅桃色、珊瑚粉和淡金色\"} 的花朵与叶片。构图轻盈优雅，留白充足。鸟儿的羽毛采用乳白、浅蓝、淡粉和浅金色的丝线刺绣呈现。花枝纤细自然，花朵采用层叠缝合工艺，营造出高端手工刺绣、丝绒堆绣效果，光影柔和，细节丰富，呈现出温润清新的艺术质感。",
-              "negative_prompt": "",
-              "description": "PromptImageAtlas · promptimageatlas",
-              "thumbnail": "https://promptimageatlas.com/images/originals/16299.jpg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：刺绣",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "crafts": [
-                    "刺绣",
-                    "手工",
-                    "纤维"
-                  ]
-                }
-              }
-            },
             {
               "id": "pia_feminine-y2k-ribbed-knit-dress",
               "name": "女性化 Y2K 风格罗纹针织连衣裙",
@@ -72,7 +148,78 @@
                 "status": "suggested",
                 "reason": "标题规则证据：针织 / 针织",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_textile",
+                    "name": "纺织刺绣"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "crafts_pending",
+          "name": "crafts_pending",
+          "presets": []
+        },
+        {
+          "id": "crafts_clay",
+          "name": "陶瓷黏土",
+          "presets": [
+            {
+              "id": "pia_cozy-claymation-world-recreation",
+              "name": "黏土动画风格场景重现",
+              "type": "prompt",
+              "prompt": "将该场景重现为一个由柔软建模黏土构成的 {argument name=\"style\" default=\"温馨黏土动画风格\"} 世界。每个物体都应具有手工制作的纹理、圆润的形状、指纹细节以及类似定格动画电影的柔和灯光。使用 {argument name=\"colors\" default=\"温暖的柔和色调\"}，营造出可爱且具有电影感的氛围。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/18527.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_clay",
+                    "name": "陶瓷黏土"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "crafts_metal",
+          "name": "金属工艺",
+          "presets": [
+            {
+              "id": "pia_white-relief-india-map",
+              "name": "印度白色浅浮雕地图",
+              "type": "prompt",
+              "prompt": "创作一张高细节的单色白色浅浮雕纸艺地图，主题为 {argument name=\"country or region\" default=\"India\"}，背景为温暖的米白色纹理纸。陆地部分应以清晰的白色石膏/纸质浮雕呈现，地理特征准确且易于辨认：印度大陆居中且比例较大，东北部各邦位于右上角，斯里兰卡位于南端下方，两组群岛以微小的凸起圆点显示在左下角和右下角。地图中填充了雕刻在同一白色材质上的复杂微缩地形和文化细节：北部横跨的喜马拉雅山脉隆起山脊、等高线和梯田地形、由微小点簇组成的森林、河流状的刻线、海岸纹理，以及半岛周围微妙的水平海洋波浪线。在地形中融入 5 个清晰可辨的主要文化/地标图案：印度中北部的泰姬陵、印度西部的大型拱门宫殿/堡垒立面、印度中南部的高耸阶梯式寺庙塔楼、西北部沙漠地区的骆驼，以及南部地区的大象。除白色和淡淡的灰色阴影外，不使用任何颜色；无标签、无边框、无图例、无文字。光线应从左上方柔和射入，投射出精致的阴影，以强调浮雕的深度和极其精细的细节。风格：博物馆级纸张压印、雕塑制图、极简优雅构图、照片级真实感微距产品摄影，居中置于留白充足的纯色背景上。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/27116.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_metal",
+                    "name": "金属工艺"
+                  }
+                ]
               }
             }
           ]

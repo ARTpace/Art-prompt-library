@@ -23,7 +23,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：折纸 / 折纸",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ]
               }
             },
             {
@@ -41,24 +47,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：剪纸 / 剪纸",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "papercraft_collage",
-              "name": "papercraft-collage",
-              "type": "prompt",
-              "prompt": "collage style {prompt} . mixed media, layered, textural, detailed, artistic",
-              "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic",
-              "description": "ComfyUI Style",
-              "classification": {
-                "method": "rules",
-                "stage": "title",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "标题规则证据：papercraft / papercraft",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ]
               }
             },
             {
@@ -75,7 +70,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：papercraft / papercraft",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ]
               }
             },
             {
@@ -92,7 +93,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：papercraft / papercraft",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ]
               }
             },
             {
@@ -109,7 +116,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：papercraft / papercraft",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ]
               }
             },
             {
@@ -126,24 +139,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：papercraft / papercraft",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "papercraft_papercut_collage",
-              "name": "papercraft-papercut collage",
-              "type": "prompt",
-              "prompt": "papercut collage of {prompt} . mixed media, textured paper, overlapping, asymmetrical, abstract, vibrant",
-              "negative_prompt": "photo, 3D, realistic, drawing, painting, high detail, disfigured",
-              "description": "ComfyUI Style",
-              "classification": {
-                "method": "rules",
-                "stage": "title",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "标题规则证据：papercraft / papercraft",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ]
               }
             },
             {
@@ -160,7 +162,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：papercraft / papercraft",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ]
               }
             },
             {
@@ -177,7 +185,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：papercraft / papercraft",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ]
               }
             },
             {
@@ -194,7 +208,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：papercraft / papercraft",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ]
               }
             },
             {
@@ -211,7 +231,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：origami / origami",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ]
               }
             },
             {
@@ -228,7 +254,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：Origami / Origami",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ]
               }
             },
             {
@@ -245,24 +277,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：origami / origami",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "fooocus_twri_papercraftcollage",
-              "name": "papercraft-collage",
-              "prompt": "collage style {prompt} . mixed media, layered, textural, detailed, artistic",
-              "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic",
-              "description": "TWRI SDXL 风格",
-              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_twri.json",
-              "classification": {
-                "method": "rules",
-                "stage": "title",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "标题规则证据：papercraft / papercraft",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ]
               }
             },
             {
@@ -279,7 +300,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：papercraft / papercraft",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ]
               }
             },
             {
@@ -296,7 +323,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：papercraft / papercraft",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ]
               }
             },
             {
@@ -313,7 +346,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：papercraft / papercraft",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ]
               }
             },
             {
@@ -330,24 +369,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：papercraft / papercraft",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "fooocus_twri_papercraftpapercut_collage",
-              "name": "papercraft-papercut collage",
-              "prompt": "papercut collage of {prompt} . mixed media, textured paper, overlapping, asymmetrical, abstract, vibrant",
-              "negative_prompt": "photo, 3D, realistic, drawing, painting, high detail, disfigured",
-              "description": "TWRI SDXL 风格",
-              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_twri.json",
-              "classification": {
-                "method": "rules",
-                "stage": "title",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "标题规则证据：papercraft / papercraft",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ]
               }
             },
             {
@@ -364,7 +392,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：papercraft / papercraft",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ]
               }
             },
             {
@@ -381,7 +415,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：papercraft / papercraft",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ]
               }
             },
             {
@@ -398,7 +438,133 @@
                 "status": "suggested",
                 "reason": "标题规则证据：papercraft / papercraft",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-287",
+              "name": "3D纸艺作品",
+              "type": "prompt",
+              "prompt": "{subject}, 一幅3D纸艺作品，以 [主题] 为原型，由多层剪纸组成，放置在简单的纸板底座上。[颜色 1] 和 [颜色 2] 纸张纹理的亮点营造出深度和立体感。作品背景为灯光柔和的手工房，光线逼真，纸张边缘精致，景深浅。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/287.png",
+              "classification": {
+                "method": "semantic_refine",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "大类内二次判别：crafts_paper 置信 1.00 / 领先 1.00",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 1.0,
+                  "runner_up": null
+                },
+                "previous_location": "crafts/crafts_pending"
+              }
+            },
+            {
+              "id": "opennana_prompt-251",
+              "name": "超细节盒状纸艺玩具",
+              "type": "prompt",
+              "prompt": "{subject}, 1×1大小的正方形，超细节渲染的[角色名称]盒状纸艺玩具版本。由折叠和裁剪的哑光卡纸制成，具有可见的纸张纹理、清晰的边缘和整齐的折痕。立方体头部和身体，块状四肢，简化的面部特征，平印色彩，以及用于体现深度的微妙阴影。服装和配饰以简约的几何纸艺风格忠实还原[角色名称]的标志性外观，保持紧凑的比例和Q版风格。中性工作室灯光，柔和阴影，简洁背景，逼真的产品摄影效果，4K分辨率，无文字或标志。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/251.jpeg",
+              "classification": {
+                "method": "semantic_refine",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "大类内二次判别：crafts_paper 置信 1.00 / 领先 1.00",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 1.0,
+                  "runner_up": null
+                },
+                "previous_location": "crafts/crafts_pending"
+              }
+            },
+            {
+              "id": "opennana_prompt-69",
+              "name": "品牌折叠纸",
+              "type": "prompt",
+              "prompt": "{subject}, A flat branded paper folds itself into the full 3D shape of a [insert product or item, e.g. “Coca-Cola bottle”, “Nike sneaker”, “Big Mac”], mid-motion. \n\nThe paper colors match the [insert brand name] brand’s signature palette and the natural colors of the item (e.g., [describe key colors or ingredients, like “red and white for Coca-Cola”, “brown, green, yellow for Big Mac”]).\n\nDramatic studio lighting, origami texture detail, soft gradient shadows. Stylized with Japanese minimalism and elegant negative space. The scene captures a clean, elevated transformation from flat brand identity into sculptural product form.",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/69.png",
+              "classification": {
+                "method": "semantic_refine",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "大类内二次判别：crafts_paper 置信 1.00 / 领先 1.00",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 1.0,
+                  "runner_up": null
+                },
+                "previous_location": "crafts/crafts_pending"
+              }
+            },
+            {
+              "id": "opennana_2k-paper-craft-close-up",
+              "name": "超清2K纸艺萌物特写",
+              "type": "prompt",
+              "prompt": "{subject}, 超逼真照片，一只可爱的手工纸艺衍纸钩针[主题]，极度精细的卷曲与塑形纸条，可见紧密卷、流苏边缘与多层衍纸形状，细腻纸纹与轻微色彩渐变，柔和阴影突出3D形态，专业产品摄影，棚拍灯光，浅景深散景，[背景描述]前，竖构图，超高清，2K，照片级真实感，微距摄影风格 --ar [X:X] --stylize 250 --v 6 --q 2",
+              "negative_prompt": "",
+              "description": "Grok",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202601/1769340047365-lbh06otm-1.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ]
               }
             }
           ]
@@ -422,7 +588,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：刺绣 / 刺绣",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_textile",
+                    "name": "纺织刺绣"
+                  }
+                ]
               }
             },
             {
@@ -440,7 +612,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：刺绣 / 刺绣",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_textile",
+                    "name": "纺织刺绣"
+                  }
+                ]
               }
             },
             {
@@ -458,7 +636,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：刺绣 / 刺绣",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_textile",
+                    "name": "纺织刺绣"
+                  }
+                ]
               }
             },
             {
@@ -476,91 +660,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：针织 / 针织",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "opennana_prompt-294",
-              "name": "钩针玩偶",
-              "type": "prompt",
-              "prompt": "{subject}, 制作一张 3D 超写实风格、细节丰富的阿米古米（Amigurumi，即钩针玩偶）风格海报。设计需模拟手工钩织的 [动物名称] 造型，呈现出清晰可见的毛线纹理、钩针缝线细节，以及柔软蓬松的整体比例。\n运用写实的织物阴影效果、细微的毛绒质感与自然光线，打造画面层次感。该阿米古米玩偶需搭配小巧的刺绣眼睛与简约的面部造型，置于中性风格的工作室场景中，辅以柔和阴影，呈现专业的展示效果。背景：灰色调",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/294.jpeg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：刺绣",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "crafts": [
-                    "刺绣",
-                    "手工"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "opennana_taiwan-idol-red-beanie-pearl-jewelry-portrait",
-              "name": "红色针织帽珍珠饰品台湾偶像人像",
-              "type": "prompt",
-              "prompt": "{subject}, 一个20岁出头的台湾年轻偶像的特写肖像，拥有柔软的瓷质皮肤、自然的纹理和细微的毛孔，鼻梁和脸颊散布着精致的雀斑，柔和的桃色腮红，长长的黑色睫毛，以及略微张开的亮泽丰盈双唇。她留着深棕色长直发，垂在一侧肩膀上。她戴着一顶拉得很低并盖住额头的红色粗线钩针针织帽，侧面装饰着一个小巧的白色珍珠蝴蝶结别针。长长的多串珍珠耳坠垂在耳边，一条配套的长珍珠项链贴在她的锁骨上。她穿着一件柔软的白色毛茸茸针织毛衣，带有略微宽松的质感。她的右手轻轻抬起贴在脸颊上，手指轻触脸庞，姿势柔和亲密，目光温柔地看向镜头，表情平静而梦幻。\n\n来自侧面的柔和漫射自然窗光，柔和的阴影，皮肤和珍珠上的奶油色高光，轻微的胶片颗粒，怀旧的模拟美学，Fujifilm Pro 400H 模拟，软焦，浅景深，高时尚美容编辑风格，亲密而细腻的氛围，85mm 镜头，照片写实，极尽详细的皮肤和织物纹理。",
-              "negative_prompt": "",
-              "description": "Grok",
-              "thumbnail": "https://img.opennana.com/prompts/assets/202608/1786370805824-bzaju1bv-1786370806928-1.jpg",
-              "classification": {
-                "method": "rules",
-                "stage": "title",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "标题规则证据：针织 / 针织",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "opennana_prompt-7",
-              "name": "刺绣肖像",
-              "type": "prompt",
-              "prompt": "{subject}, An embroidered portrait of Elon Musk, stitched with rich steel grey and electric blue thread on deep linen fabric. Visible needlework, layered textures, and handmade patterns give it an earthy, sacred feel.",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/7.png",
-              "classification": {
-                "method": "rules",
-                "stage": "title",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "标题规则证据：刺绣 / 刺绣",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "fooocus_marc_k3nt3l_mk_crossstitching",
-              "name": "MK Cross-Stitching",
-              "prompt": "Cross-stitching {prompt}. Intricate patterns, embroidery thread, sewing, fine details, precise stitches, textile artistry, symmetrical designs, varied color palette, traditional and contemporary motifs, handmade and crafted,canvas, nostalgic charm.",
-              "negative_prompt": "paper, paint, ink, photography.",
-              "description": "Marc K3nt3L 风格",
-              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_marc_k3nt3l.json",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：embroidery",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "crafts": [
-                    "embroidery",
-                    "handmade",
-                    "stitches"
-                  ]
-                }
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_textile",
+                    "name": "纺织刺绣"
+                  }
+                ]
               }
             },
             {
@@ -578,7 +684,180 @@
                 "status": "suggested",
                 "reason": "标题规则证据：Embroidery / Embroidery",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_textile",
+                    "name": "纺织刺绣"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-7",
+              "name": "刺绣肖像",
+              "type": "prompt",
+              "prompt": "{subject}, An embroidered portrait of Elon Musk, stitched with rich steel grey and electric blue thread on deep linen fabric. Visible needlework, layered textures, and handmade patterns give it an earthy, sacred feel.",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/7.png",
+              "classification": {
+                "method": "semantic_refine",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "大类内二次判别：crafts_textile 置信 0.56 / 领先 0.36",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_textile",
+                    "name": "纺织刺绣"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.5618,
+                  "runner_up": "crafts_paper"
+                },
+                "previous_location": "crafts/crafts_pending"
+              }
+            },
+            {
+              "id": "opennana_japanese-woman-beige-cardigan-balcony-fashion-portrait",
+              "name": "米色针织开衫日系美女阳台写真",
+              "type": "prompt",
+              "prompt": "{subject}, 1. 主体与动作\n一位惊艳的22岁日本女性，拥有瓷白细腻的肌肤，自然的灰蓝色眼睛，精致考究的面部轮廓，优雅的高级时尚妆容配以柔和的腮红和水光唇色，时尚的长波浪灰褐色头发带有冷色调挑染，佩戴精致的轻奢金耳环和细项链。极细的腰部，丰满自然的G罩杯乳房呈柔软下垂的形状，未穿内衣。她穿着一件超大号的薄米色针织开衫，在正面松散地系着。一只手轻轻触碰头发。害羞、甜美、尴尬的微笑，微微向下看，仿佛被捕捉到了私密瞬间。\n\n2. 环境与时间\n阳光明媚的阳台，点缀着茂密的绿色植物和盆栽，明亮的正午，现代东京公寓通透的室内外衔接处。\n\n3. 构图与镜头\n中景，略高或平视角度，竖屏肖像构图。焦点集中在面部、胸部轮廓、纤细腰部和开衫的垂感上。自然轻松的姿势，带有一丝动感，仿佛微风刚刚掠过。\n\n4. 光影与风格\n柔和的正午自然日光，通透且带有轻微的方向性，在针织织物上创造出柔和的体积感，皮肤纹理真实。超写实，高端时尚社论风，艾伦·冯·昂沃丝（Ellen von Unwerth）风格：俏皮、纯真感性、透气、高质量、不庸俗。\n\n5. 约束条件\n衣物完全覆盖胸部；无透明，无露点，无走光。仅通过织物垂坠感、自然的重量感、纤细腰部的对比以及害羞的表情来暗示。严禁露骨裸体。保持外观极度自然和真实。",
+              "negative_prompt": "",
+              "description": "Grok",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202609/1789563987829-ezpuc3ur-1789563993080-1.jpg",
+              "classification": {
+                "method": "semantic_refine",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "大类内二次判别：crafts_textile 置信 1.00 / 领先 1.00",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_textile",
+                    "name": "纺织刺绣"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 1.0,
+                  "runner_up": null
+                },
+                "previous_location": "crafts/crafts_pending"
+              }
+            },
+            {
+              "id": "opennana_professional-beauty-portrait-young-woman-hot-pink-lipstick",
+              "name": "凌乱高盘发粉唇露肩针织衫轻熟美女写真",
+              "type": "prompt",
+              "prompt": "{subject}, 创作一张高质量、专业的年轻女性美妆肖像，呈现出自然、优雅的外观，其发型为凌乱的高盘发，带有散落的修饰脸型的发丝。她有着浅色的眼睛，细微的雀斑，涂着醒目且充满活力的亮粉色口红作为视觉焦点，辅以柔和的玫瑰色调腮红。她穿着一件深酒红色或梅紫色的露肩针织上衣。背景是纯色、中性的浅米色调，将焦点完全集中在主体身上，而柔和、漫射的影棚灯光在她的皮肤和头发上创造出轻柔的高光，营造出一种干净、精致且具有现代感的审美。",
+              "negative_prompt": "",
+              "description": "Grok",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202606/1782823061468-ymvyl06f-1782823065281-1.jpg",
+              "classification": {
+                "method": "semantic_refine",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "大类内二次判别：crafts_textile 置信 1.00 / 领先 1.00",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_textile",
+                    "name": "纺织刺绣"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 1.0,
+                  "runner_up": null
+                },
+                "previous_location": "crafts/crafts_pending"
+              }
+            },
+            {
+              "id": "opennana_shibuya-street-east-asian-woman-cobalt-blue-sweater-film-look",
+              "name": "涩谷街头深蓝针织衫女性胶片写真",
+              "type": "prompt",
+              "prompt": "{subject}, 半身人像，平视视角。一位20岁的成年东亚女性，拉长的椭圆脸，尖下巴，灰橄榄色的杏仁眼，眼角轻轻上扬，纤细的中低鼻梁，均匀的玫瑰粉色嘴唇，散发光泽的白皙皮肤，具有干净均匀的缎面质感，丰满的胸部，纤细的腰部，烟熏灰灰色的头发，带有暗淡的鼠尾草橄榄色底色和深色的阴影发根，下巴至肩部长度的波浪鲍勃头，中分，松散凌乱的S型波浪纹理，脸颊和颈部周围有轻盈向外翘的分层，蓬松感，细腻的飞散发丝，柔和自然的微笑，放松的眉毛，轻轻眯起的眼睛，微微张开的嘴唇，抬起的脸颊。她穿着深钴蓝色的麻花针织高领镂空紧身连体毛衣，带有厚实的罗纹高领，中等洗水色的蓝色紧身牛仔裤，底部裁剪边缘有自然的丹宁褪色，修长的长袖，垂直的麻花纹理，雕塑般的胸腰轮廓，侧腰处有巨大的镂空开口，露出纤细腰部和上臀部的两侧，细框眼镜，小泪滴状宝石耳环细节，以及叠戴的黄金项链细节，配有金金属框架，细腻含蓄的闪光，微妙的叠戴链条点缀，位于下裁剪边缘。她微微抬起下巴，双手插在裤子的两个前口袋里，手肘放松并略微向外张开，呈现出放松挺拔的姿势。场景是涩谷站侧交叉口入口，位于超大商业广告牌下方，路口边缘有醒目的斑马线条纹，等待的行人群。寒冷的冬季阴天环境，浅灰色的天空，冷色调干净的日光主体颜色，清脆的浅白色高光。川内伦子风格的轻盈高调图像语言。使用35mm镜头拍摄，略宽的自然透视，人体比例的视野，f/1.4风格的极浅景深，极其锐利的焦点平面，色差，微妙的RGB边缘重影，沿高对比度边缘的横向色分离。富士Superia胶片渲染，冷绿色阴影色调，明亮的红色和绿色，中高对比度曲线，可见的消费级胶片颗粒。",
+              "negative_prompt": "",
+              "description": "Grok",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202609/1788844415868-2ined2r0-1788844421536-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_textile",
+                    "name": "纺织刺绣"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-294",
+              "name": "钩针玩偶",
+              "type": "prompt",
+              "prompt": "{subject}, 制作一张 3D 超写实风格、细节丰富的阿米古米（Amigurumi，即钩针玩偶）风格海报。设计需模拟手工钩织的 [动物名称] 造型，呈现出清晰可见的毛线纹理、钩针缝线细节，以及柔软蓬松的整体比例。\n运用写实的织物阴影效果、细微的毛绒质感与自然光线，打造画面层次感。该阿米古米玩偶需搭配小巧的刺绣眼睛与简约的面部造型，置于中性风格的工作室场景中，辅以柔和阴影，呈现专业的展示效果。背景：灰色调",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/294.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_textile",
+                    "name": "纺织刺绣"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "batik",
+              "name": "Batik",
+              "type": "prompt",
+              "prompt": "Batik style {prompt} . Indonesian, resist dyeing, floral, highly detailed",
+              "negative_prompt": "non-Indonesian, direct dyeing, geometric, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_textile",
+                    "name": "纺织刺绣"
+                  }
+                ]
               }
             }
           ]
@@ -602,7 +881,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：木雕 / 木雕",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_wood",
+                    "name": "木作雕刻"
+                  }
+                ]
               }
             }
           ]
@@ -626,7 +911,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：珐琅 / 珐琅",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_metal",
+                    "name": "金属工艺"
+                  }
+                ]
               }
             },
             {
@@ -644,7 +935,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：Vitreous Enamel / Vitreous Enamel",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_metal",
+                    "name": "金属工艺"
+                  }
+                ]
               }
             }
           ]
@@ -668,7 +965,203 @@
                 "status": "suggested",
                 "reason": "标题规则证据：羊毛毡 / 羊毛毡",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_fiber",
+                    "name": "毛毡绳结"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-57",
+              "name": "手工毛线纹理",
+              "type": "prompt",
+              "prompt": "{subject}, Crea un render 3D fotorrealista de este logo hecho con hilo grueso y tejido a mano. El hilo debe parecer suave, esponjoso y de gran tamaño, con patrones visibles de tejido como bucles, giros y trenzas. Usa colores brillantes y saturados, estética cálida. Resalta la textura de las fibras, la suavidad del material y el acabado artesanal. Iluminación de estudio suave. Fondo blanco o crema limpio. El logo debe estar centrado y sin elementos adicionales. Cuadrado.",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/57.png",
+              "classification": {
+                "method": "semantic_refine",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "大类内二次判别：crafts_fiber 置信 0.54 / 领先 0.27",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_fiber",
+                    "name": "毛毡绳结"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.5432,
+                  "runner_up": "crafts_paper"
+                },
+                "previous_location": "crafts/crafts_pending"
+              }
+            },
+            {
+              "id": "opennana_prompt-90",
+              "name": "将您的标志变成毛毡纹理",
+              "type": "prompt",
+              "prompt": "{subject}, Retexture [BRAND NAME] logo following my JSON aesthetic below:\n{\n\"style\": \"realistic needle-felted wool sculpture\",\n\"subject_handling\": {\n\"adapt_to_uploaded_image\": true,\n\"preserve_original_shape_and_layout\": true,\n\"preserve_uploaded_color_values\": true,\n\"preserve_text_if_present\": true,\n\"preserve_text_case\": true,\n\"preserve_exact_letterforms\": true,\n\"use_uploaded_image_as_pixel_map\": true,\n\"prevent_color_estimation_or_stylization\": true\n},\n\"needle_felting\": {\n\"material_type\": \"dyed wool fibers matched precisely to uploaded image pixels\",\n\"texture_description\": \"fluffy soft felt with clear fiber strands\",\n\"construction_style\": \"needle-felted, light irregularities allowed but no color bleeding\",\n\"color_application_method\": \"direct color transfer from uploaded image to wool sculpture\",\n\"prevent_auto_saturation_adjustment\": true,\n\"prevent_color_fading\": true,\n\"color_binding_mode\": \"pixel-level color fidelity per original image\"\n},\n\"lighting\": {\n\"lighting_type\": \"neutral soft studio lighting\",\n\"shadow\": \"soft, gray-toned shadows under the object only\",\n\"highlight_behavior\": \"matte highlights only from felt surface — no bloom or color shift\"\n},\n\"background\": {\n\"type\": \"plain matte studio\",\n\"background_color\": \"pastel tone that contrasts with logo color\",\n\"color_conflict_handling\": \"auto-adjust background brightness — do not alter logo colors\"\n},\n\"camera\": {\n\"focus_style\": \"macro lens\",\n\"depth_of_field\": \"shallow — full subject in sharp detail, soft background\",\n\"angle\": \"frontal or slightly elevated, full subject visible\"\n},\n\"post_processing\": {\n\"color_preservation_enforced\": true,\n\"disable_auto-enhancement_or_tinting\": true,\n\"no artistic reinterpretation\": true,\n\"no auto-correction, bloom, or white balance adjustments\": true\n},\n\"image_constraints\": {\n\"transparent_background\": false,\n\"aspect_ratio_locked\": true,\n\"include_text_if_present\": true,\n\"preserve_text_case\": true,\n\"preserve_uploaded_color_values\": true,\n\"prevent_shape_or_color_change\": true,\n\"enforce_exact_pixel_color_match_to_uploaded_image\": true\n},\n\"notes\": \"The uploaded image must be converted into a needle-felted wool sculpture using its exact colors and shape. Use pixel-level mapping to apply the uploaded color values to simulated dyed wool fibers. Do not change, brighten, dull, average, or blend colors. Text must remain intact and readable. Background should be soft pastel to contrast the logo — never adjust the logo to fit the scene.\"\n}",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/90.jpeg",
+              "classification": {
+                "method": "semantic_refine",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "大类内二次判别：crafts_fiber 置信 0.54 / 领先 0.40",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_fiber",
+                    "name": "毛毡绳结"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.542,
+                  "runner_up": "crafts_paper"
+                },
+                "previous_location": "crafts/crafts_pending"
+              }
+            },
+            {
+              "id": "opennana_prompt-188",
+              "name": "微型毛毡羊毛人物",
+              "type": "prompt",
+              "prompt": "{subject}, 一个 [主题] 的毛毡羊毛人物，用柔软的纤维手工制作，缝线不均匀，纹理可见。该场景设置在分层织物和柔和道具的微型立体模型中，散发着舒适的故事书魅力，就像完全由毛毡和线制成的触觉定格动画童话中的剧照。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/188.png",
+              "classification": {
+                "method": "semantic_refine",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "大类内二次判别：crafts_fiber 置信 0.61 / 领先 0.42",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_fiber",
+                    "name": "毛毡绳结"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.6131,
+                  "runner_up": "crafts_paper"
+                },
+                "previous_location": "crafts/crafts_pending"
+              }
+            }
+          ]
+        },
+        {
+          "id": "crafts_pending",
+          "name": "crafts_pending",
+          "presets": []
+        },
+        {
+          "id": "crafts_other",
+          "name": "其他手工艺",
+          "presets": [
+            {
+              "id": "opennana_prompt-197",
+              "name": "数字粘土雕塑",
+              "type": "prompt",
+              "prompt": "{subject}, 一个 [主题] 的数字粘土雕塑，以 [姿势/动作] 捕捉，放在极简主义的 [彩色] 基座上，上面蚀刻有有机漩涡图案。雕塑具有流畅、流畅的曲线和触感，以精致的 [调色板] 呈现，唤起柔和的现代美学。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/197.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_other",
+                    "name": "其他手工艺"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.2823,
+                  "runner_up": "crafts_paper"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "crafts_glass",
+          "name": "玻璃工艺",
+          "presets": [
+            {
+              "id": "misc_stained_glass",
+              "name": "misc-stained glass",
+              "type": "prompt",
+              "prompt": "stained glass style {prompt} . vibrant, beautiful, translucent, intricate, detailed",
+              "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_glass",
+                    "name": "玻璃工艺"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "fooocus_twri_miscstained_glass",
+              "name": "misc-stained glass",
+              "prompt": "stained glass style {prompt} . vibrant, beautiful, translucent, intricate, detailed",
+              "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic",
+              "description": "TWRI SDXL 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_twri.json",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_glass",
+                    "name": "玻璃工艺"
+                  }
+                ]
               }
             }
           ]

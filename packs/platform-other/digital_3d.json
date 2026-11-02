@@ -9,30 +9,6 @@
           "name": "三维角色",
           "presets": [
             {
-              "id": "opennana_pixar-style-3d-chibi-girl-sticker-pack",
-              "name": "皮克斯风3DQ版女孩表情包贴纸",
-              "type": "prompt",
-              "prompt": "{subject}, 创建一张皮克斯风格的可爱3D Q版女孩角色贴纸页（4x3布局）。\n角色细节：\n黑色大圆眼镜\n浅棕色头发扎成凌乱丸子头\n柔和红润的脸颊\n奶油色超大号针织毛衣\n黑色工装裤（裤脚卷起）\n白色运动鞋\n小号棕色斜挎包\n可爱且富有表现力的大眼睛\n柔和温暖的肤色\n创建12个不同的贴纸，带有白色镂空边框和柔和阴影，在白色背景上以干净的网格布局排列。\n情绪与姿势：\n开心微笑比剪刀手 ✌️\n生气双手抱臂并带有“Angry!”文字\n震惊表情双手捂脸颊并带有“OMG!!”\n戴着耳机喝咖啡在笔记本电脑上工作，文字“Work”\n悲伤脸托着腮，带有“So Sad…”文字\n专注表情读书\n烦躁疲惫的脸拿着咖啡杯，文字“Ugh…”\n在笔记本上写作业，文字“Homework”\n兴奋地挥手\n放松的可爱微笑姿势带闪光\n趴在书桌上睡觉，旁边有书\n困惑表情带有“?!?”文字\n风格要求：\n3D皮克斯风格渲染\n超精细细节\n柔和影棚灯光\n柔和粉彩配色\n光泽贴纸质感\n每个贴纸周围有白色轮廓边框\n高分辨率\n干净极简背景\n卡哇伊美学",
-              "negative_prompt": "",
-              "description": "Grok",
-              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1772383457226-xfxieya8-1.jpeg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "标题大类＋正文子类证据：角色",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "digital_3d": [
-                    "3D",
-                    "网格"
-                  ]
-                }
-              }
-            },
-            {
               "id": "opennana_prompt-158",
               "name": "品牌3D卡通动物角色",
               "type": "prompt",
@@ -47,43 +23,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：3D / 角色",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "opennana_prompt-179",
-              "name": "创建多种3D风格头像",
-              "type": "prompt",
-              "prompt": "{subject}, 使用柔和的漫射照明和脚下柔和的阴影进行渲染。使用 100% 透明背景（PNG 格式）或非常浅的中性灰色（如果预览）。全身构图，正面或浅色 3/4 视图。保持干净、高分辨率、精美的渲染 — 非常适合角色设计展示或品牌推广。带有大地色调的柔和调色板。",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/179.png",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "标题大类＋正文子类证据：角色",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "opennana_prompt-407",
-              "name": "将明星变成趣味十足的3D卡通肖像",
-              "type": "prompt",
-              "prompt": "{subject}, 以皮克斯/梦工厂风格绘制的[角色名称]全身3D卡通形象，拥有富有表现力的大眼睛、略微夸张的头部和略微夸张的面部特征。逼真的肌肤呈现出柔和的次表面散射效果，头发细节丰富，笑容温暖而亲切。光滑的表面处理，服装上的织物纹理细腻。动态的姿态展现出鲜明的个性，全身清晰可见，比例均衡。柔和的环境光，温暖的红橙色渐变背景。电影级的品质，高度的细节刻画，鲜艳而自然的色彩，风格化的魅力与恰到好处的写实感完美融合。",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/407.jpeg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "标题大类＋正文子类证据：角色",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_character",
+                    "name": "三维角色"
+                  }
+                ]
               }
             },
             {
@@ -101,7 +47,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：3D / 人物",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_character",
+                    "name": "三维角色"
+                  }
+                ]
               }
             },
             {
@@ -119,25 +71,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：渲染 / 人物；按明确交付物优先于媒介",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "opennana_prompt-382",
-              "name": "3D chibi风格乙烯基收藏品",
-              "type": "prompt",
-              "prompt": "{subject}, 3D chibi 风格乙烯基收藏品 [CHARACTER NAME] 大头，小身体，卡通比例，站在 Youtooz 风格的\n包装盒带有：透明前窗\n顶部有“YOUTOOZ COLLECTIBLES”标志\n左上角的数字标签（[#XXX]）\n底部文字：“[CHARACTER NAME]” 下方用较小的字体写着“VINYL FIGURE”\n盒子侧面的 [角色名称] 卡通 2D 插图（[插图描述]）\n\n背景/主题：\n[盒子颜色 + 纹理 + 与角色相关的标志性图案]\n[人物姿势或手势]\n[服装描述 + 标志性物品]\n\n面部细节：面部特征（嘴巴/眼睛/细节）必须完全 3D 雕刻，而不是平面或印刷的。\n灯光：干净的产品摄影外观，最小的柔和阴影\n风格：搪胶玩具美学，根据服装搭配哑光和亮光元素。构图：3/4 产品视角，完整包装盒清晰可见。整个包装盒必须在框架内完全可见，所有边缘均留有清晰的空白。",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/382.jpeg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "标题大类＋正文子类证据：CHARACTER",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_character",
+                    "name": "三维角色"
+                  }
+                ]
               }
             },
             {
@@ -155,7 +95,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：3D / 角色",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_character",
+                    "name": "三维角色"
+                  }
+                ]
               }
             },
             {
@@ -173,7 +119,276 @@
                 "status": "suggested",
                 "reason": "标题规则证据：3D / 3D Character",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_character",
+                    "name": "三维角色"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_pixar-style-3d-chibi-girl-sticker-pack",
+              "name": "皮克斯风3DQ版女孩表情包贴纸",
+              "type": "prompt",
+              "prompt": "{subject}, 创建一张皮克斯风格的可爱3D Q版女孩角色贴纸页（4x3布局）。\n角色细节：\n黑色大圆眼镜\n浅棕色头发扎成凌乱丸子头\n柔和红润的脸颊\n奶油色超大号针织毛衣\n黑色工装裤（裤脚卷起）\n白色运动鞋\n小号棕色斜挎包\n可爱且富有表现力的大眼睛\n柔和温暖的肤色\n创建12个不同的贴纸，带有白色镂空边框和柔和阴影，在白色背景上以干净的网格布局排列。\n情绪与姿势：\n开心微笑比剪刀手 ✌️\n生气双手抱臂并带有“Angry!”文字\n震惊表情双手捂脸颊并带有“OMG!!”\n戴着耳机喝咖啡在笔记本电脑上工作，文字“Work”\n悲伤脸托着腮，带有“So Sad…”文字\n专注表情读书\n烦躁疲惫的脸拿着咖啡杯，文字“Ugh…”\n在笔记本上写作业，文字“Homework”\n兴奋地挥手\n放松的可爱微笑姿势带闪光\n趴在书桌上睡觉，旁边有书\n困惑表情带有“?!?”文字\n风格要求：\n3D皮克斯风格渲染\n超精细细节\n柔和影棚灯光\n柔和粉彩配色\n光泽贴纸质感\n每个贴纸周围有白色轮廓边框\n高分辨率\n干净极简背景\n卡哇伊美学",
+              "negative_prompt": "",
+              "description": "Grok",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1772383457226-xfxieya8-1.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_character",
+                    "name": "三维角色"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-179",
+              "name": "创建多种3D风格头像",
+              "type": "prompt",
+              "prompt": "{subject}, 使用柔和的漫射照明和脚下柔和的阴影进行渲染。使用 100% 透明背景（PNG 格式）或非常浅的中性灰色（如果预览）。全身构图，正面或浅色 3/4 视图。保持干净、高分辨率、精美的渲染 — 非常适合角色设计展示或品牌推广。带有大地色调的柔和调色板。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/179.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_character",
+                    "name": "三维角色"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_pixar-style-red-jacket-girl-3d-stickers",
+              "name": "皮克斯风红衣少女3D表情包贴纸",
+              "type": "prompt",
+              "prompt": "{subject}, 一个高质量的 3D 卡通贴纸包，主角是一个可爱的年轻女孩，留着凌乱的棕色波波头短发，有一双富有表现力的棕色大眼睛，身穿酒红色皮夹克，内搭白色衬衫。多种不同的情绪反应以网格布局排列。表情包括：震惊（手捂嘴，“OMG！”文字气泡），生气（红色愤怒符号，头顶冒蒸汽），惊讶（拿着手机，张嘴），大声哭泣流泪，尖叫“AAA！”，竖起大拇指说“Cool！”，愤怒配火焰背景，眨眼配爱心，悲伤（头顶有雨云），害羞说“Sorry”，困惑（螺旋眼和问号），以及大声哭喊“WAAH！”。柔和温暖的米色背景，白色贴纸风格轮廓，光泽表面，柔和阴影，皮克斯风格 3D 渲染，高细节，鲜艳色彩，可爱的表情符号风格气泡，干净的摄影棚灯光，居中构图，高分辨率。",
+              "negative_prompt": "",
+              "description": "Grok",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1772369775768-61s7hq42-1.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_character",
+                    "name": "三维角色"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-407",
+              "name": "将明星变成趣味十足的3D卡通肖像",
+              "type": "prompt",
+              "prompt": "{subject}, 以皮克斯/梦工厂风格绘制的[角色名称]全身3D卡通形象，拥有富有表现力的大眼睛、略微夸张的头部和略微夸张的面部特征。逼真的肌肤呈现出柔和的次表面散射效果，头发细节丰富，笑容温暖而亲切。光滑的表面处理，服装上的织物纹理细腻。动态的姿态展现出鲜明的个性，全身清晰可见，比例均衡。柔和的环境光，温暖的红橙色渐变背景。电影级的品质，高度的细节刻画，鲜艳而自然的色彩，风格化的魅力与恰到好处的写实感完美融合。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/407.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_character",
+                    "name": "三维角色"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-313",
+              "name": "创建您自己的3D漫画",
+              "type": "prompt",
+              "prompt": "{subject}, 这是我高度风格化的3D漫画形象，面部特征生动，夸张的笔触俏皮。渲染风格流畅优美，材质干净，环境光柔和。背景采用大胆的色彩，突出人物的魅力和气质。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/313.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_character",
+                    "name": "三维角色"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-412",
+              "name": "3D漫画肖像",
+              "type": "prompt",
+              "prompt": "{subject}, [SUBJECT]的3D漫画肖像，皮克斯/梦工厂风格——富有表现力的眼睛，略微过大的头部，夸张的耳朵和鼻子，逼真的皮肤阴影和柔和的次表面散射，细致的头发，温柔温暖的微笑，光滑的抛光材质，微妙的织物纹理，柔和的环境光，温暖的红橙色渐变背景——平衡的现实主义和风格化的魅力。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/412.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_character",
+                    "name": "三维角色"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-302",
+              "name": "超写实3D漫画肖像",
+              "type": "prompt",
+              "prompt": "{subject}, [姓名] 的超写实3D漫画肖像，特点为表情丰富的超大头部、较短的身躯，以及细节丰富且充满活力的面部表情。人物身着 [服装 / 标志性造型]，摆出 [姿势 / 动作]。采用工作室灯光效果，呈现卡通化比例，运用皮克斯风格 3D 渲染技术，织物与皮肤纹理细节极致丰富。身躯比例略小于头部，画面为 1080x1080 的正方形格式。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/302.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_character",
+                    "name": "三维角色"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_pixar-style-chibi-sticker-series",
+              "name": "皮克斯质感Q萌贴纸系列",
+              "type": "prompt",
+              "prompt": "{subject}, 一套可爱的3D Q版卡通女孩贴纸，同一个角色展现多种情绪和姿势。大而富有表现力的闪亮眼睛，柔和圆润的脸蛋，头部略大，身体比例娇小。浅棕色/金色凌乱丸子头发型，带有松散的发丝。身穿红色皮夹克内搭白色上衣。每个姿势展现不同的表情：惊讶、悲伤、困惑、开心、思考、眨眼、剪刀手、耸肩。受皮克斯/迪士尼启发的3D渲染，光滑塑料质感，柔和光线， pastel米色背景。每个角色都有贴纸风格的白色描边，简洁极简美学，高细节，超级可爱，表情符号般的表情，高分辨率，工作室品质。",
+              "negative_prompt": "",
+              "description": "Grok",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202601/1769503824363-cgeunhfm-1.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_character",
+                    "name": "三维角色"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_pixar-style-girl-breaking-screen",
+              "name": "冲破手机屏幕的皮克斯风时尚少女",
+              "type": "prompt",
+              "prompt": "{subject}, 一幅充满动感的电影级 3D 插画，画中是一个可爱的卡通女孩，留着凌乱的丸子头发型，戴着超大的圆形黑框眼镜，身穿米色针织毛衣、黑色工装裤，裤脚卷起，脚踩白色运动鞋，背着一个小巧的棕色斜挎包。她以充满活力的动作姿势向前冲出，一只拳头伸向镜头，正从一个显示着社交媒体 X 个人资料页面的巨大智能手机屏幕中跳出来。手机屏幕从中间戏剧性地被撕裂开来，伴随着碎玻璃、飞舞的纸片和发光的碎片向外爆炸。视角动感且为特写，具有景深和运动模糊效果。在场景周围添加漫画风格的反应气泡，如“WHAT?!”和“NO WAY!”。电影级光效，戏剧性的阴影，高对比度，超精细的纹理，皮克斯风格的 3D 渲染，超写实光照，动作电影海报氛围，8K 分辨率，清晰聚焦，充满活力和力量感的构图。",
+              "negative_prompt": "",
+              "description": "Grok",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1772371080186-xibr40mg-1.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_character",
+                    "name": "三维角色"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pixar",
+              "name": "Pixar",
+              "type": "prompt",
+              "prompt": "Pixar {prompt} . 3D animation, heartwarming stories, photorealistic environments, appealing character designs, emotional depth, detailed, professional",
+              "negative_prompt": "2D, anime, manga, black and white, sketchy",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_character",
+                    "name": "三维角色"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-110",
+              "name": "皮克斯风格角色表",
+              "type": "prompt",
+              "prompt": "{subject}, A character sheet of [detailed description of thecharacter], in the style of Pixar, featuring multiple poses and expressions from different angles, including concept art, pencil sketches, a full-body reference sheet, and a white background. The sheet includes wide shots, low-angle views, 3D renders, and Octane renderings, highly detailed result.",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/110.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_character",
+                    "name": "三维角色"
+                  }
+                ]
               }
             }
           ]
@@ -197,7 +412,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：手办 / 手办",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_toy",
+                    "name": "潮玩手办"
+                  }
+                ]
               }
             },
             {
@@ -215,7 +436,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：手办 / 手办",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_toy",
+                    "name": "潮玩手办"
+                  }
+                ]
               }
             },
             {
@@ -233,7 +460,109 @@
                 "status": "suggested",
                 "reason": "标题规则证据：手办 / 手办",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_toy",
+                    "name": "潮玩手办"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-264",
+              "name": "纸制玩具版本",
+              "type": "prompt",
+              "prompt": "{subject}, 超细节渲染的[角色名称]纸制玩具版本，呈盒子形状（纸制玩具），由哑光折叠纸板制成，带有可见的纸张纹理，边缘干净，折叠整齐。头部和身体为立方体，四肢为方形，面部特征简化，采用平面印刷色彩和微妙阴影以增强深度。服装和配饰以极简几何纸艺风格忠实地模仿参考图的外观，保持紧凑比例和Q版风格。中性工作室灯光，柔和阴影，平滑背景，逼真的产品摄影效果，4K分辨率，无文字或标志。尺寸为1080x1080。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/264.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_toy",
+                    "name": "潮玩手办"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-125",
+              "name": "时尚品牌娃娃",
+              "type": "prompt",
+              "prompt": "{subject}, 一张超写实的照片，一个时尚娃娃以 [BRAND] 的美学风格，坐在一张带有柔软褶皱的奶油色毛绒床上。这款玩偶的外观反映了该品牌的标志性元素——从头发和服装到配饰——经过精心安排，让人联想到梦幻般的复古风格社论。工作室照明采用温暖的漫射灯光和奶油色的象牙色调调色板，该场景以柔和的玩具屋般的氛围和浅景深模拟奢华时尚摄影。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/125.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_toy",
+                    "name": "潮玩手办"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-99",
+              "name": "玩具盒中的历史",
+              "type": "prompt",
+              "prompt": "{subject}, An ultra-realistic top-down photograph of a 3D-printed diorama inside a beige cardboard box, with the lid being held open by two human hands. The interior of the box reveals a miniature landscape of [COUNTRY NAME], featuring iconic landmarks, terrain, buildings, rivers, vegetation, and crowds of tiny, detailed human figures. The diorama is filled with vibrant, geographically appropriate elements, all crafted in a tactile, toy-like style using matte 3D-printed textures with visible layer lines. At the top, the inside of the box lid displays the phrase “[COUNTRY NAME]” in large, colorful, raised plastic letters—each letter in a different bright color. The lighting is warm and cinematic, highlighting the textures and shadows to evoke a sense of realism and charm, as if the viewer is opening a magical miniature version of the natio",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/99.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_toy",
+                    "name": "潮玩手办"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-150",
+              "name": "乙烯基玩具",
+              "type": "prompt",
+              "prompt": "{subject}, [主题]的漫画风格漫画插图，具有超大的头部和富有表现力的眼睛，以超逼真的乙烯基玩具美学呈现。该角色具有夸张的比例、光滑的纹理和俏皮的细节，将漫画艺术与收藏人物魅力融为一体。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/150.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_toy",
+                    "name": "潮玩手办"
+                  }
+                ]
               }
             },
             {
@@ -245,74 +574,235 @@
               "description": null,
               "thumbnail": "https://img.opennana.com/prompts/images/315.jpeg",
               "classification": {
-                "method": "rules",
-                "stage": "content",
+                "method": "llm",
+                "stage": "title",
                 "resolution": "resolved",
                 "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：公仔",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "digital_3d": [
-                    "3D",
-                    "材质"
-                  ]
-                }
-              }
-            }
-          ]
-        },
-        {
-          "id": "digital_3d_architecture",
-          "name": "建筑室内",
-          "presets": [
-            {
-              "id": "opennana_suspended-peel-world-wonder",
-              "name": "剥壳世界悬浮奇观",
-              "type": "prompt",
-              "prompt": "{subject}, 一个孤零零的[物体]悬浮在太空，外皮在剥落的瞬间被冻结，卷曲成丝带般剥离。表面之下存在着一个完全成型的[内部世界/系统]，全部由该物体的原生材质构建。被剥落的层次本身包含[嵌入细节/横截面/隐藏叙事]，在其卷曲中清晰可见。内部揭示[有机结构/机械系统/建筑空间]，越靠近核心越密集。超精细3D渲染，拥有植物学插图的精准度。材质连续性贯穿始终，[纤维纹理、膜状半透明、细胞图案]在宏观尺度下可见。调色板限制为[从表面到核心的天然材质渐变]。孤立物体，柔和定向照明，博物馆级展示。外皮讲述一个故事，内部讲述另一个故事。超高分辨率，科学浪漫主义，收藏级印刷品质。",
-              "negative_prompt": "",
-              "description": "",
-              "thumbnail": "https://img.opennana.com/prompts/assets/202601/1768054995734-u6cbcylq-1.jpeg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：建筑",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "digital_3d": [
-                    "3D",
-                    "材质"
-                  ]
-                }
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_toy",
+                    "name": "潮玩手办"
+                  }
+                ]
               }
             },
             {
-              "id": "opennana_minimalist-premium-architectural-landmark-presentation",
-              "name": "极简金白建筑地标展示",
+              "id": "opennana_prompt-122",
+              "name": "史莱姆制成的玩具运输车",
               "type": "prompt",
-              "prompt": "{subject}, 在[国家/城市]为[地标名称]创建一个高级极简主义建筑展示。\n\n地标应作为唯一的焦点出现，以优雅的金属金雕刻而成，而周围的城市则完全渲染成哑光白，如同干净的建筑比例模型。\n\n将地标精确地放置在中心，发出柔和温暖的金色光芒，自然地吸引注意力。周围的街道、建筑物、广场和城市布局应显得简化、单色且高度极简，以此强调纪念碑的重要性。\n\n采用精致的博物馆展览美学，结合奢侈品牌设计、丰富的负空间、柔和的全局照明、细微的环境光遮蔽、细腻的阴影和极度干净的几何图形。\n\n在顶部中心位置添加一个精致的衬线体标题：\n\n[国家] | [地标名称]\n\n采用优雅的金色字体。\n\n整体构图应具有苹果风格的产品发布感、奢华建筑可视化、高级旅游品牌推广和高端编辑设计的质感。\n\n风格：极简建筑、单色白色城市模型、金色核心焦点、博物馆展示、奢华呈现、干净的几何形状、电影级照明、柔和渐变、写实 3D 渲染、超高清细节、Octane 渲染、全局照明、优雅排版、高级品牌、宁静美学、高端建筑可视化、8K。",
+              "prompt": "{subject}, {\n“style”： “逼真的 3D 渲染”，\n“material”： “有光泽的粘液状材质”，\n“texture”： [“光滑”， “柔软”， “弹性”， “闪亮”]，\n“color”： “变量”，\n“object_type”： “变量”，\n“background”： “纯白色”，\n“lighting”： “柔和的工作室照明”，\n“详细信息”： {\n“focus”： “以单个对象为中心”，\n“shadows”： “柔和而微妙”，\n“reflection”： “表面上的光高光”，\n“depth”： “浅景深”\n},\n“format”： “特写或四分之三视图”，\n“mood”： “俏皮的、干净的、玩具般的”，\n“prompt_template”： “由有光泽的粘液材料制成的 {color} {object_type}，质地柔软有弹性，逼真的 3D 外观，以纯白色背景为背景，光线柔和，高光平滑”\n}",
               "negative_prompt": "",
-              "description": "即梦",
-              "thumbnail": "https://img.opennana.com/prompts/assets/202608/1786027385386-0h3flnc8-1786027389079-1.jpg",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/122.png",
               "classification": {
-                "method": "rules",
-                "stage": "content",
+                "method": "llm",
+                "stage": "title",
                 "resolution": "resolved",
                 "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：建筑",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "digital_3d": [
-                    "3D",
-                    "模型",
-                    "全局照明"
-                  ]
-                }
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_toy",
+                    "name": "潮玩手办"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-318",
+              "name": "益智玩具角色",
+              "type": "prompt",
+              "prompt": "{subject}, 主题：将Chibi风格的 [角色名称] 重新想象成一个益智玩具角色，具有超大头部和小巧粗短身体的超可爱比例。\n\n材料：\n身体和头部完全由相互锁在一起的拼图碎片组成\n哑光塑料表面，具有柔和的镜面高光\n可见的拼图切口和缺口定义了结构\n每块布料都由细缝稍微隔开，但紧密贴合\n\n细节：\n大而有光泽的Chibi眼睛放置在拼图碎片上，无缝集成\n拼图表面上勾勒出可爱简单的嘴巴\n[角色名称] 的服装颜色逐片应用于拼图主体，角色一只手拿着一块松散的拼图，俏皮地举起，好像在向观众展示它，一些额外的拼图碎片轻轻地漂浮在周围以增加乐趣\n\n风格：\n明亮、有教育意义、好玩的玩具美感，磨损极小，无污垢，无划痕\n\n灯光：\n柔和的工作室 HDRI 照明，柔和的阴影，拼图接缝下微妙的接触阴影，高对比度清晰显示作品轮廓\n\n相机：\n居中、正面或 3/4 等距角度、1:1 宽高比、8K 渲染、清晰聚焦于人物面部、徽章和手中的拼图\n\n背景：\n干净无缝柔和渐变背景（颜色）\n地板上散落的拼图碎片可供选择，以提供额外的背景信息\n\n输出风格：可爱的Q版比例，基于拼图",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/318.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_toy",
+                    "name": "潮玩手办"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-195",
+              "name": "经典的微型玩具风格",
+              "type": "prompt",
+              "prompt": "{subject}, [LOCATION] 的微型版本，以异想天开的玩具屋风格设计。该结构周围环绕着主题自然元素和反映其文化背景的微小建筑细节（例如，植物、小径、装饰）。调色板使用柔和的粉彩（如珊瑚色、腮红色、沙色、薄荷色或灰绿色），具有温暖的电影照明和宁静、梦幻的氛围。高度详细、舒适且风格化。等距视图，垂直 9：16 格式，位于干净的工作室背景上。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/195.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_toy",
+                    "name": "潮玩手办"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-198",
+              "name": "可爱的设计师玩偶",
+              "type": "prompt",
+              "prompt": "{subject}, 一个可爱的设计师玩偶，造型为 [SUBJECT]。娃娃有一张瓷脸，脸上泛着腮红，柔软的卷曲白发，还有一双富有表现力的大眼睛和独特的瞳孔（像星星和月亮）。它穿着一件蓬松的柔和色服装，类似于 [选择的生物或想法]，带有详细的配饰，如带耳朵或角的兜帽、蕾丝和丝带。爪子上的刺绣反映了角色的主题。娃娃坐在中性背景上（如米色皮革或柔软的织物）。气氛梦幻而异想天开，灯光柔和。风格：韩国收藏艺术娃娃，高度详细，柔和的调色板。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/198.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_toy",
+                    "name": "潮玩手办"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-253",
+              "name": "亚克力钥匙扣",
+              "type": "prompt",
+              "prompt": "{subject}, 创建一张逼真的方形图片（1080x1080 像素），展示一个定制的 [LOGO] 标志亚克力钥匙扣，它挂在一个深色背包（如黑色或灰色）的拉链上。该标志必须保持其原始形状、颜色和比例，不得有任何改动。钥匙扣应有一层透明的光泽亚克力，配有银色金属环和扣具。使用柔和的日光或漫射光，避免黄色调。背景设置为现代户外环境，但需模糊处理，以将焦点保持在标志钥匙扣上。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/253.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_toy",
+                    "name": "潮玩手办"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-293",
+              "name": "软质高品质毛绒玩具",
+              "type": "prompt",
+              "prompt": "{subject}, [角色名称]软质高品质毛绒玩具\n- 采用大头设计，搭配小巧的身体与粗短的四肢\n- 由毛茸茸的面料制成，可见缝线细节，面部特征则通过刺绣工艺呈现\n- 玩具以坐姿或站姿呈现，背景为中性风格\n- 表情可爱生动，若有相关设定，还会搭配简约服饰或标志性配饰\n- 光线柔和均匀，呈现出具有收藏质感的写实毛绒玩具外观\n- 画面为居中构图，展示玩具全身，尺寸比例为1080x1080",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/293.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_toy",
+                    "name": "潮玩手办"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-270",
+              "name": "乐高超级英雄摆出充满动感的动作姿势",
+              "type": "prompt",
+              "prompt": "{subject}, 史诗级乐高【超级英雄】摆出充满动感的动作姿势，展现其标志性超能力，身着标志性服装，色彩和细节真实还原。戏剧性的暴风雨天空中，耀眼的闪电照亮整个场景。超级英雄摆出英勇姿态，周围是旋转的乐高碎片和飞舞的积木块，场景中散落着小型乐高小人仔，它们正惊叹地注视着这一切。整体采用电影海报式构图，配以逼真渲染效果，营造出史诗般的超级英雄氛围，色彩浓郁饱和，运用专业的景深和富有戏剧性的光影效果，尺寸为1080x1080的正方形格式。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/270.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_toy",
+                    "name": "潮玩手办"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-131",
+              "name": "自定义毛绒钥匙扣",
+              "type": "prompt",
+              "prompt": "{subject}, [附图/表情符号] 的小毛绒钥匙扣的特写照片，用两根手指轻轻握住，由柔软的毛毡或毛茸茸的材料制成，卡通风格的比例，具有简单表现特征的刺绣脸，设计相似的人物，附在闪亮的银色钥匙圈上，中性米色背景，浅景深，柔和的自然光，高度详细的纹理，可爱和手工制作的美感， 摄影棚摄影，1：1 纵横比",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/131.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_toy",
+                    "name": "潮玩手办"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-184",
+              "name": "乐高风格套装",
+              "type": "prompt",
+              "prompt": "{subject}, 以 [COUNTRY] 的国宝 [ITEM] 为特色的逼真乐高风格套装。带有乐高品牌的逼真包装，展示拼搭模型的盒子艺术，模型由乐高积木组装而成，具有逼真的颜色和细节。具有柔和阴影和清晰照明的工作室产品摄影，高度详细的专业商业渲染。在场景中加入盒子和积木，注重真实感和类似乐高的风格。9:16.",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/184.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_toy",
+                    "name": "潮玩手办"
+                  }
+                ]
               }
             }
           ]
@@ -336,7 +826,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：3d / 场景",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_environment",
+                    "name": "场景环境"
+                  }
+                ]
               }
             }
           ]
@@ -345,74 +841,6 @@
           "id": "digital_3d_diorama",
           "name": "微缩等距",
           "presets": [
-            {
-              "id": "opennana_prompt-220",
-              "name": "3D店铺渲染图",
-              "type": "prompt",
-              "prompt": "{subject}, 逼真的 3D 渲染图，展示了一个可爱、迷你版的[品牌名称]店铺建筑。采用品牌的标志性风格和色彩搭配设计。外部设计简洁现代，配有大型玻璃窗，正面有一个发光的 3D[品牌名称]标志。店内包含细微的品牌道具。背景与品牌身份相匹配——干净、相关且富有氛围。略微的等距角度，温暖的照明，柔和的阴影，居中构图。",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/220.jpeg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "标题大类＋正文子类证据：等距",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "opennana_prompt-224",
-              "name": "舒适的周末从这里开始",
-              "type": "prompt",
-              "prompt": "{subject}, 根据以下 JSON 重新纹理附加的图像：\n{\n\"style_name\": \"柔和极简 3D 塑料风格\",\n  \"retexture_mode\": \"形状锁定\",\n  \"object_analysis\": {\n    \"preserve_silhouette\": true,\n\"geometry_sensitive_mapping\": true,\n    \"detail_retention\": \"将复杂的细节简化为简化的几何块\"\n  },\n  \"material_properties\": {\n\"base_material\": [\n\"光滑磨砂塑料\"，\n\"金属边缘饰条，缎面处理\"，\n\"半反射黑色屏幕表面\"\n],\n\"表面细节\": [\n\"微妙的颜色渐变\"，\n\"圆润的斜角和边角\"，\n\"表面之间的柔和过渡\"\n    ]\n  },\n\"lighting\": {\n\"类型\": \"柔和渐变环境光\",\n    \"阴影\": \"极少，边缘柔和的阴影\",\n    \"高光\": \"弥散，低强度的反射\"\n  },\n\"背景\": {\n    \"颜色\": \"柔和渐变（蓝色到奶油色）\",\n    \"纹理\": \"光滑无纹理\",\n    \"元素\": \"干净背景，无添加几何图形\"\n  },\n\"渲染\": {\n\"风格\": \"等距 3D 渲染\",\n\"分辨率\": \"高，略带轻微泛光\"\n\"focus\": \"中心对象，无深度模糊\"\n  },\n  \"color_palette\": {\n    \"primary\": [\"冷灰色\", \"钢蓝色\", \"柔和的炭黑色\"],\n\"accents\": [\"浅薰衣草色\", \"淡黄色\"]\n  }\n}",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/224.png",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：等距",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "digital_3d": [
-                    "3D",
-                    "反射",
-                    "几何"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "opennana_prompt-254",
-              "name": "磨砂泡泡 3D 图标",
-              "type": "prompt",
-              "prompt": "{subject}, {\n\"风格名称\": \"磨砂泡泡3D图标\",\n\"渲染模式\": \"3d_semi_transparent_detailed（3D半透明精细）\",\n\"图标主题\": \"{{图标_PlayStation手柄}}\",\n\"对象分析\": {\n\"保留轮廓\": true,\n\"几何敏感映射\": true,\n\"细节保留\": \"平滑的圆角边缘，细微的内部反射\"\n},\n\"材质属性\": {\n\"基础材质\": [\n\"磨砂半透明塑料\",\n\"半透明哑光亚克力\"\n],\n\"内部元素\": \"漂浮的彩色球体，可透过外壳看到\",\n\"表面处理\": \"磨砂、漫射哑光质感，带有轻微透光性\",\n\"纹理表现\": \"无外部色彩 tint，透明度可展现内部物体\",\n\"品牌元素\": \"无\"\n},\n\"色彩搭配\": {\n\"主色\": [\"#FFFFFF\", \"#F5F5F5\"],\n\"强调色\": [\"#FF69B4\", \"#FFA500\", \"#6A5ACD\", \"#00CED1\", \"#FFD700\"],\n\"对比度\": \"极高\"\n},\n\"光照\": {\n\"类型\": \"柔和环境光+轮廓光\",\n\"强度\": \"高\",\n\"阴影\": \"物体下方柔和光晕\",\n\"高光\": \"微弱的边缘发光和顶部柔和反射\"\n},\n\"渲染\": {\n\"风格\": \"带有内部彩色元素的现代3D图标\",\n\"背景\": \"纯黑色\",\n\"相机角度\": \"等距3/4视图\",\n\"景深\": \"无，所有细节均清晰对焦\"\n},\n\"风格说明\": [\n\"黑色背景提升泡泡色彩的可见度\",\n\"磨砂透明度在黑色背景下应呈现微妙的发光效果\",\n\"非常适合高对比度、收藏品风格的图标\"\n]\n}",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/254.png",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "标题大类＋正文子类证据：等距",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "digital_3d": [
-                    "3D",
-                    "反射",
-                    "几何"
-                  ]
-                }
-              }
-            },
             {
               "id": "opennana_prompt-404",
               "name": "小巧可爱的等距视角",
@@ -428,91 +856,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：等距视角 / 等距",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "opennana_prompt-43",
-              "name": "Airbnb风格的图标",
-              "type": "prompt",
-              "prompt": "{subject}, generate[concept] icon with this json style:\n{\n    \"icon_style\": {\n        \"perspective\": \"isometric\",\n        \"geometry\": {\n            \"proportions\": \"1:1 ratio canvas, with objects fitting comfortably within margins\",\n            \"element_arrangement\": \"central dominant object, with supporting elements symmetrically or diagonally placed\"\n        },\n        \"composition\": {\n            \"element_count\": \"2–4 main objects\",\n            \"spatial_depth\": \"layered to create sense of dimension and slight elevation\",\n            \"scale_consistency\": \"uniform object scale across icon set\",\n            \"scene_density\": \"minimal to moderate, maintaining clarity and visual focus\"\n        },\n        \"lighting\": {\n            \"type\": \"soft ambient light\",\n            \"light_source\": \"subtle top-right or front-top direction\",\n            \"shadow\": \"gentle drop shadows below and behind objects\",\n            \"highlighting\": \"mild edge illumination to define forms\"\n        },\n        \"textures\": {\n            \"material_finish\": \"semi-matte to satin surfaces\",\n            \"surface_treatment\": \"smooth with light tactile variation (e.g., wood grain, soft textures)\",\n            \"texture_realism\": \"stylized naturalism without hyper-realistic noise\"\n        },\n        \"render_quality\": {\n            \"resolution\": \"high-resolution octane 3D rendering\",\n            \"edge_definition\": \"crisp, no outlines; separation achieved via lighting and depth\",\n            \"visual_clarity\": \"clean, readable shapes with minimal clutter\"\n        },\n        \"color_palette\": {\n            \"tone\": \"naturalistic with slight saturation boost\",\n            \"range\": \"harmonious muted tones with gentle contrast\",\n            \"usage\": \"distinct colors per object to improve identification and readability\"\n        },\n        \"background\": {\n            \"color\": \"#FFFFFF\",\n            \"style\": \"pure white, flat\",\n            \"texture\": \"none\"\n        },\n        \"stylistic_tone\": \"premium, friendly, clean with lifestyle or service-oriented appeal\",\n        \"icon_behavior\": {\n            \"branding_alignment\": \"neutral enough for broad applications\",\n            \"scalability\": \"legible at small and medium sizes\",\n            \"interchangeability\": \"part of a cohesive icon system with interchangeable subject matter\"\n        }\n    }\n}",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/43.jpeg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：isometric",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "digital_3d": [
-                    "octane",
-                    "geometry"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "opennana_prompt-68",
-              "name": "透明容器里有一个微型的3D世界",
-              "type": "prompt",
-              "prompt": "{subject}, A giant [transparent or glossy] [object/container] with a miniature 3D diorama inside it, depicting [a symbolic or narrative scene], studio-lit with soft shadows, placed on a neutral matte surface. Emphasize visual contrast between the scale of the capsule and the detail within. Highlight texture, light refraction, and emotional tone (e.g., surreal, poetic, or sci-fi).",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/68.png",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "标题大类＋正文子类证据：diorama",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "opennana_prompt-74",
-              "name": "3D可爱粉彩粘土图标",
-              "type": "prompt",
-              "prompt": "{subject}, Tiny cute isometric [smiling - optional] [OBJECT] emoji, shape, soft lighting, soft pastel colors, [COLOR], 3d icon clay render, blender 3d, pastel background",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/74.png",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "标题大类＋正文子类证据：isometric",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "opennana_prompt-84",
-              "name": "渐变挤出Google I/O 2025大会视觉效果",
-              "type": "prompt",
-              "prompt": "{subject}, Retexture this image in the following JSON style aesthetic:\n{\n  \"styleAesthetic\": {\n    \"title\": \"Isometric Multicolor Extrusion with Grid Control\",\n    \"overallVibe\": \"Playful modern 3D iconography with directional extrusion and dynamic isometric grids\",\n    \"viewAngle\": {\n      \"type\": \"Isometric\",\n      \"facingDirection\": \"right\",  // options: left, right, front\n      \"rotationDegrees\": {\n        \"x\": 30,\n        \"y\": 30\n      }\n    },\n    \"renderingStyle\": \"Clean 3D extruded vector with soft lighting and high contrast between faces\",\n    \"objectSurface\": {\n      \"frontFace\": {\n        \"color\": \"#ffffff\",\n        \"material\": \"Matte white plastic\",\n        \"lighting\": \"Soft diffuse\"\n      },\n      \"extrudedSide\": {\n        \"type\": \"Multicolor gradient\",\n        \"gradientStyle\": \"Diagonal sweep\",\n        \"colorStops\": [\n          \"#ff0040\", \"#ff8000\", \"#ffff00\", \"#00ff90\", \"#00cfff\", \"#8000ff\"\n        ],\n        \"material\": \"Glossy plastic\",\n        \"lighting\": \"Ambient with light falloff\"\n      }\n    },\n    \"extrusion\": {\n      \"direction\": \"right\",  // determines which side is extruded: left, right, front\n      \"depth\": \"moderate\"\n    },\n    \"shadows\": {\n      \"type\": \"Drop shadow\",\n      \"direction\": \"bottom-right\",\n      \"opacity\": 0.15,\n      \"blurRadius\": \"6px\"\n    },\n    \"background\": {\n      \"type\": \"Isometric grid\",\n      \"color\": \"#ffffff\",\n      \"gridStyle\": {\n        \"lineColor\": \"#e0e0e0\",\n        \"lineWeight\": \"1px\",\n        \"orientation\": \"opposite-extrusion\"  // automatically flips grid lines to oppose the extrusion direction\n      }\n    },\n    \"moodKeywords\": [\n      \"Dimensional\",\n      \"Clean\",\n      \"Geometric\",\n      \"Colorful\",\n      \"Tactile\",\n      \"Structured\"\n    ]\n  }\n}",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/84.jpeg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：Isometric",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "digital_3d": [
-                    "3D",
-                    "material"
-                  ]
-                }
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_diorama",
+                    "name": "微缩等距"
+                  }
+                ]
               }
             },
             {
@@ -529,7 +879,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：isometric / isometric",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_diorama",
+                    "name": "微缩等距"
+                  }
+                ]
               }
             },
             {
@@ -546,7 +902,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：Isometric / Isometric",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_diorama",
+                    "name": "微缩等距"
+                  }
+                ]
               }
             },
             {
@@ -563,691 +925,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：isometric / isometric",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            }
-          ]
-        },
-        {
-          "id": "digital_3d_material",
-          "name": "材质纹理",
-          "presets": [
-            {
-              "id": "opennana_prompt-159",
-              "name": "渲染宝石",
-              "type": "prompt",
-              "prompt": "{subject}, 使用提供的 JSON 的 pamareters 重新创建此图像。\n{\n“name”： “宝石渲染”，\n“对象”： {\n“type”： “auto”， //类型\n“detected_color”： “auto”，\n“form”： “保留真实、自然的形式”，\n“material”： “水晶或刻面宝石玻璃”，\n“surface”： “精确切割的刻面，清晰的反射”，\n“transparency”： “高清晰度，光线折射”，\n“internal_features”： “颜色深度、内部微光和光色散”\n  },\n“color_and_light”： {\n“primary_color”： “{detected_color}”，\n“highlight_effects”： “镜面高光、宝石亮度、焦散”，\n“lighting_setup”： “白色或柔和背景的工作室照明”，\n“metallic_accents”： {\n“enabled”： true 和\n“material”： “金或铬”，\n“application”： “边缘、茎或边缘细节”\n    }\n  },\n“样式”： {\n“artistic_style”：[\n“逼真的 3D 渲染”，\n“Gemstone Render Style”（宝石渲染样式）、\n“奢侈品对象可视化”\n],\n“design_language”：[\n“faceted precision modeling”，\n“珠宝般的渲染”，\n“光学深度和亮度”\n    ]\n  },\n“technical_details”： {\n“render_engine”：[\n“带循环的 Blender”，\n“Cinema 4D + Redshift/Octane”\n],\n“rendering_techniques”：[\n“基于物理的渲染 （PBR）”，\n“光线追踪”，\n“全局照明”\n],\n“resolution”： “超高分辨率 （4K–8K）”，\n“post_processing”：[\n“微妙的光芒”，\n“增强反射”，\n“保色对比度提升”\n    ]\n  }",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/159.jpeg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "标题大类＋正文子类证据：PBR",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "digital_3d": [
-                    "3D",
-                    "material",
-                    "modeling",
-                    "光线追踪"
-                  ]
-                }
-              }
-            }
-          ]
-        },
-        {
-          "id": "digital_3d_pending",
-          "name": "待细分",
-          "presets": [
-            {
-              "id": "opennana_prompt-116",
-              "name": "任天堂风格的3D卡通插画",
-              "type": "prompt",
-              "prompt": "{subject}, Transform this image into a Nintendo-inspired 3D cartoon style illustration.\n\nUse soft, rounded 3D shapes and clean, toy-like geometry to give the characters and objects a charming, handcrafted look.\n\nCharacters should have exaggerated, childlike proportions (large heads, small limbs), with expressive, simplified faces and bright, colorful clothing — similar to designs seen in Zelda: Link’s Awakening, Animal Crossing, or Miitopia.\n\nApply smooth, matte textures with no realistic detail — everything should look cheerful and slightly plastic, as if sculpted from soft clay or digital vinyl.\n\nThe environment should be bright and whimsical, with stylized grass, puffy clouds, geometric trees, and soft lighting like a sunny afternoon.\n\nThe overall tone should be lighthearted, clean, and family-friendly, like a frame from a Nintendo fantasy adventure game.",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/116.png",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "digital_3d": [
-                    "3D",
-                    "geometry"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "opennana_prompt-313",
-              "name": "创建您自己的3D漫画",
-              "type": "prompt",
-              "prompt": "{subject}, 这是我高度风格化的3D漫画形象，面部特征生动，夸张的笔触俏皮。渲染风格流畅优美，材质干净，环境光柔和。背景采用大胆的色彩，突出人物的魅力和气质。",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/313.jpeg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "digital_3d": [
-                    "3D",
-                    "材质"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "opennana_prompt-412",
-              "name": "3D漫画肖像",
-              "type": "prompt",
-              "prompt": "{subject}, [SUBJECT]的3D漫画肖像，皮克斯/梦工厂风格——富有表现力的眼睛，略微过大的头部，夸张的耳朵和鼻子，逼真的皮肤阴影和柔和的次表面散射，细致的头发，温柔温暖的微笑，光滑的抛光材质，微妙的织物纹理，柔和的环境光，温暖的红橙色渐变背景——平衡的现实主义和风格化的魅力。",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/412.jpeg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "digital_3d": [
-                    "3D",
-                    "材质"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "opennana_prompt-98",
-              "name": "3D卡通雕塑风格",
-              "type": "prompt",
-              "prompt": "{subject}, a soft 3D cartoon-style sculpture of [brand product], made of smooth clay-like textures and vibrant pastel colors, placed in a minimalist isometric scene that complements the product’s nature, clean composition, gentle lighting, subtle shadows, with the product’s logo and a 3-word slogan displayed clearly belo",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/98.jpeg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文与标题大类存在冲突：commercial",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "commercial": [
-                    "logo",
-                    "slogan",
-                    "brand"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "opennana_prompt-120",
-              "name": "奇趣风格3D乙烯基玩具",
-              "type": "prompt",
-              "prompt": "{subject}, [主体]的奇趣风格 3D 乙烯基玩具，以[颜色 1]和[颜色 2]色调呈现，正面朝向白色背景。极简主义构图，带有柔和的阴影，头部巨大而身体比例缩小，Cinema 4D 中的干净 OC 渲染输出。玩具般的光泽和充满趣味的魅力。",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/120.png",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "opennana_prompt-122",
-              "name": "史莱姆制成的玩具运输车",
-              "type": "prompt",
-              "prompt": "{subject}, {\n“style”： “逼真的 3D 渲染”，\n“material”： “有光泽的粘液状材质”，\n“texture”： [“光滑”， “柔软”， “弹性”， “闪亮”]，\n“color”： “变量”，\n“object_type”： “变量”，\n“background”： “纯白色”，\n“lighting”： “柔和的工作室照明”，\n“详细信息”： {\n“focus”： “以单个对象为中心”，\n“shadows”： “柔和而微妙”，\n“reflection”： “表面上的光高光”，\n“depth”： “浅景深”\n},\n“format”： “特写或四分之三视图”，\n“mood”： “俏皮的、干净的、玩具般的”，\n“prompt_template”： “由有光泽的粘液材料制成的 {color} {object_type}，质地柔软有弹性，逼真的 3D 外观，以纯白色背景为背景，光线柔和，高光平滑”\n}",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/122.png",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "digital_3d": [
-                    "3D",
-                    "material"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "opennana_prompt-165",
-              "name": "用气泡膜覆盖表情符号",
-              "type": "prompt",
-              "prompt": "{subject}, 表情符号 [ ❤️‍🔥 ] 的超逼真 3D 渲染 ，完全包裹在透明气泡膜中。塑料紧密贴合，清晰可见的充满空气的气泡在下面产生叠加的反射和表情符号的柔和扭曲。包裹具有有光泽的褶皱纹理，可在细节高光中捕捉光线。以柔和的中性灰色为背景，带有微妙的阴影。工作室照明应强调气泡膜的触觉质量及其产生的超现实效果。异想天开、令人满意且视觉上干净。",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/165.png",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "digital_3d": [
-                    "3D",
-                    "反射"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "opennana_prompt-202",
-              "name": "创建半透明图标",
-              "type": "prompt",
-              "prompt": "{subject}, 创建一个以[主题]为原型的 3D 渲染图标，采用梦幻般的、半透明的、类似玻璃的塑料材质，带有柔和的粉红色和紫色色调。表面光亮、边缘圆润、高光闪烁，并带有柔和的闪烁或闪光效果。UI 设计，悬浮在干净的白色背景上，带有柔和的阴影和自然光照，优雅且现代。",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/202.jpeg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "digital_3d": [
-                    "3D",
-                    "材质"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "opennana_prompt-203",
-              "name": "3D表情符号头部",
-              "type": "prompt",
-              "prompt": "{subject}, 生成一个超逼真的 3D 渲染效果，将[表情符号 🐱 ]设计成一个漂浮的动物头部，具有毛绒玩具的美学风格。设计应强调超柔软的长毛、俏皮可爱和童真魅力。使用正面直视的相机角度，搭配柔和的漫射光线，营造出温暖诱人的光泽。保持背景纯白色，以呈现干净现代的外观。色彩搭配应鲜明而舒缓，增强玩具般的吸引力。风格：超精细、奇幻、超可爱，将现实主义与柔软的毛绒质感相结合，以达到最大的视觉冲击力。",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/203.jpeg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "opennana_prompt-22",
-              "name": "自定义气球",
-              "type": "prompt",
-              "prompt": "{subject}, 一件高度写实的 3D 装置艺术：字母 Z 被设计成充气球囊造型，整体形态如同流畅弯曲的“Z”字路径，由两段斜线和一个折角构成，边缘略微卷翘，充满柔软的气压感。\n\n视角为正面稍仰视角（约10°）的正交投影，主体置于画面正中央，占据几乎全部画幅，背景为纯黑色，形成类似剧院聚光灯的聚焦舞台效果。\n\n材质为高弹性亮面 PVC，表面涂有高光清漆。主色为柔亮粉色（#FF96AC），阴影部分渐变为淡紫粉色，表面同时具备镜面高光和柔和漫反射，呈现丝滑、饱满、有张力的视觉质感。\n\n左下角可见一个金属螺旋气嘴（银灰色），尺寸很小但极具真实感，暗示其为充气物体。右下笔画末端印有一串黑色的警示文字和安全图标，以“ZHOGUE”风格排版，呼应充气玩具视觉语言。\n\n主光源来自左上方约 35°，呈现清晰的硬边聚光灯效果：在顶部折角与中央斜线区域形成椭圆形白色高光，内折阴影区带有柔和的粉紫色内反射。\n\n辅光来自右后方，轻柔描边顶部和转折边缘，使形体与黑背景分离，整体光比约为 1:2，保持色彩通透与立体感。亮区色温偏冷，营造冷暖对比，进一步突显质感。\n\n球囊表面略显鼓胀，折角与转折区域有尖锐的折痕，带来软体与几何的视觉张力。最深的转折处投下细长阴影，仿佛即将破裂；下方末端则有轻微拉扯感，如气球尾部即将被牵动。\n\n整体概念融合了字母结构与充气玩具的材质语言，通过夸张体积、真实光感与极简舞台感构建出“字母也能呼吸”的视觉冲击，呈现理性几何与感性触觉的碰撞。",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/22.jpeg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "digital_3d": [
-                    "3D",
-                    "材质",
-                    "几何"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "opennana_prompt-222",
-              "name": "宝石渲染风格",
-              "type": "prompt",
-              "prompt": "{subject}, 将提供的 JSON 参数应用于[插入图片]\n\n{\n  \"名称\": \"宝石渲染\",\n  \"物体\": {\n    \"类型\": \"自动\",\n    \"检测到的颜色\": \"自动\",\n    \"形态\": \"逼真、自然形态得以保留\",\n    \"材质\": \"水晶或多面宝石玻璃\",\n    \"表面\": \"精密切割的刻面、清晰的反光\",\n    \"透明度\": \"高清晰度，带有光线折射\",\n    \"内部特征\": \"色彩深度、内部光泽和光线色散\"\n  },\n  \"颜色与光线\": {\n    \"主色调\": \"{detected_color}\",\n    \"高光效果\": \"镜面高光、宝石光泽、焦散效果\",\n    \"照明设置\": \"工作室照明，搭配白色或柔和背景\",\n    \"金属装饰\": {\n      \"启用\": true,\n      \"材质\": \"黄金或铬合金\",\n      \"应用位置\": \"边缘、柄部或侧边细节\"\n    }\n  },\n  \"风格\": {\n    \"艺术风格\": [\n      \"照片级写实3D渲染\",\n      \"宝石渲染风格\",\n      \"奢华物体可视化\"\n    ],\n    \"设计语言\": [\n      \"多面精密建模\",\n      \"珠宝式渲染\",\n      \"光学深度与光泽\"\n    ]\n  },\n  \"技术细节\": {\n    \"渲染引擎\": [\n      \"Blender搭配Cycles\",\n      \"Cinema 4D + Redshift/Octane\"\n    ],\n    \"渲染技术\": [\n      \"基于物理的渲染（PBR）\",\n      \"光线追踪\",\n      \"全局光照\"\n    ],\n    \"分辨率\": \"超高分辨率（4K–8K）\",\n    \"后期处理\": [\n      \"柔和光晕\",\n      \"增强的反光\",\n      \"保持色彩的对比度提升\"\n    ]\n  },\n  \"提示模板\": \"一张{物体}的3D渲染图像，由{detected_color}水晶制成，带有复杂的宝石般刻面。它内部反光闪耀，置于干净的工作室背景上，融合了写实感与奢华设计。\"\n}",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/222.jpeg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文与标题大类存在冲突：photography",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "photography": [
-                    "照片",
-                    "工作室照明"
-                  ],
-                  "digital_3d": [
-                    "3D",
-                    "材质",
-                    "光线追踪"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "opennana_prompt-223",
-              "name": "惊人的外骨骼图像",
-              "type": "prompt",
-              "prompt": "{subject}, 一个未来派的 3D 渲染[物体]，具有半透明的内部结构，被光滑的白色外骨骼包裹，外骨骼上有有机的孔洞和流动的仿生图案，悬浮在极简的浅灰色背景中，高对比度光照，超写实材质，Octane 渲染，现代数字雕塑",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/223.jpeg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "digital_3d": [
-                    "3D",
-                    "材质"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "opennana_prompt-231",
-              "name": "形状为生日气球文字",
-              "type": "prompt",
-              "prompt": "{subject}, 创建一个超逼真的 3D 渲染效果，将气球字母组成单词 [WOW]。每个字母看起来都像是一个闪亮的充气镀铝气球，带有大胆印刷的图案。使用多种纹理，例如 [格子印刷、彩色网格、波点或光泽金属黑]。气球应该是半反射的，具有真实的空气体积、接缝、皱纹和压力点。给每个字母一个独特、有趣的表面设计，但保持整体外观协调一致。使用柔和的粉彩色背景，例如 [橙色]，以对比气球的纹理。光线应产生清晰的反射和柔和的阴影。渲染效果必须是照片级的逼真、有趣且充满活力——就像创意波普艺术生日装置或时尚活动的高端视觉效果。",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/231.png",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "digital_3d": [
-                    "3D",
-                    "反射",
-                    "网格"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "opennana_prompt-242",
-              "name": "有趣的块状 3D 世界",
-              "type": "prompt",
-              "prompt": "{subject}, 根据以下 JSON 对附加的图像进行重新纹理化\n{\n  \"style_name\": \"Playful Chunky 3D Aesthetic\",\n  \"retexture_mode\": \"stylized_3d_overlay\",\n\"对象分析\": {\n\"保留轮廓\": true,\n\"几何敏感映射\": true,\n\"细节保留\": \"中等 — 侧重于关键形态和比例\"\n  },\n\"材料属性\": {\n    \"基础材料\": [\"柔软磨砂塑料\", \"弹性聚合物\"],\n    \"表面细节\": [\n\"圆润的边缘和膨胀的体积\",\n\"光滑、玩具般的表面\",\n\"极少的接缝线\"\n    ]\n  },\n\"lighting\": {\n    \"type\": \"工作室漫射光\",\n    \"intensity\": \"中等\",\n\"阴影\": \"柔和的基础阴影\",\n    \"高光行为\": \"曲线和凸起表面的柔和光泽\"\n  },\n  \"配色方案\": {\n\"主色调\": [\" #f6f6f6 \", \" #3a3a3a \", \" #f05423 \"],\n    \"强调色\": [\" #ff875d \", \" #b0b0b0 \", \" #f3f3f3 \"]\n  },\n  \"背景\": {\n\"color\": \" #f9f9f9 \",\n    \"type\": \"solid\",\n    \"texture\": \"none\"\n  },\n\"风格标签\": []\n\"3D 卡通写实风格\"\n\"UI 图标包美学\"\n\"膨胀极简主义\"\n\"柔和科技感\",\n\"俏皮体积建模\"\n  ]\n}",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/242.png",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "digital_3d": [
-                    "3D",
-                    "几何"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "opennana_prompt-256",
-              "name": "漂浮玻璃霓虹3D",
-              "type": "prompt",
-              "prompt": "{subject}, 根据以下JSON对附加图片进行重新纹理处理：\n\n{\n  \"风格名称\": \"漂浮玻璃霓虹3D\",\n  \"重纹理模式\": \"形状锁定\",\n  \"对象分析\": {\n    \"保留轮廓\": true,\n    \"几何敏感映射\": true,\n    \"细节保留\": \"维持轮廓、体积和层次感\"\n  },\n  \"材质属性\": {\n    \"基础材质\": \"半透明霓虹玻璃胶\",\n    \"表面处理\": \"半光泽，边缘带有柔和光晕\",\n    \"透明度\": \"高，带有柔和的光折射\",\n    \"折射效果\": \"轻微弯曲，曲线处有微妙光晕\",\n    \"内置效果\": \"内部光散射和边缘霓虹发光\",\n    \"色彩混合\": {\n      \"主色\": [\"水绿色\", \"电蓝色\", \"霓虹紫\"],\n      \"渐变方向\": \"左上角至右下角\",\n      \"过渡平滑度\": \"非常平滑\"\n    }\n  },\n  \"光照\": {\n    \"类型\": \"柔光箱HDRI\",\n    \"强度\": \"柔和明亮\",\n    \"光源方向\": \" overhead 且略微偏前\",\n    \"高光表现\": \"柔和光晕，带有玻璃闪光\"\n  },\n  \"阴影表现\": {\n    \"类型\": \"漂浮接触阴影\",\n    \"外观\": \"极其柔和、模糊的椭圆形\",\n    \"不透明度\": 0.07,\n    \"物体下方距离\": \"适中\",\n    \"颜色\": \"中性灰\"\n  },\n  \"背景\": {\n    \"类型\": \"纯色\",\n    \"颜色\": \"#ffffff\",\n    \"发光效果\": \"无\",\n    \"渐变\": \"无\"\n  },\n  \"渲染\": {\n    \"景深\": \"轻微，带有轻微渐晕\",\n    \"焦点\": \"漂浮物体的中心\",\n    \"环境光遮蔽\": \"最小化以保持明亮感\",\n    \"渲染引擎\": \"3D风格化，带有光扩散和高镜面细节\",\n    \"相机角度\": \"略高于物体，正面视角\",\n    \"分辨率\": \"极高，适用于产品品牌推广\"\n  },\n  \"特殊效果\": {\n    \"漂浮效果\": true,\n    \"视觉失重感\": true,\n    \"阴影柔和度\": \"最大\"\n  }\n}",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/256.jpeg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "digital_3d": [
-                    "3D",
-                    "材质",
-                    "几何"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "opennana_prompt-278",
-              "name": "3D卡通钥匙扣",
-              "type": "prompt",
-              "prompt": "{subject}, 将上传照片中的人物制作成可爱的3D卡通钥匙扣版本。将面部和姿势转变为柔和、简化的玩具般造型，具有类似硅胶的光滑质感和柔和的粉彩色调。添加一个写有“[姓名]”的姓名牌，用俏皮的圆体字附着在钥匙扣上。无背景，阴影极少。适合钥匙扣格式的玩具产品设计。",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/278.png",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "opennana_prompt-287",
-              "name": "3D纸艺作品",
-              "type": "prompt",
-              "prompt": "{subject}, 一幅3D纸艺作品，以 [主题] 为原型，由多层剪纸组成，放置在简单的纸板底座上。[颜色 1] 和 [颜色 2] 纸张纹理的亮点营造出深度和立体感。作品背景为灯光柔和的手工房，光线逼真，纸张边缘精致，景深浅。",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/287.png",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文与标题大类存在冲突：crafts",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "crafts": [
-                    "剪纸",
-                    "手工"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "opennana_prompt-361",
-              "name": "毛绒世界",
-              "type": "prompt",
-              "prompt": "{subject}, 一个柔软毛绒绒的3D模型，带有一个[关键细节]，以可爱、风格化的美感呈现。纹理柔软，可挤压，像玩具一样，凸显了动画[物体类型]设计的魅力。干净的背景，居中的构图，柔和的环境光，柔和的色调，微妙的阴影，高分辨率渲染，正面视图。",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/361.jpeg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "digital_3d": [
-                    "3D",
-                    "模型"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "opennana_prompt-363",
-              "name": "品牌创意3D广告",
-              "type": "prompt",
-              "prompt": "{subject}, 为 [品牌名称] 制作的创意 3D 广告，由超现实的物体制成，背景颜色匹配，下面是真实的口号，上面是徽标，微型人物互动，简约而巧妙的概念",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/363.jpeg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "opennana_prompt-396",
-              "name": "创建3D推特个人资料卡片",
-              "type": "prompt",
-              "prompt": "{subject}, 第1步：截取您的 Twitter 个人资料屏幕截图。\n第2步：打开 ChatGPT\n第3步：粘贴您的屏幕截图和以下提示\n\n制作一张超逼真的透明推特个人资料卡的3D渲染图，设计灵感源自未来主义的玻璃身份识别卡，可轻柔地夹在两指之间。卡片应为圆角矩形，材质为透明光面玻璃或亚克力，边缘带有粉色、紫色和橙色渐变的霓虹灯效果，灵感来自推特的配色方案。使用现代简约的无衬线字体在卡片上展示以下个人资料信息。",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/396.jpeg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "digital_3d": [
-                    "3D",
-                    "材质"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "opennana_prompt-57",
-              "name": "手工毛线纹理",
-              "type": "prompt",
-              "prompt": "{subject}, Crea un render 3D fotorrealista de este logo hecho con hilo grueso y tejido a mano. El hilo debe parecer suave, esponjoso y de gran tamaño, con patrones visibles de tejido como bucles, giros y trenzas. Usa colores brillantes y saturados, estética cálida. Resalta la textura de las fibras, la suavidad del material y el acabado artesanal. Iluminación de estudio suave. Fondo blanco o crema limpio. El logo debe estar centrado y sin elementos adicionales. Cuadrado.",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/57.png",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "digital_3d": [
-                    "render",
-                    "material"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "opennana_prompt-9",
-              "name": "青花瓷风格",
-              "type": "prompt",
-              "prompt": "{subject}, Using the uploaded image as the exact visual base, transform it into a hyper-realistic 3D object that retains the original shape and proportions of the logo only. Apply traditional Ottoman Iznik ceramic textures—featuring a warm white glazed base with delicate crackle lines, overlaid with vivid cobalt blue, turquoise, and bold red floral motifs such as tulips, carnations, and arabesque vines. The entire logo should be treated as a standalone porcelain sculpture with raised, hand-painted detailing and no background plate or tile structure. Ensure the decorative patterns elegantly follow the contours of the Bugatti logo, without altering its form. Render the object in a pure black background with Cinema 4D-style product lighting—highlighting realistic ceramic gloss, material depth, and subtle reflections. The final result should feel like a luxurious handcrafted ceramic reinterpretation, balancing heritage ornamentation with industrial branding.",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/9.png",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "digital_3d": [
-                    "3D",
-                    "material"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "opennana_prompt-92",
-              "name": "霓虹玻璃发光",
-              "type": "prompt",
-              "prompt": "{subject}, Recreate this image using the parameters from the JSON provided.\n{\n  \"name\": \"Neon Glass Glow\",\n  \"style\": {\n    \"material\": {\n      \"type\": \"glass\",\n      \"transparency\": 0.92,\n      \"reflectivity\": 1.0,\n      \"refractionIndex\": 1.6,\n      \"color\": \"#ff00ff\",\n      \"emission\": {\n        \"color\": \"#ff66ff\",\n        \"intensity\": 0.8\n      },\n      \"surfaceFinish\": \"glossy\",\n      \"bloom\": true,\n      \"detail\": \"high\"\n    },\n    \"outline\": {\n      \"enabled\": true,\n      \"color\": \"#ffccff\",\n      \"width\": 1.8\n    },\n    \"lighting\": {\n      \"type\": \"studio\",\n      \"keyLightColor\": \"#ffffff\",\n      \"keyLightIntensity\": 1.0,\n      \"fillLightColor\": \"#9900ff\",\n      \"fillLightIntensity\": 0.7,\n      \"rimLightColor\": \"#00ffff\",\n      \"rimLightIntensity\": 0.7,\n      \"shadows\": \"crisp\"\n    },\n    \"background\": {\n      \"type\": \"solid\",\n      \"color\": \"#000000\"\n    },\n    \"render\": {\n      \"shadows\": true,\n      \"antiAliasing\": true,\n      \"superSampling\": \"4x\",\n      \"resolution\": \"high\",\n      \"depthOfField\": {\n        \"enabled\": true,\n        \"focusDistance\": 0.8,\n        \"blurAmount\": 0.1\n      }\n    }\n  }\n}",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/92.jpeg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "digital_3d": [
-                    "render",
-                    "material"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "opennana_prompt-96",
-              "name": "3D蒸汽朋克Logo",
-              "type": "prompt",
-              "prompt": "{subject}, 3D sculpted logo of [LOGO NAME], in a steampunk style, made of aged brass and oxidized iron, with visible rivets, gears, and vintage mechanical elements, distressed and weathered surface, rich copper and bronze tones, engraved with Victorian-style filigree, retro-industrial design, soft spotlight lighting, neutral background, hyper-realistic render, ultra-high resolution, symmetrical composition",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/96.jpeg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "opennana_prompt-118",
-              "name": "品牌产品数字广告",
-              "type": "prompt",
-              "prompt": "{subject}, 一个超现实的、超详细的 3D 数字广告，展示百事罐在中心爆裂，喷出清凉的碳酸可乐，气泡和冰块飞溅。罐子的金属表面具有锐利的、写实的纹理，包括冷凝水滴、光线反射和细微的划痕。场景周围是冷的透明冰片和柠檬皮在空中飞舞，增添了鲜明的对比。背景是深电光渐变，带有电影级体积照明和柔和的镜头光晕。绿色薄荷叶和雾气增添了清凉的自然点缀。整个场景使用高级全局光照、HDR 照明和真实的阴影在 4K UHD 下渲染。构图以高端饮料广告的戏剧性基调呈现，使用 Unreal Engine + Octane Render 等工具以达到最大的视觉冲击力。",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/118.jpeg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "digital_3d": [
-                    "3D",
-                    "反射",
-                    "全局光照",
-                    "Unreal Engine"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "opennana_prompt-213",
-              "name": "3D蓬松的物体",
-              "type": "prompt",
-              "prompt": "{subject}, 将[品牌名称]标志转化为超逼真、3D 蓬松的物体。保持原始形状和品牌的确切颜色。用柔软、细节丰富的毛皮覆盖整个表面，具有逼真的毛发纹理。使用电影感光效创造微妙的后光和柔和的阴影，使标志看起来有触感和超现实。将标志放在干净黑色背景的中心，轻轻漂浮，具有现代时尚感。风格应感觉温馨、俏皮、视觉上引人注目。以超高清 4K 分辨率渲染，具有照片级真实质量。",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/213.jpeg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "opennana_prompt-292",
-              "name": "3D超写实食品广告",
-              "type": "prompt",
-              "prompt": "{subject}, [食物类型]的流畅3D超写实食品广告\n- 呈现令人垂涎的光泽质感与完美光线效果\n- 置于深邃氛围感的表面上，背景带有柔和光晕与电影感模糊效果\n- 采用高开尔文色温光线，营造金色高光与清晰阴影\n- 运用逆光拍摄，展现诱人的热气与滴落的酱汁\n- 食物后方以优雅字体呈现一句仅含三个单词的醒目标语\n- 餐厅标志巧妙置于餐盘之上或画面角落\n- 采用浓郁的色彩分级，搭配激发食欲的色调\n- 极致清晰的画面质感，专业的食物造型设计，风格化渲染效果",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/292.jpeg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "opennana_prompt-409",
-              "name": "大型胶囊形容器的品牌3D渲染图",
-              "type": "prompt",
-              "prompt": "{subject}, 制作一个超逼真的大型胶囊形容器的3D渲染图。上半部分为品牌标志性颜色的实心亮面材质，并醒目地印有[品牌]官方标识。下半部分为透明材质，展现出该品牌众多知名产品的微缩模型[产品]，整齐地包装在内。以深色背景搭配电影级灯光和柔和的反射效果，营造出高端超现实的广告美感。采用超精细的专业产品渲染风格。尺寸为1080x1080。",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/409.jpeg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文与标题大类存在冲突：commercial",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "commercial": [
-                    "品牌标志",
-                    "品牌"
-                  ],
-                  "digital_3d": [
-                    "3D",
-                    "材质",
-                    "模型"
-                  ]
-                }
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_diorama",
+                    "name": "微缩等距"
+                  }
+                ]
               }
             },
             {
@@ -1259,19 +943,438 @@
               "description": null,
               "thumbnail": "https://img.opennana.com/prompts/images/75.png",
               "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；子类冲突：digital_3d_toy, digital_3d_diorama",
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "digital_3d": [
-                    "3D",
-                    "material"
-                  ]
-                }
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_diorama",
+                    "name": "微缩等距"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-67",
+              "name": "可爱微缩场景",
+              "type": "prompt",
+              "prompt": "{subject}, {\n    \"style\": \"miniature handcrafted diorama\",\n    \"material\": \"tree branches, cardboard, clay, moss, dried flowers, paper\",\n    \"surface_texture\": \"organic, rough and varied (wood grain, soft moss, paper texture)\",\n    \"lighting\": {\n        \"type\": \"soft ambient natural light\",\n        \"intensity\": \"low to moderate\",\n        \"direction\": \"diffused overhead\",\n        \"accent_colors\": [\n            \"forest green\",\n            \"earth brown\",\n            \"soft beige\",\n            \"muted pink\"\n        ],\n        \"reflections\": false,\n        \"refractions\": false,\n        \"dispersion_effects\": false,\n        \"bloom\": false\n    },\n    \"color_scheme\": {\n        \"primary\": \"natural greens and browns\",\n        \"secondary\": \"soft neutral tones (cardboard, clay, paper)\",\n        \"highlights\": \"light falling on the open book and cat’s glasses\",\n        \"rim_light\": \"subtle natural edge light from the forest opening\"\n    },\n    \"background\": {\n        \"color\": \"natural moss green\",\n        \"vignette\": false,\n        \"texture\": \"moss and dried floral structure\"\n    },\n    \"post_processing\": {\n        \"chromatic_aberration\": false,\n        \"glow\": false,\n        \"high_contrast\": false,\n        \"sharp_details\": true,\n        \"film_grain\": false\n    },\n    \"form_composition\": {\n        \"scene_elements\": [\n            \"a small girl sitting on a balcony holding an open miniature book\",\n            \"a cat with glasses observing the book's illustrations\",\n            \"a treehouse made from twigs, cardboard, and clay\",\n            \"balcony and surrounding forest made of moss and dried flowers\"\n        ],\n        \"scale\": \"miniature\",\n        \"theme\": \"childlike wonder and storytelling in a handcrafted world\",\n        \"visual_metaphor\": [\n            \"curiosity\",\n            \"quiet companionship\",\n            \"imagination in nature\"\n        ]\n    },\n    \"metadata\": {\n        \"artist\": \"-Zho-\",\n        \"series\": \"ZH4O\"\n    }\n}",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/67.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_diorama",
+                    "name": "微缩等距"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_artist-painting-miniature-self",
+              "name": "艺术家绘制极致微缩自己",
+              "type": "prompt",
+              "prompt": "{subject}, Ultra-realistic cinematic photographic portrait of an adult woman in a creative art studio. The setting is a cozy art studio, with wooden shelves in the background filled with brushes, tubes of paint, sculptures, decorative objects, and art supplies, creating visual depth and a handcrafted atmosphere. A wooden work table occupies the foreground, covered with a palette of colorful paints, fine brushes, bottles of acrylic paint, and painting instruments.\nThe woman stands behind the table and holds a delicate brush while painting a hyper-realistic 3D miniature doll that is an exact replica of herself.\nThe miniature reproduces with absolute precision all the features of the real woman: same face, same facial proportions, same skin tone, same skin texture with natural pores, same expressions, same hairstyle, same makeup, same outfit, same colors, same fabrics, and same posture, only on a reduced scale, like a mini version of herself. The doll has a realistic finish, meticulous details, and the appearance of a living artistic sculpture.\n\n Costume of the woman and the miniature: black blouse made of soft fabric with an off-the-shoulder neckline and a beige high-waisted skirt, perfectly replicated on the miniature doll, including seams, drape, and fabric texture. The miniature wears delicate black high-heeled sandals.\nMakeup: identical professional makeup on the woman and the miniature, with satin matte skin, soft contouring, discreet pink blush, eyes with warm brown smoky eyeshadow, subtle eyeliner, voluminous lashes, and nude pink lips with a natural shine.\nHairstyle: extremely long, blonde hair with soft, natural waves, well-polished and slightly parted in the middle, faithfully reproduced on the miniature doll, strand by strand.\nLighting: soft, diffused studio light, with a slightly lateral frontal key light, delicate fill light to soften shadows, and subtle backlight creating a luminous cut in the hair of the woman and the miniature, enhancing textures and depth.\nPose: elegant and confident posture; the woman leans slightly forward while painting the miniature, demonstrating artistic concentration.  The doll maintains a pose mirrored and proportional to that of the real woman.\nFacial expression: serene, concentrated, and contemplative expression, with gaze directed at the miniature, conveying an emotional connection between the artist and her miniature version.\nPhoto angle: medium shot, frontal perspective with a slightly shallow depth of field, keeping the woman and the miniature in sharp focus and the background softly blurred.\nLens and camera: 50mm or 85mm prime lens, aperture f/1.8 to f/2.0, professional full-frame camera (Canon EOS R5, Sony A7R IV, or Nikon Z8), ultra-high definition, extremely precise focus on the woman's face and the miniature.\nVisual style: artistic editorial photography, hyperrealism, conceptual aesthetics, warm and natural tones, extreme richness of detail, 8K quality, creative visual narrative.",
+              "negative_prompt": "",
+              "description": "",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202601/1768054085700-x584yhzd-1.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_diorama",
+                    "name": "微缩等距"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "digital_3d_pending",
+          "name": "待细分",
+          "presets": []
+        },
+        {
+          "id": "digital_3d_other",
+          "name": "其他三维",
+          "presets": [
+            {
+              "id": "opennana_prompt-382",
+              "name": "3D chibi风格乙烯基收藏品",
+              "type": "prompt",
+              "prompt": "{subject}, 3D chibi 风格乙烯基收藏品 [CHARACTER NAME] 大头，小身体，卡通比例，站在 Youtooz 风格的\n包装盒带有：透明前窗\n顶部有“YOUTOOZ COLLECTIBLES”标志\n左上角的数字标签（[#XXX]）\n底部文字：“[CHARACTER NAME]” 下方用较小的字体写着“VINYL FIGURE”\n盒子侧面的 [角色名称] 卡通 2D 插图（[插图描述]）\n\n背景/主题：\n[盒子颜色 + 纹理 + 与角色相关的标志性图案]\n[人物姿势或手势]\n[服装描述 + 标志性物品]\n\n面部细节：面部特征（嘴巴/眼睛/细节）必须完全 3D 雕刻，而不是平面或印刷的。\n灯光：干净的产品摄影外观，最小的柔和阴影\n风格：搪胶玩具美学，根据服装搭配哑光和亮光元素。构图：3/4 产品视角，完整包装盒清晰可见。整个包装盒必须在框架内完全可见，所有边缘均留有清晰的空白。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/382.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_other",
+                    "name": "其他三维"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-68",
+              "name": "透明容器里有一个微型的3D世界",
+              "type": "prompt",
+              "prompt": "{subject}, A giant [transparent or glossy] [object/container] with a miniature 3D diorama inside it, depicting [a symbolic or narrative scene], studio-lit with soft shadows, placed on a neutral matte surface. Emphasize visual contrast between the scale of the capsule and the detail within. Highlight texture, light refraction, and emotional tone (e.g., surreal, poetic, or sci-fi).",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/68.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_other",
+                    "name": "其他三维"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-74",
+              "name": "3D可爱粉彩粘土图标",
+              "type": "prompt",
+              "prompt": "{subject}, Tiny cute isometric [smiling - optional] [OBJECT] emoji, shape, soft lighting, soft pastel colors, [COLOR], 3d icon clay render, blender 3d, pastel background",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/74.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_other",
+                    "name": "其他三维"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-159",
+              "name": "渲染宝石",
+              "type": "prompt",
+              "prompt": "{subject}, 使用提供的 JSON 的 pamareters 重新创建此图像。\n{\n“name”： “宝石渲染”，\n“对象”： {\n“type”： “auto”， //类型\n“detected_color”： “auto”，\n“form”： “保留真实、自然的形式”，\n“material”： “水晶或刻面宝石玻璃”，\n“surface”： “精确切割的刻面，清晰的反射”，\n“transparency”： “高清晰度，光线折射”，\n“internal_features”： “颜色深度、内部微光和光色散”\n  },\n“color_and_light”： {\n“primary_color”： “{detected_color}”，\n“highlight_effects”： “镜面高光、宝石亮度、焦散”，\n“lighting_setup”： “白色或柔和背景的工作室照明”，\n“metallic_accents”： {\n“enabled”： true 和\n“material”： “金或铬”，\n“application”： “边缘、茎或边缘细节”\n    }\n  },\n“样式”： {\n“artistic_style”：[\n“逼真的 3D 渲染”，\n“Gemstone Render Style”（宝石渲染样式）、\n“奢侈品对象可视化”\n],\n“design_language”：[\n“faceted precision modeling”，\n“珠宝般的渲染”，\n“光学深度和亮度”\n    ]\n  },\n“technical_details”： {\n“render_engine”：[\n“带循环的 Blender”，\n“Cinema 4D + Redshift/Octane”\n],\n“rendering_techniques”：[\n“基于物理的渲染 （PBR）”，\n“光线追踪”，\n“全局照明”\n],\n“resolution”： “超高分辨率 （4K–8K）”，\n“post_processing”：[\n“微妙的光芒”，\n“增强反射”，\n“保色对比度提升”\n    ]\n  }",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/159.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_other",
+                    "name": "其他三维"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-98",
+              "name": "3D卡通雕塑风格",
+              "type": "prompt",
+              "prompt": "{subject}, a soft 3D cartoon-style sculpture of [brand product], made of smooth clay-like textures and vibrant pastel colors, placed in a minimalist isometric scene that complements the product’s nature, clean composition, gentle lighting, subtle shadows, with the product’s logo and a 3-word slogan displayed clearly belo",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/98.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_other",
+                    "name": "其他三维"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-120",
+              "name": "奇趣风格3D乙烯基玩具",
+              "type": "prompt",
+              "prompt": "{subject}, [主体]的奇趣风格 3D 乙烯基玩具，以[颜色 1]和[颜色 2]色调呈现，正面朝向白色背景。极简主义构图，带有柔和的阴影，头部巨大而身体比例缩小，Cinema 4D 中的干净 OC 渲染输出。玩具般的光泽和充满趣味的魅力。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/120.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_other",
+                    "name": "其他三维"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-203",
+              "name": "3D表情符号头部",
+              "type": "prompt",
+              "prompt": "{subject}, 生成一个超逼真的 3D 渲染效果，将[表情符号 🐱 ]设计成一个漂浮的动物头部，具有毛绒玩具的美学风格。设计应强调超柔软的长毛、俏皮可爱和童真魅力。使用正面直视的相机角度，搭配柔和的漫射光线，营造出温暖诱人的光泽。保持背景纯白色，以呈现干净现代的外观。色彩搭配应鲜明而舒缓，增强玩具般的吸引力。风格：超精细、奇幻、超可爱，将现实主义与柔软的毛绒质感相结合，以达到最大的视觉冲击力。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/203.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_other",
+                    "name": "其他三维"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-222",
+              "name": "宝石渲染风格",
+              "type": "prompt",
+              "prompt": "{subject}, 将提供的 JSON 参数应用于[插入图片]\n\n{\n  \"名称\": \"宝石渲染\",\n  \"物体\": {\n    \"类型\": \"自动\",\n    \"检测到的颜色\": \"自动\",\n    \"形态\": \"逼真、自然形态得以保留\",\n    \"材质\": \"水晶或多面宝石玻璃\",\n    \"表面\": \"精密切割的刻面、清晰的反光\",\n    \"透明度\": \"高清晰度，带有光线折射\",\n    \"内部特征\": \"色彩深度、内部光泽和光线色散\"\n  },\n  \"颜色与光线\": {\n    \"主色调\": \"{detected_color}\",\n    \"高光效果\": \"镜面高光、宝石光泽、焦散效果\",\n    \"照明设置\": \"工作室照明，搭配白色或柔和背景\",\n    \"金属装饰\": {\n      \"启用\": true,\n      \"材质\": \"黄金或铬合金\",\n      \"应用位置\": \"边缘、柄部或侧边细节\"\n    }\n  },\n  \"风格\": {\n    \"艺术风格\": [\n      \"照片级写实3D渲染\",\n      \"宝石渲染风格\",\n      \"奢华物体可视化\"\n    ],\n    \"设计语言\": [\n      \"多面精密建模\",\n      \"珠宝式渲染\",\n      \"光学深度与光泽\"\n    ]\n  },\n  \"技术细节\": {\n    \"渲染引擎\": [\n      \"Blender搭配Cycles\",\n      \"Cinema 4D + Redshift/Octane\"\n    ],\n    \"渲染技术\": [\n      \"基于物理的渲染（PBR）\",\n      \"光线追踪\",\n      \"全局光照\"\n    ],\n    \"分辨率\": \"超高分辨率（4K–8K）\",\n    \"后期处理\": [\n      \"柔和光晕\",\n      \"增强的反光\",\n      \"保持色彩的对比度提升\"\n    ]\n  },\n  \"提示模板\": \"一张{物体}的3D渲染图像，由{detected_color}水晶制成，带有复杂的宝石般刻面。它内部反光闪耀，置于干净的工作室背景上，融合了写实感与奢华设计。\"\n}",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/222.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_other",
+                    "name": "其他三维"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-242",
+              "name": "有趣的块状 3D 世界",
+              "type": "prompt",
+              "prompt": "{subject}, 根据以下 JSON 对附加的图像进行重新纹理化\n{\n  \"style_name\": \"Playful Chunky 3D Aesthetic\",\n  \"retexture_mode\": \"stylized_3d_overlay\",\n\"对象分析\": {\n\"保留轮廓\": true,\n\"几何敏感映射\": true,\n\"细节保留\": \"中等 — 侧重于关键形态和比例\"\n  },\n\"材料属性\": {\n    \"基础材料\": [\"柔软磨砂塑料\", \"弹性聚合物\"],\n    \"表面细节\": [\n\"圆润的边缘和膨胀的体积\",\n\"光滑、玩具般的表面\",\n\"极少的接缝线\"\n    ]\n  },\n\"lighting\": {\n    \"type\": \"工作室漫射光\",\n    \"intensity\": \"中等\",\n\"阴影\": \"柔和的基础阴影\",\n    \"高光行为\": \"曲线和凸起表面的柔和光泽\"\n  },\n  \"配色方案\": {\n\"主色调\": [\" #f6f6f6 \", \" #3a3a3a \", \" #f05423 \"],\n    \"强调色\": [\" #ff875d \", \" #b0b0b0 \", \" #f3f3f3 \"]\n  },\n  \"背景\": {\n\"color\": \" #f9f9f9 \",\n    \"type\": \"solid\",\n    \"texture\": \"none\"\n  },\n\"风格标签\": []\n\"3D 卡通写实风格\"\n\"UI 图标包美学\"\n\"膨胀极简主义\"\n\"柔和科技感\",\n\"俏皮体积建模\"\n  ]\n}",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/242.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_other",
+                    "name": "其他三维"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-256",
+              "name": "漂浮玻璃霓虹3D",
+              "type": "prompt",
+              "prompt": "{subject}, 根据以下JSON对附加图片进行重新纹理处理：\n\n{\n  \"风格名称\": \"漂浮玻璃霓虹3D\",\n  \"重纹理模式\": \"形状锁定\",\n  \"对象分析\": {\n    \"保留轮廓\": true,\n    \"几何敏感映射\": true,\n    \"细节保留\": \"维持轮廓、体积和层次感\"\n  },\n  \"材质属性\": {\n    \"基础材质\": \"半透明霓虹玻璃胶\",\n    \"表面处理\": \"半光泽，边缘带有柔和光晕\",\n    \"透明度\": \"高，带有柔和的光折射\",\n    \"折射效果\": \"轻微弯曲，曲线处有微妙光晕\",\n    \"内置效果\": \"内部光散射和边缘霓虹发光\",\n    \"色彩混合\": {\n      \"主色\": [\"水绿色\", \"电蓝色\", \"霓虹紫\"],\n      \"渐变方向\": \"左上角至右下角\",\n      \"过渡平滑度\": \"非常平滑\"\n    }\n  },\n  \"光照\": {\n    \"类型\": \"柔光箱HDRI\",\n    \"强度\": \"柔和明亮\",\n    \"光源方向\": \" overhead 且略微偏前\",\n    \"高光表现\": \"柔和光晕，带有玻璃闪光\"\n  },\n  \"阴影表现\": {\n    \"类型\": \"漂浮接触阴影\",\n    \"外观\": \"极其柔和、模糊的椭圆形\",\n    \"不透明度\": 0.07,\n    \"物体下方距离\": \"适中\",\n    \"颜色\": \"中性灰\"\n  },\n  \"背景\": {\n    \"类型\": \"纯色\",\n    \"颜色\": \"#ffffff\",\n    \"发光效果\": \"无\",\n    \"渐变\": \"无\"\n  },\n  \"渲染\": {\n    \"景深\": \"轻微，带有轻微渐晕\",\n    \"焦点\": \"漂浮物体的中心\",\n    \"环境光遮蔽\": \"最小化以保持明亮感\",\n    \"渲染引擎\": \"3D风格化，带有光扩散和高镜面细节\",\n    \"相机角度\": \"略高于物体，正面视角\",\n    \"分辨率\": \"极高，适用于产品品牌推广\"\n  },\n  \"特殊效果\": {\n    \"漂浮效果\": true,\n    \"视觉失重感\": true,\n    \"阴影柔和度\": \"最大\"\n  }\n}",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/256.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_other",
+                    "name": "其他三维"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-278",
+              "name": "3D卡通钥匙扣",
+              "type": "prompt",
+              "prompt": "{subject}, 将上传照片中的人物制作成可爱的3D卡通钥匙扣版本。将面部和姿势转变为柔和、简化的玩具般造型，具有类似硅胶的光滑质感和柔和的粉彩色调。添加一个写有“[姓名]”的姓名牌，用俏皮的圆体字附着在钥匙扣上。无背景，阴影极少。适合钥匙扣格式的玩具产品设计。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/278.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_other",
+                    "name": "其他三维"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-396",
+              "name": "创建3D推特个人资料卡片",
+              "type": "prompt",
+              "prompt": "{subject}, 第1步：截取您的 Twitter 个人资料屏幕截图。\n第2步：打开 ChatGPT\n第3步：粘贴您的屏幕截图和以下提示\n\n制作一张超逼真的透明推特个人资料卡的3D渲染图，设计灵感源自未来主义的玻璃身份识别卡，可轻柔地夹在两指之间。卡片应为圆角矩形，材质为透明光面玻璃或亚克力，边缘带有粉色、紫色和橙色渐变的霓虹灯效果，灵感来自推特的配色方案。使用现代简约的无衬线字体在卡片上展示以下个人资料信息。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/396.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_other",
+                    "name": "其他三维"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-96",
+              "name": "3D蒸汽朋克Logo",
+              "type": "prompt",
+              "prompt": "{subject}, 3D sculpted logo of [LOGO NAME], in a steampunk style, made of aged brass and oxidized iron, with visible rivets, gears, and vintage mechanical elements, distressed and weathered surface, rich copper and bronze tones, engraved with Victorian-style filigree, retro-industrial design, soft spotlight lighting, neutral background, hyper-realistic render, ultra-high resolution, symmetrical composition",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/96.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_other",
+                    "name": "其他三维"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-213",
+              "name": "3D蓬松的物体",
+              "type": "prompt",
+              "prompt": "{subject}, 将[品牌名称]标志转化为超逼真、3D 蓬松的物体。保持原始形状和品牌的确切颜色。用柔软、细节丰富的毛皮覆盖整个表面，具有逼真的毛发纹理。使用电影感光效创造微妙的后光和柔和的阴影，使标志看起来有触感和超现实。将标志放在干净黑色背景的中心，轻轻漂浮，具有现代时尚感。风格应感觉温馨、俏皮、视觉上引人注目。以超高清 4K 分辨率渲染，具有照片级真实质量。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/213.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_other",
+                    "name": "其他三维"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-292",
+              "name": "3D超写实食品广告",
+              "type": "prompt",
+              "prompt": "{subject}, [食物类型]的流畅3D超写实食品广告\n- 呈现令人垂涎的光泽质感与完美光线效果\n- 置于深邃氛围感的表面上，背景带有柔和光晕与电影感模糊效果\n- 采用高开尔文色温光线，营造金色高光与清晰阴影\n- 运用逆光拍摄，展现诱人的热气与滴落的酱汁\n- 食物后方以优雅字体呈现一句仅含三个单词的醒目标语\n- 餐厅标志巧妙置于餐盘之上或画面角落\n- 采用浓郁的色彩分级，搭配激发食欲的色调\n- 极致清晰的画面质感，专业的食物造型设计，风格化渲染效果",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/292.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_other",
+                    "name": "其他三维"
+                  }
+                ]
               }
             },
             {
@@ -1283,20 +1386,19 @@
               "description": null,
               "thumbnail": "https://img.opennana.com/prompts/images/77.jpeg",
               "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文与标题大类存在冲突：commercial",
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "commercial": [
-                    "logo",
-                    "slogan",
-                    "brand"
-                  ]
-                }
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_other",
+                    "name": "其他三维"
+                  }
+                ]
               }
             },
             {
@@ -1307,13 +1409,19 @@
               "negative_prompt": "ugly, deformed, noisy, low poly, blurry, painting",
               "description": "ComfyUI Style",
               "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_other",
+                    "name": "其他三维"
+                  }
+                ]
               }
             },
             {
@@ -1324,13 +1432,19 @@
               "negative_prompt": "ugly, deformed, noisy, low poly, blurry, painting",
               "description": "ComfyUI Style",
               "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_other",
+                    "name": "其他三维"
+                  }
+                ]
               }
             },
             {
@@ -1342,114 +1456,19 @@
               "description": null,
               "thumbnail": "https://img.opennana.com/prompts/images/176.jpeg",
               "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "opennana_pixar-style-red-jacket-girl-3d-stickers",
-              "name": "皮克斯风红衣少女3D表情包贴纸",
-              "type": "prompt",
-              "prompt": "{subject}, 一个高质量的 3D 卡通贴纸包，主角是一个可爱的年轻女孩，留着凌乱的棕色波波头短发，有一双富有表现力的棕色大眼睛，身穿酒红色皮夹克，内搭白色衬衫。多种不同的情绪反应以网格布局排列。表情包括：震惊（手捂嘴，“OMG！”文字气泡），生气（红色愤怒符号，头顶冒蒸汽），惊讶（拿着手机，张嘴），大声哭泣流泪，尖叫“AAA！”，竖起大拇指说“Cool！”，愤怒配火焰背景，眨眼配爱心，悲伤（头顶有雨云），害羞说“Sorry”，困惑（螺旋眼和问号），以及大声哭喊“WAAH！”。柔和温暖的米色背景，白色贴纸风格轮廓，光泽表面，柔和阴影，皮克斯风格 3D 渲染，高细节，鲜艳色彩，可爱的表情符号风格气泡，干净的摄影棚灯光，居中构图，高分辨率。",
-              "negative_prompt": "",
-              "description": "Grok",
-              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1772369775768-61s7hq42-1.jpeg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文与标题大类存在冲突：photography",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "photography": [
-                    "摄影",
-                    "棚灯"
-                  ],
-                  "digital_3d": [
-                    "3D",
-                    "网格"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "opennana_prompt-102",
-              "name": "纹理化图片",
-              "type": "prompt",
-              "prompt": "{subject}, Retexture the image attached based on the json below\n{\n  \"style\": \"C4D hyper-realistic 3D render\",\n  \"object_form\": \"detailed mechanical design\",\n  \"geometry\": {\n    \"shape\": \"sharp edges with smooth curves\",\n    \"scale\": \"real-world proportion\",\n    \"detailing\": \"high-poly mesh with intricate mechanical features\"\n  },\n  \"material\": {\n    \"base\": \"polished plastic and carbon fiber\",\n    \"texture\": \"fine surface variation with specular maps\",\n    \"finish\": \"high gloss with realistic reflections\"\n  },\n  \"design_elements\": {\n    \"decals\": \"subtle branding and panel lines\",\n    \"surface_effects\": \"anodized gradients, emissive lighting elements\",\n    \"aero_parts\": \"spoilers, splitters, and aggressive styling cues\"\n  },\n  \"color_scheme\": {\n    \"primary\": \"#0ae2c0\",\n    \"secondary\": \"#111111\",\n    \"accents\": [\"#ffffff\", \"#e00000\"],\n    \"reflections\": \"real-world HDRI light environment\",\n    \"background\": \"#ffffff\"\n  },\n  \"lighting\": {\n    \"type\": \"studio 3-point with HDRI\",\n    \"intensity\": \"balanced with key fill and rim lights\",\n    \"shadows\": \"soft, subtle contact shadow under object\",\n    \"highlights\": \"strong specular reflections on curves\"\n  },\n  \"rendering\": {\n    \"engine\": \"Cinema 4D Redshift or Octane\",\n    \"resolution\": \"ultra high-definition (4K+)\",\n    \"focus\": \"object-centered with floating illusion\",\n    \"background_blur\": \"none\"\n  },\n  \"composition\": {\n    \"layout\": \"centered in frame\",\n    \"object_count\": 1,\n    \"orientation\": \"three-quarter front view\",\n    \"camera\": \"35mm lens, slightly elevated\",\n    \"grounding\": \"floating mid-air with realistic soft shadow cast on white background\"\n  }\n}",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/102.png",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "digital_3d": [
-                    "3D",
-                    "material",
-                    "geometry"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "opennana_prompt-163",
-              "name": "半透明玻璃物品ASMR",
-              "type": "prompt",
-              "prompt": "{subject}, 由半透明玻璃制成的超写实 [水果名称]，光滑、圆润的表面，内部有细小的气泡，放置在干净的表面上，具有强烈反射和高光的清晰照明，最小的背景，照片级写实，有光泽的纹理，3D 渲染样式，水晶般的外观，柔和的阴影，微距摄影",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/163.jpeg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "digital_3d": [
-                    "3D",
-                    "反射"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "opennana_prompt-66",
-              "name": "霓虹灯风格工具",
-              "type": "prompt",
-              "prompt": "{subject}, retexture the image attached based on the JSON aesthetic below\n{\n  \"style\": \"hyperrealistic 3D render\",\n  \"material\": \"high-gloss translucent rubber with iridescent coating\",\n  \"surface_texture\": \"fine-grain pebbling with micro-specular highlights\",\n  \"lighting\": {\n    \"type\": \"studio HDRI\",\n    \"intensity\": \"high\",\n    \"direction\": \"multi-point with rim and backlight\",\n    \"colors\": [\"electric blue\", \"magenta\", \"neon purple\", \"sunset orange\"],\n    \"glow_effect\": true,\n    \"chromatic_aberration\": true,\n    \"bloom\": true\n  },\n  \"color_scheme\": {\n    \"primary\": \"iridescent gradient\",\n    \"highlights\": \"white light core reflections\",\n    \"accent_edges\": \"black outlines with subtle glow\"\n  },\n  \"background\": {\n    \"color\": \"solid black\",\n    \"texture\": \"none\",\n    \"contrast\": \"extreme to enhance subject glow\"\n  },\n  \"camera\": {\n    \"angle\": \"straight-on center view\",\n    \"focus\": \"sharp foreground, no depth blur\",\n    \"lens\": \"macro with light distortion\"\n  },\n  \"post_processing\": {\n    \"glow\": true,\n    \"contrast_boost\": true,\n    \"color_grading\": \"vibrant spectrum\",\n    \"noise\": \"minimal\"\n  }\n}",
-              "negative_prompt": "",
-              "description": null,
-              "thumbnail": "https://img.opennana.com/prompts/images/66.png",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "digital_3d": [
-                    "3D",
-                    "material"
-                  ]
-                }
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_other",
+                    "name": "其他三维"
+                  }
+                ]
               }
             },
             {
@@ -1460,13 +1479,151 @@
               "description": "SAI 风格 风格",
               "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_sai.json",
               "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "category_only",
-                "status": "needs_review",
-                "reason": "正文大类明确；未找到明确子类",
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_other",
+                    "name": "其他三维"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "digital_3d_product",
+          "name": "产品渲染",
+          "presets": [
+            {
+              "id": "opennana_prompt-220",
+              "name": "3D店铺渲染图",
+              "type": "prompt",
+              "prompt": "{subject}, 逼真的 3D 渲染图，展示了一个可爱、迷你版的[品牌名称]店铺建筑。采用品牌的标志性风格和色彩搭配设计。外部设计简洁现代，配有大型玻璃窗，正面有一个发光的 3D[品牌名称]标志。店内包含细微的品牌道具。背景与品牌身份相匹配——干净、相关且富有氛围。略微的等距角度，温暖的照明，柔和的阴影，居中构图。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/220.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_product",
+                    "name": "产品渲染"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-409",
+              "name": "大型胶囊形容器的品牌3D渲染图",
+              "type": "prompt",
+              "prompt": "{subject}, 制作一个超逼真的大型胶囊形容器的3D渲染图。上半部分为品牌标志性颜色的实心亮面材质，并醒目地印有[品牌]官方标识。下半部分为透明材质，展现出该品牌众多知名产品的微缩模型[产品]，整齐地包装在内。以深色背景搭配电影级灯光和柔和的反射效果，营造出高端超现实的广告美感。采用超精细的专业产品渲染风格。尺寸为1080x1080。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/409.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_product",
+                    "name": "产品渲染"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "digital_3d_abstract",
+          "name": "抽象装置",
+          "presets": [
+            {
+              "id": "opennana_prompt-123",
+              "name": "植物雕塑",
+              "type": "prompt",
+              "prompt": "{subject}, [主题] 看起来就像是从交织在一起的植物、花朵和藤蔓中有机生长出来的。叶子般的纹理和盛开的形式与解剖学或结构细节无缝融合，创造出自然与设计的超现实混合体。构图感觉空灵，具有自然的不对称和梦幻般的流动。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/123.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_abstract",
+                    "name": "抽象装置"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-91",
+              "name": "动感雕塑",
+              "type": "prompt",
+              "prompt": "{subject}, A kinetic sculpture of a [subject], made of interlocking metal rods and panels in brushed [color1] and oxidized [color2]. Suspended in motion, with rotating parts casting mechanical shadows on a concrete pedestal.",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/91.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_abstract",
+                    "name": "抽象装置"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-246",
+              "name": "色彩缤纷的手工雕塑",
+              "type": "prompt",
+              "prompt": "{subject}, 一个色彩缤纷的手工雕塑，由[插入主题]制成，使用半透明的冰块，形状定制。装饰如糖霜、糖果、毛线或水果皮增强了面部特征、纹理或配饰。放置在陶瓷盘上，盘上覆盖着叶子或装饰垫，背景是干净、柔和照明的摄影棚或自然桌面。光线突出了冰块的光泽质感，将食品艺术、玩具设计和摄影融合成一种俏皮、艺术性的构图。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/246.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_abstract",
+                    "name": "抽象装置"
+                  }
+                ]
               }
             }
           ]

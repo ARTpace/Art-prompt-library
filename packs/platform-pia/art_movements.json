@@ -1,0 +1,2272 @@
+{
+  "categories": [
+    {
+      "id": "art_movements",
+      "name": "艺术风格",
+      "subcategories": [
+        {
+          "id": "art_movements_pop",
+          "name": "波普欧普",
+          "presets": [
+            {
+              "id": "pia_dark-pop-art-collage",
+              "name": "暗黑波普艺术混合媒介拼贴画",
+              "type": "prompt",
+              "prompt": "一幅解构主义的混合媒介数字拼贴艺术作品。主体为 {argument name=\"subject\" default=\"附带模型\"}。构图由层层叠叠、撕裂的古董钢琴乐谱、带有可见复古文字（包括如“HER19845”等词汇）的报纸剪报、半色调网格图案以及褶皱纸张纹理构成。配色方案严谨：白色、黑色、淡青色以及鲜艳且高饱和度的深红色。画面中有两块纯深红色区域：右上角的一个大矩形，以及左侧中心带有“X”标记的纹理正方形。整个图像表面覆盖着深刻的磨损、划痕以及陈旧的污垢纹理。拼贴画的所有元素边缘均呈现出参差不齐的锯齿状。风格融合了暗黑波普艺术与精致的破坏主义拼贴风格。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/26769.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：波普艺术 / 波普",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_pop",
+                    "name": "波普欧普"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_pop-art-party-illustration",
+              "name": "活力派对波普艺术插画",
+              "type": "prompt",
+              "prompt": "一张波普艺术风格的插画，描绘了 {argument name=\"subject\" default=\"一群充满活力的朋友\"} 在 {argument name=\"event\" default=\"一场高能派对\"} 上的场景。画面采用大胆的漫画美学，配以粗黑轮廓线、半调网点纹理和夸张的表情特征。场景中充满了鲜艳的霓虹色和原色（电光粉、亮黄、青蓝和鲜红），营造出动感十足的氛围。构图略微倾斜以增强动感和混乱感，重叠的人物正在互动——大笑、跳舞、举杯庆祝。背景中漂浮着五彩纸屑和音效排版元素，如“{argument name=\"typography\" default=\"WOW!”, “LOL!” 和 “BOOM!”\"}”。强烈的轮廓光和饱和的灯光效果增强了深度与对比度。环境是一个风格化的室内派对空间，背景中巧妙地融入了抽象形状、涂鸦风格的墙面艺术和漫画分镜。超精细、电影级构图、高对比度、焦点清晰、8K 分辨率，现代波普艺术与漫画插画风格的完美结合。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/20010.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_pop",
+                    "name": "波普欧普"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "art_movements_minimalism",
+          "name": "极简主义",
+          "presets": [
+            {
+              "id": "pia_luxury-fashion-editorial-studio",
+              "name": "女性写实极简温暖工作室优雅",
+              "type": "prompt",
+              "prompt": "创作一张超写实的奢华时尚大片，主角为一位 {argument name=\"subject\" default=\"美丽的年轻东亚女性\"}，留着深棕色长发，层次感十足，打造出具有自然动感的现代柔顺吹发造型。她身穿 {argument name=\"outfit\" default=\"优雅的象牙白单肩垂褶缎面高级定制上衣，搭配同色系高腰象牙白阔腿定制长裤\"}，保持高端的轮廓与造型感。画面捕捉她优雅行走并整理头发的瞬间，一只手轻轻将头发撩至耳后，另一只手插在裤兜里。她带着自信的浅笑，双肩放松，姿态优雅，正自然地朝镜头走来。背景：{argument name=\"setting\" default=\"奢华的建筑风格工作室，配有巨大的发光圆形光环\"}，质感炭灰色墙壁，远处是带有反光水面的雕塑感沙丘，光洁的地板映衬出柔和的倒影，温暖的金色环境光，整体构图简洁极简。灯光：大型柔光箱，温暖的电影质感轮廓光，柔和的金色背光，微妙的体积光，呈现自然肤色的高级 HDR 灯光。风格：Vogue 大片，Ralph Lauren，Zara Studio，奢华商业时尚广告，Pinterest 美学，杂志级构图，85mm 全画幅镜头，f/2 光圈，轻微低角度视角，焦点锐利，超细腻缎面材质，逼真的发丝，无瑕的皮肤质感，照片级 8K 画质，清晰通透的全高清画质，杰作，4:5 纵横比。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/28010.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_pr-33632",
+              "name": "极简美食",
+              "type": "prompt",
+              "prompt": "Exploding [food item] with [filling], broken into two pieces with [filling action]. [outer texture], [internal layers] visible, crumbs or particles suspended mid-air. Clean [background], studio lighting, high-end commercial food photography, ultra-detailed, sharp focus.",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptsref",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/2413_out.png",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_organic-modern-interiors",
+              "name": "龙极简写实温暖室内优雅",
+              "type": "prompt",
+              "prompt": "目标：创作一组温暖的极简主义室内设计拼贴图，展现简洁的设计、流畅的线条、自然的纹理和功能性的优雅，营造宁静的有机奢华氛围。\n\n画布：一张 4:3 的横向图像，被细白边框分割为 2x2 网格的 4 个等大矩形面板。采用柔和的自然日光，使用米色灰泥墙面、暖色木材、奶油色软装、编织地毯、橄榄绿植，并呈现宁静的杂志摄影风格。\n\n视觉风格：写实的高端室内摄影，中性大地色调，受 Japandi 和有机现代风格影响，圆润的造型、富有质感的材料、哑光饰面、微妙的阴影，画面中无人，无可见品牌标识，无文字。\n\n面板 1（左上，客厅）：展示一个舒适的客厅，包含 1 张弧形奶油色羊羔绒沙发、1 张圆形低矮木质咖啡桌、左侧 1 棵大型盆栽橄榄树、沙发上方居中挂有 1 幅米色抽象艺术画、右侧 1 盏带编织灯罩的拱形黄铜落地灯、咖啡桌上 1 个插有绿植的小陶瓷花瓶、一叠书上放着 1 个浅木碗，以及 1 张天然编织地毯。右后方设有一个拱形门洞，门后可见模糊的搁架。\n\n面板 2（右上，厨房）：展示一个精致的厨房，包含 1 个带有垂直长笛纹木饰面的浅色石材岛台、3 张木质吧台椅、上方悬挂 2 盏圆顶吊灯、左侧 1 扇高大的窗户或玻璃门，可见窗外绿植、岛台上 1 个插有树枝的白色花瓶、1 碗绿色水果、1 个黑色水龙头和灶台，后墙设有一块纤薄的悬浮搁板，摆放着极简陶瓷和 1 幅小型风景画框。\n\n面板 3（左下，卧室）：展示一个宁静的卧室，包含 1 张低矮木质床架、奶油色寝具、4 个可见的枕头、床尾搭着 1 条橄榄绿毯子、左侧 1 个木质床头柜、1 盏圆润的米色台灯、床上方 1 幅精致的植物艺术画、窗边 1 个插有绿叶茎的小花瓶、右侧 1 扇落地大窗，以及床下 1 张编织地毯。\n\n面板 4（右下，浴室）：展示一个水疗风格的浴室，包含 1 个独立式椭圆形奶油色石材浴缸、浴缸边缘搭着 1 条白毛巾、墙面嵌入式照明壁龛内摆放着极简瓶罐、碗和植物、1 个带两个旋钮的壁挂式黑色水龙头、1 张放有陶瓷的小圆木桌、右侧窗边 1 棵大型盆栽橄榄树，以及前景 1 张圆形编织地毯。\n\n自定义方向：保持整体美学为 {argument name=\"design style\" default=\"温暖的有机现代 Japandi 极简主义\"}，使用 {argument name=\"main color palette\" default=\"奶油色、米色、暖橡木色、橄榄绿和柔和的灰褐色\"}，将光照设置为 {argument name=\"lighting mood\" default=\"柔和的自然晨光\"}，材料重点保持为 {argument name=\"material focus\" default=\"羊羔绒、灰泥、橡木、石材、亚麻、陶瓷和编织纤维\"}，并使空间氛围呈现 {argument name=\"emotional tone\" default=\"宁静、温暖、优雅且低调奢华\"}。\n\n约束条件：严格使用 4 个面板并遵循指定的物体数量，保持构图简洁整洁，避免使用饱和色，避免强烈的对比，画面中不得出现人物、宠物、Logo、标题及多余的装饰杂物。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/21613.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_90s-paparazzi-tokyo-rain-street",
+              "name": "狗写实极简霓虹雨优雅",
+              "type": "prompt",
+              "prompt": "{argument name=\"location\" default=\"东京\"} 雨后街道（{argument name=\"brand\" default=\"Prada\"} 极简风格）\n一张超写实的 {argument name=\"era\" default=\"1990 年代\"} 纪实风格狗仔摄影作品，具有电影般的雨水浸润感，捕捉时尚活动后霓虹灯街道上的静谧时刻。\n一位年轻女性，面部特征保留完整，骨相优雅，因冷雨而皮肤微红，留着 90 年代层次感短发，发丝别在耳后，几缕湿发自然贴在脸颊。\n服装：超大款米色风衣，面料略带褶皱，腰间松散系带，内搭丝绸连衣裙隐约可见，色调中性，低调奢华，半开的雨伞微微倾斜。\n场景与构图：\n夜间街道，反光的柏油路面，霓虹灯光虚化成焦外成像，背景中有出租车驶过，狗仔队的闪光灯穿透雨幕。她走在路上，视线看向别处，神情冷静而疏离。\n35mm 胶片质感，高 ISO 颗粒感，雨丝的动态模糊，电影级对比度。\n负面提示词：无动漫，无 CGI，无过度处理的皮肤，无奇幻灯光，无插画，无塑料质感。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/25679.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_iphone-minimalist-office-woman",
+              "name": "女性极简写实办公室温暖优雅",
+              "type": "prompt",
+              "prompt": "一位美丽的年轻 {argument name=\"ethnicity and gender\" default=\"东亚女性\"}，留着 {argument name=\"hair style\" default=\"铂金短波波头\"}，有着白皙如瓷的皮肤、柔和的自然妆容和精致的五官，正坐在 {argument name=\"location\" default=\"现代极简居家办公室\"} 的木质书桌前。她身穿修身的白色无袖上衣，搭配优雅的高腰米色阔腿裤，裤腿完全遮住双腿，造型端庄又不失时尚感。她一只手放在键盘上，另一只手指向电脑显示器，眼神微微向上，表情沉静而深思。黑色的工学办公椅、台式电脑、白色书架、书籍、小装饰品和柔和的墙面艺术品点缀着这个舒适的工作空间。自然光从窗户射入，与温暖的室内环境光交织在一起。真实的 iPhone 16 Pro 手持相机拍摄，随性的智能手机摄影，略带广角镜头，轻微的透视畸变，真实的皮肤纹理，非摆拍的抓拍瞬间，全身照，垂直 3:4 构图，超写实，高细节，无 AI 感，无过度美颜，具备 DSLR 级别的写实感，但一眼就能看出是用 iPhone 拍摄的。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/26853.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_wellness-lifestyle-grid-collage",
+              "name": "女性写实极简温暖街头温柔",
+              "type": "prompt",
+              "prompt": "生成一张四宫格超写实主义编辑风格生活方式拼图，所有画面均包含 {argument name=\"subject\" default=\"同一位留着深棕色长波浪卷发的年轻女性\"}，皮肤清透有光泽，呈现水润裸妆感，身材匀称紧致，表情宁静从容，带着温柔的微笑。她穿着配套的 {argument name=\"outfit\" default=\"米色/奶油色罗纹运动装\"}：款式包括无袖短款上衣搭配高腰紧身裤，以及长袖短款上衣搭配高腰紧身裤，面料舒适且质感高级。\n\n使用单反相机搭配 50mm 或 85mm 左右的定焦镜头，光圈 f/1.4，浅景深营造出奶油般柔美的虚化效果，每一帧中人物主体均清晰对焦，超高分辨率的写实纹理，呈现编辑级生活方式美学。光线柔和、漫射，来自大窗户的温暖自然光。整体氛围平静、安详、平衡、精致、平和且充满活力。风格简约、高端、现代、干净且令人向往。\n\n色调：主色调为 {argument name=\"color scheme\" default=\"暖米色、奶油色、白色、大理石灰\"}。点缀色：绿色植物、金色装置与细节、天然木色以及淡紫色的奶昔。整体材质：白色大理石、浅色木材、石材、陶瓷、玻璃、亚麻。\n\n第一格，现代奢华厨房：白色大理石岛台和台面，白色摇臂柜，金色五金件，嵌入式酒柜，大窗户。她站在岛台旁，身体微微倾斜，低头用木制搅拌器在小陶瓷碗中搅拌热饮，热气袅袅升起。旁边放着一个印有字母“H”的马克杯。\n\n第二格，高端浴室：大型背光镜，白色大理石洗漱台，白墙，台面上摆放着一盆兰花。她面对镜子站立，一只手正用化妆棉将护肤品涂抹在脸上。周围摆放着：护肤品瓶、点燃的 Diptyque 香氛蜡烛、一个完整的椰子和玻璃罐。\n\n第三格，极简健康空间：带有弧形拱门的米色纹理墙面，石制喷泉，花瓶中插着尤加利叶。她正在进行全身拉伸，双臂向上伸展，头部后仰，闭着双眼。场景中可见一瓶大型香水。\n\n第四格，明亮的咖啡馆角落：圆形的白色大理石桌子配藤编椅，大窗户俯瞰着安静的街道。她坐在桌边，一边吃着牛油果吐司，一边拿着叉子，温柔地微笑着。桌上摆放着：一杯紫色奶昔、一本 Assouline 书籍、几本小笔记本和几朵小花。\n\n最终构图：干净的四宫格拼图，每一格中人物主体清晰对焦，编辑级生活方式摄影，简约高端的现代感，令人向往的健康生活氛围。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/21840.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_summer-tokyo-window-portrait",
+              "name": "女性写实极简城市雪可爱",
+              "type": "prompt",
+              "prompt": "主体：夏日窗边。\n\n主要对象：一位 20 多岁的女性，侧身坐在放置于高层公寓大落地窗旁的 {argument name=\"furniture\" default=\"浅灰色沙发\"} 上。人物位于画面中心偏右，上半身至大腿占据约 65% 的画面。她的左手自然地搭在打开的写真集上，正缓缓回眸看向镜头。窗外，{argument name=\"scenery\" default=\"东京夏日典型的城市景观\"} 广阔地铺展开来，背景经过柔焦处理。\n\n人物与表情：肤色白皙且具有通透感，带有自然的红润。明亮的大眼睛，精致的卧蚕，自然的棕色眼妆，以及淡淡的玫瑰色嘴唇。表情平静，略带慵懒感。发型为 {argument name=\"hairstyle\" default=\"深棕色长层次发，带有自然波浪，融合了韩式与日式风格\"}。刘海是轻薄的空气刘海。非盘发，而是从肩部自然垂落至背部的可爱日式发型。整体氛围结合了 20 多岁的清新感与成熟的沉稳感。\n\n服装与姿势：肩上轻披一件夏日象牙白透视开衫，内搭白色罗纹 V 领吊带背心。下身穿着浅色雪纺迷你裙或透视裹裙，既有优雅的透明感又不过分暴露。穿着细带凉鞋。佩戴精致的金色手链和戒指，以及小巧的耳环。身体朝向窗户，腰部微微扭转，回眸的姿势自然。双腿放松交叠，展现出优美的女性曲线，同时保持着松弛的姿态。\n\n背景与光影：日式高层住宅。落地大玻璃窗。窗外是夏日东京的街道，蓝天与轻微的薄雾融入城市之中。室内为极简现代风格。自然光从左上方柔和地射入，在头发、肩膀和腿部形成细腻的高光。白色的透视材质在光线下呈现出优雅的半透明感。整体色调为明亮且清爽的蓝白色。\n\n构图与摄影：9:16 竖构图。{argument name=\"lens\" default=\"85mm 人像镜头\"}。平视拍摄。浅景深。背景高度虚化，将视线集中在人物身上。为窗户留出充足的留白，以营造都市的开阔感。如同杂志社论般精致的时尚摄影。\n\n质感与风格：超高清写实摄影。自然的皮肤纹理、柔和的透视织物透明感、每一根发丝以及优雅的光泽。如同电影场景般的通透感。高端时尚杂志社论风格，色调沉稳，氛围细腻，阴影自然，展现日本女性的真实之美。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/29212.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_minimalist-japanese-film-portrait-woman",
+              "name": "女性极简胶片室内梦幻",
+              "type": "prompt",
+              "prompt": "[主体]\n{argument name=\"subject\" default=\"年轻东亚女性\"}，窗边的极简室内日系电影摄影\n[造型]\n\n自然光感妆容，柔和真实的皮肤质感\n黑色长发，略显凌乱但自然\n{argument name=\"outfit\" default=\"宽松白衬衫\"}，轻便短裤，赤脚\n简约、放松且自然的造型\n[姿态]\n\n平视镜头，面向相机\n自然的站姿，放松的状态\n双臂自然垂于身体两侧或轻微置于身后\n神情温和，带着淡淡的微笑\n整体流露出微妙的静谧感，安静，非刻意摆拍\n[环境]\n极简室内场景，窗边挂着白色窗帘，{argument name=\"wall\" default=\"干净的浅色墙面\"}，空间简约通透。\n\n[构图]\n竖构图 9:16，平视角度，中景全身构图，从大腿中部到头部取景。构图自然，聚焦于人物、窗光、空气感以及安静的日常氛围。\n[光影/色彩]\n柔和的漫射自然窗光，轻微过曝，柔和色调，低对比度，柔和高光。整体温和、通透、梦幻且低调。\n\n[风格]\n模拟 35mm 胶片摄影，柔和通透的日系美学，细腻的胶片颗粒感，真实自然，注重光影、空气感以及安静的日常生活气息。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/25366.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_urban-fashion-portal-window",
+              "name": "女性极简城市温暖优雅",
+              "type": "prompt",
+              "prompt": "一位时尚的年轻女性随意地坐在白色窗台上，被一个带有柔和银色边框的 {argument name=\"window style\" default=\"大型圆形窗户\"} 勾勒出轮廓，背景中可见 {argument name=\"background\" default=\"城市天际线\"}，天空呈现清澈的青蓝色。她拥有温暖的橄榄色肤色，肌肤散发柔和光泽，深色头发藏在米色棒球帽下，妆容精致，双唇水润。身穿 {argument name=\"outfit\" default=\"海军蓝缎面飞行员夹克\"}，内搭浅灰色条纹短款上衣，下身穿着铁锈棕色定制阔腿裤，裤脚有精致的翻边设计，脚蹬干净的白色皮革运动鞋。她双腿优雅地在脚踝处交叉坐着，双手轻放在膝盖上，面带微笑，目光望向一侧。佩戴腕表和极简主义金色耳环。圆形窗下方为摄影棚风格的纯净白色背景。编辑时尚摄影，柔和自然光，细节清晰，8K 分辨率。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/24932.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_pr-32354",
+              "name": "极简动物",
+              "type": "prompt",
+              "prompt": "A single red fox, styled as a simple watercolor sticker on a solid white background. The fox has soft, natural rusty-red and white color washes with dark accents on its legs and ears, and an organic, hand-painted texture. The entire illustration is enclosed in a white sticker border cutout shape, with a thin black outline around the outer edge for cutting out. No text, simple and hand-drawn look.",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptsref",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/50744_out.png",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_luxury-fitness-editorial-campaign",
+              "name": "女性极简Logo温暖工作室优雅",
+              "type": "prompt",
+              "prompt": "电影质感奢华健身专题，温暖的混凝土工作室背景，带有细腻纹理，柔和的定向光投射出自然阴影，{argument name=\"athlete description\" default=\"身材健美的女性运动员自信地坐在哑光黑色跳箱上\"}，一条腿伸展，另一条腿弯曲，{argument name=\"outfit\" default=\"极简米色运动套装（运动内衣 + 修身短裤）\"}，白色中筒袜和厚底运动鞋，黑色药球放置在脚边，皮肤呈现光泽感，姿态强健，表情优雅而有力\\n左侧醒目排版：“{argument name=\"headline\" default=\"BUILT ON DISCIPLINE\"}”，使用大型现代无衬线字体，柔和的米色，下方配有极简品牌 Logo\\n底部拆分布局：\\n左侧面板 — 特写肖像，水润肌肤，专注神情，文字“FOCUS FUEL FINISH”\\n右侧面板 — 坐姿放松，手持药球，文字“TRAIN YOUR MIND. OWN YOUR RESULTS.”\\n构图极其简洁，反光混凝土底面，高端运动广告美学，高对比度，细节锐利，1:1 纵横比",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/16791.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_pr-33708",
+              "name": "极简产品",
+              "type": "prompt",
+              "prompt": "Create a premium brand kit board for [Promptsref], presented like a professional branding studio slide. Show the existing brand identity in a clean, organized visual presentation. Include primary logo, secondary logo, icon, [COLOR PALETTE], typography pairing, branded packaging or product mockups, social media mockup, and simple brand pattern elements. Style: [STYLE]. Use a clean editorial grid, realistic materials, strong hierarchy, and polished presentation. Text to include: \"[Promptsref]",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptsref",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/2151_out.png",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_pr-32944",
+              "name": "极简产品",
+              "type": "prompt",
+              "prompt": "Create a high-end minimalist fashion advertisement poster.\r\nBackground: light grey wrinkled paper poster texture with editorial magazine layout.\r\nAt the top center place a small brand label “A&H” with minimal dots style logo above it.\r\nBehind the product place a huge bold word “PREMIUM” in black, very large sans-serif font, spanning almost the entire width of the poster.\r\nCenter of the poster:\r\nA two-tone t-shirt hanging on a wooden hanger.\r\nTop half color beige/tan, bottom half deep black.\r\nShort sleeves slightly folded.\r\nClean premium cotton texture.\r\nOn the chest of the shirt place the small text “YOUR BRAND NAME” in simple minimal font.\r\nLeft side design area:\r\nStylish script word “Aetails” (signature style starting with A) replacing “Details”.\r\nUnder it small editorial paragraph blocks (magazine layout filler text).\r\nRight side:\r\nEditorial typography block with the phrase\r\n“FASHION THAT CELEBRATES YOUR UNIQUENESS”\r\nin bold modern sans-serif.\r\nBottom right small editorial text block similar to fashion magazine layout.\r\nImportant rules: • Do NOT add any website URLs\r\n• Do NOT add social media icons\r\n• Do NOT add barcodes\r\n• Do NOT add any random or unrecognizable text\r\n• Brand name must be “A&H”\r\n• Keep same colors, same layout, same typography style, same font weight, same font sizes, same composition\r\n• clean luxury fashion ad aesthetic\r\n• studio lighting, ultra sharp, photorealistic, 4K fashion poster design",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptsref",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/31586_out.png",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_minimal-saas-poster-mascot",
+              "name": "角色极简Logo宇宙山优雅",
+              "type": "prompt",
+              "prompt": "一张大胆的极简主义品牌海报，采用哑光黑色背景，带有柔和的颗粒印刷质感，设计风格类似于初创公司的落地页首屏图形。在左上角放置一个简单的奶油色 Logo 图标，后跟品牌名称 {argument name=\"brand name\" default=\"Biscuit\"}，采用精致的衬线字体。在其下方，创建一个大型左对齐的排版块，占据构图左侧约一半的空间。主标题为 {argument name=\"headline text\" default=\"Built for solopreneurs.\"}，使用超大号优雅的奶油色衬线字体，具有强烈的对比度和宽裕的行间距。在其正下方，添加第二行标题，使用鲜艳的亮粉色斜体衬线字体，内容为 {argument name=\"tagline text\" default=\"Backed by simplicity.\"}。下方添加一个较小的白色无衬线正文块，左对齐，内容为 {argument name=\"body text\" default=\"Everything you need to launch, run, and grow—all in one place.\"}。在左下角附近，放置 URL {argument name=\"website text\" default=\"biscuit.so\"}，使用粗体亮粉色无衬线字体。在右半部分，展示一个可爱的抽象吉祥物：一个圆润且不规则的云状粉色团块角色，边缘呈扇贝状，拥有 2 只巨大的奶油色与黑色圆形眼睛、1 个微小的弯曲笑嘴，以及 2 只小巧圆润的手，正搁在一个从底部边缘升起、类似小山或产品表面的巨大弧形粉色形状上。在右上象限添加密集的亮粉色喷溅状斑点和颗粒，并向中心渐变，营造出俏皮的宇宙墨水飞溅效果。使用黑色、奶油色、白色和饱和粉色的有限调色板；高对比度的编辑排版；大量的留白；简洁、现代、平易近人且对创始人友好的 SaaS 品牌美学；角色位于右侧居中；竖版海报构图。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/15114.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_summer-handwritten-typography-poster",
+              "name": "极简夏季手写字体排版",
+              "type": "prompt",
+              "prompt": "根据特定主题内容生成清爽的夏季手写字体视觉效果：背景采用大面积清新的配色方案或明亮的色块。主体文字使用白色纤细手写体，笔触流畅，具有长弧线和如风般的尾迹。部分字形可穿插小型英文字母和装饰线条。构图中心留白以供主体文字呼吸，字形间轻微错位，呈现出风、天气或生活方式品牌的质感。色彩保留高饱和度但干净的主色调，搭配明亮的白色文字和少量浅色细线，营造出透明、轻快且通透的氛围。关键在于笔触的漂浮方向和留白处理；请勿将其制作成厚重的标语字体。\n\n文本：{argument name=\"text\" default=\"Summer Breeze\"}\n注意：黑色背景上的白色文字\n比例 16:9",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/24111.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_pr-32901",
+              "name": "极简花",
+              "type": "prompt",
+              "prompt": "A natural translucent makeup style often seen in East Asian social media beauty contexts: clean base, soft brows, delicate eyeliner, visible but not exaggerated lashes, light brown eyeshadow, coral-red or rose-red lips, sweet and natural rather than stage-like.",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptsref",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/32881_out.png",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_minimal-analog-wall-clock-at-0529",
+              "name": "05_29 的极简模拟挂钟",
+              "type": "prompt",
+              "prompt": "一张极简主义风格的摄影作品，展示了一个安装在平滑浅灰色墙面上的圆形模拟挂钟，画面居中且为正视视角。挂钟配有哑光黑色圆形边框、简洁的白色表盘、1 到 12 的黑色阿拉伯数字，表盘周围有细长的黑色分钟刻度，每个数字处有较粗的小时刻度。显示完整的 12 个数字和 60 个分钟刻度。显示时间为 {argument name=\"clock time\" default=\"05:29\"}：短时针略微超过 5 点，长分针指向 6 点前方的 29 分钟刻度，极细的黑色秒针位于表盘下半部分约 31 秒的位置。柔和均匀的灯光，墙上带有细腻逼真的阴影，高细节产品摄影质感，中性现代室内美学，无品牌标识，无额外物体，方形构图。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/14954.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_minimalist-blue-circle-test",
+              "name": "极简诊断 API 测试",
+              "type": "prompt",
+              "prompt": "一个简单的 {argument name=\"shape and color\" default=\"蓝色圆形\"}，居中放置在纯色的 {argument name=\"background color\" default=\"白色\"} 背景上，无文字，无水印",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/28989.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_minimalist-tech-accessory-advertisement",
+              "name": "极简科技配件广告",
+              "type": "prompt",
+              "prompt": "为 {argument name=\"accessory\" default=\"[ACCESSORY]\"} 生成一个科技配件广告，悬浮产品渲染图，磁吸对齐，平滑渐变，清晰的规格卡片，简洁的无衬线字体，Apple 级极简主义，高端数字产品发布美学。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/16247.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_organ-health-food-infographic",
+              "name": "食物等距极简高级",
+              "type": "prompt",
+              "prompt": "2x2 网格，针对 {argument name=\"target organ\" default=\"heart\"} 以及其他 3 个器官执行此操作。16x9 organ_nourishment_content = ( [organ] 的奢华解剖剖面图，周围环绕着对 [organ] 具有临床意义的健康食物 * 1.8 ) + ( 食物与功能映射图，展示每种成分如何支持 [organ] 的循环、修复、能量和保护 * 1.6 ) + ( 针对与 [organ] 健康相关的关键营养素的宏量和微量营养素标注 * 1.5 ) + ( 高级等距金色线条图，连接 [food_1] [food_2] [food_3] [food_4] 与 [organ] 上的益处区域 * 1.5 ) + ( 针对 [organ] 健康的每日餐盘构成，包含早餐、午餐、晚餐和零食，采用奢华菜单布局 * 1.4 ) + ( 成分纹理特写，如光泽浆果、碎坚果、绿叶蔬菜、橄榄油、种子、鱼类或豆类 * 1.3 ) + ( 颜色编码的益处环，涵盖抗炎、抗氧化、循环、代谢和补水 * 1.3 ) + ( 极简且基于证据的食物替换表，将 [unhealthy_food] 替换为 [healthy_alternative] * 1.2 ) + ( 优雅的医疗水疗美学，白色大理石背景、柔和阴影、金色点缀、清晰的衬线字体 * 1.2 ) + ( 可保存的 Instagram 轮播面板，展示 [organ] 的前 10 种食物，每种食物附带一行理由 * 1.1 ) - ( 基于恐惧的疾病图像或医院视觉效果 / 3.5 ) - ( 没有功能解释的随机超级食物声明 / 3.4 ) - ( 廉价的剪贴画器官或通用的库存食物照片 / 3.3 ) - ( 文字过于拥挤，在移动端无法阅读 / 3.2 )",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/19857.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_pr-32614",
+              "name": "极简产品",
+              "type": "prompt",
+              "prompt": "Long Commercial luxury product photography poster, photorealistic, ultra high detail, 8K quality. A gradient deep violet glass base in royal purple and electric blue gradually transitioning to a lighter cyan at the top. The bottle is placed on a trunk with dark moss and tiny ferns appearing in the scene. Name of brand \"Eye+\" Low angle 45° side camera view to make the bottle feel tall and powerful. The bottom of the bottle is partially visible. Realistic water droplets in air, around the bottle and in background, the bottle has a matte midnight blue cap. With a few drops falling, frozen mid-drip for a time-stopped effect. Background with no texture. Soft, even studio lighting with clean reflections, premium advertising look, sharp focus, realistic materials, no distractions. Light refraction & retention at the bottom of the bottle contact with glass. Big text vertically stretched EYE+ in white and a lot of small text in background in white product description, advantages in product. Etc.",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptsref",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/43842_out.png",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_pr-33167",
+              "name": "极简产品",
+              "type": "prompt",
+              "prompt": "A premium travel advertising poster.Central Subject:\r\nA single modern hard-shell suitcase standing upright in the center.Design Style:\r\nModern lifestyle branding mixed with premium editorial design.Background:\r\nBright turquoise backdrop with warm orange graphic accents.Graphic Elements:\r\nOversized circular shapes, travel-inspired lines, abstract directional arrows, and minimal geometric layers.Typography:\r\nHuge bold typography reading:\"GO FURTHER\"The typography sits behind the suitcase and interacts naturally with the composition.Materials:\r\nPremium polycarbonate shell, metallic handles, realistic textures and reflections.Lighting:\r\nLuxury commercial product photography lighting.Mood:\r\nOptimistic, adventurous, highly commercial.Aspect Ratio:\r\n9:16 vertical poster.Ultra detailed.\r\n8K masterpiece.",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptsref",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/18779_out.png",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_pr-32764",
+              "name": "极简产品",
+              "type": "prompt",
+              "prompt": "Minimal black marble cube on a white seamless studio background, soft shadow, product photography",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptsref",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/38046_out.png",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_minimalist-traveler-airport-sunrise-scene",
+              "name": "极简主义旅行者机场场景",
+              "type": "prompt",
+              "prompt": "超写实电影级镜头，一位 {argument name=\"subject\" default=\"帅气的旅行者\"} 站在清晨移动的机场自动扶梯上，身穿高端极简主义街头服饰，背着奢华双肩包，身后是洒满晨光的巨大机场落地窗，充满情感的电影感旅行氛围，超写实细节，8k 分辨率",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/23579.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_pr-32310",
+              "name": "极简AI 生成图片",
+              "type": "prompt",
+              "prompt": "Eine Minimalistische Instagram AD for ein Modebrand, Blaue Farbe palatte, mit einer Hose die dem heutigen Leinen Look wiederspiegelt",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptsref",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/53900_out.png",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_amber-light-bird-silhouette",
+              "name": "鸟极简温暖",
+              "type": "prompt",
+              "prompt": "艺术摄影风格。画面中央是一束明亮的 {argument name=\"light color\" default=\"琥珀色\"} 矩形光束，如同傍晚的阳光穿过窗户投射在 {argument name=\"wall color\" default=\"深蓝色\"} 的墙面上。前景是精致的枝条剪影，点缀着几朵盛开的花，{argument name=\"subject\" default=\"一只灵动的小鸟\"} 正静静地栖息其上。视觉要点：1. 剪影：鸟儿与花枝呈现为纯粹的深色剪影，在明亮的黄色背景光衬托下格外清晰。2. 色彩对比：深蓝色的环境背景与温暖的黄色窗光形成鲜明的互补对比。3. 氛围：极简构图，极具诗意与禅意，光影边缘柔和。4. 4k 分辨率，超高质量，电影级质感。 --ar 9:16 --v 6.0",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/20509.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_frosted-glass-minimalist-background",
+              "name": "磨砂玻璃极简质感",
+              "type": "prompt",
+              "prompt": "背景具有 {argument name=\"background color\" default=\"浅纯米色\"} 磨砂玻璃质感，呈现极简风格。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/23327.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_minimalist-gradient-phone-wallpaper",
+              "name": "极简渐变手机壁纸",
+              "type": "prompt",
+              "prompt": "设计一张精美的 {argument name=\"orientation\" default=\"9:16 垂直\"} 壁纸。在画面顶部和底部保留自然的留白空间。应用一种从上到下过渡的 {argument name=\"style\" default=\"柔和、平滑的渐变\"} 效果。避免任何模糊效果或裁剪。保持构图简洁明快。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/21663.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_river-stone-stylized-sculpture",
+              "name": "动物极简可爱",
+              "type": "prompt",
+              "prompt": "由光滑河石制成的可爱风格化 {argument name=\"subject\" default=\"动物\"}，堆叠的有机形态，哑光矿物质感，{argument name=\"action\" default=\"安静地坐着\"}，宁静的禅意氛围，圆润的比例，自然的 {argument name=\"color tones\" default=\"大地色\"}，极简构图，柔和的定向光，具有收藏价值的艺术品美学。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/26360.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_blind-embossed-paper-art-minimalism",
+              "name": "极简主义浮雕纸艺",
+              "type": "prompt",
+              "prompt": "\"{argument name=\"subject\" default=\"[SUBJECT]\"} 呈现为浮雕纸艺作品，仅有微妙的凸起纹理，无墨水，单色白底构图，优雅的阴影，奢华文具美学，博物馆级极简主义。\"",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/27073.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_pr-32766",
+              "name": "极简AI 生成图片",
+              "type": "prompt",
+              "prompt": "Generate keep calm cause Harvard, Stanford, Cambridge, Cornell university are waiting with Harvard’s and the other two unicersities badge, this is going to be my wallpaper. Make it look aethstheftially pleasing and look great! Simple background all I want is it to be simple and motivational, white background, make random adjustments",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptsref",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/38036_out.png",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_tw-30774",
+              "name": "女性极简写实冷调未来高级",
+              "type": "prompt",
+              "prompt": "成年亚洲女性剑士，清冷漂亮的五官，长黑发，略带湿发感与凌乱碎发，头发被高速气流吹起，淡妆，通透白皙皮肤，冷静锐利的眼神，直视镜头。穿宽松微皱的白色衬衫，袖口随意卷起，灰色针织外套系在腰间，深灰黑色格纹百褶裙，黑色过膝长袜，黑色学院风皮鞋，背部交叉固定两把黑色日式长刀。\n\n人物手持一把出鞘武士刀，摆出拔刀、横斩、下劈、格挡、半蹲蓄力等极具张力的剑术动作。刀身由透明冰晶、玻璃和流动液态能量构成，锋刃散发冷白色光芒，周围形成强烈的白色刀气、弧形剑气、透明水流、冰裂纹、玻璃碎片与高速运动轨迹。刀气环绕人物身体并穿过画面前景，地面出现被斩开的裂痕和能量爆裂效果，碎屑飞溅，画面具有瞬间定格的冲击感。\n\n银灰色极简摄影棚背景，高调冷白光，正面硬闪光摄影，浅灰白色调，轻微过曝，皮肤保留真实纹理，细腻发丝，高锐度，金属和透明刀身具有真实反射。日系动作电影海报、未来都市剑客、时尚杂志大片与赛博武术视觉结合，构图大胆，低机位、近距离广角、人物居中或倾斜构图，强烈纵深感。\n\n画面加入黑色粗体英文标题和未来主义技术文字排版，大标题采用高速横向拉伸、扫描线、错位撕裂、故障拖影和油墨刮擦效果，文字部分被人物和刀气遮挡，形成前后穿插关系；周围加入细小坐标线、条形码、HUD刻度、编号、技术注释和微型英文。整体黑白银灰配色，冷酷、干净、凌厉、高级、具有速度感和视觉冲击力，电影级写实，超高清细节，单人海报，竖版 9:16。\n\n英文标题可替换\n\nSKYLINE DIVIDE\nCROSS EDGE\nGROUND BREAKER\nRIFT STEP\nQUICKDRAW VEIL\nSHADOW SLASH\nMOONCUT\nLOCKDOWN PIERCE\n\n辅助小字：\n\nBLADE MODE\nPHASE ATTACK\nVERTICAL SLASH\nIMPACT LINE\nCUT THROUGH\nARC STRIKE\nFINAL FORM\nHOLD FRAME\n\n组图动作变化词\n\n八张图保持同一位成年女性、同一套服装与面部特征，每张使用不同动作：双手竖举长刀、横向拔刀、单膝蹲地刀尖撞击地面、双刀交叉准备进攻、近景缓慢拔刀、刀身横在面前、低角度挥刀、跪姿双手压住长刀。人物表情分别为冷静、警觉、克制、锐利、专注，刀气形态和英文标题各不相同，每张独立成图，不要拼图。\n\n负面提示词\n\n未成年人，幼态儿童脸，色情姿势，过度暴露，透视服装，血液，伤口，肢体残缺，真实暴力场景，低清晰度，模糊五官，塑料皮肤，畸形手指，多余手臂，多余刀具，刀柄断裂，武器穿模，错误握刀姿势，杂乱背景，暖黄色调，卡通感，低质量文字，乱码覆盖面部，品牌标志，水印。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/30774.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_luxury-golf-fashion-editorial-campaign",
+              "name": "女性写实极简草地温暖优雅",
+              "type": "prompt",
+              "prompt": "在优质高尔夫球场黄金时刻的奢华 {argument name=\"theme\" default=\"高尔夫时尚企划\"}，身着优雅米色单色运动装的运动型 {argument name=\"subject\" default=\"女性高尔夫球手\"} 自信地坐在一个带有黑色对勾标志的超大高尔夫球上，电影级日落光影，湿润草地上的光泽反射，背景中写有“{argument name=\"text\" default=\"PRECISION\"}”的巨大醒目排版，极简奢华运动品牌风格，温暖的金色调，杂志编辑构图，戏剧性阴影，超写实皮肤纹理，高端运动美学，高级时尚运动广告，浅景深，简洁构图，超精细写实，8k 画质",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/20840.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_golden-fashion-triptych",
+              "name": "女性写实极简温暖未来优雅",
+              "type": "prompt",
+              "prompt": "创作一组电影质感的奢华时尚三联画，采用温暖的黄金时刻光效，主体为 {argument name=\"subject\" default=\"一位身着香槟金垂坠晚礼服的优雅女性\"}。画布：宽屏 16:9 水平拼贴，精确分为 3 个垂直面板。左侧面板：全身时尚大片视角，女性伫立在广阔的未来感玻璃与金色建筑内部，地面光亮如镜，墙壁透明，窗外可见沙漠沙丘与平静如水的地平线，礼服长裙摆铺散在地，呈现对称的高级时尚姿态，面部由一个小巧柔和的棕色矩形遮挡块刻意遮盖。中心面板：胸部至头部的中景肖像剪裁，身着同款深 V 领且带有希腊式褶皱的礼服，露出肩部与锁骨，背景为阳光照射下模糊的沙漠建筑，面部由一个居中的哑光棕色方形遮挡块覆盖。右侧面板：上身与头部的紧凑特写，强调肩部褶皱的金色面料，背景为温暖的焦外成像，面部由一个较大的哑光棕色方形遮挡块覆盖，右下胸部附近有一个微小的淡色星形闪光图标。视觉风格：照片级真实感的高端时尚广告，琥珀色单色调，光泽反射，柔和镜头光晕，特写镜头采用浅景深，优雅极简，无可见文字，无 Logo，无水印。使用精确的 3 个遮脸棕色矩形和 1 个小巧闪光图标。整体氛围应呈现出在日落时分拍摄的奢华沙漠度假村大片感，色调为 {argument name=\"color palette\" default=\"金色、青铜色、香槟色和蜂蜜琥珀色\"}。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/25270.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_luxury-watch-advertisement",
+              "name": "男性品牌极简优雅",
+              "type": "prompt",
+              "prompt": "目标：为 {argument name=\"brand name\" default=\"VANTORÉ\"} 创作一则奢华瑞士腕表广告，画面包含一位时尚的男性模特，呈现高端时尚姿态。\n\n画布：1:1 正方形奢华杂志广告，采用暖米色与炭灰色调，高端编辑摄影与精致平面设计相结合。构图采用左右分割：左侧为模特，右侧为品牌标识与腕表细节。\n\n布局：左侧展示一位英俊的男性模特，背景为极简主义地中海风格的米色建筑，带有高大的圆形拱门和强烈的午后阴影。他的面部被一个居中的暖棕色柔边正方形模糊处理，但深色波浪卷发清晰可见。他身着剪裁合身的 {argument name=\"suit color\" default=\"灰褐色\"} 西装，搭配深棕色/黑色开领衬衫和同色系口袋巾，一只手插在裤兜里。另一只手整理着西装翻领，以便清晰展示左手腕上的奢华腕表。右侧为炭灰色垂直面板，配有优雅的高端排版，右下角放置腕表产品渲染图。\n\n文字内容：在右侧面板顶部，放置一个极简的金色 V 字形字母组合 Logo，下方为大号间距的金色衬线字体品牌名“{argument name=\"brand name\" default=\"VANTORÉ\"}”，下方以小号间距大写字母标注“SWISS MADE”。居中标题为“{argument name=\"headline text\" default=\"TIME REDEFINED\"}”，采用大号白色高对比度衬线大写字母，分为两行排列。下方添加一条细金色分割线。线下方书写小号间距金色大写字母“CRAFTED FOR LEADERS”，随后是小号斜体白色字体的“Swiss Made Collection”。再下方书写极小号间距金色大写字母“PRECISION • PRESTIGE • PERFORMANCE”。\n\n产品细节：包含 2 只清晰可见的腕表：一只佩戴在模特手腕上，另一只为右下角的独立产品渲染图。两款腕表均为黑色表盘、玫瑰金表壳与指针、纤细刻度及黑色皮质表带。在独立腕表下方，书写小号金色间距大写字母“VANTORÉ HERITAGE”以及更小号的白色间距大写字母“AUTOMATIC”。\n\n底部功能行：在左下角包含 3 个小型金色线条图标及白色标签：1 个盾牌图标标注“5 YEAR WARRANTY”，1 个水滴图标标注“5 ATM WATER RESISTANT”，以及 1 个瑞士十字图标标注“SWISS MOVEMENT”。\n\n视觉风格：高端腕表营销活动，电影感暖阳，干练的西装剪裁，真实的织物纹理，浅景深，优雅的拱门阴影，极简布局，炭灰色背景上精致的金色与白色排版，奢华编辑风格。\n\n约束条件：保持模特在左、排版与产品腕表在右的布局，维持简洁的奢华感，确保腕表清晰可见，不出现额外人物，除 3 个功能图标外不添加其他图标，且避免任何水印或社交媒体 UI。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/25729.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_photoreal-character-sheet",
+              "name": "女性写实极简",
+              "type": "prompt",
+              "prompt": "目标：为 {argument name=\"character name\" default=\"一位年轻日本女性\"} 创建一张清晰的写实风格角色参考图表，旨在确保在后续的图像生成中保持面部和服装的一致性。\n\n画布：宽幅 3:2 横向图表，白色背景，细浅灰色网格线将页面划分为六个板块。极简摄影棚灯光，锐利的写实摄影风格，中性阴影，所有板块排列整齐，如同专业的模特参考图。\n\n主体细节：同一位年轻女性贯穿始终，拥有 {argument name=\"hair color\" default=\"长直黑发，带有柔和的刘海\"}，白皙的皮肤，自然妆容，大而深邃的眼睛，精致的鼻子和嘴唇，身材苗条，外表平静且年轻。在所有全身视图中，她穿着 {argument name=\"outfit\" default=\"白色无袖荷叶边衬衫，浅蓝色阔腿牛仔裤，以及白色运动鞋\"}。确保她在每个视图中的面部、发型、比例和服装完全一致。\n\n布局与板块数量：使用 6 个明确标注的板块：1) 全身视图 (FULL BODY)，2) 特写 (CLOSE UP)，3) 表情 (EXPRESSION)，4) 侧面与背面 (SIDE & BACK)，5) 面部细节 (FACE PARTS)，6) 其他角度 (OTHER ANGLES)。\n\n板块 1，全身视图 (FULL BODY)：左上角大板块。展示 3 个全身站立视图，分别标注为正面 (FRONT)、侧面 (SIDE) 和背面 (BACK)。模特直立，双臂放松，正面视图看向镜头，侧面视图为侧影，背面视图展示长发和背后的服装细节。\n\n板块 2，特写 (CLOSE UP)：顶部中间板块。展示 3 个特写肖像：上方 1 个大型正面头部及肩部肖像，下方 2 个较小的四分之三侧脸特写，一个向左倾斜，一个向右倾斜。所有图像均围绕头部和肩部进行裁剪。\n\n板块 3，表情 (EXPRESSION)：右上角大板块。以 2 行 4 列的网格展示 8 个半身肖像。使用可见的表情标签集 {argument name=\"expression labels\" default=\"ノーマル, 笑顔, 驚き, 照れ, 真剣, 悲しい, 考え中, にっこり\"}。表情分别为：正常、微笑、惊讶（张嘴）、害羞/尴尬（低头）、严肃、悲伤、思考（手指轻触下巴）以及灿烂的笑容。\n\n板块 4，侧面与背面 (SIDE & BACK)：左下角板块。展示 4 个全身站立视图：左侧侧影、右侧侧影、背面视图以及背面四分之三侧视图。服装和鞋子相同，干净的白色摄影棚背景，间距均匀。\n\n板块 5，面部细节 (FACE PARTS)：中间底部板块。以 2 行 3 列的网格展示 6 个方形细节裁剪图：眼睛特写、鼻子特写、嘴巴特写、眉毛/闭眼细节、耳朵特写以及带有鬓角/刘海细节的发质特写。在每个裁剪图上方使用简单的小标签标注。\n\n板块 6，其他角度 (OTHER ANGLES)：右下角板块。展示 4 个半身肖像：左侧四分之三斜角、右侧四分之三斜角、俯视视角（眼睛下垂）以及仰视视角（下巴微抬）。使用相同的灯光和写实的面部特征。\n\n视觉风格：写实风格的日本偶像/模特参考图表，高分辨率摄影棚摄影，柔和均匀的光线，白色和浅灰色调，清晰的细分割线，黑色大写英文字体作为板块标题，每张图片上方带有小标签。无水印，无 Logo，无额外人物，无装饰性背景，无面部特征不一致的情况。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/28066.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_tech-magazine-spatial-computing-cover",
+              "name": "女性写实极简工作室优雅",
+              "type": "prompt",
+              "prompt": "超写实科技杂志封面，主角是一位身着极简 {argument name=\"clothing\" default=\"鸽灰色罗纹高领毛衣\"} 和炭灰色定制阔腿裤的 {argument name=\"nationality\" default=\"韩国\"} 女性，佩戴着 Apple Vision Pro 头显。她双手优雅地抬起，仿佛正在操控隐形的悬浮 UI 面板，手指轻盈地捏合着全息内容。柔和的界面光映照在细腻的瓷感肌肤上，发型顺滑利落，妆容清透。背景：无缝深石板色工作室，配有悬浮的半透明 visionOS 界面窗口，以及从头显中散发出的柔和体积光束。杂志刊头为 \"{argument name=\"magazine\" default=\"THE VERGE\"}\"，采用简洁现代的无衬线字体，副标题为 \"SPATIAL COMPUTING ISSUE\"（空间计算特刊）。85mm 镜头，超精细的头显铝合金质感及界面光在皮肤上的交互效果，8K 照片级画质。负面提示词：卡通、模糊、姿势笨拙、水印、手部畸形。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/27332.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_object-doodle-composite-photography-art",
+              "name": "角色极简手绘",
+              "type": "prompt",
+              "prompt": "创意合成摄影，9:16 纵向比例，干净极简的白色背景，影棚灯光，高细节，清晰对焦。\n\n一个真实的 {argument name=\"everyday object\" default=\"日常物品\"} 被放置在画面中，并与黑色墨水手绘的卡通图案完美融合。绘图采用简洁、富有表现力的线条，笔触极简，类似于纸上的速写。\n\n{argument name=\"object name\" default=\"该物品\"} 代表了 {argument name=\"visual metaphor\" default=\"场景中精心构思的一部分\"}，巧妙地完成了一个视觉双关语或概念。卡通角色以幽默、有意义或出人意料的方式与物品进行动态互动。\n\n照片级真实物品 + 粗线条黑色绘图风格，实物与插画的完美结合，纯净的留白，艺术且巧妙的构思，高质量产品摄影与涂鸦的结合。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/24303.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_pixar-style-3d-cartoon-character",
+              "name": "角色3D极简忧郁",
+              "type": "prompt",
+              "prompt": "一个风格化的 3D 卡通人物，主体为 {argument name=\"person\" default=\"角色\"}，拥有大而生动的眼睛和略显忧郁、闷闷不乐的表情，背景为纯色的 {argument name=\"background color\" default=\"淡绿色\"}。该角色戴着一顶毛茸茸的白色护耳针织帽，并配有同色系的白色头戴式耳机。帽子下露出凌乱的棕色短发。身穿一件宽松的淡绿色 T 恤，胸前印有醒目的黑色图案，双臂交叉，呈现出无聊或烦躁的姿态。柔和的漫反射摄影棚灯光营造出平滑的阴影，质感精致。超精细、高质量的 3D 渲染，采用 {argument name=\"art style\" default=\"皮克斯风格\"}，纹理平滑，浅景深，居中构图，背景简洁极简，配色柔和而鲜明。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/25388.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_tw-31761",
+              "name": "3D极简工作室",
+              "type": "prompt",
+              "prompt": "创作一张 3:4 竖版的极简数字品牌海报，背景为绝对纯黑。画面中央放置一个超大、厚实、圆润、倾斜的连续手写体 3D 单词“edit”，字形像一根柔软的充气硅胶管一笔连成，粗细变化自然，字母相互穿插但仍清晰可读；主体横向占据画面大部分宽度，纵向位于略高于中心的位置，保留宽阔黑色负空间。颜色从左到右连续过渡：深紫与电蓝进入洋红和粉红，再到红橙、金黄、亮青绿与薄荷青；色带沿字形曲面流动而不是按字母生硬分段。表面覆盖非常细密的闪砂颗粒与微小点状高光，轮廓边缘柔和发光，具有哑光天鹅绒和细砂喷涂并存的触感；厚圆截面带真实明暗塑形，局部出现温和的次表面散射，不要镜面塑料感。在字标中央前方叠加一枚短而精致的半透明黑色圆角操作胶囊，轻微磨砂玻璃、细灰描边和柔软投影：左侧是一个原创的白色抽象折角图形，中央文字“Open in genvizu”，右侧小按钮“Launch”。胶囊尺寸克制，不遮住整个字形。整体锐利、现代、干净，像实验性动效工作室的静帧。不要真实平台名称或 logo、第三方商标、二维码、水印、额外元素、彩色背景、漂浮粒子或乱码。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/2079120729241706859.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_sequential-fashion-storyboard-collage",
+              "name": "角色电影感极简城市街头",
+              "type": "prompt",
+              "prompt": "由 20 帧连续画面（4x5 网格）组成的高分辨率电影感故事板拼贴，设计为高端时尚广告视频的连续截图。\n\n相同的 {argument name=\"model\" default=\"年轻男模特\"} 出现在所有帧中，保持视觉一致性，身穿干净、现代的 T 恤，品牌名称“{argument name=\"brand\" default=\"Lyntilla\"}”以极简、时尚的字体清晰地印在胸前。\n\n画面遵循如同真实视频序列般的自然运动轨迹：\n\n第 1 行（开场 – 建立场景）：\n1. 远景 – 模特走进城市街道画面\n2. 中远景 – 靠近镜头\n3. 中景 – 自信地缓慢行走\n4. 轻微转身 – 自然的运动模糊\n5. 特写 – 面部 + 上半身，冷静的表情\n\n第 2 行（互动 – 动作）：\n6. 整理衣领（手部动作）\n7. 向侧面看，抓拍瞬间\n8. 微风轻拂 T 恤\n9. 手插口袋，放松姿态\n10. 走过镜头（边缘帧带有运动模糊）\n\n第 3 行（细节 – 产品聚焦）：\n11. 胸前“Lyntilla”标志特写\n12. 面料纹理微距拍摄\n13. 轻微拉伸面料以展示品质\n14. 回眸一瞥\n15. 侧面轮廓，柔和光线\n\n第 4 行（生活方式 – 情感）：\n16. 随意坐在城市台阶上\n17. 大笑的抓拍瞬间\n18. 靠墙站立，街头风格\n19. 低角度力量感姿势（英雄气场）\n20. 最终英雄定格 – 直视镜头，强有力且自信的姿态\n\n⸻\n\n🎥 视觉风格与一致性\n• 超电影感时尚广告风格\n• {argument name=\"lighting\" default=\"黄金时刻 + 柔和漫射光混合\"}\n• 浅景深，奶油般虚化效果\n• 过渡帧中带有微妙的运动模糊\n• 温暖的电影级调色（略微去饱和的奢华色调）\n• 干净的城市 + 极简工作室混合背景\n• 一致的服装、光影连续性以及角色特征",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/17325.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "art_movements_retro",
+          "name": "年代复古",
+          "presets": [
+            {
+              "id": "pia_realistic-cafe-portrait",
+              "name": "女性写实胶片复古咖啡馆",
+              "type": "prompt",
+              "prompt": "创作一张写实的编辑类生活方式摄影作品，主体为 {argument name=\"subject\" default=\"一位年轻女性\"}，她坐在舒适的复古咖啡馆内一张质朴的木桌旁，身旁是高大的老式窗格，柔和的日光从左侧倾泻而入。她身穿 {argument name=\"outfit\" default=\"一件米色麻花针织中长裙，肩上披着一件浅蓝色超大款牛仔外套\"}，佩戴着精致的项链和手链，坐在深色木椅上，双腿交叠，一只手放在桌上，另一只手轻轻触碰脸颊。她深色的头发随意挽起，留有自然的碎发，但她的面部被一个位于正中央的纯棕色方块刻意遮挡，以实现匿名化。桌上恰好有 2 个可见的桌面道具：右侧边缘附近有一小杯奶泡拿铁，以及一个装有干花和尤加利叶的透明玻璃花瓶。背景中包含 2 个醒目的咖啡馆装饰元素：一块写有“DAILY SPECIALS”字样的深色黑板菜单，上面有模糊的手写价格，以及温暖的垂直木质墙板。采用自然的纪录片摄影风格，具有浅景深、暖木色调、奶油色高光、写实的织物纹理、柔和的窗光、细腻的胶片颗粒感、50mm 镜头视觉、f/2.8 光圈、竖构图人像、私密的咖啡馆氛围、高度写实，无插画或 CGI 感。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/17953.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_japanese-summer-indoor-lifestyle-portrait",
+              "name": "女性胶片写实冷调复古优雅",
+              "type": "prompt",
+              "prompt": "主体：一段解构夏日的凝视。主要主体：垂直 9:16 纵横比。在一个让人联想到古老日式木屋的明亮和洋折衷风格房间内，一位虚构的成年女性，拥有成熟的曲线，正放松地坐在窗边的米色矮沙发上。人物位于画面中心偏左位置，呈现从头部到赤足的全身构图。人物占据画面约 75%，为右侧的沙发和窗户留出空间。人物/表情：一位散发着冷静、成熟气息的女性。五官端正，脸型略长，脸颊自然圆润，下颌线优雅柔和。她留着光泽的深棕色长发，带有轻薄的空气刘海和脸部周围的层次感。部分发丝自然地垂落在脸颊和肩膀上。妆容为精致的日式风格，采用粉棕色眼影、细眼线、自然的卧蚕和珊瑚米色唇妆。她头部微微向右倾斜，右手轻托脸颊。目光直视前方的镜头，嘴唇微闭，表情安静且略带慵懒。服装/姿势：白色细肩带夏季罗纹上衣，搭配浅象牙色短款荷叶边短裤。肩上随意披着一件透明的白色夏季针织开衫。服装为干净的夏季居家服，胸部和腿部的裸露保持在自然范围内。上半身轻靠在沙发靠背上，左臂自然下垂支撑身体。右肘置于沙发靠背上，右手托腮。右腿大幅度向前方弯曲，左腿叠在下方，脚踝自然交叉。腰部和大腿呈现成熟身材特有的自然圆润感，准确表达了重心和衣物褶皱。背景/光线：背景为让人联想到夏季日式住宅的大型木框窗户、障子风格的隔扇、榻榻米、藤编矮桌和一台小型复古电风扇。窗外是深绿色的树木，带有强烈的模糊效果。左下角前景放置着一个藤编托盘和一杯带冰块的透明玻璃杯。强烈的夏季阳光从右上方的窗户斜射进来，在发际轮廓、肩膀、大腿、膝盖和沙发表面形成细长的亮光。阴影柔和地投向左下方，来自榻榻米和白色衣物的浅色反射光提亮了面部的阴影侧。室内色调温暖，窗外是明亮的绿色，营造出夏季特有的自然温差。构图/相机：适用于智能手机的垂直 9:16 比例。相机位置略高于人物胸部，呈轻微俯视角度。相当于 50mm 镜头的自然压缩感，立体地展现了面部、上半身和前腿。焦点精准对准面部，发丝和衣物的纹理清晰，窗外景色和背景中的家具呈现柔和的虚化效果。前腿在保持自然透视的同时略微放大。头部留白较少，脚部在画面底部自然截断。纹理/风格：高清晰度写实摄影。采用自然夏季光线的日式生活杂志风格人像。皮肤为明亮的象牙米色，保留了脸颊、肩膀和膝盖的自然肤色和细腻纹理。避免过度磨皮，仔细描绘绒毛、细发束、罗纹面料、镂空针织、藤编、榻榻米和软包沙发之间的材质差异。以低饱和度的象牙色、米色、木棕色和夏季绿为主色调，带有柔和的胶片颗粒感和适中的对比度。负面提示词：年轻面孔、不自然消瘦的身体、不自然的面部、不自然的目光、多余的手指、缺失的手指、肢体融合、关节断裂、扭曲的腿部、不自然的重力、衣物贴合度差、透视错误、与光源不一致的阴影、过度磨皮、塑料感皮肤、乱码、Logo、水印。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/29298.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_vhs-90s-aesthetic-modifier",
+              "name": "90 年代 VHS 复古美学修饰词",
+              "type": "prompt",
+              "prompt": "这张照片采用 {argument name=\"lighting\" default=\"强烈的直射闪光灯\"} 拍摄，高光过曝，阴影浓重，营造出原始的 90 年代 {argument name=\"vibe\" default=\"视觉氛围\"}。图像呈现低保真效果，带有 {argument name=\"texture\" default=\"中等胶片颗粒感和模拟质感\"}。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/15524.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_moody-vintage-bedroom-at-night",
+              "name": "复古怀旧风格的夜晚卧室",
+              "type": "prompt",
+              "prompt": "一张充满电影感的复古卧室夜晚照片，视角处于床头高度。左侧前景是一张破旧的木床，配有深色床头板，覆盖着褪色的拼布被子，床头整齐地堆放着 2 个花卉图案枕头。墙壁是带有污渍、裂纹和岁月痕迹的暖赭色灰泥墙，赋予房间一种久居且略显荒废的质感。左上方的墙上挂着 1 幅复古街景画框，中间墙壁的挂钩上挂着 1 个深色单肩包。床边是一个小木制床头柜，上面摆放着 1 盏散发着暖黄色光芒的圆形灯罩台灯，在房间内投射出柔和的琥珀色光影和深邃的阴影。桌面上清晰可见 5 件物品：1 个红色圆柱形罐子、1 个小型方形容器、1 个浅口杯或烟灰缸、1 个小型圆形闹钟，以及台灯本身。床头柜下方是一个杂乱的开放式搁板。右侧是一扇高大的旧窗户，深色木质窗框外是深蓝色的夜景，远处隐约可见几点模糊的灯光；窗帘质地轻薄且磨损，半拉着。窗台上清晰可见 3 件物品：1 个高大的陶瓷瓶、1 个深色玻璃瓶和 1 台复古黑银色收音机卡带播放机。右下方有 1 张铺着报纸的小凳子或矮桌，下方还堆放着更多报纸。整体光影应为低调的室内钨丝暖光与室外冷蓝夜色形成对比，带有浓重的胶片颗粒感、柔焦效果、丰富的阴影、怀旧写实风格、细微的灰尘感，营造出 20 世纪 70 年代末或 80 年代安静、孤独公寓的氛围。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/15997.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_pr-33603",
+              "name": "复古猫",
+              "type": "prompt",
+              "prompt": "Top-down flat lay on a rustic wooden table, cozy aesthetic, soft natural light. A glass of iced tea with lemon slices and ice cubes, a glazed donut, a small succulent plant in a white pot, a vintage book, and eyeglasses. A sleeping tabby cat curled on a blanket at the edge. White hand-drawn doodle outlines and arrows around each object with playful handwritten labels like “refreshing iced tea,” “sweet treat,” “little green friend,” “afternoon read,” and “cutest thing in the world – cat.” Warm tones, minimal shadows, lifestyle photography, high detail, Instagram aesthetic.",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptsref",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/2497_out.png",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_aesthetic-travel-scrapbook-polaroid-collage",
+              "name": "女性胶片涂鸦复古梦幻唯美",
+              "type": "prompt",
+              "prompt": "将上传的照片转换为时尚的 {argument name=\"style\" default=\"唯美旅行手账拼贴\"}。保持面部不变，确保 100% 的面部相似度及自然的皮肤纹理。使用原场景中的 4–5 种不同姿势创建多图拍立得布局，展示一位穿着 {argument name=\"outfit\" default=\"粉色格纹西装外套和短裙\"}、白色短款上衣、太阳镜、金色配饰，并手持一束粉白满天星花束的时尚女性。添加撕纸纹理、复古胶带、手写笔记、涂鸦爱心、干花、邮票元素、胶片边框以及优雅的日记风格排版。使用 {argument name=\"color palette\" default=\"暖米色调\"}，营造柔和的自然日光、舒适的首尔街头氛围、高端生活方式摄影感、简洁的构图、逼真的阴影、高级手账美学、旅行日记设计、Instagram 风格拼贴，呈现超精细、杂志级的 4K 分辨率画质。加入励志的手写引语和微妙的韩式设计元素，同时保持时尚、柔美且梦幻的氛围。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/26589.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_surreal-sheep-bedtime",
+              "name": "角色胶片壁纸夜景复古温柔",
+              "type": "prompt",
+              "prompt": "创建一个 1:1 正方形的复古闪光灯摄影卧室夜景，风格类似于 1990 年代略带颗粒感的抓拍胶片，带有温暖的米色阴影、柔和的暗角以及令人不安的故事书超现实感。左侧床上，一个有着 {argument name=\"child hair color\" default=\"黑色\"} 头发的小孩盖着印有红色花纹的白毯子，身穿宽松的白色睡衣，面部被一个简单的正方形遮挡块遮住。右侧，一只巨大的拟人化绵羊坐在床边，它有着逼真的卷曲羊毛、苍白的奶油色皮肤、长耳朵、沉重的睡眼和类似人类的温柔双手，正在读一本睡前故事书。绵羊手中拿着一本面向观众的打开的绘本；书封上画着一群小绵羊，并印有柔和红色的日文标题 {argument name=\"book title text\" default=\"ひつじが100ぴき\"}。画面中包含 4 个主要可见物体/人物：1 个睡觉的孩子、1 个绵羊看护者、1 本绘本，以及左上方背景中一面反射出穿着裙子的小玩偶形象的椭圆形挂镜。房间铺着陈旧的米色壁纸，配有复古花卉枕头，采用亲密的近景构图，营造出一种略带诡异但平静的睡前氛围。使用 {argument name=\"lighting style\" default=\"机顶闪光灯直闪配合昏暗的环境光\"}，呈现逼真的质感、浅景深、柔和的色调，且不包含任何现代物品、多余角色或水印。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/25550.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_vintage-desert-roadside-sign",
+              "name": "车胶片复古沙漠",
+              "type": "prompt",
+              "prompt": "创作一张具有电影质感的复古路边摄影作品，场景设定在阳光暴晒的沙漠中，采用 16:9 宽画幅构图。画面左侧是一块巨大的风化汽车旅馆风格标志，右侧是一座白色灰泥避难所小教堂或小屋。主标志安装在两根粗糙的木柱上，由三块堆叠的文本面板组成：顶部是奶油色云朵形状的面板，上面用醒目的草书写着 {argument name=\"top sign text\" default=\"Curious\"}；中间是绿松石色的面板，上面用巨大的灰白色大写字母写着 {argument name=\"main sign text\" default=\"REFUGE\"}；底部是褪色的灰色面板，上面用手写草书写着 {argument name=\"bottom slogan\" default=\"Don’t Let Your Dreams Be Dreams.\"}。标志应呈现出生锈、缺口、积尘且略显褪色的质感，营造出 1960 年代美国沙漠公路的怀旧美学。背景中包含 5 个较小的路标：最左侧是一个色彩鲜艳的堆叠标志，一个红白相间的让行箭头标志，一个小型的黑色双向箭头指示牌，一个靠近中心处模糊的橙白相间标志，以及一个更远处的黄色小标志。场景设置在干燥的沙地、灌木丛、尖刺状沙漠植物中，主标志后方有几根类似约书亚树的枝干。右侧的建筑应简洁明亮，呈纯白色，在强烈的阳光下略显过曝，带有陡峭的屋顶、两个烟囱、一个深色门洞，底部点缀着沙漠植物。使用淡蓝色天空配以稀疏的云层、温暖的金色雾气、浅景深、模拟胶片颗粒、划痕、灰尘斑点、褪色的色彩、轻微的暗角，呈现出梦幻般的复古旅行明信片风格。避免出现现代汽车、人物、标志或过于清晰的数字锐化感。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/22387.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_retro-magic-academy-ui",
+              "name": "角色像素复古温暖",
+              "type": "prompt",
+              "prompt": "目标：创作一张 1990 年代中期日式 PC 视觉小说 / 冒险游戏风格的截图，采用 256 色抖动像素艺术风格，呈现奇幻魔法学院解谜游戏的感觉。\n\n画布：16:9 横屏游戏截图，1184×768 分辨率质感，深海军蓝界面配以华丽的古董金边，低分辨率抖动效果，可见色彩分层，粗糙的像素纹理，无现代 UI 的精致感。\n\n布局：将屏幕分为三个主要区域：左上角的大型剧情场景面板，右上角的垂直指令菜单面板，以及横跨底部的宽对话框。使用精致的金色花丝边角装饰、细双线边框、框架交汇处的蓝色小宝石装饰，以及 UI 背景中淡淡的魔法罗盘圆环徽章。\n\n主场景：在左上角的场景面板内，展示一间欧式老派魔法学院教室，左侧墙壁上有 3 扇高大的拱形窗户，排列整齐的木制课桌椅，后方黑板上绘有奥术图表和粉笔字，教师办公桌上摆放着书籍和瓶子，墙壁上的壁灯闪烁着温暖的烛光，深色木镶板，黑板上方悬挂着一面小小的学院徽章旗帜。\n\n角色：在教室前方、略微偏左的位置，展示一名动漫风格的女学生，名为 {argument name=\"character name\" default=\"Ceres\"}。她拥有非常长且飘逸的 {argument name=\"hair color\" default=\"深钴蓝色和紫罗兰色\"} 头发，带有闪亮的像素高光，身穿海军蓝学院西装外套，配有金色镶边和胸前的金色魔法阵徽章，内搭白色百褶衬衫，系着大大的酒红色蝴蝶结，穿着正式的奇幻校服。她的右手抬起靠近胸前，仿佛正在害羞地说话。用一个居中的方形柔焦 / 马赛克遮挡块覆盖她的脸部，使面部特征模糊不清。\n\n右侧指令菜单：右上角面板标题显示为 {argument name=\"location title\" default=\"魔法学院端末\"}。在其下方，垂直排列 5 个菜单项（日语），每一项均有独立的水平行，并用金色分隔线隔开：1) 「話す」，2) 「調べる」，3) 「持ち物」，4) 「記録」，5) 「システム」。高亮显示第一项 「話す」，并在其左侧添加一个明亮的矩形轮廓、一个小金色三角形光标以及蓝色菱形标记。\n\n底部对话框：底部是一个深色半透明的海军蓝文本窗口。左侧包含一个装饰性的徽章面板，带有金色罗盘 / 星盘符号和月桂叶图案。在主对话区域，显示说话者标签 {argument name=\"speaker label\" default=\"《セレス》\"}，下方显示对话内容 {argument name=\"dialogue text\" default=\"「おはよう。今日も眠そうね」\"}。使用白色像素化日文位图字体，清晰的间距，呈现地道的复古文本窗口渲染效果。\n\n视觉风格：256 色日式 PC-98 / Windows 95 视觉小说美学，手绘动漫角色叠加在精细的像素艺术背景上，深海军蓝与古董金配色，强烈的抖动效果，细微的扫描线质感，华丽的奇幻 UI，清晰的矩形面板，无照片级真实感，无 3D 渲染，无水印，无多余菜单项或额外角色。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/24024.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_hot-dog-mascot-logo",
+              "name": "狗矢量Logo复古",
+              "type": "prompt",
+              "prompt": "创建一个简洁的矢量风格吉祥物 Logo，用于名为 {argument name=\"brand name\" default=\"Chunkydog\"} 的热狗店。设计以白色背景为中心，置于一个带有粗黑色轮廓和米白色填充的圆角矩形标志内。在顶部，展示 1 个面带愉悦表情的卡通男孩吉祥物，他正倚靠在标志上：中等棕色皮肤，简单的圆点眼睛，小巧的圆鼻子，微笑的嘴巴，黑色短卷发，头戴一顶反戴的黄色棒球帽，帽后带有白色调节带。他穿着 2 件可见的衣物：一件白色 T 恤和一件带有黑色轮廓、缝线细节、前口袋及 2 颗圆形背带扣的橙色背带裤。他的右臂靠在标志边缘，左手拿着 1 个超大号热狗，热狗配有烤成棕色的面包、红色的香肠、黄色的芥末酱锯齿纹和红色的番茄酱细节。在吉祥物下方，放置深红棕色的 {argument name=\"brand name\" default=\"Chunkydog\"} 粗体复古衬线字体品牌名称。在其下方，添加标语 {argument name=\"tagline\" default=\"HOT DOGS & GOOD TIMES\"}，使用黑色粗体大写无衬线字体，居中对齐，并在标语两侧各放置 1 个小型水平红色短横线装饰。在标志底部，创建 1 个由两行深红色和米白色方块交替组成的棋盘格边框，横向约 18 列，并与圆角标志边缘对齐。使用粗而平滑的黑色轮廓、扁平化色彩、友好的童书比例、极简阴影，呈现出精致的餐厅 Logo 质感。保持构图对称、清晰且简洁；无需额外角色，无需额外食物，Logo 外部无阴影，无水印。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/22600.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_tw-30374",
+              "name": "黑色风衣时尚大片·世界杯复古",
+              "type": "prompt",
+              "prompt": "使用参考人物作为身份参考，保留五官、脸型、眼神和自然气质。生成一组黑色风衣时尚大片，人物穿黑色长风衣、黑色短裙、黑丝、高跟鞋，黑发微乱，冷淡眼神，姿态自信有压迫感。白色摄影棚背景，杂志海报拼贴风格，1990 Italia World Cup 复古主题，加入简洁英文排版，比如 WORLD CUP、ITALIA 1990、FOCUS、WINNER TAKES ALL、PLAY LIKE A LEGEND。整体高级、冷酷、复古、电影感，真实摄影质感，高清细节，柔和棚拍灯光，不要过度美颜，不要塑料皮肤。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/30374.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_midnight-bloom-cover",
+              "name": "女性写实封面户外复古",
+              "type": "prompt",
+              "prompt": "创作一张垂直的夏季户外时尚杂志封面照片，主角为 {argument name=\"model description\" default=\"一位年轻的亚裔女性，面容自然写实，皮肤质感细腻，黑色长发在风中飘动，表情轻松充满活力，带着自然的浅笑\"}。拍摄于正午明亮的阳光下，背景是湛蓝的天空和缕缕薄云，地点位于开阔的屋顶停车场，地面有沥青路标，远处可见工业建筑、高压电塔，光影清晰强烈。模特全身出镜，站在一辆金属购物车旁并微微倚靠，一只手放在购物车内的一个圆形白色圆盘配件附近，圆盘内绘有蓝色像素风格的十字/花朵图案，另一只手臂向外伸展，仿佛正在抛掷或展示一只悬浮在她手边的超大号黑白复古厚底运动鞋。她穿着 5 件明显的服装单品：黑色褶皱挂脖上衣、黑色花卉层叠荷叶边迷你裙（带侧系带）、白色中筒堆堆袜、黑白复古厚底运动鞋以及小巧的圆环耳环。强调光泽感的编辑级写实风格、动态的风吹发丝、修长的双腿、不经塑料感磨皮的干净皮肤、电影级广角透视，以及略带超现实感的时尚广告姿势，仿佛她随时会走出画面。添加醒目的杂志排版：左上角为巨大的白色故障艺术风格标题 {argument name=\"headline text\" default=\"MIDNIGHT BLOOM\"}，右上角为小型大写字母文本 {argument name=\"collection label\" default=\"SUMMER COLLECTION 2024\"}，标题下方为两行简短说明文字 {argument name=\"upper caption\" default=\"LIGHT AS AIR, DEEP AS SUMMER.\"}，说明文字下方有一个微小的白色心形轮廓，左下角为三行说明文字 {argument name=\"lower caption\" default=\"EASY DAYS, GENTLE LIGHT, ENDLESS YOUTH.\"}，右下角为期号“VOL.7”。采用简洁的白色极简主义杂志排版线条，高阶时尚青年编辑风格，对焦清晰，比例写实，无额外人物，无水印。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/29017.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_tw-30327",
+              "name": "女性像素复古霓虹高级",
+              "type": "prompt",
+              "prompt": "使用上传图片作为整体风格、构图和视觉参考，生成一张复古 Windows XP / Microsoft Paint 界面风格的时尚穿搭拼贴海报。画面比例为 4:5 竖版，整体像在老式电脑画图软件里编辑一套女性穿搭造型，带有 2000 年代 Y2K、复古电脑 UI、像素风、时尚杂志拼贴、纸质扫描纹理和高清写真质感。\n\n画面外框是经典 Windows XP 画图软件界面，顶部为蓝色标题栏，写着 “untitled - Paint”，右上角有最小化、最大化、关闭按钮。顶部菜单栏包含 File / Edit / View / Image / Colors / Help。左侧是像素风画图工具栏，包括虚线选区、铅笔、橡皮、油漆桶、放大镜、文字工具、画笔、线条、矩形、圆形等复古图标。底部有经典 Paint 调色盘，彩色方块整齐排列。\n\n画面主体是一位成年女性时尚模特，站在画面中央偏右位置，全身入镜。人物气质妩媚、自信、慵懒、精致，有一点风情万种的感觉，但整体保持高级时尚，不低俗。她留自然蓬松的棕黑色长发，头发微卷，带有空气感和层次感。脸部精致自然，皮肤有真实质感，表情可以是轻微微笑、冷淡凝视、慵懒回眸、温柔挑眉等不同情绪。\n\n人物穿着修身包臀短裙或修身连衣裙，根据不同系列更换不同颜色与款式：\n\n第一套：白色长袖修身包臀裙，搭配黑色尖头高跟鞋，黑色腋下包，清爽高级，干净性感。\n第二套：黑色吊带修身包臀裙，外搭轻薄黑色透纱披肩，搭配黑色高跟鞋，气质冷艳成熟。\n第三套：酒红色一字肩修身包臀裙，搭配酒红色小包和同色高跟鞋，复古妩媚，带一点晚宴感。\n第四套：米白色长袖修身包臀裙，搭配黑色高跟鞋和黑色腋下包，温柔优雅，轻熟时尚。\n\n左侧垂直排列多个穿搭素材卡片，每个卡片像被 Paint 软件选中一样，带蓝色或粉色虚线选框和小方块控制点。卡片内容包括：发型素材、连衣裙素材、包包素材、高跟鞋素材。每个素材旁边可以有像素英文小标签，例如 HAIR / DRESS / BAG / SHOES。\n\n右侧加入一个复古弹窗小窗口，标题为 “Accessories”，窗口内展示配饰素材，包括银色耳环、爱心项链、复古手表、发夹、手链等。右下角加入另一个小窗口，标题为 “Outfit Preview”，展示同一套穿搭的正面、侧面、背面三视图小预览，像服装搭配软件里的造型预览。\n\n背景为浅米白色画布质感，干净高级，带轻微纸张纹理、扫描噪点、复古屏幕颗粒和柔和阴影。画面中点缀像素星星、鼠标箭头、粉色爱心、手绘五角星、软盘图标、小涂鸦文字。右下角可以加入粉色像素小字：\nkeep it simple.\nkeep it chic.\nkeep it you.\n\n整体色调以复古蓝、米白、黑色、淡粉、酒红为主。画面需要高清、干净、时尚、有 Pinterest 拼贴感，同时保留 Windows XP / Paint 的怀旧 UI 味道。人物比例自然，腿部和手部真实，服装褶皱自然，鞋子细节清晰，整体像一张高质量时尚穿搭编辑器海报。\n\n风格关键词\n\nWindows XP aesthetic, Microsoft Paint interface, Y2K fashion collage, outfit planner, retro computer UI, pixel cursor, fashion moodboard, outfit preview, accessories window, high heels, bodycon dress, fashion editorial, Pinterest collage, vintage digital scrapbook, clean white canvas, soft paper texture, scan noise, pixel stars, retro UI design, cool girl aesthetic, elegant feminine fashion, high-resolution fashion poster\n\n负面提示词\n\n不要墨镜，不要运动鞋，不要宽松阔腿裤，不要低清晰度，不要人物脸部变形，不要手指错误，不要脚部畸形，不要高跟鞋变形，不要夸张身材比例，不要过度暴露，不要低俗姿势，不要幼态人物，不要未成年人，不要塑料皮肤，不要过度磨皮，不要现代软件界面，不要真实品牌 Logo，不要二维码，不要水印，不要文字乱码，不要背景杂乱，不要廉价网红风，不要过度赛博霓虹。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/30327.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_dystopian-sci-fi-wasteland",
+              "name": "女性胶片Logo复古城市",
+              "type": "prompt",
+              "prompt": "创作一张电影级宽银幕反乌托邦科幻景观，风格如同严肃的电影剧照。一位孤身 {argument name=\"female character\" default=\"身穿深青色长裙或束腰外衣配长裤的短发女性\"} 走在广阔泥泞、荒凉的平原上，身侧拿着一个小巧的深色箱子或工具包。在近景处，放置 1 具静止的人体，横卧在潮湿的地面上，大部分处于阴影中。在中景左侧，包含 1 辆苍白的复古轿车，停放或缓慢行驶在平地上，车身略微背向镜头。背景应展示一座朦胧的未来工业城市，有 2 座大型高架桥或高架桥结构从左右两侧延伸至天际线，还有被烟雾柔化的笨重圆柱形和矩形塔楼。使用柔和的青灰色和灰米色调，低对比度，大气雾霾，泥地里有潮湿的反光斑块，营造出凄凉的后末日氛围。构图：16:9 纵横比，广角定场镜头，地平线位于画面上方，女性位于中心偏左，汽车在更左侧，天际线遥远且去饱和。光线应为阴天，并透过污染的空气进行逆光照射，具有真实的胶片颗粒感、变形宽银幕电影构图，且画面中无可见文字、Logo 或 UI 元素。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/24317.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_retro-super-famicom-rpg-ad",
+              "name": "角色包装像素复古",
+              "type": "prompt",
+              "prompt": "创作一张全页复古日本 Super Famicom 游戏盒广告，设计风格如同 1990 年代磨损的杂志内页或游戏包装正面，呈现于带有折痕、污渍、磨损边角、折叠痕迹及轻微印刷褪色的泛黄纸张上。排版应具有真实的复古感且布局紧凑，包含醒目的日文宣传文案、虚构的奇幻 RPG 标志、右侧的角色阵容、左侧的游戏截图，以及底部的价格和功能标注。左上角放置一个巨大的黑色“SUPER FAMICOM”标题，下方配有较小的日文副标题，附近有一行红色的日文标语。右上角包含一个黑色矩形内的 Super Famicom 风格标志徽章，下方附有英文文本“SUPER FAMICOM LICENSED BY NINTENDO”。顶部中央展示游戏标题标志“Epic 7 Seven”，采用华丽的奇幻字体，深青色与黑色，叠加在浅蓝色的圆形魔法纹章或印记之上。标志下方添加小号日文片假名副标题。右半部分展示 4 位动漫奇幻风格的队伍成员，采用精致的 JRPG 宣传插画风格：1 位身穿白色斗篷和蓝黑色服装、手持长剑的白发年轻男性英雄；1 位身穿带有金色饰边的深色盔甲的粉发女性骑士或法师；1 位身穿深色多层长袍的高个子黑长直剑士；以及 1 位身穿黑白荷叶边裙、单手向前伸出的金发双马尾女仆。他们的面部应为大众化且柔和的特征，正面或四分之三侧面视角，以英雄姿态构图。在每位角色附近添加 4 个深蓝色铭牌，标注日文角色名和简短的职业描述。在截图和角色组之间放置一条带有黑色轮廓的竖向黄色日文标语。左侧中下部包含 1 张深蓝色圆角矩形框内的游戏内战斗截图：一个像素风地下城战斗场景，展示 1 只紫色巨龙怪物面对 4 人小队，背景为石质走廊。在战斗画面底部，显示经典的 RPG 界面，包含 4 个日文指令选项以及带有角色名、HP 和 MP 值的队伍状态列表。左下角添加一个红色日文标题，后跟 4 个黑色方块项目符号的日文功能文本。底部中央放置一个带有白色日文文本的红色圆形促销贴纸，表示销量火爆，旁边印有醒目的“9,800円”价格，周围环绕较小的日文零售文本。右下角包含 1 个标有“RPG”的黄色信息框，内含额外的日文文本，下方是一个标有玩家人数“1人”的独立深色框。使用奶油色、深蓝色、青色、红色、金色、黑色以及褪色的柔和角色色彩等复古印刷色调。整张图像应看起来像是一张极具说服力的虚构 Super Famicom 广告，宣传名为 {argument name=\"game title\" default=\"Epic 7 Seven\"} 的经典奇幻 RPG，包含可见的日文文本、怀旧的印刷瑕疵以及地道的 1990 年代主机游戏营销设计。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/15750.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_rubber-hose-cartoon-character-transformation",
+              "name": "角色胶片复古工作室",
+              "type": "prompt",
+              "prompt": "将照片中的人物转换为受 {argument name=\"style\" default=\"20 世纪 30 年代至 40 年代复古动画角色\"} 启发的形象，灵感源自 {argument name=\"references\" default=\"贝蒂娃娃 (Betty Boop)、茶杯头 (Cuphead)、汽船威利号 (Steamboat Willie)\"} 等经典的“橡胶管动画”风格以及弗莱舍工作室 (Fleischer Studios) 的早期动画。\n\n重要提示：\n\n清晰保留照片中人物的身份特征（可辨认的发型、胡须、眼镜、脸型和面部表情）。\n\n夸张、富有弹性的卡通风格身体。\n\n巨大的黑色复古派切眼 (pie-cut eyes)。\n\n夸张且富有表现力的笑容。\n\n经典的白色卡通手套。\n\n超大号的 20 世纪 30 年代风格卡通鞋。\n\n纤细的橡胶管式手臂和腿部。\n\n粗黑的轮廓线条和地道的复古动画质感。\n\n视觉风格：\n\n黑白或复古棕褐色调。\n\n陈旧的胶片纹理。\n\n带有类似老式胶卷的细微颗粒、划痕和瑕疵。\n\n简单的赛璐珞动画风格阴影。\n\n漫画化但比例协调。\n\n背景灵感源自照片的原始环境。\n\n艺术风格：\n\n20 世纪 30 年代 / 40 年代卡通动画。\n\n橡胶管动画美学。\n\n复古动画海报风格。\n\n弗莱舍工作室 (Fleischer Studios) 美学。\n\n受《茶杯头》启发的复古卡通风格。\n\n墨水轮廓和夸张的表情。\n\n质量：\n\n超精细复古卡通。\n\n电影级构图。\n\n高面部相似度细节。\n\n柔和的复古光影。\n\n地道的怀旧动画感。\n\n全身角色。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/22696.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_pc98-fantasy-rpg-ui",
+              "name": "角色像素复古山",
+              "type": "prompt",
+              "prompt": "{\"type\":\"复古 PC-98 奇幻冒险游戏画面\",\"style\":\"1990 年代日本电脑 RPG 视觉小说界面，16 色抖动像素艺术，CRT 风格低分辨率，深蓝色面板配以华丽的金色花丝边框，衬线像素字体，戏剧性的奇幻浪漫基调\",\"canvas\":\"横向 4:3 游戏截图，带有密集的装饰性 HUD 框架，中心为角色插画\",\"main_scene\":{\"position\":\"中心\",\"description\":\"一位年轻的金发男性骑士或剑士，半身像，面向前方，身穿白色束腰外衣，佩戴黑色手套和带有金色装饰的盔甲，一只手交叉在胸前，另一只手将一把华丽的剑竖在肩后；背景是广阔的奇幻海岸线，左侧是绿色悬崖上的大型城堡，有一座拱形石桥、蓝色大海、远山，右侧岩石岛屿上有一座灯塔或塔楼，深蓝色的天空中飘着明亮的云朵\",\"character\":{\"role\":\"守护型奇幻剑士\",\"hair\":\"{argument name=\\\"hair color\\\" default=\\\"金黄色\\\"}\",\"outfit\":\"带有金色装饰的黑白骑士装束\",\"pose\":\"手放在胸前，剑举在肩后\"}},\"layout\":{\"counted_elements\":{\"major_ui_sections\":9,\"bottom_menu_buttons\":6,\"status_stats\":7,\"equipment_items\":4,\"right_sidebar_boxes\":4},\"sections\":[{\"title\":\"状态\",\"position\":\"左上\",\"count\":7,\"labels\":[\"LV 17\",\"HP 214/214\",\"MP 128/128\",\"STR 21\",\"INT 18\",\"DEX 17\",\"AGI 16\",\"LUC 15\"],\"note\":\"虽然面板列出了八行可见内容，但它代表了七个 RPG 属性加上等级。\"},{\"title\":\"装备\",\"position\":\"左下\",\"count\":4,\"labels\":[\"{argument name=\\\"weapon name\\\" default=\\\"聖剣レーヴァテイン\\\"}\",\"白銀の鎧\",\"旅人のマント\",\"守護の指輪\"]},{\"title\":\"地点\",\"position\":\"右上\",\"count\":2,\"labels\":[\"{argument name=\\\"kingdom name\\\" default=\\\"王都エルディア\\\"}\",\"城壁の見える丘\"]},{\"title\":\"指南针\",\"position\":\"右中\",\"count\":1,\"labels\":[\"N\",\"E\",\"S\",\"W\"],\"description\":\"金色线条绘制的装饰性圆形罗盘\"},{\"title\":\"金币\",\"position\":\"右中下\",\"count\":1,\"labels\":[\"5460 G\"]},{\"title\":\"游戏时间\",\"position\":\"右下\",\"count\":1,\"labels\":[\"08:34:12\"]},{\"title\":\"对话窗口\",\"position\":\"左下，横跨大部分宽度\",\"count\":1,\"labels\":[\"{argument name=\\\"dialogue text\\\" default=\\\"俺は…お前を守る\\\"}\"],\"description\":\"大型黑色文本框，右下角有一个白色向下三角形提示\"},{\"title\":\"标题 Logo\",\"position\":\"右下\",\"count\":1,\"labels\":[\"{argument name=\\\"game title\\\" default=\\\"竜の灰と剣の誓い\\\"}\"],\"description\":\"华丽的日本奇幻 Logo，白色和金色，带有龙的剪影和交叉剑的图案\"},{\"title\":\"底部指令菜单\",\"position\":\"最底部\",\"count\":6,\"labels\":[\"保存\",\"读取\",\"物品\",\"装备\",\"状态\",\"系统\"]}],\"rendering_details\":\"使用真实的像素抖动效果、有限的蓝-金-黑调色板、细致的手绘奇幻背景、锐利的矩形 UI 面板、金色装饰性边角花纹以及轻微的扫描线纹理。保持构图完全像 PC-98 冒险 RPG 界面，而不是现代动漫插画。\"}",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/18951.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_retro-japanese-tech-magazine-layout",
+              "name": "复古日本科技杂志排版",
+              "type": "prompt",
+              "prompt": "创建一个介绍“{argument name=\"device to introduce\" default=\"iPhone 18 Pro\"}”的页面，风格参考 20 或 30 年前日本杂志后页的最新设备介绍专栏。例如，使用老式表达或片假名音译（如“{argument name=\"katakana notation\" default=\"Aifōn 18 Puro\"}”）来指代“{argument name=\"device to introduce\" default=\"iPhone 18 Pro\"}”。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/14395.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_vintage-confidential-case-file",
+              "name": "复古机密案件档案",
+              "type": "prompt",
+              "prompt": "一张俯视视角的电影级静物照，展示了深色木桌上一份复古的机密调查档案，画面居中并占据大部分空间。展示一叠 3 个磨损的马尼拉文件夹，带有陈旧的米色纸张、磨损的边缘、细微的污渍和逼真的纸张纹理。最上方的文件夹是视觉焦点，左上角用 1 个超大号银色回形针固定。顶部中央用粗体黑色等宽字体打字显示标题 {argument name=\"headline text\" default=\"CONFIDENTIAL – CASE FILES\"}，下方有一条细水平线。添加 2 个红色橡胶印章标记：一个在右上角附近，略微倾斜地印着 \"CONFIDENTIAL\"；另一个在右下角的方框印章，印着 \"HANDLING INSTRUCTIONS DO NOT COPY – DO NOT DISTRIBUTE\"。在文件夹堆叠的右侧边缘，显示 1 个带标签的侧边栏，上面写着 \"CASE FILE NO.\"，下方有一条粗黑色的涂改遮盖条。页面格式仿照旧式打字机打印的政府文件，带有清晰的黑色墨迹、略显不齐的打字机对齐方式，以及许多遮盖关键细节的粗黑色涂改条。准确包含 5 个编号部分：\"1. SUBJECT INFORMATION\"、\"2. CASE SUMMARY\"、\"3. DETAILS\"、\"4. ASSOCIATES / CONTACTS\" 和 \"5. REMARKS\"。在页眉区域，包含以下字段：\"CASE FILE NO.:\"（带黑色涂改条）、\"DATE OPENED:\"（后接 {argument name=\"date opened\" default=\"March 14, 20___\"}）、\"PREPARED BY:\"（带黑色涂改条）、\"DEPARTMENT:\"（后接 {argument name=\"department\" default=\"Internal Investigations Unit\"}）以及 \"CLASSIFICATION:\"（后接 {argument name=\"classification\" default=\"CONFIDENTIAL\"}）。在第 1 部分中，包含 6 个字段：\"NAME:\"、\"ALIASES:\"、\"DATE OF BIRTH:\"、\"PLACE OF BIRTH:\"、\"LAST KNOWN ADDRESS:\" 和 \"OCCUPATION:\"，每个字段后均跟随长度不一的黑色涂改条。在第 2 部分中，添加一段简短的打字机风格案件摘要文本，并在句子流中嵌入 5 个独立的黑色涂改条。在第 3 部分中，添加第二段详细文本，并在段落中嵌入 4 个独立的黑色涂改条。在第 4 部分中，包含一个 3 列的表格，标签分别为 \"NAME\"、\"RELATIONSHIP\" 和 \"NOTES\"，共 3 行填充内容，每个单元格的内容均被黑色涂改条覆盖。在第 5 部分中，添加一句关于敏感信息和未经授权披露的简短警告。使用温暖的深褐色光线，文件夹边缘周围有柔和的阴影，带有细微的晕影，营造出一种忧郁的黑色电影档案氛围。图像应具有逼真、触感真实、神秘且略带灰尘的感觉，就像为犯罪惊悚片或世界观构建道具拍摄的机密侦探档案。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/14415.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_beverage-brand-campaign-concepts",
+              "name": "车复古街头",
+              "type": "prompt",
+              "prompt": "软饮料与饮品 ({argument name=\"brands\" default=\"Pepsi, Coca-Cola, Sprite, Red Bull\"})。复古现代光感、动感体育场氛围、青柠街头风格以及高性能赛车图形。{argument name=\"campaign\" default=\"Pepsi × Sydney Sweeney — 'THE BLUE HOUR'\"}",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/24944.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_pr-32610",
+              "name": "复古花",
+              "type": "prompt",
+              "prompt": "A cool vintage makeup style inspired by East Asian fashion aesthetics: soft matte base, muted pink-brown eyeshadow, thin eyeliner, natural under-eye highlight, low-saturation blush, and soft rose-brown lips. Keep it slightly imperfect, with subtle smudging, darkness, and snapshot realism.",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptsref",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/43853_out.png",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_pr-32486",
+              "name": "复古AI 生成图片",
+              "type": "prompt",
+              "prompt": "Kankakee River In Kankakee, IL Starfall 2005 Old Computer Game",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptsref",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/49897_out.png",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_japanese-retro-anime-style",
+              "name": "90 年代日本复古动画风格",
+              "type": "prompt",
+              "prompt": "{argument name=\"era\" default=\"20 世纪 90 年代初\"} 日本复古动画风格",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/19282.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_vintage-skeuomorphic-icon-set",
+              "name": "复古拟物化图标集",
+              "type": "prompt",
+              "prompt": "生成一套 {argument name=\"device type\" default=\"复古电子设备\"} 图标，采用复古拟物化风格，并将图标名称包含在图像中。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/14138.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_1980s-shinjuku-retro-cityscape",
+              "name": "20 世纪 80 年代新宿复古城市景观",
+              "type": "prompt",
+              "prompt": "{argument name=\"era\" default=\"1980s\"} 风格的虚构城市，{argument name=\"location\" default=\"Shinjuku\"}",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/27902.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_vintage-lens-photography-style",
+              "name": "复古老镜头美学",
+              "type": "prompt",
+              "prompt": "镜头：{argument name=\"lens\" default=\"Super Takumar 55mm f1.8\"} ，相机：{argument name=\"camera\" default=\"SONY α7 II\"}\n青色调，乳状画质，黄金时刻，蓝调时刻，背景虚化。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/21525.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_tw-30443",
+              "name": "少女像素复古冷调可爱",
+              "type": "prompt",
+              "prompt": "Q版像素风黑衣少女角色，复古 8-bit / 16-bit pixel art sprite，白色干净背景，居中构图，大头小身体比例，黑色长发盘发，凌乱刘海，深色大眼睛，脸颊微红，穿黑色长风衣、黑色上衣、黑色长裤、黑色靴子，酷酷但可爱的气质，世界杯足球主题，足球、球迷围巾、金色奖杯、庆祝动作，精致像素块边缘，柔和阴影，高对比黑白配色，角色贴纸感，高清像素插画，cute chibi pixel art, clean background, game character sprite\n\n动作变化可以加：\n\n单脚颠球，调皮微笑\n双手举着“GOAL!”围巾，开心欢呼\n一手拿金色奖杯，一手抱足球，冷酷冠军表情\n一脚踩足球，眨眼举拳庆祝\n\n反向词：\n\n写实风，3D，复杂背景，官方球队 logo，真实品牌标志，文字乱码，身体比例怪异，多手指，多腿，模糊，低清晰度，过度细节，水印，杂乱背景，脸崩，像素不清晰",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/30443.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_vintage-film-double-exposure-portrait",
+              "name": "少女胶片梦幻复古可爱",
+              "type": "prompt",
+              "prompt": "使用上传的图片作为角色参考。她身穿 {argument name=\"clothing\" default=\"高领修身黑色长袖连衣裙\"}。场景：{argument name=\"background\" default=\"一个摆放着干枯枝条和零星橙粉色花朵的旧报刊亭\"}，画面中交织着复古胶片颗粒感。背景虚化，带有明显的动态拖影和双重影像效果，营造出梦幻般的氛围。侧颜少女美得令人心动，手捧鲜花，肤色白皙细腻。面部因平移运动而模糊，身形微微摇曳，柔焦处理增添了一抹朦胧慵懒的质感。采用暖色调低饱和度滤镜。长发在逆光下散发柔和光泽，凌乱的发丝掠过下颌线，细节中隐藏着迷人而危险的魅力。可爱的动作注入了活力，动态模糊与胶片颗粒完美融合，呈现出时下流行的 Instagram 风格大片。模糊的轮廓勾勒出充满故事感的动态场景，在迷人与甜美之间达到了完美的平衡。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/24785.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_japanese-tarot-certificate",
+              "name": "女性写实UI未来复古高级",
+              "type": "prompt",
+              "prompt": "目标：为 AI 占卜结果创建一份华丽的日式运势解读证书，标题为「あなたの本質と未来の羅針盤」，风格仿照古董塔罗牌与占星术鑑定书。\n\n画布：竖版 A4 页面，暖象牙色羊皮纸背景，细双线金边，四角饰有精致的维多利亚风格花丝，左上、右上、左下和右下角绘有玫瑰，并点缀着小星星、新月和金色装饰。采用奶油色、深褐色、古金色、酒红色、灰粉色和深海军蓝的奢华复古色调。\n\n页眉：居中大号日文标题：{argument name=\"headline text\" default=\"あなたの本質と未来の羅針盤\"}。下方为较小的副标题：{argument name=\"year and subtitle\" default=\"2026年 運命鑑定書\"}。在此之下，包含一行精致的填空线，内容为「鑑定対象：　　　　生　　　　生まれ　　　　様」，并配有装饰性分隔线。\n\n主视觉区：在上半部分放置 3 张倾斜的塔罗牌以及 1 个中央罗盘。从左至右依次为：1) “THE STAR”牌，深海军蓝星空，水边跪着的女性，略微向左倾斜；2) 一个巨大的中央金色占星罗盘/罗盘玫瑰，中心发光并向外辐射光芒；3) “THE SUN”牌，白马上的孩童，向日葵，略微向右倾斜；4) “WHEEL OF FORTUNE”牌，华丽的黄道十二宫轮盘和天使形象，向右倾斜角度更大。在牌后添加淡淡的光晕。\n\n正文布局：在塔罗牌区域下方，创建 8 个矩形解读板块，排列成整齐的 2 列 4 行网格。每个板块左侧为一个圆形徽章图标，右侧为日文标题及要点文本。8 个板块分别为：1) 「仕事運」（羽毛图标），2) 「人間関係」（心形图标），3) 「健康運」（水晶图标），4) 「気をつけた方が良いこと」（天平图标），5) 「金運」（金灯笼/护身符图标），6) 「強み」（玫瑰与星星图标），7) 「やるべきこと」（罗盘图标），8) 「総合運」（新月与星星图标）。每个方框内使用精简的日文要点；文本应看起来像一份个性化的运势报告，整洁易读，使用深棕色墨水和加粗的括号标题。\n\n底部结论：添加一个独立的宽边框面板，标题为「運命からの最終的な導き」。左侧放置 1 张竖向插图，描绘一盏发光的古董灯笼，内含蜡烛，置于深金色边框的卡片中。右侧包含一段优美的日文段落，作为 {argument name=\"fortune year\" default=\"2026年\"} 的最终指引，内容提及积累的学习与经验将静谧而确切地传递给世界，珍视已建立的一切将引来志同道合的伙伴。结尾处附上一个小的连体英文签名“Fortune Reading Signature”。\n\n装饰细节：页面四角包含 4 簇醒目的玫瑰，2 个新月图案，顶部附近有 3 个金色小太阳徽章，大量细小的星光闪烁，精致的金色分隔线，对称的卷轴花纹，营造出一种高级的神秘学/塔罗氛围。\n\n文字风格：标题采用日文明朝体（Mincho），正文使用较小的日文衬线体，深棕色墨水，金色点缀。整体设计应呈现出一种人们乐于收到的高级印刷占卜证书质感。\n\n约束条件：所有指定位置的文字必须使用日文，避免使用现代 UI 元素，塔罗牌插图之外不得出现写实人物，无水印，无二维码，除 3 张塔罗牌外不得增加额外卡牌，除列出的 8 个板块外不得增加额外正文区域。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/20891.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_retro-vogue-magazine-cover-portrait",
+              "name": "女性写实封面复古温暖",
+              "type": "prompt",
+              "prompt": "超写实复古杂志封面，主角为一位 {argument name=\"subject\" default=\"迷人的韩国女性\"}，身着 {argument name=\"era\" default=\"1970 年代深度迪斯科时代\"} 风格服饰：宽翻领象牙白缎面西装外套，内搭串珠流苏挂脖上衣，下穿超大喇叭高腰奶油色长裤，系着醒目的蛇皮腰带，脚蹬金色细带厚底高跟鞋。蓬松深色吹发，打造法拉·福塞特（Farrah Fawcett）式的羽毛卷发。温暖的古铜色肌肤，古铜色微光妆容，大地色棕桃色唇彩，浓密羽毛状睫毛。佩戴超大金色圆环耳环、长款叠戴项链和夸张鸡尾酒戒指。背景：复古 1970 年代暖棕橙色调摄影棚——几何壁纸，温暖的钨丝灯光，带有胶片颗粒感和柔和的镜头暗角叠加，轻微的色差效果。“VOGUE” 采用时髦的复古衬线字体作为刊头，排版符合时代特征。85mm 复古镜头模拟，超细腻缎面光泽，照片级 70 年代颗粒感皮肤，8K 分辨率。\n\n负面提示词：现代简洁外观，冷色调，卡通，动漫，水印，模糊。1744x2336",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/23041.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_pastel-retro-seaside-car",
+              "name": "车写实复古宇宙可爱",
+              "type": "prompt",
+              "prompt": "Create a bright, photorealistic lifestyle image of a cute compact retro electric car in a soft pastel {argument name=\"car color\" default=\"mint green\"}, parked in a seaside parking lot on a sunny day. The car has a rounded beetle-like body, circular headlights, smooth glossy paint, cream leather interior, small chrome details, whitewall-style tires, rounded hubcaps, a blank front license plate, and subtle brown trim accents along the lower grille and side sill. A young woman with {argument name=\"hair color\" default=\"short blonde bob hair\"} stands casually beside the passenger side, leaning lightly near the door with relaxed posture; her face is softly obscured or featureless. She wears a {argument name=\"outfit\" default=\"pale mint short-sleeve cardigan over a cream romper with white strappy sandals\"}, matching the car’s gentle pastel aesthetic. The background shows a vivid turquoise ocean, distant green coastline and hills, blue sky with small white clouds, a low metal guardrail, parking space lines, curb stones, and a leafy tree branch in the upper right corner. Use natural midday sunlight, crisp shadows, clean commercial photography composition, 3/4 front view of the car, cheerful summer mood, realistic proportions, high detail, 4:3 landscape framing.",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/18174.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_rooftop-fashion-editorial-shot",
+              "name": "女性城市复古高级",
+              "type": "prompt",
+              "prompt": "广角时尚大片，身穿 {argument name=\"outfit\" default=\"大胆的黄青色格纹高领连衣裙\"} 的女性站在 {argument name=\"location\" default=\"城市天台\"} 上，佩戴圆形复古墨镜，手部靠近面部，头发在风中呈现动感，下方可见城市天际线与天台边缘，清澈的蓝天在左上方留有空白以供添加标题文字，强烈的色彩对比，黄金时刻光影，三分法构图，高级时尚生活方式摄影 --ar 4:5 --v 6",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/26736.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_retro-tactical-snow-selfie",
+              "name": "角色3D电影感雪复古忧郁",
+              "type": "prompt",
+              "prompt": "创作一张低分辨率复古 3D 电子游戏过场动画风格的特写自拍，画面中两名角色在灰蒙蒙的雪山环境中肩并肩站立。采用深沉、忧郁的 PlayStation 1 / 早期 PlayStation 2 美学，呈现可见的多边形几何结构、块状纹理、锯齿边缘、柔和的灯光以及 4:3 的纵横比。左侧角色为 {argument name=\"left character\" default=\"一位名叫 Yuki 的娇小蓝发精灵女孩\"}，留着长长的亮蓝色头发，长着尖尖的精灵耳朵，戴着带有黑色丝带系带的深色缝合帽或兜帽，身穿黑色战术服装；她的脸部被一个冷灰蓝色的不透明方形遮挡块刻意遮住。右侧角色为 {argument name=\"right character\" default=\"一名类似 Solid Snake 的粗犷士兵\"}，留着尖尖的深棕色头发，系着海军蓝色的头带，拥有古铜色皮肤，身穿带有高领的厚重黑色战术护甲；他的脸部被一个更大的深棕黑色渐变不透明方形遮挡块刻意遮住。构图为亲密的仰角特写，左侧角色位置较低且左侧部分被裁剪，右侧角色更高，占据右侧主导地位且顶部被裁剪。添加一个寒冷的雾气背景，远左侧有模糊的雪坡，画面中清晰可见两个遮挡面部的方形遮挡块，每个角色各一个。包含在背景中散落的由微小方形像素状雪花组成的柔和飘雪。保持画面深沉、具有电影感且刻意呈现不完美的效果，如同从老式潜行动作游戏中截取的一帧画面。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/20858.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_stranger-things-bathroom-mirror-selfie",
+              "name": "角色电影感3D复古忧郁",
+              "type": "prompt",
+              "prompt": "电影感镜面自拍场景，灵感源自 {argument name=\"aesthetic\" default=\"复古 80 年代科幻恐怖氛围\"}，一群青少年和一名摄影师在浴室镜子前合影，复古相机闪光灯照明，镜子周围装饰着圣诞灯串，洗手台上放着对讲机和复古小玩意，镜子上用雾气手写着“{argument name=\"text on mirror\" default=\"RUN\"}”和“{argument name=\"show reference\" default=\"Stranger Things\"}”字样，怀旧氛围，忧郁的蓝红灯光，电影叙事构图，皮克斯风格 3D 角色，超精细，柔和的反射，8K 分辨率。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/27236.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_pr-33207",
+              "name": "复古3D 渲染",
+              "type": "prompt",
+              "prompt": "RETRO POP-ART BEVERAGE COLLAGE SYSTEM\r\n\r\nA premium commercial beverage advertising poster designed with a vibrant, playful mixed-media pop-art aesthetic.\r\n\r\nCentral Subject:\r\nA photorealistic, matte-finish aluminum soda can stands in the lower-center. The can features realistic condensation water droplets running down its side, with an elegant, modern branding label in pastel orange and teal.\r\n\r\nThe Aesthetic (Mixed-Media & Pop-Art):\r\nThe background is a solid pastel-teal backdrop. The realistic 3D can is surrounded by bold, flat 2D vector illustrations of orange slices, retro 70s-style hand-drawn sunbursts, and playful graphic splashes of juice in bright orange and white.\r\n\r\nDesign Elements:\r\nA mix of flat 2D graphic sparkles, halftone pattern overlays in the background, and 3D realistic mint leaves floating around the top of the can for a textured contrast.\r\n\r\nTypography:\r\nHuge, playful retro-serif typography in the background reading \"Zesty & Fresh\" in a bold cream color, layered behind the vector orange slices and the realistic can.\r\n\r\nLighting:\r\nBright, summery studio lighting, crisp soft shadows, realistic metallic reflections on the can, high-contrast fresh atmosphere.\r\n\r\nCommercial Value:\r\nHighly reusable for FMCG brands, healthy soda startups, organic juices, and summer social media marketing campaigns.\r\n\r\nAspect Ratio: 9:16 vertical poster format.\r\nQuality: Ultra detailed, 8K masterpiece, clean commercial rendering.",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptsref",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/16316_out.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_nostalgic-software-interface",
+              "name": "怀旧软件界面",
+              "type": "prompt",
+              "prompt": "一张 {argument name=\"software\" default=\"Photoshop\"} 在 {argument name=\"era\" default=\"90s\"} 年代的屏幕截图",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/14383.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "art_movements_experimental",
+          "name": "实验艺术",
+          "presets": [
+            {
+              "id": "pia_pr-33335",
+              "name": "赛博朋克汽车",
+              "type": "prompt",
+              "prompt": "“JulesX” has a modern, mysterious, and high-tech feel, so the logo should follow a futuristic + premium direction. Below is a strong concept that can easily evolve into a full brand identity.\r\n\r\n“JulesX” Logo Design Concept\r\n1. Overall Concept\r\n\r\nThe logo should convey:\r\n\r\nFuturistic technology\r\nMinimal yet sharp aesthetics\r\nAn AI / cyber / innovation vibe\r\nThe sophistication of an international startup brand\r\n\r\nStyle direction:\r\n\r\nMinimal Futuristic\r\nGeometric\r\nCyber Luxury\r\n2. Symbol (Icon)\r\nOption A — The Energetic “X”\r\n\r\nUse the letter X as the core visual element:\r\n\r\nTwo intersecting strokes like energy beams\r\nSubtle split / glitch effects\r\nSharp angled edges to create a sense of speed\r\n\r\nMeaning:\r\n\r\nX = unknown, innovation, next-gen\r\nRepresents breakthrough and the future\r\n\r\nVisual references:\r\n\r\nTesla\r\nSpaceX\r\nxAI-style aesthetics",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptsref",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/6564_out.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_experimental",
+                    "name": "实验艺术"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_raul-creed-redraw",
+              "name": "角色赛博胶片赛博朋克办公室忧郁",
+              "type": "prompt",
+              "prompt": "目标：为 Ergo Proxy 中的 {argument name=\"character name\" default=\"Raul Creed\"} 创建一个两格动画重绘对比图，展示同一个办公室场景：上方为冷蓝色调的彩色面板，下方为黑白灰度面板。\n\n画布：竖向图片，比例约为 3:4，中间由一条粗黑横线将画面精确分为上下两格。左右边缘添加窄边框。\n\n布局：图片包含精确的 2 个面板：1) 上方面板，全彩蓝色赛博朋克风格；2) 下方面板，构图完全一致的黑白灰度风格。在两个面板中，将角色放置在画面左侧的侧影位置，坐在向右的斜倚办公椅上，右侧为落地大窗，俯瞰夜晚发光的未来城市。\n\n主体细节：角色为成年男性，中等长度深棕色后梳发型，身穿深色正装、白衬衫、长裤和锃亮的黑色皮鞋。他坐姿放松但神情严肃，向后靠在椅子上，双腿交叠，双手放在椅托附近。他的面部刻意用柔和的矩形模糊处理，保留头部轮廓但隐藏五官。\n\n环境：昏暗的行政办公室或指挥室内部，上方面板带有青蓝色环境光。包含一把带浅色头枕、深色扶手、可见底座的高背人体工学椅，最左侧有一个小型深色书桌或柜子。椅后添加一个类似衣架的小装置，带有四个短横杆。右侧有高大的垂直墙板、墙上明亮的对角线光束，以及一扇巨大的窗户，展示着充满微小白色和青色灯光的密集未来城市景观。在右上角添加深色工业天花板或窗户管道：精确的 2 根垂直管道连接着 3 根水平横档，外加一根横跨窗户区域的长水平管道。\n\n视觉风格：成熟的 2000 年代心理科幻动画风格，干净的赛璐珞线条，忧郁的黑色电影氛围，电影级构图，柔和的阴影，清晰的轮廓，细腻的胶片颗粒感，深色办公室与发光城市之间的高对比度。上方面板色调：深青色、青色、海军蓝、黑色和冷白色。下方面板：相同的绘图转换为灰度，但城市灯光保持明亮。\n\n约束：保持精确的两格堆叠对比格式，不要添加标题或 Logo，不要添加额外角色，在两个面板中都保持模糊的面部，并确保两个面板对齐，使其看起来像是同一画面的彩色版本与灰度版本对比。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/24817.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_experimental",
+                    "name": "实验艺术"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_16382",
+              "name": "车写实赛博霓虹赛博朋克",
+              "type": "prompt",
+              "prompt": "一张超写实的未来感赛车游戏启动画面，背景设定在夜晚霓虹闪烁的赛博朋克城市。画面采用低角度第三人称追逐视角，展示了一场在雨后湿滑街道赛道上进行的 Formula 风格电动赛车比赛。主角车辆是一辆流线型黑色开轮式赛车，车身带有发光的青色线条，轮毂闪烁着青色光芒，车尾红色灯光文字显示为 NEO.JP，车辆在湿润的沥青路面上轻微漂移，底盘溅出火花。前方共有 3 辆对手赛车，包括右侧的一辆红色开轮式赛车、中心远处的深色赛车，以及更远处弯道附近的另一辆赛车。道路向左弯曲，穿过由高大建筑构成的峡谷，建筑外墙覆盖着巨大的 LED 广告牌和垂直霓虹灯招牌，在湿润的路面上形成强烈的倒影。背景中央，一块巨大的发光广告牌上写着 FORMULA NEO，其中 NEO 为巨大的青色字母。道路转弯处两侧设有黄色发光人字形护栏，并带有强调速度感的强烈动态模糊。叠加完整的电竞赛车 HUD：左上角显示 2/8 的位置指示器，带有小型 POS 标签；左侧排行榜显示总共 8 名车手，依次为 1 KAZUKI, 2 NEO DRIVER, 3 REIJI, 4 YUINA, 5 SHO, 6 ALICE, 7 LUCAS, 8 TAIGA，多数名字旁附有时间差；右上角显示圈数信息 LAP 2/3，BEST 00:58.123，LAP 00:21.456，分段计时 S1 00:21.456, S2 00:36.890, S3 --:--:---；任务框显示 OBJECTIVE 和 1 位でフィニッシュする；左下角为赛道小地图和 98% 的 DRS 仪表；右下角为圆形的未来感速度表，显示 278 KM/H 和 6 档。底部前景处，放置 8 个动漫风格的团队成员半身肖像，均匀分布在画面底部，形成角色阵容叠加层：1 位银发角色身穿白色赛车服，2 位红发角色身穿带有火焰标志的黑色衬衫及红色夹克，3 位长紫发角色身穿紫色服装，4 位黑发角色身穿深色 Team Neo 赛车服，5 位短蓝黑发角色身穿深色制服，6 位浅棕发角色身穿灰色制服，7 位绿发角色身穿白绿相间服装且手放在胸前，8 位金发角色身穿黄色夹克，最右侧额外增加一个粉色头发的连帽衫角色肖像，融入底部阵容，营造出紧凑的团队横幅感；底部肖像上方居中位置以发光的青色 UI 风格显示 TEAM NEO 文字。采用精致的 AAA 级游戏主视觉美术风格，超细节的反射效果，电影级的对比度，电光蓝与洋红色的灯光，锐利的 UI 图形，富有戏剧性的透视效果，以及高度写实且风格化的宣传海报质感。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/16382.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_experimental",
+                    "name": "实验艺术"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_fantasy-trading-card-app",
+              "name": "龙赛博App霓虹赛博朋克",
+              "type": "prompt",
+              "prompt": "目标：为一款名为 {argument name=\"app name\" default=\"CARDIFY\"} 的自定义集换式卡牌生成器创建一个暗黑未来风格的移动端 Web App 界面，展示一张已完成且准备最终确认的奇幻 TCG 卡牌。\n\n画布：垂直智能手机截图，720×1200 比例，黑色与炭灰色背景，配有细长的霓虹青色分割线和圆角边框。整体外观为高端赛博朋克 UI 与高细节奇幻卡牌艺术的结合。\n\n布局：顶部导航栏包含 3 个可见元素：左侧是一个大型的 CARDIFY 风格化 Logo，右上角附近是一个圆形的霓虹青色购物车图标，最右侧是一个霓虹青色的三横线汉堡菜单图标。下方是一个位于细青色圆角矩形面板内的居中卡牌预览。在卡牌预览下方，显示一行灰色等宽小字，内容为“Tap to flip card”。在底部，放置 3 个操作按钮：一个带有青色轮廓的大型矩形按钮，标注为“Finalize →”；一个带有黄色轮廓的小型方形按钮，带有扳手图标；以及一个带有紫色轮廓的小型方形按钮，带有下载图标。\n\n集换式卡牌设计：该卡牌为垂直方向的奇幻收藏卡，带有圆角、华丽的红金金属边框、发光的深红色高光，以及环绕边框的电紫色能量。顶部的卡牌标题栏以大型白色衬线字体显示 {argument name=\"card title\" default=\"The Moosk\"}。标题栏右侧有 3 个圆形的法力/类型图标：一个骷髅图标、一个红龙/漩涡图标和一个蓝色水滴图标。下方的类型栏以金色衬线字体显示 {argument name=\"type line\" default=\"Legendary Creature — Human Rogue\"}，右侧有一个小型的星形稀有度徽章。下方的风味描述框以斜体白色衬线字体显示 {argument name=\"flavor text\" default=\"He walks between worlds.\"}。右下角的攻防数值徽章以大型加粗白色数字显示 {argument name=\"power toughness\" default=\"5/4\"}。\n\n卡牌主图：一张极具戏剧性的动漫奇幻插画，描绘了一名孤独的男性盗贼背影，站在日落时分的岩石悬崖上。他留着深色短发，身穿深色盔甲，巨大的黑色破烂斗篷在风中向左飘动。他右手持有一把向下指的橙红色发光长剑。远处是发光的海平线，伴有巨大的落日、红紫色的云彩以及水边一座黑暗的奇幻尖塔城市。紫色闪电弧和魔法能量带环绕着角色和边框，红色火花散落在斗篷和前景中。使用极其细腻的数字绘画风格，高对比度，电影级光效，饱和的洋红色、紫罗兰色、深红色、橙色和金色。\n\n约束：保持屏幕为移动端 App 原型，而非独立的卡牌。使用 1 个卡牌预览，3 个顶部导航元素，3 个法力/类型图标，以及 3 个底部操作按钮。清晰保留所有可见的 UI 文字。不要添加额外的卡牌、弹窗、水印或不相关的界面面板。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/23350.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_experimental",
+                    "name": "实验艺术"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_cyberpunk-shinjuku-platform",
+              "name": "车赛博写实赛博朋克雨",
+              "type": "prompt",
+              "prompt": "创建一个极其嘈杂、细节丰富的赛博朋克雨夜火车站台，地点位于 {argument name=\"station name\" default=\"新宿\"}，东京。摄像机位于站台高度，斜向俯瞰拥挤的站台，一列圆润的黑色玻璃通勤列车正从右侧驶入，其圆润的车头闪烁着白色前灯、蓝色底灯和洋红色反光，轨道附近有蒸汽或雾气，列车前方的目的地显示屏上写着 {argument name=\"station name\" default=\"新宿\"} 和 {argument name=\"line number\" default=\"03\"}。场景中挤满了穿着深色雨衣的通勤者，撑着 32 把清晰可见的透明雨伞，伞面上布满水珠，反射着霓虹蓝、青色、紫色和亮粉色的光芒。湿漉漉的瓷砖路面、触觉黄色站台条、水坑、轨道槽、高架梁、电缆和密集的城市基础设施都应具有鲜明的纹理和视觉噪点，到处都是雨丝。添加 6 个醒目的发光信息元素：1 个巨大的半透明青色和洋红色路线图全息图，位于左上方，标注为 {argument name=\"map headline\" default=\"新宿\"}，带有日文车站文本和粉色交通线路；1 个位于最左侧的黄色出口标志，写着 {argument name=\"exit text\" default=\"Exit S2 for Shinjuku Shibuya\"}；1 个位于中心附近的小型黄色站台方向指示牌；1 个青色高架站台标志，写着 03；1 个位于列车前方的亮洋红色车站标志；以及 1 组位于右侧城市背景中的垂直霓虹灯广告。使用密集的日文和英文交通排版，在适当的地方包含“新宿”和“Shinjuku”，但要保持真实感，而非追求完美的可读性。风格：电影级写实主义与未来派 UI 叠加效果的结合，极高 ISO 颗粒感，高对比度，湿润的反光表面，《银翼杀手》般的氛围，混乱的视觉噪点，清晰的倒影，体积感雨水，深邃的阴影，电光青与洋红色调，1:1 正方形构图，无干净的留白区域，无水印。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/24351.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_experimental",
+                    "name": "实验艺术"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_crystal-smoke-character-sheet",
+              "name": "角色赛博写实赛博朋克暗黑可爱",
+              "type": "prompt",
+              "prompt": "目标：为 {argument name=\"character name\" default=\"NOA VALE\"} 创建一张硬核科幻角色设计表，她是末日战术阵营中的团队领袖及 Crystal-Smoke Architect。该设定表应呈现出电影或游戏预告片的高端概念艺术项目风格，包含密集的技术标注、磨损的纸张纹理以及暗黑工业幻想风格。\n\n画布：竖向 4:3 角色设定表，背景为带有黑色烟雾的风化灰色羊皮纸，边缘有墨迹飞溅，配有细白网格线和小型技术排版。整体色调为炭黑、枪金属色、锈铜色、骨灰色、烟白色以及冷蓝色光效。\n\n主角：一名 23 岁的高挑运动型女性战士，留着一头凌乱的黑色短发，一侧剃光，呈现赛博朋克式铲青发型，面部被一个柔和的矩形模糊/马赛克遮挡。她身穿不对称的黑色皮革与金属战术套装：露脐装甲上衣、带有绑带和扣环的露腰设计、修身长裤、高跟装甲作战靴、多层腰带、链条细节、露指手套、分段式手臂护甲、尖刺肩甲，以及一件由垂坠布条组成的长款破损黑色外套或斗篷。背部安装有一个重型机械喷气背包 / Crystal-Smoke 装置，带有微弱的蓝色排气光效。姿势自信，身体略微侧转，一只手自然放松，另一只手靠近武器。\n\n左侧信息栏：大标题文字 “{argument name=\"character name\" default=\"NOA VALE\"}”。副标题：“TEAM LEADER // CRYSTAL-SMOKE ARCHITECT”。引言：“{argument name=\"quote\" default=\"I don’t break the city. I give it shape.\"}”。包含标注数据块：角色：“CRYSTAL-SMOKE ARCHITECT / OFFENSIVE TACTICIAN”；所属：“NO FACTION — SLUMS COALITION”；状态：“ACTIVE”；身高：“5’6” / 168 cm”；体重：“121 lb / 55 kg”；年龄：“23”；一段紧凑的个人简介；一个锐利的抽象阵营徽章；一个手写签名；以及两个垂直的红色印章式标记。\n\n布局与计数元素：上半部分包含 5 个全身视图：左侧 1 个大型英雄全身视图，顶部 4 个较小的正投影视图，分别标注为 Front（正面）、Side（侧面）、Back（背面）和 3/4 View（四分之三侧面）。在正投影行下方包含 1 个特写肖像面板，面部同样被矩形模糊遮挡。包含 4 个 Crystal-Smoke 技能面板，以 2x2 网格排列，分别标注为 Barrier Wall、Lattice Cage、Elevated Path 和 Deflector Array，每个面板展示一个微小的黑色剪影与发光的白色晶体线框结构及烟雾粒子交互。\n\n底部技术面板：包含 4 个鞋类视图，标注为 Front、Side、Back 和 Sole，展示同一款装甲高跟靴。包含 1 个长条形武器面板，标注为 “WEAPON: CRYSTAL-WRITE KIT”，展示一种具有两种模式的模块化法杖/步枪类工具。包含 6 个武器分解组件，标注为 Frame Rail、Energy Conduit、Crystal Cartridge、Stabilizer Fin、Grip Module 和 Safety Latch。包含 7 个配件和装备物品，标注为 Crystal Chamber、Smoke Filter、Utility Pouch、Data Slate、Line Spool、Folding Hook 和 Scrap Key。包含 5 个喷气背包 / 推进系统细节面板，标注为 Jetpack Overview、Thruster Detail、Harness & Attachment、Fuel Cell 和 Vector Nozzles。\n\n服装与材质细节条：添加多层皮带、扣环、金属板、赛博格耳部植入物、颈/肩护甲、腕部投影仪和机械护手特写面板。材质应呈现明显的磨损、划痕、铆钉、油渍和手工感，而非整洁的未来主义风格。\n\n底部参考条：包含一个带有简短项目说明的备注框；一个包含 8 个垂直色块的色板，从黑色到石墨色、棕色皮革、灰色金属、羊皮纸米色、烟白色和淡蓝色；一个包含 6 个矩形样本的材质/饰面指南，标注为 Worn Leather、Oiled Canvas、Carbon Fiber、Scratched Metal、Crystal Glass 和 Mesh Fabric；以及右下角的一个团队背景面板，展示 3 个小人物正走在废墟林立的垂直城市景观中。\n\n视觉风格：超精细暗黑电影概念艺术，写实人体结构，战术赛博朋克，末日时尚设计，精确的工业标注，日本游戏画册布局风格，单色烟雾氛围配以冰蓝色光效。文字应精简，并像专业项目设计表一样排列。无纯白背景，无可爱风格，无高饱和度色彩，除计数的团队背景剪影外，不包含额外角色。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/20294.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_experimental",
+                    "name": "实验艺术"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_pixel-king-ninja-doodle",
+              "name": "角色像素涂鸦暗黑",
+              "type": "prompt",
+              "prompt": "Create a deliberately crude MS Paint / low-resolution pixel doodle on a plain white background, centered composition. Draw a cartoon bust of a mysterious king-like ninja character with messy spiky {argument name=\"hair color\" default=\"black\"} hair, pale beige skin, narrow rectangular sleepy eyes with black outlines, and a face mostly covered by a thick black mask or beard shape. He wears a rough dark {argument name=\"cloak color\" default=\"green\"} cloak with jagged edges and white scratchy highlights. A large diagonal sword or katana handle crosses from the lower left of the body up to the right shoulder, with a dark green grip, black blade or strap, and small gray guard. Floating above his head is an oversized jagged {argument name=\"crown color\" default=\"yellow\"} crown with black outline and white base, tilted slightly left, drawn with scribbly yellow fill. To the upper right, add exactly 1 rounded speech bubble with a black outline and small tail pointing toward the character; inside it write the hand-drawn text {argument name=\"speech bubble text\" default=\"when 2026?\"}. Use thick uneven black pixelated outlines, rough hand-sketched strokes, minimal colors, intentionally messy proportions, childlike digital drawing style, no shading beyond scribbles, no background details.",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/17981.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_experimental",
+                    "name": "实验艺术"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_graffiti-wall-urban-artwork",
+              "name": "涂鸦墙城市艺术作品",
+              "type": "prompt",
+              "prompt": "一幅大胆的城市艺术作品，{argument name=\"subject\" default=\"[SUBJECT]\"} 站在色彩斑斓的涂鸦墙前摆姿势，喷漆质感，锐利的阴影，富有表现力的动感，鲜艳的 {argument name=\"first color\" default=\"[COLOR1]\"} 和强烈的 {argument name=\"second color\" default=\"[COLOR2]\"} 色调，叛逆的青春活力，街头文化美学。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/17365.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_experimental",
+                    "name": "实验艺术"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_maplestory-pixel-avatar-sprite",
+              "name": "宝可梦角色像素",
+              "type": "prompt",
+              "prompt": "你是一位专业的像素艺术总监，负责将动漫、游戏和漫画角色转换为 MapleStory 风格的玩家头像精灵图。\n\n[任务]\n1. 分析角色的外貌特征：发型、发色、瞳色、代表性服装、配饰、武器、象征性元素及代表色。\n2. 在保持上述特征的同时，将其重新诠释为 MapleStory 玩家角色的结构。\n3. 确保其看起来像是真实的 MapleStory 玩家角色精灵图，而非普通的像素艺术。\n────────────────────\n[角色结构规范]\n- 头部 + 头发：占总尺寸的 60-65%\n- 躯干：15-18%\n- 腿部：20-25%\n- 头身比：2 到 2.3 头身\n- 35-45 度四分之三侧视图\n- 双眼可见的角度（接近正面）\n- 近乎平面的 2D 精灵图面部\n- 眼睛位于面部下方\n- 宽眼距\n- 横向宽扁的眼睛\n- 带有高光的大瞳孔\n- 不表现鼻子\n- 非常小的嘴巴\n- 柔和的腮红\n- 不表现脖子（头部直接连接躯干）\n- 服装从下巴下方直接开始\n\n发型：\n- 角色特征的核心\n- 体积大于头部\n- 轮廓优先\n- 极简的发丝细节\n- 顶部高光\n\n身体：\n- 非常小的躯干\n- 短小的四肢\n- 简单的圆柱形肢体\n- 极简的关节表现\n\n装备层级结构：\n头发 / 帽子 / 面部配饰 / 上衣 / 下装 / 鞋子 / 披风 / 武器\n\n姿势：\n- 站立姿势（角色选择界面风格）\n- 无跳跃、战斗姿势或动作特效\n────────────────────\n[像素渲染规范]\n目标：呈现放大版 32-64px 游戏精灵图的氛围\n- 低分辨率游戏精灵图质感\n- 厚实的像素结构\n- 网格对齐的像素艺术\n- 可见的像素块\n- 清晰的 1px 轮廓线\n- 有限的调色板\n- 平铺色彩阴影，极简阴影处理\n- 无抖动、平滑渐变或喷枪效果\n\n[禁止风格]\nPokemon 风格 / Terraria 风格 / Stardew Valley 风格\n写实 / 3D 渲染 / 插画风格\n动漫插画 / 数字绘画\n高清像素艺术 / 平滑渐变\n────────────────────\n[输出条件]\n- 画布尺寸：1080x1080\n- 背景：纯白 (#FFFFFF)\n- 仅限单个角色\n- 全身展示，居中\n- 占据画布高度约 75%\n- 无文字、Logo、水印、背景物体或地面\n────────────────────\n请将角色生成为真实的 MapleStory 玩家头像精灵图。确保其看起来像是将所附图像转换为 MapleStory 风格的结果，而非普通的像素艺术角色。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/27340.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_experimental",
+                    "name": "实验艺术"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_tiny-tomato-pixel-art",
+              "name": "黑暗像素虚空中的小番茄",
+              "type": "prompt",
+              "prompt": "创建一个 9:16 的垂直极简像素艺术海报，主题为 {argument name=\"subject\" default=\"一个番茄\"}，背景置于近乎全黑的虚空中。画布大部分为留白的黑色空间，亮度极低，呈现出安静的电影质感。在最左侧，展示一个巨大的裁剪番茄形态从边缘切入，仅可见其右侧弯曲的边缘，呈现为一个占据画面左下半部分的巨大深红色弧线；其主体采用粗糙的抖动效果渲染，带有柔和的深红和棕色阴影，边缘处有一道细细的暖橙色轮廓光。在巨型果实的左上角，包含 5 片深绿色尖头萼片，部分被裁剪且几乎没有光照。在底部附近，放置一条横跨整个宽度的细水平地面或平台线，颜色为带有像素噪点的暗锈棕色。在这条线正上方靠近右下角区域，放置一个微小的发光番茄图标作为核心焦点，它拥有红橙色的主体、小巧的绿色顶部以及柔和的暖色光晕，以此强调微小信号与巨大裁剪结构之间的比例差异。在黑色背景中散布 8 个微弱的星状像素点，效果非常细微。使用 {argument name=\"color palette\" default=\"近黑、深红、焦橙、深橄榄绿\"} 配色，复古 8-bit / 16-bit 像素艺术风格，重度半色调抖动，块状锯齿边缘，高负空间，无文字，无边框，无水印。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/23364.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_experimental",
+                    "name": "实验艺术"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_pixel-space-shooter-background",
+              "name": "竖版像素风太空射击游戏背景",
+              "type": "prompt",
+              "prompt": "创作一张竖版复古像素风太空射击游戏滚动背景，设计为无缝衔接的移动端游戏素材。画布采用 9:16 的高比例竖屏框架，深色的中央飞行通道保持大部分留白，以供游戏操作。场景填充深邃的黑色星空，点缀数百颗细小的白色、蓝色和紫色像素星点，以及两条发光的垂直星云流：左侧是一条蜿蜒而下的电光紫蓝色星云，右侧是一条带有青色高光的紫色星云。添加 3 颗清晰可见的行星：左上方边缘有一颗巨大的紫色陨石坑行星，右下方边缘有一颗被部分裁剪的蓝紫色轮廓光行星，以及在那颗右下行星下方的一颗小型紫色卫星。添加 22 颗大小不一的岩石小行星，形状为带有紫色阴影的不规则灰褐色坑洼状，分布在边界周围，同时保持中心区域开阔：右上角附近 1 颗巨大陨石，右侧中部边缘 1 颗中型陨石，左下边缘 1 颗中型陨石，左下角 1 颗被裁剪的大型陨石，右下角 1 颗被裁剪的大型陨石，其余 17 颗较小陨石散布在顶部边缘、侧边和底部边界。采用清晰的像素艺术渲染，具备高细节的抖动效果、厚实的锯齿轮廓、明亮的边缘高光，无矢量平滑轮廓，无飞船，无 UI，无文字，无水印。调色板：黑色太空、紫红色星云云团、电光蓝点缀、白色星光闪烁、带有冷紫色阴影的灰色岩石小行星。图像应呈现出可直接用于生产的竖版飞行射击游戏背景图效果，既具戏剧性又具备良好的可读性，确保中心游戏通道清晰。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/20712.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_experimental",
+                    "name": "实验艺术"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_pixel-stretch-art-effect",
+              "name": "高端像素拉伸艺术转换",
+              "type": "prompt",
+              "prompt": "将 {argument name=\"subject\" default=\"上传的图像\"} 转换为 {argument name=\"style\" default=\"高端像素拉伸艺术品\"}，同时精准保留原始主体。保持主体清晰、细节丰富且极具辨识度，完整呈现其特征、比例、纹理和整体外观。提取主体中的色彩、纹理和视觉细节，将其无缝延伸为优雅、流畅且富有动态美感的像素拉伸带。确保原始图像与拉伸区域之间的过渡完美无瑕，杜绝任何故障、畸变、生硬边缘或像素断层。拉伸的像素应呈现出 {argument name=\"motion style\" default=\"丝滑、宽阔、灵动且自然\"} 的质感，宛如色彩、光影、颜料或纯粹能量的流淌。在整个构图中保持真实的灯光、自然的景深、准确的阴影以及和谐的色彩平衡。运用电影级对比度、鲜艳的 HDR 级色彩、超清晰细节、现代极简构图、奢华数字艺术风格、标志性的 Adobe Photoshop 像素拉伸效果、画廊级后期处理以及超高清 8K 输出，打造出一件视觉震撼、高端且适合社交媒体分享的杰作。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/27145.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_experimental",
+                    "name": "实验艺术"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "art_movements_surrealism",
+          "name": "超现实",
+          "presets": [
+            {
+              "id": "pia_surreal-desert-with-twin-celestial-spheres",
+              "name": "双星映照下的超现实沙漠",
+              "type": "prompt",
+              "prompt": "一幅黄昏或夜晚的超现实科幻沙漠景观，广阔的沙原上覆盖着低矮的漂浮薄雾，四周环绕着深色的锯齿状岩层。前景中，左下角由崎岖的岩石边缘构成框架，左侧为陡峭的悬崖壁，右侧为较小的嶙峋岩石，远处的山脉低垂在地平线上。在地平线上方的天空中央，放置 2 颗巨大的重叠天体：后方的球体是一个明亮的蓝至青色渐变圆环，前方的球体位置略低，是一个部分遮挡的青绿色发光球体，其下半部分带有柔和的大气晕染效果。天空为深黑色，点缀着微弱的星光，营造出极简主义的宇宙氛围。采用电影级光效，沙漠呈现温暖的琥珀棕色调，行星呈现冷峻的霓虹蓝色，配合柔和的薄雾、高对比度、超清数字渲染、锐利的地形细节，营造出一种宁静而超凡脱俗的意境。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/15109.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_out-of-body-spirit-photography",
+              "name": "超现实“灵魂出窍”提示词",
+              "type": "prompt",
+              "prompt": "生成一张具有创意且真实感的图像，呈现一个以 {argument name=\"subject\" default=\"Hello Kitty 毛绒玩具\"} 为中心的“灵魂出窍”瞬间。主体以一种安静、放松且略显无防备的姿态占据视觉中心，像真实的陈列品或毛绒玩具一样静置在整洁的展示台上。从主体的上方或核心部位升起一个与其同源的半透明替身，它与实体保持着清晰的关联，但材质轻薄、半透明且带有幽灵般的质感，并伴有细腻的褶皱和边缘高光。观者首先会注意到实体与透明形态之间的位移，随后看到替身以轻微悬浮或攀爬的动作附着在附近，营造出一种温和而非惊悚的荒诞感。背景应明亮、清晰且整洁，采用高亮度的中性色调，并辅以从主体提取的柔和配色。光线柔和均匀，要求透明层呈现出可见的折射效果和薄纱般的质感。构图保持画廊风格的留白和低干扰环境，使信息层保持克制，以突出实体与其替身之间的关系。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/26866.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

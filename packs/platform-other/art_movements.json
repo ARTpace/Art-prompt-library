@@ -22,7 +22,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：Baroque / Baroque",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_classical",
+                    "name": "古典学院"
+                  }
+                ]
               }
             },
             {
@@ -39,53 +45,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：Rococo / Rococo",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "jean_antoine_watteau",
-              "name": "Jean-Antoine Watteau",
-              "type": "prompt",
-              "prompt": "\"Jean-Antoine Watteau style {prompt} . Rococo",
-              "negative_prompt": "outdoor",
-              "description": "ComfyUI Style",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：Rococo",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "art_movements": [
-                    "Rococo",
-                    "style"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "thomas_gainsborough",
-              "name": "Thomas Gainsborough",
-              "type": "prompt",
-              "prompt": "\"Thomas Gainsborough style {prompt} . Rococo",
-              "negative_prompt": "landscape",
-              "description": "ComfyUI Style",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：Rococo",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "art_movements": [
-                    "Rococo",
-                    "style"
-                  ]
-                }
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_classical",
+                    "name": "古典学院"
+                  }
+                ]
               }
             },
             {
@@ -103,7 +69,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：Baroque / Baroque",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_classical",
+                    "name": "古典学院"
+                  }
+                ]
               }
             },
             {
@@ -120,7 +92,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：Baroque / Baroque",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_classical",
+                    "name": "古典学院"
+                  }
+                ]
               }
             },
             {
@@ -137,7 +115,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：Neo-Byzantine / Neo-Byzantine",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_classical",
+                    "name": "古典学院"
+                  }
+                ]
               }
             },
             {
@@ -154,7 +138,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：Rococo / Rococo",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_classical",
+                    "name": "古典学院"
+                  }
+                ]
               }
             },
             {
@@ -172,7 +162,59 @@
                 "status": "suggested",
                 "reason": "标题规则证据：Rococo / Rococo",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_classical",
+                    "name": "古典学院"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "rembrandt",
+              "name": "Rembrandt",
+              "type": "prompt",
+              "prompt": "\"Rembrandt style {prompt} . Baroque",
+              "negative_prompt": "chiaroscuro",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_classical",
+                    "name": "古典学院"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "rembrandt_van_rijn",
+              "name": "Rembrandt van Rijn",
+              "type": "prompt",
+              "prompt": "\"Rembrandt van Rijn style {prompt} . Baroque",
+              "negative_prompt": "self-portrait",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_classical",
+                    "name": "古典学院"
+                  }
+                ]
               }
             }
           ]
@@ -195,7 +237,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：pointillism / pointillism",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_impressionism",
+                    "name": "印象表现"
+                  }
+                ]
               }
             },
             {
@@ -212,7 +260,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：Pointillism / Pointillism",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_impressionism",
+                    "name": "印象表现"
+                  }
+                ]
               }
             },
             {
@@ -229,7 +283,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：Impressionism / Impressionism",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_impressionism",
+                    "name": "印象表现"
+                  }
+                ]
               }
             },
             {
@@ -246,7 +306,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：Fauvism / Fauvism",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_impressionism",
+                    "name": "印象表现"
+                  }
+                ]
               }
             },
             {
@@ -264,7 +330,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：Fauvism / Fauvism",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_impressionism",
+                    "name": "印象表现"
+                  }
+                ]
               }
             },
             {
@@ -282,7 +354,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：Impressionism / Impressionism",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_impressionism",
+                    "name": "印象表现"
+                  }
+                ]
               }
             },
             {
@@ -299,7 +377,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：Impressionism / Impressionism",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_impressionism",
+                    "name": "印象表现"
+                  }
+                ]
               }
             },
             {
@@ -316,7 +400,59 @@
                 "status": "suggested",
                 "reason": "标题规则证据：pointillism / pointillism",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_impressionism",
+                    "name": "印象表现"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "divisionism",
+              "name": "Divisionism",
+              "type": "prompt",
+              "prompt": "divisionism style {prompt} . color theory, dot technique, vibrant, detailed",
+              "negative_prompt": "black and white, smooth technique, muted, low detail",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_impressionism",
+                    "name": "印象表现"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "stippling",
+              "name": "Stippling",
+              "type": "prompt",
+              "prompt": "stippled technique on {prompt} . dotted, texture, detailed, graphic, intricate,smooth",
+              "negative_prompt": "solid",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_impressionism",
+                    "name": "印象表现"
+                  }
+                ]
               }
             }
           ]
@@ -325,6 +461,34 @@
           "id": "art_movements_surrealism",
           "name": "超现实",
           "presets": [
+            {
+              "id": "opennana_prompt-273",
+              "name": "超现实主义极简概念广告",
+              "type": "prompt",
+              "prompt": "{subject}, “{品牌或产品名称}”——超现实主义极简概念广告\n创建 1：1 高分辨率海报，使用最少的元素和象征性的故事讲述将品牌/产品重新想象为超现实的欲望对象。\n\n• 视觉风格：超干净的背景（浅色或柔和的色调）、柔和的灯光、强烈的负空间\n• 场景概念：将产品本质转化为隐喻或梦幻般的场景\n• 添加一个简短、有力的口号（2-3 个词），在情感上与概念产生共鸣\n• 以简洁、现代的风格包含品牌标识（自然融入布局）\n• 构图：居中或三分法对齐，巧妙运用阴影和深度\n• 氛围：艺术、优雅、发人深省——就像博物馆装置\n• 没有混乱，没有现实主义超载——只有概念清晰",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/273.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 超现实、极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  },
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
             {
               "id": "surrealism",
               "name": "Surrealism",
@@ -339,7 +503,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：Surrealism / Surrealism",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
               }
             },
             {
@@ -357,7 +527,180 @@
                 "status": "suggested",
                 "reason": "标题规则证据：Surrealism / Surrealism",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-130",
+              "name": "创建超现实不可能的图像",
+              "type": "prompt",
+              "prompt": "{subject}, 创建一个超现实的分割场景，其中左半部分是 [SCENE] 的水下版本，充满了海洋生物（鱼、鲨鱼、章鱼、珊瑚、气泡），右半部分是同一 [SCENE] 的常规干燥版本自然延续。用一道由神奇力量支撑的垂直水墙将两半分开，仿佛海洋被切成两半。场景应在两侧对齐，在展示不可能的场景的同时保持真实感。强调水和空气环境之间的光照和反射差异。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/130.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-207",
+              "name": "超现实的高冲击力的图像",
+              "type": "prompt",
+              "prompt": "{subject}, 创建一个超现实的、高冲击力的图像，展示一个[主题]在空中悬停，捕捉到爆炸性时刻的巅峰。用动态的[粒子/飞溅/碎片]围绕它，增强运动感和能量。宏观细节，大胆的边缘照明，以及充满活力的[背景颜色]，以强调形状、质感和对比度，电影般的、现代的、视觉上引人注目。非常适合高端产品活动。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/207.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-218",
+              "name": "超现实的黑白彩色页面",
+              "type": "prompt",
+              "prompt": "{subject}, 创建一个超现实的黑白彩色页面，中心是融化的[主题]，周围有大型、有趣的形状和流畅的图案。背景包括诸如带眼睛的向日葵、融化的眼球、融化的心形、融化的蘑菇、云朵和星星等奇幻和超现实元素。使用粗犷、干净的轮廓和完全封闭的形状来创建易于上色的不同区域。避免过多的精细细节或杂乱。保持构图开放、宽敞和有趣。方形长宽比，白色背景。无文字或颜色。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/218.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-233",
+              "name": "超现实鸟类幻想",
+              "type": "prompt",
+              "prompt": "{subject}, 对神话鸟类生物的高度详细和超现实的描绘。它拥有优雅、多彩的蝴蝶身体，带有充满活力、对称的翅膀图案。它的头是一头雄伟的大象，长着大耳朵、长长的卷曲的鼻子和象牙，赋予它强大而古老的光环。长长的斑点长颈鹿脖子连接身体和头部，优雅地高高耸立。翅膀是巨大的鹰翅膀，完全伸展，羽毛在运动中戏剧性。它的尾巴是一条彩虹色的孔雀尾巴，像皇家羽毛一样呈扇形展开。这个生物站在一片迷人的迷雾森林中，沐浴在空灵的光芒中，周围环绕着发光的粒子。超逼真的电影般的照明、奇幻的氛围、超详细的概念艺术",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/233.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-49",
+              "name": "超现实海洋图案",
+              "type": "prompt",
+              "prompt": "{subject}, Create a hyper-realistic image where [SHAPE] shape is formed by the magical parting of [wavy] blue ocean, with the [SHAPE] shape being a [COLOUR] empty land. The top view should show the water being pushed aside by an unseen force, creating the [SHAPE] with an ultra-thin line. The stark [COLOR] color of the [SHAPE] interior should contrast with the vibrant blue water around it, emphasizing the supernatural effect as if the water is being parted to reveal the [SHAPE] shape distinctly.",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/49.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-162",
+              "name": "超现实主义蒸汽波",
+              "type": "prompt",
+              "prompt": "{subject}, [主题] 在超现实主义蒸汽波拼贴画中。结合古典雕塑、80 年代复古未来主义和日本城市景观的元素。使用 [COLOR1] 和 [COLOR2] 的柔和色调，并带有淡淡的霓虹灯",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/162.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "automatism",
+              "name": "Automatism",
+              "type": "prompt",
+              "prompt": "automatism style {prompt} . unconscious, spontaneous, abstract, detailed",
+              "negative_prompt": "conscious, planned, realistic, low detail",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
               }
             }
           ]
@@ -380,7 +723,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：abstract expressionism / abstract expressionism",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_abstract",
+                    "name": "抽象构成"
+                  }
+                ]
               }
             },
             {
@@ -397,7 +746,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：Abstract Expressionism / Abstract Expressionism",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_abstract",
+                    "name": "抽象构成"
+                  }
+                ]
               }
             },
             {
@@ -414,7 +769,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：Bauhaus / Bauhaus",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_abstract",
+                    "name": "抽象构成"
+                  }
+                ]
               }
             },
             {
@@ -431,7 +792,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：Suprematism / Suprematism",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_abstract",
+                    "name": "抽象构成"
+                  }
+                ]
               }
             },
             {
@@ -449,7 +816,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：Abstract Expressionism / Abstract Expressionism",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_abstract",
+                    "name": "抽象构成"
+                  }
+                ]
               }
             },
             {
@@ -467,7 +840,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：Constructivism / Constructivism",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_abstract",
+                    "name": "抽象构成"
+                  }
+                ]
               }
             },
             {
@@ -485,7 +864,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：Suprematism / Suprematism",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_abstract",
+                    "name": "抽象构成"
+                  }
+                ]
               }
             },
             {
@@ -502,7 +887,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：bauhaus / bauhaus",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_abstract",
+                    "name": "抽象构成"
+                  }
+                ]
               }
             },
             {
@@ -520,7 +911,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：constructivism / constructivism",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_abstract",
+                    "name": "抽象构成"
+                  }
+                ]
               }
             },
             {
@@ -537,7 +934,36 @@
                 "status": "suggested",
                 "reason": "标题规则证据：abstract expressionism / abstract expressionism",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_abstract",
+                    "name": "抽象构成"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "rothko",
+              "name": "Rothko",
+              "type": "prompt",
+              "prompt": "\"Rothko style {prompt} . Color field",
+              "negative_prompt": "abstract",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_abstract",
+                    "name": "抽象构成"
+                  }
+                ]
               }
             }
           ]
@@ -560,30 +986,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：pop art / pop art",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "game_gta",
-              "name": "game-gta",
-              "type": "prompt",
-              "prompt": "GTA-style artwork {prompt} . satirical, exaggerated, pop art style, vibrant colors, iconic characters, action-packed",
-              "negative_prompt": "realistic, black and white, low contrast, impressionist, cubist, noisy, blurry, deformed",
-              "description": "ComfyUI Style",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：pop art",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "art_movements": [
-                    "pop art",
-                    "style"
-                  ]
-                }
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_pop",
+                    "name": "波普欧普"
+                  }
+                ]
               }
             },
             {
@@ -600,7 +1009,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：Pop art / Pop art",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_pop",
+                    "name": "波普欧普"
+                  }
+                ]
               }
             },
             {
@@ -617,214 +1032,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：Op art / Op art",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "warhol",
-              "name": "Warhol",
-              "type": "prompt",
-              "prompt": "\"Warhol style {prompt} . Pop art",
-              "negative_prompt": "bold colors",
-              "description": "ComfyUI Style",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：Pop art",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "art_movements": [
-                    "Pop art",
-                    "style"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "kusama",
-              "name": "Kusama",
-              "type": "prompt",
-              "prompt": "\"Kusama style {prompt} . Pop Art",
-              "negative_prompt": "abstract",
-              "description": "ComfyUI Style",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：Pop Art",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "art_movements": [
-                    "Pop Art",
-                    "style"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "lichtenstein",
-              "name": "Lichtenstein",
-              "type": "prompt",
-              "prompt": "\"Lichtenstein style {prompt} . Pop art",
-              "negative_prompt": "comic strip",
-              "description": "ComfyUI Style",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：Pop art",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "art_movements": [
-                    "Pop art",
-                    "style"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "keith_haring",
-              "name": "Keith Haring",
-              "type": "prompt",
-              "prompt": "\"Keith Haring style {prompt} . Pop art",
-              "negative_prompt": "bold lines",
-              "description": "ComfyUI Style",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：Pop art",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "art_movements": [
-                    "Pop art",
-                    "style"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "roy_lichtenstein",
-              "name": "Roy Lichtenstein",
-              "type": "prompt",
-              "prompt": "\"Roy Lichtenstein style {prompt} . Pop art",
-              "negative_prompt": "comic strip influence",
-              "description": "ComfyUI Style",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：Pop art",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "art_movements": [
-                    "Pop art",
-                    "style"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "david_hockney",
-              "name": "David Hockney",
-              "type": "prompt",
-              "prompt": "\"David Hockney style {prompt} . Pop art",
-              "negative_prompt": "landscape",
-              "description": "ComfyUI Style",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：Pop art",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "art_movements": [
-                    "Pop art",
-                    "style"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "kaws",
-              "name": "KAWS",
-              "type": "prompt",
-              "prompt": "\"KAWS style {prompt} . Pop art",
-              "negative_prompt": "vinyl toy",
-              "description": "ComfyUI Style",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：Pop art",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "art_movements": [
-                    "Pop art",
-                    "style"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "richard_hamilton",
-              "name": "Richard Hamilton",
-              "type": "prompt",
-              "prompt": "\"Richard Hamilton style {prompt} . Pop Art",
-              "negative_prompt": "collage",
-              "description": "ComfyUI Style",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：Pop Art",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "art_movements": [
-                    "Pop Art",
-                    "style"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "wayne_thiebaud",
-              "name": "Wayne Thiebaud",
-              "type": "prompt",
-              "prompt": "\"Wayne Thiebaud style {prompt} . Pop Art",
-              "negative_prompt": "still life",
-              "description": "ComfyUI Style",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：Pop Art",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "art_movements": [
-                    "Pop Art",
-                    "style"
-                  ]
-                }
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_pop",
+                    "name": "波普欧普"
+                  }
+                ]
               }
             },
             {
@@ -842,7 +1056,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：Op Art / Op Art",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_pop",
+                    "name": "波普欧普"
+                  }
+                ]
               }
             },
             {
@@ -860,31 +1080,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：Pop Art / Pop Art",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "fooocus_marc_k3nt3l_mk_andy_warhol",
-              "name": "MK Andy Warhol",
-              "prompt": "Artwork in the style of Andy Warhol {prompt}. Pop art, vibrant colors, bold compositions, repetition of iconic imagery, celebrity culture, commercial aesthetics, mass production influence, stylized simplicity, cultural commentary, graphical elements, distinctive portraits.",
-              "negative_prompt": "subdued colors, realistic, lack of repetition, minimalistic.",
-              "description": "Marc K3nt3L 风格",
-              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_marc_k3nt3l.json",
-              "thumbnail": "/api/thumbnails/fooocus_marc_k3nt3l_mk_andy_warhol.jpg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：Pop art",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "art_movements": [
-                    "Pop art",
-                    "style"
-                  ]
-                }
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_pop",
+                    "name": "波普欧普"
+                  }
+                ]
               }
             },
             {
@@ -901,30 +1103,152 @@
                 "status": "suggested",
                 "reason": "标题规则证据：pop art / pop art",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_pop",
+                    "name": "波普欧普"
+                  }
+                ]
               }
             },
             {
-              "id": "fooocus_twri_gamegta",
-              "name": "game-gta",
-              "prompt": "GTA-style artwork {prompt} . satirical, exaggerated, pop art style, vibrant colors, iconic characters, action-packed",
-              "negative_prompt": "realistic, black and white, low contrast, impressionist, cubist, noisy, blurry, deformed",
-              "description": "TWRI SDXL 风格",
-              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_twri.json",
+              "id": "warhol",
+              "name": "Warhol",
+              "type": "prompt",
+              "prompt": "\"Warhol style {prompt} . Pop art",
+              "negative_prompt": "bold colors",
+              "description": "ComfyUI Style",
               "classification": {
-                "method": "rules",
-                "stage": "content",
+                "method": "llm",
+                "stage": "title",
                 "resolution": "resolved",
                 "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：pop art",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "art_movements": [
-                    "pop art",
-                    "style"
-                  ]
-                }
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_pop",
+                    "name": "波普欧普"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "kusama",
+              "name": "Kusama",
+              "type": "prompt",
+              "prompt": "\"Kusama style {prompt} . Pop Art",
+              "negative_prompt": "abstract",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_pop",
+                    "name": "波普欧普"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "lichtenstein",
+              "name": "Lichtenstein",
+              "type": "prompt",
+              "prompt": "\"Lichtenstein style {prompt} . Pop art",
+              "negative_prompt": "comic strip",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_pop",
+                    "name": "波普欧普"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-324",
+              "name": "波普艺术肖像",
+              "type": "prompt",
+              "prompt": "{subject}, 这幅充满活力、风格独特的波普艺术肖像画描绘了一位[人物]。画中人物的线条粗犷、轮廓分明，令人联想起漫画小说或人物设计。[人物]身穿[颜色]上衣/夹克，搭配[配饰]。他们的发型充满活力，精心打理。背景为纯色、干净的[背景色]，确保人物形象突出。整体风格现代、魅力十足，略带夸张的艺术效果，数字渲染清晰，色彩饱和度高。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/324.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_pop",
+                    "name": "波普欧普"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "banksy",
+              "name": "Banksy",
+              "type": "prompt",
+              "prompt": "\"Banksy style {prompt} . Street art",
+              "negative_prompt": "satirical",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_pop",
+                    "name": "波普欧普"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "basquiat",
+              "name": "Basquiat",
+              "type": "prompt",
+              "prompt": "\"Basquiat style {prompt} . Neo-expressionist",
+              "negative_prompt": "primitive",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_pop",
+                    "name": "波普欧普"
+                  }
+                ]
               }
             }
           ]
@@ -947,7 +1271,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：art deco / art deco",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_art_nouveau",
+                    "name": "新艺术装饰"
+                  }
+                ]
               }
             },
             {
@@ -964,7 +1294,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：art nouveau / art nouveau",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_art_nouveau",
+                    "name": "新艺术装饰"
+                  }
+                ]
               }
             },
             {
@@ -981,7 +1317,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：Art Deco / Art Deco",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_art_nouveau",
+                    "name": "新艺术装饰"
+                  }
+                ]
               }
             },
             {
@@ -998,7 +1340,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：Art Nouveau / Art Nouveau",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_art_nouveau",
+                    "name": "新艺术装饰"
+                  }
+                ]
               }
             },
             {
@@ -1016,7 +1364,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：Art Deco / Art Deco",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_art_nouveau",
+                    "name": "新艺术装饰"
+                  }
+                ]
               }
             },
             {
@@ -1034,31 +1388,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：Art Nouveau / Art Nouveau",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "fooocus_marc_k3nt3l_mk_carnival_glass",
-              "name": "MK Carnival Glass",
-              "prompt": "A sculpture made of Carnival glass, {prompt}. Iridescent surfaces, vibrant colors, intricate patterns, opalescent hues, reflective and prismatic effects, Art Nouveau and Art Deco influences, vintage charm, intricate detailing, lustrous and luminous appearance, Carnival Glass style.",
-              "negative_prompt": "non-iridescent surfaces, muted colors, absence of intricate patterns, lack of opalescent hues, modern and minimalist aesthetic.",
-              "description": "Marc K3nt3L 风格",
-              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_marc_k3nt3l.json",
-              "thumbnail": "/api/thumbnails/fooocus_marc_k3nt3l_mk_carnival_glass.jpg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：Art Nouveau",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "art_movements": [
-                    "Art Nouveau",
-                    "style"
-                  ]
-                }
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_art_nouveau",
+                    "name": "新艺术装饰"
+                  }
+                ]
               }
             },
             {
@@ -1075,7 +1411,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：art deco / art deco",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_art_nouveau",
+                    "name": "新艺术装饰"
+                  }
+                ]
               }
             },
             {
@@ -1092,7 +1434,958 @@
                 "status": "suggested",
                 "reason": "标题规则证据：art nouveau / art nouveau",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_art_nouveau",
+                    "name": "新艺术装饰"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "art_movements_minimalism",
+          "name": "极简主义",
+          "presets": [
+            {
+              "id": "opennana_minimalist-premium-architectural-landmark-presentation",
+              "name": "极简金白建筑地标展示",
+              "type": "prompt",
+              "prompt": "{subject}, 在[国家/城市]为[地标名称]创建一个高级极简主义建筑展示。\n\n地标应作为唯一的焦点出现，以优雅的金属金雕刻而成，而周围的城市则完全渲染成哑光白，如同干净的建筑比例模型。\n\n将地标精确地放置在中心，发出柔和温暖的金色光芒，自然地吸引注意力。周围的街道、建筑物、广场和城市布局应显得简化、单色且高度极简，以此强调纪念碑的重要性。\n\n采用精致的博物馆展览美学，结合奢侈品牌设计、丰富的负空间、柔和的全局照明、细微的环境光遮蔽、细腻的阴影和极度干净的几何图形。\n\n在顶部中心位置添加一个精致的衬线体标题：\n\n[国家] | [地标名称]\n\n采用优雅的金色字体。\n\n整体构图应具有苹果风格的产品发布感、奢华建筑可视化、高级旅游品牌推广和高端编辑设计的质感。\n\n风格：极简建筑、单色白色城市模型、金色核心焦点、博物馆展示、奢华呈现、干净的几何形状、电影级照明、柔和渐变、写实 3D 渲染、超高清细节、Octane 渲染、全局照明、优雅排版、高级品牌、宁静美学、高端建筑可视化、8K。",
+              "negative_prompt": "",
+              "description": "即梦",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202608/1786027385386-0h3flnc8-1786027389079-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_tall-japanese-beauty-black-silk-bodysuit-luxury-apartment",
+              "name": "极简主义深夜豪宅内的高挑日本佳丽",
+              "type": "prompt",
+              "prompt": "{subject}, 1. 主体与动作\n一位22岁的日本美女，身高178cm，陶瓷般洁白的皮肤，天然灰蓝色眼睛，极其精致的面部轮廓，高级低调的妆容。深色头发盘成松散优雅的发髻。腰部极细。丰满的天然G罩杯乳房，具有柔软写实的重量和因重力产生的自然下垂感，而非挺拔或手术提升的效果。她穿着紧身黑色丝绸长袖连体衣和配套的黑色透明连裤袜。丝绸紧贴身体，如同第二层皮肤，但仅为半透明：织物具有可见的纹理和轻微的遮盖力，因此乳头和乳晕隐约可见，而非轮廓分明。姿势：站在高窗边，长S曲线，一只手扶着窗框，目光低垂，冷静且具有贵族气质。\n2. 背景与时间\n夜晚的现代极简主义日本豪华公寓。深色木材、石质地板，落地窗外有一棵庭院树。月光时刻。\n3. 构图与相机\n全身垂直肖像。突显她的身高以及细腰与自然沉重的G罩杯之间的对比。相机位于胸部到臀部的高度。浅景深，艺术时尚构图。\n4. 光线与风格\n来自侧面的柔和冷色月光。低对比度，银蓝色和炭灰色。光线应拂过丝绸，使体积感和隐约的乳头暗示通过织物纹理呈现，而非通过高透明度呈现。诗意的东方现代主义，博物馆级的写实主义。\n5. 约束条件\n紧身黑色丝绸，不过度透明。仅限自然的隐约乳头和乳晕。自然的G罩杯垂坠感。优雅、高级、不庸俗。没有多余衣物，没有油腻的色情光效，没有夸张的挺拔感。",
+              "negative_prompt": "",
+              "description": "Grok",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202609/1788844424827-9xkslwbo-1788844425554-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_minimalist-editorial-high-end-web-design-prompts",
+              "name": "极简社论风格高端网页设计提示词",
+              "type": "prompt",
+              "prompt": "{subject}, [主体]的设计，极简社论艺术指导，高端网页设计美学，超大优雅衬线字体，简洁几何无衬线辅助字体，左对齐的主体内容，大量的负空间，视觉层级向左倾斜，大尺寸产品图像置于右侧，非对称社论构图，围绕主视觉的浮动圆角内容卡片，微妙细长的几何构造线，柔和的立体阴影，暖白色背景，由黄油黄、薄荷绿、粉蓝色、腮红粉和暖米色组成的克制的柔和调色板，清晰的黑色字型，平滑的摄影切图，抛光的产品渲染感，精致的高级氛围\n\n示例主体\n\n→ 现代健身平台网站，身着彩色运动服的活力女性，周围环绕着趣味运动器材和明亮配件\n\n→ 带有产品图像和柔和几何点缀的现代家具品牌首屏部分\n\n→ 现代餐厅预订平台，具有精选用餐体验和预订指标\n\n→ 带有产品摄影和定期配送指标的高级咖啡订阅落地页",
+              "negative_prompt": "",
+              "description": "Grok",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202608/1786370975062-5jrqmikg-1786370975962-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "art_movements_retro",
+          "name": "年代复古",
+          "presets": [
+            {
+              "id": "opennana_prompt-883",
+              "name": "女子在一辆复古美式车内",
+              "type": "prompt",
+              "prompt": "{subject}, {\n“scene_description” “一段电影感十足的广角内景镜头，展现了一位时尚年轻女子在日落时分慵懒地躺在一辆复古美式肌肉车内。”\n“主题”： {\n“类型”: “年轻女子”\n“年龄”：“20岁出头”，\n“特征”： {\n“头发”：“长长的、蓬松的、阳光亲吻过的蜜金色头发，蓬松凌乱，略带风吹的质感”，\n“肤色”：“白皙，带有阳光带来的温暖金色光泽”，\n“表情”：“自信、迷人的眼神直视镜头，微微撅嘴”\n},\n“服装”：“黑色泡泡袖挤奶女工风格迷你连衣裙或连体裤，心形领口”，\n“姿势”：“舒适地斜倚在前排长椅/桶形座椅上，一条腿伸向镜头（画面缩短），一条膝盖弯曲，一只手随意地放在额头上。”\n},\n“行动”： {\n“主要”： “躺在乘客座位上”，\n“次要的”：“用左手遮住眼睛/触摸头发”，\n“效果”：“轻松叛逆的‘酷女孩’美学”\n},\n“环境”： {\n“场景”：“一辆经典的 20 世纪 60 年代/70 年代肌肉车的内饰”，\n\"前景元素\": [\n“复古木质三辐方向盘（局部视图）”\n“黑色乙烯基仪表板”，\n“镀铬装饰”\n],\n“背景元素”：[\n“透过窗户可以看到木制牧场风格的围栏”\n“晴朗的蓝天”，\n“汽车后视镜映出脸部的一角”\n]\n},\n“灯光”： {\n“风格”：“自然黄金时刻”，\n\"key_light\": {\n“类型”：“直接、温暖的阳光”，\n“颜色”：“金琥珀色”，\n“照亮”：[\n“脸”，\n“头发挑染”，\n“腿”\n]\n},\n“阴影”：“车厢内部深邃、高对比度的阴影，营造出景深效果”\n},\n“风格”： {\n“媒介”: “35mm 胶片摄影”\n“美学”：“复古美式风格、时尚大片、独立公路旅行”\n“质量”：“高保真度，颗粒模拟”，\n“细节”：“皮革和皮肤上的超逼真纹理”\n},\n\"scene_composition\": {\n“subject_action”: “慵懒地摆着姿势，占据了画面”\n“camera_behavior”: “广角室内镜头，在靴子上产生透视变形”\n\"depth_layering\": \"方向盘前景->主体焦点->外部背景\"\n},\n\"visual_description\": {\n核心主题：一位拥有金色波浪卷发的写实年轻女性。\n\"attire_physics\": \"连衣裙的黑色面料会吸收光线，而皮靴则具有镜面反射的高光。\"\n“skin_rendering”: “温暖、有光泽的肌肤纹理，带有阳光带来的自然高光。”\n},\n\"lighting_and_atmosphere\": {\n“类型”：“黄金时段自然光”，\n“具体情况”：“强烈的阳光透过车窗照射进来，在车内座椅上投下清晰的阴影线。”\n\"color_grade\": \"温暖的色调，灵感来自柯达Portra 400，浓郁的黑色和鲜艳的肤色。\"\n},\n\"attire_customization\": {\n\"current_clothing\": \"黑色长袖泡泡袖上衣，心形领口，黑色厚底系带马丁靴。\"\n\"customizable_clothing\": \"用户可以替换为'牛仔夹克'、'白色夏日连衣裙'等。\"\n},\n\"品牌产品定制\": {\n\"current_brand_product\": \"马丁靴款式\"\n\"customizable_brand\": \"\",\n\"customizable_product\": \"\",\n\"product_placement_area\": \"前景中的靴子或汽车内饰品牌标识。\"\n},\n\"objects_and_props\": {\n\"main_objects\": [\n“复古汽车座椅（黑色罗纹皮革）”\n“方向盘”，\n“后视镜”\n],\n\"secondary_objects\": [\n“外面有木栅栏，”\n“镀铬门把手”\n]\n},\n\"camera_and_lens\": {\n\"focal_length_feel\": \"24mm 或 28mm（广角）\",\n\"aperture_effect\": \"f/5.6（足够深，可以保持内部清晰，外部略微柔和）\",\n“camera_angle”: “相对于坐着的拍摄对象，从驾驶员侧视角拍摄，视线与拍摄对象视线齐平”\n\"lens_type\": \"广角定焦镜头\",\n\"bokeh_style\": \"极简散景，主体清晰\"\n}\n}",
+              "negative_prompt": "",
+              "description": "Grok",
+              "thumbnail": "https://img.opennana.com/prompts/images/883.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-387",
+              "name": "握着复古银色麦克风女生",
+              "type": "prompt",
+              "prompt": "{subject}, {\n“场景”： {\n\"location\": \"明亮摄影工作室\",\n\"background\": \"纯色、高饱和度的马卡龙粉色无缝背景\"\n}，\n“主题”： {\n\"年龄\": \"成人\",\n\"description\": \"东亚女性，长长的卷曲焦糖色头发，带有闪亮的金色亮点，自信的“偶像”目光\",\n\"wardrobe\": \"闪亮的‘偶像’舞台装：粉色格子百褶裙，白色蕾丝边短款上衣，胸前大蝴蝶结，亮片细节\",\n\"accessories\": \"白色蕾丝腕手套，闪亮的星形发夹，一只手拿着复古的银色麦克风（作为道具）\",\n\"pose\": \"全身，经典偶像姿势：一只手叉腰，另一只手在脸颊附近做爱心手势，S 形曲线，自信\",\n\"expression\": \"完美、灿烂的‘专业’笑容，闪亮的眼睛，充满魅力\",\n\"gaze\": \"直视镜头（与粉丝互动）\",\n\"body_notes\": \"逼真的成人比例；自然的皮肤纹理\"\n}，\n“相机”： {\n“传感器”：“全帧”，\n\"焦距毫米\": 70,\n\"aperture_f\": 3.2,\n“shutter_s”：0.008，\n\"iso\": 100,\n\"白平衡k\": 5200,\n“距离米”：4.0，\n\"camera_height_m\": 1.1,\n\"framing\": \"全身照，留出足够的空间来展示姿势\",\n“focus”：“eye_detect_AF 在最近的眼睛上”\n}，\n“灯光”： {\n\"key\": \"大型环形闪光灯，营造标志性的环形眼神光\",\n\"fill\": \"两侧有两个大型柔光箱，提供均匀、高调的“K-pop”照明\",\n\"hair\": \"从高处照射强光，打造闪亮的头发亮点\",\n\"catchlights\": \"透明环形眼神光\",\n\"notes\": \"高调、明亮、无阴影，强调服装的闪亮质感\"\n}，\n“颜色等级”：{\n\"style\": \"K-Pop / J-Pop 偶像，高调可爱\",\n\"palette\": \"亮粉色、白色、焦糖色；完美无瑕的‘玻璃肌肤’\",\n\"contrast\": \"中等，非常干净\",\n\"saturation\": \"高饱和度，鲜艳\"\n}，\n“化妆品”： {\n\"eyes\": \"舞台妆：浓密的假睫毛、闪亮的液体眼影、高光的撒娇眼影\",\n\"cheeks\": \"明亮的草莓粉色腮红\",\n\"lips\": \"高光渐变‘水润双唇’\"\n}，\n“后处理”：{\n\"retouch\": \"高度精致的皮肤修饰，但保持毛孔纹理（不是塑料）\",\n\"clarity\": \"增强亮片、眼睛、嘴唇和头发亮点的清晰度\",\n\"dodge_burn\": \"对撒娇、鼻梁和锁骨进行微减淡\",\n\"vignette\": \"无，保持背景干净\"\n}，\n“艺术指导”：{\n\"mood\": \"闪亮、自信、活力、甜美的偶像\",\n\"keywords\": [\"偶像\", \"K-Pop\", \"J-Pop\", \"舞台服装\", \"心形手势\", \"闪亮\"]\n}，\n\"negative_prompts\": [\n“nsfw”，\n“未成年的样子”，\n“文字或徽标”，\n“塑料娃娃皮肤”，\n“弯曲的手或多余的手指”，\n“畸形肢体”，\n“昏暗或阴郁的灯光”，\n“便衣”，\n“悲伤的表情”\n]\n}",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/387.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_90s-retro-hotel-bunny-girl-cosplay",
+              "name": "90年代复古酒店兔女郎角色扮演快照",
+              "type": "prompt",
+              "prompt": "{subject}, {\"subject\": \"二十多岁的年轻东亚女性，经典的兔女郎服装角色扮演，冷静地直接注视镜头，柔和的红唇\", \"hair\": \"黑色齐肩发，带有平整的齐刘海，几缕散乱的发丝\", \"body\": \"身材苗条，自然的皮肤纹理，带有轻微的闪光灯光泽\", \"pose\": \"坐在酒店床边，身体微微前倾，双手放在膝盖旁的床单上\", \"clothing\": \"黑色天鹅绒无肩带连体装，领口适中，白色可拆卸衣领配黑色领结，白色袖口配黑色纽扣，白色小绒球尾巴，深色透明连裤袜\", \"accessories\": \"黑白缎面兔耳头箍\", \"photography\": \"1990年代傻瓜相机胶片快照，机顶闪光灯直射，轻微颗粒感和柔和暗角，左下角有橙色日期戳 '96 11 23'，垂直2:3构图，视线平齐\", \"background\": \"陈旧的酒店房间，带有印花床单、有图案的壁纸、有框风景画、暖色台灯、木椅和梳妆镜\", \"the_vibe\": \"怀旧，随性，复古酒店角色扮演快照，温暖而有情调\", \"constraints\": \"写实，大方且非显露，服装完全覆盖，自然的解剖结构和手部\", \"negative_prompt\": \"裸体，露骨内容，卡通，3D渲染，塑料皮肤，多余的手指，扭曲的面部，除日期戳以外的文字\"}",
+              "negative_prompt": "",
+              "description": "Grok",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202610/1792369639232-vwlnox4x-1792369642089-1.jpg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 年代复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_stunning-asian-beauty",
+              "name": "惊艳日韩美女的复古光影",
+              "type": "prompt",
+              "prompt": "{subject}, 一个优雅美丽迷人惊艳的20岁日本或韩国女性，高挑纤细优雅的沙漏型身材且比例匀称。无限渐变光照背景。使用28mm镜头拍摄。康泰时蔡司风格，清晰复古锐度，微妙的暖色高光，丰富的对比度。",
+              "negative_prompt": "",
+              "description": "Grok",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1777180500587-q8hqe3mq-1777180504703-1.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-33",
+              "name": "复古像素UI图标",
+              "type": "prompt",
+              "prompt": "{subject}, retexture the image attached in the following json aesthetic style:\n{\n  \"style\": \"Retro Pixel UI Icons\",\n  \"resolution\": \"low (32x32 or 48x48)\",\n  \"color_palette\": [\n    \"#F2F2F2\",  \n    \"#C0C0C0\",  \n    \"#000000\", \n    \"#FFFFFF\",  \n    \"#0000FF\",  \n    \"#00FF00\",  \n    \"#FFFF99\",  \n    \"#008080\" \n  ],\n  \"outline\": {\n    \"enabled\": true,\n    \"color\": \"#000000\",\n    \"thickness\": \"1px\"\n  },\n  \"shading\": {\n    \"method\": \"dithering\",\n    \"colors_used\": [\"base color\", \"highlight\", \"shadow\"],\n    \"pattern\": \"checkerboard or diagonal lines\"\n  },\n  \"lighting\": {\n    \"type\": \"flat\",\n    \"source\": \"top-left\",\n    \"highlight_color\": \"#FFFFFF\",\n    \"shadow_color\": \"#808080\"\n  },\n  \"background\": {\n    \"color\": \"#F2F2F2\",\n    \"type\": \"plain\",\n    \"transparency\": false\n  },\n  \"object_properties\": {\n    \"style\": \"pixel art\",\n    \"perspective\": \"isometric or front-facing\",\n    \"animation\": {\n      \"enabled\": false,\n      \"frame_style\": \"static pixel art\"\n    }\n  }\n}",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/33.png",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "futuristic_retro_futurism",
+              "name": "futuristic-retro futurism",
+              "type": "prompt",
+              "prompt": "retro-futuristic {prompt} . vintage sci-fi, 50s and 60s style, atomic age, vibrant, highly detailed",
+              "negative_prompt": "contemporary, realistic, rustic, primitive",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：retro / retro",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "game_retro_arcade",
+              "name": "game-retro arcade",
+              "type": "prompt",
+              "prompt": "retro arcade style {prompt} . 8-bit, pixelated, vibrant, classic video game, old school gaming, reminiscent of 80s and 90s arcade games",
+              "negative_prompt": "modern, ultra-high resolution, photorealistic, 3D",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：retro / retro",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "game_retro_game",
+              "name": "game-retro game",
+              "type": "prompt",
+              "prompt": "retro game art {prompt} . 16-bit, vibrant colors, pixelated, nostalgic, charming, fun",
+              "negative_prompt": "realistic, photorealistic, 35mm film, deformed, glitch, low contrast, noisy",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：retro / retro",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "futuristic_retro_cyberpunk",
+              "name": "futuristic-retro cyberpunk",
+              "type": "prompt",
+              "prompt": "retro cyberpunk {prompt} . 80's inspired, synthwave, neon, vibrant, detailed, retro futurism",
+              "negative_prompt": "modern, desaturated, black and white, realism, low contrast",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：retro / retro",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "retro",
+              "name": "Retro",
+              "type": "prompt",
+              "prompt": "retro style {prompt} . vintage, nostalgic, old-fashioned, highly detailed",
+              "negative_prompt": "modern, futuristic, forward-looking, low detail",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：Retro / Retro",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "vintage",
+              "name": "Vintage",
+              "type": "prompt",
+              "prompt": "\"{prompt} in a vintage ensemble. Retro",
+              "negative_prompt": "nostalgia",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：Vintage / Vintage",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_vintage-male-editorial-collage",
+              "name": "复古胶片都市男模合辑",
+              "type": "prompt",
+              "prompt": "{subject}, Transform this image [Upload Your Image] into a 64K DSLR shot resolution of A moody, vintage-inspired fashion editorial presented as a vertical collage of multiple frames, blending black-and-white and warm, desaturated color photography. The subject is a young man (same face as the uploaded image) in confident, with voluminous, hair, captured in expressive, fluid poses that emphasize movement, attitude, For male:\n\nand emotional intensity. \nThe primary frame features a dramatic black-and-white portrait of the man (same face as the uploaded image) leaning forward with his hand lifting his hair, his body angled dynamically toward the camera. he wears a fitted black outfit with, sculpting hid silhouette. His gaze is intense and direct, conveying strength, mystery, and raw confidence. Soft motion blur and film grain add a classic, analog feel.\nSecondary frames include intimate close-ups of his face—one with strands of hair partially covering his eyes, highlighting natural texture, skin detail, and sensuality.  \nOther frames place his in an urban city street environment, shot during daytime with warm, nostalgic color grading. he walks confidently through a busy street lined with tall buildings, blurred pedestrians, traffic cones, and distant vehicles. In one image, he pauses mid-stride, one hand raised to his hair, wearing a black suit that flows with movement. The city background is softly out of focus, emphasizing his presence amid urban chaos. The overall color palette is earthy and cinematic—warm browns, sepia highlights, muted blacks, and soft creams—contrasted with deep shadows. Grain, slight softness, and shallow depth of field give the images a timeless, editorial film aesthetic. The mood is cool, confidential, and asthetic, evoking themes of independence, city life,\nfemininity, and effortless power. The collage feels like a high-fashion magazine spread inspired by 1970s–1990s street photography and classic fashion editorials.\nStyle & Camera Tags: Cinematic fashion photography, editorial collage, analog film look, vintage color grading, black and white portrait, urban street fashion, shallow depth of field, natural light, film grain, motion blur, high-end magazine aesthetic, emotional storytelling, 64K realism. Octane render & Unreal Engine",
+              "negative_prompt": "",
+              "description": "",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202601/1768054012776-7eyebwr4-1.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-173",
+              "name": "复古风格图标",
+              "type": "prompt",
+              "prompt": "{subject}, 创建复古卡通风格的 [OBJECT] 插图。仅使用单色，不要使用渐变、涂抹、喷枪或模糊。所有阴影和高光都应由干净、独立的色块制成。用粗大的黑色线条勾勒出所有形状的轮廓。使用简化的调色板（如蓝绿色、珊瑚色、芥末色和白色）以获得复古感。添加小的闪光点缀或动感线条以增加魅力，但保持图标的明确焦点。将插图设置在纯白色背景上。最终结果必须清晰、干净且矢量友好，具有锐利的边缘，并且没有纹理或栅格效果。方形纵横比。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/173.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-199",
+              "name": "自定义纹理的复古玩具",
+              "type": "prompt",
+              "prompt": "{subject}, 根据 JSON 对上传的图片进行重新纹理处理\n\n{\n“材料”： {\n“exterior”： “哑光注塑成型塑料”，\n“interior”：[\n“块状彩色塑料件”，\n“超大齿轮”，\n“简单杆”，\n“基本弹簧”，\n“玩具贴花”\n    ]\n  },\n“照明”： {\n“type”： “工作室柔光”，\n“direction”： “顶部和前部填充”，\n“color”： “暖日光”，\n“mood”： “怀旧的、欢快的”\n  },\n“背景”： {\n“type”： “solid”， //类型\n“color”： “柔和的黄色”\n  },\n“相机”： {\n“angle”： “与眼睛齐平的一侧”，\n“focus”： “中等锐化”，\n“depth_of_field”： “deep”\n  },\n“color_palette”： {\n“主导”： [“红”， “蓝”， “黄”]，\n“accents”： [“薄荷绿”， “白色”， “桃子”]\n  },\n“vibe”： “1980 年代复古玩具，怀旧，俏皮”\n}",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/199.png",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-267",
+              "name": "一个复古茶包",
+              "type": "prompt",
+              "prompt": "{subject}, 一个复古茶包孤零零地放在干净的白色背景上，上面手绘着类似书籍封面的复杂图案。这个茶包有着细腻的陈旧纸张质感，搭配柔和温暖的光线，细节逼真。在手绘图案上，留出一块清晰的空白区域，并标注为【BOOK】，用于填写书名。整体呈现电影般的质感，高分辨率，采用9:16的竖版格式。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/267.png",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-45",
+              "name": "复古锡玩具立体模型风格",
+              "type": "prompt",
+              "prompt": "{subject}, transform it into part of a miniature mechanical scene from the 1940s or ’50s, featuring:\n\n➕Shiny enamel-painted metal characters and objects.\n➕Riveted details and visible joints.\n➕Illustrated cardboard backdrops with vintage charm.\n➕Wind-up toy-style settings with gears and wheels.",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/45.jpeg",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-97",
+              "name": "复古电脑开机画面解析为ASCII艺术",
+              "type": "prompt",
+              "prompt": "{subject}, Retro CRT computer boot screen that resolves into ASCII-art of NYC's tallest building",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/97.png",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "fooocus_twri_futuristicretro_cyberpunk",
+              "name": "futuristic-retro cyberpunk",
+              "prompt": "retro cyberpunk {prompt} . 80's inspired, synthwave, neon, vibrant, detailed, retro futurism",
+              "negative_prompt": "modern, desaturated, black and white, realism, low contrast",
+              "description": "TWRI SDXL 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_twri.json",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：retro / retro",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "fooocus_twri_futuristicretro_futurism",
+              "name": "futuristic-retro futurism",
+              "prompt": "retro-futuristic {prompt} . vintage sci-fi, 50s and 60s style, atomic age, vibrant, highly detailed",
+              "negative_prompt": "contemporary, realistic, rustic, primitive",
+              "description": "TWRI SDXL 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_twri.json",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：retro / retro",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "fooocus_twri_gameretro_arcade",
+              "name": "game-retro arcade",
+              "prompt": "retro arcade style {prompt} . 8-bit, pixelated, vibrant, classic video game, old school gaming, reminiscent of 80s and 90s arcade games",
+              "negative_prompt": "modern, ultra-high resolution, photorealistic, 3D",
+              "description": "TWRI SDXL 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_twri.json",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：retro / retro",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "fooocus_twri_gameretro_game",
+              "name": "game-retro game",
+              "prompt": "retro game art {prompt} . 16-bit, vibrant colors, pixelated, nostalgic, charming, fun",
+              "negative_prompt": "realistic, photorealistic, 35mm film, deformed, glitch, low contrast, noisy",
+              "description": "TWRI SDXL 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_twri.json",
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：retro / retro",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "art_movements_experimental",
+          "name": "实验艺术",
+          "presets": [
+            {
+              "id": "opennana_prompt-144",
+              "name": "梦幻般的蒸汽波失真",
+              "type": "prompt",
+              "prompt": "{subject}, [主题] 以梦幻般的蒸汽波失真渲染，带有柔和的粉彩和超现实效果。采用 [COLOR1] 和 [COLOR2] 的怀旧调色板，唤起渴望和空灵之美",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/144.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_experimental",
+                    "name": "实验艺术"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "artstyle_graffiti",
+              "name": "artstyle-graffiti",
+              "type": "prompt",
+              "prompt": "graffiti style {prompt} . street art, vibrant, urban, detailed, tag, mural",
+              "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_experimental",
+                    "name": "实验艺术"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "sound_art",
+              "name": "Sound art",
+              "type": "prompt",
+              "prompt": "sound art style {prompt} . auditory, abstract, non-visual, detailed",
+              "negative_prompt": "visual, realistic, silent, low detail",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_experimental",
+                    "name": "实验艺术"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "graffiti",
+              "name": "Graffiti",
+              "type": "prompt",
+              "prompt": "graffiti style {prompt} . street art, bold, colorful, vibrant, dynamic, urban, rebellious, intricate,refined",
+              "negative_prompt": "subtle",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_experimental",
+                    "name": "实验艺术"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_creative-brand-ad-product-doodle-composite",
+              "name": "创意品牌广告实物与手绘涂鸦结合",
+              "type": "prompt",
+              "prompt": "{subject}, 创意合成品牌广告，16:9 横向宽高比，干净的白色背景，摄影棚灯光，清晰聚焦。一张 [品牌产品] 的真实照片被实际放置，并与手绘黑墨水卡通插图无缝集成。绘画是简单的、富有表现力的线条艺术，阴影极少——就像纸上的快速素描。一个卡通人物正在 [场景]，与真实产品自然互动，仿佛它存在于他们的世界中。在顶部，[品牌] 标语采用干净粗体无衬线字体。在底部，真实的品牌徽标以完整的原始颜色和比例呈现。写实产品 + 粗体黑色涂鸦艺术，绘图与真实元素之间的完美无缝融合，机智的、让人停止滚动的品牌广告美学，高对比度，极简主义构图，流行的创意广告设计。",
+              "negative_prompt": "",
+              "description": "即梦",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202607/1783869018981-6ixvxqtp-1783869023838-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_experimental",
+                    "name": "实验艺术"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "fooocus_twri_artstylegraffiti",
+              "name": "artstyle-graffiti",
+              "prompt": "graffiti style {prompt} . street art, vibrant, urban, detailed, tag, mural",
+              "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic",
+              "description": "TWRI SDXL 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_twri.json",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_experimental",
+                    "name": "实验艺术"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "art_movements_traditional",
+          "name": "传统装饰",
+          "presets": [
+            {
+              "id": "opennana_prompt-276",
+              "name": "马赛克彩色玻璃徽章",
+              "type": "prompt",
+              "prompt": "{subject}, 创建图像：\n{\n  \"风格\": \"马赛克彩色玻璃徽章\",\n  \"对象\": \"品牌标志\",\n  \"品牌\": {\n    \"名称\": \"Spotify\",\n    \"标志形状\": \"圆形\",\n    \"图标风格\": \"三条弯曲的长条\",\n    \"色彩搭配\": {\n      \"主色\": \"#1DB954\",\n      \"辅助色\": \"#1ED760\",\n      \"玻璃变体色\": [\"#147A3E\", \"#0F5C30\", \"#26C178\"]\n    }\n  },\n  \"材质\": {\n    \"类型\": \"彩色玻璃\",\n    \"效果\": \"半透明带光线反射\",\n    \"轮廓\": {\n      \"颜色\": \"#111111\",\n      \"宽度\": \"中等\",\n      \"风格\": \"传统马赛克铅线\"\n    }\n  },\n  \"构图\": {\n    \"布局\": \"由镶嵌玻璃片组成的标志\",\n    \"几何形状\": \"不规则但拼接契合的玻璃造型\",\n    \"对比度\": \"深色轮廓清晰界定形状\"\n  },\n  \"光线\": {\n    \"类型\": \"漫射自然光\",\n    \"高光\": \"突出玻璃质感和色彩深度\"\n  },\n  \"背景\": {\n    \"类型\": \"平面\",\n    \"颜色\": \"#F4F4F4\"\n  },\n  \"镜头\": {\n    \"角度\": \"俯视\",\n    \"焦点\": \"居中于整个标志\"\n  },\n  \"渲染\": {\n    \"质量\": \"高\",\n    \"阴影\": \"柔和\",\n    \"反射\": \"轻微\"\n  }\n}",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/276.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_traditional",
+                    "name": "传统装饰"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-263",
+              "name": "低多边形马赛克风格",
+              "type": "prompt",
+              "prompt": "{subject}, 将这张图片转换为精致的低多边形马赛克风格。保留原始结构和可识别的细节，尤其是面部特征和轮廓。使用小而密集的多边形，在保持清晰度和辨识度的同时，营造出水晶般的多面效果。保留原始色调，以获得和谐自然的美感。避免修改或添加新元素。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/263.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_traditional",
+                    "name": "传统装饰"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "mosaic",
+              "name": "Mosaic",
+              "type": "prompt",
+              "prompt": "mosaic style {prompt} . fragmented, assembled, colorful, highly detailed",
+              "negative_prompt": "whole, unbroken, monochrome, low detail",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_traditional",
+                    "name": "传统装饰"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "aboriginal",
+              "name": "Aboriginal",
+              "type": "prompt",
+              "prompt": "Aboriginal style {prompt} . dot painting, Dreamtime stories, Australian culture, highly detailed",
+              "negative_prompt": "non-Australian, line drawing, abstract, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_traditional",
+                    "name": "传统装饰"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "tribal",
+              "name": "Tribal",
+              "type": "prompt",
+              "prompt": "Tribal style {prompt} . African, indigenous, symbolic, highly detailed",
+              "negative_prompt": "non-African, mainstream, abstract, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_traditional",
+                    "name": "传统装饰"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "inuit",
+              "name": "Inuit",
+              "type": "prompt",
+              "prompt": "Inuit style {prompt} . Arctic, native, animal themes, highly detailed",
+              "negative_prompt": "tropical, non-native, human themes, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_traditional",
+                    "name": "传统装饰"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "nazca",
+              "name": "Nazca",
+              "type": "prompt",
+              "prompt": "Nazca style {prompt} . ancient Peru, geoglyphs, desert, highly detailed",
+              "negative_prompt": "modern, graffiti, urban, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_traditional",
+                    "name": "传统装饰"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "ojibwe",
+              "name": "Ojibwe",
+              "type": "prompt",
+              "prompt": "Ojibwe style {prompt} . Native American, birch bark, canoes, highly detailed",
+              "negative_prompt": "non-Native American, pine bark, rafts, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_traditional",
+                    "name": "传统装饰"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "art_movements_other",
+          "name": "其他艺术风格",
+          "presets": [
+            {
+              "id": "o'keeffe",
+              "name": "O'Keeffe",
+              "type": "prompt",
+              "prompt": "\"O'Keeffe style {prompt} . Modernist",
+              "negative_prompt": "floral",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_other",
+                    "name": "其他艺术风格"
+                  }
+                ]
               }
             }
           ]

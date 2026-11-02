@@ -23,7 +23,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：移除围栏 / 移除围栏",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "general_editing",
+                    "name": "图片编辑"
+                  }
+                ]
               }
             }
           ]
@@ -47,7 +53,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：提示词模板 / 提示词模板",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "general_prompting",
+                    "name": "提示词模板"
+                  }
+                ]
               }
             }
           ]

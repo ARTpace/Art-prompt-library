@@ -1,0 +1,3164 @@
+{
+  "categories": [
+    {
+      "id": "art_movements",
+      "name": "艺术风格",
+      "subcategories": [
+        {
+          "id": "art_movements_minimalism",
+          "name": "极简主义",
+          "presets": [
+            {
+              "id": "yuanbao_594997a7566447bba1369a7aeecfdc03",
+              "name": "极简办公室招聘",
+              "type": "prompt",
+              "prompt": "极简现代招聘海报，奶白色细腻纸张纹理背景，冷调纯净空间，超大留白构图，饱和电光蓝办公沙发与桌椅对称排列，真实柔雾光影，轻微颗粒质感，干净高级的3D摄影效果，蓝色粗体平面文字悬浮排版，科技企业视觉风格，文字信息：【“WE ARE HIRING”，“招聘｜用户体验设计师”，“职位：UX设计师｜地点：深圳｜加入我们，共创未来”，】文字布局克制留白，3:4。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 文生图",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/MzkwZDYyZWYtMWRkNS00NWFiLWEwNDUtNzI1OTVhMGE1MDRm_compress.webp?width=1116&height=1488",
+              "reference_images": [],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "594997a7566447bba1369a7aeecfdc03",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "6237f94f4d53400fa1152368177cb6f8",
+                    "name": "海报设计"
+                  }
+                ],
+                "generation_type": "text2image",
+                "min_images": 0,
+                "max_images": 0,
+                "reference_image_urls": [],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/MzkwZDYyZWYtMWRkNS00NWFiLWEwNDUtNzI1OTVhMGE1MDRm_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_09fc03de3f674317abd25c38f10de277",
+              "name": "极简Icon灵感库",
+              "type": "prompt",
+              "prompt": "使用柔和的几何形状，无轮廓线，采用扁平极简设计语言，打造一套包含 9 个简洁圆角填充矢量图标 的现代生活方式美学图标系统。整体小巧精致、克制高级，纯黑色背景，全画面仅使用 两种相近且较为高饱和的品牌色，禁止出现第三种主色，所有图标保持统一配色逻辑，每个图标仅使用双色块组合，不使用随机配色。无描边、无纹理、无阴影、无高光、无渐变、无玻璃效果、无立体效果，仅通过纯色几何块面、圆角切割、遮挡关系和负形空间塑造层次。所有图标采用统一设计系统：一致的圆角曲率、几何比例、视觉重量、线性语言、留白节奏、体积关系与图形密度，保持高度一致性与系列感。图标排列为 3×3 精确网格，间距均匀，对齐严格，画面秩序感极强。九个图标分别为：购物袋、香水瓶、郁金香花束、礼物盒、钻石戒指、花瓶、太阳眼镜、冒着热气的咖啡杯、鸭舌帽。所有图标均采用高度概括的几何抽象造型，减少细碎结构，避免复杂轮廓，整体圆润饱满、辨识度高、图形语言统一，符合国际品牌 Icon System 规范。整体风格融合现代生活方式品牌、精品零售、美学空间、家居生活、礼品店与生活集合店视觉体系，体现北欧极简、瑞士平面设计、日式留白及国际品牌图标设计语言，年轻、温暖、现代且具有高端品牌质感。画面顶部居中加入简洁优雅的手写字体 \"Icon Design\"，字号适中，与主体保持充足留白，整体构图平衡克制，海报感强，竖版 3:4。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 文生图",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/NjEyNmUxM2YtMWEzZi00OTAzLWJkMzMtODUxNmM3ZGRhNjEx_compress.webp?width=1116&height=1488",
+              "reference_images": [],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "09fc03de3f674317abd25c38f10de277",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "da8a4473c7a74207acbf1808460638e8",
+                    "name": "品牌设计"
+                  }
+                ],
+                "generation_type": "text2image",
+                "min_images": 0,
+                "max_images": 0,
+                "reference_image_urls": [],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/NjEyNmUxM2YtMWEzZi00OTAzLWJkMzMtODUxNmM3ZGRhNjEx_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_50cbbe87c48246488e71263e77f0e31e",
+              "name": "极简现代风",
+              "type": "prompt",
+              "prompt": "参考上传图生成图片：去掉上传图1中人物原有的服饰等所有配饰，更换人物服装和配饰；服装风格：意式解构风，无袖圆领直筒挺阔背心，银灰色金属珠光液态硬朗材质，细腻磨砂金属光泽，宽松剪裁，边缘简约利落无多余装饰。深藏蓝色阔腿西装长裤，高腰打褶设计，前片多道活褶增加宽松余量，面料厚实挺括质感，垂坠松弛的灯笼阔腿版型，裤脚平直收边，工装松弛感；深棕色细款真皮皮带，简约银色椭圆针式皮带扣，黑色简约方头低帮皮鞋；迷你圆筒手提小包，银色金属桶身搭配黑色抽绳束口，细银色金。8k高清，仅做服饰配饰的更换，严格保证其他画面内容保持不变包含但不限于人物发型、动作、环境背景等；",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传1张女性正脸图片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/MGI1NmIxYTMtNjU3OC00NmE3LTljZmUtNjllZmMzNTcyYmNl_compress.webp?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/Mzc4MzJmYmUtMWY0YS00ZGZkLTk5ZDItYTlkZjAzMjYzMDI5_compress.webp?width=1116&height=1488"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "50cbbe87c48246488e71263e77f0e31e",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "d9ff0e40f01d4d2aba0ff502bd78b12a",
+                    "name": "智能P图"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/Mzc4MzJmYmUtMWY0YS00ZGZkLTk5ZDItYTlkZjAzMjYzMDI5_compress.webp?width=1116&height=1488"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/MGI1NmIxYTMtNjU3OC00NmE3LTljZmUtNjllZmMzNTcyYmNl_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_0a4c71cf7f7d431ca5bde23252a10d7d",
+              "name": "风景极简画",
+              "type": "prompt",
+              "prompt": "竖版，3:4的画面比例上下竖向双联构图，上半部分保留上传图不重绘，保持原始摄影构图。仅重绘下半部分。下半部分为干净浅米白色纯色背景，大面积留白。下半区正中央放置柔和圆角方形图标，图标大小占下半区宽度约 30% 至 40%，边缘圆润，居中摆放，不贴边、不遮挡分隔线，四周留白充足。图标内部严格提取上方照片核心物体与相对位置做扁平化矢量平涂插画，只复刻景物布局与相对位置，不照搬照片写实细节。图标内全部大块平涂色块，轮廓边界清晰，无渐变，无阴影，无纹理。极简扁平风景图标，平面设计稿，版式稳定。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张风景照片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/YTU0ZGRkNDEtZjk3NS00OGU4LThjNWMtODUyZTJkMDg4NDZj_compress.webp?width=1328&height=1776",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/NDlmYjdkNjUtZWRkZS00YzMxLWE4NWQtYzY3ODRmOGNkN2Mw_compress.webp?width=1248&height=1872"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "0a4c71cf7f7d431ca5bde23252a10d7d",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/NDlmYjdkNjUtZWRkZS00YzMxLWE4NWQtYzY3ODRmOGNkN2Mw_compress.webp?width=1248&height=1872"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/YTU0ZGRkNDEtZjk3NS00OGU4LThjNWMtODUyZTJkMDg4NDZj_compress.webp?width=1328&height=1776",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_0be906f1cab841bba592b12d417b602e",
+              "name": "极简色块建筑",
+              "type": "prompt",
+              "prompt": "竖屏3:4，基于上传的照片生成上下分屏对比图，上半部分约占百分之四十八，下半部分约占百分之五十二，水平分界，无缝拼接。上半部分完整保留原照片，不做任何修改，需要适配时裁切，不压缩不拉伸。下半部分是干净的奶白色纸面，把原照片的主要建筑或主体概括成一幅极简色块插画，放在中间，约占下半部分宽度的七成，四周大面积留白：每个体块简化成一块边角略圆的平涂色块，色块之间留出细细的奶白色缝隙，像一片片剪好的色纸拼在一起；颜色从原照片提取后变得柔和，同一种颜色只分两三个深浅表示受光和背光；植物和树丛概括成几团圆润的灰绿色块，人物只用几根很小的深色短竖线表示；主体下方有一条细细的地平线。插画下方居中一行深红棕色衬线体英文标题，字号中等，内容根据画面自动生成，只写通用短句，不出现品牌、地名、人名和作品名，拼写正确、完整显示。整体明亮干净，高调，对比柔和，白平衡中性，最亮处是带一点暖意的奶白，不能发黄，颜色种类控制在五到六种。不要线稿描边，不要渐变，不要纹理，不要写实细节，不要上半部分出现手绘，不要发旧发暗，不要暗角，不要噪点颗粒，不要乱码，不要任何品牌标志、商标和角色形象，不要水印。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张建筑照片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/M2I4ZjQwNjctNDA0OC00NDE4LThjZmMtZmFhZjhiYjhmMzlk_compress.webp?width=1328&height=1776",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/MDkxYzZiNjQtNjVmOS00NjMxLWFiY2QtNzMyMzcwOGQ3MjQ4_compress.webp?width=1328&height=1776"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "0be906f1cab841bba592b12d417b602e",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/MDkxYzZiNjQtNjVmOS00NjMxLWFiY2QtNzMyMzcwOGQ3MjQ4_compress.webp?width=1328&height=1776"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/M2I4ZjQwNjctNDA0OC00NDE4LThjZmMtZmFhZjhiYjhmMzlk_compress.webp?width=1328&height=1776",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：极简 / 极简",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "art_movements_retro",
+          "name": "年代复古",
+          "presets": [
+            {
+              "id": "yuanbao_5877c27759404ccabacb00e6089e5f01",
+              "name": "复古胶片",
+              "type": "prompt",
+              "prompt": "参考上传图生成图片：复古胶片人像摄影，强烈的运动模糊效果，人物发丝自带柔和光晕，画面布满复古胶片颗粒噪点，朦胧柔焦滤镜，逆光暖调丁达尔柔光。暖金色午后逆光，光线从右上方洒落，整体低饱和复古暖棕色调，朦胧柔光氛围感，柔化景深，人物清晰背景轻微虚化，胶片写真质感，比例3:4。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张人像图片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/MjJiNTBlN2MtZTNlZS00MmMxLWJlYzctYmI2YTE4OGM3ZjZh.jpg?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/Njc4OTczMjctYTdkMi00NWI5LTk1M2MtMGI5MmYzNTAyYWQy.jpg?width=768&height=1024"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "5877c27759404ccabacb00e6089e5f01",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "d9ff0e40f01d4d2aba0ff502bd78b12a",
+                    "name": "智能P图"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/Njc4OTczMjctYTdkMi00NWI5LTk1M2MtMGI5MmYzNTAyYWQy.jpg?width=768&height=1024"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/MjJiNTBlN2MtZTNlZS00MmMxLWJlYzctYmI2YTE4OGM3ZjZh.jpg?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_c012c508002f4469b6ad830347d2fa22",
+              "name": "橘棕复古高奢",
+              "type": "prompt",
+              "prompt": "参考上传图人物面部特征生成图片：比例 3:4，昭和 80 年代日系杂志人像摄影，中近景人像，人物居于画面中心。人物长发披发，头发搭在一侧肩前，红棕色唇釉，细碎发丝拂过脸颊，局部发丝微微扬起；身穿宽松驼色西装外套，佩戴夸张大曲面金色造型耳饰，手腕佩戴厚重异形金色金属宽手镯，外套外侧戴着长款哑光黑色皮质手套。人物一手高高抬起，五指微张轻捏住颈部正面，头部侧转露出侧脸，轻抬下巴、微微歪头，眼神看向镜头。前景清晰锐利，纯净渐变高饱和暖橙橘色纯色背景，居中偏深、四周偏浅；无人物轮廓光，背后不发光，无投影。脸部大幅提亮，面部曝光充足，微微过曝，面部高光通透饱满；复古棚拍 45° 前侧柔光，柔和伦勃朗布光，主光重点打亮面部，鼻梁颧骨带有细腻奶油高光，辅光柔化面部阴影。画面颜色饱和度高、画面干净通透，人物皮肤透亮，整体对比度拉高，暗部加深压暗，阴影为暖棕调，暗部保留丰富细节不死黑，无生硬硬阴影，光线温润厚重，昭和画报经典布光。昭和画报暖橘棕调，通透白粉色肤色，低饱和厚重复古色彩搭配高通透亮色，80 年代胶片质感，8k 超清，旧杂志印刷质感，古铜色滤镜。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传1张女性正脸图片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/MDQ1MzhlNjMtNmEzNC00OGVkLTk4MzUtNjgxNGZiOGJmYTBh_compress.webp?width=1280&height=1707",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/N2MxMjExNTItNzFmOS00YWU1LWE3ODItMzc4MjY4MTc2YWJk_compress.webp?width=1264&height=1678"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "c012c508002f4469b6ad830347d2fa22",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "7a1ab3631e414d1291163bff714d2ec5",
+                    "name": "写实人像"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/N2MxMjExNTItNzFmOS00YWU1LWE3ODItMzc4MjY4MTc2YWJk_compress.webp?width=1264&height=1678"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/MDQ1MzhlNjMtNmEzNC00OGVkLTk4MzUtNjgxNGZiOGJmYTBh_compress.webp?width=1280&height=1707",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_b8ef31c8be48432c894b88ce62482d8d",
+              "name": "复古夜宴",
+              "type": "prompt",
+              "prompt": "基于用户上传的任意生活照片，准确提取并保留人物真实五官、脸型、发型轮廓、肤色与个人辨识度，不受原图角度、景别和姿势限制，将人物自然重构为一张异域奇幻风格的神秘女性主题艺术写真。复古胶片时尚写真，一位年轻女性站在室内复古空间中，人物是明显的站姿，身体靠近画面左侧的浅色立柱。她不是直直站着，而是做出强烈的复古时装姿态，身体整体向一侧扭转，肩膀与胯部形成明显反向扭动，腰部明显内收并向右侧弯曲，形成夸张优雅的S形曲线和戏剧化姿态。左臂高高抬起并弯曲，前臂自然搭在左侧立柱上方，手腕下垂，形成明显“撑在柱子上借力”的感觉。右手必须明显撑在腰上，手掌紧贴腰线和胯部上方的位置，手指自然弯曲贴住身体侧面，手肘明显向外打开，形成清晰有力的叉腰姿势，强调腰部曲线和时装感，不能只是轻轻放在腹部。头部轻轻偏向一侧并微微低下，下巴略收，眼神明确向右下看，不看镜头，神情冷艳、疏离、慵懒。人物发型为黑色短卷发，贴近头型的复古湿发波纹造型，皮肤白皙但是有血色，冷灰蓝眼妆，红色唇妆，佩戴夸张的大号珍珠流苏耳环。身穿浅蓝色无肩带紧身礼服，礼服贴合身体曲线，表面有立体花朵刺绣、绿色叶片装饰、红色和粉色花卉点缀，面料有轻微褶皱和高级定制感。双手戴古铜色长款缎面手套，右侧披着香槟金色蓬松丝绸披肩，披肩自然垂落并堆叠在手臂与身体一侧，面料有明显皱褶和反光。背景是昏暗的室内复古空间，后方是深绿色复古花卉墙面，旁边有浅蓝色墙体和米色沙发，人物站在立柱与沙发前方。使用直闪闪光灯拍摄，人物被强烈闪光照亮，背景压暗，高反差，皮肤和缎面有明显闪光反射。画面带90年代复古胶片颗粒、轻微噪点、低清晰度、扫描质感。整体风格是复古高定时装大片、90年代胶片、暗调奢华、冷艳优雅、时尚杂志感。竖版3:4。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传1张女性正脸图片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/MDMxNmVkNGYtMTAyMS00ZTNiLWExMGQtNGQ4MGFiNTkwNzMy_compress.webp?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/N2NkZTRmOWMtYzE0ZC00ZTYyLThmNjEtYWMxOThjYzIyMGI4_compress.webp?width=1116&height=1488"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "b8ef31c8be48432c894b88ce62482d8d",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "7a1ab3631e414d1291163bff714d2ec5",
+                    "name": "写实人像"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/N2NkZTRmOWMtYzE0ZC00ZTYyLThmNjEtYWMxOThjYzIyMGI4_compress.webp?width=1116&height=1488"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/MDMxNmVkNGYtMTAyMS00ZTNiLWExMGQtNGQ4MGFiNTkwNzMy_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_605c1091c28e4c21a9a2386a0e683c74",
+              "name": "复古街头风",
+              "type": "prompt",
+              "prompt": "基于用户上传的人像照片生成：严格保留原图人物五官、发型、面部表情、身体姿态、肢体动作、背景环境、光影色调、画面构图，禁止改动人脸，禁止更换背景，禁止改动身形。清除原图原有全部衣物、帽子、鞋子，更换为以下全套穿搭：宽松复古棕褐色翻领工装外套，敞开穿着；深棕色短款露脐内搭上衣；豹纹不规则半身短裙，裙摆侧边带有飘带装饰；豹纹印花丝巾系于脖颈处；深棕色高筒绑带长靴。户外白天自然光，服装面料褶皱自然真实，皮革靴子质感细腻，原图配饰完整齐全，高清写实街拍照片，画面质感通透自然。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张女性照片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/NTA3YmViOTEtNjg1Yy00MGIzLTk4OWItMjc0ZjA2ZWQ5ODll_compress.webp?width=1776&height=2352",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/MGUxOTk2OTItMmEyNy00NTcyLTljZWUtMzhlMDBmYjFhODQy_compress.webp?width=1776&height=2352"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "605c1091c28e4c21a9a2386a0e683c74",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "d9ff0e40f01d4d2aba0ff502bd78b12a",
+                    "name": "智能P图"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/MGUxOTk2OTItMmEyNy00NTcyLTljZWUtMzhlMDBmYjFhODQy_compress.webp?width=1776&height=2352"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/NTA3YmViOTEtNjg1Yy00MGIzLTk4OWItMjc0ZjA2ZWQ5ODll_compress.webp?width=1776&height=2352",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_768cf1ea0c6648a9ba3bd13e2d4d7f97",
+              "name": "复古手工布偶",
+              "type": "prompt",
+              "prompt": "竖版3:4。用户上传照片作为唯一人物依据，保持人物五官、脸型、发型、肤色、服装、配饰及整体辨识度，将人物转化为完整全身的复古手工布偶。优先根据原照片中可见的肩宽、躯干长度、腰胯位置、体型、姿态及整体身形特征判断人物真实身体比例；若原图为头像、近景或半身照，则以已识别出的身形特征为基础自然推算并补全完整身体、下装与鞋子，使补全后的全身延续本人原有体型与穿搭逻辑。人物采用自然真实的成人全身比例，不固定套用夸张玩偶比例，头部大小与身体体量协调，肩颈自然，躯干长度合理，腰胯位置准确，腿部长度根据整体身高与体型自然延伸，保持正常的人体上下身比例与关节位置，整体呈现头部适中、躯干舒展、双腿修长且协调的真实人体轮廓。人物从头顶到鞋底完整出现。布偶采用柔软棉布填充的扁平人形结构，五官、头发、服装与配饰以简洁黑色印刷线稿和平涂色块呈现在浅米色布面上，带细腻布纹、缝线与轻微填充厚度。完整全身布偶垂直置于透明微皱塑料包装袋中央，包装尺寸根据人物实际全身比例自适应，四周保留适当透明空间。顶部连接红白配色复古纸质吊卡，采用规整印刷排版、粗体无衬线英文标题与细线装饰边框。背景为真实独立杂货店或旧书店货架环境，书籍、纸盒与生活杂货自然分布并轻微景深虚化，前景包装清晰突出。整体呈现90年代手工布偶商品的真实手机摄影质感，自然曝光、轻微颗粒，塑料、棉布与纸张材质真实。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张人像照片或宠物照片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/MTFkMDc4MWQtMDg0Ny00OTQ0LThhNTMtYjZjOTY2MDVhNzBj_compress.webp?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/OTE5ZjdiMjItM2FjNi00MTNmLThlMTQtZmQyZjBjZTEzYWE4_compress.webp?width=1116&height=1488"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "768cf1ea0c6648a9ba3bd13e2d4d7f97",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/OTE5ZjdiMjItM2FjNi00MTNmLThlMTQtZmQyZjBjZTEzYWE4_compress.webp?width=1116&height=1488"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/MTFkMDc4MWQtMDg0Ny00OTQ0LThhNTMtYjZjOTY2MDVhNzBj_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_be73ff6bbf2f4f5682f356ab229318b1",
+              "name": "肌理雪景复古风",
+              "type": "prompt",
+              "prompt": "竖版3:4，基于用户上传的照片生成一张手作作品展示页，整页是浅米杏色手工纸底，带细微纤维纹理。版面从上到下分三段，左右只留很窄的边距：最上面一段约占整页高度的百分之四十，放原照片，照片几乎和页面一样宽，完整保留，不做任何修改，需要适配时裁切，不压缩不拉伸；中间一段约占百分之四十五，放一块和上方照片同样宽的针毡羊毛作品，重现同一画面，构图、景物和颜色与照片一一对应：所有景物都由羊毛纤维压制而成，表面有细密绒毛和缠绕的纤维丝，颜色比照片略灰略柔，浅色区域微微鼓起有厚度，物体轮廓和小细节用细毛线勾出；毡片四边是不规则的毛边，平放在纸面上，下方有浅浅的投影。最下面一段约占百分之十五，文字左对齐，字号小而克制，用深灰色打字机字体：第一行是大写英文标题，只比正文略大；第二行是副标题加编号；空一行后是两行简短的英文描述；最后一行用斜杠分隔列出几种手工材料，内容根据画面主题自动生成，拼写正确、完整显示。柔和的漫射自然光，安静克制的手作展览质感。不要居中排版，不要大号标题，不要卡通插画，不要三维塑料感，不要乱码，不要水印。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张风景照片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/M2FjZjAxMGYtY2Q0Ny00ZTIxLThhMmYtNTdmZjRjNTg2NGQ4.jpg?width=1328&height=1776",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/MjU4OTEzZTUtNWQ2Ni00YjU5LThiNWItNjY1MDBmNzRiNzFl.jpg?width=1197&height=1602"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "be73ff6bbf2f4f5682f356ab229318b1",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/MjU4OTEzZTUtNWQ2Ni00YjU5LThiNWItNjY1MDBmNzRiNzFl.jpg?width=1197&height=1602"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/M2FjZjAxMGYtY2Q0Ny00ZTIxLThhMmYtNTdmZjRjNTg2NGQ4.jpg?width=1328&height=1776",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_5505124cd7c14c658c804153b404335f",
+              "name": "复古鹅黄闪拍",
+              "type": "prompt",
+              "prompt": "竖版3:4。用户上传照片作为主体身份来源，保持主体原本的面部特征，CCD直闪质感。主体穿完整统一的明亮暖鹅黄色粗花呢套装，颜色以浓郁、柔和又鲜亮的金鹅黄色为准；上衣为修身短款粗花呢外套，细密的黄色同色系交叉格纹织理清晰可见，小翻领、立体肩线、明显收腰，衣身贴合纤细腰部，正面纵向排列复古棕金色圆形纽扣，门襟沿线装饰细小珍珠链，下身搭配完全同色同材质的高腰短裙，裙腰贴合腰胯，短裙自然向外微微展开，形成纤细、修长、轻盈的整体身材轮廓；搭配同色同纹理宽大发箍、黄色圆形耳饰、半透明白色蕾丝手套与白色蕾丝过膝袜。构图和身体透视重点采用非常高的近距离俯拍视角，镜头位于主体头顶前上方，以广角镜头近距离向下拍摄，主体抬头靠近镜头，脸部与肩部处于画面上方并视觉放大，纤细腰部向下明显收窄，短裙和双腿由于高角度透视自然向画面下方缩小，形成头部和上半身较近、腰腿逐渐远离镜头的纵深关系；双腿与地面的接触关系弱化并自然隐藏在高角度透视中，让画面第一眼更像主体位于镜头下方进行夸张高机位时尚摆拍。主体身体略微向一侧扭转，腰部纤细，上半身自然挺起，一只手向侧上方伸出并轻轻拉起一缕长棕发，另一只手向另一侧抬起拿着简洁的白色无品牌卡片，两只手向左右打开形成舒展姿态。主体仰起脸直视上方镜头，眼皮轻微放松，眼神集中、冷静、锐利，带一点疏离和酷酷的时尚感，不露齿笑，嘴唇轻轻抿起并略微嘟起；妆容为精致冷感娃娃妆，白皙清透底妆、细长浅棕眉、纤细上扬眼线、根根分明的长睫毛、下眼睑淡粉色晕染和自然卧蚕、轻微粉色面中与鼻尖、裸粉色嘴唇，长棕色直发从发箍下自然披散。场景为真实狭长酒店走廊，深墨绿色地毯铺满地面并带有纤细暗黄色方格线，两侧为灰绿色墙壁、真实房门与门框，走廊从主体身后一直延伸至深处形成明显纵深，不呈现衣柜、柜门或封闭柜体感。地面边缘自然散落黄色爱心形小包、棕色皮质钱包和少量纸张作为点缀，所有服装、配饰、卡片、包袋和道具均去除品牌Logo、品牌名称及可识别商标。整体采用便携CCD数码相机超广角近距离直闪拍摄，闪光灯正面照亮脸部、黄色套装与前景地毯，主体明亮而走廊深处迅速变暗，保留真实硬闪阴影、轻微高光溢出、细颗粒与低照度数码噪点，画面具有千禧年代时尚抓拍感，色彩浓郁清透，鹅黄色与深墨绿色形成鲜明对比，高清但不过度锐化，不做HDR，不磨皮。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张女性照片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/YjEyNTY2ZjMtMDVkMS00MDM2LWI1M2ItYTU0MjE1Nzk0YmE4_compress.webp?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/ODRkMWJjNTYtZThjYi00NDJhLWE0Y2YtMTI2YWM5NjkxNWM4_compress.webp?width=1116&height=1488"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "5505124cd7c14c658c804153b404335f",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "7a1ab3631e414d1291163bff714d2ec5",
+                    "name": "写实人像"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/ODRkMWJjNTYtZThjYi00NDJhLWE0Y2YtMTI2YWM5NjkxNWM4_compress.webp?width=1116&height=1488"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/YjEyNTY2ZjMtMDVkMS00MDM2LWI1M2ItYTU0MjE1Nzk0YmE4_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_e8a9ed0ed9d549998969dd3867679066",
+              "name": "隧道豹纹复古辣妹",
+              "type": "prompt",
+              "prompt": "竖版，3:4的画面比例。基于用户上传的人像照片生成:准确保留人物五官、脸型和个人辨识度、不改变面部结构，不要改变用户提交图的尺寸。人物动作自然不僵硬。城市隧道下穿通道街拍，纵深透视长廊，顶部连续弧形灯带向远处延伸，右侧墙面平整，左侧栏杆与隧道口自然日光形成远景，整体偏暖低对比的复古街拍质感，柔和环境光，轻微胶片颗粒，细腻但不过分锐利。人物位于画面中心略偏右，保持原图身体比例、镜头距离、竖向裁切和大包占据画面面积。人物正面站立，双肩基本朝向镜头，胸廓和骨盆朝前。双腿张开站立，两脚分开，膝盖自然伸直，站姿松弛。头部向人物自身右侧倾斜，也就是向画面右侧歪头。人物眼睛不看镜头，视线落向画面左下方或斜前方，脸部略向左转，表情酷甜自然。右手抬起靠近右肩和胸前，手指自然弯曲，抓住上衣的豹纹挂脖系带；背包肩带搭在右肩膀上并自然垂落，包体悬挂在人物右前方。左手横放在大包正面靠前位置，手掌侧面抵着包身，手指自然弯曲，托住包的前侧；包体底部接近大腿中部，保持原图包体大小和位置。人物造型：豹纹复古报童帽，深棕长发一侧扎成蓬松凌乱低马尾；豹纹挂脖短款上衣，深色磨毛牛仔短裤，裤边内侧带豹纹包边；多层黑色串珠长项链，黑色铆钉宽腕带；做旧深棕皮质大包，金属扣、打孔皮带和皮革褶皱清晰。精致 Y2K 甜辣妆容，暖棕烟熏眼影，眼尾拉长上扬，细眼线，清晰睫毛，豆沙棕红唇。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张女性照片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/Yzc4MGJjOWYtNTlmMi00MjhhLTk3Y2EtNmYwNmMwMTc1ZjFk_compress.webp?width=1344&height=1792",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/ZjU0ZWI1ZGMtMjM5NS00YzlmLWJlZmItN2RjZjRjMTViN2Vk_compress.webp?width=1120&height=1488"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "e8a9ed0ed9d549998969dd3867679066",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "7a1ab3631e414d1291163bff714d2ec5",
+                    "name": "写实人像"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/ZjU0ZWI1ZGMtMjM5NS00YzlmLWJlZmItN2RjZjRjMTViN2Vk_compress.webp?width=1120&height=1488"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/Yzc4MGJjOWYtNTlmMi00MjhhLTk3Y2EtNmYwNmMwMTc1ZjFk_compress.webp?width=1344&height=1792",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_cb610cf3e0bc45abb194e585871a3bd8",
+              "name": "美式复古胶片",
+              "type": "prompt",
+              "prompt": "参考上传图中的人物面部特征生成图片：比例 1:1。暖调橙黄色黄昏自然光，胶片颗粒感；车头高度在人物腰部高度之上；前景人物站立，身体面对镜头，上半身向侧后方倒向车头，头自然倾斜，手臂自然向下伸直交叉，上半身一侧靠在白色皮卡车车头（轻微掉皮），头发随风飘散，微蓬松大波浪卷发，带有空气感碎刘海，脸上分布自然雀斑，面带微笑，红润有气色，佩戴大号银色金属圆环耳饰，身穿简约米白色短袖T恤与水洗蓝色牛仔裤，纤细手腕细银色手圈；暖金色侧光打亮发丝与皮肤，柔和明暗对比，皮肤质感真实细腻。背景：美式郊外乡村场景，远处全新乡村小屋，主体墙面为红色，纯白色木窗，屋顶为深褐色，平整枯黄草坪，澄澈淡蓝色晴朗天空，架空电线，背景明显虚化，复古胶片质感。近景人像，人物位于画面中心，车身占据画面右下区域，浅景深，复古纪实人像摄影，柔和氛围感，色彩温润，柔和阴影，80年代胶片摄影风格。人物肢体五官无畸形错乱。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传1张女性正脸图片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/ODcyMTAzNzItNzU5My00MjAwLThkNDctNjZlNzE3M2IxNTUx_compress.webp?width=1280&height=1280",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/MDAyMmU2YTAtMzk3ZS00MDY5LTkwMTAtZjFmNDRjZDc1ODQ5_compress.webp?width=1246&height=1656"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "cb610cf3e0bc45abb194e585871a3bd8",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "7a1ab3631e414d1291163bff714d2ec5",
+                    "name": "写实人像"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/MDAyMmU2YTAtMzk3ZS00MDY5LTkwMTAtZjFmNDRjZDc1ODQ5_compress.webp?width=1246&height=1656"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/ODcyMTAzNzItNzU5My00MjAwLThkNDctNjZlNzE3M2IxNTUx_compress.webp?width=1280&height=1280",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_fc82abb75ca8425599bb200e587931a2",
+              "name": "萌宠啃啃复古照",
+              "type": "prompt",
+              "prompt": "基于用户上传的两张图片进行人物宠物影楼合成：图1为人物照片，图2为宠物照片。准确保留人物真实的五官、脸型、发型、肤色、身材比例、气质和辨识度，准确保留宠物原本的品种、脸部特征、毛色、眼睛颜色、耳朵形状、鼻子细节和体型特征。将两位主体重新构造成一张80年代柔焦影楼风格的梦幻摄影肖像：人物位于画面中央，正面坐在木质扶手椅上，身体比例自然修长，上半身完整可见且不能被压缩，头部、颈部、肩膀、胸口、腰部和大腿上方都要清楚呈现，躯干长度符合真实人体比例；人物姿态端正自然，穿着深色西装、黑色外套或简洁正式服装，双手自然抱着自己的宠物；宠物坐在人物怀里，位置在胸口到大腿上方之间，不能遮挡人物全部躯干，身体清晰完整，面向镜头，表情乖巧可爱，毛发柔软蓬松，五官清楚可辨。背景为同一只宠物被放大到巨大尺寸的半透明脸部特写，像巨幅柔焦影楼背景海报一样铺满人物身后。巨型宠物的嘴巴自然张开，从人物头顶后方轻轻包住人物的头部，形成一种宠物正在“咬住主人头”的夸张错位效果，但不要血腥、不要恐怖、不要伤害感，整体是可爱、荒诞、梦幻的视觉趣味。巨型宠物脸部透明度较低，约60%不透明，边缘柔和融入背景，眼睛、鼻子、嘴巴和牙齿轮廓仍然可辨认，但不能遮挡人物真实五官。背景整体使用粉色、奶白色、浅玫瑰色、淡桃色的柔和渐变影楼布景，带有云雾般的空气感和轻微朦胧光晕，不要出现现代室内家具或杂乱环境。采用80年代商业棚拍写真质感，正面柔光打亮人物和怀里的宠物，高光轻微过曝，肤色自然干净，皮肤带柔焦修饰但保留真实纹理，画面带有细腻胶片颗粒、柔和噪点、低对比度、轻微褪色感、空气感、柔光写真感和轻微手工修片痕迹。人物和怀里的宠物清晰锐利，背景巨型半透明宠物脸柔和但仍可识别，巨型宠物嘴巴与人物头部形成准确的错位包裹关系，整体氛围温暖、梦幻、怀旧但不过分陈旧，荒诞又可爱，像真实80年代影楼拍摄的宠物纪念肖像照片。不要人物上半身过短，不要躯干被压扁，不要头身比例失衡，不要宠物完全遮住人物身体，不要插画感，不要卡通感，不要3D渲染，不要恐怖感，不要血腥，不要改变人物身份，不要改变宠物品种，不要多出人物或宠物，不要文字、水印、logo。构图为竖版3:4。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传和原图主体特征相同的图片 · 参考图 1–2 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/Mzg5MDJjZDEtZTBhMC00MWFjLTliYTYtYmY5ZDEzZjQzYjhl_compress.webp?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/OWYxNjI3NTAtNjM1Ny00MjVlLTg5NTktYmZkMDRjNmRkZWI3_compress.webp?width=1116&height=1488",
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/MWJkYzRjZDEtY2Y3Ni00ZGJlLWExOGEtYjdjOTI2ZGUwNDlm_compress.webp?width=1116&height=1488"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "fc82abb75ca8425599bb200e587931a2",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "7a1ab3631e414d1291163bff714d2ec5",
+                    "name": "写实人像"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 2,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/OWYxNjI3NTAtNjM1Ny00MjVlLTg5NTktYmZkMDRjNmRkZWI3_compress.webp?width=1116&height=1488",
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/MWJkYzRjZDEtY2Y3Ni00ZGJlLWExOGEtYjdjOTI2ZGUwNDlm_compress.webp?width=1116&height=1488"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/Mzg5MDJjZDEtZTBhMC00MWFjLTliYTYtYmY5ZDEzZjQzYjhl_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_88d69795702c4ef791fffb8b157e250e",
+              "name": "复古潮酷快照",
+              "type": "prompt",
+              "prompt": "3:4图片比例，上半部分是参考图真实照片，下半部分是波普艺术漫画风插画，两张图保持同一构图和同一人物动作，形成 “实景 vs 插画化” 的对照效果。上下双栏分屏，上下各占一半高度。上半部分：真实照片。下半部分：波普艺术漫画风插画，与上半部分完全相同的构图和人物动作姿态，人物头部面部大特写，有张力，经典的黑白半调网点图案色调，粗犷的黑色轮廓线，纯亮蓝色背景，周围点缀红色和黄色的五角星，平面图形设计，贴纸艺术风格，高对比度，无复杂阴影，纯平涂色块。画面干净直观，重点突出实景到波普半调插画的画风转换。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张人像照片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/MDNiOTc4Y2UtZWZmNC00ZDY1LWE3YjItOGVmOWJhY2ZkMjMx_compress.webp?width=1280&height=1792",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/YjI4M2QxNzAtNjhmZi00NWRiLTg2NDgtODkxMmMxYmVhMWQy_compress.webp?width=2208&height=2931"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "88d69795702c4ef791fffb8b157e250e",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "d9ff0e40f01d4d2aba0ff502bd78b12a",
+                    "name": "智能P图"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/YjI4M2QxNzAtNjhmZi00NWRiLTg2NDgtODkxMmMxYmVhMWQy_compress.webp?width=2208&height=2931"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/MDNiOTc4Y2UtZWZmNC00ZDY1LWE3YjItOGVmOWJhY2ZkMjMx_compress.webp?width=1280&height=1792",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_23acdea5a94545c4b13f8502693dcfb2",
+              "name": "复古像素噪点",
+              "type": "prompt",
+              "prompt": "参考上传图生成图片：比例3:4， 复古像素噪点二次元漫画，人物五官漫画化，平涂风格，依靠像素噪点塑造明暗。硬朗像素块构成轮廓，由离散黑色像素点拼接形成人物造型。复古像素噪点肌理，画面随机黑色杂点，老式 CRT 绿屏显示器颗粒噪点质感，像素破碎颗粒感。单色翠绿 + 纯黑，单色调配色，绿色作为底色，黑色像素块塑造形体。像素拼接形成的轮廓线条，边缘带有噪点破碎感，90 年代复古日系漫画人物造型，没有平滑矢量线条。复古怀旧，老式电脑绿屏显示器，复古像素故障感。90 年代日系复古漫画，叠加老式屏幕像素噪点特效，复古朋克漫画质感。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张人像照片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/ZGZlNTQwYWMtOWQzMS00NmZiLTk4YzctYWE2ODg3OGRlNjJh.jpg?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/ODQyYmRmN2EtZTg5OC00Y2QzLTk2NWQtZWRjNjI3NmQwNTAw.jpg?width=1116&height=1488"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "23acdea5a94545c4b13f8502693dcfb2",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/ODQyYmRmN2EtZTg5OC00Y2QzLTk2NWQtZWRjNjI3NmQwNTAw.jpg?width=1116&height=1488"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/ZGZlNTQwYWMtOWQzMS00NmZiLTk4YzctYWE2ODg3OGRlNjJh.jpg?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_e725e525c1664965871c7393dde0ca7f",
+              "name": "复古动画场景头像",
+              "type": "prompt",
+              "prompt": "比例1:1。把上传的照片彻底重绘成一张暗调平涂漫画，不保留照片纹理：保留上传图的构图、人物姿势和场景里的主要物件，画面内容全部来自原照片，不增加原照片里没有的东西，继承上传图的发型轮廓、发色以及服装款式和颜色。整个场景沉在暗光里，画面里要看得见光本身：如果原照片里有电脑、显示器或台灯，光源就是它，发出柔和发散的光，带一圈明显的光晕，把靠近光源的人物、桌面和物体边缘照亮；如果没有，光从画面一侧直直照进来，像窗外透进的天光，在墙面和地面投下一块边界清楚的明亮形状。主体大部分处在阴影中，被光照到的局部亮得干净，明暗分界干脆。所有物体都是均匀的单色平涂色块，色块内部没有笔触和渐变，边缘是统一粗细的黑色轮廓线，线条略带手绘的随意感，阴影用一整块深色表示，只有两级明暗。整体明度偏低但暗部有层次，低调，对比适中，中低饱和，白平衡偏冷，画面不是黑白的，人物的头发、皮肤、衣服和场景里的物体都保留原照片里原本的颜色，只是被暗光压得沉一些，最亮处是干净的灰白色，不偏黄；画面色彩限定为：深色约占百分之八十，以炭黑、纯黑、深灰为主，剩下约百分之二十是来自原照片本身的颜色，比如暖棕、肤色和物体本色。不要厚涂油画，不要笔触肌理，不要照片质感，不要写实渐变，不要三维渲染，不要过分光滑的动画截图感，不要发黄发旧，不要发灰发暗，不要暗角，不要噪点颗粒，不要任何品牌标志、商标和角色形象，不要水印。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张女性照片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/YzVmMDc3OWItNDcxOS00ZWQyLWE3NjgtZDkzMzVmMzYzYmI0.jpg?width=1536&height=1536",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/MWFlYTE4MjQtZDQ4OC00ODU1LTkxODctOTkxMDEwOWE1MzAz.jpg?width=1728&height=2320"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "e725e525c1664965871c7393dde0ca7f",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/MWFlYTE4MjQtZDQ4OC00ODU1LTkxODctOTkxMDEwOWE1MzAz.jpg?width=1728&height=2320"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/YzVmMDc3OWItNDcxOS00ZWQyLWE3NjgtZDkzMzVmMzYzYmI0.jpg?width=1536&height=1536",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_7febb60c5807445cb8f25b770a9a0ec6",
+              "name": "复古科幻星夜",
+              "type": "prompt",
+              "prompt": "复古宇宙科幻绘画风格，采用70年代科幻杂志封面质感与传统手绘油画笔触，画面呈现深邃黑蓝色星空，细密星点、柔和紫色星云与真实胶片颗粒。中央悬浮粉红霓虹飞碟，造型简洁流畅，带有手绘光晕和微妙发光边缘。下方为蓝紫色荒原丘陵与远处小教堂剪影，整体低饱和、朦胧、怀旧，保留绘画纹理与自然笔触，避免数字渲染感和AI塑料质感。16:9的画面比例。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 文生图",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/MTc1OTEzNDMtZjNkZC00MTk5LWFhYTAtMjk3YWRmZGEyM2I2_compress.webp?width=1983&height=1116",
+              "reference_images": [],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "7febb60c5807445cb8f25b770a9a0ec6",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "1990dbb2f54d4482903dd433ea55524f",
+                    "name": "电脑壁纸"
+                  }
+                ],
+                "generation_type": "text2image",
+                "min_images": 0,
+                "max_images": 0,
+                "reference_image_urls": [],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/MTc1OTEzNDMtZjNkZC00MTk5LWFhYTAtMjk3YWRmZGEyM2I2_compress.webp?width=1983&height=1116",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_dd74f8c047d248ea8537faae1c20dba7",
+              "name": "复古岩彩风",
+              "type": "prompt",
+              "prompt": "根据参考图生成图片：保持上传图比例不变，人物服饰、表情、动作不变；板绘，复古治愈绘本插画，背景局部带有极少细碎白点肌理、光线越强的位置颜色略亮，简化面部，简洁线条勾勒鼻子嘴唇，人物和物品局部保留黑色灵动短线勾勒大致轮廓、不全幅勾边，大量以色块边缘辅助塑形，笔触松散斑驳，带有纸张颗粒噪点肌理，模拟色粉手绘质感，色彩低饱和，色调沉稳复古，柔和漫射柔光，明暗过渡温润柔和，无强烈硬阴影，造型概括简约，形体线条松弛，人物五官简化提炼、侧重神态情绪表达，面部平涂无真实感，画面质感细腻朦胧，色彩冷暖柔和对冲，整体氛围感静谧舒缓，画面带有淡淡的做旧斑驳质感，省略繁杂细碎细节，写意表达大于写实刻画。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张人像照片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/NTU1NTI0NzYtMmVjZS00YjE2LWE2ZjAtOGY0MGM4OWMzMDY0.jpg?width=1280&height=1707",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/NmM4NDFkYjMtNzU3My00Mjc0LWE0OTctOTFmODBjZmQ4MDA0.jpg?width=1280&height=1707"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "dd74f8c047d248ea8537faae1c20dba7",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/NmM4NDFkYjMtNzU3My00Mjc0LWE0OTctOTFmODBjZmQ4MDA0.jpg?width=1280&height=1707"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/NTU1NTI0NzYtMmVjZS00YjE2LWE2ZjAtOGY0MGM4OWMzMDY0.jpg?width=1280&height=1707",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_e3658fa0b4164939aec0948670f4371c",
+              "name": "复古品牌logo",
+              "type": "prompt",
+              "prompt": "极简复古品牌logo设计，白色背景，深蓝色手写字体与复古衬线字体结合，中央搭配手绘可爱狗狗插画，插画下方主品牌名固定文字“PUPPY ROW”，采用深蓝色手写连笔字体，粗笔触、有手工墨迹质感；下方搭配复古衬线小字“TRAIN • LOVE • GROW”，字母间距拉开，经典学院风排版；最底部加入小型文字“EST. 2026”。丝网印刷质感，粗糙墨迹纹理，经典学院风，干净留白，高级品牌视觉识别设计，平面设计作品集风格。3:4。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 文生图",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/MTExMTY4ZGItY2Y0Ny00MTY1LThkZjctMjVmYjZmZGU3NzYw_compress.webp?width=1116&height=1488",
+              "reference_images": [],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "e3658fa0b4164939aec0948670f4371c",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "da8a4473c7a74207acbf1808460638e8",
+                    "name": "品牌设计"
+                  }
+                ],
+                "generation_type": "text2image",
+                "min_images": 0,
+                "max_images": 0,
+                "reference_image_urls": [],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/MTExMTY4ZGItY2Y0Ny00MTY1LThkZjctMjVmYjZmZGU3NzYw_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_6337824c910a418289d86cb38b9072e8",
+              "name": "文艺复古拼贴",
+              "type": "prompt",
+              "prompt": "用户上传照片后生成：上下无缝拼接的照片，上半部分保留原图主体占画面一半；若上传竖版照片，自动识别主体进行智能裁切，不拉伸不压缩原图比例。下半部分将照片中的主体提取缩小为一张横向小照片，在大面积纯米白留白背景中，将原照片中的主体元素提取并重新排版成一张小尺寸横向图，保持原照片比例与色调，仅缩小并轻微降低饱和度。小图位于下方偏中位置，边缘自然不规则，根据画面内容搭配简短极简宋体小字排版，整体干净、克制、现代艺术展览海报感，上下无缝连接，3:4。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张照片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/MTUwMjhlNGEtMTk4NS00MzVmLTkxYzctMjgzNmEzYmMwOGQ3_compress.webp?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/YzkzZDY2MDAtNjhmNy00YTBjLThjZGUtMTBhMDdmNWIzZmVj_compress.webp?width=1116&height=1488"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "6337824c910a418289d86cb38b9072e8",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "d9ff0e40f01d4d2aba0ff502bd78b12a",
+                    "name": "智能P图"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/YzkzZDY2MDAtNjhmNy00YTBjLThjZGUtMTBhMDdmNWIzZmVj_compress.webp?width=1116&height=1488"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/MTUwMjhlNGEtMTk4NS00MzVmLTkxYzctMjgzNmEzYmMwOGQ3_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_f581394b360c41edb9979de2846ea3f5",
+              "name": "复古票券拼贴",
+              "type": "prompt",
+              "prompt": "生成一个上下高度一致的票券式双联海报模板，竖版，上下两张门票感拼接图。用户上传任意照片后，提取主体与主要场景，不限人物、宠物、风景、静物，但不要直接原样贴图，而是转化为复古清新漫画插图、铜版线描、网点印刷质感，以及带一些设计插图画风，保留主体识别度。整体风格必须贴近参考图：轻古典、精致、文艺、设计感，独立漫画展气质。上半部分为浅米白色淡色清新背景，四周是细棕色欧式卷草花边框，顶部中间放优雅细长的英文花体主标题，上方或右上配小号年份“2026”。中间图片区域必须是横向胶囊形窗口，两端为大圆弧，不是方形，内部展示上传照片转化后的复古插图，色调以浅黄绿、灰蓝、浅黄、棕黑为主，带轻微颗粒、网点、褪色感。底部排布小号英文票务信息，如编号、地点、时间，文字要小、细、精致、分散排版，日期为2026/08/01。可加入浅黄绿色小圆点矩阵装饰。下半部分为低饱和黄绿色底，四周是白色细致欧式蕾丝边框，顶部中间放窄长衬线体编号，如“B71-00”。中间将上传照片主体再次转化为白色单色雕版线描插图，周围可加入星芒、小卷线、刺状装饰。底部放大号英文花体标题，内容根据上传图片概括提取英文主题词，并配小号英文副词，副词符合画面风格。全图只用英文点缀，不要中文；除主标题外其余文字都偏小。整体配色控制在白色、橄榄绿、浅黄绿、灰蓝色，带纸张颗粒、轻微胶印错位与复古漫画印刷感。竖版3:4。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 上传1张图片即可生成 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/MjFmMTU4Y2ItOWNjOS00YWQ1LWJjOGYtNjc2NjAzMGUxMDZi_compress.webp?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/NTZlZWY1YjctMGJjNi00ZTRkLWJjOTctZDc3ODg1OWI3ZTEz_compress.webp?width=1488&height=1116"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "f581394b360c41edb9979de2846ea3f5",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "d9ff0e40f01d4d2aba0ff502bd78b12a",
+                    "name": "智能P图"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/NTZlZWY1YjctMGJjNi00ZTRkLWJjOTctZDc3ODg1OWI3ZTEz_compress.webp?width=1488&height=1116"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/MjFmMTU4Y2ItOWNjOS00YWQ1LWJjOGYtNjc2NjAzMGUxMDZi_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_1849042d35ef476ba118578db2e9d756",
+              "name": "复古绅士风",
+              "type": "prompt",
+              "prompt": "参考上传图生成图片：去掉上传图1中人物原有的服饰，所有配饰，更换人物服装和配饰；服装风格：复古轻熟风穿搭，灰调麻灰色针织短袖 Polo 衫，针织面料，细腻透气的麻质纹理，宽松休闲版型；卡其色竖细条纹阔腿西裤，垂感挺括的西装面料，高腰双褶宽松阔腿剪裁；鞋子：复古棕红色乐福皮鞋，哑光绒面皮革质感；搭配深棕色软皮托特大包，复古油蜡皮褶皱质感。头戴酒红色复古刺绣棒球帽，花纹细格复古小丝巾绕颈佩戴(丝巾在上衣领子内)，棕色皮质腰带，腰挂皮质挂饰吊坠，腕间金属表盘复古腕表，简约素圈戒指；仅做服饰配饰的更换，严格保证其他画面内容保持不变包含但不限于人物发型、动作、环境背景等；",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传1张男性正脸图片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/ODIyZjU1MTYtYzk5Mi00YTBiLWE5YTMtZDlhNGNjZGZlNWIy.jpg?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/MjVkOWNmYzYtNTIwZi00NjI5LTgzZjYtMjQxOGI0MjQ3ZWM4.jpg?width=1116&height=1488"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "1849042d35ef476ba118578db2e9d756",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "d9ff0e40f01d4d2aba0ff502bd78b12a",
+                    "name": "智能P图"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/MjVkOWNmYzYtNTIwZi00NjI5LTgzZjYtMjQxOGI0MjQ3ZWM4.jpg?width=1116&height=1488"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/ODIyZjU1MTYtYzk5Mi00YTBiLWE5YTMtZDlhNGNjZGZlNWIy.jpg?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_625d82e4b3a145eba57bd70e2ed1d2f0",
+              "name": "法式复古卷",
+              "type": "prompt",
+              "prompt": "参考上传图生成图片：不改变图一的发色，只优化人物发型“长款慵懒大波浪卷发”，弧度柔和松散自然，不是紧凑小卷，颅顶做增高蓬松处理，高蓬松凌乱氛围感造型，整体侧分设计，刘海蓬松上拱，法式 S 龙须侧分刘海，一部分发丝轻拂遮挡单侧眉眼，慵懒蓬松的新娘氛围感卷发。整体是氛围感饱满的云朵大卷，发尾层次柔和轻盈，卷度流畅富有空气感。 S 型法式侧分刘海，自然修饰颧骨，没有厚重齐刘海；发丝不干枯毛躁，蓬松饱满不贴头皮；严格要求其他画面内容不变包含但不限于画面滤镜、清晰度、人物五官表情、服饰、动作、环境背景等不变；进行商业级精修，画面清晰，去除颗粒度，光影立体感强烈，禁止网格化和噪点，禁止画面模糊，8K高清。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张女性照片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/ZDFkMmVmMDMtOWE3MS00YjhlLWExYzEtNWU0YTEzYjI3Zjlh.jpg?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/OTZiYmE1NjYtM2EzZC00MTM0LWE5YzktMjY5NTcyZmU1MGQ1.jpg?width=960&height=1280"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "625d82e4b3a145eba57bd70e2ed1d2f0",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "d9ff0e40f01d4d2aba0ff502bd78b12a",
+                    "name": "智能P图"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/OTZiYmE1NjYtM2EzZC00MTM0LWE5YzktMjY5NTcyZmU1MGQ1.jpg?width=960&height=1280"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/ZDFkMmVmMDMtOWE3MS00YjhlLWExYzEtNWU0YTEzYjI3Zjlh.jpg?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_9a15157a55ed4078be7e5f389af4e083",
+              "name": "复古阿普瑞",
+              "type": "prompt",
+              "prompt": "参考上传图生成图片：去掉上传图1中人物原有的所有服饰和包包，更换人物服装；服装风格：阿普瑞风；浅橄榄绿美式橄榄球球衣，衣身带有大号黑色 “80” 号码，袖口黑白条纹包边，衣身带徽章；内搭一件白色细竖条纹翻领长袖衬衫，衬衫袖口、衣摆从球衣下摆、袖口处露出，做叠穿效果。高饱和红棕格纹超短款百褶迷你裙，裙腰处露出内搭白衬衫下摆。黑色铆钉细肩带小包。白色底黑色波点透视中筒袜；蓝色尖头白色蝴蝶结的缎面细跟鞋。仅做服饰更换，严格保证其他画面内容保持不变，包含但不限于画面构图、滤镜、人物五官长相、动作、环境背景等；画质8K高清无噪点。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传1张女性正脸图片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/NTZkZGFlNDAtNThlYi00ZDA0LWJjOTgtODFkMGQ2YWUwNGRi_compress.webp?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/OTk5NmQ1YmYtNmUzOC00M2M0LTk0YmEtYzIwNDM5ZWZlMzll_compress.webp?width=1116&height=1488"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "9a15157a55ed4078be7e5f389af4e083",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "d9ff0e40f01d4d2aba0ff502bd78b12a",
+                    "name": "智能P图"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/OTk5NmQ1YmYtNmUzOC00M2M0LTk0YmEtYzIwNDM5ZWZlMzll_compress.webp?width=1116&height=1488"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/NTZkZGFlNDAtNThlYi00ZDA0LWJjOTgtODFkMGQ2YWUwNGRi_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_9637f0fac4dc426cbaa07cc775b10891",
+              "name": "复古雅痞风",
+              "type": "prompt",
+              "prompt": "参考上传图生成图片：仅更换人物服装：复古 cityboy 穿搭，双层衬衫叠穿，内搭浅蓝色纯色翻领衬衫，外搭白色浅灰细竖条纹宽松落肩衬衫，袖口卷起露出内层衬衫袖口，外搭衬衫领口自然翻开露出蓝色衬衫领，脖颈系棕红底米色波点复古领巾、领巾系成垂坠感蝴蝶结，衬衫全部整齐塞进裤子里，高腰白色水洗做旧超大阔腿拖地长裤，酒红色细皮带配金属方扣，棕色皮鞋，手腕佩戴复古银色机械手表，搭配复古做旧棕黄色软皮托特包、深棕色扁手柄。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传1张男性正脸图片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/YWZkMjE0ODYtNGZlNS00MzI0LWEyMDAtYTBjMzM5YzM2Mzcx.jpg?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/ZDhmY2UyMzYtM2UxYS00ODkyLTkxMDQtZTVkNzI5NzRiYzE4.jpg?width=1116&height=1488"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "9637f0fac4dc426cbaa07cc775b10891",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "d9ff0e40f01d4d2aba0ff502bd78b12a",
+                    "name": "智能P图"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/ZDhmY2UyMzYtM2UxYS00ODkyLTkxMDQtZTVkNzI5NzRiYzE4.jpg?width=1116&height=1488"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/YWZkMjE0ODYtNGZlNS00MzI0LWEyMDAtYTBjMzM5YzM2Mzcx.jpg?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_6fc81c835051414d910f91cc7969e9c8",
+              "name": "复古球衣风",
+              "type": "prompt",
+              "prompt": "参考上传图生成图片：去掉上传图1中人物原有的服饰、所有配饰，更换人物服装和配饰；上身穿着红底细白竖条纹短袖球衣，蓝色Polo翻领，袖口蓝色包边，圆形球队徽章图案，衣身印有大号白色“QATAR AIRWAYS”品牌印花，领口内露出一小截白色打底内搭；下装搭配米白色垂坠感高腰阔腿休闲长裤，裤身褶皱自然松弛，腰间系一条复古棕色皮质皮带；左手手腕佩戴金属皮质拼接腕表，脚穿黑色亮面复古正装皮鞋，整体穿搭松弛复古。仅做服饰配饰的更换，严格保证其他画面内容保持不变包含但不限于人物发型、动作、环境背景等；",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传1张男性正脸图片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/MDc1NWE3ZTQtODlhNi00NTRlLTgwNjYtMTk2ZTg3NjFmMzQ2.jpg?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/ZGIzYWNlMmItZTQ0Yy00OTUyLThkOGUtMDVkODVmOTE3Nzc2.jpg?width=1116&height=1488"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "6fc81c835051414d910f91cc7969e9c8",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "d9ff0e40f01d4d2aba0ff502bd78b12a",
+                    "name": "智能P图"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/ZGIzYWNlMmItZTQ0Yy00OTUyLThkOGUtMDVkODVmOTE3Nzc2.jpg?width=1116&height=1488"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/MDc1NWE3ZTQtODlhNi00NTRlLTgwNjYtMTk2ZTg3NjFmMzQ2.jpg?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_d9959e5328c94b69b07a5afe1c78d2fa",
+              "name": "复古大头贴框",
+              "type": "prompt",
+              "prompt": "基于用户上传的一张照片进行可爱社交媒体滤镜设计，完整保留原照片中的人物、宠物、物体、动作、表情、构图和真实细节，在画面四周叠加一层轻盈通透的滤镜框，边缘使用柔和白色渐变、半透明雾面光晕和少量高光闪点，形成清透梦幻的手机自拍贴纸质感。滤镜主色根据照片原本的环境、服装和主体颜色自动提取并调整，可使用浅粉、奶白、淡蓝、薄荷绿、柔紫等低饱和色，整体色彩协调克制，装饰元素面积较小，不遮挡人物五官和画面主体。搭配“♡”“☆”“:3”“>_",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传1张女性正脸图片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/MWExNGFlM2EtODBlNy00ZDc4LTliYzYtYTJjNzZjYWNlZTBj_compress.webp?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/ODRjYmZlNzItNmM0Zi00NzgwLThlZDEtNzAxMzExMTNkNDMy_compress.webp?width=1116&height=1488"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "d9959e5328c94b69b07a5afe1c78d2fa",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "d9ff0e40f01d4d2aba0ff502bd78b12a",
+                    "name": "智能P图"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/ODRjYmZlNzItNmM0Zi00NzgwLThlZDEtNzAxMzExMTNkNDMy_compress.webp?width=1116&height=1488"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/MWExNGFlM2EtODBlNy00ZDc4LTliYzYtYTJjNzZjYWNlZTBj_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_aabca2fab59f4af5b0bd28ffb2e2c7a8",
+              "name": "复古焦糖色手账拼贴",
+              "type": "prompt",
+              "prompt": "竖屏3:4，根据上传的照片做一页可爱的手账拼贴：背景是一整张浅驼色卡纸，上面整齐排列着白色小圆点。原照片作为最大的一张照片贴在左上，竖版，约占画面宽度一半，带细细的白边；右侧中间贴一张横版小照片，左下方贴一张横版照片，都是原照片里不同局部的特写，也带细白边，几张照片稍微错开。照片周围贴着各种小贴纸：几个白色圆角对话气泡里写着很短的英文，一张浅黄和一张浅粉的半透明纸胶带上写手写英文，一朵白色云朵形思考气泡，右上角一把系着粉色小蝴蝶结的银色勺子和叉子，右下角一对用棕色线条画的白色小猫和小兔贴纸，带白色描边，再零星点缀几颗粉色小星星和一行粉色可爱字体英文短句。文字内容根据照片自动生成，只写最常见的简单英文单词，不出现品牌、地名、人名和作品名，拼写正确、完整显示。整体明度适中偏亮，中间调，对比适中，白平衡偏暖，照片保持温暖柔和的咖啡馆色调，色彩限定在浅驼色、奶白、浅粉、浅黄和照片本身的颜色。不要照片铺满画面，不要贴纸挡住照片主体，不要韩文和中文，不要发黄发旧发暗，不要暗角，不要噪点颗粒，不要乱码，不要任何品牌标志、商标和角色形象，不要水印。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张食物照片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/ZDc3MWJmNmUtMGFiYi00NjhjLTk4YjEtYTA3MGExNzk3YjNj.jpg?width=1280&height=1712",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/MDY0NDQ5YmMtMGNmNS00Zjc5LWFhYTMtMmUyMjc0MzI0YTMy.jpg?width=1280&height=1712"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "aabca2fab59f4af5b0bd28ffb2e2c7a8",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "d9ff0e40f01d4d2aba0ff502bd78b12a",
+                    "name": "智能P图"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/MDY0NDQ5YmMtMGNmNS00Zjc5LWFhYTMtMmUyMjc0MzI0YTMy.jpg?width=1280&height=1712"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/ZDc3MWJmNmUtMGFiYi00NjhjLTk4YjEtYTA3MGExNzk3YjNj.jpg?width=1280&height=1712",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_d55bced06c7949229d4aaf9a06e90aeb",
+              "name": "日系复古平涂",
+              "type": "prompt",
+              "prompt": "参考上传图生成图片：保持上传图比例不变，将上传图风格化：Mathilde Kitteh 风格，板绘平涂速写插画，日系漫画质感。画面万物做极简概括处理，剔除繁杂细节。松弛随性粗黑线稿，轮廓不完全闭合，线条带轻微手绘抖动，边缘干净利落。人物造型高度简化，概括式五官：大圆眼搭配实心小黑瞳孔，大面积留白眼白，粗短块状眉毛，极简短线勾勒口鼻，面部点缀圆点痣，表情灵动。赛璐平涂上色，无渐变、无任何肌理质感，画面只由线条和单色色块构成。人物、服饰、背景各自使用独立单色块区分，色块可轻微溢出轮廓，仅添加少量硬边阴影块，不存在柔和明暗过渡。画风松弛有呼吸感，街头潮流速写氛围，人物姿态自然松弛，摒弃摆拍与精致商业广告感，肤色偏低饱和红，整体色彩干净明亮。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张人像照片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/Y2Q4NmJlNmUtNzIzMi00ZDQ2LWE4MzUtZWQ0ZjI2YmM2NWMx.jpg?width=1280&height=1707",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/MWViNmZiOGEtZjQyYy00ZjVlLThkNGUtMGM2ODlkYWIxNDJk.jpg?width=1280&height=1707"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "d55bced06c7949229d4aaf9a06e90aeb",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/MWViNmZiOGEtZjQyYy00ZjVlLThkNGUtMGM2ODlkYWIxNDJk.jpg?width=1280&height=1707"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/Y2Q4NmJlNmUtNzIzMi00ZDQ2LWE4MzUtZWQ0ZjI2YmM2NWMx.jpg?width=1280&height=1707",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_b828451906f244529d98c4ab27a1a563",
+              "name": "蓝发复古像素",
+              "type": "prompt",
+              "prompt": "参考上传图生成图片：比例1:1。板绘，像素画，二次元平涂，可爱 Q 版少女头像插画，chibi 二次元风格，精致大眼睛，视觉中心集中在人物五官。像素方格肌理，方块像素色块拼接，硬边像素块，无渐变厚涂笔触，干净平涂填色，像素颗粒质感。粗黑色像素轮廓线，线条棱角分明，由像素方块构成，轮廓清晰硬朗。明亮马卡龙配色，亮天蓝色长发，浅粉肤色，蓝渐变大眼睛，粉嫩腮红；背景浅米白，搭配粉、黄、彩色星星装饰，粉色主体，色彩柔和甜美，高通透低对比。头像特写，人物头部占画面主体。治愈软萌，可爱童趣，复古像素游戏风。日系像素风 Q 版二次元头像，可爱卡通风。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张人像照片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/MjI4YjdkZTAtMmRjMS00NmEyLWJiM2MtMjQ5ODkzNzhlOWQ3.jpg?width=1280&height=1280",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/NmU0ZGYzN2YtMTRhOC00ODQ3LWFjZDctMDllOWQ2MGJiMjU2.jpg?width=960&height=1282"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "b828451906f244529d98c4ab27a1a563",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/NmU0ZGYzN2YtMTRhOC00ODQ3LWFjZDctMDllOWQ2MGJiMjU2.jpg?width=960&height=1282"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/MjI4YjdkZTAtMmRjMS00NmEyLWJiM2MtMjQ5ODkzNzhlOWQ3.jpg?width=1280&height=1280",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_51ed2597623a498498450e71bbcdc11d",
+              "name": "版印复古香水",
+              "type": "prompt",
+              "prompt": "生成原创高端香水广告插画，融合19世纪植物学铜版画、复古蚀刻与现代奢侈品包装风格。深橄榄绿背景铺满近黑色精密线描植物：左上青梨，右上佛手柑，左下晚香玉，右下白木兰，枝叶层叠并向中央延伸，配白色手写注释“○青梨”“○佛手柑”“○晚香玉”“○白木兰”。中央放置淡粉色圆角倒三角香水瓶，上宽下窄，瓶身覆盖珊瑚粉水平排线及细线三角结构；顶部连接淡粉瓶颈和黑白竖条纹长方形瓶盖，部分枝叶从前方穿过。瓶身准确印刷黑色衬线品牌“LUMERA”，下方为“FIRENZE”“VERDANT No.08”“EAU DE PARFUM”及原创L字徽记。配色仅用墨绿、黑、淡粉和白，平面高对比，兼具繁复植物纹理与极简高级感。避免乱码、瓶体变形、写实摄影、杂色、现有品牌标志及水印。竖版3:4。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 文生图",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/YjZjNWNiNjYtNmU3Mi00YTcxLWEyODUtNjM1ZTk4ZDM3OTIz_compress.webp?width=1116&height=1488",
+              "reference_images": [],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "51ed2597623a498498450e71bbcdc11d",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "6237f94f4d53400fa1152368177cb6f8",
+                    "name": "海报设计"
+                  },
+                  {
+                    "id": "da8a4473c7a74207acbf1808460638e8",
+                    "name": "品牌设计"
+                  }
+                ],
+                "generation_type": "text2image",
+                "min_images": 0,
+                "max_images": 0,
+                "reference_image_urls": [],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/YjZjNWNiNjYtNmU3Mi00YTcxLWEyODUtNjM1ZTk4ZDM3OTIz_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_186bc334f575460b87e40f5dc873d299",
+              "name": "复古印章logo",
+              "type": "prompt",
+              "prompt": "生成一个极简手绘 logo：主体是一只白色留白小猫，趴在一个橘黄色柔软的枕头上，猫的身体线条简单、圆润、放松，头部微微低下，表情用极简线条表现，带一点慵懒可爱的笑意；橘黄色底座像柔软的丝带、云朵，线条自然流动，有轻微不规则手绘感。整体采用单色橘黄色印章风格，背景为米白色纸面；白色小猫由负形留白形成，橘黄色区域带轻微颗粒、缺口和版画印刷质感。底部散落momota小写英文字母，字母大小不一、间距松散、角度略微错落，像手工排版或儿童字母印章，形成轻松随性的品牌标识感。整体气质可爱、松弛、手作、温柔、低保真，适合宠物品牌、儿童用品、杂货店、独立插画品牌 logo；不要精致几何，不要 3D，不要渐变，不要复杂阴影，不要写实猫，不要多色；输出方形 1:1。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 文生图",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/ODI2YWNmMWMtOWUzMS00M2MxLWJkMDEtNDk5ZmNiNGNkMmRi_compress.webp?width=2048&height=2048",
+              "reference_images": [],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "186bc334f575460b87e40f5dc873d299",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "da8a4473c7a74207acbf1808460638e8",
+                    "name": "品牌设计"
+                  }
+                ],
+                "generation_type": "text2image",
+                "min_images": 0,
+                "max_images": 0,
+                "reference_image_urls": [],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/ODI2YWNmMWMtOWUzMS00M2MxLWJkMDEtNDk5ZmNiNGNkMmRi_compress.webp?width=2048&height=2048",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_0469bfbeb7bf4986b6d80179b9c279f8",
+              "name": "复古农场icon",
+              "type": "prompt",
+              "prompt": "设计9个农场主题扁平图标：胡萝卜、番茄、西兰花、牛奶、鸡蛋、面包、花束、农具、谷仓。顶部居中写“FARM ICON”，下方3×3排列。整体图标缩小，仅占画面中央约50%，图标间距宽松，四周保留大面积纯白边距，避免贴边拥挤。圆润现代矢量风，高饱和撞色、轻微渐变与柔和光感，无边框，3:4竖版。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 文生图",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/MmU0YzFmNTMtZWEwYi00YTVmLTg5N2YtMDMzYmFhZGQ1YTUy_compress.webp?width=1116&height=1488",
+              "reference_images": [],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "0469bfbeb7bf4986b6d80179b9c279f8",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "625175f6ed724de08a9c2d25409ac130",
+                    "name": "UI设计"
+                  }
+                ],
+                "generation_type": "text2image",
+                "min_images": 0,
+                "max_images": 0,
+                "reference_image_urls": [],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/MmU0YzFmNTMtZWEwYi00YTVmLTg5N2YtMDMzYmFhZGQ1YTUy_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_91b180a7f31f444487bae88b6eca236d",
+              "name": "美式复古少女",
+              "type": "prompt",
+              "prompt": "一位年轻少女完整全身站在画面中央，暖橘红色中长卷发，神情甜美灵动，一手拎棕色大书包，一手轻搭腰侧，双腿自然交错。穿宽松复古牛仔外套，点缀小徽章，内搭白衬衫和浅杏色印花领带，下身为棕色格纹短裙，搭配姜黄色短袜和黑色中筒皮靴。背景用高饱和柠檬黄，加入少量星星、小花、圆点、贴纸感图形装饰。日系时装插画风，线条流畅，平涂加细腻阴影，竖版3:4。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 文生图",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/ZjdiODhmZjQtMzc0OC00NjI0LTg4OWYtYzE3MmI0Y2YzNDgw_compress.webp?width=1086&height=1448",
+              "reference_images": [],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "91b180a7f31f444487bae88b6eca236d",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "195bfaeb27ad4341b1a4c8717bfad34b",
+                    "name": "IP角色"
+                  }
+                ],
+                "generation_type": "text2image",
+                "min_images": 0,
+                "max_images": 0,
+                "reference_image_urls": [],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/ZjdiODhmZjQtMzc0OC00NjI0LTg4OWYtYzE3MmI0Y2YzNDgw_compress.webp?width=1086&height=1448",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "rules",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "标题规则证据：复古 / 复古",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_96d650f2f79242629c9865a882d98c71",
+              "name": "朋克Y2K",
+              "type": "prompt",
+              "prompt": "参考上传图生成图片：去掉上传图1中人物原有的服饰，更换人物服装；蒸汽朋克风造型；上衣：深棕色挂脖朋克束身马甲，拼接哑光做旧仿皮革与暗纹复古面料，金属拉链、皮带扣、绑带机械风装饰，硬挺塑形肌理；下装：鎏金光泽感分层蛋糕中长裙，金属珠光缎面材质，柔和褶皱垂坠质感；腿饰：棕褐色拼接过膝腿套，仿皮革系带绑带设计，做旧磨纹肌理；复古绑带尖头低跟鞋，做旧擦色皮革质感；搭配棕色高顶礼帽，帽身缝制复古护目镜；重工做旧黄铜机械羽毛护腕(双手)，齿轮金属雕花 + 白色羽毛装饰；多层复古细项链；搭配复古做旧棕色皮箱小包，表面镶嵌齿轮、铆钉、金属锁扣，蒸汽朋克机械元素拉满。仅做服饰更换，严格保证其他画面内容保持不变包含但不限于人物五官表情、发型、动作、滤镜、环境背景等；8K高清画质，清晰无噪点。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传1张女性正脸图片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/YWU2ZWZlOWYtMGUyNS00NDFiLTk5MWQtYTc2YzNiMzg3NDhh_compress.webp?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/OTAwMTY1YmMtZDhjNC00YWZjLTk2N2MtNTVkODM5Yzg4NzMx_compress.webp?width=1116&height=1488"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "96d650f2f79242629c9865a882d98c71",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "d9ff0e40f01d4d2aba0ff502bd78b12a",
+                    "name": "智能P图"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/OTAwMTY1YmMtZDhjNC00YWZjLTk2N2MtNTVkODM5Yzg4NzMx_compress.webp?width=1116&height=1488"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/YWU2ZWZlOWYtMGUyNS00NDFiLTk5MWQtYTc2YzNiMzg3NDhh_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_bea34d1e6a80453caf2cb1e45d0bdfa5",
+              "name": "西部Y2K",
+              "type": "prompt",
+              "prompt": "参考上传图生成图片：去掉上传图1中人物原有的服饰和配饰，更换人物服装和配饰；服装风格：Y2K 千禧美式辣妹穿搭；内搭藏蓝色弹力修身抹胸，顺滑哑光弹力针织面料；外层叠穿蓝白格纹褶皱薄款纱布挂脖方巾，轻薄微透磨毛肌理；深灰色低腰牛仔短裙，水洗磨白牛仔面料，哑光牛仔质感；黑色厚底超高松糕长筒马丁靴，亮面 PU 皮革，系带设计，粗方厚防水台。戴蓝白印花头巾包头佩戴，蝴蝶夹系在脑后；戴珍珠项链 ；搭配美式西部风腰链，哑光古银色金属，连续几组花朵镂空珠边金属花托，每颗花托中间镶嵌椭圆形哑光浅绿松石，淡青蓝色原石质感，波西米亚嬉皮牛仔配饰，链式腰带，复古合金质感，腰带侧边垂挂细金属链条；银色简约戒指配饰。仅做服饰配饰的更换，严格保证其他画面内容保持不变，包含但不限于画面构图、滤镜、人物五官长相、发型、动作、环境背景等；画质8K高清无噪点。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传1张女性正脸图片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/YmY5Mzk4YTItOGU4OC00ODllLTk3ODAtNmIwYzk3YTBhOTBi_compress.webp?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/NDAxZDg3ZDEtOTA0ZC00MmFkLTkyOTItNDlkZTVkYjAzMmMx_compress.webp?width=1116&height=1488"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "bea34d1e6a80453caf2cb1e45d0bdfa5",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "d9ff0e40f01d4d2aba0ff502bd78b12a",
+                    "name": "智能P图"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/NDAxZDg3ZDEtOTA0ZC00MmFkLTkyOTItNDlkZTVkYjAzMmMx_compress.webp?width=1116&height=1488"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/YmY5Mzk4YTItOGU4OC00ODllLTk3ODAtNmIwYzk3YTBhOTBi_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_74dfb8f17d82469aa35a632af0d3d4c4",
+              "name": "废土Y2K",
+              "type": "prompt",
+              "prompt": "参考上传图生成图片：去掉上传图1中人物原有的服饰、所有配饰，更换人物服装和配饰；服装风格：Y2K 亚文化甜酷辣妹穿搭；白色微透斜肩宽松短袖 T 恤，宽松落肩版型，面料轻薄水洗磨白质感，衣身蝴蝶英文印花，侧边抽绳收褶设计，内搭浅灰色细肩带小吊带；低腰水洗渐变百褶牛仔超短裙，牛仔面料纹理，外挂牛仔绑带装饰；咖啡色阔腿袜套，裤脚毛边散须质感，抽绳收口；黑色厚底松糕小皮鞋，金属卡扣装饰，亮面皮革质感；搭配戴黑色珠链十字架项链；黑色铆钉皮质手链；银色朋克风皮质腿环，镶嵌十字架吊坠；黑色铆钉流苏腋下机车小包；甜酷 Y2K 亚文化配饰组合。仅做服饰配饰的更换，严格保证其他画面内容保持不变包含但不限于人物发型、动作、环境背景等；",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传1张女性正脸图片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/MzVjNDk2ZWYtOGNlZS00ODg3LTljYmQtNTlhMGU0OWY0NmZk_compress.webp?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/MDQ1OWFlOTYtY2Y0ZC00Zjk4LWI2NzYtNThlODM1Yjc2OTJl_compress.webp?width=1279&height=1706"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "74dfb8f17d82469aa35a632af0d3d4c4",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "d9ff0e40f01d4d2aba0ff502bd78b12a",
+                    "name": "智能P图"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/MDQ1OWFlOTYtY2Y0ZC00Zjk4LWI2NzYtNThlODM1Yjc2OTJl_compress.webp?width=1279&height=1706"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/MzVjNDk2ZWYtOGNlZS00ODg3LTljYmQtNTlhMGU0OWY0NmZk_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_5cce97f66ecb4443a8c560f5ac271d85",
+              "name": "千禧小卡",
+              "type": "prompt",
+              "prompt": "将人物改造成Y2K潮流写真风格，背景替换为干净的浅灰白室内墙面，带轻微闪光灯直拍质感。人物穿搭改为千禧年复古潮流服饰：粉色紧身短上衣、低腰牛仔裤、宽腰带、金属项链、透明小包等，搭配Y2K妆容：清透底妆、粉色腮红、闪亮眼影、浓密睫毛、玻璃唇，甜酷少女感。整体UI保持简洁白色界面，顶部黑色无衬线英文标题，中间竖版照片编辑区域，下方BACK、UNDO、REDO、RESET文字操作栏、蓝色DONE按钮和素材缩略图栏。照片边框采用真实印刷贴纸质感：粉色豹纹图案、细腻闪粉、亮片装饰、压纹边缘、局部珠光反射。底部素材栏展示不同Y2K元素贴纸，如爱心、星星、复古电子产品、闪钻图案等，整体清透真实，避免AI油腻高光，3:4。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传1张女性正脸图片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/NDIyMWZmMjQtOWFlZi00MTM4LTg0NmEtYWFhNmNkZThlOTBi_compress.webp?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/ZTY4YzJhYTAtYWUwZS00ZjkwLTk2YWYtNWNhZDBhYTMzZTA4_compress.webp?width=1116&height=1488"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "5cce97f66ecb4443a8c560f5ac271d85",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "d9ff0e40f01d4d2aba0ff502bd78b12a",
+                    "name": "智能P图"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/ZTY4YzJhYTAtYWUwZS00ZjkwLTk2YWYtNWNhZDBhYTMzZTA4_compress.webp?width=1116&height=1488"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/NDIyMWZmMjQtOWFlZi00MTM4LTg0NmEtYWFhNmNkZThlOTBi_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_22c40f0da9ff441ba8b1bfca4750d068",
+              "name": "地球online怀旧服",
+              "type": "prompt",
+              "prompt": "基于用户上传的真实人物照片，严格保留原图中的真实人物主体、面部五官比例、面部轮廓、肤质细节、发型特征、表情神态、服饰穿搭以及原始拍摄背景、空间结构、环境光影关系，不改变人物身份特征将图片转换为早期 Source 引擎（起源引擎初代）风格的 3D 游戏截图。保留原图的主体、构图、视角和场景布局，整体不是简单滤镜，而是像把现实照片“重新建模”成一张老游戏像素低模风格。 风格要求： 3D建模：所有物体、人物、树木、岩石、建筑都呈现明显的低多边形（Low-Poly）建模感，边缘略硬，几何感明显 ，低精度模糊纹理；材质贴图：使用超低分辨率（Low-Res）纹理，贴图略糊、略重复、细节有限，带有早期游戏资产的粗糙感 ；光影效果：模拟早期 Source 引擎特有的生硬、混乱、略不自然的光照；画面左上角垂直排列LIFE绿色生命条、STAMINA蓝色体力条、EXP黑色经验条，右上角上方显示时间与金币数值，下方是配有真实游戏质感的圆形小地图（Mini Map），地图根据图片内容智能生成对应地标、道路、建筑或环境标识，具有真实游戏导航UI效果。主体人物头顶正上方悬浮一个发光的像素风菱形水晶指示箭头（Quest Marker），具有轻微辉光与像素描边效果，精准指向主体。画面底部弹出经典RPG复古对话框，对话内容不固定，而是结合图片中的人物身份、动作、表情、环境、氛围及事件关系，自适应生成符合当前场景的剧情对白或角色吐槽，整体语言风格偏中二、热血、抽象、互联网热梗、轻松幽默、二次元游戏感，具备强烈的网感和互动感，仿佛游戏正在实时触发剧情事件；对话框右侧同步生成 3个不同的像素风文字互动选项，并有三角形标志显示选择哪个。文字同样根据当前图片内容智能生成。所有自动生成的对白与按钮文案必须严格遵守法律法规及平台内容规范，不得包含血腥、暴力、恐怖、色情等不当内容；整体保持积极、轻松、幽默、安全、适合公开传播，可放心用于社交媒体分享。 所有HUD、文字、按钮均采用黑底白字粗像素字体，辅以1px像素描边、轻微CRT扫描线、像素锯齿与老游戏UI质感，整体仿佛真实游戏运行中的截图，而非后期叠加效果。禁止出现暗角，整体兼具复古电子游戏氛围、真实摄影融合感与强烈的互动剧情沉浸感。尺寸为竖版3:4。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传1张女性正脸图片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/NjRjMGVlMTktYmUxOC00YzVmLTg3ZTgtZTE5N2ZkZDc0NTZm_compress.webp?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/ZjZhMTVjNjktYzllNi00YzgzLWE3MDItMjhlZGM1MzI3MzVh_compress.webp?width=1116&height=1488"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "22c40f0da9ff441ba8b1bfca4750d068",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "d9ff0e40f01d4d2aba0ff502bd78b12a",
+                    "name": "智能P图"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/ZjZhMTVjNjktYzllNi00YzgzLWE3MDItMjhlZGM1MzI3MzVh_compress.webp?width=1116&height=1488"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/NjRjMGVlMTktYmUxOC00YzVmLTg3ZTgtZTE5N2ZkZDc0NTZm_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "art_movements_experimental",
+          "name": "实验艺术",
+          "presets": [
+            {
+              "id": "yuanbao_8233a2e46ce843b59677f167cc8e58c3",
+              "name": "蒸汽波滤镜",
+              "type": "prompt",
+              "prompt": "将原图整体转换为高饱和蒸汽波夜景滤镜，以电光紫、霓虹紫、靛蓝为主色调，阴影压入深紫蓝，高光融入荧光粉、桃橙、暖黄色与少量青绿色点缀，形成鲜明但自然的冷暖霓虹对比。整体曝光略压低，增强紫色氛围与夜色层次，亮部呈现柔和霓虹溢光、光晕与轻微拖影，加入细腻胶片颗粒、轻微柔焦和低清晰度的梦幻质感，呈现迷幻、浪漫、带千禧数码感的蒸汽波夜间摄影效果；避免全局死紫、过度锐化、HDR与生硬高对比。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 上传1张照片即可生成 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/YzJmYjUzNTEtMjkwNS00NTQwLTk1MjgtZjI1MWZmMjU1YjZk_compress.webp?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/ODk2YTMxODgtYzIzNC00YjU3LWI0OWItNGI5YjU4Yjk0YjMw_compress.webp?width=1116&height=1488"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "8233a2e46ce843b59677f167cc8e58c3",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "d9ff0e40f01d4d2aba0ff502bd78b12a",
+                    "name": "智能P图"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/ODk2YTMxODgtYzIzNC00YjU3LWI0OWItNGI5YjU4Yjk0YjMw_compress.webp?width=1116&height=1488"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/YzJmYjUzNTEtMjkwNS00NTQwLTk1MjgtZjI1MWZmMjU1YjZk_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_experimental",
+                    "name": "实验艺术"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_f937c402af4f4c92bb7cde4c9cc81ad7",
+              "name": "涂鸦糖心",
+              "type": "prompt",
+              "prompt": "参考上传图中的人物面部特征生成图片：比例 3:4。轻微胶片质感，画面上方大量留白。人物头上装饰墨镜、浅粉色镜片细银色边框，微微歪头，手掌轻托下巴、银戒饰品，另一只手臂向下伸直、手肘靠在膝盖上，身穿浅粉色修身短袖针织上衣，白色抽绳半身短裙，白色堆堆中筒袜，深棕色复古铆钉中筒靴，肩上挎着做旧蓝色牛仔腋下包、包带挂粉色蝴蝶结与圆球挂饰，侧身蹲姿；前景是灰色沥青地面，背景下半段红砖墙，上半段白色墙面布满独立彩色卡通简笔画涂鸦，爱心、花、房子、太阳图案、不规则摆放、有大有小，画面右侧少量白墙面、干净墙面；柔和自然光，日常街拍，胶片质感，干净通透，色彩清新，人物居中，写实人像摄影，皮肤质感自然。人物肢体五官无畸形错乱。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张女性照片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/MzdjMGRjMzYtMDg2OS00ZGVlLWExZWMtM2M1ZDcwZjI2YzZj.jpg?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/OGVhOTMzZGQtMjgzOS00YTcyLWE5NTYtM2MxNGY5MGU5MDBk.jpg?width=1280&height=1470"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "f937c402af4f4c92bb7cde4c9cc81ad7",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "7a1ab3631e414d1291163bff714d2ec5",
+                    "name": "写实人像"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/OGVhOTMzZGQtMjgzOS00YTcyLWE5NTYtM2MxNGY5MGU5MDBk.jpg?width=1280&height=1470"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/MzdjMGRjMzYtMDg2OS00ZGVlLWExZWMtM2M1ZDcwZjI2YzZj.jpg?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_experimental",
+                    "name": "实验艺术"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_c7686881e94648cb912388e06f8afee4",
+              "name": "涂鸦生成器",
+              "type": "prompt",
+              "prompt": "竖版3:4。将用户上传照片作为唯一主体与视觉信息来源，完整保留原照片作为画面最底层背景，保持原有场景、构图、色彩与真实摄影质感，并自然铺满整个画面。在原照片上方居中悬浮一张大尺寸圆角白色手绘创作工具UI卡片，卡片与画面四周保留适当间距，带柔和自然投影，使底层原照片仍能从卡片四周清晰露出，形成“真实照片＋悬浮绘画界面”的空间层次。UI顶部设置简洁的绘画工具栏，包括关闭、画笔、复制、橡皮擦、撤销等黑色线性图标，底部排列圆形彩色画笔色盘与蓝色确认按钮，整体轻盈、干净、现代。自动识别用户照片中最具辨识度的主体及关键轮廓、姿态、服装、配饰或代表性物件等，将其重新概括成画板中央的随手涂鸦，保留主体最明显的外形特征与辨识点，大幅简化真实细节；涂鸦采用类似手机绘画工具直接绘制的干净数字马克笔笔触，以连续、顺滑但略带手绘偏移的圆头实色线条勾勒轮廓，线条粗细自然变化，局部允许轻微重复描线、错位、断开与随手回勾，呈现未经修正的一笔式手绘感；颜色直接、纯净、平整，笔触内部基本为均匀实色，不带铅笔颗粒、蜡笔噪点、纸张纹理或明显毛边，仅通过线条叠加与少量快速排线形成简单色块。搭配少量纯色笔触表现五官、头发、服装等主体元素，细节以几笔概括，不追求完整填色与精致线稿，整体造型松弛、笨拙、天真、有趣，像用户直接用手机画笔快速随手画出的简笔涂鸦；根据原照片自动提取几种具有代表性的鲜明颜色重新组合，不需要严格对应真实色彩，使不同颜色的线条自然穿插点缀，与原图形成视觉关联。主体可适当抽象、夸张，但仍能一眼联想到用户上传照片中的形象，不出现文字，画板内部保持大量干净白色留白，重点突出真实照片被一键转化为轻松随性的数字手绘涂鸦效果。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张照片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/N2IzZmQ2NDktMzY5Yi00YWRhLTg4ODktZGU5ZTNjYWYxZGRi_compress.webp?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/MzIzOTgyOWQtNTliZS00MzVmLWFhMTctYjM2MjQ4NTY0MjYy_compress.webp?width=1116&height=1488"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "c7686881e94648cb912388e06f8afee4",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/MzIzOTgyOWQtNTliZS00MzVmLWFhMTctYjM2MjQ4NTY0MjYy_compress.webp?width=1116&height=1488"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/N2IzZmQ2NDktMzY5Yi00YWRhLTg4ODktZGU5ZTNjYWYxZGRi_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_experimental",
+                    "name": "实验艺术"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_e0a2e9793a244ea4b10f63d900316d24",
+              "name": "涂鸦拼图",
+              "type": "prompt",
+              "prompt": "参考上传图生成图片：ins 涂鸦拼图，底层是上传图一，左上角叠加上传图二小插图；画面叠加黄色星星、浅色四叶草蜡笔涂鸦，顶部白色手写英文治愈文案（描述上传图情绪）。人物肢体五官无畸形错乱。比例3:4。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传1张女性正脸图片 · 参考图 1–2 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/YThmNjg1MGYtYzkyYS00MzZhLWE0MzgtOTRmYjhhMWM4ODYw_compress.webp?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/M2U4Nzg2ZmEtODgwNi00ZjAzLTgyZjgtNDRlNzBjOTUyODIy.jpg?width=768&height=1024",
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/MjM3YTM2Y2EtZjQ0ZC00YmM3LWI0MjktNzA4OTgwM2QwNWQw.jpg?width=768&height=1024"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "e0a2e9793a244ea4b10f63d900316d24",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "d9ff0e40f01d4d2aba0ff502bd78b12a",
+                    "name": "智能P图"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 2,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/M2U4Nzg2ZmEtODgwNi00ZjAzLTgyZjgtNDRlNzBjOTUyODIy.jpg?width=768&height=1024",
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/MjM3YTM2Y2EtZjQ0ZC00YmM3LWI0MjktNzA4OTgwM2QwNWQw.jpg?width=768&height=1024"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/YThmNjg1MGYtYzkyYS00MzZhLWE0MzgtOTRmYjhhMWM4ODYw_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_experimental",
+                    "name": "实验艺术"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_e70fb9c7df9b40b2baae21b12f2731f0",
+              "name": "像素地雷系",
+              "type": "prompt",
+              "prompt": "参考上传图生成图片： 比例1:1 。人物肩以上特写，仅展示头部与肩部，胸部及以下在画面外。像素风（Pixel Art），画面由清晰像素块构成，融合日式二次元漫画质感，带有轻微的故障艺术（Glitch）效果：水平、细碎的淡紫粉色半透细线短拖影，沿着人物外轮廓分布，带运动模糊效果，模拟显示器信号故障撕裂的毛刺效果，故障线条不是像素风；线条干净利落，平涂为主，少量渐变塑造体积；整体是 Y2K 朋克 + 日系少女漫画结合的复古电子插画风格。狭长夸张的眼型，上挑狐狸眼（吊梢眼），黑灰色瞳孔，睫毛突出，脸型窄长利落。纯白色背景。保持参考图人物脸部特征，不改变人物发型、五官、配饰、服装和整体姿态",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传1张单人正脸图片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/MTQ3OThmMDgtNWRhZC00YTc0LTllMjItMDliMGFjNjVhMDY1_compress.webp?width=1536&height=1536",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/YTI0ZDMxM2MtMDQxZS00MjQ2LTgwZDItMzE0M2Y4NDI1OGI4_compress.webp?width=1116&height=1488"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "e70fb9c7df9b40b2baae21b12f2731f0",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/YTI0ZDMxM2MtMDQxZS00MjQ2LTgwZDItMzE0M2Y4NDI1OGI4_compress.webp?width=1116&height=1488"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/MTQ3OThmMDgtNWRhZC00YTc0LTllMjItMDliMGFjNjVhMDY1_compress.webp?width=1536&height=1536",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_experimental",
+                    "name": "实验艺术"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_3b8ac26e04c54179852cc22b9aadb4e6",
+              "name": "像素方块艺术",
+              "type": "prompt",
+              "prompt": "竖屏3:4，把上传的照片做成一张蓝调时刻的拼贴氛围海报。整个背景是从上到下渐变的天空：上方是深宝蓝，往下渐渐变成湖蓝和灰蓝，最下边缘透出一点点暖杏色，背景带一层细密均匀的磨砂质感，像夜空在轻轻发光；天空中间偏上有一弯很小的金黄色细月牙，零星飘着几道很淡的白色细划痕。画面中部偏左贴一张竖版的原照片，约占画面宽度三分之一；右侧稍低处贴一张横版小照片，是原照片里另一处局部的放大；两张照片都是直角，没有边框和投影，色调统一调成偏冷的蓝调。右侧照片上方有一行很小的白色细衬线英文短句，左边照片下方有三行很小的淡紫色打字机字体英文。文字内容根据照片氛围自动生成，只写通用短句，不出现品牌、地名、人名和作品名，拼写正确、完整显示。整体明度适中，中间调，对比柔和，白平衡偏冷，饱和度中等偏高，色彩限定在深宝蓝、湖蓝、灰蓝、白色、淡紫和一点暖杏色。不要照片铺满画面，不要大面积黑色，不要发黄发旧，不要暗角，不要乱码，不要任何品牌标志、商标、酒类标签和角色形象，不要文字水印。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 上传任意一张图片即可生成 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/NjcxYTRlZGUtZDYwOS00MTUxLTljMzUtMGU1Y2FlZTA2MGRk.jpg?width=1280&height=1712",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/MzFhZGFlOTAtOTU1Ny00MTAwLTg2NGEtOGVhZGJkMGNmODA4.jpg?width=1280&height=1712"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "3b8ac26e04c54179852cc22b9aadb4e6",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "d9ff0e40f01d4d2aba0ff502bd78b12a",
+                    "name": "智能P图"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/MzFhZGFlOTAtOTU1Ny00MTAwLTg2NGEtOGVhZGJkMGNmODA4.jpg?width=1280&height=1712"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/NjcxYTRlZGUtZDYwOS00MTUxLTljMzUtMGU1Y2FlZTA2MGRk.jpg?width=1280&height=1712",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_experimental",
+                    "name": "实验艺术"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_a398b65ee4504b23a895c2979ba827d8",
+              "name": "人生像素卡",
+              "type": "prompt",
+              "prompt": "生成一张适合公众号图文首图的文章信息配图，整体风格参考：明亮高饱和蓝色外框，浅蓝网格背景，荧光绿色粗线框，像素字体标题，粉色图标按钮，整体像展会 check-in 页面、机场登机牌、活动入场券、复古电脑售票系统和信息导览海报结合；画面顶部使用大号像素风中文标题，搭配绿色边框和“Check in / Gate / Zone / Name / From / To / Event”等票务界面元素；中间可以有前台服务员、入口柜台、路线连接线、对话气泡、用户图标、电话、定位、网页、邮件等圆形按钮；底部放一张大号登机牌或入场券信息卡，用分区字段承载文章重点，可以加入条形码、地图底纹、虚线裁切线、站点编号和路线箭头，但不要出现真实二维码；请根据文章内容自动提炼信息，不要照搬原文，不要出现长段落，自动生成一个醒目的中文大标题、一个短副标题、4到6个核心信息模块、3到5个关键词标签和一句底部总结语，尽量把文章里的状态、选择、行动和结果概括完整；版式像一张“人生新阶段入场券”，顶部是 check-in 标题，中间是服务台和导览图标，底部是票据信息卡，文字信息丰富但层级清楚、留白充足、不拥挤；配色以亮蓝、荧光绿、粉色、白色、浅蓝、少量黄色和黑色为主，中文必须清晰可读、没有错别字；避免真实品牌logo、水印、二维码、真实平台名称、真实照片、厚重3D质感、暗沉背景、赛博朋克和文字堆满画面；文章内容：【我发现，很多新的开始并不是突然到来的，而是我们终于愿意从旧状态里走出来。以前总想着等准备好了再改变，等更有信心了再出发，等答案更明确了再行动。后来才明白，人生很多阶段都是一边进入、一边适应、一边调整的。真正重要的不是一开始就知道所有路线，而是先完成一次属于自己的 check in：确认现在的位置，选择下一站，然后带着一点不确定继续往前走。】3：4的画面比例。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 文生图",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/YzEzZDhmYzgtNjM0ZS00NGVjLThkYWItZmQ3YWEzZmY4NTIz.jpg?width=1116&height=1488",
+              "reference_images": [],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "a398b65ee4504b23a895c2979ba827d8",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "6237f94f4d53400fa1152368177cb6f8",
+                    "name": "海报设计"
+                  }
+                ],
+                "generation_type": "text2image",
+                "min_images": 0,
+                "max_images": 0,
+                "reference_image_urls": [],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/YzEzZDhmYzgtNjM0ZS00NGVjLThkYWItZmQ3YWEzZmY4NTIz.jpg?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_experimental",
+                    "name": "实验艺术"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_db676ed5af874d458f075b067c40acc1",
+              "name": "像素标本集",
+              "type": "prompt",
+              "prompt": "整体为纯黑色背景上的包装平面陈列展示，所有物品必须完整地放置在画面内部，四周预留明确安全边距，任何海报、卡片、纸袋、包装纸都不能超出画面边缘，不能被裁切，不能贴边，物品之间保持清晰间隔与整齐秩序。构图位置固定：左上方放一张最大尺寸的米白色主海报，竖版，面积最大，留白充足，左上角仅有少量灰色像素方块，底部有极少量小字排版；右上方放一张灰卡其色竖版副海报，尺寸略小于主海报，上面呈现由用户上传照片提炼出的黑色平面剪影或植物式抽象图形，并叠加少量灰蓝色像素方块；右侧中部横向并排摆放两张小型纸卡或包装纸样，作为辅助物料，图案简洁，以浅灰像素方格为主；左下方放一张装裱感较强的艺术纸品海报，可带浅木色底板或纸板衬底，画面上保留黑色剪影与像素拼接效果；右下角固定放一个浅灰米白色手提包装纸袋，带纸绳提手，正面有简洁像素图案和少量小号文字，纸袋完整呈现，不能出框；所有图形都基于用户上传照片提取轮廓并转化为黑色平面剪影、局部抽象纹样或淡灰图形，不保留真实摄影感，不做满屏重复，只在部分物料上出现。整体材质为干净的手工纸、棉麻纸、米白纸、浅灰纸、卡其纸，带轻微纸纤维、柔和颗粒、细微褶皱和复古印刷感，不要脏污旧报纸效果，不要大面积裂痕，不要复杂植物堆积。色调统一为低饱和米白、浅灰、卡其灰、炭黑、雾灰蓝，版式安静克制，带少量细黑线、窄边框、装饰横线和极少量小号英文排版文字，整体气质雅致、复古、独立品牌感强，像艺术展览周边与纸品包装视觉系统展示。画面，纸张不要发黄。竖版3:4。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张植物图片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/MDAxMGQ0MTktYjhlNC00NTVmLWI0ODYtN2RiYTg0MTM4OTBm_compress.webp?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/ZDI3NTc5YjktYjZhMS00ZWM5LTkzN2MtOTljMzNlZTUxM2Fk_compress.webp?width=1116&height=1488"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "db676ed5af874d458f075b067c40acc1",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "a504c8c80ae64d5aa0c0cd1026f7e5fa",
+                    "name": "电商营销"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/ZDI3NTc5YjktYjZhMS00ZWM5LTkzN2MtOTljMzNlZTUxM2Fk_compress.webp?width=1116&height=1488"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/MDAxMGQ0MTktYjhlNC00NTVmLWI0ODYtN2RiYTg0MTM4OTBm_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_experimental",
+                    "name": "实验艺术"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_f3485e8baa254f1bb820a79dfc20ad2a",
+              "name": "像素风纸质小票",
+              "type": "prompt",
+              "prompt": "参考上传图片生成图片：比例3:4 。前景画面居中摆放超长竖长条窄版纸质小票，纵向大幅拉长，窄宽度，崭新略带褶皱的白色热敏收银小票质感，背景纯黑色；小票最上方是斜体像素风英文标题文字，标题左下方带有日期：2026.8.18；下方是黑色像素半调网点艺术人物剪影，嵌入真实人像上半身抠图，居中放置在小票纸张上半部分，占小票比例五分之一大小；小票人像下方居中位置配有超小号黑色黑体字的中文短句生活化文案，右下角有手写笑脸涂鸦，最底部是一整排条形码元素，整体画面只有黑白灰单色调，低对比度，两侧背景留白充足，",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张人物照片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/YWNiOTcxNDMtNzQzZC00Nzk5LTk5YTgtOTQ4NDg3NWUxMDRj_compress.webp?width=1280&height=1707",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/N2Q1MzQ4MjEtNGJlYy00ZTQ3LTg2ZGEtNThkMDBiNjJjNDQx_compress.webp?width=768&height=1024"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "f3485e8baa254f1bb820a79dfc20ad2a",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "d9ff0e40f01d4d2aba0ff502bd78b12a",
+                    "name": "智能P图"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/N2Q1MzQ4MjEtNGJlYy00ZTQ3LTg2ZGEtNThkMDBiNjJjNDQx_compress.webp?width=768&height=1024"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/YWNiOTcxNDMtNzQzZC00Nzk5LTk5YTgtOTQ4NDg3NWUxMDRj_compress.webp?width=1280&height=1707",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_experimental",
+                    "name": "实验艺术"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_950af0a8a8bb4409b6952e379883bb87",
+              "name": "方块像素",
+              "type": "prompt",
+              "prompt": "参考上传图生成图片：比例3:4。整张图片竖版排版，水平对半分割为上下两个画面区域：上框（上方区域）：上传图实景摄影图，占据图片上半部分。下框（下方区域）：马赛克艺术效果图，占据图片下半部分。复刻上方上传图的场景，整体画面由方块像素构成，像素块从中心向外逐渐消散，边缘像素颗粒淡化消融；画面底部居中放置细小的英文文字。下框像素图：完全复刻上框造型，马赛克方块构成画面，中心像素清晰，向外像素慢慢消散、变淡，消融式像素溶解效果；暖色调像素色块，保留建筑、草坪、灌木、花草的轮廓，米白色纯色背景。下框背景：干净的浅米纯色背景，突出像素化建筑主体。竖版双联对比构图，水平分割上下两张图，上下画面建筑主体位置对齐；上图建筑位于画面中心；下图像素建筑居中，像素边缘向外消散；底部放置英文标题，上下图形成写实摄影 vs 马赛克艺术的视觉对照，留白干净简约，排版高级。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张建筑照片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/Yjc1NWY2NzUtN2IxZS00YTU4LWFlMTMtMzVhZmE4NmIzYTM0_compress.webp?width=1280&height=1712",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/YmEwMTQ3YmYtODgyMC00ZWQ1LWJlMzItYzhlMGZiOWJiNjFj_compress.webp?width=2304&height=1728"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "950af0a8a8bb4409b6952e379883bb87",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/YmEwMTQ3YmYtODgyMC00ZWQ1LWJlMzItYzhlMGZiOWJiNjFj_compress.webp?width=2304&height=1728"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/Yjc1NWY2NzUtN2IxZS00YTU4LWFlMTMtMzVhZmE4NmIzYTM0_compress.webp?width=1280&height=1712",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_experimental",
+                    "name": "实验艺术"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_2eba613045954a509b71bfb912f74224",
+              "name": "贝壳像素",
+              "type": "prompt",
+              "prompt": "为上传的图片独立制作一张海报，不做拼接。上下两部分严格1:1，各占画面50%。上半部分：先理解原照最具记忆点的主体、构图、透视、结构走势与气氛，再重构为材料拼贴感的极简像素景观。删去无关细节，只保留最能代表原物的结构与走势，用规则方块秩序与天然材料质感重新概括，一眼认出与下方照片对应。像素模块如粗粝贝壳、贝壳薄片或矿物壳层切割的小型方形碎片：保持几何网格秩序，边缘可略崩缺，表面带天然层理、粉质颗粒、轻微凹凸，哑光、自然、温和。主体核心区模块密集聚合，边缘逐步减少、缺失、断开、漂浮，向纯白背景自然逸散。模块总量不超过200块，单块大小统一或接近，单块尺寸小巧精致。上半部分构图保持小尺度章印与大面积留白的关系，按主体方向、比例与视觉重心自由安排，可偏心、贴边、悬置或裁切；主体约占上半区15%到18%，保持小巧精致的章印尺度，不得过大或挤压留白，其余为纯白色留空。上半部分整体背景为纯白色，必须干净、明亮、不发黄、不发米、不发暖、不做旧、不出现纸张泛黄或复古底色；留白是与正负形、疏密聚散、不对称平衡同等的构成元素，宁可删减信息也不填满画面，让主体像一枚安放于纯白纸面的精致材料章印。下半部分：完整保留原照，不抠图、不改变主体与背景关系。保留原照主体身份、结构、姿态、真实质感、自然光影与色彩氛围，仅轻微高级调色，具艺术杂志与展览图像质感；可延展背景适配画幅，不拉伸扭曲改变主体，背景保持自然真实，不出现纯白或其他替换背景。配色从原照提取最明亮鲜活、有生命力的颜色重新调制，不平均取色、不复制色值；适度提高明度纯净度通透感，由原图推出清澈天空蓝、湖水青、嫩绿、暖黄、珊瑚橙、桃粉等明快综合色，不要黑色，以清爽冷暖形成治愈节奏。如果画面中有人物，不要细致描绘人物五官，只要大致能看出来是这个人就行，主色明亮不刺眼，局部可用少量珊瑚红、柔粉或明黄点睛，但仅用于主体模块，不得染黄纯白背景。保留贝壳天然色差与层理，避免变灰旧脏；杜绝灰脏、发旧、阴郁大地色、荧光与廉价糖果感。文字使用复古打字机字体，仅极少量编辑介入，从主体、地点、动作、情绪或隐喻中提炼少量字词短句，安静置于上半部分留白或主体边缘，不喧宾夺主。整体为天然材料拼贴、贝壳质感像素、规则几何秩序、渐进消隐、小尺度章印、大面积纯白留白与现代编辑排版的高级视觉，似当代材料艺术工作室重构海报；避免复制照片、复杂背景、真实细节、纯色色块、光滑矢量、塑料马赛克、强珠光、游戏UI、填满、过多文字和模板化效果。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张照片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/ZmUxMDQzZWUtODRhYS00NDQ0LWJjY2QtYTQ1M2M5Y2YyYWE1_compress.webp?width=1440&height=1920",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/OTFiYzg2ZjAtYzZiMS00MzU2LWI4MTMtOGYyYmY4ODQzZjFj_compress.webp?width=534&height=713"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "2eba613045954a509b71bfb912f74224",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/OTFiYzg2ZjAtYzZiMS00MzU2LWI4MTMtOGYyYmY4ODQzZjFj_compress.webp?width=534&height=713"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/ZmUxMDQzZWUtODRhYS00NDQ0LWJjY2QtYTQ1M2M5Y2YyYWE1_compress.webp?width=1440&height=1920",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_experimental",
+                    "name": "实验艺术"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_ea5a8f54ac7d44538ae2ac68e2d43f3c",
+              "name": "字符弥散风格化",
+              "type": "prompt",
+              "prompt": "参考上传图片生成图片：比例3:4，重度数字故障解构风格，画面整体被高密度代码字符像素化覆盖，绝大多数色块由白色、粉色、蓝色代码字符拼贴重组，代码饱和度高、对比强烈，主体布满密集彩色代码纹理；代码排列具有明确空间秩序，主体中心区域的代码字符整齐、规则、像素网格感强，向外逐渐变得不规则、断裂、错位、撕裂、抖动，形成由内向外从整齐到不整齐的扩散逻辑，局部出现色彩错位、碎片状字符、电子干扰线条和复古像素噪点，黑色背景中保留高对比代码颗粒，整体呈现赛博故障艺术、像素矩阵解构、强秩序感数字破碎美学，主体形态保持可辨识但被代码结构完全包裹。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张人物照片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/ZjRkNmE3OWQtNWU2Ny00YTFlLWEzMWYtMjVhNDEyZjA0MTA0_compress.webp?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/NTc3ZDZmYjQtMTM4Mi00MGM1LWI3M2EtNTMxZTY5NWM5MDZh_compress.webp?width=960&height=1282"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "ea5a8f54ac7d44538ae2ac68e2d43f3c",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/NTc3ZDZmYjQtMTM4Mi00MGM1LWI3M2EtNTMxZTY5NWM5MDZh_compress.webp?width=960&height=1282"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/ZjRkNmE3OWQtNWU2Ny00YTFlLWEzMWYtMjVhNDEyZjA0MTA0_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_experimental",
+                    "name": "实验艺术"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_7dcfa822511242ad8b7eeccf1c956426",
+              "name": "局部像素加载中",
+              "type": "prompt",
+              "prompt": "以上传照片为基础，完整保留原有场景、人物、构图、动作、色彩、光线、透视与背景内容。自动识别画面中最突出、最完整的单个物体，仅将该物体原位转化为明显的平面立方体大像素风格，使用清晰的方块结构、低分辨率像素贴图与立体体素建模，准确保留物体原本的形状、颜色、尺寸、朝向及与人物的遮挡关系，光影与环境自然融合。物体旁叠加半透明黑色像素UI标签框，用白色8-bit字体写出物体英文名称，并用细线与圆点精准指向主体。整体呈现真实照片与像素物体结合的趣味AR效果，竖版3:4。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传任意一张图片即可生成 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/M2RkZWFiODItOWYzOS00YjczLThiMDItMDY5ZTQ1NTRkN2I3.jpg?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/ZGViMzRmNTAtZjZhMS00M2MwLTk1MGUtMWM1YTk3NTY4YzE4.jpg?width=1116&height=1488"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "7dcfa822511242ad8b7eeccf1c956426",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/ZGViMzRmNTAtZjZhMS00M2MwLTk1MGUtMWM1YTk3NTY4YzE4.jpg?width=1116&height=1488"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/M2RkZWFiODItOWYzOS00YjczLThiMDItMDY5ZTQ1NTRkN2I3.jpg?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_experimental",
+                    "name": "实验艺术"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_1c4afc236fcb44b1bf636220724cb4f8",
+              "name": "游戏像素风格化",
+              "type": "prompt",
+              "prompt": "根据上传图片生成图片：不改变原参考图的动作表情和服饰。黑色清晰像素轮廓线，板绘像素画，平涂色块，无渐变，无阴影肌理，高对比度硬像素颗粒，粗黑清晰像素线条，纯白色极简背景，主体居中构图，独立游戏像素美术风格，无文字，干净画面，轮廓干净利落。比例 1:1。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张卡通IP形象图片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/MmJlMjNlYWUtZTBlNC00NDE2LTg1OGEtYTEwN2I2Nzg2NTI1_compress.webp?width=1536&height=1536",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/ZDE3NzVjOTktYjBjZS00NTE1LTgzNjQtZDdhMDA3ZjNjYTJj_compress.webp?width=1280&height=1280"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "1c4afc236fcb44b1bf636220724cb4f8",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/ZDE3NzVjOTktYjBjZS00NTE1LTgzNjQtZDdhMDA3ZjNjYTJj_compress.webp?width=1280&height=1280"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/MmJlMjNlYWUtZTBlNC00NDE2LTg1OGEtYTEwN2I2Nzg2NTI1_compress.webp?width=1536&height=1536",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_experimental",
+                    "name": "实验艺术"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_b869db7b14874d6a843333668eaaaab4",
+              "name": "城市拼贴艺术",
+              "type": "prompt",
+              "prompt": "竖屏3:4，根据上传的照片识别街景或场景，把它彻底重绘成一张城市旅行海报插画，保留原照片的构图、透视和主要建筑、车辆与街道的位置。插画是扁平矢量风：建筑立面拆成大块的平涂色面，用深藏青色块表示窗洞、阴影和铁艺细节，亮面是珊瑚粉、玫红、杏粉和明黄，天空是浅蓝过渡到杏粉，远处高楼用雾霾蓝；地面和局部加少量干刷笔触和细碎色块，画面有套色印刷海报般的平涂感。插画是一个竖长矩形，约占画面宽度七成，居中放在纯白背景上，四周留白。插画上方是一行很大的黑色粗衬线英文大写标题，字边略带粗糙的印刷感；插画下方居中一行很小的黑色窄体大写英文副标题。文字内容根据画面自动生成通用的城市漫游类英文单词，不出现真实地名、品牌、人名和作品名，拼写正确、完整显示。整体明亮，中间调，对比强烈，白平衡偏冷，饱和度中等偏高，色彩限定在这组色卡里：纯白约占百分之四十、藏青约占百分之十五、雾霾蓝和湖蓝约占百分之二十、珊瑚粉和玫红约占百分之十五、明黄约占百分之十。不要照片质感，不要只给照片调色，不要写实光影，不要发黄发旧发暗，不要暗角，不要乱码，不要任何品牌标志、商标和角色形象，不要水印。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张风景照片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/ZmJhODA0NzMtMzJlYi00ODY2LTg2ZTQtNGY0ZWRlY2ZiZWQ3.jpg?width=1280&height=1712",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/MDNjNjYwYWItMmJmNi00Yjk1LTkwZjgtMGViNTE0NjhkY2Mz.jpg?width=1280&height=1712"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "b869db7b14874d6a843333668eaaaab4",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/MDNjNjYwYWItMmJmNi00Yjk1LTkwZjgtMGViNTE0NjhkY2Mz.jpg?width=1280&height=1712"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/ZmJhODA0NzMtMzJlYi00ODY2LTg2ZTQtNGY0ZWRlY2ZiZWQ3.jpg?width=1280&height=1712",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_experimental",
+                    "name": "实验艺术"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "art_movements_pop",
+          "name": "波普欧普",
+          "presets": [
+            {
+              "id": "yuanbao_955bada7db6c4d5ebf8e818fd438070d",
+              "name": "几何波普",
+              "type": "prompt",
+              "prompt": "根据参考图生成图片：保持上传图比例不变。简约平面插画风格，平涂插画，丝网版画绘制手法，低噪点，仅对人物进行风格化处理，人物造型、服装款式、动作、表情不变，柔和浅米白色纯色背景。人物面部风格：扁平几何概括，利落轮廓、无描边，简约块面塑造，低层次明暗，细腻颗粒肌理质感，五官互相独立无过渡连接，无渐变明暗，平涂色彩，精致长眼型，纯黑色块眉毛，柔化唇形，橘调哑光唇色，柔和腮红，干净留白，复古摩登人像，五官适度风格化变形，不写实，无高光，平面插画感，清爽高对比配色，少量细线条勾勒发丝；人物服饰为拼色格纹色块，色块为橙黄色、宝蓝、橙、大块米白，少量深色部分为纯黑色；人物服饰和皮肤的阴影处为暖蓝色调，皮肤暗部为粉色，撞色复古配色，干净色块分割，简约时尚杂志插画，细腻面部神态，人物肢体五官无畸形错乱。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张人像照片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/NWYzYTAyODAtMGM0Yy00YWUyLThjZTctZWRiNTI3OTRhNTU2.jpg?width=1280&height=1707",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/MWM0ODAyMWMtYTY0Mi00Yzg5LTk5Y2YtZmMwZGJjMWQ5MjA3.jpg?width=359&height=478"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "955bada7db6c4d5ebf8e818fd438070d",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/MWM0ODAyMWMtYTY0Mi00Yzg5LTk5Y2YtZmMwZGJjMWQ5MjA3.jpg?width=359&height=478"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/NWYzYTAyODAtMGM0Yy00YWUyLThjZTctZWRiNTI3OTRhNTU2.jpg?width=1280&height=1707",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_pop",
+                    "name": "波普欧普"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_e2ae65c2fde54cc6b266ba9b2486b075",
+              "name": "几何波普",
+              "type": "prompt",
+              "prompt": "根据参考图生成图片：简约平面插画风格，平涂插画，丝网版画绘制手法，利落线条，低噪点，仅对人物进行风格化处理，人物造型、服装款式、动作、表情不变，柔和浅米白色纯色背景。人物皮肤白皙、哑光平整，皮肤暗部有轻微低饱和暖粉肤色，面部带有轻微细腻印刷颗粒噪点，无渐变光影，块面化概括面部结构，少量细线条勾勒发丝，色块边界锐利，渐变色唇色、纯黑色块眉毛；人物服饰为拼色格纹色块，色块为橙黄色、宝蓝、橙、大块米白，少量深色部分为纯黑色；人物服饰和皮肤的阴影处为暖蓝色调，撞色复古配色，干净色块分割，简约时尚杂志插画，细腻面部神态，人物肢体五官无畸形错乱。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张照片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/YzUwMGY3NjYtNmZiYy00MjNlLThjYzktZjI0NDRkY2M2NjQ5_compress.webp?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/MWNjZGNmOWQtNWE1NS00MDhhLTg5MWUtMDVkNDVjNzJiNDYw_compress.webp?width=1116&height=1488"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "e2ae65c2fde54cc6b266ba9b2486b075",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/MWNjZGNmOWQtNWE1NS00MDhhLTg5MWUtMDVkNDVjNzJiNDYw_compress.webp?width=1116&height=1488"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/YzUwMGY3NjYtNmZiYy00MjNlLThjYzktZjI0NDRkY2M2NjQ5_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_pop",
+                    "name": "波普欧普"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "art_movements_surrealism",
+          "name": "超现实",
+          "presets": [
+            {
+              "id": "yuanbao_ac253280b38c4c09a84745e5f992219b",
+              "name": "超现实矛盾空间",
+              "type": "prompt",
+              "prompt": "生成一张超现实扁平插画，整体是高饱和紫色、薰衣草紫、亮黄色、深绿色、橙红色、浅蓝色组成的强对比配色，画面像一座矛盾空间结构的室内游乐场，透视关系故意错位，楼梯、天花板网格、平台、栏杆和墙面形成不可能空间。背景为紫色室内空间，两侧有深蓝紫颗粒质感边框，顶部是浅蓝色网格天花板，墙面和地面带有几何透视线。画面中央是一张巨大淡黄色人物头像，表情冷淡，短发，五官极简，头像后方有红色密集横线背景和深绿色尖刺状图形。上方有一个夸张的绿色长袖身体横向漂浮，红色手掌向两侧伸展，身体下方连接黄色裤装和红色圆形脚。左侧有人物倒挂在画面边缘，穿橙色衣服和浅蓝运动鞋，手里拿着透明折纸状物体；左下角有一只红色象形动物，戴白色眼镜，四条腿穿运动鞋，造型荒诞可爱。画面中有环形梯子、金属圆环、蓝色座椅、紫色机械小人、植物叶片、放大镜、橙色手臂、黑色长手臂、人物剪影和小型群像，所有元素层层叠加，形成拥挤但有秩序的奇幻拼贴。右侧有黄色长发人物站立，穿紫色背心，上面印着头像图案；右下角有三个浅蓝色小人抬着长杆，人物比例刻意不真实。远处加入楼梯平台、栏杆、门洞、巨大手臂、侧脸头像和装饰性圆形图案，让空间像剧场、商场、迷宫和梦境的混合体。画风为细黑线勾边的二维矢量插画，线条干净均匀，没有真实明暗，色块平涂为主，局部加入颗粒噪点、网纹、细密横线和蓝紫色喷砂质感。笔触要像数字丝网版画与平面漫画结合，颜色鲜艳、怪诞、复古、前卫，人物和物体造型夸张变形，表情冷静疏离，整体充满荒诞叙事感、超现实拼贴感、矛盾空间感和高密度视觉信息，不要写实，不要油画质感，不要柔和水彩，不要渐变过多，不要空旷背景。画面比例为9:16。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 文生图",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/NDhiYTJmNGItY2UyNC00YjMwLTkxMWMtYTJjMzczOWVmNGJl_compress.webp?width=1116&height=1983",
+              "reference_images": [],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "ac253280b38c4c09a84745e5f992219b",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "text2image",
+                "min_images": 0,
+                "max_images": 0,
+                "reference_image_urls": [],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/NDhiYTJmNGItY2UyNC00YjMwLTkxMWMtYTJjMzczOWVmNGJl_compress.webp?width=1116&height=1983",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "art_movements_traditional",
+          "name": "传统装饰",
+          "presets": [
+            {
+              "id": "yuanbao_6e2a8263fc954a6e829a68d552b3b56a",
+              "name": "马赛克心事",
+              "type": "prompt",
+              "prompt": "生成竖版3:4摄影艺术海报，仅以用户上传的原图为内容来源。整幅采用连续纯色背景，从原图提取一种协调颜色，干净、饱满、不刺眼，明度不限，优先米白以外的颜色，无渐变或纹理。上方陶瓷马赛克画，下方原图裁剪，两者水平居中、等宽、左右对齐。上方含底板宽占画布36%、高占36%，顶边距顶部16%；下方宽占36%、高占32%，顶边位于画布高度58%；上下净间距6%，底部留白10%，左右各32%。人物选择主要人物并保留人数、动作和关系；动物选本体；风景选树、云、湖等一个代表元素；食物选一盘食物及餐盘；物件选主要物件。下方直接使用原图等比裁剪，保留完整头部及关键动作，与上方主体呼应，保持真实外貌、色彩与摄影质感，不重绘、不拉伸、无边框。上方为完整矩形的全哑光薄瓷片镶拼板，主体周围用大块浅色瓷片填满矩形，外缘不沿主体轮廓裁切。以“极简、概括”为最高造型原则：先将主体重画为少量不规则几何形状、相邻大色块及最少内部结构，再分片拼接；靠轮廓、姿态和色块关系识别主体，不描摹摄影细节。允许适度变形、不对称及自然手绘起伏，特写也不增加细节。脸部由数块同色或近似肤色的不规则瓷片拼成，额头、脸颊、下巴有少量清楚拼缝，不能整张脸只有一片；分片不对应面部光影，不用深浅块塑造体积。五官为齐平嵌入的平面色片：睁眼用简洁眼形与实心圆瞳孔，眯眼、笑眼、闭眼仅用短弧线，保留原表情；眉毛各为单块异形短片，鼻子为单块三角或梯形，嘴为薄弧形。无眼窝、鼻梁明暗、立体鼻尖、厚嘴唇、睫毛或牙齿。头发概括为宽大片形，服装为大色面，动物、植物、道具同等简化，无发丝、细褶、叶脉及细碎纹理。瓷片颜色从原图精简提取，适度降低饱和度和明暗反差，每片均匀单色，无渐变、高光及结构阴影。造型概括不等于整块不分片，同色区域可由少量瓷片组成；背景用大片，主体以大中片为主，特征用少量小片，大小对比明确，避免密碎切割。所有瓷片薄而平整、厚度一致、齐平嵌拼，窄浅色拼缝填平；片边清爽，无宽倒角、鼓起或叠贴。表面为干净细腻的全哑光陶瓷，无亮釉、油光、反光白边、污渍、裂纹及做旧。正面平视、均匀柔光，仅底板外缘有极轻贴底阴影，无浮雕、厚框、文字、水印或杂物。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张照片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/ZWY1NjVhMjItZjA0ZC00YTdmLWFhODEtNTU4OGNhM2ExYmI4_compress.webp?width=1464&height=1952",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/NzRiOWY0YmUtNGYwYy00MzI5LTg2MmItYWYwN2RmYzU4NGJj_compress.webp?width=1439&height=1954"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "6e2a8263fc954a6e829a68d552b3b56a",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/NzRiOWY0YmUtNGYwYy00MzI5LTg2MmItYWYwN2RmYzU4NGJj_compress.webp?width=1439&height=1954"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/ZWY1NjVhMjItZjA0ZC00YTdmLWFhODEtNTU4OGNhM2ExYmI4_compress.webp?width=1464&height=1952",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_traditional",
+                    "name": "传统装饰"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "art_movements_abstract",
+          "name": "抽象构成",
+          "presets": [
+            {
+              "id": "yuanbao_fdf434d7a5d04fb9b0e5492c62317463",
+              "name": "多边形块面几何风",
+              "type": "prompt",
+              "prompt": "参考上传图生成图片：比例1:1，皮克斯原画画风，几何平涂切割上色，用色块塑造形体；体积块面明暗对比强烈，五官动漫化；没有明显黑色勾边轮廓，依靠色块边缘分割造型，轮廓利落硬朗，棱角分明；干净利落的色块笔触，大块色块拼接塑造面部光影；低饱和肤色层次，体积块面明暗对比明显，白色背景块；整体配色克制高级，明暗对比干净利落；人物面部全部用色块拼接塑造体积感，体积块面明暗对比明显，背景是白色；",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传1张单人正脸图片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/OGFhM2YxMGEtMDMzYy00YTE5LWI3MzktMzgxMmNjNTUwMTQ3_compress.webp?width=1536&height=1536",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/NzQ2ZDgyMTYtNjc2NS00ZTI2LWE1YzItMzQ3NjU2OTAzOTky_compress.webp?width=1536&height=1536"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "fdf434d7a5d04fb9b0e5492c62317463",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/NzQ2ZDgyMTYtNjc2NS00ZTI2LWE1YzItMzQ3NjU2OTAzOTky_compress.webp?width=1536&height=1536"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/OGFhM2YxMGEtMDMzYy00YTE5LWI3MzktMzgxMmNjNTUwMTQ3_compress.webp?width=1536&height=1536",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_abstract",
+                    "name": "抽象构成"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_e963f8cfa18046d5a1557059142ab80c",
+              "name": "梦幻渐变数字艺术",
+              "type": "prompt",
+              "prompt": "参考上传图生成图片：转化成板绘，弥散渐变风，治愈系超现实插画，柔和氛围感艺术，模糊柔焦梦幻风格。柔和喷枪笔触，无锐利硬边，色彩互相渗透融合，朦胧虚化过渡，没有明显笔刷痕迹。细腻柔和的弥散光晕肌理，轻微细腻颗粒质感，色彩边缘羽化虚化，柔光漫射效果。背景深蓝色底色，中心巨大橙黄渐变光晕，带粉、红、浅绿彩虹色漫射光，低对比柔和撞色，冷暖色彩交融，温柔梦幻。几乎无轮廓硬线条，车辆、交通信号灯依靠色块塑造，物体边缘全部柔化羽化。中心放射光晕作为视觉重心，大量负空间留白。安静孤独，温柔梦幻，超现实氛围感，静谧治愈，朦胧电影感。现代极简弥散风数字插画，偏向柔和氛围感艺术，擅长大色块光晕、低对比虚化处理。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 上传任意一张图片即可生成 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/MmEyOGJlMDQtMDkyMS00MGMxLWE2OTAtM2ViNmZmNzY5Nzdh.jpg?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/YTI2ZmRmN2YtZDJjNC00ZDEwLWE0MDItOWZjYjllMGE1OTc5_compress.webp?width=1280&height=1707"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "e963f8cfa18046d5a1557059142ab80c",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/YTI2ZmRmN2YtZDJjNC00ZDEwLWE0MDItOWZjYjllMGE1OTc5_compress.webp?width=1280&height=1707"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/MmEyOGJlMDQtMDkyMS00MGMxLWE2OTAtM2ViNmZmNzY5Nzdh.jpg?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_abstract",
+                    "name": "抽象构成"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_1588363f670d4cd0911ea3646f973e1a",
+              "name": "三角块面风格化",
+              "type": "prompt",
+              "prompt": "根据上传图片生成图片：低多边形几何扁平插画风，保留原图的画面元素不变，板绘平涂质感、硬朗几何折线轮廓、纯色块拼接方式、无渐变无模糊笔触、干净清晰细线条和低饱和清新配色。上传图主体由几何三角块面组成，整体画面平整、干净、矢量质感强，高清细节。比例3:4。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 上传1张图片即可生成 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/NWMzZGY2ZWMtMmFhYi00NDRjLWIwMGItZjBhMjU1ZGNjMmJk_compress.webp?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/M2QxZDZhNGYtNzYzMi00ZDZiLTlmNWItZTNhYmU0ZThhY2M2_compress.webp?width=1279&height=1706"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "1588363f670d4cd0911ea3646f973e1a",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/M2QxZDZhNGYtNzYzMi00ZDZiLTlmNWItZTNhYmU0ZThhY2M2_compress.webp?width=1279&height=1706"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/NWMzZGY2ZWMtMmFhYi00NDRjLWIwMGItZjBhMjU1ZGNjMmJk_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_abstract",
+                    "name": "抽象构成"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_f585f1f967af4d42bd74b81c7ffe3dc1",
+              "name": "莫兰迪块面风格化",
+              "type": "prompt",
+              "prompt": "根据上传图片生成图片：比例 3:4。扁平肌理插画，参考图人物五官、动作、服装、场景不变。人物服装纹样、场景元素轮廓做几何面块处理，肤色过渡自然，纯色背景，背景颜色根据参考图生成；纸张颗粒噪点质感，低饱和度莫兰迪配色，几何块面造型，色块拼接，简约平涂，细微颗粒肌理，轮廓干净利落，无多余描边，高级简约装饰插画，色彩干净和谐，人物肢体五官无畸形错乱。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张人像照片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/OGNhZDdhMGMtODQ2OC00OWI4LWI2YmItOWQwODI3YjA4OTcx.jpg?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/MDExNjk5MDEtZjViMC00MmVlLTg4NjEtMzZmNTNhMmI3ZTcx.jpg?width=1280&height=1666"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "f585f1f967af4d42bd74b81c7ffe3dc1",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/MDExNjk5MDEtZjViMC00MmVlLTg4NjEtMzZmNTNhMmI3ZTcx.jpg?width=1280&height=1666"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/OGNhZDdhMGMtODQ2OC00OWI4LWI2YmItOWQwODI3YjA4OTcx.jpg?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_abstract",
+                    "name": "抽象构成"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

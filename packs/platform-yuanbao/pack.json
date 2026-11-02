@@ -2,7 +2,7 @@
   "schema": 1,
   "packId": "platform-yuanbao",
   "name": "腾讯元宝 风格包",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": "art-canvas",
   "description": "腾讯元宝文生图与图生图风格",
   "order": 140,
@@ -50,19 +50,20 @@
       "order": 60
     },
     {
-      "id": "general",
-      "name": "通用模板",
-      "file": "general.json",
-      "order": 80
+      "id": "art_movements",
+      "name": "艺术风格",
+      "file": "art_movements.json",
+      "order": 70
     },
     {
       "id": "uncategorized",
       "name": "待分类",
       "file": "uncategorized.json",
-      "order": 90
+      "order": 80
     }
   ],
   "taxonomyVersion": "1.1.0",
+  "dataVersion": "2026-11-02",
   "entryCount": 1459,
   "replaces": [
     "art-canvas-core"

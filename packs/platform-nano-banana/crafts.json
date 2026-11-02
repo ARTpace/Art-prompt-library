@@ -23,32 +23,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：剪纸 / 剪纸",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "opennana_realistic-memory-in-paper-folds",
-              "name": "旧纸折痕间浮现的超写实立体记忆",
-              "type": "prompt",
-              "prompt": "{subject}, Nano Banana Pro || 8K 超现实宣传片 设计一张超现实的特写图像，描绘一张折叠的旧纸。在纸张的折痕和表面中，描绘一个 [场景或记忆]，它像雕塑般的折纸一样，自然地从折叠处浮现。 环境和人物（如果存在）看起来像是直接压印或印刷在纸上，利用褶皱、纹理和墨水质感来营造这种幻觉。加入微妙的阴影、卷曲的边缘、撕裂的边角和墨水褪色，以增强真实感。 将纸张放置在中性桌面上，一侧有柔和的定向光，投射出轻微的阴影，增强立体深度。 超逼真、情感叙事、手工视觉幻象、8K 超细节、图像尺寸 4 5。",
-              "negative_prompt": "",
-              "description": "Nano banana pro",
-              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774210130441-yzy9v69p-1.jpg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：折纸",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "crafts": [
-                    "折纸",
-                    "手工",
-                    "折叠"
-                  ]
-                }
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ]
               }
             },
             {
@@ -66,7 +47,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：折纸 / 折纸",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ]
               }
             },
             {
@@ -84,7 +71,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：折纸 / 折纸",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ]
               }
             },
             {
@@ -102,7 +95,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：剪纸 / 剪纸",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ]
               }
             },
             {
@@ -120,7 +119,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：折纸 / 折纸",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ]
               }
             },
             {
@@ -138,7 +143,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：折纸 / 折纸",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ]
               }
             },
             {
@@ -156,43 +167,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：折纸 / 折纸",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "opennana_soft-pastel-origami-kitchen",
-              "name": "柔和粉彩折纸风极简厨房剖面",
-              "type": "prompt",
-              "prompt": "{subject}, 一个大型的、折纸风格的彩色厨房剖面图，占据了画面的大部分。所有元素都由折叠的纸片构成：橱柜、台面、中岛、防溅板、地板、窗户和简化为几何形状的电器。柔和的马卡龙色调（暖白色橱柜、淡鼠尾草绿或柔和的蓝色点缀、浅木色调）。清晰的折痕、分层的纸张深度、可见的纸张纹理。自然日光、微妙的阴影、现代简约的厨房美学。",
-              "negative_prompt": "",
-              "description": "Nano banana pro",
-              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775076490442-w3gurf5w-1.jpg",
-              "classification": {
-                "method": "rules",
-                "stage": "title",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "标题规则证据：折纸 / 折纸",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "opennana_geometric-papercraft-man-portrait",
-              "name": "几何折纸男人肖像",
-              "type": "prompt",
-              "prompt": "{subject}, 超精细高清数字纸艺肖像，年轻男子，几何低多边形纸雕风格，分层折叠纸形状构成面部与头发，温暖棕色纸调用于肤色与头发，细微胡须与髭须，细圆框眼镜，柔和自信微笑，高度写实纸张纹理，锐利边缘与整洁折痕，工作室灯光，柔和阴影，居中构图，白色极简背景，现代艺术雕塑外观，超清晰对焦，4K分辨率，高对比度，专业艺术渲染",
-              "negative_prompt": "",
-              "description": "Nano banana pro",
-              "thumbnail": "https://img.opennana.com/prompts/assets/202601/1769004988278-wyzhpf8o-1.jpeg",
-              "classification": {
-                "method": "rules",
-                "stage": "title",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "标题规则证据：折纸 / 折纸",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ]
               }
             },
             {
@@ -210,31 +191,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：剪纸 / 剪纸",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "opennana_ultra-detailed-folded-paper-portrait",
-              "name": "超精细折叠纸艺：现代几何风格男子像",
-              "type": "prompt",
-              "prompt": "{subject}, 一位年轻男子的超精细高清数字剪纸肖像，几何低多边形剪纸雕塑风格，分层折叠的纸张形状构成脸部和头发，皮肤和头发采用温暖的 brown 纸张色调，细微的胡须和髭须，细框圆眼镜，柔和自信的微笑，高度逼真的纸张纹理，锐利的边缘和清晰的折痕，工作室灯光，柔和的阴影，居中构图，white minimal background，现代艺术雕塑外观，超清晰对焦，4K 分辨率，高对比度，专业艺术渲染",
-              "negative_prompt": "",
-              "description": "Nano banana pro",
-              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774257068042-1xox8kg8-1.jpg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：剪纸",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "crafts": [
-                    "剪纸",
-                    "折叠"
-                  ]
-                }
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ]
               }
             },
             {
@@ -252,7 +215,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：手工纸雕 / 纸雕",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ]
               }
             },
             {
@@ -270,7 +239,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：纸雕 / 纸雕；按明确交付物优先于媒介",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ]
               }
             },
             {
@@ -288,25 +263,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：折纸 / 折纸",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "opennana_minimal-geometric-origami-animals",
-              "name": "极简几何折纸动物群像",
-              "type": "prompt",
-              "prompt": "{subject}, 一个极简主义的低多边形折纸鸭雕塑，由折叠纸板制成，几何多面设计，温暖的棕色纸张纹理，锐利的棱角边缘，大而圆的亮泽眼睛，小小的橙色喙，工作室照明，下方有柔和的阴影，居中构图，深海军蓝渐变背景，超干净的 3D 渲染，高细节，电影级照明，景深，4K 分辨率。 ⸻ Prompt: 一组低多边形折纸动物在工作室肖像中排列——熊猫、狗、鹿、熊——由纹理纸板制成，几何多面形状，极简主义设计，中性大地色调（棕色、米色、黑色、奶油色），大圆形眼睛，对称正面构图，柔和的工作室照明，微妙的阴影，深蓝色渐变背景，超详细 3D 渲染，锐利对焦，干净美学，4K。 ⸻ Prompt: 居中直立的低多边形折纸熊猫，多面几何纸板雕塑，奶油色和棕色纸张纹理，极简主义棱角设计，小而圆的黑色眼睛，柔和漫射的工作室照明，逼真的纸张纹理细节，微妙的地面阴影，深海军蓝渐变背景，超干净 3D 渲染，电影级构图，4K 分辨率。 ⸻ Prompt: 可爱的低多边形折纸虎崽正面坐姿，几何多面纸板雕塑，温暖的橙色和米色纸张纹理，风格化的黑色条纹细节，大而圆的富有表现力的眼睛，对称居中构图，带柔和阴影的工作室照明，深蓝色渐变背景，超详细 3D 渲染，锐利对焦，高真实感纸张纹理，4K 电影级渲染。",
-              "negative_prompt": "",
-              "description": "Nano banana pro",
-              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775074617740-czsq31x2-1.jpg",
-              "classification": {
-                "method": "rules",
-                "stage": "title",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "标题规则证据：折纸 / 折纸",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ]
               }
             },
             {
@@ -324,7 +287,482 @@
                 "status": "suggested",
                 "reason": "标题规则证据：折纸 / 折纸",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-781",
+              "name": "充满奇思妙想的手工纸艺作品",
+              "type": "prompt",
+              "prompt": "{subject}, 一张木桌上摆放着一件充满奇思妙想的手工纸艺作品：一只手绘卡通【小狗】被剪裁下来，折叠成一个小小的立体站立造型。小狗【吐着舌头，摇着尾巴，看起来既开心又兴奋】。旁边是剪裁后留下的空白轮廓。下方写着“你创造了我？”。柔和的自然光线，浅景深，写实的摄影风格，营造出一种神奇而又充满趣味的氛围。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/781.jpeg",
+              "classification": {
+                "method": "semantic",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "语义近邻投票：crafts_paper 置信 0.77 / 领先 0.68",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.7652,
+                  "runner_up": "commercial_poster"
+                }
+              }
+            },
+            {
+              "id": "opennana_vibrant-quilling-samurai",
+              "name": "绚丽衍纸艺术呈现的立体日本武士",
+              "type": "prompt",
+              "prompt": "{subject}, { \"art_style_description\": { \"type\": \"3D 衍纸艺术 / 卷纸艺术。\", \"technique\": \"将彩色纸条卷曲、塑形并粘合在一起，形成精美的装饰图案。具有高度的触感纹理、体积深度和分层浮雕效果。\", \"visual_aesthetic\": \"手工制作、精细、鲜艳、边缘清晰、物理渲染模拟。\" }, \"subject_details\": { \"character\": \"武士。\", \"apparel\": { \"armor\": \"完整的 大铠 (O-Yoroi) 盔甲，由紧密卷曲的纸圈和波浪形纸条构成。肩甲 (sode) 和胸甲饰有复杂的环状图案。\", \"helmet\": \"华丽的 兜 (Kabuto) 头盔，带有金色纸质装饰和月牙形头饰。\", \"weapon\": \"一把长武士刀，扛在肩上，刀刃由一根光滑的银色/白色纸条制成。\" }, \"surrounding_elements\": \"烟雾和风的漩涡，由青色、橙色和奶油色的飘逸丝带状纸条表现。空中散落着小方块瓷砖（类似于骰子或麻将牌）。\" }, \"exact_pose_anatomical\": { \"stance\": \"动态动作姿势。武士扭动躯干，准备出击或处于动作进行中。\", \"arms\": \"双手握住武士刀刀柄，举至右耳附近（八相构）。\", \"flow\": \"构图遵循对角 S 形流动，丝带和盔甲板从右上到左下营造出动感。\" }, \"colors_and_materials\": { \"palette\": \"传统日式配色方案：深绯红色、青色/绿松石色、奶油色/米白色和金属金色点缀。\", \"material_properties\": \"哑光纸质纹理，纸张纹理可见。纸条之间有细微的阴影，表明物理深度。\" }, \"camera_technical_values\": { \"viewpoint\": \"俯视平铺（具有 3D 深度感知）。\", \"lens\": \"100mm 微距镜头（捕捉纸卷的微小细节，无失真）。\", \"aperture\": \"f/11（大景深，使纸艺的所有层都保持清晰）。\", \"shutter_speed\": \"不适用（静态主体）。\", \"lighting\": \"柔和影室灯光（全局照明）。上方均匀的光线在纸卷内部投射出柔和的环境阴影，增强 3D 效果。\", \"resolution\": \"8k，超高细节。\" } }",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774131163798-t23p0xz1-1.jpg",
+              "classification": {
+                "method": "semantic",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "语义近邻投票：crafts_paper 置信 0.82 / 领先 0.70",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.8205,
+                  "runner_up": "crafts_wood"
+                }
+              }
+            },
+            {
+              "id": "opennana_dreamy-3d-paper-fairy-tale",
+              "name": "打造梦幻可爱的立体纸艺童话世界",
+              "type": "prompt",
+              "prompt": "{subject}, 用英文版创建引用的提示。关于开发图的部分是不必要的。我希望能够将输入图像变成可爱的纸艺作品，就像这张图片一样。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774294127142-fyju7w0h-1.jpg",
+              "classification": {
+                "method": "semantic",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "语义近邻投票：crafts_paper 置信 0.92 / 领先 0.86",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.9195,
+                  "runner_up": "commercial_poster"
+                }
+              }
+            },
+            {
+              "id": "opennana_floating-crane-atelier",
+              "name": "悬浮纸鹤环绕的空灵纸艺写真",
+              "type": "prompt",
+              "prompt": "{subject}, { \"vibe_title_en\": \"纸上交响乐\", \"master_prompt\": \"一张超现实主义的电影中景照片，主角站在凌乱、阳光普照的纸艺师工作室中央。空气中弥漫着数百只精致的折纸鹤，呈柔和的青色、珊瑚色和金色箔片状，形成一个悬浮的漩涡，像一场凝固的爆炸般充满画面。背景细节丰富：架子上堆满了卷起的和纸，散落的草图，古董切割工具，以及悬挂的几何造型，所有这些都模糊成柔和的焦外虚化。灯光空灵而有方向性，模仿金色时段的阳光透过纸结构过滤进来，在主体脸上投下复杂的阴影。主体穿着一件结构化的半透明服装，与纸的褶皱相呼应。使用哈苏 H6D-100c 相机和 80mm f/1.9 镜头拍摄，以捕捉纸张纹理的微观细节和超现实的皮肤毛孔。色彩分级模仿柯达 Portra 400 胶片，具有柔和的高光、深青色阴影和梦幻般的怀旧氛围。没有数字光泽；纯粹的模拟触感。\", \"meta\": { \"intent\": \"时尚编辑与超现实主义的结合\", \"priorities\": \"照片级真实感纹理、景深、色彩和谐\", \"device_profile\": \"高端中画幅数码相机\" }, \"frame\": { \"aspect\": \"4:5\", \"composition\": \"主体居中，周围环绕着放射状的混乱\", \"layout\": \"前景和背景密集构图\", \"camera_angle\": \"平视视角\", \"tilt_roll_degrees\": \"0\" }, \"subject\": { \"gender\": \"女性\", \"identity\": \"{argument name=\\\"protagonist name\\\" default=\\\"安雅·泰勒-乔伊\\\"}\", \"demographics\": \"不朽、空灵\", \"face\": \"中性表情，直视镜头，眼睑上泛着柔和的金色光泽\", \"hair\": \"光滑，向后梳以突出面部结构\", \"body\": \"静止姿势，颈部修长\", \"expression\": \"混乱中的平静，锐利的目光\", \"pose\": \"静态，双手轻柔地与漂浮的元素互动\" }, \"wardrobe_accessories\": { \"garments\": [ { \"item\": \"结构化衬衫\", \"material\": \"半透明欧根纱或褶皱纸质面料\", \"color\": \"柔和米色 / 淡金色\", \"fit\": \"宽松、有建筑感\" } ], \"accessories\": [ { \"item\": \"折纸鹤头饰（超现实元素）\", \"color\": \"青色、珊瑚色、金色\", \"material\": \"纹理和纸\", \"brand_style\": \"前卫工匠风格\" } ] }, \"environment\": { \"setting\": \"工匠纸艺工作室 / 画室\", \"surfaces\": \"木制书桌、纸堆、羊皮纸卷\", \"depth\": \"前景和背景物体密度高\", \"atmosphere\": \"尘埃中的阳光，创造性的混乱，时间凝固\", \"lens_interaction\": \"背光纸张产生的柔和光晕，浅景深\" }, \"lighting\": { \"key\": \"柔和的方向性阳光（伦勃朗式）\", \"fill\": \"环境反弹\" } }",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775044841444-fwiuazrw-1.jpg",
+              "classification": {
+                "method": "semantic_refine",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "大类内二次判别：crafts_paper 置信 0.90 / 领先 0.79",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.8972,
+                  "runner_up": "crafts_wood"
+                },
+                "previous_location": "crafts/crafts_pending"
+              }
+            },
+            {
+              "id": "opennana_realistic-memory-in-paper-folds",
+              "name": "旧纸折痕间浮现的超写实立体记忆",
+              "type": "prompt",
+              "prompt": "{subject}, Nano Banana Pro || 8K 超现实宣传片 设计一张超现实的特写图像，描绘一张折叠的旧纸。在纸张的折痕和表面中，描绘一个 [场景或记忆]，它像雕塑般的折纸一样，自然地从折叠处浮现。 环境和人物（如果存在）看起来像是直接压印或印刷在纸上，利用褶皱、纹理和墨水质感来营造这种幻觉。加入微妙的阴影、卷曲的边缘、撕裂的边角和墨水褪色，以增强真实感。 将纸张放置在中性桌面上，一侧有柔和的定向光，投射出轻微的阴影，增强立体深度。 超逼真、情感叙事、手工视觉幻象、8K 超细节、图像尺寸 4 5。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774210130441-yzy9v69p-1.jpg",
+              "classification": {
+                "method": "semantic_refine",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "大类内二次判别：crafts_paper 置信 1.00 / 领先 1.00",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 1.0,
+                  "runner_up": null
+                },
+                "previous_location": "crafts/crafts_pending"
+              }
+            },
+            {
+              "id": "opennana_soft-pastel-origami-kitchen",
+              "name": "柔和粉彩折纸风极简厨房剖面",
+              "type": "prompt",
+              "prompt": "{subject}, 一个大型的、折纸风格的彩色厨房剖面图，占据了画面的大部分。所有元素都由折叠的纸片构成：橱柜、台面、中岛、防溅板、地板、窗户和简化为几何形状的电器。柔和的马卡龙色调（暖白色橱柜、淡鼠尾草绿或柔和的蓝色点缀、浅木色调）。清晰的折痕、分层的纸张深度、可见的纸张纹理。自然日光、微妙的阴影、现代简约的厨房美学。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775076490442-w3gurf5w-1.jpg",
+              "classification": {
+                "method": "semantic_refine",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "大类内二次判别：crafts_paper 置信 0.88 / 领先 0.77",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.8845,
+                  "runner_up": "crafts_wood"
+                },
+                "previous_location": "crafts/crafts_pending"
+              }
+            },
+            {
+              "id": "opennana_ultra-detailed-folded-paper-portrait",
+              "name": "超精细折叠纸艺：现代几何风格男子像",
+              "type": "prompt",
+              "prompt": "{subject}, 一位年轻男子的超精细高清数字剪纸肖像，几何低多边形剪纸雕塑风格，分层折叠的纸张形状构成脸部和头发，皮肤和头发采用温暖的 brown 纸张色调，细微的胡须和髭须，细框圆眼镜，柔和自信的微笑，高度逼真的纸张纹理，锐利的边缘和清晰的折痕，工作室灯光，柔和的阴影，居中构图，white minimal background，现代艺术雕塑外观，超清晰对焦，4K 分辨率，高对比度，专业艺术渲染",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774257068042-1xox8kg8-1.jpg",
+              "classification": {
+                "method": "semantic_refine",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "大类内二次判别：crafts_paper 置信 0.89 / 领先 0.77",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.8853,
+                  "runner_up": "crafts_mixed"
+                },
+                "previous_location": "crafts/crafts_pending"
+              }
+            },
+            {
+              "id": "opennana_fingertip-art-clay-scissors-closeup",
+              "name": "指尖艺术呈现的微缩粘土人偶剪刀手特写",
+              "type": "prompt",
+              "prompt": "{subject}, 一名男子手持剪刀的特写镜头，黏土动画，定格动画，微缩立体模型，逼真的黏土纹理，可见指纹，暖光，高细节，8k",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774220936976-w5b33f13-1.jpg",
+              "classification": {
+                "method": "semantic_refine",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "大类内二次判别：crafts_paper 置信 0.46 / 领先 0.14",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.4553,
+                  "runner_up": "crafts_fiber"
+                },
+                "previous_location": "crafts/crafts_pending"
+              }
+            },
+            {
+              "id": "opennana_pop-up-adventure-quest",
+              "name": "跃出纸面的立体冒险寻宝之旅",
+              "type": "prompt",
+              "prompt": "{subject}, 一张绘制在陈旧羊皮纸上的手绘藏宝图，冒险以三维任务的形式展开。STARTING_POINT 在地图边缘升起，伴随着 DEPARTURE_SCENE，虚线路径变成了一条真实的轨迹，穿越 TERRAIN_1，伴随着 DANGER_1，经过 {LANDMARK_1}，那里有 {OBSTACLE_1} 等待着。{TERRAIN_2} 呈现出 {WILDLIFE_1} 和 {ENVIRONMENTAL_HAZARD}。标记地点“X”在 {FINAL_LOCATION} 下方闪耀，宝藏若隐若现，由 {GUARDIAN_ELEMENT} 守护着。微型探险队在路线上的各个点凝固在旅途中。地图的撕裂边缘变成了悬崖。咖啡渍变成了湖泊。烧痕变成了过去战役中焦灼的土地。烛光闪烁，冒险小说般的灯光，8K，地图本身就是它所承诺的故事。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775082942656-7k4redv9-1.jpg",
+              "classification": {
+                "method": "semantic_refine",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "大类内二次判别：crafts_paper 置信 1.00 / 领先 1.00",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 1.0,
+                  "runner_up": null
+                },
+                "previous_location": "crafts/crafts_pending"
+              }
+            },
+            {
+              "id": "opennana_layered-newspaper-einstein-sculpture",
+              "name": "层叠报纸构建的爱因斯坦深邃侧颜雕塑",
+              "type": "prompt",
+              "prompt": "{subject}, { \"concept_type\": \"超现实物体雕塑摄影\", \"subject\": { \"object_identity\": \"{argument name=\\\"subject identity\\\" default=\\\"Einstein\\\"} 的头部\", \"orientation\": \"侧面轮廓，朝右\", \"expression\": \"警觉而专注\" }, \"material_construction\": { \"primary_material\": \"纸\", \"material_source\": \"折叠的报纸页面\", \"folding_technique\": \"分层折纸式折叠\", \"layer_density\": \"高密度分层\" }, \"surface_details\": { \"text_visibility\": \"部分可读的报纸文字\", \"color_accents\": [\"柔和的黄色\", \"柔和的灰色\"], \"edge_quality\": \"锐利、清晰的折痕\" }, \"composition\": { \"framing\": \"紧凑的物体肖像\", \"perspective\": \"视平线\", \"background\": \"深灰色工作室墙壁\", \"negative_space\": \"极简，画廊风格\" }, \"lighting\": { \"type\": \"柔和定向工作室灯光\", \"direction\": \"左侧照明\", \"shadow_behavior\": \"墙壁上投射出微妙的自然阴影\" }, \"mood\": \"知性、精致、沉思\", \"style\": \"美术概念雕塑摄影\", \"negative_prompt\": \"卡通、奇幻生物、凌乱的拼贴画、过度曝光的白色、CGI 纹理、水印\" }",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774202500021-hz4abngb-1.jpg",
+              "classification": {
+                "method": "semantic_refine",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "大类内二次判别：crafts_paper 置信 1.00 / 领先 1.00",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 1.0,
+                  "runner_up": null
+                },
+                "previous_location": "crafts/crafts_pending"
+              }
+            },
+            {
+              "id": "opennana_paper-golden-city-pop-up",
+              "name": "纸艺黄金城景立体书",
+              "type": "prompt",
+              "prompt": "{subject}, [\n  插入地点\n] <instructions> 系统指令：扮演一位顶级纸艺工程师与建筑师。生成一张超写实、微距摄影级别的 3D 立体弹起地图，从一本旅行书中升起。1. 法医级分析：分析地点：解析输入地的“天际线 DNA”。标志性尖塔：找出最高、最易识别的地标（如东方明珠塔、埃菲尔铁塔、巴拉督尔）。密度集群：识别周边建筑风格（如现代摩天楼、奥斯曼式公寓、泥屋）。水体/地形：识别地理特征（如黄浦江、塞纳河、火山口）。2. 容器：底座：一本摊开在木质桌面上的高品质咖啡桌书或厚重地图册。字体：地点名称在前景摊开的书页上以契合当地文化的字体清晰印刷（如巴黎用优雅衬线体；东京用赛博字体）。3. 立体构造：关键：建筑必须看似由书页纸张折叠而成，却拥有超写实纹理。挤出：城市垂直从书页中升起。材质：亚光卡纸（提供结构）与打印在其上的逼真纹理（窗户、砖块、钢材）混合。分层：前景：低层建筑、码头或街道；中景：密集住宅/商业街区；背景：巨型“地标”凌驾一切。水体：河流或海洋并非真水，而是层叠的半透明蓝色纸张或树脂涂在页面表面，上有小小纸船漂浮。4. 视觉语法与尺度：微细节：1:500 比例细节，树木用植绒海绵，汽车用微型纸珠。景深：使用移轴对焦，前景文字锐利，远景摩天楼略虚化。5. 光线与氛围：“黄金时刻”：温暖、定向的侧光打在纸城上，在摊开的书页投下长而戏剧的阴影。调色盘：契合城市气质。上海：冷蓝与霓虹粉；罗马：暖赭与赤陶；伦敦：灰板岩与砖红。输出：单张图像，1:1 画幅，微距摄影，“纸艺现实”美学。 </instruction>",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202601/1768402628033-jphv8c5q-1.jpeg",
+              "classification": {
+                "method": "semantic_refine",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "大类内二次判别：crafts_paper 置信 1.00 / 领先 1.00",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 1.0,
+                  "runner_up": null
+                },
+                "previous_location": "crafts/crafts_pending"
+              }
+            },
+            {
+              "id": "opennana_surreal-porcelain-couture",
+              "name": "瓷白纸艺绽放的超现实高定",
+              "type": "prompt",
+              "prompt": "{subject}, { \"vibe_title_en\": \"瓷之共生\", \"master_prompt\": \"一张超现实、电影般的特写肖像，主角置身于一个极简主义、阳光普照的石膏雕塑工作室。主体佩戴着令人惊叹的超现实前卫衣领和头饰，由数千层薄而半透明的白色羊皮纸组成，以参数化、珊瑚状的碎形图案排列。这些结构似乎从肩膀上“有机地绽放”，模糊了时尚与生物之间的界限。灯光是柔和的、定向的侧光（伦勃朗风格），通过厚重的亚麻窗帘漫射，投射出柔和而精致的阴影，展现出服装纸张般的纹理。使用哈苏 H6D-100c 相机和 80mm f/1.9 镜头拍摄，对眼睛和羊皮纸边缘与真实皮肤毛孔和汗毛的即时纹理进行锐利对焦，而背景则呈现出奶油色、板岩灰的焦外虚化效果。整体美学是高调、单色且触感十足的，唤起干黏土和洁净纸张的气味。\", \"meta\": { \"intent\": \"社论式高级时装\", \"priorities\": \"纹理保真度，超现实主义\", \"device_profile\": \"电影显示器\" }, \"frame\": { \"aspect\": \"4:5\", \"composition\": \"三分法 / 黄金螺旋\", \"layout\": \"肖像特写\", \"camera_angle\": \"视平线\", \"tilt_roll_degrees\": \"0\" }, \"subject\": { \"gender\": \"女性\", \"identity\": \"主角\", \"demographics\": \"国际高级时装模特\", \"face\": \"中性、沉着、空灵的凝视\", \"hair\": \"向后梳理、光滑、不显眼\", \"body\": \"可见肩膀和颈部\", \"expression\": \"宁静、疏远、梦幻\", \"pose\": \"略微侧身，下巴微抬\" }, \"wardrobe_accessories\": { \"garments\": [ { \"item\": \"参数化碎形衣领\", \"material\": \"半透明羊皮纸/陶瓷\", \"color\": \"骨白色\", \"fit\": \"结构化/悬浮\" } ], \"accessories\": [ { \"item\": \"配套头饰\", \"color\": \"骨白色\", \"material\": \"羊皮纸/陶瓷\", \"brand_style\": \"Iris van Herpen 美学\" } ] }, \"environment\": { \"setting\": \"极简主义石膏工作室\", \"surfaces\": \"哑光黏土，空气中的灰尘\", \"depth\": \"浅景深\", \"atmosphere\": \"安静、无菌、艺术性\", \"lens_interaction\": \"锐利焦距衰减\" }, \"lighting\": { \"key\": \"漫射窗光\", \"fill\": \"白色反光板\", \"rim\": \"无\", \"shadows\": \"柔和，仅接触阴影\", \"color_temperature\": \"5600K (日光平衡)\", \"sensor_flare\": \"无\" }, \"camera\": { \"lens_type\": \"定焦人像镜头\", \"focal_length\": \"80mm\", \"aperture\": \"f/1.9\", \"focus\": \"对眼睛/纹理进行精确对焦\", \"sensor_format\": \"中画幅数码\", \"perspective_distortion\": \"最小\" }, \"post_processing\": { \"color\": \"去饱和\" } }",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775068970206-3nutyegi-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_geometric-papercraft-man-portrait",
+              "name": "几何折纸男人肖像",
+              "type": "prompt",
+              "prompt": "{subject}, 超精细高清数字纸艺肖像，年轻男子，几何低多边形纸雕风格，分层折叠纸形状构成面部与头发，温暖棕色纸调用于肤色与头发，细微胡须与髭须，细圆框眼镜，柔和自信微笑，高度写实纸张纹理，锐利边缘与整洁折痕，工作室灯光，柔和阴影，居中构图，白色极简背景，现代艺术雕塑外观，超清晰对焦，4K分辨率，高对比度，专业艺术渲染",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202601/1769004988278-wyzhpf8o-1.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_minimal-geometric-origami-animals",
+              "name": "极简几何折纸动物群像",
+              "type": "prompt",
+              "prompt": "{subject}, 一个极简主义的低多边形折纸鸭雕塑，由折叠纸板制成，几何多面设计，温暖的棕色纸张纹理，锐利的棱角边缘，大而圆的亮泽眼睛，小小的橙色喙，工作室照明，下方有柔和的阴影，居中构图，深海军蓝渐变背景，超干净的 3D 渲染，高细节，电影级照明，景深，4K 分辨率。 ⸻ Prompt: 一组低多边形折纸动物在工作室肖像中排列——熊猫、狗、鹿、熊——由纹理纸板制成，几何多面形状，极简主义设计，中性大地色调（棕色、米色、黑色、奶油色），大圆形眼睛，对称正面构图，柔和的工作室照明，微妙的阴影，深蓝色渐变背景，超详细 3D 渲染，锐利对焦，干净美学，4K。 ⸻ Prompt: 居中直立的低多边形折纸熊猫，多面几何纸板雕塑，奶油色和棕色纸张纹理，极简主义棱角设计，小而圆的黑色眼睛，柔和漫射的工作室照明，逼真的纸张纹理细节，微妙的地面阴影，深海军蓝渐变背景，超干净 3D 渲染，电影级构图，4K 分辨率。 ⸻ Prompt: 可爱的低多边形折纸虎崽正面坐姿，几何多面纸板雕塑，温暖的橙色和米色纸张纹理，风格化的黑色条纹细节，大而圆的富有表现力的眼睛，对称居中构图，带柔和阴影的工作室照明，深蓝色渐变背景，超详细 3D 渲染，锐利对焦，高真实感纸张纹理，4K 电影级渲染。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775074617740-czsq31x2-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_layered-origami-topography-tilt-shift",
+              "name": "层叠错落的折纸地形与移轴微距摄影",
+              "type": "prompt",
+              "prompt": "{subject}, 锚点：[Uploaded Image]::3 形态：复杂的纸艺折叠，锋利的折痕，分层地形图风格，多边形网格模拟::3 材质物理：纹理纸板，和纸纹理，纤维边缘，半透明分层::2 光照：硬朗的剪纸阴影，温暖的环境光遮蔽，自上而下的建筑照明::1.5 渲染堆栈：移轴摄影，微距镜头，定格动画美学，触感纹理::1 负面提示：[液体，布料，金属，逼真皮肤，渲染错误，模糊]:: -0.5",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774112278091-i8wz1026-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_hyper-realistic-origami-portrait",
+              "name": "超写实微观折纸人像艺术杰作",
+              "type": "prompt",
+              "prompt": "{subject}, 创作一个超精细的折纸风格人物雕塑，完全由高质量纸张折叠而成，边缘清晰、精确，纸张纤维纹理逼真。 折纸的褶皱错综复杂，几何感十足，精心构造以捕捉人物可识别的面部特征、比例和表情，同时忠实于真实的折纸逻辑。 使用与参考照片完全相同的调色板——无黑色调，无颜色替换。 雕塑放置在干净的工作室表面上，柔和自然的阴影使雕塑更具立体感，并增强了深度。 极简主义收藏艺术美学，高端设计品感觉。 超逼真的渲染，锐利对焦，高材质真实感，纸张褶皱处有微妙的高光，无插画或卡通风格。 方形构图，1080 × 1080 分辨率。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774114412729-sevst8cy-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ]
               }
             }
           ]
@@ -348,73 +786,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：刺绣 / 刺绣",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "opennana_mediterranean-sun-lazy-bikini",
-              "name": "地中海阳光下的慵懒红比基尼时光",
-              "type": "prompt",
-              "prompt": "{subject}, { \"scene\": \"阳光明媚的户外花园场景，地中海风格，一位女士在躺椅上放松，环境宁静，阳光普照。\", \"subject\": { \"character\": \"一位年轻女士，肤色晒成古铜色，身材健美。\", \"face\": { \"structure\": \"椭圆形脸，下颌线分明，五官柔和均衡。\", \"skin\": \"自然晒黑的皮肤，在阳光直射下可见逼真的纹理。\", \"eyes\": { \"shape\": \"杏仁状\", \"color\": \"浅棕色\", \"expression\": \"专注、自信的目光，直视镜头，表情沉着冷静。\" }, \"mouth\": { \"lips\": \"丰满的嘴唇，形状自然，轻轻闭合，表情中性。\" }, \"makeup\": \"极简自然的妆容，暖色调眼影，眉毛修饰柔和，哑光裸色口红。\" }, \"hair\": { \"color\": \"浅棕色，带有阳光漂白的金色挑染。\", \"length\": \"长发及背中部。\", \"texture\": \"自然波浪，可见散发和户外湿气造成的轻微毛躁。\", \"style\": \"松散、未造型，自然垂落。\", \"visible\": \"落在左肩上，并垂至背部。\" }, \"accessories\": { \"hat\": { \"type\": \"棒球帽\", \"color\": \"米色帽冠，海军蓝帽檐。\", \"detail\": \"正面有红色刺绣的 &#x27;{argument name=\\\"cap logo\\\" default=\\\"NY\\\"}&#x27; 标志。\", \"fit\": \"标准版型，低低地戴在额头上。\" } } }, \"pose\": { \"overall\": \"在躺椅上俯卧，身体背对镜头，头部转回。\", \"position\": { \"base\": \"俯卧在木质甲板躺椅上。\", \"orientation\": \"身体侧面视图，头部四分之三转向镜头。\" }, \"torso\": { \"direction\": \"朝下并背离镜头。\", \"position\": \"手臂略微支撑，背部形成自然的弓形。\" }, \"hips\": { \"position\": \"抬高并微妙地朝向镜头。\", \"emphasis\": \"姿势和身体线条自然地强调了姿态。\" }, \"legs\": { \"position\": \"沿躺椅长度伸直。\", \"visible\": \"可见大腿上部和部分小腿，然后超出画面。\" }, \"arms\": { \"position\": \"右臂折叠在躯干下方；左臂向前伸展，沿着椅子框架放置。\" }, \"head\": { \"turn\": \"清晰地转向左肩。\", \"expression\": \"平静、稳定的表情，眼神直接接触。\" } }, \"outfit\": { \"swimwear\": { \"type\": \"两件式系带比基尼\", \"color\": \"鲜艳的 {argument name=\\\"bikini color\\\" default=\\\"red\\\"}\", \"top\": { \"style\": \"三角比基尼上衣\", \"ties\": \"细肩带系在颈部和背部。\", \"coverage\": \"雅致、时尚的遮盖度。\" } } } }",
-              "negative_prompt": "",
-              "description": "Nano banana pro",
-              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1773182316375-sirakufd-1.jpg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：刺绣",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "crafts": [
-                    "刺绣",
-                    "折叠"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "opennana_sweet-shy-girl-winter-market",
-              "name": "甜美娇羞少女的冬日市集时光",
-              "type": "prompt",
-              "prompt": "{subject}, 👉预设角色版本 - 待填充参考图1人物样貌 融合 Steven Meisel / Paolo Roversi / Harley Weir 的时尚美学 + Julius Shulman / Hélène Binet 的空间叙事 缪斯角色 | 预设参考图1人物样貌98%精确还原 面部特征（待填充 - 100%还原未来提供的参考图1） 基础信息： 年轻东亚女性，24-27岁 [将100%还原未来参考图1的所有面部特征] 脸型与轮廓（预设占位符）： 脸型：[精确还原参考图1：鹅蛋/圆脸/瓜子/方圆等具体轮廓] 下颌线：[柔和/分明/圆润等，100%匹配参考图1] 面部比例：[三庭五眼具体比例，完全还原参考图1] 颧骨：[高度、位置、骨骼结构，精确还原] 下巴：[尖细/圆润/方正等，100%匹配] 眼部特征（预设占位符）： 眼型：[单眼皮/内双/双眼皮，杏仁形/圆形/细长等，100%还原参考图1具体眼型] 眼睛大小：[大小比例，完全匹配参考图1] 眼神特质：[清澈/温柔/深邃/明亮等，还原参考图1独特眼神] 眼线走向：[上扬/平直/下垂，精确还原] 睫毛：[浓密/纤长/自然等特征] 眉眼距离：[宽/窄/适中，精确比例] 双眼皮褶皱（如有）：[内双/平行/开扇等具体形态] 眉形（预设占位符）： 眉型：[自然弧形/一字/上挑/细长/粗浓等，100%还原参考图1] 眉色：[深棕/黑色/浅棕等具体色号] 眉毛浓度：[浓密/适中/纤细] 眉峰位置：[眉峰高低、位置] 鼻型（预设占位符）： 鼻梁：[挺直/秀气/高挺/低平等，100%还原参考图1] 鼻梁高度：[高/中/低] 鼻尖形状：[尖细/圆润/小巧等] 鼻翼：[宽度、形状，精确还原] 鼻型整体：[具体描述参考图1的鼻子特征] 唇部（预设占位符）： 唇形：[饱满/薄唇/M唇/珠唇等，100%还原参考图1] 上下唇比例：[上薄下厚/均衡等] 唇峰：[明显/柔和] 嘴角：[上扬/平直/下垂] 唇部大小：[大小比例，精确还原] 自然唇色：[粉色/玫瑰色/浅红等，参考图1本身的唇色] 肤色肤质（预设占位符）： 肤色色号：[白皙/健康/冷调/暖调/中性，具体色号如#XXX，100%还原参考图1] 肤质：[细腻/光滑/毛孔大小等] undertone：[冷调/暖调/中性] 光泽度：[哑光/自然光泽/dewy等] 整体气质（预设占位符）： [100%还原参考图1的独特气质：知性/甜美/清冷/温柔/优雅/活泼/神秘等] [参考图1的特有气场和个人风格] 发型发色（预设占位符 - 98%还原未来参考图1） 发色（预设占位符）： 主色调：[具体色号如#XXX，深棕/黑色/红棕/亚麻等，100%还原参考图1] 色调倾向：[冷调/暖调/中性] 光泽度：[哑光/自然光泽/高光感] 高光/挑染（如有）：[具体颜色和位置] 发型结构（预设占位符）： 长度：[短发耳下/中长及肩/长发过胸/超长等精确长度，100%还原参考图1] 发型类型：[直发/卷发/波浪/编发/盘发等] 卷度（如有）：[大波浪/S型卷/自然卷/蓬松卷等具体卷度] 发量：[丰盈/适中/轻薄] 质感：[蓬松/柔顺/飘逸/层次感等] 刘海样式：[空气刘海/八字刘海/无刘海/侧分/齐刘海等] 分缝位置：[中分/侧分/偏分，具体位置] 造型细节：[垂肩/披散/束起/编发/盘发等] 发饰（如有）：[发夹/发带/头饰等具体样式] 发丝层次：[层次感/一刀切等] 流动感：[自然飘逸/整齐/凌乱美等] 表情神态（完全按照参考图2 - 娇羞微笑） 核心表情（100%执行）： 略带娇羞的甜美灿烂微笑 眼睛微弯成月牙形crescent-shaped eyes 眼神温柔含笑带点腼腆害羞感 唇角自然上扬露出浅浅笑意 表情柔和舒展放松不做作 真挚genuine灿烂radiant 眼神方向： 看向镜头时略带娇羞柔情warm shy engagement 或偶尔看向怀中的山楂罐 传递\"市井场景中享受生活乐趣、松弛愉悦、甜美娇羞\" 情绪状态： 生活愉悦感 市井烟火松弛感 甜美sweet 娇羞shy-sweet 亲切approachable 真实authentic 微笑细节： [参考图1角色]特有的笑容方式将与娇羞甜美微笑**完美融合 保留**[参考图1角色]**笑时的面部肌肉动态 但情绪tone是参考图2的shy-sweet warmth 服装造型 | 100%完全还原参考图2 服装层次（严格执行参考图2） 外层 - 短款蓬松羽绒服（100%还原）： 颜色：暖米棕色 #D2B48C 饱和度：55-60% 款式：short cropped puffer jacket 长度：waist-length，腰部长度，在自然腰线处结束 质感：quilted puffy down-filled material，quilted绗缝蓬松羽绒填充 光泽：slight matte finish with subtle sheen，轻微哑光带微妙光泽 闭合：front zipper partially open，前拉链部分拉开 领口：stand collar or hood collar visible，立领或连帽领可见 袖子：long sleeves with gathered cuffs，长袖配聚拢袖口 肩部设计：puffy quilted shoulder sections，蓬松绗缝肩部 品牌标识：visible &#x27;ZM&#x27; embroidered lettering on right shoulder area，右肩可见\"ZM\"刺绣字母 版型：relaxed, slightly oversized casual fit，宽松略oversized休闲版型 面料外观：smooth nylon or polyester shell with down filling，光滑尼龙或涤纶外壳配羽绒填充 中层 - 针织背心/马甲（100%还原）： 颜色：深酒红色/勃艮第红 #8B1A1A 到 wine red #722F37 饱和度：70% 款式：V-neck knitted vest/sleeveless sweater，V领针织背心/无袖毛衣 领口：deep V-neck revealing white shirt collar beneath，深V领露出下方白色衬衫领 质感：ribbed knit pattern visible，可见罗纹针织纹理 材质：wool or wool-blend knit，羊毛或羊毛混纺针织 版型：fitted to body, worn over white shirt，合身版型穿在白衬衫外 长度：hip-length, extending below jacket when visible，臀部长度，在外套下方可见时延伸 视觉作用：provides strong color contrast against tan jacket",
-              "negative_prompt": "",
-              "description": "Nano banana pro",
-              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774987875299-xier3q6k-1.jpg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：刺绣",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "crafts": [
-                    "刺绣",
-                    "knit"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "opennana_hand-embroidery-textured-portrait",
-              "name": "手工刺绣质感肖像",
-              "type": "prompt",
-              "prompt": "{subject}, 把我上传的照片变成用彩色线绣成的刺绣艺术，可见的针脚，织物纹理。使用分层的线方向来定义面部轮廓和深度。用密集的缎面针脚表现高光，用精细的回针表现阴影。在将细节转化为针线工艺的同时，保持现实主义的面部比例。将肖像置于紧密编织的画布织物上，边缘略带磨损。柔和的工作室灯光以增强线的光泽、质感和手工制作的真实感",
-              "negative_prompt": "",
-              "description": "Nano banana pro",
-              "thumbnail": "https://img.opennana.com/prompts/assets/202601/1768919165682-pa6e4mor-1.jpeg",
-              "classification": {
-                "method": "rules",
-                "stage": "title",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "标题规则证据：刺绣 / 刺绣",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_textile",
+                    "name": "纺织刺绣"
+                  }
+                ]
               }
             },
             {
@@ -432,7 +810,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：针织 / 针织",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_textile",
+                    "name": "纺织刺绣"
+                  }
+                ]
               }
             },
             {
@@ -450,32 +834,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：针织 / 针织",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "opennana_prompt-1088",
-              "name": "线织肖像",
-              "type": "prompt",
-              "prompt": "{subject}, 请使用上传的图片作为严格的角色参考。\n完全按照图中所示保留角色的面部结构、表情、肤色、发型、服装、比例和姿势。\n\n除了刺绣翻译之外，不得以任何方式修改、美化、风格化或重新诠释人脸。\n将角色渲染成超精细的手工刺绣艺术品，使用逼真的缎纹针脚、长短针脚和密集的填充针脚来创造自然的深度、织物纹理和线迹光泽。\n\n可见的绣线，精准的针脚方向贴合面部轮廓，通过线层叠成的平滑渐变，高密度的针脚，博物馆级别的纺织工艺。\n\n中性布料背景，柔和的影棚灯光，超清晰的微距细节，逼真的刺绣效果，非插画或卡通风格。",
-              "negative_prompt": "",
-              "description": "Nano banana pro",
-              "thumbnail": "https://img.opennana.com/prompts/images/1088.jpeg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：刺绣",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "crafts": [
-                    "刺绣",
-                    "手工",
-                    "针脚"
-                  ]
-                }
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_textile",
+                    "name": "纺织刺绣"
+                  }
+                ]
               }
             },
             {
@@ -493,31 +858,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：刺绣 / 刺绣",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "opennana_anya-taylor-joy-red-bow-gingham-barefoot-boudoir",
-              "name": "安雅泰勒乔伊红蝴蝶结格子裙赤脚私房照",
-              "type": "prompt",
-              "prompt": "{subject}, {\n  “质量”：“超逼真，\n  原始风格，\n  8K”，\n  “相机”：“iPhone 15 Pro Max”，\n  “照明”：“柔和自然的室内日光，\n  卧室里微妙的阴影”，\n  “风格”：“亲密、坦诚的肖像，\n  注重细节”，\n  “aspect_ratio”: “3:4”\n},\n“场景”： {\n  “地点”：“一个简约明亮的室内卧室场景。一张铺着白色褶皱床单和枕头的床，\n  靠着一面纯白的墙壁。” “氛围”：“坦率、时尚、轻松。”\n},\n“主题”： {\n  “性别”：“女性”，\n  “姓名”：“安雅·泰勒-乔伊”，\n  “身体”： {\n    “类型”：“身材自然纤细匀称，\n    呈坐姿，\n    双腿交叉，\n    一条腿向前伸直，\n    另一条腿蜷缩在床单上。她身体所有裸露的皮肤，\n    包括腿部、脚部和脚踝，\n    都光滑、洁净、无瑕，\n    没有任何纹身或痕迹。”\n  },\n  “脸”： {\n    “五官”：“她拥有引人注目的五官，\n    目光直视镜头，\n    精致的眼妆搭配上扬的眼线和柔和的红色唇膏。她铂金色的头发烫成柔和的波浪卷，\n    并戴着一个醒目的大号亮红色蝴蝶结发箍。” “表情”：“自信、直视的目光。”\n  },\n  “全套服装”： {\n    “描述”：“一套蓝白格纹两件套。吊带露脐上衣，\n    胸前饰有红色刺绣（心形和樱桃图案），\n    并有白色扇形蕾丝花边。配套的百褶迷你裙，\n    裙摆同样饰有扇形蕾丝花边，\n    经典迷你裙长度。” “合身”：剪裁合身、时尚别致。 “配饰”：“蓝色立方体状几何耳钉。前景角落的床上可以看到一个带有金色五金配件的小白手拿包。”\n  },\n  “姿势”：“坐在白色床单上，\n  双腿交叉，\n  一只脚放在床单上，\n  另一只脚蜷缩在床单里。左臂向后伸展，\n  右手扶着床单，\n  目光直视镜头。” “鞋履”：“必须完全赤脚。不穿拖鞋或凉鞋。” “细节”：“她光着的脚趾清晰可见地放在白色的亚麻布上，\n  所有的脚趾甲都涂着鲜艳、光亮、抛光过的红色指甲油。”\n},\n构图：“中景全身照，\n从头到脚捕捉到她，\n采用高角度视角。所有细节都清晰聚焦：安雅·泰勒-乔伊的脸庞、红色蝴蝶结、经典迷你裙上精致的格子图案，\n以及涂着亮红色指甲油的赤脚。白色的床铺和手包清晰可见，\n但略微虚化。”\n}",
-              "negative_prompt": "",
-              "description": "Nano Banana 2",
-              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1773335568680-fpsx4dxo-1.jpeg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：刺绣",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "crafts": [
-                    "刺绣",
-                    "剪裁"
-                  ]
-                }
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_textile",
+                    "name": "纺织刺绣"
+                  }
+                ]
               }
             },
             {
@@ -535,49 +882,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：刺绣 / 刺绣",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "opennana_red-knit-cap-realistic-portrait",
-              "name": "窗边戴鲜艳红针织帽的运动型男子写实肖像",
-              "type": "prompt",
-              "prompt": "{subject}, 一张高分辨率的肖像照片，根据参考图像拍摄，照片中的男子面部特征未受干扰，比例保持不变，他坐在一扇大型落地窗旁的柔软长凳上。他身材魁梧，体格健壮。主体占据了水平面的中间三分之二和垂直面的下方四分之三。他的头发从一顶亮红色的针织帽下露出，帽子高约 20 厘米，带有罗纹纹理，正面有一个白色小标签。",
-              "negative_prompt": "",
-              "description": "Nano banana pro",
-              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774233630131-lxblhaso-1.jpg",
-              "classification": {
-                "method": "rules",
-                "stage": "title",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "标题规则证据：针织 / 针织",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "opennana_silver-hair-satin-haute-couture",
-              "name": "银发尤物绝美缎面高定",
-              "type": "prompt",
-              "prompt": "{subject}, [ { \"file_name\": \"image-10.jpg\", \"personality\": \"Billie Eilish\", \"event\": \"晚会/颁奖典礼（红毯）\", \"outfit_details\": { \"style\": \"露肩甜心领口\", \"color\": \"奶油白色缎面底色\", \"design\": \"底部有精美的红色叶状刺绣\", \"fit\": \"紧身胸衣\" }, \"hair_style\": \"银灰色头发在脑后编成辫子，脸颊两侧留有两缕长发\", \"accessories\": { \"neck\": \"三层项链：一条写有“LONDON”字样的黑色颈链、一条细金链和一条粗金链\", \"ears\": \"大而薄的金色圈形耳环\" }, \"makeup\": \"自然妆容，淡粉色口红和浓密的眉毛\" }, { \"file_name\": \"image-8.jpg\", \"personality\": \"Billie Eilish\", \"event\": \"iHeartRadio 音乐奖\", \"outfit_details\": { \"style\": \"无肩带束身胸衣式礼服\", \"color\": \"深绯红色\", \"material\": \"高光泽丝绸/缎面面料\", \"fit\": \"紧身剪裁，展现腰部曲线\" }, \"hair_style\": \"凌乱的辫子（松散的辫子）垂在一侧肩膀上，呈银紫色调\", \"accessories\": { \"neck\": \"标志性的“LONDON”字样颈链和垂至胸部的长金链\", \"ears\": \"中等大小的金色圈形耳环\" }, \"background\": \"蓝色背景，iHeartRadio 标志醒目\" }, { \"file_name\": \"image-20.jpg\", \"personality\": \"Billie Eilish\", \"event\": \"ELLE 女性音乐活动\", \"outfit_details\": { \"style\": \"无袖垂坠领连衣裙\", \"color\": \"宝蓝色 / 电光蓝\", \"material\": \"在灯光下闪耀的缎面面料\", \"vibe\": \"优雅精致的造型\" }, \"hair_style\": \"披散的头发，侧分，发色为极浅的银色/白色\", \"makeup\": \"极简“裸妆”造型，睫毛上涂有少量睫毛膏，淡粉色嘴唇\", \"background\": \"干净的白色背景，上面写有“ELLE”品牌名称\" } ]",
-              "negative_prompt": "",
-              "description": "Nano banana pro",
-              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775072170197-l59qg8xc-1.jpg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：刺绣",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "crafts": [
-                    "刺绣",
-                    "剪裁"
-                  ]
-                }
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_textile",
+                    "name": "纺织刺绣"
+                  }
+                ]
               }
             },
             {
@@ -595,57 +906,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：针织 / 针织",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "opennana_photo-to-handcrafted-embroidery-art-transformation",
-              "name": "手工刺绣风格照片转换艺术",
-              "type": "prompt",
-              "prompt": "{subject}, 使用上传的照片作为构图、姿势、面部表情、取景、摄像机角度和整体排列的准确参考。完全保留这对夫妇的身份、服装、发型和背景位置，但将整个图像转化为一件豪华的手工刺绣艺术品。每一个可见的元素——包括皮肤、头发、衣服、智能手机、天空、云朵、树木和背景——都必须完全由粗纱线、编织纤维、密集的针脚、戳戳绣、簇绒织物和分层的线圈重新创作。创造出丰富的体积感线条纹理，具有高度详细的刺绣轮廓、可见的织物纹理、柔软的羊毛纤维、针织表面和手工纺织深度。使用写实的色彩匹配，同时保持温暖、舒适、具有细微柔和色调的匠人美学。艺术品应类似于博物馆级的优质绣花挂毯，具有复杂的针脚方向、凸起的线条浮雕和触感真实的织物。在右下角添加一个圆角插图小图，完全按照上传的样子显示原始参考图，创造清晰的前后对比。超详细，手工纺织插画，优质刺绣艺术，写实的线条细节，高度触感的表面，杰作质量，8K。",
-              "negative_prompt": "",
-              "description": "Nano Banana 2",
-              "thumbnail": "https://img.opennana.com/prompts/assets/202607/1784045063204-zq1dw2vh-1784045064576-1.jpg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：刺绣",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "crafts": [
-                    "刺绣",
-                    "手工",
-                    "纤维",
-                    "编织"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "opennana_prompt-548",
-              "name": "仿真绣苏绣表情包",
-              "type": "prompt",
-              "prompt": "{subject}, 生成一张 16:9、4K 分辨率的仿真绣苏绣表情包大图：\n\n- 画面为 4×6 网格，共 24 个 1:1 方形小格，每格是一位同一角色的古典中式美人半身像表情包（胸部以上），脸部约占每格 60%–70%。\n- 头饰、发型、服装风格严格参考提供的原始角色形象，保持一致，但不要原图复制。\n\n风格要求：\n- 整体为仿真绣苏绣作品：人物五官、皮肤、头发、衣纹和背景全部由细密丝线和刺绣针脚构成，使用仿真绣 + 乱针绣技法，丝线有光泽、针脚平齐细密，形成微微凸起的真实绣面。\n- 底布为近乎纯白或极浅米色真丝绸，背景极简，仅有很淡云纹或暗纹，不加入复杂图案。\n\n禁止：\n- 不要油画、水彩、数码画笔纹理；\n- 不要相机景深、虚化、炫光、镜头光斑和 UI 特效。\n\n表情与文字：\n- 24 格覆盖常见聊天情绪和娱乐 meme（如开心、无语、震惊、委屈、嫌弃、坏笑、吃瓜、躺平、笑死、我裂开了等）。\n- 每一格配一条短句，使用手写风格简体中文，不用印刷体和英文。",
-              "negative_prompt": "",
-              "description": "Nano banana pro",
-              "thumbnail": "https://img.opennana.com/prompts/images/548.jpeg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：刺绣",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "crafts": [
-                    "刺绣",
-                    "针脚"
-                  ]
-                }
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_textile",
+                    "name": "纺织刺绣"
+                  }
+                ]
               }
             },
             {
@@ -663,7 +930,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：刺绣 / 刺绣",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_textile",
+                    "name": "纺织刺绣"
+                  }
+                ]
               }
             },
             {
@@ -681,67 +954,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：针织 / 针织",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "opennana_elegant-editorial-fashion-studio-portrait-white-knit-dress",
-              "name": "优雅时尚工作室肖像白色针织裙",
-              "type": "prompt",
-              "prompt": "{subject}, 一张优雅迷人的 [NAME] 编辑时尚工作室肖像，以平视角度的中长镜头捕捉。她留着长而蓬松的金发，正用双手轻轻托起脑后的头发，形成对称且迷人的姿势，躯干微微向侧面倾斜。她戴着细边圆形处方眼镜，外角带有细微的红色细节。她的脸上带着自信且轻微的微笑，注视着镜头，妆容整洁：精准的黑色眼线、长睫毛、微妙的粉红色眼影、清晰的眉毛和鲜艳的红唇。她的皮肤纹理自然写实，毛孔可见。她穿着一件大号的白色露肩粗针织连衣裙，展示了正面和袖子上厚实的垂直麻花编织图案、宽大的罗纹翻领以及手腕处收紧的长而蓬松的袖子。背景是极简的哑光蓝灰色工作室墙壁，空气中漂浮着被光线捕捉到的微小尘埃粒子。场景由专业的蚌壳式摄影灯光照明——使用主顶置柔光箱和下方的反射板——营造出柔和、弥漫的光泽，突显了她眼神的锐度，在锁骨下投射出柔和的阴影，并展现了针织毛衣的立体质感。照片具有高保真商业品质，对她的目光焦点极其清晰，织物细节极致，背景有微妙的景深模糊，并带有精致的高级胶片颗粒。宽高比 9:16。",
-              "negative_prompt": "",
-              "description": "Nano banana pro",
-              "thumbnail": "https://img.opennana.com/prompts/assets/202606/1780737143478-2fw9591l-1780737145804-1.jpg",
-              "classification": {
-                "method": "rules",
-                "stage": "title",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "标题规则证据：针织 / 针织",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "opennana_golden-mosaic-tender-lovers",
-              "name": "流金马赛克里的缱绻恋人",
-              "type": "prompt",
-              "prompt": "{subject}, { \"generation_request\": { \"meta_data\": { \"task_type\": \"photoreal_cinematic_fineart_fashion_recreation\", \"language\": \"zh-Hans\", \"priority\": \"highest\", \"version\": \"v1.0_GOLDEN_EMBRACE_MOSAIC_ROBES_FINEART_NO_TEXT\" }, \"output\": { \"aspect_ratio\": \"4:5\", \"resolution\": \"high\", \"num_images\": 4 }, \"scene\": { \"concept\": \"以 20 世纪早期金色马赛克美学为灵感的高端艺术时尚大片：一对恋人亲密相拥，身着奢华金色服装，服装上饰有几何黑色矩形和彩色圆形图案。构图紧凑而柔和，聚焦于手部、面部和华丽的纺织图案，背景是闪烁的金色纹理。\", \"environment\": { \"location\": \"艺术工作室布景\", \"background\": \"丰富的金箔/马赛克纹理墙壁，带有微妙的斑点和铜绿，绘画般的深度，无可见道具\", \"mood\": \"浪漫、亲密、博物馆级、电影般的静止\" }, \"subjects\": { \"couple\": { \"type\": \"两名成人\", \"pose\": \"紧密站立；其中一人用双手轻抚另一人的脸颊；轻柔地亲吻脸颊/太阳穴；另一人略微向后倾斜，闭着眼睛，神情安详\", \"expression\": \"温柔、亲密、梦幻\", \"styling\": { \"partner_1\": { \"outfit\": \"长款金色缎面长袍/和服，带有大胆的几何黑色矩形和少量柔和的银色方块；高级光泽，垂坠感强\", \"hair\": \"深色卷发，编织有小小的绿色月桂叶状饰物\", \"details\": \"手部突出，手指轻柔地按压下颌线，自然的皮肤纹理\" }, \"partner_2\": { \"outfit\": \"修身金色礼服，带有彩色圆形图案（{argument name=\\\"partner 2 motif colors\\\" default=\\\"turquoise, magenta, cobalt, red\\\"}），如同马赛克奖章般排列；下摆附近有精致的刺绣和珠饰\", \"hair\": \"{argument name=\\\"partner 2 hair color\\\" default=\\\"vibrant copper/red\\\"} 头发柔和造型，配有紫色小丝带或发夹\", \"details\": \"极简首饰；柔和的腮红；自然的皮肤纹理\" } } } } }, \"camera\": { \"framing\": \"中景全身镜头，情侣略微偏右居中，左侧有装饰性的金色负空间\", \"lens\": \"50mm\", \"aperture\": \"f/2.2\", \"depth_of_field\": \"浅到中等景深；面部和手部清晰，背景柔和纹理\", \"perspective\": \"自然、正面、无畸变\" }, \"lighting\": { \"style\": \"博物馆风格的柔和主光，带暖金色反光\", \"key_light\": \"左上方的大型漫射光源\", \"fill\": \"柔和补光，以保留金色织物细节\", \"look\": \"缎面上的受控高光，无刺眼的高光溢出，微妙的胶片颗粒，无 HDR 辉光\" }, \"color_grading\": { \"palette\": \"主色调为金色和琥珀色，黑色几何点缀，宝石色圆形图案\" } } }",
-              "negative_prompt": "",
-              "description": "Nano banana pro",
-              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774986985091-pclehf4w-1.jpg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：编织",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "crafts": [
-                    "刺绣",
-                    "编织"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "opennana_high-fashion-brick-knitwear-portrait",
-              "name": "高级时装感砖墙针织人像",
-              "type": "prompt",
-              "prompt": "{subject}, { \"engine_optimization\": \"Nano Banana Pro\", \"directive\": \"高端时尚杂志风格\", \"subject_profile\": { \"identity_anchors\": { \"description\": \"保持参考对象的特定面部几何结构、发型和眼睛形状。高保真面部重建。\", }, \"pose_coordinates\": { \"frame\": \"半身竖版肖像。\", \"posture\": \"靠在砖石结构上；左手托住下颌线，手指靠近太阳穴；右手放在锁骨处。\", \"alignment\": \"与镜头进行直接眼神交流；头部向左倾斜 15 度。\" } }, \"wardrobe_manifest\": { \"outerwear\": { \"style\": \"粗针罗纹开衫，{argument name=\\\"cardigan color\\\" default=\\\"杂灰色\\\"}。\", \"drape\": \"慵懒、开襟廓形，超大袖子。\" }, \"underlayer\": { \"style\": \"配套的灰色针织短款上衣。\", \"neckline\": \"V 形领口，结构感剪裁。\" }, \"styling\": \"露出腰线；底部边缘可见高腰牛仔裤。\" }, \"environment_logic\": { \"surface\": \"垂直的{argument name=\\\"wall material\\\" default=\\\"红砖\\\"}墙，采用错缝砌筑，哑光风化表面。\", \"depth\": \"强烈的分离感；远景中模糊的城市元素和垂直杆。\" }, \"technical_rendering\": { \"lighting\": \"自然阴天日光；柔和包裹式照明；中性色温。\", \"lens\": \"35mm f/1.4 镜头美学；虹膜和织物纤维清晰对焦；高对比度纹理。\" } }",
-              "negative_prompt": "",
-              "description": "Nano banana pro",
-              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774995690603-ky1xrxww-1.jpg",
-              "classification": {
-                "method": "rules",
-                "stage": "title",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "标题规则证据：针织 / 针织",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_textile",
+                    "name": "纺织刺绣"
+                  }
+                ]
               }
             },
             {
@@ -759,49 +978,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：刺绣 / 刺绣",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "opennana_lavender-couture-art-deco-beauty",
-              "name": "奢华装饰艺术风格下的淡紫色高定礼服美人",
-              "type": "prompt",
-              "prompt": "{subject}, { \"scene_configuration\": { \"version\": \"2.0\", \"global_aesthetic\": \"电影编辑时尚风格\", \"aspect_ratio\": \"3:4\", \"image_quality\": \"杰作, 超写实, 次表面散射\" }, \"subject_specification\": { \"model\": \"{argument name=\\\"celebrity name\\\" default=\\\"Ana De Armas\\\"}\", \"physical_attributes\": { \"hair\": { \"color\": \"深浓咖啡棕色\", \"texture\": \"蓬松, 浓密波浪, 高光泽\", \"styling\": \"瀑布般垂落在左肩, 好莱坞魅力风格\" }, \"complexion\": { \"skin_type\": \"水润, 光泽, 毛孔清晰可见\", \"features\": \"下颌线分明, 颈部修长, 锁骨处泛着柔和光泽\" }, \"expression_and_pose\": { \"body_pose\": \"身体前倾朝向镜头, 背部略微弓起\", \"head_position\": \"头部向后倾斜 15 度角, 性感姿态\", \"eye_direction\": \"向上凝视光源\", \"mouth\": \"微张, 柔和中性唇色\" } } }, \"wardrobe_details\": { \"garment_type\": \"高级定制礼服\", \"color_palette\": { \"primary\": \"{argument name=\\\"primary color\\\" default=\\\"Lavender\\\"}\", \"secondary\": \"淡丁香紫\", \"accents\": \"虹彩银色\" }, \"textile_physics\": { \"bodice\": \"透明欧根纱和丝绸薄纱\", \"embellishments\": \"高密度微亮片, 手工缝制玻璃珠, 施华洛世奇水晶点缀\", \"visual_effects\": \"折射光影效果, 闪烁纹理, 精致刺绣图案\" }, \"structural_details\": [\"精致细肩带\", \"修身廓形\", \"半透明叠层\"] }, \"environment_architecture\": { \"setting\": \"奢华装饰艺术顶层公寓内景\", \"background_elements\": { \"walls\": \"复古几何装饰艺术壁纸\", \"colors\": [\"柔和灰褐色\", \"米色\", \"焦赭色\", \"金箔点缀\"], \"depth\": \"极致焦外虚化, 失焦的建筑深度\" }, \"atmosphere\": \"温暖, 精致, 私密, 略带朦胧\" }, \"technical_direction\": { \"camera_gear\": { \"body\": \"中画幅数码相机 (例如: 哈苏 H6D)\", \"lens\": \"85mm 定焦 G 大师镜头\", \"aperture\": \"f/1.2 实现极浅景深\" }, \"lighting_setup\": { \"primary_light\": \"暖色调柔光箱 (主光) 呈 45 度角\", \"secondary_light\": \"冷色调轮廓光勾勒轮廓和发丝\", \"effects\": [\"电影感阴影\", \"明暗对比\", \"礼服珠饰上的高光\"] }, \"post_processing\": { \"color_grading\": \"模拟胶片美学, 阴影处略带青橙色偏向\", \"focus_point\": \"睫毛和虹膜清晰锐利; 中景礼服纹理清晰\" } } }",
-              "negative_prompt": "",
-              "description": "Nano banana pro",
-              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774299127370-j1pypjfi-1.jpg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：刺绣",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "crafts": [
-                    "刺绣",
-                    "手工"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "opennana_lazy-afternoon-girl-lying-down",
-              "name": "慵懒午后躺卧在柔软针织毯上的少女俯拍",
-              "type": "prompt",
-              "prompt": "{subject}, json { \"lighting\": { \"type\": \"柔和、漫射的室内照明\", \"source\": \"环境光，可能来自窗户或头顶的灯具，从右上角射入\", \"quality\": \"温暖而柔和，营造出柔和的阴影\", \"shadows\": \"主体手臂和头发下方有柔和、不明显的阴影\", \"highlights\": \"主体皮肤和毯子纹理上有微妙的高光\" }, \"metadata\": { \"source\": \"用户提供的图片\", \"description\": \"一张长发深色年轻女性躺着的俯视自拍照。\", \"created_date\": \"2024-11-28\" }, \"background\": { \"type\": \"有纹理的织物表面和地板\", \"focus\": \"背景元素柔和模糊\", \"elements\": [ \"奶油色针织毯\", \"木地板\", \"部分蓝色鞋子\" ], \"description\": \"主体躺在一张厚实的奶油色针织毯或地毯上。左下角可见木地板和一小部分蓝色鞋子。\" }, \"typography\": { \"font_style\": \"不适用\", \"text_present\": false }, \"composition\": { \"type\": \"自拍照\", \"framing\": \"特写主体的上半身和头部\", \"focal_point\": \"主体的脸部和上半身\", \"orientation\": \"肖像，主体身体呈对角线构图\", \"perspective\": \"俯视角度拍摄\" }, \"color_profile\": { \"palette\": \"暖中性色调，以奶油白、深棕色、灰色和自然肤色为主\", \"contrast\": \"深色头发/衣物与浅色背景之间形成柔和对比\", \"saturation\": \"中等饱和度，带有暖色底调\", \"dominant_colors\": [ \"#F0EAD6\", \"#363231\", \"#8C6F5E\", \"#A98D7A\" ] }, \"technical_specs\": { \"focus\": \"主体脸部和头发对焦清晰\", \"lens_type\": \"广角镜头\", \"resolution\": \"中等分辨率\", \"camera_type\": \"智能手机摄像头\", \"aspect_ratio\": \"约 2:3\" }, \"subject_analysis\": { \"hair\": \"长长的深棕色波浪发，散落在头部和肩部周围\", \"pose\": \"仰卧，看向镜头，右手拿着手机，左手靠近腿部\", \"skin\": \"浅至中等肤色，带有暖色底调\", \"person\": \"一位年轻女性\", \"clothing\": \"一件深灰色或黑色细肩带露脐上衣，深色下装\", \"expression\": \"直视镜头，表情平静，略带嘟嘴\", \"accessories\": \"左手手指上戴着几枚戒指，指甲涂成深色\" }, \"artistic_elements\": { \"mood\": \"放松、随意、略带性感\", \"style\": \"抓拍、亲密的自拍照\", \"texture\": \"厚实的针织毯和主体头发的纹理突出\" }, \"generation_parameters\": { \"seed\": \"不适用\", \"model\": \"不适用\", \"prompt\": \"一张长发深色年轻女性的抓拍俯视自拍照\" } }",
-              "negative_prompt": "",
-              "description": "Nano banana pro",
-              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1773042134338-gbippiac-1.jpg",
-              "classification": {
-                "method": "rules",
-                "stage": "title",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "标题规则证据：针织 / 针织",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_textile",
+                    "name": "纺织刺绣"
+                  }
+                ]
               }
             },
             {
@@ -819,25 +1002,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：刺绣 / 刺绣",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "opennana_pastel-pink-saree-portrait",
-              "name": "淡粉纱丽刺绣柔美全身肖像",
-              "type": "prompt",
-              "prompt": "{subject}, { \"image_type\": \"影棚肖像照\", \"resolution_target\": \"8K\", \"aspect_ratio\": \"约 3:4（垂直）\", \"camera_framing\": { \"shot_type\": \"全身肖像\", \"orientation\": \"垂直\", \"subject_position\": \"居中，身体略微倾斜\" }, \"subject\": { \"gender_presentation\": \"女性\", \"pose\": { \"body_orientation\": \"身体略微向观者左侧倾斜\", \"weight_distribution\": \"重心放在一条腿上\", \"hands\": { \"position\": \"双手在腰部轻轻合拢\", \"gesture\": \"放松、自然\" }, \"shoulders\": \"放松\", \"head_tilt\": \"头部略微倾斜\" }, \"facial_expression\": { \"emotion\": \"柔和、平静的微笑\", \"mouth\": \"闭口微笑\", \"eyes\": \"睁开、放松，略微看向镜头\" } }, \"hair\": { \"color\": \"黑色\", \"style\": \"整齐地向后梳理并扎起\", \"parting\": \"中分\", \"finish\": \"光滑、有光泽\", \"flyaways\": \"几乎没有碎发\" }, \"face_details\": { \"skin_texture\": \"光滑\", \"makeup\": { \"base\": \"均匀、自然的底妆\", \"blush\": \"柔和的粉色调腮红\", \"lip_color\": \"自然粉色唇妆\", \"eye_makeup\": \"精致的眼线和睫毛膏\", \"eyebrows\": \"眉形良好，粗细自然\" } }, \"outfit\": { \"primary_garment\": \"纱丽 (saree)\", \"saree_color\": \"柔和的淡粉色\", \"fabric_appearance\": \"轻薄、半透明\", \"embellishments\": { \"type\": \"花卉刺绣\", \"thread_color\": \"浅金色和柔和的绿色\", \"distribution\": \"均匀分布在纱丽上，包括褶皱和垂坠部分\", \"finish\": \"精致、复杂\" }, \"blouse\": { \"color\": \"同色系淡粉色\", \"design\": \"无袖\", \"neckline\": \"宽领口\", \"fit\": \"修身\" }, \"drape_details\": { \"pallu\": { \"position\": \"披在右肩上\", \"length\": \"长，向下延伸\", \"flow\": \"柔软、垂直垂坠\" }, \"pleats\": \"正面可见，排列整齐\" } }, \"accessories\": { \"earrings\": { \"type\": \"长款垂坠耳环\", \"color\": \"金色底座，带粉色点缀\", \"length\": \"延伸至下颌线以下\" }, \"rings\": { \"count\": \"多枚\", \"placement\": \"双手手指\", \"style\": \"简约、极简\" }, \"footwear\": { \"type\": \"露趾高跟鞋\", \"color\": \"中性米色\", \"heel_visibility\": \"部分可见\" } }, \"lighting\": { \"type\": \"柔和的影棚灯光\", \"direction\": \"均匀正面照明\", \"shadows\": \"极少，柔和\", \"highlights\": \"面部和织物上有柔和的高光\" }, \"background\": { \"type\": \"影棚背景\", \"color\": \"浅灰色\", \"texture\": \"平滑渐变\", \"details\": \"无可见物体或图案\" }, \"image_quality\": { \"sharpness\": \"高\", \"noise\": \"无可见噪点\" } }",
-              "negative_prompt": "",
-              "description": "Nano banana pro",
-              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775055026212-9emy0d86-1.jpg",
-              "classification": {
-                "method": "rules",
-                "stage": "title",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "标题规则证据：刺绣 / 刺绣",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_textile",
+                    "name": "纺织刺绣"
+                  }
+                ]
               }
             },
             {
@@ -855,7 +1026,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：针织 / 针织",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_textile",
+                    "name": "纺织刺绣"
+                  }
+                ]
               }
             },
             {
@@ -873,157 +1050,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：针织 / 针织",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "opennana_soft-loft-lazy-afternoon-knit",
-              "name": "柔光阁楼里的慵懒午后温暖针织人像",
-              "type": "prompt",
-              "prompt": "{subject}, { \"meta\": { \"platform\": \"Nano Banana Pro\", \"style\": \"超写实生活方式编辑风格\", \"resolution\": \"高分辨率\", \"aspect_ratio\": \"3:4\", \"camera\": { \"body\": \"Sony A7 IV\", \"lens\": \"FE 35mm f/1.4 GM\", \"iso\": 100, \"look\": \"自然浅景深，柔和背景分离\" } }, \"identity_lock\": { \"rule\": \"精确保留所有面部特征、身体比例、肤色、发色、发质和整体外观，与参考图像完全一致\", \"no_face_change\": true, \"no_body_change\": true, \"no_hair_change\": true }, \"subject\": { \"description\": \"成年女性，面部特征柔美，比例自然，沉着自信\", \"expression\": \"放松、温暖、略带自信\", \"hair\": \"保留参考图像中的自然发型和发色\", \"skin\": \"逼真的皮肤纹理，毛孔可见，柔和自然的光泽\" }, \"pose\": { \"position\": \"坐在或跪在皮沙发上\", \"posture\": \"放松的生活姿态，线条柔和，身体姿态自然\", \"hands\": \"轻柔地放在大腿或毛衣面料上\", \"gaze\": \"看向镜头或略微向下，表情平静\" }, \"wardrobe\": { \"top\": \"柔软针织毛衣，舒适质感，中性浅色调\", \"bottom\": \"简约内衣或家居裤，中性色\", \"styling_rule\": \"雅致、非暴露、生活方式编辑风格的平衡\" }, \"environment\": { \"location\": \"现代阁楼风格客厅\", \"elements\": [ \"棕色皮沙发\", \"部分裸露的纹理砖墙\", \"中性色和橄榄色系的柔软抱枕\", \"带有柔和日光的大窗户\" ], \"atmosphere\": \"平静、舒适、私密而精致\" }, \"lighting\": { \"type\": \"自然窗光\", \"direction\": \"侧光\", \"quality\": \"柔和高光，轻柔阴影，逼真对比度\" }, \"photography_style\": { \"genre\": \"生活方式时尚肖像\", \"focus\": \"主体清晰，背景柔和模糊\", \"color_tone\": \"暖中性色调，大地色系\" }, \"negative_prompt\": [ \"面部改变\", \"不同发色\", \"身体扭曲\", \"过度平滑皮肤\", \"卡通\", \"动漫\", \"CGI\", \"多余肢体\", \"糟糕的解剖结构\", \"刺眼的光线\", \"文字\", \"水印\", \"标志\" ] }",
-              "negative_prompt": "",
-              "description": "Nano banana pro",
-              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774222479039-boebh1t4-1.jpg",
-              "classification": {
-                "method": "rules",
-                "stage": "title",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "标题规则证据：针织 / 针织",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "opennana_sunny-bedroom-anya-red-bow-barefoot-fashion-portrait",
-              "name": "阳光卧室安雅红蝴蝶结赤脚时尚人像",
-              "type": "prompt",
-              "prompt": "{subject}, {\n    “quality”: “超写实，原片风格，8k”,\n    “camera”: “iPhone 15 Pro Max”,\n    “lighting”: “柔和，自然室内日光，微妙的卧室阴影”,\n    “style”: “亲密，抓拍人像，细节聚焦”,\n    “aspect_ratio”: “3:4”\n  },\n  “scene”: {\n    “location”: “一个极简、明亮的室内卧室场景。一张铺着白色皱巴巴亚麻床单和枕头的床，靠着素白墙。”,\n    “atmosphere”: “抓拍，时尚，放松。”\n  },\n  “subject”: {\n    “gender”: “女性”,\n    “name”: “安雅·泰勒-乔伊”,\n    “body”: {\n      “type”: “天生苗条健美的体格，坐在白色床单上，双腿交叉，一条腿向前伸，另一条腿收起。她身体所有可见的皮肤，包括腿、脚和脚踝，都完全光滑、干净、无瑕，没有任何纹身或印记。”\n    },\n“face”: {\n      “features”: “五官 striking，清晰地直视镜头，精致的眼妆配翼状眼线，柔和的红唇色。她的白金发色呈柔和波浪状，装饰着一个大而显眼的鲜红色蝴蝶结发箍。”,\n      “expression”: “自信，直视的目光。”\n    },\n    “outfit”: {\n      “description”: “两件套蓝白格纹套装。细吊带短上衣，胸部有红色刺绣（心和樱桃簇图案）和白色扇贝形蕾丝边。配套的百褶超短裙带有同款扇贝形蕾丝下摆，经典迷你长度。”,\n      “fit”: “剪裁合身，修身，别致。”,\n      “accessory”: “蓝色立方体几何耳钉。前景角落的床上可见一个带有金色五金件的小白色手拿包。”\n    },\n“pose”: “坐在白色床单上，双腿交叉，一只脚放在床单上，另一只脚收起。左臂向后伸，右手支撑在床单上，直视镜头。”,\n    “footwear”: “明确且完全赤脚。没有穆勒鞋或拖鞋。”,\n    “details”: “她的赤脚脚趾清晰可见，放在白色亚麻床单上，所有脚趾甲都涂着鲜艳、有光泽的红色指甲油。”\n  },\n  “composition”: “中全景，从头到脚捕捉她，高角度视角。所有细节清晰聚焦：安雅·泰勒-乔伊的脸，红蝴蝶结，经典迷你裙上复杂的格纹面料，以及涂着光泽红指甲油的赤脚脚趾。白色床景和手拿包清晰但柔和模糊。”\n}",
-              "negative_prompt": "",
-              "description": "Nano Banana 2",
-              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1773332519092-zh0ym4ao-1.jpeg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：刺绣",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "crafts": [
-                    "刺绣",
-                    "剪裁"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "opennana_sunset-golden-halo-red-knitted-portrait",
-              "name": "夕阳金色光晕下的酒红针织温柔人像",
-              "type": "prompt",
-              "prompt": "{subject}, { \"album_info\": { \"theme\": \"户外黄金时段人像\", \"total_images\": 2, \"location_type\": \"自然田野 / 草地\" }, \"images_data\": [ { \"file_name\": \"20260128_193729.jpg\", \"visual_details\": { \"facial_features\": { \"complexion\": \"干净明亮\", \"eyes\": \"深棕色眼睛，聚焦于镜头\", \"makeup\": \"清淡自然的妆容（裸色口红）\" }, \"hair\": \"黑色，长发，中分\", \"outfit\": { \"color\": \"深红色（深红/栗色）\", \"material\": \"羊毛或有纹理的面料（针织）\", \"style\": \"长袖 V 领裹身款式\" }, \"environment\": { \"lighting\": \"柔和的阳光在脸部一侧形成阴影\", \"atmosphere\": \"宁静祥和的环境\" } } }, { \"file_name\": \"20260128_193726.jpg\", \"visual_details\": { \"facial_features\": { \"expression\": \"严肃但迷人\", \"gaze\": \"直视镜头\" }, \"hair\": \"黑色头发散落在肩上\", \"outfit_variation\": { \"design\": \"现代设计，带前部镂空细节\", \"texture\": \"罗纹或叠层织物\" }, \"cinematography\": { \"focus\": \"主体对焦清晰\", \"depth_of_field\": \"景深较浅（背景相当模糊）\", \"color_palette\": \"以红色和金色为主\" } } } ] }",
-              "negative_prompt": "",
-              "description": "Nano banana pro",
-              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774303949426-z27byf1d-1.jpg",
-              "classification": {
-                "method": "rules",
-                "stage": "title",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "标题规则证据：针织 / 针织",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
-            {
-              "id": "opennana_surreal-chessboard-dark-queen",
-              "name": "超现实棋盘上的暗黑时尚女王",
-              "type": "prompt",
-              "prompt": "{subject}, { \"subject\": { \"identity\": { \"biometric_reference\": \"{argument name=\\\"celebrity reference\\\" default=\\\"Ana de Armas\\\"}\", \"facial_structure\": { \"morphology\": \"心形脸，高颧骨突出，下颌曲线柔和\", \"eyes\": \"杏仁状，榛绿色虹膜，具有复杂的放射状基质图案，深色角膜缘环，睫毛浓密\", \"nose\": \"鼻梁挺直，鼻尖精致，鼻翼基部窄\", \"mouth\": \"唇线分明，唇弓明显，唇部容积对称，I 类牙合，切牙自然对齐\", \"skin\": \"菲茨帕特里克量表 II 型，瓷白色调 (Hex: #F5E1D2)，高保真毛孔纹理，可见毳毛，启用次表面散射 (SSS)\" }, \"hair\": { \"style\": \"铂金色 (Hex: #E5E4E2)，向后梳理，湿发质感，高镜面光泽，可见发根分离\" } }, \"body\": { \"somatotype\": \"中胚层-外胚层混合型，运动型精瘦体质\", \"proportions\": \"1:1.618 黄金比例应用，腰臀比 0.7，锁骨突出分明，骨骼结构完整\", \"skin_physics\": \"微纹理映射，逼真的关节折叠，无程序平滑处理\" }, \"wardrobe\": { \"outerwear\": \"超大黑色羊毛西装外套 (Hex: #000000)，结构化肩部，缎面尖领，哑光织物纹理\", \"innerwear\": \"透明白色丝绸蕾丝衬衫 (Hex: #FFFFFF)，精致花卉刺绣，深 V 领口，荷叶边维多利亚风格袖口\", \"legwear\": \"白色微网渔网袜，高弹性张力，程序透明度\", \"accessories\": [ \"白色褶皱折扇 (Hex: #FDFDFD)，哑光表面\", \"单股珍珠项链，高光泽度\", \"左翻领上的银色十字胸针 (Hex: #C0C0C0)\" ] }, \"pose_action\": { \"description\": \"坐在棋盘格地板上，双腿呈不对称 V 形张开，右臂向后伸展以支撑身体，左手将一把打开的扇子横置胸前，眼神专注直视 (权力凝视)\", \"muscle_tension\": \"核心收紧，远端指骨放松\" }, \"scene\": { \"environment\": \"巨大的超现实主义棋盘，抛光大理石地板 (Hex: #0A0A0A 黑色瓷砖，#F5F5F5 白色瓷砖带灰色纹理)\", \"props\": \"超大卡拉拉大理石国际象棋棋子（国王、车、兵、主教），高光泽反射，体积感\", \"atmosphere\": \"Vogue 杂志编辑美学，高级时装极简主义，无大气雾霾\" }, \"lighting\": { \"setup\": \"高对比度影棚布光，双点主光，锐利衰减阴影\", \"technical_details\": \"大理石和湿发上的镜面高光，用于主体与背景分离的轮廓光，5500K 色温\" }, \"camera\": { \"technical_specs\": \"9:16 宽高比，35mm 定焦镜头，f/8 光圈实现深景深\" } } }",
-              "negative_prompt": "",
-              "description": "Nano banana pro",
-              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775071540625-zbd31oq5-1.jpg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：刺绣",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "crafts": [
-                    "刺绣",
-                    "折叠"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "opennana_sydney-sweeney-in-lavender-couture-gown",
-              "name": "聚焦悉尼·斯威尼身着薰衣草色高定礼服的绝美瞬间",
-              "type": "prompt",
-              "prompt": "{subject}, { \"scene_configuration\": { \"version\": \"2.0\", \"global_aesthetic\": \"电影感时尚编辑风格\", \"aspect_ratio\": \"3:4\", \"image_quality\": \"杰作, 8K, 超写实, 次表面散射\" }, \"subject_specification\": { \"model\": \"{argument name=\\\"model name\\\" default=\\\"Sydney Sweeney\\\"}\", \"physical_attributes\": { \"hair\": { \"color\": \"深浓意式浓缩咖啡棕\", \"texture\": \"蓬松、浓密波浪、高光泽\", \"styling\": \"瀑布般垂落左肩, 好莱坞魅力风格\" }, \"complexion\": { \"skin_type\": \"水润、光泽、毛孔清晰可见\", \"features\": \"下颌线分明, 颈部修长, 锁骨处泛着柔和光泽\" }, \"expression_and_pose\": { \"body_pose\": \"身体前倾面向镜头, 背部略微弓起\", \"head_position\": \"头部向后倾斜 15 度, 性感姿态\", \"eye_direction\": \"凝视向上方的光源\", \"mouth\": \"微启, 柔和中性唇色\" } } }, \"wardrobe_details\": { \"garment_type\": \"高级定制礼服\", \"color_palette\": { \"primary\": \"{argument name=\\\"gown color\\\" default=\\\"Lavender\\\"}\", \"secondary\": \"淡丁香紫\", \"accents\": \"虹彩银\" }, \"textile_physics\": { \"bodice\": \"透明欧根纱和丝绸薄纱\", \"embellishments\": \"高密度微亮片, 手工缝制玻璃珠, 施华洛世奇水晶点缀\", \"visual_effects\": \"折射光影效果, 闪烁纹理, 精致刺绣图案\" }, \"structural_details\": [\"精致细肩带\", \"修身廓形\", \"半透明叠层\"] }, \"environment_architecture\": { \"setting\": \"奢华装饰艺术顶层公寓内景\", \"background_elements\": { \"walls\": \"复古几何装饰艺术壁纸\", \"colors\": [\"柔和灰褐色\", \"米色\", \"焦赭色\", \"金箔点缀\"], \"depth\": \"极致焦外虚化, 失焦的建筑深度\" }, \"atmosphere\": \"温暖、精致、私密、略带朦胧\" }, \"technical_direction\": { \"camera_gear\": { \"body\": \"中画幅数码相机 (例如: 哈苏 H6D)\", \"lens\": \"85mm 定焦 G 大师镜头\", \"aperture\": \"f/1.2 以实现极浅景深\" }, \"lighting_setup\": { \"primary_light\": \"暖色调柔光箱 (主光) 呈 45 度角\", \"secondary_light\": \"冷色调轮廓光以勾勒轮廓和头发\", \"effects\": [\"电影感阴影\", \"明暗对比\", \"礼服珠饰上的高光\"] }, \"post_processing\": { \"color_grading\": \"模拟胶片美学, 阴影处略带青橙色偏向\", \"focus_point\": \"睫毛和虹膜清晰; 中景礼服纹理清晰\" } } }",
-              "negative_prompt": "",
-              "description": "Nano banana pro",
-              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774292383821-gi4pc3j2-1.jpg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：刺绣",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "crafts": [
-                    "刺绣",
-                    "手工"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "opennana_sydney-sweeney-lavender-glamour",
-              "name": "悉尼·斯威尼身着淡紫流光高定的奢华影调",
-              "type": "prompt",
-              "prompt": "{subject}, { \"scene_configuration\": { \"version\": \"2.0\", \"global_aesthetic\": \"电影级时尚编辑风格\", \"aspect_ratio\": \"3:4\", \"image_quality\": \"杰作, 8K, 超写实, 次表面散射\" }, \"subject_specification\": { \"model\": \"{argument name=\\\"model name\\\" default=\\\"Sydney Sweeney\\\"}\", \"physical_attributes\": { \"hair\": { \"color\": \"深浓意式浓缩咖啡棕\", \"texture\": \"丰盈, 厚重波浪, 高光泽\", \"styling\": \"瀑布般垂落左肩, 好莱坞魅力风格\" }, \"complexion\": { \"skin_type\": \"水润, 光泽, 毛孔清晰可见\", \"features\": \"下颌线分明, 颈部修长, 锁骨处泛着柔和光泽\" }, \"expression_and_pose\": { \"body_pose\": \"身体前倾朝向镜头, 背部略微弓起\", \"head_position\": \"头部向后倾斜 15 度, 性感姿态\", \"eye_direction\": \"向上凝视光源\", \"mouth\": \"微张, 柔和中性唇色\" } } }, \"wardrobe_details\": { \"garment_type\": \"高级定制礼服\", \"color_palette\": { \"primary\": \"{argument name=\\\"primary color\\\" default=\\\"Lavender\\\"}\", \"secondary\": \"淡丁香紫\", \"accents\": \"虹彩银色\" }, \"textile_physics\": { \"bodice\": \"透明欧根纱和丝绸薄纱\", \"embellishments\": \"高密度微亮片, 手工缝制玻璃珠, 施华洛世奇水晶点缀\", \"visual_effects\": \"折射光影效果, 闪烁纹理, 精致刺绣图案\" }, \"structural_details\": [\"精致细肩带\", \"修身廓形\", \"半透明叠层\"] }, \"environment_architecture\": { \"setting\": \"奢华装饰艺术顶层公寓内景\", \"background_elements\": { \"walls\": \"复古几何装饰艺术壁纸\", \"colors\": [\"柔和灰褐色\", \"米色\", \"焦赭色\", \"金箔点缀\"], \"depth\": \"极致焦外虚化, 失焦建筑深度\" }, \"atmosphere\": \"温暖, 精致, 私密, 略带朦胧\" }, \"technical_direction\": { \"camera_gear\": { \"body\": \"中画幅数码相机 (例如: 哈苏 H6D)\", \"lens\": \"85mm 定焦 G-Master 镜头\", \"aperture\": \"f/1.2 实现极浅景深\" }, \"lighting_setup\": { \"primary_light\": \"45 度角暖色柔光箱 (主光)\", \"secondary_light\": \"冷色轮廓光勾勒轮廓和发丝\", \"effects\": [\"电影级阴影\", \"明暗对比\", \"礼服珠饰上的高光\"] }, \"post_processing\": { \"color_grading\": \"模拟胶片美学, 阴影处略带青橙色偏\", \"focus_point\": \"睫毛和虹膜锐利; 中景礼服纹理锐利\" } } }",
-              "negative_prompt": "",
-              "description": "Nano banana pro",
-              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774290623300-kv2gcft9-1.jpg",
-              "classification": {
-                "method": "rules",
-                "stage": "content",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "正文任务及独立佐证＋子类证据：刺绣",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0",
-                "evidence": {
-                  "crafts": [
-                    "刺绣",
-                    "手工"
-                  ]
-                }
-              }
-            },
-            {
-              "id": "opennana_vintage-film-pastel-knit-home-time",
-              "name": "复古胶片风马卡龙色系针织少女的居家时光",
-              "type": "prompt",
-              "prompt": "{subject}, { \"image_request\": { \"style\": \"模拟生活方式编辑摄影\", \"layout\": \"2x2 网格（四种变体）\", \"subject\": { \"fidelity\": \"精确保留面部特征、身份、肤色和自然纹理\", \"expression_variants\": [ \"手托着脸\", \"用袖子轻掩嘴巴\", \"侧视，若有所思的表情\" ], \"attire\": \"宽松的马卡龙色针织毛衣（{argument name=\\\"sweater color\\\" default=\\\"粉色、绿色、蓝色、黄色\\\"}），长袖\", \"hair\": \"散乱、略显凌乱、蓬松\", \"makeup\": \"极简主义，柔和的粉色腮红，自然唇色，眉毛清晰，睫毛不明显\" }, \"environment\": { \"setting\": \"极简主义温馨卧室\", \"furniture\": \"铺有浅色床品的床，模糊的简约背景\", \"lighting\": \"漫射自然侧光，温暖柔和\" }, \"technical_specs\": { \"aesthetic\": \"复古胶片颗粒感，马卡龙色调，浅景深\", \"quality\": \"超现实，无重度滤镜\", \"mood\": \"亲密、平静、浪漫\" } } }",
-              "negative_prompt": "",
-              "description": "Nano banana pro",
-              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774290327801-cv4yvdip-1.jpg",
-              "classification": {
-                "method": "rules",
-                "stage": "title",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "标题规则证据：针织 / 针织",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_textile",
+                    "name": "纺织刺绣"
+                  }
+                ]
               }
             },
             {
@@ -1041,7 +1074,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：针织 / 针织",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_textile",
+                    "name": "纺织刺绣"
+                  }
+                ]
               }
             },
             {
@@ -1059,7 +1098,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：针织 / 针织",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_textile",
+                    "name": "纺织刺绣"
+                  }
+                ]
               }
             },
             {
@@ -1077,7 +1122,293 @@
                 "status": "suggested",
                 "reason": "标题规则证据：针织 / 针织",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_textile",
+                    "name": "纺织刺绣"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_sunset-golden-halo-red-knitted-portrait",
+              "name": "夕阳金色光晕下的酒红针织温柔人像",
+              "type": "prompt",
+              "prompt": "{subject}, { \"album_info\": { \"theme\": \"户外黄金时段人像\", \"total_images\": 2, \"location_type\": \"自然田野 / 草地\" }, \"images_data\": [ { \"file_name\": \"20260128_193729.jpg\", \"visual_details\": { \"facial_features\": { \"complexion\": \"干净明亮\", \"eyes\": \"深棕色眼睛，聚焦于镜头\", \"makeup\": \"清淡自然的妆容（裸色口红）\" }, \"hair\": \"黑色，长发，中分\", \"outfit\": { \"color\": \"深红色（深红/栗色）\", \"material\": \"羊毛或有纹理的面料（针织）\", \"style\": \"长袖 V 领裹身款式\" }, \"environment\": { \"lighting\": \"柔和的阳光在脸部一侧形成阴影\", \"atmosphere\": \"宁静祥和的环境\" } } }, { \"file_name\": \"20260128_193726.jpg\", \"visual_details\": { \"facial_features\": { \"expression\": \"严肃但迷人\", \"gaze\": \"直视镜头\" }, \"hair\": \"黑色头发散落在肩上\", \"outfit_variation\": { \"design\": \"现代设计，带前部镂空细节\", \"texture\": \"罗纹或叠层织物\" }, \"cinematography\": { \"focus\": \"主体对焦清晰\", \"depth_of_field\": \"景深较浅（背景相当模糊）\", \"color_palette\": \"以红色和金色为主\" } } } ] }",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774303949426-z27byf1d-1.jpg",
+              "classification": {
+                "method": "semantic_refine",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "大类内二次判别：crafts_textile 置信 0.89 / 领先 0.78",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_textile",
+                    "name": "纺织刺绣"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.8898,
+                  "runner_up": "crafts_fiber"
+                },
+                "previous_location": "crafts/crafts_pending"
+              }
+            },
+            {
+              "id": "opennana_cozy-selfie-burgundy-girl",
+              "name": "酒红针织少女的温馨自拍",
+              "type": "prompt",
+              "prompt": "{subject}, 一位年轻女性在室内随意自拍的超逼真肖像，附近窗户透进柔和的自然日光，棕色长卷发偏向一侧，清澈的蓝色眼睛，眉毛清晰，淡雅的自然妆容，轻微的雀斑，身穿合身罗纹长袖酒红色上衣，佩戴精致串珠项链和小巧耳坠，表情轻松自信，头部略微倾斜，背景是舒适简约的卧室，白色墙壁和房门，景深较浅，皮肤纹理细节丰富，电影般的柔和光线，单反相机画质，50mm 镜头，真实的色彩分级。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775074915712-44yk4gbh-1.jpg",
+              "classification": {
+                "method": "semantic_refine",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "大类内二次判别：crafts_textile 置信 1.00 / 领先 1.00",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_textile",
+                    "name": "纺织刺绣"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 1.0,
+                  "runner_up": null
+                },
+                "previous_location": "crafts/crafts_pending"
+              }
+            },
+            {
+              "id": "opennana_bohemian-floral-crochet-portrait",
+              "name": "波西米亚风情花卉钩针少女特写",
+              "type": "prompt",
+              "prompt": "{subject}, 提示 1： “生成一张艺术特写，描绘一位面容精致、肤色浅棕带暖调、深棕色眼睛、神情宁静而诱惑的女性。她留着一头黑色长发，自然卷曲，略显凌乱，披散在肩上。她身穿一套精致的钩针编织服装，波西米亚浪漫风格：浅粉色无肩带上衣，胸部饰有彩色立体花朵（橙色、粉色、蓝色、黄色），蕾丝钩针宽松袖子，搭配同款带花朵装饰的半身裙。佩戴金色花朵造型耳环，呈柔和色调。摆出双手姿势。背景是纹理粉色墙壁，营造出复古而富有诗意的氛围。柔和、漫射的灯光，自然光线，增强皮肤和织物纹理。时尚杂志风格，高分辨率，浅景深，面部清晰对焦，色彩柔和和谐，浪漫美学，波西米亚风，春日，专业摄影，超细节。生成一张逼真的照片。光照/照明：柔和、漫射的阳光，黄金时段；面部高光带柔和阴影，8K HDR 呈现逼真深度。构图/取景：9:16 垂直构图，聚焦面部和上半身，可用于完美面部替换。请勿改变我的脸。” 提示 2： “超逼真的 8K 街头肖像，保留参考图中女孩的面部特征。时尚的户外拍摄：女孩靠在米色纹理灰泥墙上，在明亮的阳光下，姿态放松，头部后仰，眼睛半闭，表情享受温暖。身穿时尚的鼠尾草绿薄荷色套装：扭结长袖露脐上衣，露出中腹，迷你裙腰部有丁字裤带细节。晒伤妆容：古铜粉，强力高光，裸色哑光唇，轮廓分明的颧骨。头发扎成凌乱发髻，脸颊两侧有松散的波浪形发丝。背景：粗糙的灰泥墙，树叶投下清晰的植物阴影。相机：富士 X-T4，柯达金 200 胶片模拟，高光圈 f/8 以获得背景清晰度。光照：中午刺眼的阳光，高对比度光影模式，皮肤和墙壁上清晰的植物阴影。暖黄色调，夏日氛围，高清晰度，杂志美学。中景构图，纹理墙壁充满画面。--ar 4:5 --style raw --v 6.0” 提示 3： “使用上传的图片作为人物参考。创作一个甜美、可爱、年轻的女孩，姿态放松慵懒，表情丰富。 她抱着她的波斯小猫，周围环绕着许多绿色植物。图像应具有触感、沉浸感和氛围感，带有超现实的精致感和微妙的运动模糊。女孩留着柔软的黑色头发，自然造型，不对称构图，左右顾盼，发型应能增强情绪。她的妆容甜美自然，面部特征精致逼真。 灯光应柔和温暖，她身后有一个橙色灯泡，营造出柔和的橙色光线。”",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774199035368-zgm3jk1f-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_textile",
+                    "name": "纺织刺绣"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_white-knit-blonde-aesthetic-selfie",
+              "name": "穿白色针织衫的金发少女高角度唯美自拍",
+              "type": "prompt",
+              "prompt": "{subject}, json { \"prompt_type\": \"image_generation\", \"subject\": { \"demographics\": \"{argument name=\\\"demographics\\\" default=\\\"年轻女性，大约 20 多岁\\\"}\", \"hair\": { \"color\": \"{argument name=\\\"hair color\\\" default=\\\"金色，带有较浅的挑染和较深的根部\\\"}\", \"style\": \"{argument name=\\\"hair style\\\" default=\\\"长而蓬松的波浪，中分，丰盈有质感\\\"}\", \"texture\": \"柔软，略显凌乱/蓬松\" }, \"face\": { \"skin_tone\": \"浅/白皙肤色，暖色调\", \"eyes\": \"{argument name=\\\"eye color\\\" default=\\\"大眼睛，浅蓝灰色，睫毛突出\\\"}\", \"eyebrows\": \"眉形清晰，有弧度，自然棕色\", \"lips\": \"饱满，柔和的粉色/裸色，中性表情\", \"makeup\": \"自然“裸妆”效果，强调睫毛， subtle 高光\" } }, \"apparel\": { \"top\": { \"item\": \"罗纹针织开衫或上衣\", \"color\": \"白色\", \"details\": \"长袖，纽扣前襟（小白色纽扣），修身，圆领/V 领\" }, \"bottom\": { \"item\": \"牛仔裤\", \"color\": \"浅蓝色水洗\", \"visibility\": \"腰带和上半部分可见\" }, \"accessories\": [ \"细银链项链，带小吊坠\" ] }, \"pose_and_framing\": { \"type\": \"自拍\", \"angle\": \"高角度（相机举过脸部向下拍摄）\", \"framing\": \"特写肖像至上半身\", \"body_position\": \"手臂伸出画面外握持相机，头部略微向上倾斜对着镜头\", \"gaze\": \"与相机镜头直接眼神接触\" }, \"environment\": { \"setting\": \"室内走廊或门厅\", \"flooring\": \"高光黑色方块瓷砖\", \"background_elements\": [ \"左侧的白色门框和门\", \"背景中相邻走廊可见木地板\", \"白色踢脚线和墙壁\", \"背景走廊中模糊的鞋子\" ] }, \"technical_details\": { \"camera_model\": \"智能手机相机（例如 iPhone 13 Pro 前置摄像头）\", \"lens\": \"广角镜头，约 23mm 等效焦距\", \"aperture\": \"f/2.2\", \"shutter_speed\": \"1/60s\", \"iso\": \"ISO 100\", \"white_balance\": \"自动白平衡，略偏冷的室内日光\", \"lighting\": \"柔和、漫射的前置照明（讨人喜欢的美容光）\", \"focus\": \"眼睛和面部对焦清晰，景深较浅\", \"resolution\": \"高分辨率数字拍摄\" } }",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1773016513722-huvpn36a-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_textile",
+                    "name": "纺织刺绣"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_classic-sports-crochet-diorama",
+              "name": "经典体育瞬间的钩针立体画",
+              "type": "prompt",
+              "prompt": "{subject}, 2x2网格，对4个著名体育时刻执行此操作 <crochet_lace>\nMATERIAL: 精细的棉钩线和精致的蕾丝工艺。\nFINISH: 复杂的环状针脚、镂空图案、柔软的哑光质感。\nFLAW: 被勾住的纱线散开成长长的线头以及图案中撕裂的破洞。\n</crochet_lace>\n\n<instructions: input=[topic]\n分析输入的中心主体、动作、环境和焦点。 $ scene=一个定格的动态3D桌面立体模型，展现输入的高潮时刻，主体处于巅峰动作状态，带有相关的环境和道具。 Function Draw($scene){<transformation>\n- 将所有主体和有机形态转化为复杂的环状棉钩线和精致的蕾丝工艺。\n- 将所有环境元素和道具转化为镂空图案和柔软的哑光针脚。\n- 表面呈现被勾住的纱线散开成长长的线头以及暴力撕裂的图案破洞。\n-保留极端的动态运动、张力和角度\n</transformation> Output: one image} </instructions>",
+              "negative_prompt": "",
+              "description": "Nano Banana 2",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1777102994785-w7z66ftk-1777102998590-1.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_textile",
+                    "name": "纺织刺绣"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_hand-embroidery-textured-portrait",
+              "name": "手工刺绣质感肖像",
+              "type": "prompt",
+              "prompt": "{subject}, 把我上传的照片变成用彩色线绣成的刺绣艺术，可见的针脚，织物纹理。使用分层的线方向来定义面部轮廓和深度。用密集的缎面针脚表现高光，用精细的回针表现阴影。在将细节转化为针线工艺的同时，保持现实主义的面部比例。将肖像置于紧密编织的画布织物上，边缘略带磨损。柔和的工作室灯光以增强线的光泽、质感和手工制作的真实感",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202601/1768919165682-pa6e4mor-1.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_textile",
+                    "name": "纺织刺绣"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_photo-to-handcrafted-embroidery-art-transformation",
+              "name": "手工刺绣风格照片转换艺术",
+              "type": "prompt",
+              "prompt": "{subject}, 使用上传的照片作为构图、姿势、面部表情、取景、摄像机角度和整体排列的准确参考。完全保留这对夫妇的身份、服装、发型和背景位置，但将整个图像转化为一件豪华的手工刺绣艺术品。每一个可见的元素——包括皮肤、头发、衣服、智能手机、天空、云朵、树木和背景——都必须完全由粗纱线、编织纤维、密集的针脚、戳戳绣、簇绒织物和分层的线圈重新创作。创造出丰富的体积感线条纹理，具有高度详细的刺绣轮廓、可见的织物纹理、柔软的羊毛纤维、针织表面和手工纺织深度。使用写实的色彩匹配，同时保持温暖、舒适、具有细微柔和色调的匠人美学。艺术品应类似于博物馆级的优质绣花挂毯，具有复杂的针脚方向、凸起的线条浮雕和触感真实的织物。在右下角添加一个圆角插图小图，完全按照上传的样子显示原始参考图，创造清晰的前后对比。超详细，手工纺织插画，优质刺绣艺术，写实的线条细节，高度触感的表面，杰作质量，8K。",
+              "negative_prompt": "",
+              "description": "Nano Banana 2",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202607/1784045063204-zq1dw2vh-1784045064576-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_textile",
+                    "name": "纺织刺绣"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_pastel-pink-saree-portrait",
+              "name": "淡粉纱丽刺绣柔美全身肖像",
+              "type": "prompt",
+              "prompt": "{subject}, { \"image_type\": \"影棚肖像照\", \"resolution_target\": \"8K\", \"aspect_ratio\": \"约 3:4（垂直）\", \"camera_framing\": { \"shot_type\": \"全身肖像\", \"orientation\": \"垂直\", \"subject_position\": \"居中，身体略微倾斜\" }, \"subject\": { \"gender_presentation\": \"女性\", \"pose\": { \"body_orientation\": \"身体略微向观者左侧倾斜\", \"weight_distribution\": \"重心放在一条腿上\", \"hands\": { \"position\": \"双手在腰部轻轻合拢\", \"gesture\": \"放松、自然\" }, \"shoulders\": \"放松\", \"head_tilt\": \"头部略微倾斜\" }, \"facial_expression\": { \"emotion\": \"柔和、平静的微笑\", \"mouth\": \"闭口微笑\", \"eyes\": \"睁开、放松，略微看向镜头\" } }, \"hair\": { \"color\": \"黑色\", \"style\": \"整齐地向后梳理并扎起\", \"parting\": \"中分\", \"finish\": \"光滑、有光泽\", \"flyaways\": \"几乎没有碎发\" }, \"face_details\": { \"skin_texture\": \"光滑\", \"makeup\": { \"base\": \"均匀、自然的底妆\", \"blush\": \"柔和的粉色调腮红\", \"lip_color\": \"自然粉色唇妆\", \"eye_makeup\": \"精致的眼线和睫毛膏\", \"eyebrows\": \"眉形良好，粗细自然\" } }, \"outfit\": { \"primary_garment\": \"纱丽 (saree)\", \"saree_color\": \"柔和的淡粉色\", \"fabric_appearance\": \"轻薄、半透明\", \"embellishments\": { \"type\": \"花卉刺绣\", \"thread_color\": \"浅金色和柔和的绿色\", \"distribution\": \"均匀分布在纱丽上，包括褶皱和垂坠部分\", \"finish\": \"精致、复杂\" }, \"blouse\": { \"color\": \"同色系淡粉色\", \"design\": \"无袖\", \"neckline\": \"宽领口\", \"fit\": \"修身\" }, \"drape_details\": { \"pallu\": { \"position\": \"披在右肩上\", \"length\": \"长，向下延伸\", \"flow\": \"柔软、垂直垂坠\" }, \"pleats\": \"正面可见，排列整齐\" } }, \"accessories\": { \"earrings\": { \"type\": \"长款垂坠耳环\", \"color\": \"金色底座，带粉色点缀\", \"length\": \"延伸至下颌线以下\" }, \"rings\": { \"count\": \"多枚\", \"placement\": \"双手手指\", \"style\": \"简约、极简\" }, \"footwear\": { \"type\": \"露趾高跟鞋\", \"color\": \"中性米色\", \"heel_visibility\": \"部分可见\" } }, \"lighting\": { \"type\": \"柔和的影棚灯光\", \"direction\": \"均匀正面照明\", \"shadows\": \"极少，柔和\", \"highlights\": \"面部和织物上有柔和的高光\" }, \"background\": { \"type\": \"影棚背景\", \"color\": \"浅灰色\", \"texture\": \"平滑渐变\", \"details\": \"无可见物体或图案\" }, \"image_quality\": { \"sharpness\": \"高\", \"noise\": \"无可见噪点\" } }",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775055026212-9emy0d86-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_textile",
+                    "name": "纺织刺绣"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_fluffy-crochet-cat-closeup",
+              "name": "超萌毛线质感钩针编织猫咪特写",
+              "type": "prompt",
+              "prompt": "{subject}, 一只可爱、圆润、毛茸茸的钩针玩偶（amigurumi），是猫的形象。纹理应清晰展现毛线和钩针针法。柔和、温暖的灯光。马卡龙色调。特写镜头，景深较浅。高质量，细节丰富。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774116780594-p1aff7xu-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_textile",
+                    "name": "纺织刺绣"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_yarn-crochet-cozy-airport",
+              "name": "毛线编织的治愈系微缩机场",
+              "type": "prompt",
+              "prompt": "{subject}, 一个高度精细的微缩立体模型，完全由钩针和编织玩偶纱线制成，风格奇特可爱，特色包括：一座高高的 薄荷绿 钩针机场控制塔，带有白色装饰和顶部的天线；一辆小型青色钩针露营车，车顶载有行李，行驶在钩针道路上；一辆迷你钩针蓝色老爷车；一架大型钩针客机停靠在橙色灯光的航站楼旁；背景是钩针城市天际线，高楼林立；日落天空，伴有柔和的云朵和黄金时段的光线；地面上有迷你钩针雏菊和草地；随处可见纹理分明的纱线针脚；舒适的手工工艺美学；柔和的马卡龙色调；梦幻般的温暖氛围；微距摄影风格；焦外虚化背景；超精细；可爱迷人。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774975672429-ss8nmn1r-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_textile",
+                    "name": "纺织刺绣"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_intricate-javanese-mythical-batik",
+              "name": "繁复绚丽的爪哇神话蜡染纹理",
+              "type": "prompt",
+              "prompt": "{subject}, 一个高度细致、错综复杂、色彩鲜艳的蜡染图案，描绘了 神话生物，具有传统的爪哇图案、丰富的靛蓝色、索加棕色和白色，以超现实的纺织品般纹理呈现，高分辨率，影棚灯光，锐利聚焦，artstation，artstation 热门。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774227542537-5ufcbh54-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_textile",
+                    "name": "纺织刺绣"
+                  }
+                ]
               }
             }
           ]
@@ -1101,7 +1432,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：木雕 / 木雕",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_wood",
+                    "name": "木作雕刻"
+                  }
+                ]
               }
             },
             {
@@ -1119,7 +1456,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：木雕 / 木雕",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_wood",
+                    "name": "木作雕刻"
+                  }
+                ]
               }
             }
           ]
@@ -1128,24 +1471,6 @@
           "id": "crafts_metal",
           "name": "金属工艺",
           "presets": [
-            {
-              "id": "opennana_minimal-gold-enamel-pin",
-              "name": "极简桌面上的金色珐琅徽章",
-              "type": "prompt",
-              "prompt": "{subject}, 只将主体变成金色珐琅徽章。这是一张徽章放在桌上的简约照片，没有其他物品。",
-              "negative_prompt": "",
-              "description": "Nano banana pro",
-              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775083755853-8j3v2m24-1.jpg",
-              "classification": {
-                "method": "rules",
-                "stage": "title",
-                "resolution": "resolved",
-                "status": "suggested",
-                "reason": "标题规则证据：珐琅 / 珐琅",
-                "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
-              }
-            },
             {
               "id": "opennana_exquisite-enamel-west-lake-fridge-magnet",
               "name": "精致珐琅彩西湖冰箱贴设计",
@@ -1161,7 +1486,37 @@
                 "status": "suggested",
                 "reason": "标题规则证据：珐琅 / 珐琅",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_metal",
+                    "name": "金属工艺"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_plaster-relief-light-shadow",
+              "name": "石膏浮雕光影艺术",
+              "type": "prompt",
+              "prompt": "{subject}, 将图像转化为石膏浮雕雕塑。\n凸起形态从平面浮现。\n柔和哑光白色纹理，带有微妙瑕疵。\n画廊风格雕塑艺术品。\n微妙的定向照明以强调深度与阴影。\n手工完成，可见工具痕迹与有机表面变化。\n极简中性背景，增强雕塑存在感。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202601/1769503939746-jpdl2nqa-1.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_metal",
+                    "name": "金属工艺"
+                  }
+                ]
               }
             }
           ]
@@ -1185,7 +1540,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：羊毛毡 / 羊毛毡",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_fiber",
+                    "name": "毛毡绳结"
+                  }
+                ]
               }
             },
             {
@@ -1203,7 +1564,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：羊毛毡 / 羊毛毡",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_fiber",
+                    "name": "毛毡绳结"
+                  }
+                ]
               }
             },
             {
@@ -1221,7 +1588,13 @@
                 "status": "suggested",
                 "reason": "标题规则证据：羊毛毡 / 羊毛毡",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_fiber",
+                    "name": "毛毡绳结"
+                  }
+                ]
               }
             },
             {
@@ -1239,7 +1612,571 @@
                 "status": "suggested",
                 "reason": "标题规则证据：羊毛毡 / 羊毛毡",
                 "taxonomy_version": "1.1.0",
-                "rules_version": "1.1.2+content-1.1.0"
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_fiber",
+                    "name": "毛毡绳结"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_hard-machinery-as-soft-wool",
+              "name": "坚硬机械化身温暖柔软的羊毛织物",
+              "type": "prompt",
+              "prompt": "{subject}, 一个 [物体]，看起来像是完全由粗羊毛线手工编织而成，尽管是柔软的手工艺品，却具有不可思议的功能性。针脚清晰可见，握持区域有麻花编织图案，需要灵活性的地方有罗纹，线头收得整整齐齐。置于舒适的生活场景背景下，或干净的羊毛纹理工作室中。斯堪的纳维亚的“Hygge”风格与工业设计相遇。温暖柔和的灯光强调了纱线纹理、手工品质以及机械的荒谬舒适感。锐利聚焦于针脚细节，温暖饱和的纤维色彩，生活产品美学，超高分辨率，将坚硬化为柔软。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774214852108-4lvum6qs-1.jpg",
+              "classification": {
+                "method": "semantic_refine",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "大类内二次判别：crafts_fiber 置信 0.49 / 领先 0.15",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_fiber",
+                    "name": "毛毡绳结"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.4858,
+                  "runner_up": "crafts_textile"
+                },
+                "previous_location": "crafts/crafts_pending"
+              }
+            },
+            {
+              "id": "opennana_soft-wool-boat-moon",
+              "name": "凝脂羊毛微型制品",
+              "type": "prompt",
+              "prompt": "{subject}, {\n  \"master_prompt\": {\n    \"global_settings\": {\n      分辨率：8K，\n      \"aspect_ratio\": \"2:3\",\n      \"render_style\": \"AI 编辑的超清晰柔和电影级景深\",\n      \"material_style\": \"针毡羊毛/软纤维微型制品\",\n      “照明”：“柔和的漫射光，\n      没有生硬的阴影”，\n      “焦点”：“浅景深，\n      背景虚化柔和”，\n      \"color_grading\": \"柔和、柔和、平静的色调\",\n      “噪音”： “无”，\n      \"artifacts\": \"无\"\n    },\n    \"module_1\": {\n      “身份”：“图像 1 – 船景（正面视图）” “主题”：{\n        \"primary_character\": {\n          “形状”：“类人毛毡娃娃”，\n          “头部”：“圆形，\n          白色羊毛质地，\n          卷曲的羊毛毛发”，\n          “脸”：“两只小小的黑点眼睛，\n          简单的弧形微笑，\n          脸颊上泛着淡淡的粉红色”，\n          “服装”：“浅绿色针织毛衣”，\n          “姿势”：“坐姿，\n          双手握住木桨”\n        },\n        \"secondary_character\": {\n          “物种”: “兔子” “材质”: “白色毡羊毛” “脸部”：“黑点状眼睛，\n          微微一笑”，\n          “姿势”：“端坐在主角旁边”\n        }\n      },\n      “环境”： {\n        “船”： “边缘圆润的柔软绿色毛毡船”，\n        “水”: “平静的水面泛着淡淡的涟漪” “前景”：“模糊的白色花瓣部分可见”，\n        “背景”： {\n          天空：蓝绿色渐变，\n          “月亮”： “柔和的圆形光形，\n          略微模糊”，\n          “植被”：“圆形的绿色毡状灌木”\n        }\n      },\n      “相机”： {\n        “角度”: “视线水平” “距离”：“中近景”，\n        “焦点”： “人物清晰，\n        背景模糊”\n      }\n    },\n    \"module_2\": {\n      “身份”：“图片 2 – 湖边钓鱼（后视图）” “主题”：{\n        \"primary_character\": {\n          “形状”：“类人毛毡娃娃”，\n          颜色：柔和的蓝色羊毛质感，\n          “姿势”：“坐着，\n          背对镜头”，\n          “动作”： “手持细长的鱼竿，\n          竿尖指向水面”\n        },\n        \"secondary_character\": {\n          “物种”: “小羊羔” “材质”: “白色毡羊毛” “姿势”：“坐在主角旁边，\n          面向湖泊”\n        }\n      },\n      “环境”： {\n        “地面”： “圆润的草坡”，\n        “水”: “静止的湖面”，\n        “背景”： {\n          “风景”：“柔和模糊的绿色山丘”，\n          天空：浅蓝色，\n          飘着淡淡的白云\n        }\n      },\n      “相机”： {\n        \"角度\": \"后视图\",\n        “距离”：“中等宽度”，\n        “焦点”：主体比背景略微清晰\n      }\n    },\n    \"module_3\": {\n      “身份”：“图像 3 – 绵羊小径” “主题”：{\n        \"primary_character\": {\n          “形状”：“类人毛毡娃娃”，\n          “头”： “圆形白色羊毛头”，\n          “服装”：“红色毛毡毛衣，\n          绿色裤子”，\n          “姿势”：“双手背在身后的站立姿势”，\n          “朝向”: “背对镜头”\n        },\n        “动物”： [\n          {\n            “物种”: “绵羊” “材质”: “白色毡羊毛” “数量”： “多个”，\n            “位置”：“分布在路径的两侧”\n          }\n        ]\n      },\n      “环境”： {\n        “小路”: “弯曲的白色毡布小路”，\n        “地形”：“连绵起伏的绿色山丘”，\n        “背景”： {\n          “树”： “圆锥形深绿色毛毡树”，\n          天空：浅灰白渐变\n        }\n      },\n      “相机”： {\n        “角度”：“略微抬高”，\n        “距离”：“中景”，\n        “焦点”： “主体清晰，\n        背景虚化柔和”\n      }\n    }",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202601/1769090089760-bblvbrds-1.jpeg",
+              "classification": {
+                "method": "semantic_refine",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "大类内二次判别：crafts_fiber 置信 0.55 / 领先 0.33",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_fiber",
+                    "name": "毛毡绳结"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.5507,
+                  "runner_up": "crafts_textile"
+                },
+                "previous_location": "crafts/crafts_pending"
+              }
+            },
+            {
+              "id": "opennana_prompt-697",
+              "name": "毛毡材质玩具",
+              "type": "prompt",
+              "prompt": "{subject}, 全身[主题]玩具，[属性/配件]，[表情]，毛毡材质，在[地点]，[灯光]中，友好卡通的外观，丰富柔软的质感。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/697.jpeg",
+              "classification": {
+                "method": "semantic_refine",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "大类内二次判别：crafts_fiber 置信 0.65 / 领先 0.52",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_fiber",
+                    "name": "毛毡绳结"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.6523,
+                  "runner_up": "crafts_wood"
+                },
+                "previous_location": "crafts/crafts_pending"
+              }
+            },
+            {
+              "id": "opennana_warm-healing-crochet-scissor-doll",
+              "name": "温暖治愈系的毛线钩针剪刀手公仔",
+              "type": "prompt",
+              "prompt": "{subject}, 剪刀手，钩织玩偶风格，毛线带来的温暖，圆润饱满的造型，可爱，pale color",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774121689311-tlj8tm0f-1.jpg",
+              "classification": {
+                "method": "semantic_refine",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "大类内二次判别：crafts_fiber 置信 0.53 / 领先 0.25",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_fiber",
+                    "name": "毛毡绳结"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.5259,
+                  "runner_up": "crafts_paper"
+                },
+                "previous_location": "crafts/crafts_pending"
+              }
+            },
+            {
+              "id": "opennana_prompt-1119",
+              "name": "微距棚拍的羊毛毡针毡Q版公仔",
+              "type": "prompt",
+              "prompt": "{subject}, 微距棚拍的羊毛毡针毡Q版公仔【主题】，圆润大头小短腿、闭眼微笑淡腮红，【马卡龙配色】，手作毛毡质感细腻干净；竖版3:4，主体居中全身入镜；大光圈浅景深，背景强烈虚化bokeh，柔和均匀影棚光；无文字无水印无多余元素。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/1119.jpeg",
+              "classification": {
+                "method": "semantic_refine",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "大类内二次判别：crafts_fiber 置信 0.57 / 领先 0.40",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_fiber",
+                    "name": "毛毡绳结"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.5718,
+                  "runner_up": "crafts_paper"
+                },
+                "previous_location": "crafts/crafts_pending"
+              }
+            },
+            {
+              "id": "opennana_cozy-needle-felted-macro",
+              "name": "捕捉温馨手作感逼真羊毛毡产品微距摄影",
+              "type": "prompt",
+              "prompt": "{subject}, { \"prompt\": \"一张逼真的、针毡工艺的产品雕塑，根据照片制作，以异想天开的风格，通过高细节微距摄影棚拍摄。\", \"subject\": { \"type\": \"针毡雕塑\", \"based_on\": \"{argument name=\\\"product type\\\" default=\\\"用户提供的产品照片\\\"}\", \"material\": \"柔软羊毛毡\", \"attributes\": [ \"蓬松的质感\", \"手工毡制细节\", \"柔和的边缘\", \"舒适的外观\", \"3D 效果\" ] }, \"photography\": { \"shot_type\": \"摄影棚拍摄\", \"focus\": \"微距对焦\", \"detail_level\": \"高细节\" }, \"lighting\": { \"type\": \"柔和、漫射光\", \"mood\": \"温暖而轻柔\" }, \"setting\": { \"background\": \"简约、纯色柔和背景\" }, \"aesthetics\": { \"overall_style\": \"异想天开且迷人\" }, \"parameters\": { \"aspect_ratio\": \"4:5\" } }",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774141890082-jfnoo9wa-1.jpg",
+              "classification": {
+                "method": "semantic_refine",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "大类内二次判别：crafts_fiber 置信 0.54 / 领先 0.31",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_fiber",
+                    "name": "毛毡绳结"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.541,
+                  "runner_up": "crafts_paper"
+                },
+                "previous_location": "crafts/crafts_pending"
+              }
+            },
+            {
+              "id": "opennana_felt-fabric-forest-fairy-tale",
+              "name": "毛毡与布艺编织的森林童话奇遇",
+              "type": "prompt",
+              "prompt": "{subject}, 一个异想天开的场景，描绘了 [小红帽在森林里遇到大灰狼]，完全由毛绒玩具、毛毡和柔软的织物构成。角色被设计成可爱的填充玩偶，带有可见的缝线、纽扣眼睛和毛茸茸的质感。环境是一个手工制作的立体模型：树木由有纹理的绿色织物和棕色灯芯绒制成，地面是柔软的羊毛，细节部分由棉花制成。微距摄影、移轴效果、景深、触感纹理、影棚灯光、舒适的氛围、高分辨率、8k。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774127621573-x7z0yb0p-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_fiber",
+                    "name": "毛毡绳结"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_felt-celebrity-miniature-adventure",
+              "name": "毛毡玩偶巨星奇遇记",
+              "type": "prompt",
+              "prompt": "{subject}, 一幅手工毡制迷你插画，将[名人]重新想象为柔软的羊毛娃娃角色。该人偶拥有简化的面部特征、纽扣般的眼睛、淡淡的微笑以及精心制作的毡制纹理。他穿着受他标志性休闲科技风格启发的服装——深色夹克、简单T恤和长裤——用针织羊毛和布料重新打造。场景具有异想天开、故事书般的感觉，有毡制草质地形、柔和的山丘和带有柔软云朵的明亮天空。微距摄影外观、浅景深、柔和自然光线、定格动画美学、超细节纤维和布料纹理、舒适而未来主义的氛围、电影构图、高品质。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202601/1768489933130-4lme79ei-1.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_fiber",
+                    "name": "毛毡绳结"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_healing-felt-heart-blue-butterflies",
+              "name": "治愈系毛毡心脏与飞舞的蓝色蝴蝶",
+              "type": "prompt",
+              "prompt": "{subject}, { \"image_type\": \"艺术纺织品摄影\", \"editing_style\": \"AI 编辑，超干净，高细节\", \"resolution\": \"8K\", \"aspect_ratio\": \"3:4\", \"orientation\": \"垂直\", \"camera_view\": \"俯视平铺\", \"lighting\": { \"type\": \"柔和漫射光\", \"direction\": \"均匀的顶灯\", \"shadows\": \"非常柔和，极少，自然的织物阴影\", \"contrast\": \"低到中等对比度\" }, \"background\": { \"material\": \"浅米色织物\", \"texture\": \"柔软，略带褶皱的纺织品表面\", \"pattern\": \"无图案，均匀织物\", \"color\": \"暖米色\" }, \"top_element\": { \"object_type\": \"矩形毛毡布匾\", \"position\": \"顶部中央\", \"orientation\": \"水平\", \"material\": \"毛毡或羊毛纺织品\", \"color\": \"深海军蓝\", \"border\": { \"style\": \"刺绣缝线\", \"color\": \"白色\", \"shape\": \"带圆角的矩形\" }, \"text\": { \"language\": \"阿拉伯语\", \"content\": \"فَإِنَّ مَعَ الْعُسْرِ يُسْرًا\", \"style\": \"刺绣书法\", \"color\": \"白色\", \"alignment\": \"居中\", \"decorative_elements\": { \"left_symbol\": \"小型花卉或装饰图案\", \"right_symbol\": \"小型花卉或装饰图案\", \"color\": \"白色\" } }, \"texture_detail\": \"可见的纤维股，柔软的毛毡绒毛\" }, \"main_subject\": { \"object_type\": \"解剖学人体心脏雕塑\", \"material\": \"毛毡羊毛或纺织纤维\", \"position\": \"图像下半部分的中央\", \"scale\": \"相对于画面中等偏大\", \"color\": { \"primary\": \"深红色\", \"secondary\": \"深蓝色线细节\" }, \"texture\": { \"surface\": \"柔软，纤维状，手工毛毡质感\", \"stitching\": \"可见的缝线和线迹\" }, \"anatomy_details\": { \"heart_shape\": \"逼真的解剖形态\", \"arteries_and_veins\": { \"style\": \"缝线\", \"color\": \"深蓝色\", \"distribution\": \"分支遍布心脏表面\" } } }, \"butterfly_elements\": { \"object_type\": \"织物蝴蝶\", \"material\": \"毛毡或羊毛\", \"color\": \"浅蓝色\", \"texture\": \"柔软，毛绒纺织品\", \"distribution\": { \"location\": \"从心脏左侧涌出\", \"density\": \"簇状，分层\", \"direction\": \"向左外流\" }, \"attachment\": \"视觉上与心脏静脉相连\", \"sizes\": \"小到中等，略有差异\", \"details\": { \"wings\": \"圆形，折叠的毛毡形状\", \"centers\": \"深蓝色结或缝线\" } }, \"lower_detail\": { \"object_type\": \"悬挂的纸条\", \"position\": \"附着在心脏底部\", \"material\": \"薄纸\", \"color\": \"米白色\", \"text\": { \"presence\": \"有\", \"legibility\": \"非常小，看不清楚\", \"color\": \"深灰色或黑色\" } } }",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775058105765-2ltn96rw-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_fiber",
+                    "name": "毛毡绳结"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_pixar-felt-stop-motion-character",
+              "name": "皮克斯风毛毡定格动画角色",
+              "type": "prompt",
+              "prompt": "{subject}, 将上传的图片转化为风格化的 3D 黏土动画角色。柔软的毛毡/毛绒质感皮肤，圆润夸张的面部特征，大而富有表现力的眼睛，浓密柔软的眉毛，略微偏大的鼻子，脸颊上带有温暖的腮红。俏皮的张嘴表情。干净纯白的摄影棚背景。柔和漫射的摄影棚灯光，微妙的轮廓光，浅景深。皮克斯风格的魅力，定格动画美学，高度精细的纤维和柔软材质，电影级渲染，温暖活泼的色调。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775080404766-jm7gktbd-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_fiber",
+                    "name": "毛毡绳结"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_warm-healing-felt-product-macro",
+              "name": "温馨治愈感羊毛毡产品微距特写",
+              "type": "prompt",
+              "prompt": "{subject}, { \"prompt\": \"一张逼真的、针毡工艺的产品雕塑，根据照片制作，以异想天开的美学风格，通过高细节微距工作室拍摄捕捉。\", \"subject\": { \"type\": \"针毡雕塑\", \"based_on\": \"{argument name=\\\"product source\\\" default=\\\"用户提供的产品照片\\\"}\", \"material\": \"柔软羊毛毡\", \"attributes\": [ \"蓬松的质感\", \"手工毡制细节\", \"柔和的边缘\", \"舒适的外观\", \"3D 效果\" ] }, \"photography\": { \"shot_type\": \"工作室拍摄\", \"focus\": \"微距对焦\", \"detail_level\": \"高细节\" }, \"lighting\": { \"type\": \"柔和、漫射光\", \"mood\": \"温暖而轻柔\" }, \"setting\": { \"background\": \"简约、纯色柔和背景\" }, \"aesthetics\": { \"overall_style\": \"异想天开且迷人\" }, \"parameters\": { \"aspect_ratio\": \"4:5\" } }",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774119121975-886ng1wt-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_fiber",
+                    "name": "毛毡绳结"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "crafts_pending",
+          "name": "crafts_pending",
+          "presets": []
+        },
+        {
+          "id": "crafts_clay",
+          "name": "陶瓷黏土",
+          "presets": [
+            {
+              "id": "opennana_frozen-divinity-ceramic-gold",
+              "name": "冰封神颜：陶瓷金丝交织的神性之美",
+              "type": "prompt",
+              "prompt": "{subject}, { \"vibe_title_en\": \"冰霜神性\", \"master_prompt\": \"使用哈苏 H6D-100c 相机和 80mm f/1.9 镜头拍摄的主人公的低角度、不朽肖像。主体佩戴着一个物理上不可能存在的高级定制“活霜”面具——由白色陶瓷花丝和金线构成的密集、无序的网络，像冰冻的珊瑚一样自然地生长在眼睛和颧骨上。面具的纹理超真实，展现出微观的霜晶和物理重量。主体保持着“神圣雕塑般的平静”，下巴向上微倾，呈现雕像般的侧面轮廓，表情宁静而静止，凝视着一个神圣的光源。环境是一个“天体工匠的作坊”，一个杂乱、充满氛围的空间，里面充满了悬浮的棱镜、漂浮的钻石尘、悬挂的金链和模糊的机械工具，营造出浓密的背景虚化效果。灯光明亮且高调，但具有体积感；一道穿透性的金色背光（轮廓光）捕捉到白色花丝和漂浮尘埃的边缘，形成光晕效果，而柔和、干净的补光则照亮皮肤，使其看起来像瓷器般光滑。使用柯达 Portra 160 胶片拍摄，以突出奶油般的肤色与锐利、冰冷的白色纹理之间的对比。没有霓虹灯，严格采用自然太阳光和折射光。\", \"meta\": { \"intent\": \"时尚编辑 / 超现实肖像\", \"priorities\": \"纹理保真度、光照对比度、不朽构图\", \"device_profile\": \"高端中画幅摄影\" }, \"frame\": { \"aspect\": \"4:5\", \"composition\": \"低角度雕塑式拍摄\", \"layout\": \"主体居中，背景密集且富有氛围\", \"camera_angle\": \"低角度，向上倾斜（仰视视角约 30 度）\", \"tilt_roll_degrees\": \"0\" }, \"subject\": { \"gender\": \"女性\", \"identity\": \"主人公\", \"demographics\": \"国际高级时装模特\", \"face\": \"无瑕的皮肤纹理，毛孔可见，光线透过时雀斑可见\", \"hair\": \"向后梳理或融入头饰\", \"body\": \"颈部和肩部可见，雕像般的姿态\", \"expression\": \"宁静，神圣的平静，眼睛闭合或向上凝视光源\", \"pose\": \"下巴抬起，头部略微转向侧面，静止不动\" }, \"wardrobe_accessories\": { \"garments\": [ { \"item\": \"结构化衣领\", \"material\": \"白色陶瓷和金色网格\", \"color\": \"白色/金色\", \"fit\": \"建筑感/硬挺\" } ], \"accessories\": [ { \"item\": \"活霜面具\", \"color\": \"冰白色带金色点缀\", \"material\": \"陶瓷、冰、金线\", \"brand_style\": \"前卫高级定制道具\" } ] }, \"environment\": { \"setting\": \"天体工匠的作坊\", \"surfaces\": \"折射玻璃、抛光金属、漂浮颗粒\", \"depth\": \"浅景深 (f/1.9)，背景是工具和光的密集模糊\", \"atmosphere\": \"尘土飞扬\" } }",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774240819253-bbw8wezx-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_clay",
+                    "name": "陶瓷黏土"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-801",
+              "name": "融合了动漫人物素描人物和黏土动画人物",
+              "type": "prompt",
+              "prompt": "{subject}, 一张繁忙咖啡馆早餐日常场景的照片。前景中是一位蓝发动漫人物，其中一个人物是铅笔素描，另一个是黏土动画人物。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/801.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_clay",
+                    "name": "陶瓷黏土"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_claymation-bakery-adventure",
+              "name": "黏土动画面包店奇遇",
+              "type": "prompt",
+              "prompt": "{subject}, 手工黏土动画风格角色，柔软质地与可见指纹。穿着超大针织毛衣、卷边裤和帆布鞋。站在小型面包店外，窗户透出温暖灯光，手持新鲜羊角面包。温馨傍晚氛围，奇幻比例，定格电影美学。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202601/1769439124685-qeclbj4s-1.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_clay",
+                    "name": "陶瓷黏土"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_pixar-clay-miniature-daily-life",
+              "name": "皮克斯风黏土微缩日常世界",
+              "type": "prompt",
+              "prompt": "{subject}, 描绘了 LOCATION 的 DAILY LIFE SCENE 的微型粘土世界。特色包括带有 [ARCHITECTURAL DETAIL] 的 BUILDING TYPE，以及 [FIGURES IN TRADITIONAL DRESS]、[FOOD/MARKET ELEMENT]、[DECORATIVE CULTURAL ITEM] 和 [FLORA/FAUNA]。立体模型置于 [THICKNESS] [MATERIAL] 平台上，带有 [EDGE TREATMENT]。[VIEW ANGLE]，皮克斯风格的粘土渲染，舒适的微缩比例，[LIGHTING DESCRIPTION]，中性背景。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775048986650-fy2b0sxj-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_clay",
+                    "name": "陶瓷黏土"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_white-clay-chinese-garden",
+              "name": "纯白黏土风中式庭院微缩景观",
+              "type": "prompt",
+              "prompt": "{subject}, 一个垂直构图的特写镜头，高角度俯视中国传统园林庭院的一角。一座凉亭由小桥连接，周围环绕着茂密的树木。四分之三透视，微缩效果，黏土渲染风格，单色纯白，浮雕纸张纹理，强环境光遮蔽，柔和的影棚灯光，丰富的建筑细节。--ar 2:3",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775082895464-koldgu1d-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_clay",
+                    "name": "陶瓷黏土"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_glazed-ceramic-pyramid-balance",
+              "name": "釉彩陶瓷金字塔尖端平衡奇观",
+              "type": "prompt",
+              "prompt": "{subject}, #NanoBananaPro #Promptshare OBJECT=一个倒置的金字塔 MATERIAL=高度彩釉陶瓷 CONNECTOR_INSTRUCTION=精确地平衡在 BASE_MATERIAL=一个相同的金字塔，正立 创作一张图片，内容是：一个完全由不同类型的 [MATERIAL] 制成的 [OBJECT]，利用 [MATERIAL] 的各种自然色彩来创造 [OBJECT] 美丽的图案。不要使用任何彩绘颜色或其他物品来制作 [OBJECT]。将完成的 [OBJECT] [CONNECTOR_INSTRUCTION] 一个 [BASE_MATERIAL] 底座上，作为一件展示品。9:16 ar",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1775000084100-eks9wugj-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_clay",
+                    "name": "陶瓷黏土"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-1092",
+              "name": "治愈系黏土微缩世界",
+              "type": "prompt",
+              "prompt": "{subject}, 等轴测插画，{城市名称} 大幅地图，广角鸟瞰视角，黏土拟物风格，玩具质感的微缩世界。\n中心区域：以夸张比例绘制 {城市名称} 的标志性地标，醒目排布以界定城市核心位置。\n地理布局：融入城市核心地理结构（如蜿蜒河流、海岸线或主干道系统），贯穿画面以营造视觉动线。\n周边环境：极致密集的城市景观，数以百计色彩缤纷的迷你民居建筑，复杂蜿蜒的道路网络，点缀穿梭其中的玩具质感小车，呈现繁忙交通景象。\n氛围设定：高饱和度明快色彩，整体风格可爱活泼，细节丰富饱满，构图紧凑充实，质感柔和顺滑，搭配环境闭塞阴影，呈现晴朗白昼的明亮效果。\n-- 画面比例 16:9 -- 风格化强度 400",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/1092.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_clay",
+                    "name": "陶瓷黏土"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "crafts_glass",
+          "name": "玻璃工艺",
+          "presets": [
+            {
+              "id": "opennana_glass-horse-to-gold-sunset",
+              "name": "琉璃幻马迎光化金奔入夕阳",
+              "type": "prompt",
+              "prompt": "{subject}, 根据此故事板生成一个 TVC 3D 电影短片。严格遵循分镜，讲述一个半透明蓝色玻璃马雕像，上面装饰着传统花卉图案，在一个风格化的蓝色世界中苏醒，通过光线转化为闪耀的金色，然后驰骋进入金色的日落景观。时长：约 15–20 秒。风格：3D 电影感，光泽半透明材质，体积光。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775060779288-48t4vahr-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_glass",
+                    "name": "玻璃工艺"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "crafts_other",
+          "name": "其他手工艺",
+          "presets": [
+            {
+              "id": "opennana_vintage-polaroid-playful-girl-on-blanket",
+              "name": "散落在羊毛毯上的复古宝丽来俏皮女孩",
+              "type": "prompt",
+              "prompt": "{subject}, { \"prompt\": { \"subject\": { \"description\": \"一组五张复古宝丽来拍立得照片，照片中是同一位年轻的 {argument name=\\\"woman's name\\\" default=\\\"Sadie pink\\\"} 女士，随意地摆放在一个有纹理的表面上。\", \"appearance\": { \"hair\": \"波浪形、挑染的棕色头发。\", \"skin\": \"晒黑的、有光泽的皮肤。\", \"makeup\": \"自然、水润的妆容，眉毛清晰，唇色自然。\", \"clothing\": \"黑色吊带背心。\", \"accessories\": \"金色吊坠项链。\" }, \"poses\": [ { \"photo\": \"左上角\", \"description\": \"眨眼，吐舌头，比划胜利手势。\" }, { \"photo\": \"右上角\", \"description\": \"飞吻。\" }, { \"photo\": \"中央\", \"description\": \"看向镜头外，手托着脸颊。\" }, { \"photo\": \"左下角\", \"description\": \"做亲吻表情，比划胜利手势。\" }, { \"photo\": \"右下角\", \"description\": \"开怀大笑，头微倾。\" } ] }, \"environment\": { \"surface\": \"厚实的米色针织羊毛毯，带有纹理的针织图案。\", \"details\": \"毯子织物上印有几个红色唇印。\", \"arrangement\": \"五张宝丽来照片自然散落，略微重叠。\" }, \"lighting\": { \"type\": \"柔和的顶部环境光，可能是自然日光，照亮整个场景。\", \"photo_lighting\": \"宝丽来照片内部的直接影室闪光灯，营造出明亮、略微过曝的效果，带有柔和的阴影。\" }, \"mood\": \"俏皮、随意、怀旧、温暖、私密。\", \"camera_details\": { \"style\": \"超逼真的俯视照片。\", \"focus\": \"宝丽来照片和毯子纹理上的清晰对焦。\", \"perspective\": \"俯视视角。\", \"film_type\": \"复古宝丽来拍立得胶片，带有经典的白色边框和轻微磨损。\" } } }",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1773184907472-w2tz8p1g-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_other",
+                    "name": "其他手工艺"
+                  }
+                ],
+                "semantic": {
+                  "model": "BAAI/bge-small-zh-v1.5",
+                  "k": 20,
+                  "alpha": 0.3,
+                  "confidence": 0.6346,
+                  "runner_up": "photography_portrait"
+                }
               }
             }
           ]
