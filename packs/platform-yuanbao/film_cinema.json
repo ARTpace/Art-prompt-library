@@ -8,6 +8,58 @@
           "id": "film_cinema_pending",
           "name": "待细分",
           "presets": []
+        },
+        {
+          "id": "film_cinema_action",
+          "name": "动作场面",
+          "presets": [
+            {
+              "id": "yuanbao_0a054b0d3c2a4c26b1cbc9573e28b056",
+              "name": "武侠竹林格斗",
+              "type": "prompt",
+              "prompt": "武侠电影战斗场景，阴冷潮湿的深山竹林中，两名古代武者高速交锋。超低机位贴近泥地，超广角强透视，前景竹叶、枯枝、泥土与碎屑被劲风卷起，部分贴近镜头并产生动态模糊。中央下方武者身穿深色破旧长袍与轻甲，压低身体、单腿支撑，双手将长柄重兵器横举过头，兵器斜贯画面，姿态沉稳有力；另一名武者从中央上方凌空跃下，身体扭转，一腿前踢、一腿收起，宽大衣袍猛烈翻卷，逆光下形成深色剪影。背景为高耸密集的青灰竹林，远处被浓雾吞没，竹叶四散飞舞。阴沉冷白天空从背后透光，形成轮廓光、体积光与强烈明暗对比。整体墨黑、青灰、灰绿冷色调，低饱和、高反差，湿润地面微微反光，电影级动作定格，肃杀紧张，4K高清，无文字、无现代物品。横版16:9",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 文生图",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/OTZjYmZiM2UtYjJlMy00MWY2LTliYmQtNTA0NWI3NzNiMGIz_compress.webp?width=1983&height=1116",
+              "reference_images": [],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "0a054b0d3c2a4c26b1cbc9573e28b056",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "1990dbb2f54d4482903dd433ea55524f",
+                    "name": "电脑壁纸"
+                  }
+                ],
+                "generation_type": "text2image",
+                "min_images": 0,
+                "max_images": 0,
+                "reference_image_urls": [],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/OTZjYmZiM2UtYjJlMy00MWY2LTliYmQtNTA0NWI3NzNiMGIz_compress.webp?width=1983&height=1116",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_action",
+                    "name": "动作场面"
+                  }
+                ]
+              }
+            }
+          ]
         }
       ]
     }

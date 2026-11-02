@@ -319,6 +319,30 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "pia_15432",
+              "name": "日落时分的浮空未来城市",
+              "type": "prompt",
+              "prompt": "日落时分，一座宏伟的电影级科幻巨型城市漂浮在浓厚且发光的云层之上，采用高空俯瞰视角。画面展现了广阔的未来城市天际线，数十座优雅的超高层摩天大楼和针状塔楼从悬浮平台上拔地而起，由远处的结构和悬浮区域相互连接。在画面中右侧，一个巨大的浮空城市枢纽拥有多个发光的玻璃穹顶和分层圆形基座，周围环绕着数座纪念碑式的塔楼，其中包括一座特别高耸的中央尖塔，顶部附近设有一个宽大的环形观景结构。温暖的金色阳光从左侧地平线倾泻而下，营造出橙色、桃色和淡紫色的戏剧性天空，伴有浓厚的云层和大气雾霾，画面下半部分充满了反射着夕阳余晖的柔和粉色和蓝色云团。可见多架飞行载具：左下角前景处有一架大型深色金属航天器，带有明亮的蓝色引擎尾迹；右下角前景处有一架圆形着陆平台式飞行器；中景处有 2 架中型飞船穿过，留下了蓝色光迹；天际线各处还散布着多个微小的远距离飞行器。增加精致的城市灯光、反光的金属表面、宏大的比例、宁静的未来主义宏伟感以及高度精细的概念艺术风格。在右上角添加白色品牌文本 {argument name=\"logo text\" default=\"Pollo.ai\"} 作为清晰的覆盖层。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/15432.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_brand",
+                    "name": "品牌标识"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -7811,6 +7835,54 @@
                 },
                 "previous_location": "commercial/commercial_pending"
               }
+            },
+            {
+              "id": "pia_car-transformation-prompt",
+              "name": "汽车变形提示词",
+              "type": "prompt",
+              "prompt": "照片中的汽车伪装成了 {argument name=\"transformation target\" default=\"Transformer\"}；发挥你的想象力，展现出它 {argument name=\"transformation target\" default=\"Transformer\"} 的形态。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/17329.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_poster",
+                    "name": "海报广告"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_tropical-resort-travel-banner",
+              "name": "热带度假胜地旅游广告横幅",
+              "type": "prompt",
+              "prompt": "{\n  \"type\": \"旅游广告网页横幅\",\n  \"scene\": {\n    \"setting\": \"{argument name=\\\"destination type\\\" default=\\\"热带水上屋度假村\\\"}\",\n    \"background\": \"绿松石色的海水、蓝天、蓬松的云朵、棕榈树、远处的帆船、2 架带有虚线飞行路径的飞机\",\n    \"foreground_right\": \"木质甲板、2 把躺椅、白色坐垫、蓝色毛巾、草帽、圆桌、蓝色热带饮品、鸡蛋花、边缘处粉色木槿花装饰\"\n  },\n  \"layout\": {\n    \"text_overlay\": {\n      \"position\": \"左中\",\n      \"elements\": [\n        { \"type\": \"top_text\", \"text\": \"{argument name=\\\"top text\\\" default=\\\"开启下一段旅程。\\\"}\", \"decoration\": \"飞机图标、虚线\" },\n        { \"type\": \"main_headline\", \"text\": \"{argument name=\\\"main headline\\\" default=\\\"去邂逅这片美景。\\\"}\", \"style\": \"大型蓝色渐变衬线字体\" },\n        { \"type\": \"subheadline\", \"text\": \"{argument name=\\\"subheadline\\\" default=\\\"逃离日常，享受身心放松的假期。\\\"}\", \"decoration\": \"金色装饰漩涡纹样\" },\n        { \"type\": \"cta_button\", \"text\": \"{argument name=\\\"button text\\\" default=\\\"立即查看\\\"}\", \"style\": \"蓝青色渐变药丸形状，右箭头\" }\n      ]\n    },\n    \"bottom_features\": {\n      \"position\": \"左下\",\n      \"count\": 3,\n      \"items\": [\n        { \"icon\": \"棕榈树和海浪\", \"label\": \"绝美度假胜地\" },\n        { \"icon\": \"水上屋\", \"label\": \"非凡住宿体验\" },\n        { \"icon\": \"行李箱\", \"label\": \"适合周末出游\" }\n      ]\n    }\n  }\n}",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/14234.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_poster",
+                    "name": "海报广告"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -8035,6 +8107,54 @@
               "negative_prompt": "",
               "description": "PromptImageAtlas · promptsref",
               "thumbnail": "https://promptimageatlas.com/images/twitter/45101_out.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_editorial",
+                    "name": "书刊出版"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_battlefield-in-game-screenshot-prompt",
+              "name": "Battlefield 游戏内截图提示词",
+              "type": "prompt",
+              "prompt": "游戏内截图 {argument name=\"game title\" default=\"battlefield 6\"}",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/14800.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_editorial",
+                    "name": "书刊出版"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_gongbi-mandarin-ducks-peonies",
+              "name": "动物优雅",
+              "type": "prompt",
+              "prompt": "传统工笔重彩风格，湖畔园林凉亭。{argument name=\"plant\" default=\"牡丹\"} 在枝头盛开。一对 {argument name=\"animal\" default=\"鸳鸯\"} 姿态亲昵地栖息在横出的牡丹枝干上。羽毛层层叠叠，色彩典雅，展现出精致的工笔勾勒与淡彩水墨效果。宣纸质感背景，构图呈现出优雅的花鸟意蕴。--ar 3:2",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/15548.jpg",
               "classification": {
                 "method": "llm",
                 "stage": "title",
@@ -8968,6 +9088,414 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "pia_tw-31563",
+              "name": "鬼灭之刃角色胶片写实雨草地优雅",
+              "type": "prompt",
+              "prompt": "请生成8张独立9:16图片（不要拼接成一张）：\n比例：9:16\n风格：半写实二次元热带雨林瀑布 + 飞瀑倾泻水雾弥漫 + 蕨类与藤蔓垂挂 + 阳光穿过树冠洒下丁达尔光 + 轻微胶片颗粒（semi-realistic anime tropical rainforest waterfall；不是全写实路人、不是Q版）\n主题：鬼灭之刃女角色热带雨林瀑布——一人一图，共八人\n人物形象须与其在原作动漫中的形象高度一致，关键发型/发色/五官气质/标志特征清晰可辨，避免换成认不出的路人脸。\n女性角色细节：韩系女神感，高亮牛奶肌，detailed skin texture & pores & moles，眼睛大而清透。\n女性角色颜值（严格东亚审美，非西方视角）：\n- 五官比例：柔和低眉骨（非深邃眼窝）、自然双眼皮或内双、眼型偏长杏眼（非圆大欧美眼）、鼻梁挺直但线条柔和（非高耸鹰钩）、嘴唇适中饱满（非厚唇）、下颌线圆润柔和（非方腮/削尖）\n- 气质：韩剧女主/韩团门面感——清透、干净、邻家但精致，像 IU/宋慧乔/张元英那一挂的东亚美人\n- 肤色：东亚暖白或自然健康色（非欧美小麦色/美黑）\n- 妆容：韩系清透裸妆（水光肌、淡唇釉），禁止欧美浓妆/修容/烟熏\n身材：纤细苗条，大长腿，比例修长，腰肢纤细；全身站姿时腿部比例夸张一点但保持优雅。\n服装（忠实还原原作服装剪裁，让服装本身决定身体展示度）：以原作标志性服饰为基底（必须保留轮廓、主色与标志配件），在此基础上做稍微清凉的夏日写真化（可略短裙/无袖/修身面料，领口克制）；描述按原作设计——超短裙就是超短裙，无袖削肩就是无袖削肩，短款上衣止于肋骨，修身连体就是修身连体。不额外添加\"露X\"标签，不为露肤篡改原作设计；非色情、非擦边；适合公开平台。\n人物（全部来自 鬼灭之刃，每张一个，共8人，明确成年/成年再演绎，东亚审美）：\n1) 胡蝶忍（紫黑长发+蝶发饰、经典紫黑蝶纹羽织+白色队服+紫色腰绳，瀑布前水雾中持剑静止，丁达尔光穿过水雾）\n2) 甘露寺蜜璃（粉绿渐变长发、经典白色恋柱队服+粉绿羽织+超短裙摆，瀑布下赤足踩水仰面被水雾润湿）\n3) 栗花落香奈乎（粉发渐紫、经典白色队服+紫黑超短裙+蝴蝶发夹，瀑布前水潭边蹲下伸手触碰水面）\n4) 灶门祢豆子（黑长直+粉瞳、经典粉色格子和服+竹筒+红色麻绳腰带+赤足，雨林树桩旁侧站，竹筒微微遮脸）\n5) 珠世（黑长直+红唇+紫色挑染、经典白色医生和服+红色腰封+耳饰，雨林空地中手持提灯微笑）\n6) 堕姬/梅（黑渐变绿长发+金色发饰、经典华丽和服+宽织腰带+红色眼妆+泪痣，瀑布旁岩石边倚靠被水雾打湿和服袖）\n7) 胡蝶香奈惠（黑紫长发+蝶发饰、经典紫蝶羽织+白色队服+温柔微笑，雨林光柱中闭目双手合十）\n8) 神崎葵（深蓝短发+蝴蝶发夹、经典蝶屋制服蓝白和装+过膝裙+草鞋+药篮，瀑布边草地上俯身采药被叫到抬头）\n姿态：全身或七分，大长腿，瀑布水潭边或雨林中自然站立，水雾与丁达尔光交织，自信从容，不要挑逗。\n构图：瀑布与雨林为纵深背景，水雾中阳光形成光柱，绿叶与藤蔓环绕，角色占前景主体，无大段可读文字\n约束：仅鬼灭之刃；半写实；原作装可识别略清凉；禁止国旗/旭日",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/twitter-cat1/2080132524915986779.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_infographic",
+                    "name": "信息图表"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_technical-cross-section-diagram",
+              "name": "技术剖面图",
+              "type": "prompt",
+              "prompt": "对 {argument name=\"object\" default=\"[在此输入对象]\"} 进行超精细的技术剖面图渲染，采用深色工程蓝图风格。剖视图精确展示了所有内部组件、层级和机械结构。每个部件均配有清晰的白色标注线、说明框和技术参数。顶部包含标题栏、材料/组件图例、尺寸规格，以及展示关键部分特写的微型细节插图。风格：专业技术插图与照片级真实感渲染相结合。布局密集，信息丰富。无留白。比例 1:1。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/17058.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_infographic",
+                    "name": "信息图表"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_moba-game-combat-scene",
+              "name": "MOBA 游戏战斗场景",
+              "type": "prompt",
+              "prompt": "请帮我生成一个以 {argument name=\"game theme\" default=\"王者荣耀\"} 为主题的游戏界面战斗场景。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/14380.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_infographic",
+                    "name": "信息图表"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_editable-psd-layer-generation",
+              "name": "可编辑 PSD 图层生成",
+              "type": "prompt",
+              "prompt": "根据参考图像生成一个 {argument name=\"file format\" default=\"可编辑的 Photoshop 分层 PSD 文件\"}。请将图像分解为若干独立元素，且不改变其原始位置，并在 Photoshop 中生成相应的图层：1. 主体：使用图像生成工具创建无背景的 PNG，然后将其复制到对应的 Photoshop 图层中。2. 特效：如光效、装饰或氛围元素；同样生成无背景的 PNG 并复制到图层中。3. 文本：优先使用 Photoshop 原生文本工具调整字体、大小、颜色和样式；如果无法复刻字体，则生成无背景的 PNG 文本图像并放置在正确位置。4. 所有元素应与参考图像保持一致的位置、大小和层级关系。5. 最后，输出一个可以在 Photoshop 中打开并编辑的 PSD 文件。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/16831.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_infographic",
+                    "name": "信息图表"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_japanese-bi-strategy-slide",
+              "name": "矢量未来",
+              "type": "prompt",
+              "prompt": "目标：创建一张精美的日式企业战略 Slides，利用保险安全网络中积累的数据和 BI 工具，阐述项目的目的与未来愿景。\n\n画布：16:9 横向演示 Slides，白色背景，海军蓝与浅蓝色企业配色，细蓝色边框，整洁的网格对齐，密集但易读的日式商务 Slides 排版。\n\n标题：左上角大号海军蓝标题：「1.1. 本事业の目的と将来像」。\n\n顶部概览框：在标题正下方，添加一个带有细海军蓝边框的白色矩形框。左侧包含一个深海军蓝胶囊标签「概要」。右侧填写：「本事业では、保安ネットに蓄積されたデータをBIツール等で統計分析し、産業保安・製品安全行政における許認可・規制の確実な履行および蓄積データ毀損予防を実現するための調査を行う。」\n\n整体信息栏：在概览下方，添加一个淡蓝色横向长条。左侧为一个深蓝色箭头标签「全体メッセージ」。主要信息文字为加粗海军蓝：「保安ネット×BIツール活用により、現状4課題は予兆検知と2大自動化の3将来像へ集約される。」\n\n主要布局：三列布局，从左至右标题分别为：「目的」、「現状課題」、「将来像」。使用两条由虚线分隔的水平行。使用箭头从当前问题指向未来愿景卡片。\n\n左列，包含 2 张深海军蓝目的卡片：\n1. 卡片标签「目的1」，位于白色小圆角胶囊内，正文：「産業保安・製品安全行政における許認可・規制の確実な履行」。\n2. 卡片标签「目的2」，位于白色小圆角胶囊内，正文：「蓄積データの毀損の恐れに係る予防」。\n\n中列，包含 4 个当前问题项，分为两个淡灰色圆角容器，每项带有一个海军蓝圆形数字徽章：\n1. 「画一的な規制の実施」，附带较小的解释：「認定事業者制度を除き、事業者の保安レベルに関わらず、一律の個別規制・許可届出・検査義務を課している。」\n2. 「外部機関による統計分析業務の実施」，附带较小的解释：「関係課室の多くで委託事業者が事故情報の統計分析を実施しており、報告頻度は年1回に限定されている。」\n3. 「データ集計に誤りが発生」，附带较小的解释：「第208回通常国会の高圧ガス保安法改正法案審議資料に、集計上の誤りが発生した。」\n4. 「情報連携漏れのリスクがある」，附带较小的解释：「組織間連携をメール等で運用しているため、連携漏れや転記ミスによってDB不備が発生する恐れがある。」\n\n右列，包含 3 张未来愿景卡片，带有蓝色边框和简单的线条图标：\n1. 顶部大卡片，由第一组问题通过粗海军蓝箭头连接，图标为带有上升柱状图和警告三角形的放大镜，文字：「事故・法令違反の予兆検知の実現」。\n2. 中间卡片，由第二组问题通过分支箭头连接，图标为带有上传或传输箭头的电脑显示器/文档，文字：「データ入力の自動化」。\n3. 底部卡片，由同一分支箭头连接，图标为带有齿轮的数据库圆柱体，文字：「データ集計の自動化」。\n\n底部信息条：全宽白色长条，带有细蓝色边框。左侧为一个圆形目标图标。加粗海军蓝文字：「保安ネットの蓄積データをBIツールで可視化・分析することで、規制運用の高度化とデータ品質向上を同時に実現」。\n\n视觉风格：日式咨询公司 Slides 美学，清晰的矢量图标，统一的海军蓝 #003b8f / 深蓝 #001f5b 点缀，淡蓝色高亮条，圆角卡片，细微的灰色分隔线，无照片，除轻微的卡片深度外无阴影。保持所有文字清晰易读，严格遵守 2 张目的卡片、4 个问题项和 3 张未来愿景卡片的数量要求。使用 {argument name=\"project data source\" default=\"保安ネット\"}, {argument name=\"analysis tool\" default=\"BIツール\"}, {argument name=\"slide title\" default=\"1.1. 本事業の目的と将来像\"}, {argument name=\"overall message\" default=\"保安ネット×BIツール活用により、現状4課題は予兆検知と2大自動化の3将来像へ集約される。\"}, 以及 {argument name=\"bottom message\" default=\"保安ネットの蓄積データをBIツールで可視化・分析することで、規制運用の高度化とデータ品質向上を同時に実現\"}。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/28279.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_infographic",
+                    "name": "信息图表"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_political-map-visualization",
+              "name": "政治地图可视化",
+              "type": "prompt",
+              "prompt": "一张 {argument name=\"region\" default=\"indian\"} 政治地图的图像",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/14803.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_infographic",
+                    "name": "信息图表"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_historic-battle-visualization-scroll",
+              "name": "历史战役可视化长卷",
+              "type": "prompt",
+              "prompt": "生成一个 [经典战役可视化长卷]，单张完整图像，无拼贴、无网格、无分栏，水平 3:1 比例。\n\n战役主题：[{argument name=\"battle theme\" default=\"赤壁之战\"}]\n标题：[{argument name=\"title\" default=\"赤壁之战\"}]\n副标题：[{argument name=\"subtitle\" default=\"用一句话总结关键转折点\"}]\n核心内容：[战场地形 / 对阵双方 / 主要进攻路线]",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/26886.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_infographic",
+                    "name": "信息图表"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_historical-event-visualizer",
+              "name": "历史事件可视化工具",
+              "type": "prompt",
+              "prompt": "生成一张关于“{argument name=\"event theme\" default=\"历史上的今天\"}”中最重大事件的图像。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/16498.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_infographic",
+                    "name": "信息图表"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_vibecoding-knowledge-visualization-prompt",
+              "name": "VibeCoding 知识可视化提示词",
+              "type": "prompt",
+              "prompt": "对 {argument name=\"study topic\" default=\"VibeCoding 所需的 Web 全栈基础知识\"} 进行可视化展示，并列出 10 个可以创建的顶级全栈项目演示。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/15555.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_infographic",
+                    "name": "信息图表"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_pr-33445",
+              "name": "あなた(GPT)は、これからペルソナシリーズの最新作を制作し…",
+              "type": "prompt",
+              "prompt": "あなた(GPT)は、これからペルソナシリーズの最新作を制作します。\r\n\r\n添付画像のキャラクター名は『〇〇〇〇』です。\r\n詳細設定がある場合は以下を参照。\r\n→〇〇〇〇\r\n\r\n上記に詳細設定が記載されていない場合は、添付キャラクターイラストから性格や特徴を分析してください。\r\n\r\n分析結果に基づいて、キャラクターに相応しいオリジナルの「ペルソナ」を設定します。既存のペルソナは使用せず必ずオリジナルデザインにしてください。\r\n\r\nキャラクターの分析を終えたら、ペルソナ作品のキャラクター紹介に相応しい立ちポーズを考えてください。\r\nその後、キャラクターの背後に設定したペルソナを配置します。\r\n\r\nキャラクターの体に少し被るように「キャラクター名」のレイヤーを乗せます。\r\nチラシを切り抜いて作った予告状のような文字で、1文字ずつサイズとフォントは不揃いにしてください。その際文字色と背景色は同一の物を使い統一感は出してください。\r\nキャラクター名の下には、不等辺四角形で囲んだ枠で簡略にキャラクター紹介文を掲載してください。\r\n不等辺四角形の背景色および文字色はキャラクター名の処理と同じとします。\r\n\r\n背後のペルソナのにも同様に「ペルソナ名」のレイヤーを乗せてください。\r\nペルソナ名の下には不等辺四角形で、簡略にペルソナの説明と、ペルソナの能力説明を記載してください。\r\n不等辺四角形の背景色および文字色はペルソナ名の処理と同じとします。\r\n\r\n背景はビビッドでオシャレな色の組み合わせ、デザインをしてください。\r\n\r\nイラストの仕上がりは3:2の横長イラストとします。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptsref",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/3219_out.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_infographic",
+                    "name": "信息图表"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_skills-introduction-ppt-slide",
+              "name": "技能",
+              "type": "prompt",
+              "prompt": "什么是 {argument name=\"topic\" default=\"技能\"}？请用一张 PPT Slides 对其进行介绍。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/14339.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_infographic",
+                    "name": "信息图表"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_shadow-puppet-style-transformation",
+              "name": "皮影戏风格转换",
+              "type": "prompt",
+              "prompt": "请将此插图转换为 {argument name=\"style\" default=\"shadow puppet\"} 风格。通过强烈的背光强调剪影效果，并利用精细的镂空和图层增加复杂的阴影表现，从而营造出一种梦幻且具有戏剧张力的美感。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/20043.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_infographic",
+                    "name": "信息图表"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_future-iphone-design",
+              "name": "iPhone",
+              "type": "prompt",
+              "prompt": "{argument name=\"device\" default=\"iPhone 20\"} 会是什么样子？",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/13713.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_infographic",
+                    "name": "信息图表"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_vocabulary-learning-grid",
+              "name": "词汇学习网格",
+              "type": "prompt",
+              "prompt": "创建一个 20x20 的网格图像，列出以 {argument name=\"root suffix\" default=\"ist\"} 为后缀的英语单词及其配套插图。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/15915.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_infographic",
+                    "name": "信息图表"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_west-bengal-city-view",
+              "name": "西孟加拉邦城市景观",
+              "type": "prompt",
+              "prompt": "一座 {argument name=\"location\" default=\"west bengal\"} 的城市",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/14796.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_infographic",
+                    "name": "信息图表"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_hotel-wifi-guest-info-card",
+              "name": "酒店访客 Wi-Fi 信息卡",
+              "type": "prompt",
+              "prompt": "酒店客房信息卡风格图片。SSID 为“{argument name=\"network name\" default=\"○○\"}”，密码为“{argument name=\"password\" default=\"△△\"}”，风格为“{argument name=\"style\" default=\"米色与木纹\"}”，明信片尺寸。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/19072.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_infographic",
+                    "name": "信息图表"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_innovation-reliquary-exploded-diagram",
+              "name": "创新遗珍爆炸图",
+              "type": "prompt",
+              "prompt": "生成一张超写实的“创新遗珍爆炸图”。\n\n1. 语义提取：\nAI 推断：\n- 解决的核心问题\n- 运作机制\n- 历史时期\n- 发明者文化\n- 材料\n- 失效点\n- 社会影响\n\n2. 容器：\n结构：悬浮在玻璃博物馆展示柜中的爆炸式物体。\n每个零件均由黄铜杆和精细张力线悬挂。\n\n3. 背景：\n带有模糊图表、公差、标签和档案印章的专利纸墙。\n\n4. 整合：\n发明的核心洞察成为中心的发光机制。\n\n5. 视觉语法：\n材质：拉丝钢、玻璃、黄铜、陈旧纸张、黑色墨水。\n光影：奢侈品摄影风格。\n拒绝廉价的蓝图陈词滥调。\n\n输入变量：{argument name=\"invention\" default=\"[请输入发明名称]\"}\n\n输出：\n2x2 网格，16:9，四项改变世界的发明。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/24293.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_infographic",
+                    "name": "信息图表"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -9035,6 +9563,30 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "pia_functional-qr-code-generation",
+              "name": "功能性二维码生成器",
+              "type": "prompt",
+              "prompt": "一个高对比度、完全平整的黑白二维码，能够有效扫描并跳转至 URL “{argument name=\"url\" default=\"https://t.co/UoN4sQvNjH\"}”。该二维码必须有效、具备功能性，并置于白色背景之上。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/26020.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_icon",
+                    "name": "图标符号"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -9071,6 +9623,78 @@
                   "confidence": 0.3121,
                   "runner_up": "commercial_packaging"
                 }
+              }
+            },
+            {
+              "id": "pia_optimistic-coastal-portfolio",
+              "name": "乐观主义 AI 作品集落地页",
+              "type": "prompt",
+              "prompt": "{\"type\":\"编辑风格作品集网站落地页模型\",\"style\":\"简洁现代的网页设计，轻盈高级的审美，柔和的编辑排版，海岸风情的柔和色调，微妙的磨砂玻璃效果，高端初创公司作品集质感\",\"canvas\":{\"aspect_ratio\":\"3:2\",\"background\":\"浏览器框架外柔和的蓝天\"},\"browser\":{\"type\":\"桌面浏览器窗口模型\",\"top_bar\":{\"traffic_lights\":3,\"address_text\":\"angaisb._ai\",\"right_icons\":3},\"corner_radius\":\"大\",\"shadow\":\"柔和的浮动阴影\"},\"brand\":{\"logo_text\":\"Angaisb_\"},\"header\":{\"nav_count\":5,\"nav_items\":[\"首页\",\"项目\",\"写作\",\"工具\",\"关于\"],\"active_item\":\"首页\",\"cta_button\":{\"text\":\"{argument name=\\\"button text\\\" default=\\\"联系我\\\"}\",\"style\":\"黄色圆角胶囊按钮\"}},\"hero\":{\"layout\":\"左右分割的编辑风格首屏，左侧文字，右侧图像场景，横跨全宽\",\"background_scene\":\"阳光明媚的海岸观景台，蓝色海洋地平线，蓬松的白云，前景有粉色和橙色花朵，氛围柔和梦幻\",\"headline\":\"{argument name=\\\"headline text\\\" default=\\\"AI、创意与乐观的未来\\\"}\",\"subheadline\":\"{argument name=\\\"subheadline text\\\" default=\\\"关于人工智能的实验、工具与思考\\\"}\",\"primary_cta\":{\"text\":\"探索项目\",\"style\":\"带箭头的黄色圆角按钮\"},\"secondary_cta\":{\"text\":\"阅读最新文章\",\"style\":\"带箭头的文字链接\"},\"human_figure\":{\"count\":1,\"description\":\"一名年轻男子背影，短棕发，身穿亮黄色毛衣，位于首屏中右侧，眺望海洋\"},\"overlay_card\":{\"count\":1,\"style\":\"半透明磨砂玻璃圆角卡片\",\"icon\":\"小型黄色圆形图标\",\"text_lines\":[\"怀揣好奇心进行构建。\",\"为影响力而设计。\",\"开放分享。\"]},\"network_graphic\":{\"count\":1,\"description\":\"右上角天空中精致的白色节点与线条星座图形\"}},\"main_sections\":[{\"title\":\"精选项目\",\"position\":\"上部内容区\",\"count\":3,\"labels\":[\"BloomBench\",\"ThoughtGarden\",\"Open Prompts\"],\"cards\":[{\"title\":\"BloomBench\",\"tag\":\"研究\",\"description\":\"一个用于评估多模态 LLM 在现实世界视觉推理能力的基准测试。\",\"thumbnail\":\"海边花朵与轻量级 UI 叠加\"},{\"title\":\"ThoughtGarden\",\"tag\":\"工具\",\"description\":\"一个让创意相互连接并演进的个人知识花园。\",\"thumbnail\":\"蓝天下的连绵绿丘与半透明界面面板\"},{\"title\":\"Open Prompts\",\"tag\":\"资源\",\"description\":\"为 AI 构建者提供的提示词、模式和流水线集合。\",\"thumbnail\":\"花朵与天空，配有半透明界面面板\"}],\"top_right_link\":\"查看所有项目\"},{\"title\":\"最新写作\",\"position\":\"左下角\",\"count\":1,\"labels\":[\"AI 中的乐观循环\"],\"card\":{\"title\":\"AI 中的乐观循环\",\"description\":\"为什么乐观是创造力、研究和负责任 AI 的倍增器。\",\"date\":\"2024 年 5 月 12 日\",\"thumbnail\":\"身穿黄色毛衣站在花丛中的人物背影\"},\"top_right_link\":\"查看全部\"},{\"title\":\"当前探索\",\"position\":\"底部中心\",\"count\":3,\"labels\":[\"多模态推理\",\"科学发现 AI\",\"人机协作\"],\"style\":\"三个带有小图标的柔和圆角主题胶囊\"},{\"title\":\"关于\",\"position\":\"右下角\",\"count\":1,\"labels\":[\"更多关于我\"],\"text\":\"我是一名 AI 创作者和研究员，坚信技术应放大人类潜能，助力构建更美好的未来。\",\"decoration\":\"右下角精致的粉色花朵插画\"}],\"visual_details\":{\"cards\":\"带有细浅灰色边框和柔和阴影的白色圆角卡片\",\"spacing\":\"充裕的留白与平衡的网格\",\"typography\":\"优雅的大号衬线标题字体搭配简洁的无衬线 UI 文字\",\"colors\":{\"primary_text\":\"深海军蓝\",\"accent\":\"暖黄色\",\"background\":\"白色与浅天蓝色\",\"secondary_accents\":\"柔和的粉色、绿色和薰衣草色\"}}}",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/14656.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_packaging",
+                    "name": "包装设计"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_film-noir-grayscale-drama",
+              "name": "黑色电影风格灰度戏剧",
+              "type": "prompt",
+              "prompt": "{argument name=\"subject\" default=\"人物肖像\"} 以灰度电影戏剧风格呈现，灵感源自经典黑色电影。运用强烈的对比和戏剧性的阴影来营造紧张感与悬疑感，并呈现细腻的黑白层次变化",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/19682.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_packaging",
+                    "name": "包装设计"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_mint-green-coastal-car",
+              "name": "车写实可爱",
+              "type": "prompt",
+              "prompt": "Create a photorealistic lifestyle image of a cute compact hatchback car in {argument name=\"car color\" default=\"pale mint green\"} parked in a seaside parking lot on a bright sunny day. The car is shown in full side view, facing right, with the front passenger door open to reveal a warm beige leather interior with wood-toned trim and a rounded modern dashboard. A young blonde woman stands casually in front of the open door, one hand on her hip, wearing a light mint cardigan over a short white floral summer romper and brown sandals; her face is softly anonymized and featureless. The setting is a clean asphalt coastal parking area with white painted parking lines, several other parked cars in the background, tropical plants and palms at the edges, and a vivid turquoise ocean beyond the road. Add distant green mountains and small islands across the horizon under a clear pale blue sky with a few soft clouds. Use a cheerful, cute, aspirational travel aesthetic, realistic reflections on the glossy car paint, crisp daylight shadows, wide-angle composition, high detail, natural colors, and the feeling of wanting a beloved custom-colored car for a beach trip.",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/18172.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_packaging",
+                    "name": "包装设计"
+                  }
+                ]
               }
             }
           ]
@@ -9294,6 +9918,270 @@
                   "confidence": 0.2594,
                   "runner_up": "commercial_poster"
                 }
+              }
+            },
+            {
+              "id": "pia_beethoven-grief-light-art",
+              "name": "贝多芬：从悲伤到光明的艺术作品",
+              "type": "prompt",
+              "prompt": "创作一幅极具电影感的混合媒介艺术作品，表现 {argument name=\"composer\" default=\"路德维希·凡·贝多芬\"} 以及悲伤转化为璀璨音乐的悖论。使用 16:9 的宽幅横向画布。在左侧三分之一处，展示一座深色、雕塑感、灰度色调的贝多芬侧面半身像，面向右侧，有着凌乱的卷发、厚重的眉毛和凝重下垂的目光；面部和头发应呈现出木炭、石头和油画颜料结合的质感，部分溶解为黑色墨迹和龟裂的羊皮纸纹理。在他身后，加入模糊的手写手稿痕迹，以及草书风格的“L. v. Beethoven”签名式文字。在画面中心向右侧延伸，描绘五线谱和音符如音流般喷涌而出，从烟雾缭绕的棕褐色暗影过渡为强烈的金白色光芒。在画面下方中心处放置一条撕裂的陈旧手稿纸带，上面书写着优雅的草书 {argument name=\"inscription text\" default=\"Inter lacrymas et luctus\"}。右半部分应极其明亮：闪烁的金色、琥珀色和白色光束、划痕、灰尘以及抽象的笔触，仿佛音乐正在化作光芒。在整个画面中加入黑色墨滴、污渍、裂纹和喷溅的颜料，特别是在中心过渡区域和铭文下方。调色板：左侧接近黑色、炭灰色和柔和的棕色；右侧为璀璨的金色、赭石色、奶油色和白色。风格：表现主义古典与当代拼贴的结合，具有绘画质感、高对比度的明暗对照法、手稿纸、水墨渲染、脏旧喷溅效果，情感浓烈且富有诗意。避免出现现代乐器，避免出现额外人物，避免使用干净的数字矢量图形，并将所有可见文字限制在作曲家签名和中央的拉丁语铭文内。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/25722.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_ui",
+                    "name": "界面设计"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_blue-gradient-wallpaper",
+              "name": "抽象蓝色渐变壁纸",
+              "type": "prompt",
+              "prompt": "创建一个 16:9 横向画布的简约抽象全屏渐变壁纸。使用平滑、柔焦的蓝色色域，不包含任何文字、物体、可见形状或边框。构图应从左上角的深海军蓝和近黑色，过渡到中心区域的饱和钴蓝和宝蓝色，再向右侧过渡为更明亮的蔚蓝和电光蓝，并在右下角附近呈现淡淡的冰蓝色光晕。保持渐变的有机感和轻微的不均匀感，如同模糊的发光表面，并带有从左上角深色到右下角亮色的微妙对角线动感。使用高分辨率、干净的数字渲染，减少噪点，呈现精致的现代科技美学。主色调：{argument name=\"dark corner color\" default=\"近黑色海军蓝\"}, {argument name=\"central blue\" default=\"深钴蓝色\"}, 以及 {argument name=\"bright glow color\" default=\"淡冰蔚蓝色\"}。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/21565.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_ui",
+                    "name": "界面设计"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_handwritten-french-poem-on-paper",
+              "name": "纸上的手写法语诗歌",
+              "type": "prompt",
+              "prompt": "一张 16:9 的逼真特写照片，展示了一张略带纹理的白纸斜放在中棕色的木桌上，以浅俯角拍摄。纸上用优雅的草书整齐地手写着一首简短的法语诗，使用的是鲜艳的 {argument name=\"ink color\" default=\"蓝色\"} 墨水。顶部的标题居中写着 {argument name=\"poem title\" default=\"鸽子\"}。下方是 4 行手写文字，居中且间距均匀：{argument name=\"poem line 1\" default=\"Oiseau à la grise robe,\"}，{argument name=\"poem line 2\" default=\"Dans l'enfer des villes\"}，“À mon regard tu te dérobes” 以及 “Tu es vraiment le plus agile。” 手写字体需保持优雅、清晰且自然，呈现出如同钢笔手写般的质感，而非印刷字体。柔和的室内暖光，纸张边缘带有细微阴影，纸张纹理清晰可见，构图简洁明快，完全聚焦于手写的诗歌。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/14566.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_ui",
+                    "name": "界面设计"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_game-ui-component-library-expansion",
+              "name": "游戏 UI 组件库扩展",
+              "type": "prompt",
+              "prompt": "将此游戏界面的风格和材质扩展为一套游戏 UI 组件库，包括面板、按钮、导航栏、横幅、标题、物品图标及其他组件，并平铺在纯色背景上。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/16531.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_ui",
+                    "name": "界面设计"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_neon-shanghai-botanical-poster",
+              "name": "霓虹植物图谱美学",
+              "type": "prompt",
+              "prompt": "图像风格繁茂但布局清晰，文字、注释与植物线条绘图共同构成了一个可读的 {argument name=\"growth system\" default=\"霓虹生长系统\"}",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/27253.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_ui",
+                    "name": "界面设计"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_ecommerce-shipping-hack-infographic",
+              "name": "生活小妙招可视化",
+              "type": "prompt",
+              "prompt": "将此内容可视化 {argument name=\"topic\" default=\"生活省钱小妙招\"}\n\n{argument name=\"specific tip\" default=\"如何最便宜地寄快递：在闲鱼上创建一个链接，自己拍下，然后使用优惠寄件。10 公斤 23 元，20 公斤约 47 元，折合每斤 1 元左右——网友的省钱智慧。\"}",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/15558.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_ui",
+                    "name": "界面设计"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_spaceship-galactic-nebula-voyage",
+              "name": "史诗级银河探索",
+              "type": "prompt",
+              "prompt": "一幅壮丽的场景，描绘了 {argument name=\"subject\" default=\"太空探索飞船\"} 在 {argument name=\"background\" default=\"巨大的星云和行星\"} 的背景下穿梭于银河系。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/28716.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_ui",
+                    "name": "界面设计"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_shift-camera-perspective-upward",
+              "name": "视角转换卡片修改",
+              "type": "prompt",
+              "prompt": "我想要将这张图片的视角向上移动。在保持宽度和高度不变的同时，在顶部添加更多绘图并提升视角。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/23027.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_ui",
+                    "name": "界面设计"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_plate-solvable-orion-nebula",
+              "name": "天文级猎户座星云生成",
+              "type": "prompt",
+              "prompt": "完美呈现 {argument name=\"celestial object\" default=\"猎户座大星云\"} 的图像",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/14795.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_ui",
+                    "name": "界面设计"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_pr-32768",
+              "name": "AI 生成图片",
+              "type": "prompt",
+              "prompt": "make the cockatiel wear a swat team uniform and hold a MP5 SMG",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptsref",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/37999_out.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_ui",
+                    "name": "界面设计"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_3",
+              "name": "图 3 的提示词：请只生成无文字背景图，保留深绿色渐变、玻璃拟态卡片、科技金融质感，但所有文字区域留空，",
+              "type": "prompt",
+              "prompt": "请只生成无文字背景图，保留深绿色渐变、玻璃拟态卡片、科技金融质感，但所有文字区域留空，不要生成任何文字。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/20240.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_ui",
+                    "name": "界面设计"
+                  }
+                ]
               }
             }
           ]
@@ -9740,6 +10628,264 @@
                   "confidence": 0.317,
                   "runner_up": "commercial_icon"
                 }
+              }
+            }
+          ]
+        },
+        {
+          "id": "commercial_typography",
+          "name": "字体字效",
+          "presets": [
+            {
+              "id": "pia_candid-2026-japanese-calendar-prompt",
+              "name": "2026 年日式随拍日历提示词",
+              "type": "prompt",
+              "prompt": "[主题] 制作一份 {argument name=\"year\" default=\"2026\"} 年 {argument name=\"period\" default=\"4 月至 9 月\"}（共 {argument name=\"number of months\" default=\"6\"} 个月）的日式日历，以参考图中的人物作为模特。\n[日历] 日历部分的背景应为白色，以确保清晰易读。\n[图像] 以各个月份的季节为主题，模拟 iPhone 拍摄的业余生活照。\n\n[地点] 根据季节由 AI 自动决定。\n[距离] 每月随机选择一项：extreme_close（极近）、close（近景）、bust（半身）、mid（中景）、far（远景）、candid（抓拍）。\n[角度] 每月随机选择一项：eye（平视）、low（低角度）、high（高角度）、side（侧面）、back（背面）。\n[曝光/色调] 每月随机选择一项：overexp（过曝）、natural（自然）、warm（暖色）、cool（冷色）、dark（暗色）。\n[发型] 每月随机选择一项：ponytail（马尾）、bun（丸子头）、down（披肩）、half_up（半扎发）、messy（凌乱感）、wet（湿发）、short（短发）、bob（波波头）、braid（编发）、twin（双马尾）。\n[服装] 根据季节由 AI 自动决定。\n[噪点] 每月随机选择一项：low（低）、mid（中）、high（高）、film（胶片感）。\n[模糊/对焦] 每月随机选择一项：sharp（清晰）、slight（轻微）、motion（动态模糊）、soft（柔焦）。\n[姿势] 每月随机选择一项：natural_stand（自然站立）、sitting（坐姿）、walking（行走）、phone（打电话）、wall_lean（靠墙）、crouch（蹲姿）、look_back（回眸）。\n[持有物] 每月随机选择一项：none（无）、smartphone（智能手机）、bottle（瓶装水）、coffee（咖啡）、umbrella（雨伞）、bag（包）、towel（毛巾）、script（剧本）。\n[时间段] 每月随机选择一项：early_morning（清晨）、morning（上午）、noon（中午）、afternoon（下午）、evening（傍晚）、night（夜晚）、late_night（深夜）。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/15223.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_typography",
+                    "name": "字体字效"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_tw-32227",
+              "name": "有种「清风风徐，波涛汹涌」的反差感～",
+              "type": "prompt",
+              "prompt": "竹林团扇 · 清风少女\n\n手机抓拍真实照片风格，仿佛 iPhone 16 Pro 随手拍摄，24mm 广角镜头，Apple Smart HDR，自动白平衡，Live Photo，轻微手持晃动。\n\n盛夏午后，一片幽静竹林小径，翠竹遮挡烈日，只留下斑驳光影落在青石路上。竹林旁摆放竹椅、藤编篮、冰镇竹筒茶，空气中有竹叶清香，微风不断吹过。\n\n年轻成年东亚女性拥有自然丰满协调的沙漏型身材，丰满圆润胸部、纤细腰肢、修长双腿，穿浅青色与月白色新中式薄纱古装，轻盈飘逸。\n\n她坐在竹椅上，用白色绢面团扇轻轻扇风，另一只手拿着冰镇竹筒茶，发现镜头后露出灿烂笑容，月牙眼，轻咬下唇，带一点调皮和撒娇感。\n\n珍珠发饰、银色流苏、细碎发丝随着风轻轻移动，团扇上的荷花纹样与竹林环境呼应。\n\n绿色漫反射包裹人物，柔化闪光增强肤色，真实皮肤、衣料褶皱、汗珠、水汽，高光 Bloom，Film Grain，日系夏日手机写真，新中式清凉感。\n\n左下艺术签名“DeepBlue”。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/2081245108796891200.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_typography",
+                    "name": "字体字效"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_pr-33743",
+              "name": "AI 生成图片",
+              "type": "prompt",
+              "prompt": "Create an artwork, a design of Patrick Mahomes, advanced design level, 3:2, Mac desktop wallpaper",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptsref",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/2074_out.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_typography",
+                    "name": "字体字效"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_miniature-man-refrigerator",
+              "name": "角色写实包装冷调高级",
+              "type": "prompt",
+              "prompt": "创作一张超精细、超现实且写实风格的竖版图片，展示一台高端透明豪华冰箱的内部，冰箱内塞满了色彩鲜艳的新鲜水果、蔬菜、甜点、蛋糕、冰淇淋、软饮、牛奶瓶、巧克力棒和清爽的夏季零食。主体是 {argument name=\"character description\" default=\"一位留着时尚黑发的帅气亚洲年轻男子\"}，身穿 {argument name=\"outfit\" default=\"一件宽松的浅灰色 T 恤、深炭灰色短裤、白色运动鞋，并戴着黑色太阳镜\"}，正悠闲地坐在冰箱中央的玻璃搁板上，微笑着吃着香草巧克力碎冰淇淋甜筒。采用冷色调的蓝色冰箱灯光、冷雾、凝结的水珠、透明玻璃搁板、明亮的顶部冰箱灯、电影质感的反射、超写实的纹理、清晰的产品摄影细节，以及俏皮的微型世界奇幻比例。\n\n展示该男子的 12 个不同比例和姿态的实例：1 个大型中心人物坐在中间吃冰淇淋甜筒；2 个微型人像在左上方的冰雾中踩着黄色冲浪板冲浪；3 个微型人像站在顶层搁板上，在右上方的冰淇淋桶和蛋糕旁手持红色水果；4 个微型人像站在左侧中间搁板的青葡萄丛中；5 个微型人像在右侧中间搁板的一颗大草莓和生菜旁攀爬；6 个微型人像从左侧中心的一个牛奶瓶后探出头来；7 个微型人像坐在左下方的巨大草莓上；8 个微型人像坐在右侧果汁瓶旁弯曲的香蕉串上；9 个微型人像在左下方的中心附近推着装满水果的小购物车；10 个微型人像斜靠在右下方的生菜叶上；11 个微型人像在右下方攀爬堆叠的黑巧克力块；12 个微型人像在底部前景处搬运或与大型水果互动。\n\n食物和产品内容应包含以下主要可见组别：顶层搁板上的两个冰淇淋桶、一个糖霜纸杯蛋糕、一个带有樱桃的长方形分层巧克力蛋糕、成串的青葡萄、一颗大草莓、绿叶生菜、牛奶瓶、橙汁瓶、冰箱门上的汽水罐、香蕉、巨大的草莓、装有混合水果的微型购物车、带有高级标签的堆叠黑巧克力块、黄瓜、甜椒、苹果、橙子、葡萄柚、西瓜片、红葡萄，以及一个巨大的青苹果或梨。包含可辨识的产品风格标签，例如 {argument name=\"milk label\" default=\"Fresh Milk\"}、{argument name=\"ice cream label\" default=\"Premium ICE CREAM\"} 和 {argument name=\"chocolate label\" default=\"70% COCOA\"}，但要使其呈现为自然的包装文字，而非图形排版。\n\n构图：2:3 竖版画布，从冰箱内部向外看的正面视角，大型中心人物占据中间位置，周围环绕着微型复制版本和超大号食物。比例要充满奇趣但保持写实，所有复制人物的相貌需保持一致，具备逼真的阴影和接触点，无拼贴痕迹，无额外人物，无扭曲的肢体，无难以辨认的杂乱，无水印。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/28401.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_typography",
+                    "name": "字体字效"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "commercial_merch",
+          "name": "文创周边",
+          "presets": [
+            {
+              "id": "pia_chatgpt-hamster-screenshot",
+              "name": "动物UI字体温暖室内",
+              "type": "prompt",
+              "prompt": "{\"type\":\"ChatGPT 网页版深色模式的逼真桌面截图\",\"canvas\":\"宽屏 16:9 截图，尺寸约为 1200x645，UI 清晰，不显示浏览器边框\",\"main_scene\":{\"description\":\"ChatGPT 对话页面，中心显示生成的图像结果：一张逼真的手机风格照片，展示了一只在玻璃围栏内的金丝熊仓鼠，正对着镜头，两只小爪子合在一起，黑色光亮的眼睛，粉红色的鼻子，棕褐色的毛发，下方有垫料，前景有一块弯曲的木头，背景是金属或玻璃笼壁，浅景深，未经编辑的原始照片质感。\",\"user_prompt_bubble\":\"{argument name=\\\"user prompt text\\\" default=\\\"スマホで撮影したハムスターの写真、Unedited、Raw\\\"}\",\"assistant_status_text\":\"思考用时 1 分 8 秒 ›\",\"generated_image\":{\"position\":\"聊天区域中右侧\",\"shape\":\"圆角矩形\",\"count\":1,\"content\":\"仓鼠照片\",\"style\":\"逼真，略显柔和的手机摄像头拍摄效果，自然室内光线，温暖的棕褐色动物毛发，透明围栏的反射\",\"overlay_controls_count\":2,\"overlay_controls\":[\"生成图像左下角带有日语“编辑”字样的编辑按钮\",\"生成图像右下角的下载/分享图标\"]}},\"layout\":{\"background\":\"近乎黑色的 ChatGPT 深色主题\",\"left_sidebar\":{\"position\":\"左侧\",\"width\":\"约占图像的五分之一\",\"title\":\"ChatGPT\",\"visible_top_navigation_count\":4,\"visible_top_navigation\":[\"新しいチャット\",\"チャットを検索\",\"Codex\",\"さらに表示\"],\"gpt_section\":{\"title\":\"GPT\",\"visible_items_count\":3,\"items\":[\"Canva\",\"AI Music Prompt Generator\",\"GPT の詳細を見る\"]},\"projects_section\":{\"title\":\"项目\",\"visible_items_count\":7,\"items\":[\"プロジェクトを新規作成\",\"English Refiner\",\"画像生成\",\"yaml\",\"雑談\",\"端的に\",\"さらに表示\"]},\"details\":\"侧边栏边缘附近有细垂直分割线和滚动条\"},\"chat_area\":{\"position\":\"侧边栏右侧，深色空白工作区\",\"message_count\":2,\"messages\":[\"右上角附近的一个用户消息气泡，包含日语/英语提示词\",\"下方居中显示一个助手生成的图像回复，上方带有状态文本\"],\"below_image_action_icons_count\":4,\"below_image_action_icons\":[\"复制图标\",\"点赞图标\",\"点踩图标\",\"更多选项省略号\"]}},\"style_directives\":\"使界面看起来像一张地道的日语环境 ChatGPT 网页应用截图，采用简洁的无衬线 UI 字体、深灰色面板、白色和浅灰色文本、微妙的圆角、精确的间距，并将一张逼真的仓鼠照片作为主要输出嵌入其中。避免使用装饰性边框或额外的注释。\",\"customization\":{\"animal\":\"{argument name=\\\"animal\\\" default=\\\"golden Syrian hamster\\\"}\",\"photo style\":\"{argument name=\\\"photo style\\\" default=\\\"smartphone photo, unedited, raw\\\"}\",\"interface language\":\"{argument name=\\\"interface language\\\" default=\\\"Japanese\\\"}\"}}",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/18640.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_merch",
+                    "name": "文创周边"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_football-trailer-visual-bible-board",
+              "name": "足球电影预告片视觉圣经",
+              "type": "prompt",
+              "prompt": "创建一个正方形的导演视觉圣经，用于英格兰风格的足球淘汰赛电影预告片。输出效果应呈现为视频生成前制作交接项目的样式。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/27347.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_merch",
+                    "name": "文创周边"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_nature-beauty-landscape-scenery",
+              "name": "壮丽自然景观",
+              "type": "prompt",
+              "prompt": "{argument name=\"subject\" default=\"自然之美、奇观、狂喜与广袤\"} 呈现于单一场景中，ar1:1",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/24632.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_merch",
+                    "name": "文创周边"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_pr-33333",
+              "name": "Moebius (Jean Giraud)风格，极繁主义，极…",
+              "type": "prompt",
+              "prompt": "Moebius (Jean Giraud)风格，极繁主义，极致表现力，浪漫感，细节完美，大师杰作。 Futuristic Airship Flying Through Clouds",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptsref",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/6619_out.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_merch",
+                    "name": "文创周边"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "commercial_social",
+          "name": "社交封面",
+          "presets": [
+            {
+              "id": "pia_social-media-pet-avatar-creator",
+              "name": "猫头像",
+              "type": "prompt",
+              "prompt": "将这张 {argument name=\"pet\" default=\"猫咪\"} 的照片转换为适合 {argument name=\"platform\" default=\"社交媒体平台\"} 的头像。请尽情发挥你的 {argument name=\"style\" default=\"网络潮流感\"}。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/14768.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_social",
+                    "name": "社交封面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_pr-33420",
+              "name": "AI 生成图片",
+              "type": "prompt",
+              "prompt": "IDENTITY PRESERVATION TASK ONLY\r\n\r\n이것은 얼굴 생성이 아닙니다.\r\n이것은 얼굴 재설계가 아닙니다.\r\n이것은 예술적 해석이 아닙니다.\r\n\r\n업로드된 사진에는 실제 정확한 신원이 포함되어 있습니다.\r\n\r\n정확한 신원을 새로운 그룹 생일 사진으로 복사해야 합니다.\r\n\r\n새로운 얼굴을 합성하지 마십시오.\r\n\r\n근사하지 마십시오.\r\n\r\n닮은꼴을 만들지 마십시오.\r\n\r\n아름답게 하지 마십시오.\r\n\r\n스타일 가정으로 재구성하지 마십시오.\r\n\r\n업로드된 각 얼굴을 잠긴 소스 데이터로 취급하십시오.\r\n\r\n출력은 각 얼굴을 정확한 시각적 충실도로 보존해야 하며, 마치 원본 얼굴이 새로운 사진에 직접 이식된 것처럼 보이게 해야 합니다.\r\n\r\n업로드 순서 (엄격):\r\n사진 1 = 정확한 여성 신원, 중앙\r\n사진 2 = 정확한 남성 신원, 왼쪽\r\n사진 3 = 정확한 남성 신원, 오른쪽\r\n\r\nIDENTITY LOCK — 변경 불가\r\n\r\n정확히 유지:\r\n\r\n얼굴 윤곽  \r\n이마 크기  \r\n헤어라인  \r\n눈썹 구조  \r\n눈썹 비대칭  \r\n눈 크기  \r\n눈 각도  \r\n눈꺼풀 주름  \r\n눈 간격  \r\n코다리  \r\n코 너비  \r\n콧구멍 기하학  \r\n뺨 볼륨  \r\n입술 곡선  \r\n입 너비  \r\n인중  \r\n턱 너비  \r\n턱 모양  \r\n피부 질감  \r\n자연 모공  \r\n잡티  \r\n얼굴 비대칭  \r\n자연적 결함  \r\n얼굴 성숙도  \r\n정확한 인식 가능한 표정 서명\r\n\r\n이러한 정확한 실세계 인식 단서는 변경되지 않아야 합니다.\r\n\r\n금지된 변경:\r\n\r\n다른 신원  \r\n얼굴 교체  \r\n얼굴 재해석  \r\n아이돌 스타일 향상  \r\n뷰티 필터 얼굴  \r\nV-라인 재구성  \r\n더 큰 눈  \r\n더 작은 코  \r\n더 높은 코다리  \r\n입술 재설계  \r\n대칭적 완벽함  \r\nAI 뷰티 스무딩  \r\n글라스 스킨 효과  \r\nCGI 피부  \r\n애니메이션 영향  \r\n연예인 스타일 향상  \r\n성별 미화  \r\n디에이징  \r\n나이 변화  \r\n인종 변화\r\n\r\n얼굴이 더 예뻐지지만 덜 동일해지면, 생성은 실패입니다.\r\n\r\n얼굴이 더 대칭적이 되면, 생성은 실패입니다.\r\n\r\n결과가 AI 생성처럼 보이면, 생성은 실패입니다.\r\n\r\nSCENE\r\n\r\n실제 DSLR 포토부스 생일 그룹 사진.\r\n\r\n세로 9:16.\r\n\r\n밝고 심플한 흰색 실내 벽.\r\n\r\n간단하고 깨끗한 한국 포토부스 스튜디오.\r\n\r\n부드러운 직접 플래시.\r\n\r\n자연적 현실적 노출.\r\n\r\n약간 과노출된 포토부스 하이라이트.\r\n\r\n중앙 여성 정확한 소스 신원.\r\n\r\n왼쪽 남성 정확한 소스 신원.\r\n\r\n오른쪽 남성 정확한 소스 신원.\r\n\r\n두 남성 모두 약간 안쪽으로 기울어짐.\r\n\r\n세 명 모두 자연스럽게 가까이 모임.\r\n\r\n모두 렌즈를 똑바로 바라봄.\r\n\r\n자연스러운 작은 여유로운 미소.\r\n\r\n작은 흰색 생일 케이크 하나를 함께 들음.\r\n\r\n자연스러운 손가락과 손 해부학.\r\n\r\n실제 솔직한 우정 분위기.\r\n\r\n자연스러운 피부 모공이 보임.\r\n\r\n리터칭 없음.\r\n\r\n에디토리얼 패션 룩 없음.\r\n\r\n판타지 초상화 없음.\r\n\r\n스타일화 없음.\r\n\r\n이것은 다음과 같이 보여야 합니다:\r\n\r\n업로드된 정확한 세 명의 사람들이 실제로 함께 서 있는 실제 스마트폰 / DSLR 생일 포토부스 사진.\r\n\r\n절대 규칙:\r\n\r\n신원 보존은 구성, 조명, 스타일, 미학, 아름다움보다 최대 우선순위를 가집니다.\r\n\r\n어떤 이유로도 신원을 변경하는 것은 금지입니다.",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptsref",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/3675_out.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "commercial_social",
+                    "name": "社交封面"
+                  }
+                ]
               }
             }
           ]

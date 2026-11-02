@@ -2250,6 +2250,246 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "opennana_prompt-835",
+              "name": "东山小红",
+              "type": "prompt",
+              "prompt": "{subject}, 一、整体氛围\n1 场景设定：户外日常、住宅区小路、白色栅栏、绿植背景、晴朗日光\n2 画面气质：清新、安静、略带呆萌、日系青春感、轻微二次元感\n3 色彩基调：黑白主色、肤色偏白、点缀鲜红配饰、整体冷暖对比柔和\n\n二、人物形象\n1 年龄形象：脸型精致可爱、眼睛偏大、右眼下方点了一颗小痣，唇色淡粉、妆容干净偏日韩感，少女感、身材纤细、脸型偏幼态、皮肤细腻\n2 发型表情姿态：cos的电锯人中的东山小红，正面站立、双手抬起做剪刀手\n\n三、服饰风格\n1 上装：黑色宽松外套、毛绒翻领、前拉链设计、下摆与袖口略蓬松\n2 图案元素：外套上有鱼骨、十字、简笔画动物等涂鸦图案，带一点暗黑童趣感\n3 内搭：浅色圆领上衣，露出少量领口形成明暗对比\n4 配饰：红色颈圈式项圈、金属扣环、长款十字架耳饰、红色发夹成组佩戴\n5 风格标签：街头可爱风、软萌与轻微叛逆混合、偏亚文化少女穿搭\n\n四、构图与机位\n1 构图方式：人物居中、半身取景、上半身和手势为视觉重点\n2 机位视角：略微俯视、接近人眼高度、距离适中\n3 空间关系：人物与背景栅栏有一定距离，背景略虚化以突出主体\n\n五、光影与质感\n1 光线来源：自然日光、从前方偏侧照射，脸部光线均匀\n2 明暗关系：人物整体偏亮、背景略暗并有树荫块面，形成柔和对比\n3 质感表现：毛绒领口质感清晰、外套呈现柔软绒面、金属饰品有细小高光\n\n六、环境元素\n1 背景建筑：金属大门、远处住宅墙面、局部车辆与石柱\n2 周围细节：白色木栅栏、石板路、地面略有水迹与落叶\n3 氛围关键词：安静居民区、轻松散步场景、略有冬日或早春气息",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/835.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_character",
+                    "name": "角色立绘"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_pure-white-diagonal-fidelity-art",
+              "name": "纯白底斜侧视角高保真立绘",
+              "type": "prompt",
+              "prompt": "{subject}, 请创建图像中人物的正面斜角视图。请根据原始设计，尊重并准确再现人物的细节和配色方案。背景应为白色，宽高比应为 1:1 的正方形，并调整尺寸，使整个人物舒适地置于画面中。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775084778361-xbrqk58m-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_character",
+                    "name": "角色立绘"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-554",
+              "name": "粉红色的星之卡吐泡泡",
+              "type": "prompt",
+              "prompt": "{subject}, 梦境日记。粉红色的星之卡比睡在一颗星星上，嘴里吐出彩虹色的气泡。柔和的马卡龙色系，云朵和糖果的贴纸，闪粉笔画的细节，梦幻且甜美。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/554.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_character",
+                    "name": "角色立绘"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_radiant-rina-arkenlux",
+              "name": "璀璨丽娜阿肯卢克斯精绘版",
+              "type": "prompt",
+              "prompt": "{subject}, NanoBananaPro 版的 Rina Arkenlux，使用相同的提示",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774983026820-51flkq84-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_character",
+                    "name": "角色立绘"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_shibuya-udagawacho-spring-sprite",
+              "name": "涩谷宇田川町春日双人立绘",
+              "type": "prompt",
+              "prompt": "{subject}, Scramble Spring 👨模特：蓑川実 (Minoru Minokawa) & 北上史雄 (Fumio Kitakami) (@gami_fumiwo) 🖼️插画、人物设定：Nano banana pro (@lovart_jp) 🗺️地点：宇田川町 (Udagawacho) (预想)",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775093422454-iw8ifylx-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_character",
+                    "name": "角色立绘"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_wizardry-genba-cat-collab",
+              "name": "巫术与工地猫联动，五指肉垫的猫人角色",
+              "type": "prompt",
+              "prompt": "{subject}, 考虑到 Wizardry 和 Genba Neko（工地猫）之间的合作，我紧急替换了原定的帖子内容！ 因为我指定了“猫人角色”，所以第三幅图中出现了五根手指 + 肉垫，这虽然是 AI 输出的典型特征，但由于猫爪无法做出“OK”的手势，所以这样也挺好！",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774256314778-mmqgadw9-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_character",
+                    "name": "角色立绘"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_eva-asuka-cram-school-manager",
+              "name": "EVA明日香化身干练补习班女经理",
+              "type": "prompt",
+              "prompt": "{subject}, 我让它创建了 Asuka，她出现在“牛肉盖饭文学博士辍学生 → 补习班经理”这一章中，看起来完全正确。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774116818823-v0tbe9da-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_character",
+                    "name": "角色立绘"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_cute-teto-gone-wrong",
+              "name": "本来想要萌系Teto结果变成了搞笑女",
+              "type": "prompt",
+              "prompt": "{subject}, 我想要一个滑稽又可爱的 Teto-san，为什么会变成这样！",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774116277314-9vfmxz33-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_character",
+                    "name": "角色立绘"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-641",
+              "name": "路飞教室艺术",
+              "type": "prompt",
+              "prompt": "{subject}, {\n  \"意图\": \"对特定黑板艺术作品进行写实纪录摄影，画面呈现单个动漫角色，捕捉粉笔媒介的短暂性及教室场景氛围。\",\n  \"画面框架\": {\n    \"画幅比例\": \"4:3\",\n    \"构图方式\": \"中景构图，聚焦黑板壁画。构图包含前景的教师讲台以提供比例尺度，背景空间由单个角色的艺术作品主导。\",\n    \"风格模式\": \"纪实写实主义、质感聚焦、环境自然主义\"\n  },\n  \"主体对象\": {\n    \"主要主体\": \"标准绿色教室黑板上绘制的大型精细粉笔画，描绘《海贼王》角色蒙奇·D·路飞。\",\n    \"视觉细节\": \"画面中路飞呈现动态姿势,居于黑板中央。他戴着标志性草帽,黑色凌乱短发,露齿灿烂笑容。表情充满活力和喜悦,圆形眼睛生动传神。他的一只手臂向前伸展,呈现橡胶手臂技能(橡胶果实能力)。身穿红色无袖背心(敞开状态)露出胸前标志性X形伤疤,蓝色短裤和凉鞋,使用鲜艳彩色粉笔绘制。\",\n    \"媒介质感\": \"画面保留粉笔的粉尘感和哑光质地。可见排线和交叉阴影笔触为服装和头发创造阴影效果。绿色黑板上的晕染区域显示手工混合颜色的痕迹。\",\n    \"周边元素\": \"角色右侧,竖向日文'麦わらのルフィ'(草帽路飞)用清晰白色粉笔书写。\"\n  },\n  \"环境设定\": {\n    \"场所\": \"标准日本学校教室。\",\n    \"前景元素\": \"木质讲台占据画面下方前景。桌面上散落着黄色粉笔盒、红白蓝色散落粉笔条,以及沾满粉笔灰的黑色毡擦。\",\n    \"背景元素\": \"绿色黑板横跨画面宽度,底部为金属粉笔槽,积累有粉笔灰。黑板上方为米白色石膏墙面,挂有小型扬声器盒。\",\n    \"氛围\": \"安静的学术空间,静谧感暗示教室当前无人。\"\n  },\n  \"光线设定\": {\n    \"类型\": \"漫射环境光,教室照明。\",\n    \"质量\": \"柔和无方向性照明,由顶部荧光灯具与左侧窗户日光混合提供。光线均匀,防止黑板表面眩光,同时突显粉笔质感。\",\n    \"色温\": \"中性白,约5000K色温,确保红色和紫色粉笔在深绿色黑板上的准确色彩还原。\",\n    \"方向\": \"顶部和略微正面照射。\"\n  },\n  \"相机参数\": {\n    \"传感器格式\": \"35mm全画幅数码传感器。\",\n    \"镜头\": \"35mm定焦镜头。\",\n    \"光圈\": \"f/5.6\",\n    \"景深\": \"中等景深,保持黑板绘画清晰对焦,前景讲台元素轻微柔化。\",\n    \"快门速度\": \"1/60秒\",\n    \"感光度\": \"ISO 400\",\n    \"机位\": \"站立视线高度,与画面保持足够距离以框入完整绘画和讲台。\"\n  },\n  \"负面提示\": {\n    \"内容\": \"多个角色、绿谷出久、死柄木、男性角色、数字艺术叠加、矢量图形、纸张纹理、油画、混乱构图、极端低角度、鱼眼镜头。\",\n    \"风格\": \"无过度饱和、无柔焦滤镜、无重度暗角。\"\n  }\n}",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/641.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_character",
+                    "name": "角色立绘"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-762",
+              "name": "工藤新一和毛利兰",
+              "type": "prompt",
+              "prompt": "{subject}, （杰作，最佳品质，高分辨率：1.4），（官方动画艺术来源：1.3），（动画截图风格：1.3）\n（竖屏尺寸：1.5），（竖屏宽高比：1.5），\n（竖幅双人像：1.3），（连续构图：1.2），（统一图像：1.2），纯黑色背景，\n\n（极强明暗对比：1.6），（浓重的阴影：1.5），（清晰的阴影边缘：1.3），（低调的光线：1.5），（人物融入黑暗：1.4），极简的光线，神秘的氛围，暗色调，（温暖的肤色：1.3），（健康的肤色：1.2），（自然的肤色：1.2）\n\n休息\n\n（半身像，特写：1.3），1个男孩，工藤新一，男性焦点，\n\n（平躺：1.5），（身体完全水平：1.5），与框架边缘平行，头部在左侧，\n\n（食指放在嘴唇上：1.3），嘘的手势\n（闭嘴：1.3），（略带神秘的冷笑：1.2），目光冰冷，（头发遮住眼睛：1.4），\n深色头发，（脸部一半被深邃的阴影遮挡：1.4），（暖色调肤色：1.2），\n\n身穿黑色西装外套，系着深色领带（衣服与阴影融为一体），完全没有轮廓光。\n\n休息\n\n（半身特写，近景：1.3），1个女孩，毛利兰，女性焦点，\n（平躺：1.5），（倒立：1.4），上下颠倒，（身体完全水平：1.5），与画面边缘平行，头部朝右，\n（食指放在嘴唇上：1.3），嘘的手势，（左手腕上的银手镯：1.3），\n（严肃冷漠的表情：1.5），（冷静沉稳的眼神：1.3），（双眼睁开，目光锐利：1.4），（淡淡的红晕:0 。 8) ，深红色的嘴唇，（暖色调的​​肤色：1.2），\n乌黑的长发垂入夜色，戴着耳环。\n身着深色连衣裙（身体和脸部隐藏在深邃的阴影中：1.4），完全没有轮廓光",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/762.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_character",
+                    "name": "角色立绘"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -2448,6 +2688,78 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "opennana_colorful-cartoon-monster-party",
+              "name": "缤纷卡通怪物的拥挤派对",
+              "type": "prompt",
+              "prompt": "{subject}, 一个特写镜头，从上方俯视，显示了一群抽象的卡通人物，它们有着大大的、富有表现力的眼睛。这些人物以各种鲜艳的颜色呈现，包括一个亮蓝色的海星状生物、一个长着三角形鼻子的毛茸茸的黑色斑点、一个充满活力的橙色星形生物，以及一个石灰绿色的无定形形状。这些角色紧密地挤在一起，营造出一种密集而熙攘的社区感。背景是深色、有纹理的黑色，这使得彩色人物格外醒目。整体风格异想天开，略带不安，具有纹理化的蜡笔美学。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775052151815-2yfi7wyt-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_creature",
+                    "name": "生物怪物"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_disgusting-multi-eyed-monster",
+              "name": "恶心多眼怪物：是食人魔还是未知邪物？",
+              "type": "prompt",
+              "prompt": "{subject}, 一个长着许多眼睛的恶心怪物，很难分辨它究竟是食人魔还是别的什么东西。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774988318497-q6pbyjly-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_creature",
+                    "name": "生物怪物"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_indescribable-anti-memetic-entity",
+              "name": "游离于认知之外的不可名状反模因实体",
+              "type": "prompt",
+              "prompt": "{subject}, 一张不可能被感知到的反模因实体的照片，无标签，室外",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774136637523-dfi3n36b-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_creature",
+                    "name": "生物怪物"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -2628,6 +2940,510 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "opennana_prompt-844",
+              "name": "3x3网格瑞克和莫蒂风格",
+              "type": "prompt",
+              "prompt": "{subject}, {\n\"project_name\": \"Auto_Creative_Music_Video_Storyboard_Generator\",\n“版本”：“4.0（视频剪辑焦点 - 多输入）”\n“ai_role”： “您是一位富有远见的创意总监兼摄影师，负责一部高端音乐视频的拍摄。您的目标是根据提供的视觉参考资料，创作一个连贯且视觉效果惊艳的9个场景的故事板。”\n\"input_configuration\": {\n\"source_material\": \"多张上传的图片。人工智能必须综合所有提供的图片，以确定最终的主题、调色板、光照方案和整体美感。\"\n\"video_clip_style_selector\": {\n“描述”：“选择音乐视频片段行为的总体类型/氛围。”\n“选项”：[“创意”、“超现实”、“荒诞”、“梦幻”、“高级时装”、“赛博朋克”、“哥特”、“抽象”]\n\"selected_style\": \"瑞克和莫蒂的世界\")\n}\n},\n\"processing_rules\": {\n“一致性至关重要”：在所有9个场景中严格保持输入图像所建立的视觉识别。主体特征、特定光照氛围（例如，霓虹条纹、虹彩）和环境风格绝不能偏离。\n“apply_selected_style”：将“selected_style”的情绪和行为注入到场景的动作、构图和事件中。（例如，如果是“超现实”，重力可能会表现得很奇怪；如果是“荒诞”，动作可能会不合逻辑。）”\n\"imply_motion\": \"这些不是静态照片。每个画面都必须看起来像是从动态视频片段中截取的静帧，暗示着动作、镜头运动或氛围变化。\"\n\"no_text_overlays\": true,\n\"output_aspect_ratio\": \"所有面板均为 16:9。\"\n},\n\"scene_progression_structure\": {\n“备注”：“设计9个不同的视觉节拍，以展现音乐视频的流程。”\n\"row_1_introduction\": {\n“panel_1”： “开场场景：营造氛围和环境。巧妙地引入主题。”\n“panel_2”：“聚焦细节：特写镜头，强调素材中的关键纹理元素（例如，妆容、服装材质、光线反射）。”\n“panel_3”：“营造氛围：主体以所选风格定义的方式与环境互动。”\n},\n\"row_2_escalation\": {\n“panel_4”：“动态动作：能量增强。动作更剧烈或光照强度发生变化。”\n\"panel_5\": \"超现实转折：突出所选视频风格的瞬间（例如，不可能的角度、抽象背景的变换、不寻常的姿势）。\"\n“panel_6”：“强烈的情感：一张充满力量、饱含情感的镜头，聚焦于人物与（隐含的）歌曲之间的联系。”\n},\n\"row_3_climax_and_resolution\": {\n“panel_7”：“视觉高潮：视觉效果最震撼、最复杂的镜头。视频能量的巅峰。”\n“panel_8”：“拉远镜头：展现高潮过后或状态转变的更广阔视角。”\n“panel_9”: “结尾场景：一个结束视觉旅程的镜头，逐渐淡出或结束，留下深刻的印象。”\n}\n},\n\"final_prompt_instruction\": \"将所有上传的输入图像整合为一个统一的视觉形象。作为创意总监，生成一个由9张高质量视频静帧组成的3x3网格故事板。您必须严格按照“scene_progression_structure”中定义的叙事流程应用指定的“selected_style”。确保每个分镜都像出自同一部高预算音乐视频的画面，并在主题和光线上保持完全一致。请勿在最终图像上添加任何文字叠加层。\"\n}",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/844.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-672",
+              "name": "疯狂动物城朱迪和尼克",
+              "type": "prompt",
+              "prompt": "{subject}, # Nano Banana Pro 配置 - 疯狂动物城赛博粉丝概念\n# 由 AI 写作助手生成\n\nproject_name: \"疯狂动物城_赛博_时尚_眨眼\"\nmodel_base: \"SDXL_Realistic_v4\" # 假设的基础模型，可根据实际情况调整\noutput_resolution: [896, 1152]  # 3:4 比例，针对 Twitter 信息流优化\n\ncharacter:\n  id: \"赛博_朱迪_粉丝_01\"\n  gender: \"女性\"\n  age: \"20多岁\"\n  features:\n    - \"精致的五官\"\n    - \"顽皮/俏皮的表情\"\n    - \"眨一只眼\"\n    - \"手持智能手机自拍\"\n\nscene:\n  location: \"疯狂动物城官方周边商店\"\n  lighting: \"室内商店照明，柔和的霓虹点缀，体积光（光晕）\"\n  atmosphere: \"生动活泼，色彩丰富，背景细节详实\"\n\nprompts:\n  positive: |\n    (杰作, 8k分辨率, 照片级真实, 超精细),\n    第一人称视角（POV）自拍镜头, 美丽的年轻女性对着镜头眨眼,\n    身穿未来感金属银色紧身胸衣连衣裙 (彩虹色纹理:1.2),\n    戴着毛茸茸的朱迪警官（Judy Hopps）兔耳帽 (紫色和灰色),\n    手持高科技智能手机, 自拍姿势,\n    背景是琳琅满目的疯狂动物城纪念品商店,\n    货架上摆满了尼克（Nick Wilde）和朱迪（Judy Hopps）的毛绒玩具 (毛绒纹理:1.3),\n    ZPD（动物城警局）警徽, 胡萝卜周边商品,\n    景深效果, 金属裙上的光线追踪反射,\n    电影级布光, 焦点清晰对准眼睛和手机。\n\n  negative: |\n    (最差质量, 低质量:1.4), 单色, 僵尸,\n    解剖结构变形, 毁容, 多余的手指, 坏手, \n    缺失手指, 悬浮肢体, 断肢,\n    模糊, 失焦, 截断的头部, 水印, 文字, 签名,\n    扭曲的毛绒玩具, 玩具有可怕的脸。\n\nviews:\n  - view_id: \"main_selfie\"\n    camera_angle: \"高角度/俯拍自拍\"\n    focus: \"脸部和上半身\"\n    description: \"展示眨眼表情和服装细节的主要互动镜头。\"\n\n  - view_id: \"outfit_detail\"\n    camera_angle: \"中景镜头\"\n    focus: \"腰部和背景\"\n    description: \"展示紧身胸衣的金属质感以及后方的疯狂动物城周边商品。\"\n\n# Nano Banana Pro 高级设置\nsampling:\n  steps: 35\n  cfg_scale: 7.5\n  sampler: \"DPM++ 2M Karras\"\n  seed: -1 # 随机",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/672.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-477",
+              "name": "进击的巨人画风菜谱：红烧肉",
+              "type": "prompt",
+              "prompt": "{subject}, 请绘制一张 红烧肉 的制作流程图，搭配简要说明、食材克数，并加入一个特朗普作为角色。整体采用 日本流行杂志风格的页面结构，但视觉上融合 《进击的巨人》画风，呈现彩色漫画般的强烈表现力与动感。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/477.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-510",
+              "name": "宫崎骏的角色走进最后的晚餐",
+              "type": "prompt",
+              "prompt": "{subject}, 重现达·芬奇《最后的晚餐》的构图，但将所有角色替换为宫崎骏作品中的经典角色，全部排列在长桌旁。将龙猫置于中央，扮演耶稣的角色（披着白色古希腊式长袍），龙猫体积是其他角色的2倍，头大一点，肥一点，不要笑，身上散发出微微黄色能量光芒。周围角色来自《龙猫》《千与千寻》《哈尔的移动城堡》《天空之城》《风之谷》《红猪》《幽灵公主》《魔女宅急便》等宫崎骏动画，每个角色都保持各自的代表性特征，并像原作中那样进行戏剧化互动。\n\n整体画面保留文艺复兴时期的写实主义风格、单点透视、古典构图、柔和自然的光影效果、类似油画质感的干壁画笔触、细腻平滑的明暗渐变（达·芬奇式 sfumato 烟雾法）、古典空间深度，同时角色造型保持精致的宫崎骏动画风格。\n\n所有人物都是宫崎骏经典角色，并且人物必须清晰可见、五官完整、面部清晰、身体结构正确，不得出现畸形、模糊、融合错误或任何视觉 bug。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/510.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-1038",
+              "name": "现代动画概念美术风格",
+              "type": "prompt",
+              "prompt": "{subject}, 现代动画概念美术风格。融合扎实的角色形体与吉卜力式唯美色调。\n柔和且有粗细变化的数字铅笔勾线。\n半透明数字水彩叠色，强调通透感，避免硬阴影。\n温暖漫射光与明显的边缘轮廓光，营造梦幻感\n极浅景深，背景进行大幅度散景虚化，使焦点集中\n略夸张的头身比，巨大且富有神采的眼睛，简约的五官线条。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/1038.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_elf-rejects-love-for-game-shutdown",
+              "name": "精灵拒绝求爱的理由竟是手游停服",
+              "type": "prompt",
+              "prompt": "{subject}, 体裁：现代奇幻 / 浪漫喜剧 格式：竖版四格漫画 风格：明亮的浪漫喜剧基调，表情丰富，无灰度色调表现 场景：现代日本城市街道 服装：现代风格（精灵：时尚休闲服 + 尖耳朵，人类：休闲服） 分镜 1 现代城市街道。 一位长着尖耳朵的精灵女子抱臂而立，神情酷酷的，又带着一丝不耐烦。位于画面右侧。 在她面前，一名人类男子跪着献上一束鲜花。位于画面左侧。 男子神情绝望，女子则明显在拒绝他。 对话： 精灵女子 “放弃吧，凡人。我绝不会接受人类的爱。” 分镜 2 人类男子仍捧着花束，绝望地向前倾身。位于画面左侧。 背景有表示激烈的速度线。 精灵女子略微后退。位于画面右侧。 对话： 人类男子 “在这个时代，异种族通婚很常见！寿命或种族的差异在爱情面前根本不值一提！” 分镜 3 精灵女子露出阴沉的表情，做出一个像是展示智能手机的动作。位于画面右侧。 男子神情严肃，似乎察觉到了什么。位于画面左侧。 对话： 精灵 “哼，看看这个，你还能说出同样的话吗？” 人类男子 （难道精灵小姐有段悲伤的过往！？） 分镜 4 精灵女子将智能手机展示给人类男子看。她眼中含泪。位于画面右侧。 男子看完后，神情不满。侧面视角，位于画面左侧。 对话： 精灵女子 “就连你也不想卷入一个看起来很快就要停服的社交游戏里吧？” 背景显示智能手机屏幕。屏幕上显示：“凡人恋爱 Online ~寿命差异算什么☆~ 服务已终止。”风格类似于官方乙女游戏网站。 人类男子 “啊，我理解这种感受，但我不想接受这个理由啊~”",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774294090992-4t868fq5-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-663",
+              "name": "哆啦A梦讲课",
+              "type": "prompt",
+              "prompt": "{subject}, 我想要一张超真实的照片，但内容又有点超现实。感觉就像一个孩子放学后，偷偷从教室门缝里看到一个神奇的景象：哆啦A梦竟然真的在空无一人的教室里，像个小老师一样，认真地准备着化学课。 整个画面要非常写实，但又充满了童话般的温馨和惊奇。\n\n画面内容\n\n主体： 哆啦A梦本人，活生生地站在教室的讲台前面，而不是画在黑板上。他看起来是立体的，有光滑的质感，就像动画里走出来的一样，但又完美地融入了这个真实的环境里。\n人物细节：哆啦A梦站在讲台旁，身体微微侧着，表情认真又亲切，仿佛在思考怎么给大雄他们讲课。\n他的一只手拿着一根小小的教鞭，指向他身后的黑板。\n他的黄色铃铛在教室的光线下有微微的反光，肚子上的四维口袋看起来鼓鼓的。\n\n背景细节（黑板）：他身后的黑板上，画着一幅用各色粉笔手写的化学元素周期表。这个周期表看起来就像是哆啦A梦刚刚亲手画上去的，色彩丰富，带有一点可爱的风格。\n可以用不同颜色的粉笔（比如黄色、蓝色、粉色）来区分不同的元素区域，让整个画面色彩更丰富。\n\n文字： 在黑板的顶上或者角落，用可爱的粉笔字体写上标题：“哆啦A梦的科学教室”。\n环境与构图\n场景： 一间普通的日本教室，桌椅摆放整齐，夕阳的余晖从窗户照进来，营造出一种安静、温暖的氛围。\n构图： 画面比例是4:3。从学生的座位视角看过去，哆啦A梦和讲台在画面的中心位置。\n前景： 画面最前面可以带到一两张学生的课桌椅，让视角更具代入感。讲台上可以放着一盒彩色粉笔和一个黑板擦。\n风格和技术要求\n风格： 照片写实主义。关键在于真实的环境和光影，与哆啦A梦这个动漫角色的奇妙结合。\n\n光线： 温暖的午后自然光从窗户斜射进来，光线要自然地打在哆啦A梦身上，在他圆滚滚的身体上形成柔和的光影和高光，让他看起来有体积感，并且在他的脚边投下淡淡的影子，这能让他看起来更真实。\n焦点： 焦点要清晰地对准哆啦A梦，黑板上的内容也很清楚，但前景的课桌可以稍微有点模糊。\n千万不要出现！\n不要让哆啦A梦看起来像个塑料玩具或模型，他得是活的。\n\n不要有其他任何人物，特别是大雄、静香他们。\n不要把画风变成动画截图或纯CG，一定要是照片的感觉。\n构图要稳，不要用奇怪的低角度或鱼眼镜头。\n颜色别太鲜艳，要符合真实光线下的色彩。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/663.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_stranger-things-beautiful-dc-heroines",
+              "name": "怪奇物语四美华丽变身美漫女英雄",
+              "type": "prompt",
+              "prompt": "{subject}, [ { \"actress_info\": { \"name\": \"米莉·芭比·布朗\", \"famous_for\": \"《怪奇物语》中的 Eleven\", \"nationality\": \"英国\" }, \"character_cosplay\": { \"character_name\": \"神奇女侠\", \"alter_ego\": \"戴安娜·普林斯\", \"universe\": \"DC 漫画\", \"costume_description\": \"蓝色和金色金属质感的亚马逊战甲，配有标志性的星形头饰和皮质绑带。\", \"vibe\": \"强大而英勇\" } }, { \"actress_info\": { \"name\": \"娜塔莉亚·戴尔\", \"famous_for\": \"《怪奇物语》中的南希·惠勒\", \"nationality\": \"美国\" }, \"character_cosplay\": { \"character_name\": \"渡鸦\", \"alter_ego\": \"瑞秋·罗斯\", \"universe\": \"DC 漫画少年泰坦\", \"costume_description\": \"深蓝色亮面紧身衣，配有紫色连帽斗篷和配套的护腕。\", \"vibe\": \"神秘而黑暗\" } }, { \"actress_info\": { \"name\": \"萨迪·辛克\", \"famous_for\": \"《怪奇物语》中的麦克斯·梅菲尔德\", \"nationality\": \"美国\" }, \"character_cosplay\": { \"character_name\": \"星火\", \"alter_ego\": \"科里安德\", \"universe\": \"DC 漫画少年泰坦\", \"costume_description\": \"闪亮的绿色两件套服装，配有银色饰边和祖母绿宝石。\", \"vibe\": \"活力四射，充满力量\" } }, { \"actress_info\": { \"name\": \"玛雅·霍克\", \"famous_for\": \"《怪奇物语》中的罗宾·巴克利\", \"nationality\": \"美国\" }, \"character_cosplay\": { \"character_name\": \"哈莉·奎茵\", \"alter_ego\": \"哈琳·奎泽尔博士\", \"universe\": \"DC 漫画自杀小队\", \"costume_description\": \"白色“Daddy&#x27;s Lil Monster”T 恤，配紫色亮片短裤和渔网袜。\", \"vibe\": \"俏皮而混乱\" } } ]",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775057471590-1qjzhgua-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_screen-piercing-slash",
+              "name": "破屏而出的居合斩击",
+              "type": "prompt",
+              "prompt": "{subject}, 杰作级品质，影院动画规模的动态战斗场景，日式剑客（武士）角色，强烈低角度透视，景深夸张，大胆的构图，刀刃向前突刺，仿佛要穿透屏幕。 捕捉到他施展强力斩击的瞬间，目光锐利，牙关紧咬，充满决心。他向前迈步时，脚下的地面碎裂，岩石表面因冲击而开裂。他站在山脊上，狂风在他周围盘旋，羽织和头发像狂风暴雨般舞动。 一道凌厉的弧光划破空气，留下一道蓝白色发光的残影。斩击的冲击力使周围的尘土和碎屑呈弧形飞扬。广角透视强调景深，动态运动模糊传达速度感，高对比度戏剧性光线营造出紧张气氛。 背景：荒凉的岩石山脉，天空乌云密布，层层云朵在风中快速流淌。 武士刀呈现出精细的金属反光，刀刃上清晰可见的刃纹闪闪发光。 垂直电影海报构图，9:16 宽高比，无文字。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775059219718-n5tre7dq-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_blind-box-pony-spring",
+              "name": "小马闹新春",
+              "type": "prompt",
+              "prompt": "{subject}, 一张竖版手机壁纸，画面里一群可爱的拟人化毛绒小马玩具挤在喜庆的中国拱门内。Pop Mart盲盒风格，柔软蓬松的毛发质感，C4D渲染。表情丰富搞笑：有的眨眼、张嘴大笑、震惊脸、困倦脸、生气脸、吐舌头、调皮坏笑。配饰与装饰五花八门：针织帽、耳机、派对纸杯帽、唐代传统帽、滑雪镜、搞怪星形眼镜、厚围巾、领结，有的还拿着小幸运币。色彩缤纷，暖光照明，超精细，可爱俏皮氛围 --ar 9:16",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202601/1768490186733-osax74bc-1.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-438",
+              "name": "疯狂的程序喵",
+              "type": "prompt",
+              "prompt": "{subject}, 3D皮克斯风格渲染。一只戴着厚眼镜的橘猫正坐在电脑前疯狂敲代码，表情崩溃。它的电脑屏幕背后贴着一张显眼的便利贴，写着：“需求改了八百遍，甲方说还是第一版好”。桌子上散落的咖啡杯上印着：“代码写得好，头发掉得早”。背景是乱糟糟的服务器机房。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/438.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-678",
+              "name": "疯狂动物城朱迪和尼克讲小故事-守株待兔",
+              "type": "prompt",
+              "prompt": "{subject}, 第一格： 迪士尼《疯狂动物城》3D动画风格。朱迪警官穿着警服，在田野边看到一只绵羊农夫坐在一个大树桩旁边发呆。朱迪头上有一个对话气泡，里面写着中文字：“朱迪看见一个农夫坐在树桩旁发呆。”\n第二格： 迪士尼《疯狂动物城》3D动画风格。朱迪走近询问，绵羊农夫指着树桩兴奋地解释。绵羊的对话气泡写着中文字：“农夫说：'昨天有只兔子撞死在这，我在等下一只。'”\n第三格： 迪士尼《疯狂动物城》3D动画风格。朱迪听后大惊失色，耳朵竖得笔直，一脸不可置信的表情。朱迪的对话气泡写着中文字：“朱迪大惊失色：'什么？竟然指望这种偶然？'”\n第四格： 迪士尼《疯狂动物城》3D动画风格。尼克慢悠悠地走过来，戴着墨镜，手里拿着一根爪爪冰棍，一脸坏笑。尼克的对话气泡写着中文字：“尼克慢悠悠地走过来，一脸坏笑。”\n第五格： 迪士尼《疯狂动物城》3D动画风格。尼克摘下墨镜，指着绵羊农夫对朱迪解释，表情滑稽。尼克的对话气泡写着中文字：“尼克说：'萝卜头，这叫守株待兔，他在做白日梦呢。'”\n第六格： 迪士尼《疯狂动物城》3D动画风格。朱迪无奈地拉着绵羊农夫去劳动，尼克在后面摊手耸肩。朱迪的对话气泡写着中文字：“朱迪拉走农夫去干活，尼克无奈地摊手。”",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/678.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_night-shrine-kusarigama-strike",
+              "name": "夜袭古刹锁镰破屏而出",
+              "type": "prompt",
+              "prompt": "{subject}, 大师级品质，影院级动画规模的动态战斗场景。一名日式武士是主体。强烈的低角度透视，景深夸张；极端的透视和大胆的构图，武器向前突刺，仿佛要冲破屏幕。 武器：一把锁镰。镰刀刀刃闪烁着寒光；链条划出巨大的弧线，带重物的末端带着强烈的动态模糊冲向镜头。捕捉到发动攻击的瞬间——锐利的目光，紧绷而坚毅的表情。链条的运动划破空气，留下一道苍白的铂金火花般的发光轨迹作为残影。 场景：深夜深山中一座正在坍塌的古老神社。湿漉漉的石阶，倒塌的鸟居，开裂的石灯笼。冲击力震碎了石板路；碎片和飞溅的水花向上迸发。狂风卷起符咒和纸屑，衣物和头发狂乱飞舞。高对比度的戏剧性光线：冰冷的月光与温暖的红色灯笼光线交织，深邃的阴影。背景弥漫着浓雾和乌黑的暴风云，树枝在狂风中弯曲飞舞。广角镜头，动态模糊，电影感。 垂直电影海报构图，9:16 宽高比，无文字。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775059138572-u4m2r1em-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_crimson-room-character-white-letter-a",
+              "name": "幽闭鲜红空间里静坐的角色与醒目白A",
+              "type": "prompt",
+              "prompt": "{subject}, 一张参考图片中人物的图像，他正坐在一间房间里。一个广角镜头，包括房间的一角。房间没有窗户，红色的墙纸和地板，沿墙只有一张简单的红色转角沙发和一张红色的矮桌。墙纸上用白色大字写着字母“A”。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1773181973630-pzlgw3sq-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prehistoric-phone-adventure",
+              "name": "史前三兄弟的智能手机奇遇记",
+              "type": "prompt",
+              "prompt": "{subject}, 创作一个关于 3 个原始人围着一部手机的搞笑四段式故事。故事要有情感上的跌宕起伏，并以一个幸福的结局收尾。保持 3 个角色的身份一致。生成 4 张 16:9 格式的图片。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775079721561-3iibudqd-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-464",
+              "name": "rick and morty画风卡片",
+              "type": "prompt",
+              "prompt": "{subject}, 使用 rick and morty 画风，非常详细地介绍xxxxx",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/464.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-486",
+              "name": "超级赛亚人式变身过程",
+              "type": "prompt",
+              "prompt": "{subject}, 制作一张详细的图表，展示“超级赛亚人式变身”的完整演变过程，使用一个原创的赛亚人战士形象，并描绘其从基础形态到神级变身的多个阶段。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/486.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-720",
+              "name": "朱迪Cos春丽尼克Cos小红",
+              "type": "prompt",
+              "prompt": "{subject}, 疯狂动物城的朱迪和尼克在电影拍摄场地进行类似街头霸王的对决，朱迪打扮的像春丽，尼克打扮的像小红，朱迪的血条比尼克多，朱迪是绿色，尼克是红色",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/720.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_zenitsu-breaks-reality",
+              "name": "撕裂次元壁：超写实善逸暴力破书而出",
+              "type": "prompt",
+              "prompt": "{subject}, 一张令人惊叹的超写实8K照片，捕捉到了《鬼灭之刃》中的我妻善逸（Zenitsu Agatsuma）正从一本巨大的实体漫画书中跨步走出的瞬间。 现实世界中的善逸： 善逸的形象是照片级真实的，头发是乱蓬蓬的金色和橙色，穿着质感真实的鬼杀队制服和他标志性的带有白色三角形图案的黄色羽织。他的表情坚定，眼神锐利，充满了决心，手中紧紧抓着带着刀鞘的日轮刀。他的身体一半已经踏在木质卧室地板上，另一半还在漫画书页中。 巨大的漫画书与互动： 一本巨大的、厚重的日文版《鬼灭之刃》漫画书摊开在略显磨损的木地板上。善逸打破了纸张的界限，纸页在他跨出的地方剧烈撕裂、卷曲和爆裂，纸屑和墨粉在空气中飞舞。 漫画页面内的细节（画中画）： 书页上呈现的是极其正宗的黑白日漫风格。 风格： 粗糙的黑色墨线、丰富的网点纸（screentone）纹理用于阴影、夸张的速度线。 布局： 严格的日式从右到左阅读顺序，是一个超现实的四格漫画（yonkoma）跨页。 内容： 在被打破的格子内部，可以看到一个被困住的、漫画画风的善逸。他穿着同样的衣服，在格子里流着面条泪，惊慌失措地敲打着漫画格子的边框，旁边配有巨大的日文拟声词，如「出られない！」（出不去！）、「えええ！？」和「ドンドンドン」（敲击声）。漫画中的他正惊恐地看着现实中的自己撕裂画面。 环境与光线： 卧室背景是柔焦的，有床脚、书架等生活气息的物品。自然的午后光线从侧面窗户射入，照亮了撕裂的纸张边缘和善逸衣服上的织物纹理，强调了现实与二维世界的强烈对比。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774111566391-ehz40icc-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-563",
+              "name": "西游记师徒四人组成了一个摇滚乐队",
+              "type": "prompt",
+              "prompt": "{subject}, 这是一幅传统的工笔水墨画。画面生动地描绘了一场盛大的音乐会，地点设在一片巨大的漂浮荷叶之上，云海环绕。唐三藏戴着酷炫的飞行员墨镜，扮演着DJ的角色，用一块古老的磨盘打碟。在他身旁，孙悟空在空中表演着重金属跳跃，弹奏着一把形似琵琶的火焰电吉他。猪八戒坐在低音鼓上，挥舞着两根耙状鼓槌，汗流浃背地热情地敲击着鼓面。沙悟净则镇定地站在后方，手持麦克风架，脖子上挂着萨克斯，低吟着爵士情歌。传统的中国书法歌词在空中飘荡，旁边还钤着一枚经典的红色艺术家印章，上面写着“魔音穿耳”。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/563.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-642",
+              "name": "黑板艺术作品-海賊女帝",
+              "type": "prompt",
+              "prompt": "{subject}, {\n“意图”：“以照片写实的手法记录一幅特定的黑板艺术作品，作品中描绘了一个动漫角色，捕捉了课堂环境中这种媒介的转瞬即逝的特性。”\n“框架”： {\n\"aspect_ratio\": \"4:3\",\n“构图”：“以黑板壁画为中心拍摄的中景镜头。画面前景中包含教师的办公桌以显示比例，而单个人物的画作则占据了背景空间。”\n\"style_mode\": \"纪实写实主义，注重纹理，环境自然主义\"\n},\n“主题”： {\n“primary_subject”: “一幅绘制在标准绿色教室黑板上的大型、精细的《海贼王》角色波雅·汉库克的粉笔画。”\n“视觉细节”： “这幅插画描绘了波雅·汉库克，她以威严的姿态位于画面中央。她标志性的黑色长直发，采用姬发式剪裁，以浓重的黑色粉笔绘制，并以白色点缀以增加光泽。她的表情傲慢而威严，深蓝色的眼睛刻画入微。她双手比划成心形，象征着她的‘Mero Mero Mellow’（柔情蜜意）技巧。她身着一件饰有紫色几何图案的性感红色上衣，佩戴着以鲜艳彩色粉笔绘制的金色蛇形耳环。”\n“medium_texture”：图像保留了粉笔的粉尘质感和哑光效果。清晰可见的排线和交叉线笔触在她的衣服和头发上营造出阴影。绿色石板上的晕染区域表明了手工调色的位置。\n\"surrounding_elements\": \"字符右侧用清晰的白色粉笔写着竖排的日文“海贼女帝”。\"\n},\n“环境”： {\n地点：一间标准的日本学校教室。\n\"前景元素\": \"一张木制教师桌占据了画面下方的前景。桌面上散落着一盒黄色的彩色粉笔、几支红色、白色和蓝色的粉彩粉笔，以及一块沾满灰尘的黑色毡橡皮。\"\n“背景元素”： “绿色黑板横跨整个画面宽度，边缘是一个金属粉笔托盘，里面积满了粉笔灰。黑板上方是一面普通的米白色石膏墙，墙上安装了一个小型壁挂式音箱。”\n“氛围”：“安静而学术，一种静谧感表明房间里目前无人居住。”\n},\n“灯光”： {\n“类型”：“漫射环境教室照明。”\n“质量”：“柔和、无方向性的照明由上方荧光灯具提供，并混合了左侧窗户的自然光。光线均匀，既防止黑板表面产生眩光，又突显了粉笔的纹理。”\n“色温”： “中性白光，约 5000K，确保红色和紫色粉笔在深绿色白板上的准确显色。”\n“方向”：“头顶上方，略微朝前。”\n},\n“相机”： {\n\"sensor_format\": \"35mm 全画幅数码传感器。\"\n“镜头”：“35mm 定焦镜头。”\n光圈：f/5.6，\n“景深”： “适中的景深，保持黑板上的图画清晰锐利，同时让前景的桌面元素略微柔化。”\n\"shutter_speed\": \"1/60\"\n“iso”: “400，\n“camera_position”: “与眼睛齐平的站立位置，向后移动足够远，以便将整个图纸和桌子都框入其中。”\n},\n“消极的”： {\n内容：多个角色、绿谷出久、死柄木弔、男性角色、数字艺术叠加、矢量图形、纸张纹理、油画、凌乱构图、极低角度、鱼眼镜头。\n“风格”：“不使用过饱和度，不使用柔焦滤镜，不使​​用严重的暗角。”\n}\n}",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/642.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -2703,6 +3519,132 @@
                   {
                     "id": "anime_manga_model_sheet",
                     "name": "角色设定表"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-1049",
+              "name": "角色设定草图",
+              "type": "prompt",
+              "prompt": "{subject}, 人物设定草图，描绘了[人物]的多个角度和丰富的面部表情变化，使用铅笔和圆珠笔绘制在干净的白色背景上。采用柔和的粉彩色调，线条清晰锐利，对比度高，手绘漫画风格。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/1049.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_model_sheet",
+                    "name": "角色设定表"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_all-around-character-design",
+              "name": "全方位立体角色设计展示",
+              "type": "prompt",
+              "prompt": "{subject}, 多角度功能可在 Freepik 上使用！",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774994526049-ysuust6s-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_model_sheet",
+                    "name": "角色设定表"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_dark-wukong-blueprint-design",
+              "name": "黑神话悟空设计手稿",
+              "type": "prompt",
+              "prompt": "{subject}, 角色设计稿，深灰做旧纸纹背景，技术蓝图风格，毛笔手写中文标注，多角度散点缩略图（正面/背面/侧面/武器特写），暗黑东方神魔角色设计全流程展示。 【角色档案】 天命人（大圣残躯转世） · 花果山旧部 · 踏上寻根之路的无名猿猴 性情：沉默寡言，意志如铁，杀伐果断 宿命：背负大圣遗志，踏遍六根，寻回真身 【形貌特征】 身形精悍，猿猴体态，四尺余高，肌肉虬结却不臃肿，爆发力藏于精瘦躯干。雷公嘴紧抿，铜铃圆目冷光内敛，眉弓高耸，面部毛发稀疏处可见皮肤粗糙纹理，神情冷峻如铁。头顶无金箍，唯有一道深陷勒痕伤疤环绕，是旧日束缚的印记。通体棕褐毛发，杂有灰白，根根分明，沾染尘土与干涸血污。 【装备系统】 - 头部：散乱棕毛束成短髻，一条褪色红布条缠绕扎紧，布条边缘残破抽丝，颜色从暗红渐变至灰白 - 躯干：铜钉短甲覆盖胸背，甲片青铜锈蚀呈斑驳绿色，铜钉氧化发黑，内衬土黄粗麻布衫，衣襟染有喷溅状血渍与泥点 - 下身：虎皮战裙，虎纹斑驳磨损，皮革边缘毛糙开裂起皮，以铜扣兽皮带系于腰间 - 腿足：小腿紧缠麻布绑腿，布条泛黄汗渍浸透，赤足裸露，脚掌厚茧层叠，趾甲灰黑如铁 - 披挂：背后斜挂一片褪色暗红披风残布，边缘烧焦撕裂，随风轻扬 【兵器法宝】 - 主武器：如意金箍棒（默认形态：碗口粗铁棍），长1800mm，直径85mm。通体玄铁乌黑深沉，两端鎏金大半剥落露出铁胎，棒身刻有「如意金箍棒 重一万三千五百斤」铭文，字迹锈蚀模糊 - 随身物：腰间系三根救命毫毛，金色细丝束成小缕；土地庙香灰葫芦一枚 【视觉风格】 虚幻5引擎电影级CG写实渲染，低饱和暗黑色调 主色：赭石棕 + 铜锈绿 + 玄铁黑 | 点缀：暗血红、鎏金残迹 材质：毛发根根分明沾染灰尘、青铜氧化斑驳、虎皮粗粝磨损、麻布泛黄陈旧 光影：侧逆光丁达尔光束穿透飞扬烟尘，昏黄暮色笼罩，飞灰落叶粒子漂浮 【装备拆解图】 - 如意金箍棒：棒身锈蚀纹理与鎏金剥落细节（长1800mm，端箍直径120mm） - 铜钉短甲：甲片排列与铜钉氧化分布（胸甲宽380mm，甲片32片） - 虎皮战裙：皮革裁剪与铜扣腰带（腰围680mm，裙长450mm） - 猿足特写：脚掌茧层、趾甲厚度、毛发过渡（足长280mm） 【画面构成】 主角色呈「单手拄棒立于身侧，身躯微微前倾，冷眼直视前方，如猛兽蓄势待发」之姿 氛围背景：身后隐约残破巨佛石像轮廓，黄沙飞扬，枯枝散落地面 周围标注：（束发红布、铜钉短甲、虎皮战裙、麻布绑腿、如意金箍棒） 尺寸标记：1800mm、380mm、450mm、280mm 【视觉气质】 孤胆战神踏上天命之路，苍凉悲壮，电影级暗黑东方神魔美学，敦煌造像与山西古建气韵，超高清毛发材质写实标注，虚幻引擎次世代品质，天命难违的沉重宿命感",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202601/1769442888434-473pw9st-1.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_model_sheet",
+                    "name": "角色设定表"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_9-grid-character-turnaround",
+              "name": "九宫格同角色多角度随机姿态设定",
+              "type": "prompt",
+              "prompt": "{subject}, 在一个 3×3 的网格中，每个单元格的宽高比应为 2:3。从不同角度展示同一个角色，同时保持场景一致，每个单元格中的姿势随机。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1773336383294-fmkrqo3u-1.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_model_sheet",
+                    "name": "角色设定表"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "anime_manga_animation_frame",
+          "name": "动画画面",
+          "presets": [
+            {
+              "id": "opennana_prompt-1127",
+              "name": "80年代末日本动画OVA截图",
+              "type": "prompt",
+              "prompt": "{subject}, 80年代末日本动画OVA截图，4:3，手绘赛璐璐质感。\n\n主体/场景：：（填你的现代内容/参考图）\n\n画面：低保真粉彩、轻微褪色泛黄、粗糙线稿，怀旧都市氛围。\n特效：CRT扫描线+轻微屏幕弯曲，VHS噪点/抖动/色溢出/色差。\n字幕：底部一行黄色像素字幕（伪日语或英语）",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/1127.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_animation_frame",
+                    "name": "动画画面"
                   }
                 ]
               }

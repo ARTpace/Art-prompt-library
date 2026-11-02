@@ -309,6 +309,30 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "pia_fantasy-railway-transformation",
+              "name": "角色写实森林宇宙可爱",
+              "type": "prompt",
+              "prompt": "创作一幅插图。仔细分析上传的插图，理解其艺术风格、色彩、角色设计、主题、氛围、情感基调、符号、建筑、奇幻元素和世界观构建。将其转化为一个完全原创的 {argument name=\"railway style\" default=\"绘本风格奇幻铁路\"}。视觉风格必须变得柔和、可爱、充满奇思妙想、温馨且具有魔法感，而非写实风格。\n\n火车不得类似于任何现实中的铁路、新干线或磁悬浮列车。相反，火车本身要成为从上传插图中诞生的巨大活体吉祥物。其整体轮廓、面部、耳朵、角、花瓣、叶子、翅膀、尾巴、花朵、丝带、窗户、车轮、悬浮机制、装饰以及每一节车厢，都必须自然地从原图的世界中生长出来。\n\n每一幅插图都应创造出一种完全不同的生物。一个 {argument name=\"world theme\" default=\"巫女世界\"} 可能会变成一个巨大的 {argument name=\"living creature\" default=\"招财狐狸、兔子、守护灵、神圣锦鲤或漂浮的神社生物\"}。花朵世界可能会变成巨大的花卉动物。皇室世界可能会变成微笑的皇冠野兽。太空世界可能会变成星座鲸鱼。这种生物必须让观众一眼就能联想到：“只有这个角色的世界才能创造出这样的火车。”\n\n创造一个属于同一宇宙的梦幻奇幻车站。车站本身应该充满生命力：花朵车站、糖果车站、巨树车站、漂浮云朵站台、蘑菇村、水晶森林、玩具小镇、月亮花园、精灵村或由魔法铁路线连接的浮岛。\n\n将原角色放置在火车旁，带着温暖的微笑快乐地介绍它。微小的吉祥物居民、精灵、兔子、鸟类、灵体、花朵、气球、星星和魔法生物充盈在车站中，使整个世界充满生机。\n\n采用儿童绘本的氛围，使用柔和的圆润形状、夸张可爱的比例、温和的柔和色调、发光的花朵、闪烁的灯光、蓬松的云朵、魔法粒子、奇幻建筑、愉悦的表情、舒适的灯光以及极具感染力的魅力。每一个场景都应感觉像是进入了一本人们梦想乘坐其铁路的奇幻故事书。\n\n杰作，超细节，奇思妙想的奇幻，绘本插图，柔和光影，柔和色调，可爱的吉祥物设计，魔法铁路世界，可爱的奇幻建筑，极具想象力，梦幻般，温馨，迷人，无写实工程，无现代交通工具，无新干线轮廓，无水印。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/26868.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_oil",
+                    "name": "油画"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -1437,6 +1461,30 @@
                   "runner_up": "painting_watercolor"
                 }
               }
+            },
+            {
+              "id": "pia_japanese-crane-and-chrysanthemum-art",
+              "name": "日式仙鹤与菊花艺术",
+              "type": "prompt",
+              "prompt": "精致的日式风格艺术，描绘了 {argument name=\"birds\" default=\"两只蓝青色仙鹤\"} 在 {argument name=\"flowers\" default=\"超大粉色菊花\"} 和 {argument name=\"foliage\" default=\"靛蓝色叶片\"} 间飞翔的场景。背景为柔和的渐变色，逐渐淡入苍白的太阳。画面采用优雅的金色轮廓、柔和的渐变色，以及宁静的传统构图。非常适合用于高端印刷品或文化艺术品。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/15170.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_ink",
+                    "name": "水墨国画"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -2446,6 +2494,30 @@
                   "confidence": 0.3481,
                   "runner_up": "painting_watercolor"
                 }
+              }
+            },
+            {
+              "id": "pia_pr-33755",
+              "name": "霓虹汽车",
+              "type": "prompt",
+              "prompt": "a car is moving through the road with subtle motion blur, reflecting intense red neon and traffic lights, casting red highlights onto the asphalt",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptsref",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/2053_out.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_sketch",
+                    "name": "素描速写"
+                  }
+                ]
               }
             }
           ]
@@ -4841,6 +4913,78 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "pia_chibi-sprite-sheet",
+              "name": "角色可爱",
+              "type": "prompt",
+              "prompt": "{\"type\":\"2D Q 版角色动画精灵图集\",\"subject\":{\"character name\":\"{argument name=\\\"character name\\\" default=\\\"Sammy\\\"}\",\"style\":\"可爱的游戏吉祥物，小巧的 Q 版比例，粗而柔和的轮廓，轻微的赛璐珞阴影，干净的贴纸式渲染\",\"face\":\"大部分为无特征的平滑米色方形脸，带有细微的渐变，在右中位置附近的一个小精灵上显示一个微小的表情\",\"hair\":\"{argument name=\\\"hair style\\\" default=\\\"深棕色短卷发\\\"}\",\"skin\":\"浅暖米色\",\"outfit\":{\"top\":\"{argument name=\\\"hoodie color\\\" default=\\\"青色连帽衫，配深蓝色袖子和小型前袋\\\"}\",\"bottom\":\"深海军蓝长裤或短裤（取决于姿势）\",\"shoes\":\"奶油色运动鞋，配深色鞋底\"}},\"canvas\":{\"background\":\"纯白色\",\"composition\":\"大型精灵图集，包含许多排列在松散行中的独立姿势，无网格线，无标签，留有大量空白\",\"view\":\"主要是正面和四分之三侧面视图，小巧的全身精灵\",\"total sprites\":57},\"layout\":{\"row count\":9,\"rows\":[{\"row\":1,\"count\":6,\"descriptions\":[\"正面待机站立\",\"正面待机站立重复\",\"正面待机站立重复\",\"正面待机站立重复\",\"正面待机站立重复\",\"正面待机站立重复\"]},{\"row\":2,\"count\":8,\"descriptions\":[\"从左到右奔跑跨步 1\",\"从左到右奔跑跨步 2\",\"从左到右奔跑跨步 3\",\"从左到右奔跑跨步 4\",\"从左到右奔跑跨步 5\",\"从左到右奔跑跨步 6\",\"从左到右奔跑跨步 7\",\"从左到右奔跑跨步 8\"]},{\"row\":3,\"count\":8,\"descriptions\":[\"奔跑循环交替跨步 1\",\"奔跑循环交替跨步 2\",\"奔跑循环交替跨步 3\",\"奔跑循环交替跨步 4\",\"奔跑循环交替跨步 5\",\"奔跑循环交替跨步 6\",\"奔跑循环交替跨步 7\",\"奔跑循环交替跨步 8\"]},{\"row\":4,\"count\":4,\"descriptions\":[\"右手握拳站立\",\"双臂举起站立\",\"单手挥手站立\",\"小型庆祝姿势站立\"]},{\"row\":5,\"count\":5,\"descriptions\":[\"低姿蹲伏\",\"单臂向上跳跃\",\"向后翻滚或跌倒\",\"空中蜷缩或滚动\",\"小型正面待机站立\"]},{\"row\":6,\"count\":8,\"descriptions\":[\"行走或慢跑姿势\",\"正面直立\",\"盘腿坐姿\",\"手膝着地爬行\",\"带有可见眉毛和闭嘴微笑的微小正面角色\",\"跪姿或侧坐姿\",\"高挑中性正面姿势\",\"双臂放松正面站立\"]},{\"row\":7,\"count\":6,\"descriptions\":[\"宽幅自信站姿\",\"双手垂下的正面待机\",\"正面放松待机\",\"正面待机微调\",\"正面待机微调\",\"正面待机微调\"]},{\"row\":8,\"count\":6,\"descriptions\":[\"单膝抬起的行走跨步\",\"行走跨步交替\",\"双臂向前的奔跑姿势\",\"行走跨步交替\",\"行走跨步交替\",\"行走跨步交替\"]},{\"row\":9,\"count\":6,\"descriptions\":[\"正面待机站立\",\"侧步或蹲伏动作\",\"正面待机站立\",\"胸前持有或拥抱小物体站立\",\"持有小物体站立交替\",\"正面待机站立\"]}]},\"rendering instructions\":\"为名为 {argument name=\\\"character name\\\" default=\\\"Sammy\\\"} 的游戏角色创建一个精致的精灵图集概念图。使用白色背景，将 57 个小型 Q 版精灵按 9 行松散排列，数量分别为 6、8、8、4、5、8、6、6 和 6。保持所有精灵设计一致：深色卷发、青色连帽衫配蓝色袖子、海军蓝下装、奶油色鞋子、超大米色无特征脸部、圆润身体、柔和阴影和干净的卡通线条。包含奔跑、行走、待机、挥手、欢呼、跳跃、蹲伏、翻滚、坐姿、爬行、跪姿和持有物体的姿势，其中一个微小的中心精灵显示一个简单可爱的微笑表情。无文字、无标签、无网格、无背景场景。\"}",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/18378.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_digital",
+                    "name": "数字绘画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_skincare-aloe-commercial-shot",
+              "name": "Pure",
+              "type": "prompt",
+              "prompt": "一支磨砂绿色玻璃管，标签上印有“{argument name=\"label\" default=\"Pure Aloe\"}”，放置在光亮的表面上，周围环绕着充满活力的芦荟汁弧线和在空中飞溅的破碎芦荟叶片。背景清爽干净，带有自然的绿色高光，呈现高端护肤品广告风格。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/17807.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_digital",
+                    "name": "数字绘画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_jon-jones-vs-poatan-care-bears-style",
+              "name": "爱心熊版本",
+              "type": "prompt",
+              "prompt": "Jon Jones 对决 Poatan {argument name=\"version\" default=\"爱心熊版本\"}",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/15591.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_digital",
+                    "name": "数字绘画"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -5461,6 +5605,36 @@
                   "confidence": 0.3364,
                   "runner_up": "painting_pastel"
                 }
+              }
+            }
+          ]
+        },
+        {
+          "id": "painting_botanical",
+          "name": "博物图鉴",
+          "presets": [
+            {
+              "id": "pia_high-school-chemistry-exam-simulation",
+              "name": "高中化学考试模拟",
+              "type": "prompt",
+              "prompt": "生成一张 {argument name=\"subject\" default=\"高二化学期末试卷\"} 的图像。要求：{argument name=\"ratio\" default=\"4:3\"}，扫描风格，中文，双栏排版，中等难度。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/14776.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_botanical",
+                    "name": "博物图鉴"
+                  }
+                ]
               }
             }
           ]

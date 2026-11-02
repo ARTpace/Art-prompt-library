@@ -199,6 +199,54 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "pia_amateur-apple-store-photography",
+              "name": "iPhone",
+              "type": "prompt",
+              "prompt": "在关闭的 {argument name=\"store\" default=\"Apple Store\"} 前拍摄的业余照片，但我们可以透过窗户看到内部。使用 {argument name=\"device\" default=\"iPhone\"} 拍摄。{argument name=\"lens\" default=\"主摄像头\"}",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/13583.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_storyboard",
+                    "name": "分镜故事板"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_ishihara-color-blindness-test-plate",
+              "name": "石原氏色盲测试图",
+              "type": "prompt",
+              "prompt": "一张石原氏色盲测试图，由一个巨大的圆形区域组成，内部填充了大小不一的密集圆点。圆圈内的背景圆点采用 {argument name=\"background color palette\" default=\"橄榄绿和芥末黄\"} 色调。在中心位置，由 {argument name=\"number color palette\" default=\"淡粉色和鲑鱼粉\"} 的对比色圆点构成了隐藏数字 {argument name=\"hidden number\" default=\"67\"}。主圆圈外的周围区域填充了颜色更深、更柔和的绿色和棕色圆点，营造出经典的医学视错觉效果。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/13946.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_storyboard",
+                    "name": "分镜故事板"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -909,6 +957,36 @@
                   {
                     "id": "film_cinema_shot",
                     "name": "单镜头画面"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "film_cinema_mood",
+          "name": "电影氛围",
+          "presets": [
+            {
+              "id": "pia_washington-crossing-style-winter-boat-scene",
+              "name": "华盛顿横渡风格冬季船景",
+              "type": "prompt",
+              "prompt": "一张电影感历史场景图，描绘了黄昏时分在冰冷的河流上进行冬季横渡的画面。画面中一艘拥挤的木制划艇上载着整整 11 名殖民地时代的士兵和船夫，正穿行在布满浮冰的深色冰水中。画面中央站着一位指挥官，身姿挺拔且坚定，深蓝色或黑色的厚重斗篷披在浅棕色军装外，头戴黑色三角帽，展现出 18 世纪将军的风范。周围 10 名男子在船中坐着或蹲伏，身着饱经风霜的美国独立战争时期服装：深色外套、羊毛帽、斗篷、围巾、皮带和三角帽；几人紧握长木桨，中央人物身后可见一支斜向上方的火枪。氛围阴郁、寒冷且英勇，衣物湿润，带有积雪，空气中弥漫着苍白的哈气，天空呈现风暴般的蓝灰色。河流宽阔且部分结冰，远处是深色的树木繁茂的海岸线，对岸闪烁着几点微弱的暖光。构图采用正面视角，从船头上方紧凑取景，让观者仿佛置身于这冰冷的横渡之中。采用低调照明，色彩柔和且去饱和，深邃阴影，潮湿质感，追求写实主义，融合了戏剧性历史油画的张力与电影级写实感，展现超细节的织物、木纹、冰块和雾气。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/14658.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_mood",
+                    "name": "电影氛围"
                   }
                 ]
               }

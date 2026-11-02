@@ -523,6 +523,54 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "pia_pr-32819",
+              "name": "纯黑色背景，居中构图，黑金配色的炫酷公司控股集团主题艺术 L…",
+              "type": "prompt",
+              "prompt": "纯黑色背景，居中构图，黑金配色的炫酷公司控股集团主题艺术 LOGO 字设计。\r\n\r\n主视觉文字为中文“保安控股”，字体必须清晰准确，不要拼错，不要变形，不要出现其他多余文字。文字采用圆润饱满但有力量感的粗体艺术字造型，整体以金属金、暗金、亮金渐变填充，字面带有细腻闪粉、金属高光和轻微立体浮雕质感，边缘带有清晰金色描边与柔和金色外发光，呈现高级、霸气、稳重、炫酷的视觉效果。\r\n\r\nLOGO 融入公司控股、集团企业、安保行业元素：金色盾牌徽章、企业大楼轮廓、商务线条、金融控股感的几何结构、环形徽章、皇冠感顶部装饰、稳固的基座造型、象征安全防护的光环或护盾线条。元素以黑金色为主，线条流畅精致，整体具有高端企业品牌感和安全可靠的气质。\r\n\r\n整体风格为炫酷高级 LOGO、现代企业徽章风、黑金金属质感、轻微潮流艺术字效果结合。画面以纯黑色和金色为主色调，可加入少量白色高光增强层次，但不要使用其他彩色。设计要干净、精致、专业，不要杂乱，不要过度卡通。\r\n\r\n画面无多余背景元素，仅保留纯黑色背景，视觉焦点完全集中在“保安控股”文字和公司控股主题图形元素上。整体要高级、稳重、霸气、炫酷、好看，适合作为公司品牌 LOGO、集团标识、企业头像、商务宣传标志使用。\r\n\r\n高分辨率，细节清晰，边缘平滑无锯齿，LOGO 质感精致，构图紧凑饱满。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptsref",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/36114_out.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_character",
+                    "name": "三维角色"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_female-android-blueprint-sheet",
+              "name": "角色字体矢量暗黑宇宙",
+              "type": "prompt",
+              "prompt": "{\"type\":\"technical blueprint character design sheet\",\"style\":\"dark navy engineering blueprint with fine cyan grid, thin white and pale blue line art, precise drafting annotations, dimension arrows, boxed tables, clean sci-fi UI typography, high-detail mechanical cutaway linework\",\"subject\":{\"name\":\"{argument name=\\\"android model name\\\" default=\\\"EVE-07\\\"}\",\"role\":\"{argument name=\\\"role subtitle\\\" default=\\\"SPACE MOBILITY VEHICLE PILOT\\\"}\",\"description\":\"female humanoid android, adult proportions, athletic curvy body, long flowing hair, robotic internal joints and armor segments visible as transparent schematic outlines, high-heel mechanical feet, blank dark rectangular face censor panel covering the face in each orthographic view\",\"materials\":\"ceramic composite armor, silicone synthetic muscle, titanium alloy frame, high-voltage caution components\"},\"canvas\":{\"orientation\":\"vertical poster\",\"background\":\"deep blue blueprint paper with subtle square grid and outer drafting border\",\"composition\":\"orthographic robot blueprint with three main body views on the left and center, data panels stacked on the right, notes and revision table at bottom right\"},\"header\":{\"position\":\"top left\",\"large title\":\"{argument name=\\\"android model name\\\" default=\\\"EVE-07\\\"}\",\"subtitle\":\"{argument name=\\\"role subtitle\\\" default=\\\"SPACE MOBILITY VEHICLE PILOT\\\"}\",\"small line\":\"Android / Female / Type-07\"},\"layout\":{\"main views\":{\"count\":3,\"views\":[{\"label\":\"FRONT VIEW\",\"position\":\"upper left\",\"description\":\"full-body front orthographic view, arms relaxed at sides, long hair around shoulders, detailed transparent torso, chest, hip, thigh, knee, ankle and foot mechanisms\",\"dimension labels\":[\"height 1670\",\"width 380\",\"shoulder-to-hip segmented measurements 250, 320, 450, 650\",\"foot width 220\"],\"callouts count\":12,\"callouts\":[\"OPTICAL SENSOR CAMERA UNIT\",\"NECK ACTUATOR VER. 07\",\"SHOULDER UNIT ROTATION 180°\",\"CHEST UNIT CERAMIC COMPOSITE ARMOR\",\"UPPER ARM UNIT SILICONE SYNTHETIC MUSCLE\",\"POWER CORE & CONTROL UNIT\",\"HIP UNIT FLEXIBLE MOVEMENT STRUCTURE\",\"HAND UNIT TACTILE SENSOR\",\"THIGH UNIT SILICONE SYNTHETIC MUSCLE\",\"KNEE ACTUATOR VER. 07\",\"LOWER LEG UNIT BALANCE CONTROL\",\"ANKLE ACTUATOR VER. 07\",\"FOOT UNIT MAGNETIC HEEL\"]},{\"label\":\"SIDE VIEW\",\"position\":\"upper center-right\",\"description\":\"full-body side orthographic view facing left, long hair falling down back, visible ear detail, bust and hip profile, arm hanging straight, mechanical leg and high heel foot\",\"dimension labels\":[\"height 1670\",\"head depth 210\",\"foot depth 240\"]},{\"label\":\"TOP VIEW\",\"position\":\"bottom left\",\"description\":\"top-down orthographic view of the android lying horizontally with arms slightly out, long hair radiating from crown, shoulders, torso, hips and legs visible as a dense mechanical outline\",\"dimension labels\":[\"width 380\",\"depth 210\"]}]},\"right side panels\":{\"count\":6,\"panels\":[{\"title\":\"SPECIFICATIONS\",\"position\":\"upper right\",\"rows count\":15,\"rows\":[\"MODEL: EVE-07\",\"TYPE: SPACE MOBILITY VEHICLE PILOT\",\"CLASS: α (ALPHA)\",\"HEIGHT: 1670 mm\",\"WEIGHT: 52 kg\",\"POWER OUTPUT: 120 %\",\"MAX OUTPUT: 120 %\",\"OPERATING TIME: 72 hr\",\"MATERIAL: CERAMIC COMPOSITE, SILICONE SYNTHETIC, TITANIUM ALLOY\",\"CPU: QUANTUM CORE α\",\"SENSOR: MULTI SPECTRUM, LIDAR / RADAR, TACTILE SENSOR\",\"MOBILITY: BIPEDAL\",\"ENVIRONMENT: SPACE\",\"TEMPERATURE: -20°C ~ +60°C\",\"PROTECTION: IP68\"]},{\"title\":\"MATERIAL LEGEND\",\"position\":\"right middle\",\"items count\":4,\"items\":[\"CERAMIC COMPOSITE\",\"SILICONE SYNTHETIC\",\"TITANIUM ALLOY\",\"CAUTION (HIGH VOLTAGE)\"]},{\"title\":\"JOINT RANGE\",\"position\":\"right middle-lower\",\"items count\":7,\"items\":[\"NECK ±90°\",\"SHOULDER 180°\",\"ELBOW 150°\",\"WRIST 180°\",\"HIP 120°\",\"KNEE 150°\",\"ANKLE 120°\"]},{\"title\":\"ID CHIP\",\"position\":\"lower right above notes\",\"description\":\"small technical ID plate with corner screws, barcode, tiny QR code and large text EVE-07\",\"id text\":\"ID:07-0217-α\"},{\"title\":\"NOTES\",\"position\":\"bottom right\",\"items count\":4,\"items\":[\"Four short Japanese-style technical note lines in small white text\", \"The notes appear as compact bullet points inside a rectangular box\", \"Use dense blueprint typography and do not make them the visual focus\", \"Keep them legible-looking but tiny\"]},{\"title\":\"REVISION\",\"position\":\"bottom right edge\",\"rows count\":2,\"columns\":[\"REV.\",\"DATE\",\"DESCRIPTION\",\"APPROVED\"],\"rows\":[\"1.0 | {argument name=\\\"revision date\\\" default=\\\"2024-05-07\\\"} | INITIAL RELEASE | {argument name=\\\"company name\\\" default=\\\"EVE CORP.\\\"}\"]}]},\"rendering requirements\":\"ultra clean vector-like blueprint line drawing, extremely detailed android anatomy and mechanical components, accurate orthographic alignment, fine measurement ticks and arrowheads, thin rectangular panel borders, no photorealistic lighting, no color except navy background and white/cyan drafting lines, no extra characters, no scenery\"}",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/17968.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_character",
+                    "name": "三维角色"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -610,6 +658,54 @@
               "negative_prompt": "",
               "description": "PromptImageAtlas · promptimageatlas",
               "thumbnail": "https://promptimageatlas.com/images/originals/24257.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_product",
+                    "name": "产品渲染"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_youtube-unboxing-thumbnail-prompt",
+              "name": "YouTube 开箱视频缩略图提示词",
+              "type": "prompt",
+              "prompt": "YouTube 开箱视频缩略图，视频主题为 {argument name=\"topic\" default=\"拆开所有逾期账单\"}，{argument name=\"quantity\" default=\"连续 100 份\"}",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/13687.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_product",
+                    "name": "产品渲染"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_nasa-spacecraft-hull-in-orbit",
+              "name": "NASA 航天器轨道船体",
+              "type": "prompt",
+              "prompt": "一张电影级超精细的 NASA 航天器低地球轨道特写，从靠近船体的极近距离以戏剧性的对角线角度拍摄，使弯曲的金属机身从左侧前景延伸至右侧中景，占据画面大部分空间。航天器外部为磨砂银灰色金属，可见明显的接缝、检修面板、锁扣、铆钉、轻微擦痕以及逼真的风化纹理。在船体左上方显著展示经典的 NASA “肉丸”标志，并在侧面印有醒目的黑色模板字体任务文本 {argument name=\"mission code\" default=\"ASTRA-99\"}。展示航天器向右侧圆柱形引擎或对接舱段逐渐收窄的结构。背景中，包含地球蓝色的边缘、白色的云层图案以及深邃太空中发光的薄薄大气层边缘。光线来自右上方强烈的阳光，在金属表面形成清晰的高光、柔和的反射以及沿船体下方的深邃阴影。逼真的航空航天工程质感，聚焦于航天器表面，高对比度，史诗级写实感，高端科幻纪录片风格。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/15803.jpg",
               "classification": {
                 "method": "llm",
                 "stage": "title",
@@ -766,6 +862,30 @@
                 "resolution": "resolved",
                 "status": "suggested",
                 "reason": "标题规则证据：3D / 室内",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_architecture",
+                    "name": "建筑室内"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_fictional-book-excerpts",
+              "name": "虚构书籍页面摘录",
+              "type": "prompt",
+              "prompt": "页面摘录来自：\"{argument name=\"book title\" default=\"将克苏鲁生物作为宠物：指南\"}\"",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/14387.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
                 "taxonomy_version": "1.1.0",
                 "rules_version": "1.1.2",
                 "subcategories": [
@@ -1381,6 +1501,336 @@
                   {
                     "id": "digital_3d_toy",
                     "name": "潮玩手办"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_tw-30674",
+              "name": "车胶片封面城市街头高级",
+              "type": "prompt",
+              "prompt": "夏日城市街头写真，一位年轻亚洲女生，长卷发，清透自然妆容，穿黑色系夏季穿搭，黑色吊带裙 / 黑色长裙 / 黑色无袖连衣裙，搭配黑色单肩包，站在树荫斑驳的斑马线和城市街道上，阳光从树叶缝隙洒下，形成柔和光斑和镜头光晕，画面有夏天微风感，头发被风吹起，人物表情自然有生命力，微笑、回眸、抬头看光、牵手向前走、挥手、旋转裙摆等动作，像朋友用相机在夏天街头抓拍。\n\n整体风格为高级夏日杂志封面，清爽、明亮、柔焦、胶片感、轻微过曝，皮肤通透自然，不要塑料感，不要过度磨皮。背景是绿色树荫、城市马路、车辆虚化、斑马线，浅景深，真实街拍氛围。\n\n画面加入英文杂志排版，大面积留白，高级 serif 字体与黄色手写涂鸦字体混排，字体有生命力，像夏天随手写下的笔记。加入小太阳、爱心、手绘线条、VOL 编号、SUMMER COLLECTION 2024 等元素。主标题可用：\n“SUMMER SWAY”\n“FOLLOW LIGHT”\n“WAVE TO JOY”\n“SOFT NOIR”\n“SPIN IN SHADE”\n“BLACK BLOOM”\n“NOIR GLOW”\n“SUNLIT NOIR”\n“MIDNIGHT SUMMER”\n\n副文案可用：\n“CHASE THE LIGHT, LIVE IN THE NOW.”\n“EASY DAYS, GENTLE LIGHT, ENDLESS YOUTH.”\n“SUN ON MY SKIN, CARE IN MY SOUL.”\n“BLACK ISN’T JUST A COLOR, IT’S A SUMMER STATE OF MIND.”\n“LIGHT HEART. SOFT DAYS. ENDLESS SUMMER.”\n\n摄影感：35mm 镜头，柔和阳光，电影感夏日街头摄影，杂志封面风格，梦幻胶片颗粒，自然皮肤质感，虚化光斑，镜头眩光，轻盈构图，高级时尚休闲风，竖版海报，4:5 比例。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/30674.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_toy",
+                    "name": "潮玩手办"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "digital_3d_environment",
+          "name": "场景环境",
+          "presets": [
+            {
+              "id": "pia_cat-with-toy-car-at-go-kart-track",
+              "name": "猫字体户外",
+              "type": "prompt",
+              "prompt": "一张逼真的照片，展示了一只 {argument name=\"cat color\" default=\"黑色\"} 的猫用后腿站立，前爪搭在 {argument name=\"seat color\" default=\"红色\"} 的小型白色敞篷玩具车座椅上。场景位于户外卡丁车赛道，地面为沥青材质，绘有白色标线，并设有橙白相间的赛道护栏。猫和玩具车上方是一个青色的顶棚结构，上面挂着一块蓝色标牌，用红黄两色字体写着“{argument name=\"sign text\" default=\"* Go! Cart\"}”，旁边配有方格旗图案。背景经过柔焦处理，隐约可见树木、蓝色围栏和远处另一辆卡丁车，画面在自然光下拍摄。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/13606.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_environment",
+                    "name": "场景环境"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_culinary-infographic-storyboard-poster",
+              "name": "泰式炒河粉烹饪项目",
+              "type": "prompt",
+              "prompt": "制作一张清晰、简洁的图表式项目海报，主题为 {argument name=\"dish\" default=\"泰式炒河粉烹饪\"}。采用 16:9 宽屏布局，白色背景，黑色边框，粗体黑色排版，高级皮克斯 3D 风格渲染，{argument name=\"colors\" default=\"明亮鲜艳的色彩——金黄的面条，生动的橙色罗望子酱\"}",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/25398.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_environment",
+                    "name": "场景环境"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_whatsapp-group-profile-avatar",
+              "name": "WhatsApp",
+              "type": "prompt",
+              "prompt": "为 {argument name=\"group type\" default=\"WhatsApp 群组\"} 生成一张头像，用于决定 {argument name=\"purpose\" default=\"周五晚餐和餐厅\"} 的相关事宜。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/15531.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_environment",
+                    "name": "场景环境"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_strange-doki-doki-literature-club",
+              "name": "《心跳文学部》的诡异场景",
+              "type": "prompt",
+              "prompt": "一个 {argument name=\"style\" default=\"诡异图像\"} 的 {argument name=\"subject\" default=\"心跳文学部\"}",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/19075.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_environment",
+                    "name": "场景环境"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_realistic-crypto-exam-paper",
+              "name": "逼真的加密货币考试试卷",
+              "type": "prompt",
+              "prompt": "创建一份 {argument name=\"course topic\" default=\"加密货币\"} 的选修考试试卷，并带有逼真的照片质感",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/15202.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_environment",
+                    "name": "场景环境"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "digital_3d_assets",
+          "name": "游戏资产",
+          "presets": [
+            {
+              "id": "pia_video-game-lobby-interface-prompt",
+              "name": "电子游戏大厅界面提示词",
+              "type": "prompt",
+              "prompt": "截取一张电子游戏大厅的屏幕截图，界面类型为 {argument name=\"screen type\" default=\"starting screen\"}，包含“开始新游戏”、“继续”等选项，极简 UI 界面，超清爽界面，白色背景",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/16481.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_assets",
+                    "name": "游戏资产"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_open-world-rpg-screenshot-style",
+              "name": "开放世界 RPG 游戏截图风格",
+              "type": "prompt",
+              "prompt": "{argument name=\"game genre\" default=\"开放世界 RPG\"} 游戏截图风格",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/14785.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_assets",
+                    "name": "游戏资产"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_retro-game-strategy-guide",
+              "name": "90 年代游戏攻略指南页面",
+              "type": "prompt",
+              "prompt": "创建一个虚构游戏的攻略指南页面图像。该游戏发布于 {argument name=\"release year\" default=\"1995\"} 年。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/28709.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_assets",
+                    "name": "游戏资产"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_mmo-game-world-screenshot",
+              "name": "MMO 游戏世界截图",
+              "type": "prompt",
+              "prompt": "帮我生成一张 ARPG MMO 开放世界游戏截图，主题为 \"{argument name=\"theme\" default=\"A Will Eternal\"}\"",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/15186.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_assets",
+                    "name": "游戏资产"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_ms-paint-style-redraw",
+              "name": "将附带的图像以尽可能笨拙潦草且极其拙劣的",
+              "type": "prompt",
+              "prompt": "将附带的图像以尽可能笨拙、潦草且极其拙劣的方式重绘。使用白色背景，并使其看起来像是用鼠标在 MS Paint 中绘制的一样。它应该与原图有些许相似，但又不太像，既要勉强匹配，又要显得困惑且尴尬，并带有那种像素级的低质量感，以突显其荒谬的糟糕程度。其实，算了，随你怎么画都行。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/17808.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_assets",
+                    "name": "游戏资产"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_youtube-2030-interface",
+              "name": "YouTube",
+              "type": "prompt",
+              "prompt": "{argument name=\"year\" default=\"2030\"} 年 {argument name=\"platform\" default=\"YouTube\"} 首页截图",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/13712.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_assets",
+                    "name": "游戏资产"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "digital_3d_material",
+          "name": "材质纹理",
+          "presets": [
+            {
+              "id": "pia_enhance-rooftop-eo-image",
+              "name": "增强屋顶 EO 图像",
+              "type": "prompt",
+              "prompt": "使用提供的参考图像，将其增强为同一屋顶场景的高分辨率天底卫星/航空裁剪图。保持相同的建筑几何结构、顶部边缘的楼梯、屋顶围栏、左下角的蓝色遮阳篷以及右下角的棕色板条屋顶，但要锐化边缘、增加对比度、稍微校正透视并清除压缩噪点。使屋顶细节更清晰易读，特别是将白色屋顶上的单个太阳能热水器明确为带有小型水箱/圆柱体附件及清晰阴影的矩形面板。保留紧凑的裁剪构图和逼真的地球观测图像外观。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/17375.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_material",
+                    "name": "材质纹理"
                   }
                 ]
               }

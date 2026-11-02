@@ -123,6 +123,744 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "opennana_muted-mg-freeze-frame",
+              "name": "灰暗MG风定格画面",
+              "type": "prompt",
+              "prompt": "{subject}, 生成一张「(主题/剧情一句话描述)」的二维扁平叙事插画，整体为 Flash/MG 动画分镜截图风：干净矢量描边（外轮廓略粗、线条利落），大色块平涂为主，阴影仅用少量柔和渐变，不做复杂材质与写实纹理；场景为(地点/时代/环境)的中远景分镜构图，主体是(人物/物体)正在(动作/状态)，表情清晰可读但五官简化；色彩低饱和偏灰暗，氛围(悬疑/压抑/温暖/荒诞)，画面带轻微暗角与聚光，背景概括化不抢主体；底部保留一行简体中文字幕「(字幕内容)」，画幅(16:9/9:16/4:3)，高清输出。",
+              "negative_prompt": "",
+              "description": "",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202601/1768055390727-8uupr6p3-1.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_shot",
+                    "name": "单镜头画面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-204",
+              "name": "黑客帝国的绿色代码",
+              "type": "prompt",
+              "prompt": "{subject}, 将这张图像转化为数字《黑客帝国》风格场景。背景和主题应由倾泻而下的霓虹绿色代码组成，在黑色背景下，类似于标志性的《黑客帝国》数字雨。使用发光的绿色符号（日语假名、数字和拉丁字母），带有一些运动模糊和深度。添加微妙的光照效果来模拟屏幕辉光，增强赛博朋克、高科技氛围",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/204.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_shot",
+                    "name": "单镜头画面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "booksmart",
+              "name": "Booksmart",
+              "type": "prompt",
+              "prompt": "Booksmart {prompt} . Comedy, high school, overachievers, highly detailed",
+              "negative_prompt": "drama, college, underachievers, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_shot",
+                    "name": "单镜头画面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "matrix",
+              "name": "Matrix",
+              "type": "prompt",
+              "prompt": "Matrix {prompt} . Cyberpunk, green tint, reality-bending, cinematic, highly detailed",
+              "negative_prompt": "rustic, brown tint, reality-based, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_shot",
+                    "name": "单镜头画面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "alien",
+              "name": "Alien",
+              "type": "prompt",
+              "prompt": "Alien {prompt} . Sci-fi horror, space, xenomorphs, dark, highly detailed",
+              "negative_prompt": "comedy, bright, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_shot",
+                    "name": "单镜头画面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "avatar",
+              "name": "Avatar",
+              "type": "prompt",
+              "prompt": "Avatar {prompt} . Sci-fi, Pandora, bioluminescent, 3D, highly detailed",
+              "negative_prompt": "earthly, non-bioluminescent, 2D, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_shot",
+                    "name": "单镜头画面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "inception",
+              "name": "Inception",
+              "type": "prompt",
+              "prompt": "Inception {prompt} . Sci-fi, dream within a dream, mind-bending, cinematic, highly detailed",
+              "negative_prompt": "reality-based, straightforward, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_shot",
+                    "name": "单镜头画面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "twilight",
+              "name": "Twilight",
+              "type": "prompt",
+              "prompt": "Twilight {prompt} . Romantic fantasy, vampires, Pacific Northwest, highly detailed",
+              "negative_prompt": "non-romantic, zombies, desert, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_shot",
+                    "name": "单镜头画面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "transformers",
+              "name": "Transformers",
+              "type": "prompt",
+              "prompt": "Transformers {prompt} . Sci-fi, giant robots, explosions, highly detailed",
+              "negative_prompt": "fantasy, small creatures, calm, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_shot",
+                    "name": "单镜头画面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "casablanca",
+              "name": "Casablanca",
+              "type": "prompt",
+              "prompt": "Casablanca {prompt} . Drama, romance, WWII, highly detailed",
+              "negative_prompt": "action, non-romantic, modern day, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_shot",
+                    "name": "单镜头画面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "jaws",
+              "name": "Jaws",
+              "type": "prompt",
+              "prompt": "Jaws {prompt} . Thriller, shark, Amity Island, highly detailed",
+              "negative_prompt": "comedy, no shark, mainland, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_shot",
+                    "name": "单镜头画面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "e.t.",
+              "name": "E.T.",
+              "type": "prompt",
+              "prompt": "E.T. {prompt} . Sci-fi, family, suburban, highly detailed",
+              "negative_prompt": "fantasy, non-family, urban, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_shot",
+                    "name": "单镜头画面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "ghostbusters",
+              "name": "Ghostbusters",
+              "type": "prompt",
+              "prompt": "Ghostbusters {prompt} . Comedy, supernatural, New York City, highly detailed",
+              "negative_prompt": "horror, natural, rural, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_shot",
+                    "name": "单镜头画面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "interstellar",
+              "name": "Interstellar",
+              "type": "prompt",
+              "prompt": "Interstellar {prompt} . Sci-fi, space travel, wormholes, highly detailed",
+              "negative_prompt": "romantic comedy, earth travel, roads, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_shot",
+                    "name": "单镜头画面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "drive",
+              "name": "Drive",
+              "type": "prompt",
+              "prompt": "Drive {prompt} . Action, neon, 1980s aesthetic, highly detailed",
+              "negative_prompt": "romantic comedy, daylight, modern aesthetic, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_shot",
+                    "name": "单镜头画面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "dunkirk",
+              "name": "Dunkirk",
+              "type": "prompt",
+              "prompt": "Dunkirk {prompt} . War, World War II, beach, highly detailed",
+              "negative_prompt": "romantic comedy, peace, city, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_shot",
+                    "name": "单镜头画面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "her",
+              "name": "Her",
+              "type": "prompt",
+              "prompt": "Her {prompt} . Romance, sci-fi, artificial intelligence, highly detailed",
+              "negative_prompt": "action, reality, human intelligence, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_shot",
+                    "name": "单镜头画面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "whiplash",
+              "name": "Whiplash",
+              "type": "prompt",
+              "prompt": "Whiplash {prompt} . Drama, music, drumming, highly detailed",
+              "negative_prompt": "action, silence, no music, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_shot",
+                    "name": "单镜头画面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "birdman",
+              "name": "Birdman",
+              "type": "prompt",
+              "prompt": "Birdman {prompt} . Drama, Broadway, magical realism, highly detailed",
+              "negative_prompt": "action, Hollywood, realism, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_shot",
+                    "name": "单镜头画面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "gravity",
+              "name": "Gravity",
+              "type": "prompt",
+              "prompt": "Gravity {prompt} . Sci-fi, space, survival, highly detailed",
+              "negative_prompt": "romantic comedy, earth, abundance, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_shot",
+                    "name": "单镜头画面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "moonlight",
+              "name": "Moonlight",
+              "type": "prompt",
+              "prompt": "Moonlight {prompt} . Drama, coming-of-age, Miami, highly detailed",
+              "negative_prompt": "action, aging, Los Angeles, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_shot",
+                    "name": "单镜头画面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "roma",
+              "name": "Roma",
+              "type": "prompt",
+              "prompt": "Roma {prompt} . Drama, Mexico City, 1970s, highly detailed",
+              "negative_prompt": "action, New York City, modern day, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_shot",
+                    "name": "单镜头画面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "parasite",
+              "name": "Parasite",
+              "type": "prompt",
+              "prompt": "Parasite {prompt} . Thriller, class disparity, South Korea, highly detailed",
+              "negative_prompt": "romantic comedy, class equality, United States, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_shot",
+                    "name": "单镜头画面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "1917",
+              "name": "1917",
+              "type": "prompt",
+              "prompt": "1917 {prompt} . War, World War I, single shot, highly detailed",
+              "negative_prompt": "romantic comedy, peace, multiple shots, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_shot",
+                    "name": "单镜头画面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "joker",
+              "name": "Joker",
+              "type": "prompt",
+              "prompt": "Joker {prompt} . Drama, psychological, Gotham City, highly detailed",
+              "negative_prompt": "romantic comedy, psychological well-being, Metropolis, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_shot",
+                    "name": "单镜头画面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "midsommar",
+              "name": "Midsommar",
+              "type": "prompt",
+              "prompt": "Midsommar {prompt} . Horror, cult, Sweden, highly detailed",
+              "negative_prompt": "romantic comedy, mainstream religion, United States, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_shot",
+                    "name": "单镜头画面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "rocketman",
+              "name": "Rocketman",
+              "type": "prompt",
+              "prompt": "Rocketman {prompt} . Musical, biographical, Elton John, highly detailed",
+              "negative_prompt": "action, fictional, ordinary person, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_shot",
+                    "name": "单镜头画面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "waves",
+              "name": "Waves",
+              "type": "prompt",
+              "prompt": "Waves {prompt} . Drama, family tragedy, forgiveness, highly detailed",
+              "negative_prompt": "romantic comedy, family comedy, grudge, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_shot",
+                    "name": "单镜头画面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "hustlers",
+              "name": "Hustlers",
+              "type": "prompt",
+              "prompt": "Hustlers {prompt} . Drama, strippers, financial crime, highly detailed",
+              "negative_prompt": "romantic comedy, office workers, financial responsibility, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_shot",
+                    "name": "单镜头画面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yesterday",
+              "name": "Yesterday",
+              "type": "prompt",
+              "prompt": "Yesterday {prompt} . Comedy, music, The Beatles, highly detailed",
+              "negative_prompt": "drama, silence, unknown band, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_shot",
+                    "name": "单镜头画面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "john_wick_3",
+              "name": "John Wick 3",
+              "type": "prompt",
+              "prompt": "John Wick 3 {prompt} . Action, assassin, relentless pursuit, highly detailed",
+              "negative_prompt": "romantic comedy, pacifist, peaceful life, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_shot",
+                    "name": "单镜头画面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "cats",
+              "name": "Cats",
+              "type": "prompt",
+              "prompt": "Cats {prompt} . Musical, anthropomorphic cats, surreal, highly detailed",
+              "negative_prompt": "action, ordinary humans, realism, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_shot",
+                    "name": "单镜头画面"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -208,6 +946,111 @@
                   {
                     "id": "film_cinema_other",
                     "name": "其他影视"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "film_cinema_mood",
+          "name": "电影氛围",
+          "presets": [
+            {
+              "id": "photo_film_noir",
+              "name": "photo-film noir",
+              "type": "prompt",
+              "prompt": "film noir style {prompt} . monochrome, high contrast, dramatic shadows, 1940s style, mysterious, cinematic",
+              "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic, vibrant, colorful",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_mood",
+                    "name": "电影氛围"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-174",
+              "name": "生成电影氛围图",
+              "type": "prompt",
+              "prompt": "{subject}, 电影静止图像、具有 [ 背景/环境] 、动态角度、[光效或照明条件]、运动模糊、高分辨率摄影、电影场景、电影照明和高对比度。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/174.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_mood",
+                    "name": "电影氛围"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "fooocus_twri_photofilm_noir",
+              "name": "photo-film noir",
+              "prompt": "film noir style {prompt} . monochrome, high contrast, dramatic shadows, 1940s style, mysterious, cinematic",
+              "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic, vibrant, colorful",
+              "description": "TWRI SDXL 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_twri.json",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_mood",
+                    "name": "电影氛围"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "film_cinema_action",
+          "name": "动作场面",
+          "presets": [
+            {
+              "id": "action",
+              "name": "Action",
+              "type": "prompt",
+              "prompt": "\"action shot of {prompt}. Movement",
+              "negative_prompt": "energy",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_action",
+                    "name": "动作场面"
                   }
                 ]
               }

@@ -764,6 +764,102 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "opennana_dreamy-cardboard-submarine",
+              "name": "童趣纸盒打造的梦幻潜水艇",
+              "type": "prompt",
+              "prompt": "{subject}, 如果我用这个 [纸箱] 给孩子们做一艘潜水艇，那会是什么样子？",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1775000718409-yn8cww17-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_vibrant-cardinal-collage",
+              "name": "撕纸拼贴画中的灵动红雀",
+              "type": "prompt",
+              "prompt": "{subject}, 一幅生动的拼贴画描绘了一只栖息在树枝上的北美红雀。这只鸟的眼睛锐利而警觉，喙部尖尖的。背景色彩斑斓，撕碎的纸片构成了郁郁葱葱的绿色植物和一簇簇红色浆果。整体印象是充满活力和自然之美。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775056226278-8yt4w2xw-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_swedish-meatball-pop-up-book",
+              "name": "瑞典肉丸立体书微观模型",
+              "type": "prompt",
+              "prompt": "{subject}, python class Culinary_PopUp_Book: def __init__(self, dish=\"Köttbullar (Traditional Swedish Meatballs)\"): self.base = \"古老的皮革装订食谱，摊开在质朴的木桌上\" self.scale = \"1:87 (HO 比例) 微缩立体模型\" def generate_spread(self): # 1. 左页：起源 (自然) origin_biome = \"茂密的瑞典松树林，点缀着野生越橘灌木丛，以及牛群休憩的薄雾笼罩的绿色牧场\" harvesters = \"微型采摘者在林中采摘鲜红的越橘，传统农民照料着奶牛\" # 2. 中间书脊：转化 (烹饪) machinery = \"经典的瑞典燃木炉 (vedspis)，上面放着一个滋滋作响的巨大铸铁煎锅\" physics = \"浓郁的奶油蒸汽和咸香的烟雾从书脊处发光的余烬中升腾而起\" # 3. 右页：成果 (盛宴) plating = f\"一大盘美味的 {dish}，浸润在浓郁的棕色奶油酱 (gräddsås) 中，旁边是香浓的黄油土豆泥\" garnish = \"微型厨师小心翼翼地摆放着新鲜莳萝小枝，并点缀着鲜亮的越橘果酱\" return [origin_biome, machinery, plating, harvesters, garnish] # 执行渲染：8k 分辨率，移轴摄影，温暖质朴的灯光，舒适的斯堪的纳维亚美学 (Hygge)。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775091362725-3zm74b2e-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_torn-paper-heart-portrait",
+              "name": "撕纸心形窥颜",
+              "type": "prompt",
+              "prompt": "{subject}, 超写实8K HD人像，宽高比3:4，专业影棚摄影品质。  \n使用面部参考——100%保留面部身份，不得改变面部。  \n概念与构图：  \n近距离亲密人像，主视觉为“撕纸心形镂空”窥视效果。撕纸效果逼真，边缘略带粗糙，可见细微纸纤维。一只手自然从撕裂处伸出，营造可信的3D深度感。  \n极简纯白背景，干净无干扰，完全居中构图。  \n手写文字“Just believe”置于心形曲线右上方，柔和手写体，淡粉色，低调优雅。  \n面部与肌肤：  \n洋娃娃般面部特征，极白皙瓷感肌肤，可见真实肌肤纹理（自然毛孔、微瑕疵、柔和色阶过渡）。肌肤散发光泽但非塑料感。  \n表情平静、温柔、略带梦幻，目光坚定直视镜头。  \n妆容（抖音风，写实）：  \n干净抖音妆——锋利却柔和的眼线带微挑猫尾，上下睫毛卷翘，腮红与鼻梁扫柔粉，细而自然的眉毛带柔粉底调，水润柔粉唇。  \n瞳色呈柔粉（隐形眼镜效果），微妙可信。  \n头发（未提色）：  \n长而自然波浪发轻柔框面，真实发束与蓬松度，无明显造型品痕迹。  \n手部细节：  \n手从撕纸中伸出，自然姿势。  \n指甲透明黑渐变，亮面质感，添微妙酷感对比。  \n无可见衣物——取景仅限面部、手与纸张。  \n灯光：  \n正面专业影棚灯，清晰直射，营造分明却干净阴影，面部特征与纹理高清晰不过曝。  \n相机与真实感：  \n专业全画幅相机拍摄，人像镜头观感（≈50–85mm），浅景深，眼部锐利对焦，电影级清晰度，真实比例，无畸变。  \n负面提示词  \n卡通、动漫、插画、CGI、塑料肌肤、过度磨皮、美颜滤镜、夸张大眼、扭曲解剖、面部不对称、手部错误、多余手指、畸形指甲、刺眼HDR、色带、平淡布光、低分辨率、模糊、噪点、水印、logo、文字伪影、可见衣物",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202601/1768150075846-n5f5soq6-1.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -1464,6 +1560,30 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "opennana_raw-stone-carved-hair-fabric",
+              "name": "原始石块雕琢出的细腻发丝与布纹",
+              "type": "prompt",
+              "prompt": "{subject}, 雕塑粗糙的边缘，由一块石头雕刻而成的头发，厚实的布料",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774221051899-sr2dyfvj-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_wood",
+                    "name": "木作雕刻"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -2111,6 +2231,78 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "opennana_black-ceramic-kintsugi-wabi-sabi",
+              "name": "黑瓷金缮：闪耀枝叶的侘寂之美",
+              "type": "prompt",
+              "prompt": "{subject}, 一个用金缮（黄金接缝）修复的圆形黑色陶瓷盘，深色背景，哑光黑色陶瓷纹理，光泽的金色裂纹，设计装饰有金色树枝和叶子，深色渐变背景，影棚灯光，柔和阴影，照片级真实感渲染，高分辨率，8K，日本传统工艺之美，侘寂美学，高质量数字艺术",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775074274779-w1cj3z14-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_clay",
+                    "name": "陶瓷黏土"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_botanical-gold-ceramic-plate",
+              "name": "草木浮金：手工陶盘上的诗意",
+              "type": "prompt",
+              "prompt": "{subject}, 一个俯视的艺术静物构图，以一个干净、极简的工作室环境为背景，展示了一套手工制作的陶瓷餐具。其中，一个宽而浅的 teal-blue 盘子里放着一个较小的配套碗，碗中盛有乳白色的液体，表面轻轻漂浮着两个完整的生蛋黄。精致排列的香草枝和小型野花点缀在碗内和盘子上，一个微小的配套陶瓷花瓶不对称地摆放，以达到视觉平衡。场景以精致的绘画插画风格呈现，融合了柔和的写实主义与手绘陶瓷和植物插画的影响，强调触感纹理、有机缺陷和匠心工艺。调色板柔和而和谐，以柔和的蓝绿色陶瓷色调、温暖的金黄色蛋黄、奶油般的米白色、自然的香草绿色以及陶瓷边缘微妙的泥土色调为主。氛围平静、优雅、沉思，唤起慢生活和精致的居家宁静。以平铺视角捕捉，采用柔和的漫射工作室照明，极少的阴影，主体焦点清晰，平衡的不对称性，干净的负空间，无人出现，无文字，无杂乱，画廊品质的呈现，超高分辨率，方形或接近方形的宽高比。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774997541643-lz6llbqz-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_clay",
+                    "name": "陶瓷黏土"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_clay-animation-aichmophobia",
+              "name": "粘土动画风格描绘尖锐物体恐惧症心理",
+              "type": "prompt",
+              "prompt": "{subject}, 尖锐物体恐惧症（对尖锐物体的恐惧），黏土动画风格，详细信息图，心理学插画",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774226952816-ip4fw9zt-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_clay",
+                    "name": "陶瓷黏土"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -2177,6 +2369,102 @@
                   "confidence": 0.6346,
                   "runner_up": "photography_portrait"
                 }
+              }
+            },
+            {
+              "id": "opennana_cold-fragile-beauty-ice-atelier",
+              "name": "冰雕工作室的冷冽与易碎之美",
+              "type": "prompt",
+              "prompt": "{subject}, { \"vibe_title_en\": \"凝结的忧郁\", \"master_prompt\": \"一幅超现实、电影感的“冰雕师工作室”肖像，捕捉了主人公的形象。构图严格遵循三分法，主体置于画面最右侧，留下大片负空间，其中充满半透明、悬浮的原始冰块和冰冷薄雾。主体低头凝视远方，表情柔和而脆弱，被捕捉在呼气的瞬间，可见一缕呼吸蒸汽悬浮在空中。通过特效化妆，颧骨和锁骨上营造出冰霜结晶的错觉；头发造型为“湿冻”的僵硬质感。灯光采用冷青色环境光穿透冰块，形成体积光线，与面部柔和集中的白色光束形成对比。使用哈苏 H6D-100c 相机和 80mm f/1.9 镜头拍摄，以实现极浅的景深，皮肤纹理清晰对焦，而冰冷的背景则模糊。图像采用富士 Pro 400H 的色彩分级，强调冷青色和银色，并带有有机胶片颗粒。无 CGI 幻想；美学风格为“高端编辑超现实主义”，具有可触及的物理纹理。\", \"meta\": { \"intent\": \"时尚编辑 / 叙事肖像\", \"priorities\": \"触感纹理、情感脆弱、氛围灯光\", \"device_profile\": \"中画幅数码 (哈苏)\" }, \"frame\": { \"aspect\": \"16:9\", \"composition\": \"三分法，高负空间\", \"layout\": \"主体偏离中心放置\", \"camera_angle\": \"视平线，略微倾斜\", \"tilt_roll_degrees\": \"0 度\" }, \"subject\": { \"gender\": \"女性\", \"identity\": \"主人公 (通用模板)\", \"demographics\": \"成年，空灵的存在\", \"face\": \"用特效冰霜妆容（糖/盐晶体）装饰，苍白的肤色\", \"hair\": \"湿发造型，发梢僵硬以模仿结冰\", \"body\": \"肩膀可见，略带颤抖的姿态\", \"expression\": \"脆弱，目光低垂，嘴唇微张，内省\", \"pose\": \"头部转向远离镜头，呼出可见的呼吸\" }, \"wardrobe_accessories\": { \"garments\": [ { \"item\": \"高级定制礼服\", \"material\": \"透明欧根纱 / 薄纱\", \"color\": \"冰蓝色 / 银白色\", \"fit\": \"垂坠，如水般流动\" } ], \"accessories\": [ { \"item\": \"耳环\", \"color\": \"透明 / 银色\", \"material\": \"原石石英或玻璃\", \"brand_style\": \"前卫工匠\" } ] }, \"environment\": { \"setting\": \"前卫冰雕师工作室\", \"surfaces\": \"原始冰块，湿水泥地面，结霜玻璃\", \"depth\": \"由于半透明冰块的层叠而具有高景深\", \"atmosphere\": \"冰冷，薄雾弥漫，充满蒸汽和尘埃微粒\", \"lens_interaction\": \"镜头边缘有冷凝水,\" } }",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774223114203-czg6ibd4-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_other",
+                    "name": "其他手工艺"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_stunning-hyper-realistic-banana-carving",
+              "name": "令人惊叹的超写实整根香蕉雕刻艺术",
+              "type": "prompt",
+              "prompt": "{subject}, <span>想象一下，一尊超逼真的雕塑，由一整块鲜活的香蕉果肉雕刻而成，呈现出雄伟的 </span><span class=\"bg-blue-200 text-blue-800 px-1.5 py-[1px] border border-black font-bold\">[SUBJECT]</span><span>。 其质感、深度和细节都令人惊叹，简直难以置信。</span>",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1773058567522-b4iq0rqx-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_other",
+                    "name": "其他手工艺"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_aomori-nebuta-giant-float-character",
+              "name": "青森睡魔祭风格巨型花灯上的角色",
+              "type": "prompt",
+              "prompt": "{subject}, <span>日本祭典神轿花车提示词揭晓 ~ “</span><span class=\"bg-blue-200 text-blue-800 px-1.5 py-[1px] border border-black font-bold\">your character</span><span>” 乘坐巨型神轿花车！？ ~ *可输出图片 + ALT 提示词。 *主题为青森睡魔祭。</span>",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1773011902248-mqdgsx33-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_other",
+                    "name": "其他手工艺"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_curled-in-futon-snow-sculpture",
+              "name": "蜷缩在被炉里的慵懒雪雕",
+              "type": "prompt",
+              "prompt": "{subject}, 代表着……我不想离开被炉，因为下雪了……的雪雕。-[ - ](_____)",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774988265328-b8t558eo-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_other",
+                    "name": "其他手工艺"
+                  }
+                ]
               }
             }
           ]

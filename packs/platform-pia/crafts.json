@@ -191,6 +191,30 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "pia_cozy-claymation-style-modeling-clay",
+              "name": "舒适的粘土动画风格世界",
+              "type": "prompt",
+              "prompt": "将场景重构为由 {argument name=\"material\" default=\"柔软的造型粘土\"} 制作而成的 {argument name=\"style\" default=\"舒适的粘土动画风格世界\"}。每个物体都应具有手工制作的纹理、圆润的形状以及类似定格动画电影的柔和光影。使用 {argument name=\"colors\" default=\"温暖的柔和色调\"} 和可爱的电影感氛围。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/19829.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_clay",
+                    "name": "陶瓷黏土"
+                  }
+                ]
+              }
             }
           ]
         },

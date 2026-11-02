@@ -566,6 +566,30 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "opennana_prompt-65",
+              "name": "皱巴巴的纸片",
+              "type": "prompt",
+              "prompt": "{subject}, A photorealistic image of the word '[NAME]' spelled out using torn, highly crumpled pieces of white paper. Each letter is painted in bold [COLOR] on individual scraps, arranged loosely and unevenly, as if placed casually by hand, on a wooden table. The composition should convey a natural, handmade aesthetic with visible creases, shadows, and wood grain detail",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/65.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -859,6 +883,29 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "macrame",
+              "name": "Macrame",
+              "type": "prompt",
+              "prompt": "macrame style {prompt} . knotted, textile, intricate, handmade, decorative,smooth",
+              "negative_prompt": "flat",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_textile",
+                    "name": "纺织刺绣"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -1111,6 +1158,30 @@
                   "runner_up": "crafts_paper"
                 }
               }
+            },
+            {
+              "id": "opennana_prompt-310",
+              "name": "秋天的落叶拼成图案",
+              "type": "prompt",
+              "prompt": "{subject}, 中景，有阳光的午后，胶片质感，拍摄地面，秋天的落叶、树枝、银杏叶和桂花在平面上拼成了一个小猫的样子，旁边放着一杯一次性咖啡杯",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/310.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_other",
+                    "name": "其他手工艺"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -1160,6 +1231,83 @@
                   {
                     "id": "crafts_glass",
                     "name": "玻璃工艺"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-92",
+              "name": "霓虹玻璃发光",
+              "type": "prompt",
+              "prompt": "{subject}, Recreate this image using the parameters from the JSON provided.\n{\n  \"name\": \"Neon Glass Glow\",\n  \"style\": {\n    \"material\": {\n      \"type\": \"glass\",\n      \"transparency\": 0.92,\n      \"reflectivity\": 1.0,\n      \"refractionIndex\": 1.6,\n      \"color\": \"#ff00ff\",\n      \"emission\": {\n        \"color\": \"#ff66ff\",\n        \"intensity\": 0.8\n      },\n      \"surfaceFinish\": \"glossy\",\n      \"bloom\": true,\n      \"detail\": \"high\"\n    },\n    \"outline\": {\n      \"enabled\": true,\n      \"color\": \"#ffccff\",\n      \"width\": 1.8\n    },\n    \"lighting\": {\n      \"type\": \"studio\",\n      \"keyLightColor\": \"#ffffff\",\n      \"keyLightIntensity\": 1.0,\n      \"fillLightColor\": \"#9900ff\",\n      \"fillLightIntensity\": 0.7,\n      \"rimLightColor\": \"#00ffff\",\n      \"rimLightIntensity\": 0.7,\n      \"shadows\": \"crisp\"\n    },\n    \"background\": {\n      \"type\": \"solid\",\n      \"color\": \"#000000\"\n    },\n    \"render\": {\n      \"shadows\": true,\n      \"antiAliasing\": true,\n      \"superSampling\": \"4x\",\n      \"resolution\": \"high\",\n      \"depthOfField\": {\n        \"enabled\": true,\n        \"focusDistance\": 0.8,\n        \"blurAmount\": 0.1\n      }\n    }\n  }\n}",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/92.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_glass",
+                    "name": "玻璃工艺"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "crafts_clay",
+          "name": "陶瓷黏土",
+          "presets": [
+            {
+              "id": "opennana_prompt-9",
+              "name": "青花瓷风格",
+              "type": "prompt",
+              "prompt": "{subject}, Using the uploaded image as the exact visual base, transform it into a hyper-realistic 3D object that retains the original shape and proportions of the logo only. Apply traditional Ottoman Iznik ceramic textures—featuring a warm white glazed base with delicate crackle lines, overlaid with vivid cobalt blue, turquoise, and bold red floral motifs such as tulips, carnations, and arabesque vines. The entire logo should be treated as a standalone porcelain sculpture with raised, hand-painted detailing and no background plate or tile structure. Ensure the decorative patterns elegantly follow the contours of the Bugatti logo, without altering its form. Render the object in a pure black background with Cinema 4D-style product lighting—highlighting realistic ceramic gloss, material depth, and subtle reflections. The final result should feel like a luxurious handcrafted ceramic reinterpretation, balancing heritage ornamentation with industrial branding.",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/9.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_clay",
+                    "name": "陶瓷黏土"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "claymation",
+              "name": "Claymation",
+              "type": "prompt",
+              "prompt": "claymation {prompt} . clay models, stop-motion, handcrafted, tactile, highly detailed",
+              "negative_prompt": "2D, 3D, CG, anime, manga, black and white",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_clay",
+                    "name": "陶瓷黏土"
                   }
                 ]
               }

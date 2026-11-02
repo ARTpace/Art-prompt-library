@@ -151,6 +151,98 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "sai_comic_book",
+              "name": "sai-comic book",
+              "type": "prompt",
+              "prompt": "comic {prompt} . graphic illustration, comic art, graphic novel art, vibrant, highly detailed",
+              "negative_prompt": "photograph, deformed, glitch, noisy, realistic, stock photo",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_comic",
+                    "name": "漫画分格"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "comic_book",
+              "name": "Comic book",
+              "type": "prompt",
+              "prompt": "comic {prompt} . graphic illustration, comic art, graphic novel art, vibrant, highly detailed",
+              "negative_prompt": "photograph, deformed, glitch, noisy, realistic, stock photo",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_comic",
+                    "name": "漫画分格"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "fooocus_sai_saicomic_book",
+              "name": "sai-comic book",
+              "prompt": "comic {prompt} . graphic illustration, comic art, graphic novel art, vibrant, highly detailed",
+              "negative_prompt": "photograph, deformed, glitch, noisy, realistic, stock photo",
+              "description": "SAI 风格 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_sai.json",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_comic",
+                    "name": "漫画分格"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "fooocus_mre_mrecomic",
+              "name": "mre-comic",
+              "prompt": "breathtaking illustration from adult comic book presenting {prompt}. fabulous artwork. best quality, high resolution",
+              "negative_prompt": "deformed, ugly, low quality, low resolution",
+              "description": "MRE 风格 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_mre.json",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_comic",
+                    "name": "漫画分格"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -270,6 +362,29 @@
                 "resolution": "resolved",
                 "status": "suggested",
                 "reason": "标题规则证据：动漫 / 机甲",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_mecha",
+                    "name": "机甲载具"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "mecha",
+              "name": "Mecha",
+              "type": "prompt",
+              "prompt": "Mecha {prompt} . Anime, robots, futuristic technologies, dynamic battles, detailed mechanical designs, highly detailed",
+              "negative_prompt": "Disney, Pixar, cartoon, Looney Tunes, realism, fairy tales",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
                 "taxonomy_version": "1.1.0",
                 "rules_version": "1.1.2",
                 "subcategories": [
@@ -600,6 +715,76 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "opennana_ink-gold-haibara",
+              "name": "墨金幽焰灰原哀",
+              "type": "prompt",
+              "prompt": "{subject}, 9:16 竖幅画面，以【灰原哀】为主角的超高完成度精美日系动漫人物插画，整体风格是“水墨的空灵 + 洛可可的繁复，但被电影烛光统一”，并强化更东方的诡丽气质与更繁杂的色彩层次。灰原哀保持可辨识特征：冷静克制的神情、清透偏冷的目光、利落的短发轮廓与细碎刘海，气质疏离而高贵。线稿极简、优雅，像工笔起稿，外轮廓干净利落；阴影以水墨晕染层层铺开，墨色呼吸感强，边缘自然渗化、留有湿墨水痕与淡淡宣纸纹理。服装在原角色气质基础上做“和风+暗金洛可可”的改造：深墨黑底，叠加极细密的暗金雕花、卷草、贝壳纹、团扇纹与纤薄金线刺绣，配饰如发簪与胸针呈古董金与珐琅质感；色彩更繁复但高级克制——在墨黑与温润暗金之上，层叠点染朱砂红、孔雀绿、靛青、绛紫、青金石蓝与少量冷白高光，形成多层透明釉彩般的色阶与细碎金粉。\n构图为三分法：主角位于画面左侧三分线，半身到三分之二身像，身体姿态形成优雅的 S 曲线；右侧保留大面积留白，是雾化墨池般的空灵背景，漂浮淡金粉尘与极轻的花纹残影（若隐若现、不抢主体）。镜头中近景略微仰拍，焦点锁在眼睛与面部结构，背景大幅虚化，仅保留少量东方纹样的幽影与墨雾层次。\n光影为单一烛光般的暖主光从侧前方切入，形成明确但柔润的明暗交界；暗部保持深墨层次不脏，轮廓只有一丝“暗金边光”提形；空气里有轻微体积光与细微尘粒闪点，让画面既静又妖。整体质感“墨金奢华”，高雅、诡丽、独特，极度精致、插画级成品，细节拉满。\n\n空条徐伦👇\n\n9:16 竖幅画面，以空条徐伦为主角的超高完成度精美日系动漫人物插画，风格为“水墨的空灵 + 洛可可的繁复”，并以东方诡丽的仪式感与电影烛光强力统一。空条徐伦保持可辨识特征：坚定又带挑衅的眼神、锐利的眉眼与英气的面部线条，标志性的绿色发色与双发髻（爱心发髻）清晰可见，发丝分组明确、边缘利落；整体气质强势、危险而华贵。线稿极简而精确，像工笔起稿，外轮廓干净、内部细节以少量关键线提示结构；阴影以水墨晕染层层铺开，墨色呼吸感强，边缘自然渗化，带淡淡宣纸纹理与湿墨水痕。\n\n服装与装饰（加量版）：在徐伦原本“监狱系”气质基础上做“和风洛可可”仪式化改造——深墨黑为底的短上衣与束身结构，外叠一层薄纱羽织如宣纸轻覆；服装切口与束带保留她的硬朗线条与机能感，但表面以极细密暗金线描出洛可可卷草、贝壳纹、玫瑰窗曲线，同时混入东方纹样：云气纹、回纹、莲瓣纹、团扇纹与若隐若现的金箔符纹（像箔贴在墨上）。色彩更繁复但高级受控：朱砂红、孔雀绿、靛青、青金石蓝、绛紫、琥珀橙以透明釉彩般层层罩染，局部撒落极细金粉与珠母虹彩；胸口与袖口的重点区域出现“工笔重彩”花卉（彼岸花、墨莲、金桂点缀），但密度集中在主体附近，越往外越稀疏以保持呼吸感。配饰升级：古董金链、珐琅胸针、细链流苏与金属扣件，反光真实克制；指尖与耳饰带一点冷银高光，形成冷暖对比。她的标志性元素可用“丝线”视觉化——从指间与腰侧延伸出若隐若现的细丝线条，像墨线与金线交织，作为构图节奏（不需要文字说明）。\n\n东方诡丽元素（加量但不抢戏）：右侧留白的墨池雾化背景中，隐约浮现半透明的“纸傀儡影”与“古镜反光碎片”，像水墨里游动的幽影；背后极淡的“玫瑰窗式光环”由金线与墨晕组成，边缘像宣纸渗化；空气中漂浮细小金箔碎屑、墨滴星点与薄雾尘粒，营造静谧而妖异的仪式空间。\n\n构图：三分法+S 曲线，主体落在左侧三分线，半身到三分之二身像，肩颈与腰线形成优雅弧度；右侧与上方留白约 35–45%，背景被压成“墨雾+淡金残纹”的静场，装饰密度集中在主体周围，背景极简不喧宾夺主。镜头中近景略微仰拍，焦点锁在眼睛与面部结构，浅景深，背景大幅虚化，仅保留若隐若现的纹样轮廓与光晕。\n\n光影（电影统一）：单一烛光暖主光从侧前方切入，形成柔润但清晰的明暗交界；暗部保持深墨层次不脏，亮部像金箔被烛火擦亮；右后方仅一丝“暗金轮廓边光”提形，局部加入极轻的冷色反射（青蓝环境光）让色彩更繁；边缘有轻微胶片 halation 与细颗粒，质感高级。整体：墨金奢华、重彩诡丽、安静压迫感、插画级成品、极致精细。",
+              "negative_prompt": "",
+              "description": "",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202601/1768054670778-vnxhpsl3-1.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_character",
+                    "name": "角色立绘"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "shōnen",
+              "name": "Shōnen",
+              "type": "prompt",
+              "prompt": "Shōnen {prompt} . Manga, action-packed, youthful characters, dynamic battles, inspiring themes, highly detailed",
+              "negative_prompt": "Disney, Pixar, black and white, realism, romantic comedy",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_character",
+                    "name": "角色立绘"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "shojo",
+              "name": "Shojo",
+              "type": "prompt",
+              "prompt": "Shojo {prompt} . Manga, romantic themes, delicate art style, emotional narratives, highly detailed",
+              "negative_prompt": "action, mecha, 3D, Pixar, black and white, barren",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_character",
+                    "name": "角色立绘"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -615,6 +800,54 @@
               "negative_prompt": "",
               "description": null,
               "thumbnail": "https://img.opennana.com/prompts/images/384.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_model_sheet",
+                    "name": "角色设定表"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-323",
+              "name": "角色创建",
+              "type": "prompt",
+              "prompt": "{subject}, 3D 渲染、C4D、卡通风格、[动作驱动角色的夸张姿势，表达讽刺或反抗]、[情境设置的最小背景]、极简艺术风格、简约设计、高分辨率、无低质量细节、高细节、最佳质量、专业摄影、景深、柔和灯光、清晰对焦、电影灯光、电影摄像机设置]",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/323.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_model_sheet",
+                    "name": "角色设定表"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-5",
+              "name": "创建你自己的GTA角色",
+              "type": "prompt",
+              "prompt": "{subject}, Act as a creative director at Rockstar Games. Create a fictional GTA VI character sheet in the exact same style as the official GTA VI promotional images.\n\nThe layout must be:\n\nA horizontal character sheet, with the character on the right, in a dynamic pose that reflects their personality.\nOn the left, include the following structured text:\nA small \"VI\" logo at the top left (mention it visually).\nThe character’s name in big bold text.\nA catchy slogan or tagline right below in a different bright color.\nA short backstory (3–5 lines) written in an ironic, street-smart, or playful tone — just like Rockstar’s tone of voice.\n\nUse the vibrant Vice City aesthetic with sunset lighting, neon accents, and cel-shaded comic style. The character’s clothing, action, and environment must reflect their archetype and background.\n\nLet me customize the following variables:\n\nArchetype: {your choice}\n\nGender: {your choice}\n\nSkin tone: {your choice}\n\nHairstyle: {your choice}\n\nEmotion : {your choice}\n\nOutfit: {your choice}\n\nWeapon or action: {your choice}\n\nBackground details: {your choice}\n\nGenerate a fictive name in tittle and a description in english\n\nFormat the final result like a finished in-game asset reveal. The vibe should be over-the-top, stylish, and full of personality — as if part of the real GTA VI world.\n\n(if the \"Your choice\" sections are not filled with personalized information, it's up to you to generate it randomly by yourself) generate the visual directly from now on",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/5.png",
               "classification": {
                 "method": "llm",
                 "stage": "title",
@@ -685,6 +918,642 @@
                   {
                     "id": "anime_manga_animation_frame",
                     "name": "动画画面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-259",
+              "name": "20世纪30年代弗莱舍工作室风格的动画",
+              "type": "prompt",
+              "prompt": "{subject}, 将这张图片转换成20世纪30年代弗莱舍工作室风格的动画分镜。采用灰度色调，搭配富有表现力的墨色阴影和“橡胶管”式肢体线条。场景中要加入拟人化的物体、富有弹性的运动线和闹剧式的动作。整体基调应充满爵士感、活力与趣味。添加手写风格的音效文字和古怪的对话标牌。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/259.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_animation_frame",
+                    "name": "动画画面"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "anime_manga_illustration",
+          "name": "主题插画",
+          "presets": [
+            {
+              "id": "fooocus_mre_mreheroicfantasy",
+              "name": "mre-heroic-fantasy",
+              "prompt": "heroic fantasy painting of {prompt}, in the dangerous fantasy world. airbrush over oil on canvas. best quality, high resolution",
+              "negative_prompt": "low quality, low resolution",
+              "description": "MRE 风格 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_mre.json",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-215",
+              "name": "Gorillaz风格",
+              "type": "prompt",
+              "prompt": "{subject}, 将这张图片改造成硬朗的 Gorillaz 风格插画，粗犷的黑色轮廓线，尖锐的角边，平面化的表现性光照，风格化的高对比度阴影，脏污的磨损表面纹理，柔和的调色板：褪色的蓝绿色，橄榄绿，锈红色，芥末黄，尘土棕，原始的粗糙都市氛围，漫画书平面感与绘画性粗糙的混合，手绘效果带有褪色渐变，漫画小说美学带有叛逆、动画化的风格，暗黑时尚的调调，充满态度。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/215.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-235",
+              "name": "讽刺版的你",
+              "type": "prompt",
+              "prompt": "{subject}, 根据您对我的个性和过去互动的理解，创建一个幽默、讽刺的图像，以俏皮的方式嘲笑我。图像必须具有喜剧特征，使用夸张的表情或超现实的视觉隐喻。艺术风格：具有高对比度和富有表现力的细节的卡通或漫画。目标是笑，而不是侮辱。确保讽刺是聪明和有意识的。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/235.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-320",
+              "name": "物体变成大胆的卡通滴水",
+              "type": "prompt",
+              "prompt": "{subject}, 将上传照片中的 [OBJECT] 转换为大胆、色彩鲜艳的卡通插图风格，同时保持照片的其余部分真实且不变。\n\n卡通风格细节：粗黑色轮廓，鲜艳的平面色彩（如亮青色、洋红色、黄色、粉红色），滴落的油漆和飞溅效果，俏皮的漫画风格。大多数滴落的油漆向下流动\n卡通物体看起来应该像是融化了或者迸发出色彩，自然地融入到真实的照片中。\n\n保持所有其他元素（背景、其他物体、环境）的真实感，不做任何改动。\n高分辨率、波普艺术美学、现实主义与卡通之间的超现实对比。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/320.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-149",
+              "name": "Gorillaz风格角色",
+              "type": "prompt",
+              "prompt": "{subject}, 在 Gorillaz 角色美学中为 [您的主题] 创建风格化的全身肖像。给角色一个夸张的瘦长身材，长而瘦的腿和狭窄的手臂。使用简化的棱角分明的特征和粗体轮廓。将头发设计成尖尖的、凌乱的或夸张的，用非自然的颜色，如 [蓝色或绿色]。眼睛必须是空白的白色的，没有瞳孔。仅使用纯色。没有渐变、阴影或纹理。背景应为单一的平面颜色。设计必须对矢量友好并准备好打印。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/149.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-170",
+              "name": "新卡通风格",
+              "type": "prompt",
+              "prompt": "{subject}, 将此图像转换为 Foster's Home for Imaginary Friends 卡通风格。使用粗体轮廓、平面形状和鲜艳的纯色。角色应该具有简化、俏皮的设计，带有夸张的表情和独特的轮廓。保持背景最小或使用平面图案或纹理进行风格化。结果应该看起来像 2000 年代卡通网络节目中的帧，具有异想天开的图形魅力。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/170.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-230",
+              "name": "可爱的卡通灵魂",
+              "type": "prompt",
+              "prompt": "{subject}, 一个可爱的卡通幽灵是画面的绝对主体，它拥有纯白色的、轮廓圆润流畅的身体，以及两只简单的黑色椭圆形眼睛，没有任何多余的特征。这个幽灵安静地漂浮着，位于整个画面的正中央。画面背景是纯粹的亮紫色，营造出一种简洁、现代且友好的氛围。构图方式为居中特写，图片比例为1:1的正方形。整个画面没有任何文字。这幅图像是典型的扁平化设计（Flat design）和矢量艺术风格，极简主义，非常像一个App图标或logo，特点是线条干净利落，颜色是纯色块填充，无任何渐变或纹理细节。图像质量要求高分辨率，边缘清晰锐利，整体给人一种可爱、简洁、现代化的数字艺术感受。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/230.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-245",
+              "name": "Kiro卡通幽灵",
+              "type": "prompt",
+              "prompt": "{subject}, 一个可爱的卡通鬼魂是图片的绝对主体。它拥有纯白色的身体，轮廓平滑圆润，两只简单的黑色椭圆形眼睛，没有任何额外特征。这个鬼魂安静地漂浮在图片的正中央。背景是纯亮的紫色，营造出简洁、现代和友好的氛围。构图是居中的特写，宽高比为 1:1 的正方形。整个图像中没有文字。图像风格典型的扁平化设计和矢量艺术，极简主义，类似于应用图标或标志，以干净的线条和实色块为特点，没有任何渐变或纹理细节。要求的图像质量是高分辨率，边缘清晰锐利。它给人的整体感觉是一幅可爱、简洁、现代的数字艺术作品。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/245.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-187",
+              "name": "新卡通风格",
+              "type": "prompt",
+              "prompt": "{subject}, 将此图像转换为经典的 Tex Avery / Looney Tunes 卡通风格。使用大胆、干净的轮廓和夸张的角色特征 - 大眼睛、伸展的四肢和夸张的面部表情。强调滑稽喜剧和视觉幽默。颜色应鲜艳、平坦，具有高对比度。背景应该简单，用柔和的渐变或单调的颜色绘制，保持对角色动作的关注。添加运动线条、富有表现力的效果（如汗珠、星星、冲击爆发）和 1940 年代华纳兄弟动画的典型动态姿势。最终结果应该看起来像上世纪中叶动画短片的定格——充满卡通能量和荒诞的魅力。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/187.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "shrek",
+              "name": "Shrek",
+              "type": "prompt",
+              "prompt": "Shrek {prompt} . Animated, fairytale, swamp, highly detailed",
+              "negative_prompt": "live-action, realistic, city, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "aladdin",
+              "name": "Aladdin",
+              "type": "prompt",
+              "prompt": "Aladdin {prompt} . Animated, Arabian Nights, magic carpet, highly detailed",
+              "negative_prompt": "live-action, modern day, ordinary carpet, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "cinderella",
+              "name": "Cinderella",
+              "type": "prompt",
+              "prompt": "Cinderella {prompt} . Animated, fairytale, magical transformation, highly detailed",
+              "negative_prompt": "live-action, realistic, ordinary transformation, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "mulan",
+              "name": "Mulan",
+              "type": "prompt",
+              "prompt": "Mulan {prompt} . Animated, historical, Chinese warfare, highly detailed",
+              "negative_prompt": "live-action, futuristic, space warfare, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pocahontas",
+              "name": "Pocahontas",
+              "type": "prompt",
+              "prompt": "Pocahontas {prompt} . Animated, historical, Native American, highly detailed",
+              "negative_prompt": "live-action, modern, urban American, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "frozen",
+              "name": "Frozen",
+              "type": "prompt",
+              "prompt": "Frozen {prompt} . Animated, fairytale, ice magic, highly detailed",
+              "negative_prompt": "live-action, realistic, fire magic, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "moana",
+              "name": "Moana",
+              "type": "prompt",
+              "prompt": "Moana {prompt} . Animated, Polynesian, ocean adventure, highly detailed",
+              "negative_prompt": "live-action, Nordic, mountain adventure, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "tangled",
+              "name": "Tangled",
+              "type": "prompt",
+              "prompt": "Tangled {prompt} . Animated, fairytale, magic hair, highly detailed",
+              "negative_prompt": "live-action, realistic, ordinary hair, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "zootopia",
+              "name": "Zootopia",
+              "type": "prompt",
+              "prompt": "Zootopia {prompt} . Animated, anthropomorphic animals, urban, highly detailed",
+              "negative_prompt": "live-action, humans, rural, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "coco",
+              "name": "Coco",
+              "type": "prompt",
+              "prompt": "Coco {prompt} . Animated, Dia de los Muertos, Mexican culture, highly detailed",
+              "negative_prompt": "live-action, Halloween, American culture, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "brave",
+              "name": "Brave",
+              "type": "prompt",
+              "prompt": "Brave {prompt} . Animated, Scottish highlands, archery, highly detailed",
+              "negative_prompt": "live-action, tropical island, surfing, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "ratatouille",
+              "name": "Ratatouille",
+              "type": "prompt",
+              "prompt": "Ratatouille {prompt} . Animated, culinary, Paris, highly detailed",
+              "negative_prompt": "live-action, non-culinary, New York, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "cars",
+              "name": "Cars",
+              "type": "prompt",
+              "prompt": "Cars {prompt} . Animated, anthropomorphic cars, racing, highly detailed",
+              "negative_prompt": "live-action, humans, walking, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "minions",
+              "name": "Minions",
+              "type": "prompt",
+              "prompt": "Minions {prompt} . Animated, comedy, minions, highly detailed",
+              "negative_prompt": "live-action, drama, no minions, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "frozen_2",
+              "name": "Frozen 2",
+              "type": "prompt",
+              "prompt": "Frozen 2 {prompt} . Animated, fairytale, sisterhood, highly detailed",
+              "negative_prompt": "live-action, realism, rivalry, undetailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "superflat",
+              "name": "Superflat",
+              "type": "prompt",
+              "prompt": "superflat {prompt} . Japanese, postmodern art, flat planes of color, manga and anime influences, highly detailed",
+              "negative_prompt": "3D, CG, western art styles, black and white",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "nickelodeon",
+              "name": "Nickelodeon",
+              "type": "prompt",
+              "prompt": "Nickelodeon {prompt} . Cartoon, humor, dynamic characters, wacky and colorful designs, highly detailed",
+              "negative_prompt": "anime, manga, black and white, sketchy, serious",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
                   }
                 ]
               }

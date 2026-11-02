@@ -390,6 +390,428 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "opennana_banana-duck-fantasy-creature",
+              "name": "香蕉鸭奇幻生灵",
+              "type": "prompt",
+              "prompt": "{subject}, {\n  \"master_prompt\": {\n    \"global_settings\": {\n      \"resolution\": \"8K UHD\",\n      \"aspect_ratio\": \"3:4\",\n      \"quality\": \"ultra-high\",\n      \"sharpness\": \"extreme clarity\",\n      \"lighting\": \"studio-controlled, soft gradients\",\n      \"background_style\": \"minimal, clean, distraction-free\",\n      \"render_style\": \"clearly AI-edited, hyper-detailed, photorealistic-surreal hybrid\"\n    },\n    \"modules\": {\n      \"module_1\": {\n        \"module_name\": \"图像 1 – 香蕉鸭子混合生物\",\n        \"subject_description\": {\n          \"primary_form\": \"混合生物，结合鸭子与剥皮的香蕉\",\n          \"head\": {\n            \"type\": \"鸭子头\",\n            \"color\": \"灰白色至淡奶油色\",\n            \"texture\": \"细腻羽毛般皮肤纹理\",\n            \"eyes\": \"小而圆、光泽的黑色眼睛\",\n            \"beak\": {\n              \"color\": \"黄橙色\",\n              \"surface\": \"带有稍暗斑点的轻微斑纹\",\n              \"shape\": \"光滑、弯曲、逼真的鸭嘴\"\n            }\n          },\n          \"body\": {\n            \"core_structure\": \"香蕉\",\n            \"color\": \"成熟黄色\",\n            \"surface\": \"光滑并带有天然香蕉斑点\",\n            \"banana_peels\": {\n              \"count\": 3,\n              \"position\": \"对称向外剥开\",\n              \"texture\": \"纤维状内果皮纹理，外果皮稍粗糙\",\n              \"color_variation\": \"浅黄至淡奶油色\"\n            }\n          },\n          \"legs_and_feet\": {\n            \"type\": \"鸭腿与蹼足\",\n            \"color\": \"金黄色\",\n            \"texture\": \"光滑、略带光泽\",\n            \"pose\": \"直立站立，一只脚稍向前\"\n          }\n        },\n        \"pose_and_composition\": {\n          \"orientation\": \"直立、居中\",\n          \"camera_angle\": \"平视\",\n          \"framing\": \"全身可见\",\n          \"balance\": \"稳定、对称构图\"\n        },\n        \"background\": {\n          \"color\": \"从浅蓝到白色的柔和渐变\",\n          \"texture\": \"光滑的摄影棚背景\",\n          \"shadows\": \"脚下柔和阴影\"\n        }\n      },\n      \"module_2\": {\n        \"module_name\": \"图像 2 – 西兰花武术家人形\",\n        \"subject_description\": {\n          \"primary_form\": \"完全由西兰花与绿色蔬菜构成的人形\",\n          \"head\": {\n            \"shape\": \"类人面孔\",\n            \"material\": \"光滑绿色蔬菜纹理\",\n            \"hair\": {\n              \"type\": \"浓密西兰花小花\",\n              \"shape\": \"圆润、爆炸头轮廓\",\n              \"texture\": \"紧密成簇的小花\"\n            },\n            \"facial_expression\": \"专注、紧张、稍带严峻\",\n            \"eyes\": \"类人、向前凝视\"\n          },\n          \"torso\": {\n            \"build\": \"极度肌肉发达\",\n            \"muscle_definition\": \"夸张且分段清晰\",\n            \"material\": \"拉长绿色蔬菜茎秆构成肌肉纤维\"\n          },\n          \"arms\": {\n            \"shape\": \"肌肉发达、弯曲\",\n            \"hands\": {\n              \"form\": \"西兰花小花捏成的拳头\",\n              \"pose\": \"一臂前伸、一臂弯曲\"\n            }\n          },\n          \"legs\": {\n            \"structure\": \"粗壮有力\",\n            \"material\": \"成簇西兰花小花\",\n            \"stance\": \"宽阔武术站姿\"\n          }\n        },\n        \"pose_and_composition\": {\n          \"orientation\": \"动态格斗姿势\",\n          \"camera_angle\": \"稍仰拍角度\",\n          \"framing\": \"全身可见\",\n          \"energy\": \"蓄势待发、均衡张力\"\n        },\n        \"background\": {\n          \"color\": \"浅中性渐变\",\n          \"texture\": \"光滑摄影棚背景\",\n          \"shadows\": \"脚下柔和落地阴影\"\n        }\n      }\n    }\n  }\n}",
+              "negative_prompt": "",
+              "description": "Grok",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202601/1769871608970-hrcmwn0g-1.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_character",
+                    "name": "三维角色"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-374",
+              "name": "坐在一个毛茸茸的巨型可爱卡通怪物旁",
+              "type": "prompt",
+              "prompt": "{subject}, 让我坐在一个毛茸茸的巨型可爱卡通怪物旁边。我真的很逼真，但怪物是3D卡通的。它抱着我，很可爱。大眼睛，我们在屋里的床上。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/374.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_character",
+                    "name": "三维角色"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_fantasy-storyteller-violet-dreamscape",
+              "name": "紫焰指引下的奇幻说书人与梦境",
+              "type": "prompt",
+              "prompt": "{subject}, {\n  \"prompt\": \"神秘的奇幻暮光森林场景，流浪的说书人，身穿风化的斗篷，带着旅行者的背包，凌乱的长发，温柔若有所思的表情，站在古木深处蜿蜒的苔藓小径上，手持一盏古董黄铜灯笼，其火焰突然变成了生动的紫罗兰色，并燃烧着旋转的梦幻般能量，紫色的光芒向外溢出，照亮并揭示了一条由闪烁的半透明紫罗兰色迷雾和漂浮的旧故事书页组成的隐藏发光传送门路径，边缘显现出空灵的梦境片段——模糊半透明的骑士、龙、公主、帆船和神话生物从迷雾中浮现，如同鲜活的故事，羊皮纸书页像秋叶一样在空中飘荡，深紫色、洋红色、靛蓝色和青色点缀的柔和生物发光蘑菇和萤火虫般的光球，扭曲的古树在路径上方形成天然的拱门，惊奇感、静谧的勇气，以及现实与传说之间的界限，说书人决心向前迈进，去进入并重写一个正在消逝的故事，高度细节的灯笼，有着复杂的金银丝工艺和内部的梦幻烟缕，斗篷上流动的织物纹理，超现实的梦幻氛围，电影般的构图，吉卜力工作室、阿尔丰斯·穆夏和丽贝卡·亚诺夫斯卡娅风格的奇幻概念艺术，来自紫色火焰的体积光上帝之光，漂浮墨水和星尘的柔和粒子效果，超精细，8k分辨率\",\n  \"negative_prompt\": \"模糊，低质量，文本，水印，变形的脸，多余的肢体，糟糕的解剖结构，现代服装，写实照片，卡通化，过曝，欠曝，明亮的日光，恐怖元素，拥挤的构图，欢快的卡通情绪\",\n  \"style\": \"奇幻 电影感 梦幻\",\n  \"aspect_ratio\": \"3:4\",\n  \"lighting\": \"暮光蓝紫色时刻，灯笼火焰发出的强烈紫罗兰色辉光，柔和的生物发光点缀，体积雾和上帝之光，微妙的星光高光\",\n  \"mood\": \"惊奇的发现，静谧的英雄主义，忧郁的魔法，阈限界限，勇气的觉醒\",\n  \"color_palette\": \"深靛蓝暮光，生动的紫罗兰-紫色火焰，洋红-粉色迷雾，青色-蓝绿色梦幻点缀，温暖的琥珀色灯笼金属，柔和的森林绿色和棕色\",\n  \"detail_level\": \"高度细节，复杂的灯笼设计，半透明的故事显现，流动的迷雾和羊皮纸纹理，丰富的环境叙事\"\n}",
+              "negative_prompt": "",
+              "description": "Grok",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1772374962153-apa22f4y-1.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_character",
+                    "name": "三维角色"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-106",
+              "name": "时间之神",
+              "type": "prompt",
+              "prompt": "{subject}, Colossal marble statue of [INSERT OBJECT OR CHARACTER HERE], wings (if applicable) spread in divine majesty, adorned with ornate golden armor and flowing baroque robes, cracked marble textures with soft patina, glowing sacred emblem on chest, standing within a celestial golden dome, surrounded by divine architecture, dramatic god rays from above, dynamic mid-action pose, ultra-detailed renaissance sculpture style, cinematic lighting, majestic and sacred atmosphere, 8k resolution",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/106.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_character",
+                    "name": "三维角色"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-58",
+              "name": "血月下的决斗",
+              "type": "prompt",
+              "prompt": "{subject}, [SUBJECT] in a cinematic painting, battling amid crumbling ruins under a colossal blood moon — ambient sparks flying. Set in an ancient valley, illuminated by firelight and shadows. soft [COLOR1] and vibrant [COLOR2], mood intense and epic.",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/58.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_character",
+                    "name": "三维角色"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_cyber-legend-reimagined-white-gold",
+              "name": "赛博传奇重塑：纯白金甲的未来圣殿骑士",
+              "type": "prompt",
+              "prompt": "{subject}, Knight Templar reimagined as a Cyber Legend, merging ancient warrior aesthetics with futuristic technology, sleek cybernetic armor, neon-lit futuristic weapons, dynamic pose with intense presence, contrasting shades of pure white and glowing gold, showcasing the fusion of medieval past and cyberpunk future\n（注：根据您的指示“保留所有参数...只翻译值的部分”，若原文为纯描述性句子且无JSON键名，通常保留原文以确保参数不丢失。但为了符合“完整翻译”的要求，以下是该提示词的中文含义版本，您可以直接使用英文原版作为AI绘画输入，或使用以下中文描述：）\n圣殿骑士被重新构想为赛博传奇，融合了古代战士美学与未来科技，流畅的赛博装甲，霓虹灯照明的未来武器，具有强烈存在感的动态姿势，纯白与发光金色的对比色调，展示中世纪过去与赛博朋克未来的融合",
+              "negative_prompt": "",
+              "description": "Grok",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1772375262734-jwcc2l6r-1.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_character",
+                    "name": "三维角色"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-424",
+              "name": "一个可爱的拟人化动物",
+              "type": "prompt",
+              "prompt": "{subject}, 一个可爱的拟人化[对象]，以三视图呈现：左前、正面和背面。它站立着，身体圆润，表情丰富，身着[服装/风格]。卡通吉祥物，采用二维动画风格，线条简洁有力，平涂阴影带有微妙的渐变，轮廓柔和，背景为浅色中性色。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/424.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_character",
+                    "name": "三维角色"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "futuristic_biomechanical",
+              "name": "futuristic-biomechanical",
+              "type": "prompt",
+              "prompt": "biomechanical style {prompt} . blend of organic and mechanical elements, futuristic, cybernetic, detailed, intricate",
+              "negative_prompt": "natural, rustic, primitive, organic, simplistic",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_character",
+                    "name": "三维角色"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "futuristic_biomechanical_cyberpunk",
+              "name": "futuristic-biomechanical cyberpunk",
+              "type": "prompt",
+              "prompt": "biomechanical cyberpunk {prompt} . cybernetics, human-machine fusion, dystopian, organic meets artificial, dark, intricate, highly detailed",
+              "negative_prompt": "natural, colorful, deformed, sketch, low contrast, watercolor",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_character",
+                    "name": "三维角色"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "futuristic_cybernetic",
+              "name": "futuristic-cybernetic",
+              "type": "prompt",
+              "prompt": "cybernetic style {prompt} . futuristic, technological, cybernetic enhancements, robotics, artificial intelligence themes",
+              "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic, historical, medieval",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_character",
+                    "name": "三维角色"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "futuristic_cybernetic_robot",
+              "name": "futuristic-cybernetic robot",
+              "type": "prompt",
+              "prompt": "cybernetic robot {prompt} . android, AI, machine, metal, wires, tech, futuristic, highly detailed",
+              "negative_prompt": "organic, natural, human, sketch, watercolor, low contrast",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_character",
+                    "name": "三维角色"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "fantasy_art",
+              "name": "Fantasy art",
+              "type": "prompt",
+              "prompt": "ethereal fantasy concept art of {prompt} . magnificent, celestial, ethereal, painterly, epic, majestic, magical, fantasy art, cover art, dreamy",
+              "negative_prompt": "photographic, realistic, realism, 35mm film, dslr, cropped, frame, text, deformed, glitch, noise, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, sloppy, duplicate, mutated, black and white",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_character",
+                    "name": "三维角色"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "biomechanical",
+              "name": "Biomechanical",
+              "type": "prompt",
+              "prompt": "biomechanical style {prompt} . organic meets mechanical, alien, detailed, H.R. Giger-inspired",
+              "negative_prompt": "geometric, earthy, low detail, not H.R. Giger-inspired",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_character",
+                    "name": "三维角色"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-107",
+              "name": "超级动物英雄",
+              "type": "prompt",
+              "prompt": "{subject}, A hyper-realistic square 1:1 portrait of a [YOUR ANIMAL] standing in a heroic pose, facing slightly left. The animal wears a textured dark gray superhero suit, form-fitting and matte, with visible fabric grain and subtle seams.\n\nOn its chest, inside a golden metallic Superman-style diamond emblem, is a fabric-embroidered version of the [COUNTRY] national flag (realistic stitching, slightly raised).\n\nDraped over the animal’s shoulder is a flowing cape designed from the [COUNTRY] flag, with rich fabric folds and natural weight.\n\nBehind the subject, use a realistic fabric backdrop displaying the full [COUNTRY] flag, slightly out of focus to add depth, with soft shadows to enhance realism.\n\nLighting should be warm and directional (studio-style), emphasizing the animal’s fur texture, suit material, and the contours of a subtly muscular chest. The overall tone is dramatic and cinematic, with a warm color grading and no excessive contrast. The head must be fully visible — no cropping.",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/107.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_character",
+                    "name": "三维角色"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "fooocus_twri_futuristicbiomechanical",
+              "name": "futuristic-biomechanical",
+              "prompt": "biomechanical style {prompt} . blend of organic and mechanical elements, futuristic, cybernetic, detailed, intricate",
+              "negative_prompt": "natural, rustic, primitive, organic, simplistic",
+              "description": "TWRI SDXL 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_twri.json",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_character",
+                    "name": "三维角色"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "fooocus_twri_futuristicbiomechanical_cyberpunk",
+              "name": "futuristic-biomechanical cyberpunk",
+              "prompt": "biomechanical cyberpunk {prompt} . cybernetics, human-machine fusion, dystopian, organic meets artificial, dark, intricate, highly detailed",
+              "negative_prompt": "natural, colorful, deformed, sketch, low contrast, watercolor",
+              "description": "TWRI SDXL 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_twri.json",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_character",
+                    "name": "三维角色"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "fooocus_twri_futuristiccybernetic",
+              "name": "futuristic-cybernetic",
+              "prompt": "cybernetic style {prompt} . futuristic, technological, cybernetic enhancements, robotics, artificial intelligence themes",
+              "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic, historical, medieval",
+              "description": "TWRI SDXL 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_twri.json",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_character",
+                    "name": "三维角色"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "fooocus_twri_futuristiccybernetic_robot",
+              "name": "futuristic-cybernetic robot",
+              "prompt": "cybernetic robot {prompt} . android, AI, machine, metal, wires, tech, futuristic, highly detailed",
+              "negative_prompt": "organic, natural, human, sketch, watercolor, low contrast",
+              "description": "TWRI SDXL 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_twri.json",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_character",
+                    "name": "三维角色"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -804,6 +1226,125 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "opennana_prompt-19",
+              "name": "Emoji变成一个花盆",
+              "type": "prompt",
+              "prompt": "{subject}, A high-quality photo of a cute ceramic [object/animal]-shaped planter with a glossy finish, filled with a variety of vibrant succulents and greenery including a spiky Haworthia, a rosette-shaped Echeveria, and delicate white flowers. The planter has a friendly face and sits on a soft, neutral background with diffused natural lighting, showcasing fine textures and color contrast in a clean, minimalistic composition",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/19.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_toy",
+                    "name": "潮玩手办"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-361",
+              "name": "毛绒世界",
+              "type": "prompt",
+              "prompt": "{subject}, 一个柔软毛绒绒的3D模型，带有一个[关键细节]，以可爱、风格化的美感呈现。纹理柔软，可挤压，像玩具一样，凸显了动画[物体类型]设计的魅力。干净的背景，居中的构图，柔和的环境光，柔和的色调，微妙的阴影，高分辨率渲染，正面视图。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/361.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_toy",
+                    "name": "潮玩手办"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "kaws",
+              "name": "KAWS",
+              "type": "prompt",
+              "prompt": "\"KAWS style {prompt} . Pop art",
+              "negative_prompt": "vinyl toy",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_toy",
+                    "name": "潮玩手办"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-295",
+              "name": "透明扭蛋场景模型",
+              "type": "prompt",
+              "prompt": "{subject}, 一个详细的透明扭蛋场景模型，由手指捏握，扭蛋内呈现 [人物名称] 的 [标志性姿势 / 风格] 形象。\n扭蛋内部细节：[简要描述人偶的外形、服饰及配饰]，背景元素包含 [相关场景：体育场、舞台、讲堂等]。\n光线设计需富有戏剧感与电影质感，并契合人物主题（例如：金色聚光灯、演唱会光影、学术氛围光效）。扭蛋顶部为透明材质，底部为彩色设计（选用契合主题的颜色，如宝蓝色、金色、黑色、红色），底部装饰有 [与该人物相关的图案元素]。\n扭蛋底座以匹配风格的字体标注有 [人物名称或昵称]。整体设计需呈现迷你收藏品的质感，细节超写实，搭配柔和的虚化背景，采用 1080x1080 像素的正方形构图。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/295.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_toy",
+                    "name": "潮玩手办"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-38",
+              "name": "捷克木偶风格",
+              "type": "prompt",
+              "prompt": "{subject}, Hand-Carved Wooden Puppet (Czech Marionette Style)\n\nA hand-carved wooden marionette interpretation of [SUBJECT], with jointed limbs, painted details, and a slightly eerie antique finish. Showcase theatrical posture, stage lighting, and cultural craftsmanship in the styling.",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/38.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_toy",
+                    "name": "潮玩手办"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -825,6 +1366,217 @@
                 "resolution": "resolved",
                 "status": "suggested",
                 "reason": "标题规则证据：3d / 场景",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_environment",
+                    "name": "场景环境"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-3",
+              "name": "蜜蜂科学城",
+              "type": "prompt",
+              "prompt": "{subject}, 创建图像 3D Q版迷你风格，一座蜂巢结构的甜蜜科研基地，建筑由六边形透明蜂蜡舱堆叠而成，顶部悬浮滴落蜂蜜的太阳花洒水器，外墙爬满发光花粉藤蔓。侧面延伸出蜂蜡滑梯与蒲公英降落伞，入口是旋转的向日葵转门。透过蜂巢窗可见内部试管操作台、蜜糖吊灯和穿白大褂的蜜蜂博士。花园里有驾驶花粉摩托的甲虫快递员、举着放大镜的蝴蝶研究员，搭配蜂蜜长椅、雏菊花洒喷泉和动态萤火虫光标，整体笼罩琥珀色光晕，打造超现实昆虫科学城的萌趣生态。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/3.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_environment",
+                    "name": "场景环境"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-338",
+              "name": "都市上空巨大的涡旋冲破暴风云层",
+              "type": "prompt",
+              "prompt": "{subject}, 在一座灯火璀璨的未来都市上空，巨大的螺旋状涡旋冲破暴风云层，显露出后方的蓝天 —— 这一视觉隐喻象征着通用人工智能突破当前局限的重重阻碍，抵达人类难以理解的清晰境界。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/338.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_environment",
+                    "name": "场景环境"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-89",
+              "name": "海洋中三艘不同的奇幻帆船",
+              "type": "prompt",
+              "prompt": "{subject}, Three different fantasy sailboats in the ocean, multiple scenes of beautiful aurora borealis and colorful moons with snowy mountains, a dreamy, fantasy landscape, in the style of digital art.",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/89.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_environment",
+                    "name": "场景环境"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "misc_metropolis",
+              "name": "misc-metropolis",
+              "type": "prompt",
+              "prompt": "metropolis-themed {prompt} . urban, cityscape, skyscrapers, modern, futuristic, highly detailed",
+              "negative_prompt": "rural, natural, rustic, historical, simple",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_environment",
+                    "name": "场景环境"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "futuristic_cyberpunk_cityscape",
+              "name": "futuristic-cyberpunk cityscape",
+              "type": "prompt",
+              "prompt": "cyberpunk cityscape {prompt} . neon lights, dark alleys, skyscrapers, futuristic, vibrant colors, high contrast, highly detailed",
+              "negative_prompt": "natural, rural, deformed, low contrast, black and white, sketch, watercolor",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_environment",
+                    "name": "场景环境"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "land_art",
+              "name": "Land art",
+              "type": "prompt",
+              "prompt": "land art style {prompt} . natural materials, outdoor, environmental, detailed",
+              "negative_prompt": "synthetic materials, indoor, non-environmental, low detail",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_environment",
+                    "name": "场景环境"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "fooocus_diva_terragen",
+              "name": "Terragen",
+              "prompt": "Terragen, {prompt}, beautiful massive landscape, epic scenery, Terragen",
+              "negative_prompt": "ugly, deformed, noisy, blurry, low contrast",
+              "description": "DIVA 电影感 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_diva.json",
+              "thumbnail": "/api/thumbnails/fooocus_diva_terragen.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_environment",
+                    "name": "场景环境"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "fooocus_twri_futuristiccyberpunk_cityscape",
+              "name": "futuristic-cyberpunk cityscape",
+              "prompt": "cyberpunk cityscape {prompt} . neon lights, dark alleys, skyscrapers, futuristic, vibrant colors, high contrast, highly detailed",
+              "negative_prompt": "natural, rural, deformed, low contrast, black and white, sketch, watercolor",
+              "description": "TWRI SDXL 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_twri.json",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_environment",
+                    "name": "场景环境"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "fooocus_twri_miscmetropolis",
+              "name": "misc-metropolis",
+              "prompt": "metropolis-themed {prompt} . urban, cityscape, skyscrapers, modern, futuristic, highly detailed",
+              "negative_prompt": "rural, natural, rustic, historical, simple",
+              "description": "TWRI SDXL 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_twri.json",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
                 "taxonomy_version": "1.1.0",
                 "rules_version": "1.1.2",
                 "subcategories": [
@@ -990,6 +1742,102 @@
               "negative_prompt": "",
               "description": "",
               "thumbnail": "https://img.opennana.com/prompts/assets/202601/1768054085700-x584yhzd-1.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_diorama",
+                    "name": "微缩等距"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-169",
+              "name": "微型透明胶囊",
+              "type": "prompt",
+              "prompt": "{subject}, 特写，一只手拿着一个透明的胶囊，里面是一个 [角色名称] 的微型模型，穿着 [他们的标志性服装和配饰]。角色以 [特定、富有表现力或动态的姿势] 摆姿势，与胶囊的内表面互动，就好像他们被冻结或限制在里面一样。超逼真、电影般的工作室照明设置，使用微距镜头拍摄。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/169.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_diorama",
+                    "name": "微缩等距"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_suspended-peel-world-wonder",
+              "name": "剥壳世界悬浮奇观",
+              "type": "prompt",
+              "prompt": "{subject}, 一个孤零零的[物体]悬浮在太空，外皮在剥落的瞬间被冻结，卷曲成丝带般剥离。表面之下存在着一个完全成型的[内部世界/系统]，全部由该物体的原生材质构建。被剥落的层次本身包含[嵌入细节/横截面/隐藏叙事]，在其卷曲中清晰可见。内部揭示[有机结构/机械系统/建筑空间]，越靠近核心越密集。超精细3D渲染，拥有植物学插图的精准度。材质连续性贯穿始终，[纤维纹理、膜状半透明、细胞图案]在宏观尺度下可见。调色板限制为[从表面到核心的天然材质渐变]。孤立物体，柔和定向照明，博物馆级展示。外皮讲述一个故事，内部讲述另一个故事。超高分辨率，科学浪漫主义，收藏级印刷品质。",
+              "negative_prompt": "",
+              "description": "",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202601/1768054995734-u6cbcylq-1.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_diorama",
+                    "name": "微缩等距"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-239",
+              "name": "沙滩胶囊城市",
+              "type": "prompt",
+              "prompt": "{subject}, 一个充满活力的、超写实的[CITY]微缩模型，放置在一个透明胶囊内，躺在沙滩上。胶囊一半是[COLOR]色（与[COUNTRY]的国旗相匹配），彩色部分上用白色文字写着[CITY]。胶囊内部：[CITY]的标志性地标、美丽的运河或街道、小巧精致的船只或汽车、阳光明媚的光线、电影般的景深、梦幻般的氛围、背景中的海浪。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/239.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_diorama",
+                    "name": "微缩等距"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-56",
+              "name": "玻璃盒内的图像可视化",
+              "type": "prompt",
+              "prompt": "{subject}, photorealistic image of a [COLOR] 3D [SUBJECT] encased in a luxurious transparent box, viewed from an enhanced side angle to better reveal the 3D shape of the [SUBJECT]. The box should be white, exquisitely designed, featuring crystal-clear glass with refined, sharp edges",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/56.jpeg",
               "classification": {
                 "method": "llm",
                 "stage": "title",
@@ -1547,6 +2395,54 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "opennana_prompt-185",
+              "name": "人体工程学",
+              "type": "prompt",
+              "prompt": "{subject}, 想象一下以 [生物/物体/概念] 的形式设计的 [家具]。设计应该具有高度的创意和雕塑感，就像一件艺术品。使用有机、流畅的形状和详细的纹理。确保它保持功能正常且符合人体工程学。目标是让它既具有视觉冲击力又具有实用性——您希望看到的是博物馆品质的设计对象",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/185.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_product",
+                    "name": "产品渲染"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-156",
+              "name": "作为家具的著名地标",
+              "type": "prompt",
+              "prompt": "{subject}, [LANDMARK - 自由女神像/埃菲尔铁塔/大本钟]雕刻完美，功能强大，就像一个[FURNITURE_PIECE - 灯/书架/咖啡桌]，客厅设置，正常比例的家具，逼真的细节。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/156.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_product",
+                    "name": "产品渲染"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -1622,6 +2518,788 @@
                   {
                     "id": "digital_3d_abstract",
                     "name": "抽象装置"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "rodin",
+              "name": "Rodin",
+              "type": "prompt",
+              "prompt": "\"Rodin style {prompt} . Realistic",
+              "negative_prompt": "expressive",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_abstract",
+                    "name": "抽象装置"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "digital_3d_material",
+          "name": "材质纹理",
+          "presets": [
+            {
+              "id": "opennana_prompt-102",
+              "name": "纹理化图片",
+              "type": "prompt",
+              "prompt": "{subject}, Retexture the image attached based on the json below\n{\n  \"style\": \"C4D hyper-realistic 3D render\",\n  \"object_form\": \"detailed mechanical design\",\n  \"geometry\": {\n    \"shape\": \"sharp edges with smooth curves\",\n    \"scale\": \"real-world proportion\",\n    \"detailing\": \"high-poly mesh with intricate mechanical features\"\n  },\n  \"material\": {\n    \"base\": \"polished plastic and carbon fiber\",\n    \"texture\": \"fine surface variation with specular maps\",\n    \"finish\": \"high gloss with realistic reflections\"\n  },\n  \"design_elements\": {\n    \"decals\": \"subtle branding and panel lines\",\n    \"surface_effects\": \"anodized gradients, emissive lighting elements\",\n    \"aero_parts\": \"spoilers, splitters, and aggressive styling cues\"\n  },\n  \"color_scheme\": {\n    \"primary\": \"#0ae2c0\",\n    \"secondary\": \"#111111\",\n    \"accents\": [\"#ffffff\", \"#e00000\"],\n    \"reflections\": \"real-world HDRI light environment\",\n    \"background\": \"#ffffff\"\n  },\n  \"lighting\": {\n    \"type\": \"studio 3-point with HDRI\",\n    \"intensity\": \"balanced with key fill and rim lights\",\n    \"shadows\": \"soft, subtle contact shadow under object\",\n    \"highlights\": \"strong specular reflections on curves\"\n  },\n  \"rendering\": {\n    \"engine\": \"Cinema 4D Redshift or Octane\",\n    \"resolution\": \"ultra high-definition (4K+)\",\n    \"focus\": \"object-centered with floating illusion\",\n    \"background_blur\": \"none\"\n  },\n  \"composition\": {\n    \"layout\": \"centered in frame\",\n    \"object_count\": 1,\n    \"orientation\": \"three-quarter front view\",\n    \"camera\": \"35mm lens, slightly elevated\",\n    \"grounding\": \"floating mid-air with realistic soft shadow cast on white background\"\n  }\n}",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/102.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_material",
+                    "name": "材质纹理"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-175",
+              "name": "半透明晶体效果",
+              "type": "prompt",
+              "prompt": "{subject}, 一个 [SUBJECT] 渲染为带有斜边的半透明晶体形式，从内部微妙地发光。表面捕捉并反射环境光，在黑暗背景下在其轮廓上显示微弱的彩虹色",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/175.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_material",
+                    "name": "材质纹理"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "sai_texture",
+              "name": "sai-texture",
+              "type": "prompt",
+              "prompt": "texture {prompt} top down close-up",
+              "negative_prompt": "ugly, deformed, noisy, blurry",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_material",
+                    "name": "材质纹理"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "texture",
+              "name": "Texture",
+              "type": "prompt",
+              "prompt": "texture {prompt} top down close-up",
+              "negative_prompt": "ugly, deformed, noisy, blurry",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_material",
+                    "name": "材质纹理"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-161",
+              "name": "物品纹理处理",
+              "type": "prompt",
+              "prompt": "{subject}, 根据以下 JSON 对附加的图片进行重新纹理处理：\n{\n“style_name”： “透明工作室渲染”，\n“visual_rules”： {\n“form”： {\n“shape”： “保留原始对象形状”，\n“outline”： “无轮廓，使用平滑的几何过渡和斜面”\n    },\n“照明”： {\n“style”： “工作室风格的 3 点光照或柔和 HDRI 设置”，\n“highlight”： “半哑光塑料或涂层表面的细微镜面反射高光”，\n“shadow”： “对象正下方的柔和投影，投射在半透明地板平面上”\n    },\n“texture”： {\n“surface”： “基于对象的平滑或轻微纹理，干净的着色器设置，噪点最小”，\n“branding”： “粗体且对比度高，被视为印刷贴花或贴纸式标签”\n    },\n“material”： {\n“finish”： “半哑光或缎面着色器，模拟打印塑料或涂层材质”\n    },\n“color_handling”： {\n“strategy”： “将对象的原色作为焦点”，\n“enhancement”： “略微提高饱和度和对比度，实现清晰的产品可视化”\n    },\n“背景”： {\n“type”： “完全透明（Alpha 通道）”，\n“shadow”： “可选的软投影正下方，使其在视觉上接地”\n    }\n  },\n“渲染”： {\n“camera_angle”： “居中前视图或略微升高以提高尺寸清晰度”，\n“depth_of_field”： “中性或稍浅，以保持物体完全清晰”，\n“background_blur”： “无，背景保持透明”\n  }\n}",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/161.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_material",
+                    "name": "材质纹理"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "fooocus_sai_saitexture",
+              "name": "sai-texture",
+              "prompt": "texture {prompt} top down close-up",
+              "negative_prompt": "ugly, deformed, noisy, blurry",
+              "description": "SAI 风格 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_sai.json",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_material",
+                    "name": "材质纹理"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "digital_3d_architecture",
+          "name": "建筑室内",
+          "presets": [
+            {
+              "id": "opennana_prompt-15",
+              "name": "树屋",
+              "type": "prompt",
+              "prompt": "{subject}, A quiet morning in a luxury treehouse retreat created by [BRAND NAME] — golden light pours through windows framed in the brand’s signature colors. A cozy seating area features playful, thematic furniture, and a circular rug inspired by [BRAND SYMBOL OR PRODUCT]. The coffee table bears the embossed logo, while a screen on the wall loops the phrase: “[BRAND SLOGAN].” A curated display of iconic items adds a sense of nostalgia. Subtle ambient lighting glows in brand tones, and a tray with signature treats sits near the window. It’s cozy, imaginative, and unmistakably [BRAND NAME]",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/15.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_architecture",
+                    "name": "建筑室内"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "misc_architectural",
+              "name": "misc-architectural",
+              "type": "prompt",
+              "prompt": "architectural style {prompt} . clean lines, geometric shapes, minimalist, modern, architectural drawing, highly detailed",
+              "negative_prompt": "curved lines, ornate, baroque, abstract, grunge",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_architecture",
+                    "name": "建筑室内"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "brutalist",
+              "name": "Brutalist",
+              "type": "prompt",
+              "prompt": "brutalist style {prompt} . raw, rugged, geometric, concrete, detailed",
+              "negative_prompt": "smooth, delicate, curvilinear, abstract, low detail",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_architecture",
+                    "name": "建筑室内"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "fooocus_diva_sketchup",
+              "name": "Sketchup",
+              "prompt": "Sketchup, {prompt}, CAD, professional design, Sketchup",
+              "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, photo, photograph",
+              "description": "DIVA 电影感 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_diva.json",
+              "thumbnail": "/api/thumbnails/fooocus_diva_sketchup.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_architecture",
+                    "name": "建筑室内"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "fooocus_twri_miscarchitectural",
+              "name": "misc-architectural",
+              "prompt": "architectural style {prompt} . clean lines, geometric shapes, minimalist, modern, architectural drawing, highly detailed",
+              "negative_prompt": "curved lines, ornate, baroque, abstract, grunge",
+              "description": "TWRI SDXL 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_twri.json",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_architecture",
+                    "name": "建筑室内"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "digital_3d_assets",
+          "name": "游戏资产",
+          "presets": [
+            {
+              "id": "game_gta",
+              "name": "game-gta",
+              "type": "prompt",
+              "prompt": "GTA-style artwork {prompt} . satirical, exaggerated, pop art style, vibrant colors, iconic characters, action-packed",
+              "negative_prompt": "realistic, black and white, low contrast, impressionist, cubist, noisy, blurry, deformed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_assets",
+                    "name": "游戏资产"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "fooocus_twri_gamegta",
+              "name": "game-gta",
+              "prompt": "GTA-style artwork {prompt} . satirical, exaggerated, pop art style, vibrant colors, iconic characters, action-packed",
+              "negative_prompt": "realistic, black and white, low contrast, impressionist, cubist, noisy, blurry, deformed",
+              "description": "TWRI SDXL 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_twri.json",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_assets",
+                    "name": "游戏资产"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "game_rpg_fantasy_game",
+              "name": "game-rpg fantasy game",
+              "type": "prompt",
+              "prompt": "role-playing game (RPG) style fantasy {prompt} . detailed, vibrant, immersive, reminiscent of high fantasy RPG games",
+              "negative_prompt": "sci-fi, modern, urban, futuristic, low detailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_assets",
+                    "name": "游戏资产"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "game_bubble_bobble",
+              "name": "game-bubble bobble",
+              "type": "prompt",
+              "prompt": "Bubble Bobble style {prompt} . 8-bit, cute, pixelated, fantasy, vibrant, reminiscent of Bubble Bobble game",
+              "negative_prompt": "realistic, modern, photorealistic, violent, horror",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_assets",
+                    "name": "游戏资产"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "game_minecraft",
+              "name": "game-minecraft",
+              "type": "prompt",
+              "prompt": "Minecraft style {prompt} . blocky, pixelated, vibrant colors, recognizable characters and objects, game assets",
+              "negative_prompt": "smooth, realistic, detailed, photorealistic, noise, blurry, deformed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_assets",
+                    "name": "游戏资产"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "game_pokemon",
+              "name": "game-pokemon",
+              "type": "prompt",
+              "prompt": "Pokémon style {prompt} . vibrant, cute, anime, fantasy, reminiscent of Pokémon series",
+              "negative_prompt": "realistic, modern, horror, dystopian, violent",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_assets",
+                    "name": "游戏资产"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "game_strategy_game",
+              "name": "game-strategy game",
+              "type": "prompt",
+              "prompt": "strategy game style {prompt} . overhead view, detailed map, units, reminiscent of real-time strategy video games",
+              "negative_prompt": "first-person view, modern, photorealistic",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_assets",
+                    "name": "游戏资产"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "game_streetfighter",
+              "name": "game-streetfighter",
+              "type": "prompt",
+              "prompt": "Street Fighter style {prompt} . vibrant, dynamic, arcade, 2D fighting game, highly detailed, reminiscent of Street Fighter series",
+              "negative_prompt": "3D, realistic, modern, photorealistic, turn-based strategy",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_assets",
+                    "name": "游戏资产"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "game_zelda",
+              "name": "game-zelda",
+              "type": "prompt",
+              "prompt": "Legend of Zelda style {prompt} . vibrant, fantasy, detailed, epic, heroic, reminiscent of The Legend of Zelda series",
+              "negative_prompt": "sci-fi, modern, realistic, horror",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_assets",
+                    "name": "游戏资产"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "sai_lowpoly",
+              "name": "sai-lowpoly",
+              "type": "prompt",
+              "prompt": "low-poly style {prompt} . low-poly game art, polygon mesh, jagged, blocky, wireframe edges, centered composition",
+              "negative_prompt": "noisy, sloppy, messy, grainy, highly detailed, ultra textured, photo",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_assets",
+                    "name": "游戏资产"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "game_cyberpunk_game",
+              "name": "game-cyberpunk game",
+              "type": "prompt",
+              "prompt": "cyberpunk game style {prompt} . neon, dystopian, futuristic, digital, vibrant, detailed, high contrast, reminiscent of cyberpunk genre video games",
+              "negative_prompt": "historical, natural, rustic, low detailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_assets",
+                    "name": "游戏资产"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "lowpoly",
+              "name": "Lowpoly",
+              "type": "prompt",
+              "prompt": "low-poly style {prompt} . low-poly game art, polygon mesh, jagged, blocky, wireframe edges, centered composition",
+              "negative_prompt": "noisy, sloppy, messy, grainy, highly detailed, ultra textured, photo",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_assets",
+                    "name": "游戏资产"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "fooocus_sai_sailowpoly",
+              "name": "sai-lowpoly",
+              "prompt": "low-poly style {prompt} . low-poly game art, polygon mesh, jagged, blocky, wireframe edges, centered composition",
+              "negative_prompt": "noisy, sloppy, messy, grainy, highly detailed, ultra textured, photo",
+              "description": "SAI 风格 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_sai.json",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_assets",
+                    "name": "游戏资产"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "fooocus_twri_gamebubble_bobble",
+              "name": "game-bubble bobble",
+              "prompt": "Bubble Bobble style {prompt} . 8-bit, cute, pixelated, fantasy, vibrant, reminiscent of Bubble Bobble game",
+              "negative_prompt": "realistic, modern, photorealistic, violent, horror",
+              "description": "TWRI SDXL 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_twri.json",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_assets",
+                    "name": "游戏资产"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "fooocus_twri_gamecyberpunk_game",
+              "name": "game-cyberpunk game",
+              "prompt": "cyberpunk game style {prompt} . neon, dystopian, futuristic, digital, vibrant, detailed, high contrast, reminiscent of cyberpunk genre video games",
+              "negative_prompt": "historical, natural, rustic, low detailed",
+              "description": "TWRI SDXL 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_twri.json",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_assets",
+                    "name": "游戏资产"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "fooocus_twri_gameminecraft",
+              "name": "game-minecraft",
+              "prompt": "Minecraft style {prompt} . blocky, pixelated, vibrant colors, recognizable characters and objects, game assets",
+              "negative_prompt": "smooth, realistic, detailed, photorealistic, noise, blurry, deformed",
+              "description": "TWRI SDXL 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_twri.json",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_assets",
+                    "name": "游戏资产"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "fooocus_twri_gamepokemon",
+              "name": "game-pokemon",
+              "prompt": "Pokémon style {prompt} . vibrant, cute, anime, fantasy, reminiscent of Pokémon series",
+              "negative_prompt": "realistic, modern, horror, dystopian, violent",
+              "description": "TWRI SDXL 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_twri.json",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_assets",
+                    "name": "游戏资产"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "fooocus_twri_gamerpg_fantasy_game",
+              "name": "game-rpg fantasy game",
+              "prompt": "role-playing game (RPG) style fantasy {prompt} . detailed, vibrant, immersive, reminiscent of high fantasy RPG games",
+              "negative_prompt": "sci-fi, modern, urban, futuristic, low detailed",
+              "description": "TWRI SDXL 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_twri.json",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_assets",
+                    "name": "游戏资产"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "fooocus_twri_gamestrategy_game",
+              "name": "game-strategy game",
+              "prompt": "strategy game style {prompt} . overhead view, detailed map, units, reminiscent of real-time strategy video games",
+              "negative_prompt": "first-person view, modern, photorealistic",
+              "description": "TWRI SDXL 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_twri.json",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_assets",
+                    "name": "游戏资产"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "fooocus_twri_gamestreetfighter",
+              "name": "game-streetfighter",
+              "prompt": "Street Fighter style {prompt} . vibrant, dynamic, arcade, 2D fighting game, highly detailed, reminiscent of Street Fighter series",
+              "negative_prompt": "3D, realistic, modern, photorealistic, turn-based strategy",
+              "description": "TWRI SDXL 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_twri.json",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_assets",
+                    "name": "游戏资产"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "fooocus_twri_gamezelda",
+              "name": "game-zelda",
+              "prompt": "Legend of Zelda style {prompt} . vibrant, fantasy, detailed, epic, heroic, reminiscent of The Legend of Zelda series",
+              "negative_prompt": "sci-fi, modern, realistic, horror",
+              "description": "TWRI SDXL 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_twri.json",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "digital_3d_assets",
+                    "name": "游戏资产"
                   }
                 ]
               }

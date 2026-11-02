@@ -211,6 +211,98 @@
                 },
                 "previous_location": "crafts/crafts_pending"
               }
+            },
+            {
+              "id": "yuanbao_674dd556fc1442d1b2c466f3f9b64c33",
+              "name": "织进花朵",
+              "type": "prompt",
+              "prompt": "现代欧洲编辑插画，超现实童话叙事，巨型植物花园场景。一朵盛开的浅粉色百合花占据主体，周围点缀紫色花朵、白色铃兰、层叠绿色叶片；一位身穿鲜艳粉红色长裙女士坐在巨大花瓣中央，五官清晰，专注编织一条超长手工针织围巾，围巾自手中自然垂落，如丝带般蜿蜒穿梭于花丛间并无限延伸至画面下方。人物极小、花朵巨大，形成强烈尺度反差；平面化构图，大面积色块、有机曲线、几何植物轮廓、弱透视、无真实光影，装饰主义美学。中高饱和粉彩配色，以暖色围巾作为视觉点缀；彩铅、水粉与彩色铅笔混合媒介，纸张颗粒清晰，细腻手绘笔触，保留自然线稿，呈现欧洲绘本与杂志社论插画气质。竖版3:4。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 文生图",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/M2YyNGYyMjYtNjgxNS00ODgxLWEyNGEtZmE2ZDZjMjBmN2U1_compress.webp?width=1116&height=1488",
+              "reference_images": [],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "674dd556fc1442d1b2c466f3f9b64c33",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "text2image",
+                "min_images": 0,
+                "max_images": 0,
+                "reference_image_urls": [],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/M2YyNGYyMjYtNjgxNS00ODgxLWEyNGEtZmE2ZDZjMjBmN2U1_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_textile",
+                    "name": "纺织刺绣"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_77e2bdd9057d447490aaf2e9414a1fb5",
+              "name": "布艺加工厂",
+              "type": "prompt",
+              "prompt": "生成一张现代时装工作室主题拼贴海报，整体保留手工拼贴、服装打版、Y2K时尚编辑感，但画面必须干净、鲜亮、清晰、现代，不要复古做旧感，不要泛黄，不要褪色，不要磨损，不要旧纸张，不要脏污颗粒，不要怀旧滤镜。画面不要任何外部边框，画面直接从深黄色背景开始。上半部分为大面积纯净、均匀的深黄色背景，颜色饱和且平整，中央放置主视觉字“Yuanbao Club”，文字必须作为最大视觉主体，采用夸张、圆润、柔软、不规则的手工泡泡字造型，字母彼此紧密连接并有明显大小变化，整体像厚实的布艺字、毛毡字或缝制贴布字，表面为高饱和明亮绿色，带细腻织物纹理、多层深绿色描边，具有手工缝线与立体贴布感，但不要做成光滑3D塑料字。字体主色使用明亮清新的绿色 **#00B578**，整体明亮、清透、鲜活，不要墨绿、灰绿、脏绿、荧光绿，表面可保留细腻织物纹理和轻微缝线细节，但材质必须是全新、干净、柔软的状态，不要磨损、破旧、掉色或做旧颗粒。文字周围加入少量干净明亮的金色金属图钉和一枚倾斜的大号金色别针，金属表面清晰、有光泽。下半部分为完整的现代软木板材质区域，不出现木质外框，软木颜色偏明亮自然棕色，纹理清晰但干净整洁。软木板上自然叠放红色、蓝色、深绿色、米黄色等色彩鲜明的全新布料样本，以及多张干净的纯白或浅米白服装打版纸样，纸张平整清洁，只保留自然轻微起伏，不要泛黄、污渍、折旧、破损或旧纸纤维感，纸样上仅保留清晰的绿色虚线、裁剪线、箭头和结构线，不出现任何小字英文说明。中央再次放置一组更大的“YUANBAO CLUB”大写绿色布艺泡泡字，字体造型、材质和绿色色彩与上方完全统一，覆盖部分布料和纸样，并加入金色图钉和金色别针。整张海报除两组“YUANBAO CLUB”主标题外，不出现任何其他英文、小字、日期、编号或品牌信息。整体色彩鲜明、对比清晰、画面通透，绿色主视觉与深酒红背景形成鲜明而高级的撞色效果，具有当代时尚品牌视觉、年轻潮流感和精致手工拼贴效果，避免任何旧照片、复古滤镜、泛黄、灰蒙、褪色和陈旧质感。竖版3:4尺寸。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 文生图",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/NWEzODgxNmItY2VkOS00MzkxLTk4ZTUtMTM5MDI4OWE3YTFm_compress.webp?width=1116&height=1488",
+              "reference_images": [],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "77e2bdd9057d447490aaf2e9414a1fb5",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "da8a4473c7a74207acbf1808460638e8",
+                    "name": "品牌设计"
+                  }
+                ],
+                "generation_type": "text2image",
+                "min_images": 0,
+                "max_images": 0,
+                "reference_image_urls": [],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/NWEzODgxNmItY2VkOS00MzkxLTk4ZTUtMTM5MDI4OWE3YTFm_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_textile",
+                    "name": "纺织刺绣"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -333,6 +425,106 @@
                   "runner_up": "crafts_fiber"
                 },
                 "previous_location": "crafts/crafts_pending"
+              }
+            },
+            {
+              "id": "yuanbao_06fe81de3a354d95adcf2e91b42ae073",
+              "name": "小孩升学拼图",
+              "type": "prompt",
+              "prompt": "参考上传图中的人物面部特征生成图片，比例 9:16 ，白色棚拍质感。整体画面干净明亮、通透去黄，白色墙面、白色衣服和白边保持纯正干净，禁止偏黄、偏暖、灰蒙、低饱和或旧照片感。画面为竖向四张照片依次上下排列的拼接版，不是 2×2 四宫格，不是左右两列。整张图四周保留完整均匀白色边框，每两张照片之间有明显横向白色分隔线，白边干净、平整、统一。四张照片里必须是同一个人：同一个图一人物，同一个脸部五官，同一个发型，同一个黄色花朵造型圆形装饰墨镜，同一件白色短袖 T 恤，胸口同一个小巧红色鞋子印花图案。四张照片只允许动作、表情和画面位置变化，不允许变成四个不同人物，不允许年龄、脸型、发型、墨镜、衣服、肤色发生变化。人物不要全部居中排列，要做错落布局：1. 第一张照片：人物位于画面偏左位置，双手举到嘴巴两侧张开手掌，嘴巴大张做呼喊动作，右侧留出文字空间。2. 第二张照片：人物位于画面偏右位置，单手靠在嘴边做喊话动作，左侧留出文字空间。3. 第三张照片：人物位于画面偏左位置，双手轻轻捂住脸颊，做出惊喜表情，右侧留出文字空间。4. 第四张照片：人物位于画面偏右位置，双手弯曲，手掌放在脖子脸颊两侧，露出开心灿烂笑容，左侧留出文字空间。第四张照片中的人物头部可以轻微向上侵入第三张照片底部边缘，形成轻微跨格层次，但不要遮挡主要文字。背景为纯白色室内墙面，无多余杂物，无装饰，无杂乱阴影。光线使用柔和均匀的室内平光，明暗自然柔和，避免强烈硬阴影、逆光、暗角、噪点、颗粒和夸张滤镜。文字为后期叠加平面文字，不要写在墙上或衣服上，文字必须清晰可读，中文汉字和拼音准确，不能出现错别字、乱码、多余字母、旋转、变形或错位。文字位置如下：第一张照片右侧放置大号红色书法汉字 “我”，汉字上方放置蓝色拼音 “wo”。第二张照片左侧放置大号红色书法汉字 “升”，汉字上方放置蓝色拼音 “sheng”。第三张照片右侧放置大号红色书法汉字 “学”，汉字上方放置蓝色拼音 “xue”。第四张照片左侧放置大号红色书法汉字 “啦”，汉字上方放置蓝色拼音 “la”。整体效果为真实摄影、棚拍画质、细节清晰、干净明亮、清新自然。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张人像照片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/Mjg4NDhiN2MtYTM2OC00OGFhLWJiZGMtMWMwZDY3YzliZTBh.jpg?width=1152&height=2048",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/NmQ3YTg3N2EtYjg5MC00MWYxLTkxMWUtOTk4ZDc2OGI1Y2Rm.jpg?width=1279&height=1706"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "06fe81de3a354d95adcf2e91b42ae073",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "d9ff0e40f01d4d2aba0ff502bd78b12a",
+                    "name": "智能P图"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/NmQ3YTg3N2EtYjg5MC00MWYxLTkxMWUtOTk4ZDc2OGI1Y2Rm.jpg?width=1279&height=1706"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/Mjg4NDhiN2MtYTM2OC00OGFhLWJiZGMtMWMwZDY3YzliZTBh.jpg?width=1152&height=2048",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_8a0621597df544b398421089fbf4fa66",
+              "name": "把日常画成纸",
+              "type": "prompt",
+              "prompt": "参考上传图片，提取其中主物件为唯一视觉主体，保留外形、比例、结构、材质与主色，生成上实拍下插画的双格海报。上半部占画面约52%，完整保留上传图片的原有场景、镜头角度、物件位置及暖色光影，呈安静的真实生活摄影。下半部为米白纸底、主物件插画和两行极小题字，背景有压印颗粒；同一主物件置于右下偏中，占下半部高度约55%，以深褐色蜡笔勾勒轮廓和结构线，保留原色的低饱和蜡笔与水彩平涂，局部叠横向笔触、网点投影与手工印刷错位，底部有极淡接触阴影。下半部左侧中下部留大量空白，置一行小字，依据物件生成的细宋体中文短句及对应英文。上下主体、角度、色彩一致，整体克制、温暖、安静，纸张扫描质感，竖版3:4",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传1张宠物图片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/NTQzY2Q1ODktZjFmMi00ODgyLWEwMDUtMjcxZmEwNWQwNTVh_compress.webp?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/YzZmOTY2MGMtNDIzMS00M2M2LWEyYTctZmNiZGU4MzJjYzRh_compress.webp?width=1116&height=1488"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "8a0621597df544b398421089fbf4fa66",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/YzZmOTY2MGMtNDIzMS00M2M2LWEyYTctZmNiZGU4MzJjYzRh_compress.webp?width=1116&height=1488"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/NTQzY2Q1ODktZjFmMi00ODgyLWEwMDUtMjcxZmEwNWQwNTVh_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_paper",
+                    "name": "纸艺剪纸"
+                  }
+                ]
               }
             }
           ]
@@ -615,6 +807,212 @@
                   {
                     "id": "crafts_metal",
                     "name": "金属工艺"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "crafts_other",
+          "name": "其他手工艺",
+          "presets": [
+            {
+              "id": "yuanbao_bc1857b51e304ebd845780239188ff0b",
+              "name": "双重曝光",
+              "type": "prompt",
+              "prompt": "生成竖版3:4摄影作品，彩色哑光墙面中央是一张微小洁白拍立得，内部呈现同一人物的剪影式双重曝光。先确定相纸构图，再确定双重曝光的整体外形，最后融入小人物。相纸宽度占画布的1/4，水平垂直居中，四周保留开阔墙面；正面平视，相纸端正，不放大或裁切留白。墙面从原图服装或环境提取一种代表性彩色，色相明确、中等饱和，只取颜色，不复制景物、纹理或投影，不统一灰化、泛黄或变成米白。墙面细腻哑光，相纸洁白平整，带轻柔接触阴影。相纸外框宽高比9:11，上、左、右白边等宽，下白边为上白边的五倍。成像区底色干净乳白，原图背景全部去除，不保留场景、倒影或模糊残影。整个双重曝光图案的外形是一枚完整的大侧脸头肩剪影，头顶、后脑、鼻尖、下巴、颈肩连成自然轮廓，四周与成像区边缘留有乳白空隙。大侧脸仅靠外缘识别，保留原人物的脸型与发型轮廓；全图只有小人物这一张脸有五官，大剪影不另行呈现眼睛、眉毛、耳部结构或真实面部明暗。剪影内未被小人物占据的区域呈现柔和、通透、有浓淡变化的胶片色调，不画成淡化的大肖像。小人物采用原图的胸像或半身取景，从头顶到取景底缘的高度为大剪影从头顶到肩部最低点高度的1/2—2/3，整体等比缩放，头部置于大剪影头部较宽的内部区域，肩胸延伸至剪影颈肩区域，全部可见部分位于大轮廓以内。保留原图长相、神态、发型、服饰与自然人体比例，不强行转头。优先通过位置与取景适配轮廓；展臂等宽幅动作容纳不下时改用胸像，让手臂自然处于取景外，不缩成微小人物，不压扁身体、不扭曲肢体。双重曝光的融合发生在小人物内部及边缘：脸部最清晰，头发与肩胸部分保留细节，部分随曝光提亮而逐渐透出剪影底色；衣服纹理与身体边缘局部自然消隐，色调与周围剪影连成一体。不能沿小人物全身描出完整清晰的抠图边，也不能仅降低大肖像透明度后叠上清晰小人。五官结构完整协调，肤色自然，不重影、不融化；人体连接准确，不新增肢体，未显示的手不补画。所有融合均限制在大剪影内，剪影外始终乳白，无越界人物、彩色光带、烟雾、光斑或发光描边。整体保留细腻胶片颗粒与自然曝光层次，色彩鲜明不荧光，无文字、水印或手持元素。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张人物照片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/YjExMTNjNGEtYmE0Zi00NzE3LWFmM2YtYjJhZDQwODAzOWE4_compress.webp?width=1108&height=1477",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/ZTQ1NTQ3ZmQtN2U2Ny00NzI2LTkwMTktODFkY2QwZDhmYjAx_compress.webp?width=1082&height=1441"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "bc1857b51e304ebd845780239188ff0b",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/ZTQ1NTQ3ZmQtN2U2Ny00NzI2LTkwMTktODFkY2QwZDhmYjAx_compress.webp?width=1082&height=1441"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/YjExMTNjNGEtYmE0Zi00NzE3LWFmM2YtYjJhZDQwODAzOWE4_compress.webp?width=1108&height=1477",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_other",
+                    "name": "其他手工艺"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_a4eaf24b3b4e4a3a852b521af2526dfa",
+              "name": "局部拼豆拼贴",
+              "type": "prompt",
+              "prompt": "参考上传图中的人物面部特征生成图片：比例3:4， 趣味合成摄影图，真人人像 + 同动作everskies的像素画风卡通贴纸(拼豆成品质感、无拼豆孔洞、色块边缘自然融合)拼贴创意，复刻人物同款动作，现实照片叠加everskies的像素画风，虚实呼应，有趣味对比感，创意合影。everskies的像素画风卡通贴纸独立悬浮在画面前景。画面最前景：右下角插入一只真人的手、拿着像素风卡通贴纸；贴纸内容：复刻人物同款动作，像素马赛克画风。背景实拍人像：参考图一。竖版构图，人像占据画面中后区域，前景手持像素贴纸在画面右下位置；人物与贴纸动作完全一致，左右平衡，趣味呼应构图。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张人像照片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/MmRhZmU5YTEtZTMzNy00MTFiLThmNjMtZmUyMDczMWFjYjJm.jpg?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/NzI1MDg2MGUtOWNhMy00N2ZjLTg1ZTktN2VkMTFmYWY4ZmI2.jpg?width=1116&height=1488"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "a4eaf24b3b4e4a3a852b521af2526dfa",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/NzI1MDg2MGUtOWNhMy00N2ZjLTg1ZTktN2VkMTFmYWY4ZmI2.jpg?width=1116&height=1488"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/MmRhZmU5YTEtZTMzNy00MTFiLThmNjMtZmUyMDczMWFjYjJm.jpg?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_other",
+                    "name": "其他手工艺"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_6f4c4b62274340e2848c9d82952346ee",
+              "name": "做个拼豆相框吧",
+              "type": "prompt",
+              "prompt": "根据用户上传的照片，将两人转化为亚克力相框里可爱q版的拼豆作品，靠近贴脸微笑互动，拼豆作品周围丰富布置手作拼豆装饰元素：爱心、星星、小花、幸运草、卡通小动物、礼物等等，形成满版纪念拼豆相框。保留手工制作的不规则感。桌面摆放多个透明拼豆收纳盒，里面装满不同颜色散落拼豆，真实工作台环境。背景为简约创作工作区，有墙面和电脑等生活元素露出。灰白空间背景。整体像ins感朋友圈随拍。光线像苹果手机近距离拍摄，画质保留真实手机照片的轻微噪点、锐化和生活感，像随手记录一个潮流小物和照片周边的真实生活照片，3:4的画面比例。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传1张单人正脸图片 · 参考图 1–2 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/NDhmMTRhN2MtYTFhZS00MjcyLWE1MTQtMWFkNzI3YzI2MDIz_compress.webp?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/MWUwMWE1NWMtMDg4Yy00OWM5LTllZWMtNWEzN2YyZmQyZTdi_compress.webp?width=1116&height=1488",
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/NzIyYzY5OWEtN2ViZi00MTY2LWI0ZjctZjQ3MDkzNjhlYzVj_compress.webp?width=1116&height=1488"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "6f4c4b62274340e2848c9d82952346ee",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 2,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/MWUwMWE1NWMtMDg4Yy00OWM5LTllZWMtNWEzN2YyZmQyZTdi_compress.webp?width=1116&height=1488",
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/NzIyYzY5OWEtN2ViZi00MTY2LWI0ZjctZjQ3MDkzNjhlYzVj_compress.webp?width=1116&height=1488"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/NDhmMTRhN2MtYTFhZS00MjcyLWE1MTQtMWFkNzI3YzI2MDIz_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_other",
+                    "name": "其他手工艺"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_ee71125f83494a08a737d8e62664fccf",
+              "name": "DIY耳饰品鉴师",
+              "type": "prompt",
+              "prompt": "基于用户上传的两张参考图融合创作：第一张为女性人物照片（佩戴主体），第二张为任意主体参考图（物品／植物／花卉／昆虫／动物／玩具／艺术品／食物／自然形态等，作为设计灵感来源）。生成一张精致耳饰灵感上下对照海报，海报无缝、无白线、无字体，极简克制，呈现“Source→Transformation”的设计关系。画面上下半区域宽度一致，下半区为灵感源保留层（占画面30%高度）：完整单独提取并保留第二张上传主体的真实外观、颜色、材质及主要识别特征，物体不做任何修改，不添加滤镜，不进行风格化处理；物体缩小比例后居中放置在纯净单色背景上，背景色从物体色彩体系中提取低饱和色调版本；物体尺寸占比约35%画面宽度，清晰完整，无遮挡。画面上半区为耳饰佩戴层（占画面70%高度）：展示第一张图中的人物（严格保留五官、脸型、肤色、发型），佩戴一件从第二张图转化而来的精致耳饰；视角调整为标准90度侧脸，展示单侧耳朵及周围局部，耳部为画面唯一视觉焦点，超近距离构图；仅佩戴单独一件耳饰（自动匹配最优形式：耳坠、耳环、耳钉之一）；人物表情平静自然，妆容淡雅，发型整齐梳理至耳后，完全暴露耳部轮廓。核心转译逻辑遵循三级优先级：第一优先级是轮廓美感的创造性转化—深入分析原物的外形DNA，提取最具辨识度的轮廓特征后，按美学原则自主选择最适合的转译路径（非固定对应关系）：抽象简化适用于形态复杂的原物，提炼核心线条，还原为优雅极简轮廓（如将繁花抽象为流畅曲线）；Q版萌化适用于具备亲和力的原物，做圆润化夸张处理，放大标志性部位；二创重组适用于结构独特的原物，保留神韵，自由重构构图，可翻转、拆解、拼接，创造全新视觉趣味；几何解构适用于偏现代感的原物，还原为基本几何形（圆弧、三角、波浪线）的组合交织。关键在于最终耳饰轮廓必须在视觉上与原物有明确关联，同时自身具备独立的装饰美感，并满足造型美感五维标准：整体轮廓需对称平衡或动态均衡；各部分比例协调；线条流畅、富有韵律感；视觉重心稳定，不头重脚轻；层次分明，有主次关系。第二优先级是色彩体系的继承与微调：提取原物主色1～2种作为耳饰核心色调，辅助色可作为点缀，允许在保持色相前提下微调明度和饱和度，以适应佩戴美学，也可向邻近色、同类色适度扩展丰富层次，禁止使用与原物完全无关的突兀配色。第三优先级是材质的气质匹配：分析原物散发的整体气质属性（温柔、锐利、流动、厚重、有机、几何、古典、前卫、神秘、活力等），匹配最能放大该气质的工艺载体——温柔气质选用软陶、珍珠、贝壳、丝绸、珐琅彩、磨砂树脂；活力气质选用透明亚克力、亮片、彩色玻璃、镭射碎片；华丽气质选用金属镀层、宝石镶嵌、水晶、浮雕；古典气质选用仿古铜、景泰蓝、雕花树脂、织锦缎；前卫气质选用做旧金属、皮革、链条、穿刺结构、异形镜面；有机气质选用干燥花材、真羽毛、木头、陶瓷、天然石。同一件耳饰可混搭2～3种材质形成丰富层次，但主材质必须与原物气质同频，禁止统一使用塑料胶质或统一采用镶钻金属。光影采用明亮柔和自然光或棚拍柔光，精确呈现所选材质的真实物理质感，阴影柔和、过渡自然，景深极浅，使耳饰锐利而背景虚化，画质精细，4K以上级别。竖版3∶4。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传和原图主体特征相同的图片 · 参考图 1–2 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/YjRlNDQ3MDQtNThmNy00N2M5LWI5NTUtY2I2OWE3Mjg3MWVk_compress.webp?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/ODJhZDk1ZTAtZWM2Yy00YmNlLTg2ODItNTAwMmQ5MGVhYzBj_compress.webp?width=1116&height=1488",
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/MmY1N2MxM2QtYWY5Zi00Y2E2LWFhY2UtNTQxYTY4NWI4NTFj_compress.webp?width=1116&height=1488"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "ee71125f83494a08a737d8e62664fccf",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "da8a4473c7a74207acbf1808460638e8",
+                    "name": "品牌设计"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 2,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/ODJhZDk1ZTAtZWM2Yy00YmNlLTg2ODItNTAwMmQ5MGVhYzBj_compress.webp?width=1116&height=1488",
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/MmY1N2MxM2QtYWY5Zi00Y2E2LWFhY2UtNTQxYTY4NWI4NTFj_compress.webp?width=1116&height=1488"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/YjRlNDQ3MDQtNThmNy00N2M5LWI5NTUtY2I2OWE3Mjg3MWVk_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "crafts_other",
+                    "name": "其他手工艺"
                   }
                 ]
               }

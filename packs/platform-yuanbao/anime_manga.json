@@ -800,6 +800,152 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "yuanbao_0efd659f926d48699aea60b013d1ef65",
+              "name": "立绘草图上色",
+              "type": "prompt",
+              "prompt": "基于用户上传的手绘角色草稿或线稿进行完整赛璐璐风格上色与精修，整体以原草稿为基础进行细化完善，先对草稿中的线条进行整理、提纯与修正，优化原本不稳定的手绘线、毛边、轻微结构偏差和转折不清的部分，让线条更加干净流畅、松紧有度、粗细自然，同时保留原草稿本身的设计感、角色气质和手绘特征，不改变原本的角色设定。严格保留原线稿中的人物姿势、身体比例、发型轮廓、五官比例、面部特色、表情神态、服装结构、配饰细节和整体人物印象，让成图仍然保有草图原本的角色辨识度与脸部特征。整体采用明亮清爽的日系商业游戏立绘表现，重点呈现清晰利落、干净不油腻的赛璐璐上色风格，画面以明确的色块关系塑造体积，受光面、背光面和阴影块分区清楚，阴影边缘利落，块面概括明确，减少厚重笔触和过多渐变渲染，保持清爽平面感与商业完成度兼具的视觉效果。整体塑造简洁清透，颜色表达直接，层次分明，不过度堆叠细碎光影，不过度做真实皮肤纹理和复杂材质反射，让画面呈现轻盈、利落、现代的二次元商业感。人物为完整空白背景立绘，背景保持纯白或透明感空白背景，角色居中展示，轮廓完整清晰，适合直接用于角色卡、剧情立绘、游戏官网展示和宣传素材。配色根据草稿本身的角色气质、服装结构、表情氛围和设定方向自动生成，整体采用清透现代的二次元商业配色逻辑，主色明确，辅助色精简，高饱和点缀色少量提亮，形成统一、清爽、有辨识度的色彩关系。优先使用低杂质、高通透度的色系进行搭配，让整体观感时髦、高级、年轻，避免配色松散，服装颜色控制在一个主色、一个辅助色和一到两个点缀色之内。肤色自然干净，面部保持清透哑光质感，五官精致但保留原草稿的脸型、眼型、嘴型和神态特征。眼睛以简洁明亮的方式表现，有清晰高光和情绪感。头发使用清晰分层的赛璐璐块面上色，亮面、暗面和高光关系明确，发丝层次概括清楚，呈现轻盈整洁的效果。服装按照线稿结构自动区分布料、金属、丝带、皮革、宝石和装饰件等材质，但整体材质表现依然以简洁清楚的块面为主，亮部简洁，暗部干净，最终呈现高辨识度、高完成度、适合商业游戏场景使用的正式角色立绘。保持原图比例。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张手绘稿 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/ZmQ0MTUwNWMtZGUwMi00MzYwLWFlYTEtMDEwYzE1ZGVmM2Yw_compress.webp?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/NTg3MDk2ZTEtM2M2ZC00YzhmLWJiZTktNWQ2Mjc2NTA5YmM1_compress.webp?width=1116&height=1488"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "0efd659f926d48699aea60b013d1ef65",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "d9ff0e40f01d4d2aba0ff502bd78b12a",
+                    "name": "智能P图"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/NTg3MDk2ZTEtM2M2ZC00YzhmLWJiZTktNWQ2Mjc2NTA5YmM1_compress.webp?width=1116&height=1488"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/ZmQ0MTUwNWMtZGUwMi00MzYwLWFlYTEtMDEwYzE1ZGVmM2Yw_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_character",
+                    "name": "角色立绘"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_7bcacb69bbf744fa878733cfe99c9b7e",
+              "name": "线稿上色",
+              "type": "prompt",
+              "prompt": "以用户上传的黑白线稿为基础进行上色，保留清晰黑色线稿，在线稿之上进行轻透明、分层明显的马克笔 / 水彩式上色，不要改动原始构图、透视、家具位置和空间结构。整体风格要贴近参考图，呈现大面积留白 + 局部重点着色 + 深浅层次分明的室内上色效果，不要把整个画面全部铺满颜色。色彩以米白、浅灰白、浅绿色、红色、灰棕，浅蓝色、冷灰蓝阴影为主，避免整体偏黄，避免暖黄泛滥；可以有少量暖棕和木色提升空间温度。墙面、天花、部分柜体和大面积背景尽量保持留白或仅做极淡铺色；地面、茶几、沙发底部、窗帘褶皱、柜体转角、地毯阴影、装饰画边缘等位置要压一些重色，用更深的灰蓝色、深木色、冷灰色加强体积感和空间层次，让画面有轻重关系。光线参考样图，是明亮通透的室内自然光，从窗边进入，亮部轻、暗部准，阴影清晰但不死黑。植物、花艺和局部软装可点缀少量低饱和绿色、豆沙橘或浅褐色，但只作为小面积提亮。整体效果要像专业环艺室内手绘上色图：清爽、高级、有留白、有层次、有重色压点，线稿清晰可见，不要上成照片感，不要3D渲染感，不要厚涂，不要满版平均上色。保持原图尺寸不变。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张手绘稿 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/MzYxOTdiN2ItYTZlYy00MTkxLTg1MmEtNGE0YWNmN2QwN2Q3_compress.webp?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/OWRiYmFjNDEtNzRlOC00MjVjLTk4N2UtZGFlNjM3NGQ2ZTMx_compress.webp?width=1116&height=1488"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "7bcacb69bbf744fa878733cfe99c9b7e",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "d9ff0e40f01d4d2aba0ff502bd78b12a",
+                    "name": "智能P图"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/OWRiYmFjNDEtNzRlOC00MjVjLTk4N2UtZGFlNjM3NGQ2ZTMx_compress.webp?width=1116&height=1488"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/MzYxOTdiN2ItYTZlYy00MTkxLTg1MmEtNGE0YWNmN2QwN2Q3_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_character",
+                    "name": "角色立绘"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_b1bc55d989d74a0ca728fa9ad5386887",
+              "name": "韩漫角色风格化",
+              "type": "prompt",
+              "prompt": "保持输入图原始比例。用户上传的真实照片是唯一底图，完整保留照片的比例、场景背景、构图、主体数量、站位、姿态、动作、手势和手持物品，背景保持真实摄影质感。照片中每一个原图主体都在原位重绘成韩国少女漫画风格的扁平插画，从头到画面内可见的身体部分都画成漫画形象，轮廓、大小、位置和动作与原主体完全重合，直接融在原照片场景里，形成漫画形象与实拍背景混合的画面。先逐一识别每个主体的身份类型、年龄感、性别、体型、发型、发色、刘海、毛色花纹、服装款式与颜色、配饰和表情，按原样转译成漫画形象，每个主体与本人对应、互不相同，保留原有的年龄感和体型差异，动物保留品种特征与毛色花纹。画风为扁平化潮流漫画插画：黑色细墨线勾出干净利落的外轮廓，线条细而肯定、粗细变化少，头发、毛发、服装和皮肤底色都用平涂色块，不画体积光影和写实质感，只在头发和衣服暗部加少量黑色平行排线。面部高度概括，保留原主体的脸型轮廓，眼睛是简洁的大圆眼，用粗黑上眼线加几根翘起的睫毛，黑色瞳孔中心点一颗白色高光；眉毛是两道细短线，鼻子只用一个小圆弧或小点表示，嘴巴是一道短弧线，脸上点几颗雀斑或一枚小星星。腮红是脸上唯一的柔和过渡，用淡蜜桃粉和浅玫瑰粉像水彩一样轻轻晕染在两颊、眼下和鼻尖，从中心向四周自然变淡，边缘柔和消散，和肤色无缝融合，透出淡淡的红润感。五官只保留简洁符号，不画鼻梁、法令纹、唇纹和皮肤纹理。头发分成几片大发束平涂，深色头发直接用大块纯黑，发梢尖细；服装按原图款式和颜色平涂成大色块，只用几根线概括领口、拉链和褶皱，配饰简化成小色块。配色为复古低饱和的奶油色、肉粉、珊瑚粉、芥末黄、灰蓝和纯黑，色块之间对比清晰，像复古印刷的彩色漫画。主体外轮廓只用一圈黑色墨线收边，墨线外侧直接衔接原照片背景，主体之间紧挨时用黑色轮廓线自然区分前后层次。只有原图主体被风格化，背景保留原照片的真实画面。主体数量与原图一致，主体边缘不残留真人的发丝和皮肤，手指数量正常，主体与背景之间没有白边、光晕或贴纸边框，画面中没有文字和水印。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张女性照片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/MzQwMzhjM2EtZTJmYi00M2FiLWJkMTMtODg4MDBhODE4MTk1_compress.webp?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/NjIzMzAxZjQtYjdkOC00NjA5LTkxOWQtMjMwMWVhOGE5ZjNj_compress.webp?width=1116&height=1488"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "b1bc55d989d74a0ca728fa9ad5386887",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/NjIzMzAxZjQtYjdkOC00NjA5LTkxOWQtMjMwMWVhOGE5ZjNj_compress.webp?width=1116&height=1488"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/MzQwMzhjM2EtZTJmYi00M2FiLWJkMTMtODg4MDBhODE4MTk1_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_character",
+                    "name": "角色立绘"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -1259,6 +1405,456 @@
                   {
                     "id": "anime_manga_model_sheet",
                     "name": "角色设定表"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "anime_manga_animation_frame",
+          "name": "动画画面",
+          "presets": [
+            {
+              "id": "yuanbao_d166af8a10324895916d34a9804da79c",
+              "name": "居家景点打卡照",
+              "type": "prompt",
+              "prompt": "上传一张人物照片，将原背景自然替换为真实的巴黎埃菲尔铁塔打卡场景，准确保留人物原本的脸型、五官比例、发型、发色、肤色、身材比例、服装、配饰、动作姿势和真实辨识度，不改变人物本人。自动识别人物的景别、拍摄角度、镜头高度、站姿方向、视线方向和透视关系，并根据原图重新设计最自然的巴黎旅行构图，让人物像真的站在巴黎现场拍摄。人物与新背景必须重点做好光影融合，不能只换背景而不重建人物受光，要根据巴黎场景中的真实光源方向、太阳高度、环境反射和周围建筑遮挡，重新给人物补充一致的光影效果，让光线真实落在人物的脸部、头发、肩膀、手臂、衣服和裤子上，明确表现出亮面、暗面、过渡面和环境反光，人物脚下生成自然的接触阴影，靠近石栏、地面、河道的一侧要有轻微环境反射光和色彩映射，边缘可出现自然轮廓光，让人物真正被巴黎现场光线包裹，不要出现人物光线平、无阴影、没有受光变化、像单独抠出来贴上去的感觉。近景或半身照片优先采用更生活化的取景方式，例如塞纳河边、桥边步道、巴黎街角、树荫广场或咖啡馆外侧，让埃菲尔铁塔作为中远景地标出现在人物侧后方或背景中，只露出部分塔身、塔顶或中上段结构即可，不必强行完整露出整座铁塔；全身照片则根据画面平衡自然安排铁塔出现面积，但依然以真实旅行随拍感为主。背景中可适当加入河道、石栏、欧式建筑、桥梁、树木、街灯和少量游客，丰富但不杂乱。头发丝、衣服边缘、鞋底与地面接触都要处理自然，人物与背景的清晰度、景深、空气透视和色温统一，整体像高质量手机或相机拍摄的真实巴黎打卡照片，人物始终是主体，铁塔只是自然的环境点缀，不要生硬抠图感，不要悬浮感，不要光影错位，不要透视错误，不要过度锐化。最终画面比例与上传照片保持一致。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传1张单人正脸图片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/MDE2MmU2MzAtYjJlMy00Yzk0LWE0YjUtMTRhNjRhZWEyMThh_compress.webp?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/NWNiOWI5ODEtZTc4NC00NGUyLTlkNjgtZTg3MWY1OWIzNGQz_compress.webp?width=1116&height=1488"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "d166af8a10324895916d34a9804da79c",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "d9ff0e40f01d4d2aba0ff502bd78b12a",
+                    "name": "智能P图"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/NWNiOWI5ODEtZTc4NC00NGUyLTlkNjgtZTg3MWY1OWIzNGQz_compress.webp?width=1116&height=1488"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/MDE2MmU2MzAtYjJlMy00Yzk0LWE0YjUtMTRhNjRhZWEyMThh_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_animation_frame",
+                    "name": "动画画面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_b78373729b72432e854e33248ad92c45",
+              "name": "日系动画风格化",
+              "type": "prompt",
+              "prompt": "参考上传图片生成图片：比例3:4，90 年代日系 OVA 赛璐璐动画画风，粗黑干净轮廓线，平涂色块，硬边界硬阴影，几乎没有柔和渐变，高饱和撞色体系，平面图形感，轻微胶片印刷颗粒。日系复古动画五官，圆润柔和鹅蛋脸，大大的通透圆杏眼，黑亮瞳孔，浅淡下眼睑，柔和弯眉，小巧精致直鼻，薄软饱满唇形，面部线条干净简洁，少面部纹理，经典老式动漫画脸，柔和幼态感。人物皮肤白皙，肤色明亮通透，避免暗沉和蜡黄。背景大面积留白，漫画风处理概括背景内容，加入少量高饱和撞色色块装饰，所有色块带清晰黑色描边，黑色轮廓线与人物线稿风格一致，平面拼贴排版感，色块不遮挡人物，不做复杂场景。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张人物照片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/NmMwODFkMTctNWI2Ni00ZmEzLWEwNjctNzIwM2Y1NDhlNjE1_compress.webp?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/NWY5M2RiOGEtYTU3YS00ZWM5LWIzZjAtYWUxNTFiOWVlMjFi_compress.webp?width=768&height=1024"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "b78373729b72432e854e33248ad92c45",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/NWY5M2RiOGEtYTU3YS00ZWM5LWIzZjAtYWUxNTFiOWVlMjFi_compress.webp?width=768&height=1024"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/NmMwODFkMTctNWI2Ni00ZmEzLWEwNjctNzIwM2Y1NDhlNjE1_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_animation_frame",
+                    "name": "动画画面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_cbda36d97a654c0fb8ef5d70fe132eb2",
+              "name": "吉卜力风格化",
+              "type": "prompt",
+              "prompt": "参考上传图片生成图片：将上传图一比一复刻的吉卜力手绘动画插画，采用宫崎骏经典吉卜力手绘动画画风，干净流畅黑色轮廓线条，平涂为主搭配柔和渐变上色，清新通透动漫色彩，光影柔和统一，完整保留原图场景结构、人物表情动作、景物布局不变，转化为吉卜力风格二次元形象；比例3:4。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张人像照片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/NjUyYmQyNTEtY2NjNC00ZDMwLWJjNGMtZjg0MjdlOTg3ZjJk_compress.webp?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/MDUzYTYwODMtMmRkOC00MGFiLWFlNTMtYzgzOGFjZGRmMGJh_compress.webp?width=768&height=1024"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "cbda36d97a654c0fb8ef5d70fe132eb2",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/MDUzYTYwODMtMmRkOC00MGFiLWFlNTMtYzgzOGFjZGRmMGJh_compress.webp?width=768&height=1024"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/NjUyYmQyNTEtY2NjNC00ZDMwLWJjNGMtZjg0MjdlOTg3ZjJk_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_animation_frame",
+                    "name": "动画画面"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "anime_manga_illustration",
+          "name": "主题插画",
+          "presets": [
+            {
+              "id": "yuanbao_e10551640385489cbc69745b345b24f8",
+              "name": "治愈系扁平卡通",
+              "type": "prompt",
+              "prompt": "参考上传图生成图片：比例3:4。板绘，治愈系扁平卡通插画，人物比例(6头身比)转化成平面插画，平涂画风，无写实光影，白色背景衬托人物，潮流穿搭人物立绘。干净数字板绘笔触，纯色块平涂，局部使用柔和渐变，脸颊添加圆形腮红晕染，没有厚涂堆叠，笔刷干净利落。整体光滑矢量插画质感，无纸张肌理，衣物印花、格纹、波浪纹样直接绘制在色块上，画面平整干净。高明亮马卡龙配色，饱和度适中，色彩丰富清新，柔和彩色，人物脸颊带有淡粉色圆形腮红，白色背景衬托人物，色彩活泼和谐。简约圆润卡通小人，小头腿长(粗腿)，豆豆眼，穿搭丰富多样，马卡龙配色，服装细节印花丰富。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传1张单人正脸图片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/MjQ2ZGZjYTAtYmE3My00ZDk3LWE4MjAtZmVjNzU1OTJhMmJh_compress.webp?width=1280&height=1707",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/MjA3M2I3OGUtMDdkMS00MGQ5LThjN2MtMDk1NGMzNjQyNzZj_compress.webp?width=1116&height=1488"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "e10551640385489cbc69745b345b24f8",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/MjA3M2I3OGUtMDdkMS00MGQ5LThjN2MtMDk1NGMzNjQyNzZj_compress.webp?width=1116&height=1488"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/MjQ2ZGZjYTAtYmE3My00ZDk3LWE4MjAtZmVjNzU1OTJhMmJh_compress.webp?width=1280&height=1707",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_38fd4d2b2f33408d88f6e9086f72ee0e",
+              "name": "漫绘人间",
+              "type": "prompt",
+              "prompt": "基于用户上传的一张人像照片进行风格化处理，严格保留人物脸型五官、保留原图人物的五官特征、脸型、发型轮廓、穿搭特征、人物动作、站姿、视角和整体构图关系，同时保留原图本来的场景内容，不更换场景，不重新设计人物动作，将整张图转换为 polo_tokki 风格的日系简约钢笔漫画插画，转换成黑白日式手绘漫画，钢笔粗线条排线，复古漫画网点纸阴影，做旧颗粒质感，极简草稿风背景，纯黑白无色彩，人物身形姿态配饰和参考图完全一致，复古漫笔触质感。尺寸3:4",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张人像照片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/ZDU4ZTQ5OWMtYzE1NS00MDgyLWIxYTYtMzdmNDFjMzlhZDYy_compress.webp?width=1344&height=1792",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/OTA1YjAyYWEtZjA5Yi00OGQ2LTllYjItNGY3OTdmNTk0ZmE5_compress.webp?width=1344&height=1792"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "38fd4d2b2f33408d88f6e9086f72ee0e",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/OTA1YjAyYWEtZjA5Yi00OGQ2LTllYjItNGY3OTdmNTk0ZmE5_compress.webp?width=1344&height=1792"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/ZDU4ZTQ5OWMtYzE1NS00MDgyLWIxYTYtMzdmNDFjMzlhZDYy_compress.webp?width=1344&height=1792",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_bd879e2119eb4e7ea53266f3538c2cde",
+              "name": "场景线绘互动",
+              "type": "prompt",
+              "prompt": "基于用户上传的一张任意照片进行趣味手绘互动二次创作，严格保留原图的真实照片质感、构图、主体内容、色彩、光影、空间层次和整体氛围，不重绘原图，不替换主体和背景。自动识别画面中的核心主体、明显轮廓、可互动边缘和前后景关系，并根据这些元素的位置、形状和情绪，在照片上添加少量有趣的黑白手绘互动涂鸦。涂鸦幽默简笔画的感觉，以干净的白色或黑色手绘线条为主，线条圆润、流畅，造型简单可爱，表情呆萌，动作夸张但不复杂。涂鸦要像真的和照片里的主体互动，而不是随便画在表面。根据场景自动设计互动方式。涂鸦数量控制在1到3处，画面干净有趣，不要堆满。涂鸦大小根据照片空间自然变化，占画面比例适中，不能遮挡人物五官、产品重点、宠物脸部或原图最重要的信息。涂鸦必须贴合原图透视、遮挡关系和物体边缘，必要时让部分线条被前景遮住，形成真实互动感。可以加入少量橙色或浅黄色作为手部、脸颊、鼻子等小面积点缀，但整体仍以黑白线条为主。最终效果像在真实照片上自然添加了一层轻松幽默的手绘小互动，简洁、聪明、有生活感，画面仍然保持高级、干净、真实。输出保持原图的比例。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 上传1张图片即可生成 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/Mjg1MGMxMDAtNzEyYi00MWI3LTllNzctOGRjYjAwMWUyOTVi_compress.webp?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/NzQwZmE5YjctNGQ4Mi00NzQxLTgwYmMtY2I2ZWZmMWNjYWZi_compress.webp?width=1116&height=1488"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "bd879e2119eb4e7ea53266f3538c2cde",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/NzQwZmE5YjctNGQ4Mi00NzQxLTgwYmMtY2I2ZWZmMWNjYWZi_compress.webp?width=1116&height=1488"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/Mjg1MGMxMDAtNzEyYi00MWI3LTllNzctOGRjYjAwMWUyOTVi_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_99536c4cfe724be2b5ca79c88c49d01c",
+              "name": "幽默卡通画风",
+              "type": "prompt",
+              "prompt": "保持用户原图尺寸不变。将用户上传照片中的人物统一转换为极简现代欧美儿童幽默插画风格，采用固定一致的角色设计语言，不受人物年龄、性别、服装、角度、构图、姿势、遮挡或场景影响，不融合漫画、绘本、二次元、美式卡通、日系动画、水彩、油画、蜡笔、拼贴、纸艺、厚涂或写实插画风格。完整保留原照片的构图、拍摄角度、镜头距离、人物位置与比例、动作姿势、身体朝向、透视关系、背景环境、空间结构、光线、色彩和画面布局，仅改变绘制语言，不重构构图、不补全身体、不改变裁切和动作。人物保留原有五官辨识度、发型轮廓、发色、肤色、服装、配饰、表情与气质。脸部固定为略长椭圆鹅蛋脸，下巴轻微收尖，避免圆脸、方脸和婴儿脸；双眼固定为两个独立的大面积白色正圆眼球，大小基本一致、间距较近，内部仅保留极小纯黑圆点瞳孔，不绘制虹膜、高光、睫毛、双眼皮及真实眼部结构，瞳孔可轻微偏向不同方向，呈现呆萌、迟钝、疑惑、搞怪、天真的神态；鼻子为极短小弯钩线，嘴巴为极小简洁线条，保留原表情；脸颊保留柔和圆形粉色腮红。头发采用连续圆润大弧线组成的完整块面造型，仅表现发型轮廓，不绘制发丝、碎发和纹理。人物仅对照片中已出现的身体部分进行风格化，保持原动作、姿势、比例和透视，不夸张变形。所有轮廓统一使用黑色闭合描边，线宽高度一致，线条圆润、流畅、连续、干净，如二维矢量绘制，边缘清晰，不出现断线、抖线、速写线、铅笔线、毛边、颗粒感或书写感。整体采用纯色平涂，每个色块保持单一主色，不表现真实材质和复杂纹理，仅允许极轻微柔和过渡与浅色阴影，整体呈现奶油般干净、柔和、通透的效果。配色保留原照片主色关系，并统一提升至中高明度、中等偏高饱和度，以奶油粉、天蓝、薄荷绿、暖黄、珊瑚橙等轻快色系呈现，避免深色、灰调、莫兰迪、复古配色、高反差和强烈光影，不采用真实光照逻辑、体积光或明显投影。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 上传任意一张图片即可生成 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/MGNiYzUyOWMtNzUyMy00NTczLTk3NGMtNzY5ZGFmYTM1Yzg3_compress.webp?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/MzY2YjA4ZjUtMDFkOC00MjAwLTljNTItNWYyY2Q5Y2U2OGVl_compress.webp?width=1116&height=1488"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "99536c4cfe724be2b5ca79c88c49d01c",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/MzY2YjA4ZjUtMDFkOC00MjAwLTljNTItNWYyY2Q5Y2U2OGVl_compress.webp?width=1116&height=1488"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/MGNiYzUyOWMtNzUyMy00NTczLTk3NGMtNzY5ZGFmYTM1Yzg3_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_8ef310063c4440149bac827ce4b8c8aa",
+              "name": "青春连载中",
+              "type": "prompt",
+              "prompt": "生成一张黑白灰与绿色植物结合的日系校园漫画插画，整体以纯白背景为主。画面中设置六幅大小不一的漫画分镜，但不采用规整对齐的六宫格。六幅画面以错落、疏密有致的方式分布在视觉中心区域，可以上下交叠、轻微偏移，或采用横竖画幅混合排列，形成类似漫画杂志内页或电影胶片拼贴的自由构图。部分分镜可略微倾斜，但整体保持干净、平衡且具有明确的阅读顺序。每幅分镜只保留一圈细黑色边框，边框外不要添加白色外框、描边、卡纸边缘或双层边框。六幅漫画整体约占画面的40%，周围留出充足空间供植物自然穿插。六幅画面采用电影分镜式构图，避免全部使用平视正面镜头，也不要让每一格都出现清晰完整的正脸。通过前景遮挡、侧面取景、背影、局部身体、景深以及远近景变化增强故事感。第一幅为教室内的中远景，前景出现一名学生的局部身体形成自然遮挡，后方黑色长发少女坐在课桌旁，脸部较小但完整，周围人物不超过两名。第二幅从教室侧后方拍摄，近景是扎马尾女生的后脑与肩膀，远处浅色卷发少年侧坐在课桌前，只呈现清楚的纯侧脸，背景简化为窗格、墙面和时钟，带有长焦抓拍般的安静距离感。第三幅为略微俯拍的餐桌场景，少年与少女并排坐在桌边，桌面仅放置少量杯子、餐盘和餐具，人物姿态与表情自然，周围最多出现两名同学。第四幅完全不出现正脸，只描绘少年与少女的背影，两人坐在台阶或低矮平台边，身体轻轻靠近，少年一只手自然搭在少女肩后，重点表现人物轮廓、细微动作与安静氛围。第五幅为校园走廊中的跟拍镜头，少年与少女从人群中经过，采用侧后方视角，脸部仅露出少量侧面，周围同学处理成虚化的灰色剪影，营造流动感和电影景深。第六幅为储物柜前的近景，前景可出现其他学生的肩膀或头发形成遮挡，少年位于侧面，少女只露出局部侧脸，上方有一只纸飞机飞过。人物采用干净、细腻的日系漫画线稿，减少复杂五官、过密阴影和零碎发丝，保持脸部结构自然完整，避免五官变形或破损。六幅校园场景内部只使用黑、白、灰三色，可用少量网点、灰阶和纯黑阴影表现空间层次。漫画分镜四周生长着大量绿色热带植物，包括巨大的芭蕉叶、龟背竹、羽状叶、细长叶片和交叠藤蔓。植物从左右两侧、底部和上方边缘向画面内部延伸，不对称地环绕并穿插于各个分镜之间，形成自然、自由的植物框景。部分藤蔓或叶片可以穿过分镜之间的空隙，少量叶尖可贴近或轻微压住边框，但不能遮挡人物主体与关键动作。植物数量丰富、层次密集，底部和一侧可以更加茂盛，另一侧适当留白，使整体构图更有呼吸感。叶片以鲜明而统一的绿色为主，可使用翠绿、草绿与少量深绿色形成轻微层次，同时保留细黑色轮廓、叶脉、龟背竹孔洞以及少量纯黑阴影。绿色只用于漫画外部的植物装饰，不进入六幅黑白灰校园场景。画面中不要出现任何文字、标题、对白框、旁白框、标志、数字、水印、装饰字或可识别字符。整体风格清新、安静、浪漫，具有日系青春校园漫画与艺术杂志拼贴相结合的视觉气质。竖版3:4尺寸。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 文生图",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/Njk3ZDNkYTktMjUxMy00NmNjLTg3ZjEtNDVjNGE5MWNhOTRl_compress.webp?width=1116&height=1488",
+              "reference_images": [],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "8ef310063c4440149bac827ce4b8c8aa",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "da8a4473c7a74207acbf1808460638e8",
+                    "name": "品牌设计"
+                  }
+                ],
+                "generation_type": "text2image",
+                "min_images": 0,
+                "max_images": 0,
+                "reference_image_urls": [],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/Njk3ZDNkYTktMjUxMy00NmNjLTg3ZjEtNDVjNGE5MWNhOTRl_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_9e86acfaf5104245af0ff791fb68d7de",
+              "name": "心动阿狸驾到",
+              "type": "prompt",
+              "prompt": "竖版3:4构图，参考上传图中人物的面部五官和发型特征，生成超写实单人特写画面。俯拍斜侧面视角，人物美颜美白。人物趴在厚实蓬松的绿色针织毯与米色编织地垫上，头戴棕红色长毛狐狸耳帽，耳朵内侧是柔缎面；金色星星贴饰在发侧，温柔浅笑，双手轻轻托住脸颊，指尖圆润带淡粉美甲。身穿宽松灰色字母印花T恤，叠穿白色镂空蕾丝长袖袖套/袖笼，袖口层叠荷叶蕾丝边。身旁随意放着零食包装袋、银色复古手持DV摄像机、狐狸小毛绒玩偶、红色小物积木。暖黄室内灯光混合轻微机顶闪光，CCD数码相机质感，低清柔焦，细腻噪点颗粒，色彩偏暖偏奶，软萌、梦幻、生活感，近景构图，发丝纹理清晰，浅景深，85mm，胶片数码混合感。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张女性照片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/ODYzMmNmYzYtMGU3Yy00MWQ3LTkyOTEtYjUyNmUwYTllYmFk.jpg?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/OWE4YTdkMjgtOTgyOC00NjdhLThmYjAtNzliNzg4M2JkMzJi.jpg?width=1116&height=1488"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "9e86acfaf5104245af0ff791fb68d7de",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "7a1ab3631e414d1291163bff714d2ec5",
+                    "name": "写实人像"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/OWE4YTdkMjgtOTgyOC00NjdhLThmYjAtNzliNzg4M2JkMzJi.jpg?width=1116&height=1488"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/ODYzMmNmYzYtMGU3Yy00MWQ3LTkyOTEtYjUyNmUwYTllYmFk.jpg?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
                   }
                 ]
               }

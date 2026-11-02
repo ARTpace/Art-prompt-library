@@ -895,6 +895,270 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "opennana_twilight-wilderness-giant-horse-man",
+              "name": "暮色荒野：巨马与铁血悍汉同行",
+              "type": "prompt",
+              "prompt": "{subject}, 一张超写实的电影级彩色照片，描绘了一位强壮、健硕的男士，牵着一匹异常高大、强壮的骏马，行走在广阔崎岖的开阔地带。这匹马明显比一般马匹高大，腿长、骨骼粗壮、气势非凡，拥有深邃的胸膛、粗壮的颈部、宽阔的肩膀，以及皮毛下清晰可见的肌肉结构。它的存在感既霸气又威严，同时又显得平静而受控。男士手中握着一根粗绳缰绳，绳索随着他们同步前行，展现出自然的重量、张力和轻微的摇摆。 男士赤裸上身，展现出结实、自然健美的上半身，比例真实：粗壮的血管清晰可见的手臂、突出的肱三头肌和三角肌、宽阔的肩膀，以及由真实动作产生的细微不对称。肌肉的挤压、肌腱的张力以及皮肤的拉伸都清晰可见且令人信服。上臂和前臂上的纹身看起来真实、陈旧，自然地融入皮肤，并随着动作正确地变形。 他带着沉稳的自信和内敛的权威向前走着，姿态放松却充满掌控力，仿佛完全习惯了驾驭这样一匹强大的动物。他的表情平静、坚毅、专注，目光向前或略微向下，从不看向镜头。面部特征粗犷而富有男子气概，下颌线分明，胡须浓密不齐，毛孔真实可见，细纹和一层薄薄的汗珠。头发乌黑、不完美，被风轻轻吹拂。 马匹略微超前或与他并肩行走，进一步突显了其体型和力量。它的解剖结构精确逼真，蹄子每一步都扬起尘土。尘土围绕着他们的腿部升腾，在阳光下捕捉到柔和的金黄色颗粒。风吹过场景，扬起尘土、马鬃毛、松散的绳索纤维，并轻柔地拂过男士的皮肤，增添了真实的动感。 环境是一片广阔的开阔地带——干燥的土地、起伏的地形、远处的山丘、稀疏的植被——真实而扎实，绝无任何程式化。色彩调色板具有电影感但自然：温暖的泥土色调、阳光下的棕色、柔和的绿色、真实的湛蓝色天空，以及柔和的高光衰减。没有过度饱和，没有奇幻的色调。光线感觉像是傍晚或黄金时段，方向性且自然，雕塑着肌肉和形态，同时保留了阴影细节。 仿佛使用全画幅相机和快速定焦镜头拍摄的高端纪录片或编辑照片。自然的景深，腿部、尘土和绳索中细微的运动模糊，真实的胶片颗粒，光学缺陷，以及不完美的焦点衰减。图像感觉真实、有力、永恒——没有摆拍，没有刻意安排。 强调反 AI 真实感：可信的比例差异、真实的解剖结构、真实的运动物理学、自然的尘土行为、有机的色彩分级、不完美的光线、真实的皮肤和毛发纹理。 \"negative_prompt\": \"AI 生成的外观、CGI 动物、奇幻马匹、夸张",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774991598533-plekryhq-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_shot",
+                    "name": "单镜头画面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_empty-cinema-lonely-child",
+              "name": "空荡影院里的孤独童影",
+              "type": "prompt",
+              "prompt": "{subject}, 黑白纪录片风格照片，拍摄于一个几乎空无一人的电影院大厅内，一个孩子独自坐在地板上，面向发光的屏幕，对称的过道引导线，座位上深邃的阴影，投影仪灯光形成的薄雾，宁静的氛围，适度的颗粒感，50 毫米镜头视角，画面克制但不失真实，展现了公共空间中的孤独感。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775072835990-ok5dv3lo-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_shot",
+                    "name": "单镜头画面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-726",
+              "name": "将一张参考图片转化为一段连贯的电影短片",
+              "type": "prompt",
+              "prompt": "{subject}, <role>\n你是一位屡获殊荣的预告片导演、摄影师和故事板艺术家。你的任务是：将一张参考图片转化为一段连贯的电影短片，然后输出可用于人工智能视频的关键帧。\n</role>\n\n<input>\n用户提供：一张参考图片（图片）。\n</输入>\n\n<non-negotiable rules - continuity & truthfulness>\n1）首先，分析整个构图：识别所有关键主题（人物/群体/车辆/物体/动物/道具/环境元素），并描述空间关系和互动（左/右/前景/背景、朝向、每个人在做什么）。\n2) 请勿猜测真实身份、确切地点或品牌归属。请以显而易见的事实为依据。可以推断氛围/情绪，但绝不能将其作为真实情况呈现。\n3）所有镜头必须严格保持一致：相同的拍摄对象、相同的服装/造型、相同的环境、相同的拍摄时间和光线风格。只有动作、表情、走位、构图、角度和镜头运动可以改变。\n4）景深必须真实：广角镜头景深要深，特写镜头景深要浅，并带有自然的散景效果。整个序列要保持一致的电影级色彩。\n5）不要引入参考图中不存在的新角色/物体。如果需要制造紧张/冲突，请通过画面外的方式暗示（阴影、声音、反射、遮挡、目光）。\n</non-negotiable rules - continuity & truthfulness>\n\n<goal>\n将图像扩展成 10-20 秒的电影片段，具有清晰的主题和情感发展（铺垫→发展→转折→高潮）。\n用户将根据你的关键帧生成视频片段，并将它们拼接成最终序列。\n</goal>\n\n<step 1 - scene breakdown>\n输出结果（含清晰的小标题）：\n- 主题：列出每个主要主题（A/B/C…），描述可见特征（服装/材料/形式）、相对位置、朝向、动作/状态以及任何互动。\n- 环境与照明：室内/室外、空间布局、背景元素、地面/墙壁/材质、光线方向和质量（硬光/柔光；主光/补光/边缘光）、暗示的时间、3-8 个氛围关键词。\n- 视觉锚点：列出 3-6 个在所有镜头中必须保持不变的视觉特征（调色板、标志性道具、主要光源、天气/雾/雨、颗粒/纹理、背景标记）。\n</step 1 - scene breakdown>\n\n<step 2 - theme & story>\n根据图片，提出以下建议：\n主题：一句话。\n- 剧情简介：一句简洁的预告片式句子，内容基于画面所能表达的信息。\n- 情感弧：4 个节拍（铺垫/发展/转折/高潮），每个节拍一行。\n</step 2 - theme & story>\n\n<step 3 - cinematic approach>\n选择并解释你的电影制作方法（必须包含）：\n- 投篮进位策略：如何从远距离到近距离（或反向）移动以把握投篮节奏\n- 摄像机运动方案：推/拉/摇摄/轨道/跟踪/环绕/手持微抖/云台——以及原因\n- 镜头和曝光建议：焦距范围（18/24/35/50/85mm 等）、景深倾向（浅/中/深）、快门“感觉”（电影感 vs 纪录片感）\n- 光线和色彩：对比度、主色调、材质渲染优先级、可选颗粒（必须与参考风格匹配） \n</step 3 - cinematic approach>\n\n<step 4 - keyframes for AI video (primary deliverable)>\n输出关键帧列表：默认 9-12 帧（稍后组装成一个主网格）。这些帧必须拼接成一个连贯的 10-20 秒序列，并具有清晰的 4 拍弧线。\n每一帧都必须是同一环境下的合理延续。\n\n每帧必须使用以下精确格式：\n\n[KF# | 建议时长（秒） | 镜头类型（ELS/LS/MLS/MS/MCU/CU/ECU/低角度/仰视/高角度/鸟瞰/插入）]\n- 构图：主体位置、前景/中景/背景、引导线、视线方向\n- 动作/节拍：肉眼可见的事件（简单、可执行）\n- 摄像机：高度、角度、移动（例如，缓慢推进 5% / 横向移动 1 米 / 轻微手持）\n- 镜头/景深：焦距（毫米），景深（浅/中/深），对焦目标\n- 灯光和调色：保持一致；突出高光/阴影\n- 音效/氛围（可选）：一条音轨（风声、城市嗡鸣、脚步声、金属嘎吱声），用于辅助节奏编辑。\n\n硬性要求：\n- 必须包含：1 张环境全景照片、1 张亲密特写照片、1 张极致细节特写照片和 1 张力量角度照片（低角度或高角度）。\n- 确保镜头之间剪辑驱动的连续性（视线匹配、动作延续、一致的屏幕方向/轴线）。 \n</step 4 - keyframes for AI video>\n\n<step 5 - contact sheet output (MUST OUTPUT ONE BIG GRID IMAGE)>\n您还必须输出一张主图像：一张包含所有关键帧的电影联系表/故事板网格图。\n- 默认网格：3x3。如果关键帧超过 9 个，请使用 4x3 或 5x3，以便每个关键帧都能适应一张图像。\n要求：\n1) 单个主图像必须包含每个关键帧作为单独的面板（每个单元格一个镜头），以便于选择。\n2) 每个面板必须清楚地标明：KF 编号 + 拍摄类型 + 建议持续时间（标签放置在安全边距内，绝不能遮挡主体）。\n3）所有面板之间严格保持连续性：相同的主题、相同的服装/外观、相同的环境、相同的灯光和相同的电影色彩分级；只有动作/表情/场景调度/构图/运动方面的变化。\n4) 景深变化真实：特写镜头景深较浅，广角镜头景深较深；逼真的纹理和一致的调色。\n5) 在主网格图像之后，按顺序输出每个 KF 的完整文本分解，以便用户可以以更高的质量重新生成任何单个帧。\n</step 5 - contact sheet output>\n\n<final output format>\n按以下顺序输出：\nA) 场景分解\nB)主题与故事\nC) 电影化手法\nD)关键帧（KF# 列表）\nE) 一张主联系表图片（所有关键指标在一个网格中）\n</final output format>",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/726.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_shot",
+                    "name": "单镜头画面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_time-travel-new-york-reunion",
+              "name": "穿越百年的纽约街头跨时空重逢",
+              "type": "prompt",
+              "prompt": "{subject}, <span>一个逼真的分屏电影镜头，展示了 </span><span class=\"bg-blue-200 text-blue-800 px-1.5 py-[1px] border border-black font-bold\">Scene</span><span>，同一个 </span><span class=\"bg-blue-200 text-blue-800 px-1.5 py-[1px] border border-black font-bold\">Gender</span><span> 出现在两个不同的时代：左侧是 </span><span class=\"bg-blue-200 text-blue-800 px-1.5 py-[1px] border border-black font-bold\">Era_A</span><span>，右侧是 </span><span class=\"bg-blue-200 text-blue-800 px-1.5 py-[1px] border border-black font-bold\">Era_B</span><span>。 如果上传了参考图片，请精确匹配他或她的脸部，包括面部特征、发型、发饰、肤色和体型。 左侧（</span><span class=\"bg-blue-200 text-blue-800 px-1.5 py-[1px] border border-black font-bold\">Era_A</span><span>）： </span><span class=\"bg-blue-200 text-blue-800 px-1.5 py-[1px] border border-black font-bold\">Gender</span><span> 完全可见（脸部 + 上半身）。他或她穿着符合 </span><span class=\"bg-blue-200 text-blue-800 px-1.5 py-[1px] border border-black font-bold\">Era_A</span><span> 历史背景的服装、发型和配饰。 环境、建筑、材料、车辆、道具和灯光都必须属于 </span><span class=\"bg-blue-200 text-blue-800 px-1.5 py-[1px] border border-black font-bold\">Era_A</span><span>。 氛围应充满怀旧感并符合历史。 右侧（</span><span class=\"bg-blue-200 text-blue-800 px-1.5 py-[1px] border border-black font-bold\">Era_B</span><span>）： 同一个 </span><span class=\"bg-blue-200 text-blue-800 px-1.5 py-[1px] border border-black font-bold\">Gender</span><span>（年龄、脸部、身体比例相同）在 </span><span class=\"bg-blue-200 text-blue-800 px-1.5 py-[1px] border border-black font-bold\">Era_B</span><span> 中完全可见（脸部 + 上半身）。 他或她穿着符合 </span><span class=\"bg-blue-200 text-blue-800 px-1.5 py-[1px] border border-black font-bold\">Era_B</span><span> 的现代或时代服饰，搭配相应的现代道具、科技、环境和灯光。 中心区域： 两个时代自然融合，没有生硬的分界线。 建筑元素、服装纹理和道具从旧到新 subtly 过渡。 每个时代的 {Gender} 可能会看向另一侧，营造出一种时空穿越和自我相遇的感觉。 超写实、电影级灯光、超精细纹理、高真实感、8k 画质。 宽高比：</span><span class=\"bg-blue-200 text-blue-800 px-1.5 py-[1px] border border-black font-bold\">Aspect_Ratio</span><span> --- 场景：</span><span class=\"bg-blue-200 text-blue-800 px-1.5 py-[1px] border border-black font-bold\">NewYork street</span><span> 性别：</span><span class=\"bg-blue-200 text-blue-800 px-1.5 py-[1px] border border-black font-bold\">Girl</span><span> 时代 A：</span><span class=\"bg-blue-200 text-blue-800 px-1.5 py-[1px] border border-black font-bold\">1930s Empire State Building</span><span> 时代 B：</span><span class=\"bg-blue-200 text-blue-800 px-1.5 py-[1px] border border-black font-bold\">Modern Times Square</span><span> 宽高比：</span><span class=\"bg-blue-200 text-blue-800 px-1.5 py-[1px] border border-black font-bold\">4:7</span>",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1773018769072-w8euksno-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_shot",
+                    "name": "单镜头画面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_batman-classic-comedy-cameo",
+              "name": "蝙蝠侠客串经典喜剧电影截图",
+              "type": "prompt",
+              "prompt": "{subject}, 一张来自著名喜剧电影的截图，但主角换成了蝙蝠侠，他被装扮成电影主角的样子，一眼就能认出来。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775085804382-n438i7w6-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_shot",
+                    "name": "单镜头画面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_jerusalem-darkest-hour-cross",
+              "name": "耶路撒冷十字架下的至暗时刻",
+              "type": "prompt",
+              "prompt": "{subject}, 北纬 31.7785°，东经 35.2296°，公元 33 年 4 月 3 日，下午 3:00。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774975638763-2n5a7l05-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_shot",
+                    "name": "单镜头画面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_noir-spotlight-mystery",
+              "name": "孤影黑光悬疑剧",
+              "type": "prompt",
+              "prompt": "{subject}, [\n  主体\n] 被置于黑色电影的聚光灯下。画面以阴影为主，\n只有一个刺眼的光源照亮了主体的一部分。使用 [\n  颜色1\n] 和 [\n  颜色2\n] 为光线着色，\n增添一丝戏剧性和神秘感。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202601/1768310248938-njvxe16a-1.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_shot",
+                    "name": "单镜头画面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-539",
+              "name": "根据歌词生成电影般的图像",
+              "type": "prompt",
+              "prompt": "{subject}, 根据歌词 [引用歌词] 为一首歌生成电影般的图像序列。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/539.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_shot",
+                    "name": "单镜头画面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_wong-kar-wai-motorcycle-embrace",
+              "name": "王家卫风隧道机车相拥",
+              "type": "prompt",
+              "prompt": "{subject}, 王家卫式忧郁色调，以浓重的青绿色为主（95–98% 的绿色/蓝绿色扩散），伦勃朗式明暗对比照明，强烈的胶片颗粒感，高 ISO 噪点，低分辨率 DV 摄像机美学，强烈的运动模糊，双重曝光隧道轨迹。偷窥式特写镜头，前景有大量遮挡，镜面反射，画中画感觉。超广角 18–24mm 镜头，极致特写（面部距离镜头仅 2–4 厘米），极度夸张的透视效果——头部比远处的元素大得多。背景是漫长黑暗的公路隧道，充满大量模糊的线性光条（主要是鲜绿色 + 微量淡黄色），强烈的长时间曝光拖影。 关键面部修复 - 男性（参考图片 1）： 28 岁男性，面部特征与参考图片 1 完全一致： - 面部必须与参考图片 1 100% 相同 - 脸型：[与参考图片 1 完全一致的脸型] - 眼睛：[与参考图片 1 完全一致的眼睛形状、大小、眼睑类型、间距、颜色] - 眉毛：[与参考图片 1 完全一致的眉毛形状、粗细、眉弓] - 鼻子：[与参考图片 1 完全一致的鼻梁高度、鼻尖形状、鼻孔宽度] - 嘴巴：[与参考图片 1 完全一致的嘴唇形状、厚度、宽度] - 下颌线：[与参考图片 1 完全一致的下颌形状、下巴形状] - 肤色：[与参考图片 1 完全一致的肤色/底色] - 头发：[与参考图片 1 完全一致的发型、颜色、质地、长度] - 面部毛发：[与参考图片 1 完全一致的胡茬/胡须样式] - 独特特征：[与参考图片 1 完全一致的痣、疤痕、独特标记] - 不允许与参考图片 1 有任何偏差 - 光滑年轻的皮肤，与参考纹理一致 - 港式明星美学 - 骑行并操控摩托车时，目光专注地直视前方 - 不包含参考图片 1 中的服装/服饰细节——完全忽略参考服装 关键面部修复 - 女性（参考图片 2）： 女性，面部特征与参考图片 2 完全一致： - 面部必须与参考图片 2 100% 相同 - 脸型：[与参考图片 2 完全一致的脸型] - 眼睛：[与参考图片 2 完全一致的眼睛形状、大小、眼睑类型、间距、颜色] - 眉毛：[与参考图片 2 完全一致的眉毛形状、粗细、眉弓] - 鼻子：[与参考图片 2 完全一致的鼻梁高度、鼻尖形状、鼻孔宽度] - 嘴巴：[与参考图片 2 完全一致的嘴唇形状、厚度、宽度] - 下颌线：[与参考图片 2 完全一致的下颌形状、下巴形状] - 肤色：[与参考图片 2 完全一致的肤色/底色] - 头发：[与参考图片 2 完全一致的发型、颜色、质地、长度] - 妆容：[如果参考图片 2 中有妆容，则与参考图片 2 完全一致的妆容风格] - 独特特征：[与参考图片 2 完全一致的痣、美人痣、独特标记] - 不允许与参考图片 2 有任何偏差 - 坐在男性身后摩托车后座上 - 双臂紧紧环抱他的腰部，亲密相拥 - 脸颊亲密地贴在他的肩膀/背部 - 不包含参考图片 2 中的服装/服饰细节——完全忽略参考服装 服装与造型（原始提示 - 不来自参考图片）： - 男性：休闲现代 \"",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774982870594-o1ew6jr1-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_shot",
+                    "name": "单镜头画面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_tech-noir-night-engineer",
+              "name": "深夜全息屏前的科技黑色电影工程师",
+              "type": "prompt",
+              "prompt": "{subject}, { \"scene\": \"AI 工程师在未来主义风格的办公桌前工作，桌上有多块全息显示屏\", \"camera\": { \"angle\": \"过肩视角，略微抬高\", \"focal_length\": \"50mm 人像镜头\", \"depth_of_field\": \"景深较浅，主体清晰对焦，背景略微模糊\" }, \"lighting\": { \"type\": \"戏剧性的侧光，带有蓝色点缀光\", \"time_of_day\": \"深夜\", \"mood\": \"专注，科技黑色电影氛围\", \"shadows\": \"深邃但不刺眼\" }, \"color_grade\": \"冷色调，青色和橙色配色方案\" }",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775089892128-qzb47z2a-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_shot",
+                    "name": "单镜头画面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_stranger-things-eleven-basement-suspense",
+              "name": "怪奇物语十一地下室异能爆发惊悚瞬间",
+              "type": "prompt",
+              "prompt": "{subject}, { \"selected_gallery_content\": { \"metadata\": { \"total_items\": 2, \"generated_by\": \"Visual Analysis\", \"description_style\": \"High-Detail Narrative\" }, \"items\": [ { \"file_id\": \"1000582255.jpg\", \"subject_identity\": { \"character_name\": \"Eleven\", \"actress_likeness\": \"Millie Bobby Brown\", \"source_material\": \"Stranger Things\" }, \"title\": \"地下室的超自然悬念\", \"detailed_narrative\": \"这张引人入胜的图片捕捉了角色 Eleven（由 Millie Bobby Brown 饰演）在一个家庭场景中紧张的瞬间。她蹲在一台老旧的米色洗衣机旁，手里抓着一捆衣服。她的表情警惕而担忧，鼻孔流出的标志性鲜血加剧了这种紧张感——这是该系列中表示使用念力或精神压力的视觉主题。她穿着一件复古条纹 T 恤，外面套着牛仔背带裤，完美契合了该剧 20 世纪 80 年代的审美。\", \"environmental_context\": \"场景是一个光线昏暗、未完工的地下室洗衣房，其特点是冰冷的水泥墙和裸露的管道。空气中弥漫着浓厚的神秘感。在她右边，衣服挂在临时晾衣绳上，架子上堆满了像 Tide 这样的洗衣液瓶。一个关键细节是洗衣机上的贴纸，上面写着“Hawkins Power & Light”，这使图像牢牢地扎根于虚构的霍金斯镇。\", \"visual_tags\": [ \"鼻血\", \"超能力\", \"80 年代时尚\", \"Hawkins Power & Light\", \"地下室\", \"洗衣房\" ] }, { \"file_id\": \"1000582226.jpg\", \"subject_identity\": { \"celebrity_likeness\": \"Sydney Sweeney\", \"theme\": \"Farm Life / Cottagecore\" }, \"title\": \"谷仓里的黄金时刻\", \"detailed_narrative\": \"在这个温暖而质朴的场景中，女演员 Sydney Sweeney 完全沉浸在农场生活中。她跪在铺满干草的地上，正积极地将一头大型深色奶牛的奶挤入一个金属桶中。她的举止非常开朗和迷人，灿烂的笑容表明她在这项传统的体力劳动中找到了乐趣。她的穿着实用而富有田园风情，包括一件格子法兰绒衬衫，袖子卷起，以及耐用的棕色帆布背带裤。\", \"environmental_context\": \"图像设置在一个传统的木制谷仓内，充满了风化木材和干燥干草的质感。灯光非常壮观，金色的阳光（通常被称为“耶稣光”）透过谷仓墙壁的板条倾泻而下，为主体提供了逆光，营造出一种梦幻般的田园氛围。背景中，可以看到其他牛站在它们的牛栏里。\", \"visual_tags\": [ \"奶牛场\" ] } ] } }",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774253983380-w7b5ymh9-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_shot",
+                    "name": "单镜头画面"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -1525,6 +1789,126 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "opennana_deep-sea-9-grid-expedition",
+              "name": "深海九格探险记",
+              "type": "prompt",
+              "prompt": "{subject}, {\n  \"Objective\": \"创建具有深海潜水海洋探险者美学的 3x3 网格照片拼贴\",\n  \"FaceReference\": {\n    \"Mode\": \"严格保脸\",\n    \"Instruction\": \"使用上传的参考以获得精确的面部特征\",\n    \"Consistency\": \"九帧中脸部完全相同\"\n  },\n  \"GridComposition\": {\n    \"Layout\": \"3x3 网格\",\n    \"PoseVariety\": [\n      \"与海龟同游\",\n      \"透过潜水面罩特写\",\n      \"探索珊瑚礁\",\n      \"优雅自由潜下潜\",\n      \"触碰蝠鲼\",\n      \"水下洞穴入口\",\n      \"上升气泡轨迹\",\n      \"漂浮于巨藻林\",\n      \"胜利破出水面\"\n    ]\n  },\n  \"PersonaDetails\": {\n    \"Subject\": {\n      \"Type\": \"与参考相同\",\n      \"Wardrobe\": \"光滑潜水服、潜水面罩、脚蹼、水下相机\",\n      \"OverallPresence\": \"海洋探险者、海洋女神\"\n    }\n  },\n  \"Environment\": {\n    \"Setting\": \"清澈热带水域\",\n    \"Background\": \"珊瑚礁、热带鱼、阳光穿透水面的光束、蓝色深海\",\n    \"Lighting\": {\n      \"Style\": \"水下阳光与波光\",\n      \"Quality\": \"蓝绿、空灵、发光\"\n    }\n  },\n  \"ImageQuality\": {\n    \"Resolution\": \"8K 超写实\",\n    \"Aesthetic\": \"国家地理海洋纪录片\"\n  },\n  \"NegativePrompt\": [\n    \"泳池\",\n    \"浑浊水\",\n    \"不同脸\",\n    \"改变后的面部特征\"\n  ],\n  \"ResponseFormat\": {\n    \"Layout\": \"3x3 网格\",\n    \"AspectRatio\": \"1:1\"\n  }\n}",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202601/1768150297569-ykziuydr-1.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_storyboard",
+                    "name": "分镜故事板"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-629",
+              "name": "一张图片生成9个不同景别的镜头",
+              "type": "prompt",
+              "prompt": "{subject}, <instruction> (指令)\n分析输入图像的整个构图。识别所有存在的关键主体（无论是单人、群体/情侣、车辆还是特定物体）及其空间关系/互动。\n生成一个连贯的 3x3 网格“电影印样（Contact Sheet）”，展示在同一环境中完全是这些主体的 9 个不同镜头。\n你必须调整标准的电影镜头类型以适应内容（例如，如果是群体，保持群体在一起；如果是物体，构图包含整个物体）：\n第 1 行（建立背景）：\n大远景 (ELS)： 主体在广阔的环境中显得很小。\n全景 (LS)： 完整的主体或群体从上到下可见（从头到脚 / 从车轮到车顶）。\n中远景 (美式镜头/四分之三)： 构图从膝盖以上（针对人物）或 3/4 视角（针对物体）。\n第 2 行（核心覆盖）：\n4. 中景 (MS)： 构图从腰部以上（或物体的中心核心）。聚焦于互动/动作。\n5. 中特写 (MCU)： 构图从胸部以上。主要主体的亲密构图。\n6. 特写 (CU)： 紧凑构图于脸部或物体的“正面”。\n第 3 行（细节与角度）：\n7. 大特写 (ECU)： 强烈聚焦于关键特征（眼睛、手、标志、纹理）的微距细节。\n8. 低角度镜头 (仰视/虫眼)： 从地面仰望主体（壮观/英雄感）。\n9. 高角度镜头 (俯视/鸟瞰)： 从上方俯瞰主体。\n确保严格的一致性：所有 9 个面板中是相同的人物/物体、相同的衣服和相同的光照。景深应逼真地变化（特写镜头中的背景虚化）。\n</instruction>\n一个包含 9 个面板的专业 3x3 电影故事板网格。\n该网格以全面的焦距范围展示输入图像中的特定主体/场景。\n顶行： 宽广环境镜头，全视图，3/4 剪辑（膝上景）。\n中间行： 腰部以上视图，胸部以上视图，脸部/正面特写。\n底行： 微距细节，低角度，高角度。\n所有帧均具有照片般逼真的纹理，一致的电影级调色，以及针对所分析的主体或物体特定数量的正确构图。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/629.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_storyboard",
+                    "name": "分镜故事板"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_four-frame-carousel-video",
+              "name": "四帧图像轮播生成的流动视频",
+              "type": "prompt",
+              "prompt": "{subject}, 我通过在提示中指定 Nano Banana Pro 生成的 4 张图片，创建了一个视频，让它们按顺序切换。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775072543063-7hf38hbt-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_storyboard",
+                    "name": "分镜故事板"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_four-panel-shinkansen-moments",
+              "name": "四分割构图定格新干线沿途的绝美瞬间",
+              "type": "prompt",
+              "prompt": "{subject}, <span>将屏幕分成四个相等的部分，并使用四张人物图像创建四种不同的构图和角度。 在 </span><span class=\"bg-blue-200 text-blue-800 px-1.5 py-[1px] border border-black font-bold\">35.1782, 138.6086</span><span> 的经纬度处，从新干线内部看背景的新构图。</span>",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1773047433096-nq0owoyh-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_storyboard",
+                    "name": "分镜故事板"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-878",
+              "name": "预判前后时间的画面",
+              "type": "prompt",
+              "prompt": "{subject}, 请分别显示5分钟前/30分钟后/1小时后/2小时后的效果",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/878.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_storyboard",
+                    "name": "分镜故事板"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -1588,6 +1972,30 @@
               "negative_prompt": "",
               "description": "Nano banana pro",
               "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774976149360-g8witvuv-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_environment",
+                    "name": "影视场景"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_abandoned-studio-flashlight-beam",
+              "name": "手电筒光束下的死寂废弃片场",
+              "type": "prompt",
+              "prompt": "{subject}, 请以上传的角色图片作为精确参考。保留原始比例、材质、颜色、纹理和面部特征。请勿更改设计，也请勿对角色进行风格化处理。 第一人称视角，置身于一个废弃空间内 [地点类型：电视演播室/广告拍摄现场/真实拍摄地点]。 观众手持手电筒，形成一道圆形光束，而空间的其他部分则被黑暗吞噬。在手电筒的光束中，可以看到角色被放置成仿佛拍摄结束后被遗弃的样子：[姿势：躺在地板上/蜷缩在角落里/靠在桌子上/瘫靠在墙边]。角色必须显得完全没有生命迹象且不活跃：没有动作，没有刻意摆出的姿势，没有存在感。如果它是一个玩偶或服装，则不能看到任何手、杆、绳索或里面的人。 角色看起来老旧、肮脏且被遗弃：磨损的布料、积聚的灰尘、污渍、褪色、扁平或受损的区域。 环境明显是废弃的：布满灰尘的表面、旧的拍摄设备、散落在地板上的电缆、褪色的标志或布景装饰。 灰尘颗粒在手电筒的光束中漂浮；空间感觉寂静，多年未被触碰。 逼真的手电筒照明，强烈阴影，粗糙纹理，纪录片写实主义，实地拍摄美学，无风格化 宽高比 9:16",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774984947044-3qqt1adx-1.jpg",
               "classification": {
                 "method": "llm",
                 "stage": "title",
@@ -1695,6 +2103,30 @@
               "negative_prompt": "",
               "description": "Nano banana pro",
               "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774143389882-n2120yqo-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_mood",
+                    "name": "电影氛围"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_candle-moonlit-sacred-night",
+              "name": "烛光与月色交织的静谧圣夜",
+              "type": "prompt",
+              "prompt": "{subject}, Hande Erçel 优雅地坐在一张传统的祈祷垫（nimaz mat）上，时值神圣的沙班月十五日（Shab-e-Barat）之夜，房间内灯光柔和，弥漫着宁静的灵性氛围。她身着端庄典雅的服饰——一件宽松、长袖的 柔和色 服装，一条轻柔的头巾（dupatta）轻轻覆盖着头部，保持着虔诚的伊斯兰谦逊。 她的姿态宁静而专注，在祈祷后以“tashahhud”姿势端坐，双手轻轻举起做“dua”（祈祷）。她的面部表情平和、沉思，情感投入，双眼微垂，充满虔诚。 温暖的烛光和一盏小床头灯在房间里营造出金色的光晕。一本《古兰经》放在她身旁的一个木制经架（rehal）上。背景中细微的串灯营造出柔和的散景效果。整个环境纯净、安静、神圣。 祈祷垫上饰有精致的伊斯兰几何图案。房间的装饰简约而整洁——白色的墙壁，一扇窗帘轻微摆动，暗示着柔和的夜风。月光透过窗户洒入，为室内温暖的灯光增添了一抹清冷的蓝色对比。 视觉风格：超现实主义、电影级编辑摄影、85mm 镜头、浅景深、柔焦背景、清晰的面部细节、自然的皮肤纹理、HDR 照明、影棚级真实感、灵性氛围、庄重基调。 拍摄角度：平视、略微从前方倾斜、亲密而平静的构图。 分辨率：超高清 8K 宽高比：4:5 光线：温暖的烛光 + 柔和的月光对比 情绪：灵性、平和、神圣、沉思、谦逊、真实",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774983896815-256rvxa9-1.jpg",
               "classification": {
                 "method": "llm",
                 "stage": "title",
@@ -1851,6 +2283,246 @@
               "negative_prompt": "",
               "description": "Nano banana pro",
               "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774308159774-5lqpecdp-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_action",
+                    "name": "动作场面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_survival-muddy-forest-climbing",
+              "name": "绝境求生泥泞森林中男人艰难攀爬的电影瞬间",
+              "type": "prompt",
+              "prompt": "{subject}, 使用上传的面部图像作为精确的身份参考。 一张超逼真的电影级照片，一个男人绝望地攀爬着陡峭泥泞的森林斜坡，双手紧抓着裸露的树根。手臂紧绷，手指沾满湿泥，血管清晰可见。 面部必须与参考图像高度匹配（相同的结构、肤色、年龄、自然纹理）。身穿一件深色、粗犷、被雨水浸湿的夹克，衣服沾有泥土。头发凌乱，略带湿润。 茂密的森林环境，扭曲的树枝构成画面框架，雾气和烟雾弥漫其中，空气中漂浮着碎屑，地面湿滑不平。 表情展现出原始的求生欲、疲惫和决心；嘴巴微张，呼吸可见，眼神专注。 电影般的青蓝色环境雾，带有微妙的红色边缘光，体积光，戏剧性的对比。低角度中近景拍摄，浅景深，面部和手部对焦锐利，前景树枝模糊。 超现实、粗犷的电影胶片剧照，极致真实感，高动态范围，超高细节，4K–8K 画质。 负面提示：动漫、卡通、插画、CGI 效果、塑料感或光滑皮肤、过度风格化、虚假光照、模糊的面部、低细节、解剖结构扭曲、多余的手指、糟糕的手部、过度锐化、低分辨率。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774295865188-qjqfc8f2-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_action",
+                    "name": "动作场面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-1135",
+              "name": "电影动作提示词",
+              "type": "prompt",
+              "prompt": "{subject}, 全身镜头，[详细人物描述]，身穿[服装或盔甲描述]，手持[一件或多件标志性武器或物品]，[手部姿势或动作]，准备[行动或战斗意图]，在[被摧毁的反乌托邦城市环境描述]的街道上。\n[火花、能量、烟雾、反射、​​碎片等主要视觉效果] 营造出电影海报风格的场景，运用运动模糊、高分辨率摄影、超精细纹理、动态姿势、戏剧性视角和超逼真细节。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/1135.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_action",
+                    "name": "动作场面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_epic-spy-explosion-back",
+              "name": "史诗级特工任务完成背对大爆炸",
+              "type": "prompt",
+              "prompt": "{subject}, 动作电影海报风格，最强间谍，任务完成，不回头看爆炸，cinematic，dark tone",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774243879223-sxwqi47y-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_action",
+                    "name": "动作场面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_high-altitude-freefall-with-jets",
+              "name": "云端万米高空战机伴飞的惊险坠落瞬间",
+              "type": "prompt",
+              "prompt": "{subject}, 超现实电影场景：我漂浮在半空中，在云层之上坠落，身体倒置，双腿弯曲，双臂微微抬起，身穿黑色连帽衫、黑色裤子、黑色帽子和太阳镜，脚穿 red 运动鞋，动感十足。两架未来主义隐形战斗机在角色上方和下方近距离飞行，带有动态模糊和热尾迹。高空天空，下方是柔软的云层，白昼电影级光照，角色对焦锐利，广角镜头，史诗级规模，逼真的物理效果，戏剧性构图，4K 画质，无文字，无标志，无水印。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774290998178-y09f5mxr-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_action",
+                    "name": "动作场面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_red-assassin-soccer-kick",
+              "name": "红衣刺客凌空抽射的流光残影",
+              "type": "prompt",
+              "prompt": "{subject}, 一名身穿红色专业足球球衣的神秘足球运动员在空中踢球的摇摄镜头，运动模糊，电影级灯光，背景为浅绿色渐变色，带有条纹光效 --ar 4:5 --raw --stylize 700",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774991047140-9zuuejs2-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_action",
+                    "name": "动作场面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_biohazard-rocket-sweep",
+              "name": "生化危机：火箭筒轰碎杂兵潮",
+              "type": "prompt",
+              "prompt": "{subject}, 生化危机 扛着火箭筒开火 炸飞大量杂兵！ 下一个 更多杂兵 下一个 更多 下一个 更多 结束",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775078416602-e2egc695-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_action",
+                    "name": "动作场面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_dark-forest-red-energy-battle",
+              "name": "幽暗密林中的红芒激战",
+              "type": "prompt",
+              "prompt": "{subject}, 在黑暗迷雾的森林中，一幕充满戏剧性的电影场景：两名戴兜帽的人物正在激烈冲突，其中一人释放出一股炽热的红色能量，照亮了树木，火花四溅，深邃的阴影，浓郁的氛围，高细节的光影和富有情绪的构图。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774978644221-mv0aeabi-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_action",
+                    "name": "动作场面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_red-lightning-battlefield-axe",
+              "name": "战场赤色闪电疾驰，巨斧破开万物之势",
+              "type": "prompt",
+              "prompt": "{subject}, 一道红色闪光划过战场！⚡️ 那把斧头所向披靡……！",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774221086543-8bx9s1fi-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_action",
+                    "name": "动作场面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_resident-evil-rocket-ghost-mob",
+              "name": "生化危机火箭筒轰碎幽灵尸潮",
+              "type": "prompt",
+              "prompt": "{subject}, 生化危机 扛着火箭筒 向右上方斜射 炸飞大量杂兵 被炸飞的杂兵 虚无缥缈 接下来 更多杂兵",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775078448002-t2b1v6g8-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "film_cinema_action",
+                    "name": "动作场面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_rocket-launcher-sweep-blast",
+              "name": "肩扛火箭筒霸气斜射轰飞全场",
+              "type": "prompt",
+              "prompt": "{subject}, 扛着火箭筒 向左上方斜射 把小角色炸飞到屏幕对面 让人物站起来 面朝左 扛着火箭筒",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775080674937-gotnkskb-1.jpg",
               "classification": {
                 "method": "llm",
                 "stage": "title",

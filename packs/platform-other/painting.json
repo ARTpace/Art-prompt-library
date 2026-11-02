@@ -31,6 +31,75 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "picasso",
+              "name": "Picasso",
+              "type": "prompt",
+              "prompt": "\"Picasso style {prompt} . Cubist",
+              "negative_prompt": "geometric",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_oil",
+                    "name": "油画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "monet",
+              "name": "Monet",
+              "type": "prompt",
+              "prompt": "\"Monet style {prompt} . Impressionist",
+              "negative_prompt": "light-filled",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_oil",
+                    "name": "油画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "hopper",
+              "name": "Hopper",
+              "type": "prompt",
+              "prompt": "\"Hopper style {prompt} . Realistic",
+              "negative_prompt": "light and shadow",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_oil",
+                    "name": "油画"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -174,6 +243,30 @@
                 "resolution": "resolved",
                 "status": "suggested",
                 "reason": "标题规则证据：Suminagashi / Suminagashi",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_ink",
+                    "name": "水墨国画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-64",
+              "name": "洞壁画",
+              "type": "prompt",
+              "prompt": "{subject}, A cave painting of a [subject], rendered with primitive ochres and charcoal lines on a rough stone wall. Smudged handprints, crude geometry, and flickering torchlight add a primal, ancient mood.",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/64.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
                 "taxonomy_version": "1.1.0",
                 "rules_version": "1.1.2",
                 "subcategories": [
@@ -418,6 +511,29 @@
                   "runner_up": "anime_manga_comic"
                 }
               }
+            },
+            {
+              "id": "charcoal",
+              "name": "Charcoal",
+              "type": "prompt",
+              "prompt": "charcoal sketch of {prompt} . dark, grainy, high contrast, loose, dramatic,light",
+              "negative_prompt": "smooth",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_sketch",
+                    "name": "素描速写"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -480,6 +596,29 @@
                 },
                 "previous_location": "painting/painting_pending"
               }
+            },
+            {
+              "id": "pastel",
+              "name": "Pastel",
+              "type": "prompt",
+              "prompt": "pastel drawing of {prompt} . soft, colorful, delicate, expressive, textured,sharp",
+              "negative_prompt": "bold",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_pastel",
+                    "name": "色粉蜡笔"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -541,6 +680,52 @@
               "description": "Marc K3nt3L 风格",
               "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_marc_k3nt3l.json",
               "thumbnail": "/api/thumbnails/fooocus_marc_k3nt3l_mk_halftone_print.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_printmaking",
+                    "name": "版画拓印"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "hokusai",
+              "name": "Hokusai",
+              "type": "prompt",
+              "prompt": "\"Hokusai style {prompt} . Ukiyo-e",
+              "negative_prompt": "woodblock print",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_printmaking",
+                    "name": "版画拓印"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "scratchboard",
+              "name": "Scratchboard",
+              "type": "prompt",
+              "prompt": "scratchboard technique on {prompt} . contrast, engraved, black and white, detailed, dramatic,colorful",
+              "negative_prompt": "soft",
+              "description": "ComfyUI Style",
               "classification": {
                 "method": "llm",
                 "stage": "title",
@@ -629,6 +814,76 @@
                   "confidence": 0.7675,
                   "runner_up": "painting_pastel"
                 }
+              }
+            },
+            {
+              "id": "opennana_prompt-201",
+              "name": "纸上的小卡通角色",
+              "type": "prompt",
+              "prompt": "{subject}, 想象你是一个在纸上活过来的小卡通角色！画自己从一只试图擦掉你的巨大铅笔逃跑。添加彩色铅笔、书桌，也许还有一些飞行的橡皮屑以增加乐趣。用你最狂野的想象力让它看起来像是从页面上爆发出来！",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/201.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_children",
+                    "name": "儿童绘本"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "misc_fairy_tale",
+              "name": "misc-fairy tale",
+              "type": "prompt",
+              "prompt": "fairy tale {prompt} . magical, fantastical, enchanting, storybook style, highly detailed",
+              "negative_prompt": "realistic, modern, ordinary, mundane",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_children",
+                    "name": "儿童绘本"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "fooocus_twri_miscfairy_tale",
+              "name": "misc-fairy tale",
+              "prompt": "fairy tale {prompt} . magical, fantastical, enchanting, storybook style, highly detailed",
+              "negative_prompt": "realistic, modern, ordinary, mundane",
+              "description": "TWRI SDXL 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_twri.json",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_children",
+                    "name": "儿童绘本"
+                  }
+                ]
               }
             }
           ]
@@ -1100,6 +1355,190 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "sai_digital_art",
+              "name": "sai-digital art",
+              "type": "prompt",
+              "prompt": "concept art {prompt} . digital artwork, illustrative, painterly, matte painting, highly detailed",
+              "negative_prompt": "photo, photorealistic, realism, ugly",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_digital",
+                    "name": "数字绘画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "digital_art",
+              "name": "Digital art",
+              "type": "prompt",
+              "prompt": "concept art {prompt} . digital artwork, illustrative, painterly, matte painting, highly detailed",
+              "negative_prompt": "photo, photorealistic, realism, ugly",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_digital",
+                    "name": "数字绘画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "artistic",
+              "name": "Artistic",
+              "type": "prompt",
+              "prompt": "\"{prompt} in an artistic outfit. Creative",
+              "negative_prompt": "unique",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_digital",
+                    "name": "数字绘画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "collage",
+              "name": "Collage",
+              "type": "prompt",
+              "prompt": "collage style {prompt} . mixed media, assembled, eclectic, highly detailed",
+              "negative_prompt": "uniform, unvarying, minimalist, low detail",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_digital",
+                    "name": "数字绘画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "assemblage",
+              "name": "Assemblage",
+              "type": "prompt",
+              "prompt": "assemblage style {prompt} . three-dimensional, found objects, eclectic, detailed",
+              "negative_prompt": "two-dimensional, traditional materials, uniform, low detail",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_digital",
+                    "name": "数字绘画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "drybrush",
+              "name": "Drybrush",
+              "type": "prompt",
+              "prompt": "drybrush technique on {prompt} . rough texture, loose brushwork, subtle detail, expressive, painterly,smooth",
+              "negative_prompt": "precise",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_digital",
+                    "name": "数字绘画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "fooocus_sai_saidigital_art",
+              "name": "sai-digital art",
+              "prompt": "concept art {prompt} . digital artwork, illustrative, painterly, matte painting, highly detailed",
+              "negative_prompt": "photo, photorealistic, realism, ugly",
+              "description": "SAI 风格 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_sai.json",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_digital",
+                    "name": "数字绘画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "fooocus_mre_mreartisticvision",
+              "name": "mre-artistic-vision",
+              "prompt": "powerful artistic vision of {prompt}. breathtaking masterpiece made by great artist. best quality, high resolution",
+              "negative_prompt": "insignificant, flawed, made by bad artist. low quality, low resolution",
+              "description": "MRE 风格 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_mre.json",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_digital",
+                    "name": "数字绘画"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -1356,6 +1795,29 @@
                   "runner_up": "painting_watercolor"
                 }
               }
+            },
+            {
+              "id": "encaustic",
+              "name": "Encaustic",
+              "type": "prompt",
+              "prompt": "encaustic painting of {prompt} . wax, textured, layered, luminous, rich,flat",
+              "negative_prompt": "smooth",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_gouache_acrylic",
+                    "name": "丙烯装饰画"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -1405,6 +1867,83 @@
                   {
                     "id": "painting_line",
                     "name": "线描钢笔"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-112",
+              "name": "重点线条勾勒",
+              "type": "prompt",
+              "prompt": "{subject}, A digital illustration of a [SUBJECT], portrayed with a network of glowing clean pristine blue lines outlining its anatomy. The image is set against a dark background, highlighting the [SUBJECT] form and features. A specific area such as [PART] is emphasized with a red glow to indicate a point of interest or significance. The style is both educational and visually captivating, designed to resemble an advanced imaging technique",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/112.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_line",
+                    "name": "线描钢笔"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "line_art",
+              "name": "Line art",
+              "type": "prompt",
+              "prompt": "line art drawing {prompt} . professional, sleek, modern, minimalist, graphic, line art, vector graphics",
+              "negative_prompt": "anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_line",
+                    "name": "线描钢笔"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "painting_botanical",
+          "name": "博物图鉴",
+          "presets": [
+            {
+              "id": "opennana_prompt-121",
+              "name": "文艺复兴时期的解剖学研究",
+              "type": "prompt",
+              "prompt": "{subject}, 文艺复兴时期对 [主题]的解剖学研究，用精细的石墨和墨水交叉影线精心说明，透明的组织覆盖层露出骨骼和肌肉系统。该作品以优雅的拉丁书法标记，并呈现在古老的羊皮纸上，散发着学术的精确和古典之美。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/121.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_botanical",
+                    "name": "博物图鉴"
                   }
                 ]
               }

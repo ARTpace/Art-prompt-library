@@ -7911,6 +7911,238 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "opennana_prompt-420",
+              "name": "居家光影三联画",
+              "type": "prompt",
+              "prompt": "{subject}, 整体构图与画面氛围\n\n三张图垂直排列，呈连续性肖像摄影的视觉叙事。环境是温暖、生活化的宜家风室内空间，背景有厨房、灯饰与家居物件，带有日常感与柔和自然光的氛围。光线从侧前方照射，亮度柔和，使皮肤质感呈现出细腻、自然的光泽。\n\n整体色调偏冷白色，营造出轻快、清新且柔软的情绪。\n\n人物姿态与表情变化\n\n三张图记录了同一个人物在不同瞬间的表情变化，整体呈现：\n1.第一张：表情略带可爱与调皮，冲镜头飞吻。肩膀自然放松，呈正面角度。\n2.第二张：人物略侧身，头微微倾斜，眼神柔软而带有轻微情绪暗示，像是从静止过渡到微笑之间的瞬间。\n3.第三张：人物更加放松，露出温柔的笑容。头发自然散落，姿态轻松，呈现出自信与自在的状态。\n\n这种 “从冷静 → 轻松 → 微笑” 的表情变化，让整组照片呈现出一种动态叙事感。\n\n光影与肤质表现\n•光线均匀柔和，无明显强阴影。\n•光照角度使脸颊与鼻梁形成非常轻微的立体阴影，突显面部轮廓但不过度锐利。\n•肤色自然，有细腻的反光，呈现柔焦般的质感，带一点胶片或日系滤镜效果。\n\n服装与材质表现\n\n人物穿着浅灰蓝色吊带上衣，肩带纤细，布料柔软且贴身，反射柔和的光泽。在光线下呈现轻柔的高光，强调曲线线条。色彩与背景保持低饱和度一致，画面显得干净。\n\n头发自然散落，有轻微的蓬松与空气感，质地柔软，有光线透过发丝的柔和层次。\n\n五官比例与视线表达\n•眼睛略大，眼型柔和，眼尾微微延展，眼神富有交流感；\n•鼻梁细直且自然；\n•唇部丰润，唇色浅粉，随着表情变化在不同图中呈现不同质感；\n•面部比例均衡，视觉重心集中在眼神与微笑的变化。\n\n整体呈现一种亲和、明亮、带情绪表达的肖像风格。\n\n情绪与风格总结\n\n这组照片像是在记录一个人在阳光午后、刚睡醒或者刚准备开始一天时的松弛瞬间。\n氛围是自然、温暖、轻松、无防备感的美。\n\n画面没有刻意摆拍或华丽修饰，而是以光线和表情捕捉真实与柔软的瞬间。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/420.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_portrait",
+                    "name": "人物肖像"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-379",
+              "name": "戴着报童帽身穿黑色马甲",
+              "type": "prompt",
+              "prompt": "{subject}, 使用上传的 100% 面部照片。\n这张超现实主义的电影中景镜头展现了一位英俊的二十多岁男子，他有着上传照片般的黑发和黑胡须，一身20世纪20年代的时尚风格。他头戴灰色粗花呢报童帽，身穿黑色马甲，内搭清爽的白衬衫，系着一条纤细的黑色领带，戴着黑色皮手套。肩上披着一件厚重的羊毛大衣。\n他倚靠在一条狭窄而充满情调的小巷里，倚靠着一堵饱经风霜的砖墙，透过圆形墨镜，目光冷峻而沉思。灯光充满情调，充满戏剧性，冷色调和柔和的阴影营造出一种纵深感和神秘感。这张照片细节丰富，对焦清晰，景深浅。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/379.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_portrait",
+                    "name": "人物肖像"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "lifestyle",
+              "name": "Lifestyle",
+              "type": "prompt",
+              "prompt": "\"lifestyle photo of {prompt}. Everyday activities",
+              "negative_prompt": "real-life situations",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_portrait",
+                    "name": "人物肖像"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "glamour",
+              "name": "Glamour",
+              "type": "prompt",
+              "prompt": "\"glamour shot of {prompt}. Beauty focused",
+              "negative_prompt": "make-up",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_portrait",
+                    "name": "人物肖像"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "business",
+              "name": "Business",
+              "type": "prompt",
+              "prompt": "\"business photo of {prompt}. Professional attire",
+              "negative_prompt": "workplace setting",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_portrait",
+                    "name": "人物肖像"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "studio",
+              "name": "Studio",
+              "type": "prompt",
+              "prompt": "\"studio shot of {prompt}. Controlled lighting",
+              "negative_prompt": "plain background",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_portrait",
+                    "name": "人物肖像"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "dance",
+              "name": "Dance",
+              "type": "prompt",
+              "prompt": "\"dance photo of {prompt}. Movement",
+              "negative_prompt": "grace",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_portrait",
+                    "name": "人物肖像"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "music",
+              "name": "Music",
+              "type": "prompt",
+              "prompt": "\"music-related shot of {prompt}. Playing an instrument",
+              "negative_prompt": "singing",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_portrait",
+                    "name": "人物肖像"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "photorealistic",
+              "name": "Photorealistic",
+              "type": "prompt",
+              "prompt": "photorealistic {prompt} . highly detailed, lifelike, precise, accurate",
+              "negative_prompt": "abstract, low detail, unrealistic, inaccurate",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_portrait",
+                    "name": "人物肖像"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "portrait",
+              "name": "Portrait",
+              "type": "prompt",
+              "prompt": "\"portrait shot of {prompt}. Close-up",
+              "negative_prompt": "eyes on camera",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_portrait",
+                    "name": "人物肖像"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -8395,6 +8627,627 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "fashion",
+              "name": "Fashion",
+              "type": "prompt",
+              "prompt": "\"fashion shot of {prompt}. Trendy outfit",
+              "negative_prompt": "styled",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_fashion",
+                    "name": "时尚服饰"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "streetwear",
+              "name": "Streetwear",
+              "type": "prompt",
+              "prompt": "\"{prompt} rocking the streetwear trend. Urban",
+              "negative_prompt": "hip-hop influence",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_fashion",
+                    "name": "时尚服饰"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "bohemian",
+              "name": "Bohemian",
+              "type": "prompt",
+              "prompt": "\"{prompt} in boho fashion. Free-spirited",
+              "negative_prompt": "layered",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_fashion",
+                    "name": "时尚服饰"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "punk",
+              "name": "Punk",
+              "type": "prompt",
+              "prompt": "\"{prompt} with a punk look. Rebellious",
+              "negative_prompt": "grungy",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_fashion",
+                    "name": "时尚服饰"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "grunge",
+              "name": "Grunge",
+              "type": "prompt",
+              "prompt": "\"{prompt} sporting a grunge look. '90s influence",
+              "negative_prompt": "flannel",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_fashion",
+                    "name": "时尚服饰"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "glamorous",
+              "name": "Glamorous",
+              "type": "prompt",
+              "prompt": "\"{prompt} looking glamorous. Luxury",
+              "negative_prompt": "sequins",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_fashion",
+                    "name": "时尚服饰"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "rocker",
+              "name": "Rocker",
+              "type": "prompt",
+              "prompt": "\"{prompt} rocking the rock style. Leather",
+              "negative_prompt": "band tees",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_fashion",
+                    "name": "时尚服饰"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "hipster",
+              "name": "Hipster",
+              "type": "prompt",
+              "prompt": "\"{prompt} in a hipster outfit. Eclectic",
+              "negative_prompt": "indie",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_fashion",
+                    "name": "时尚服饰"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "ethical",
+              "name": "Ethical",
+              "type": "prompt",
+              "prompt": "\"{prompt} wearing ethical fashion. Sustainable",
+              "negative_prompt": "fair trade",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_fashion",
+                    "name": "时尚服饰"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "beachwear",
+              "name": "Beachwear",
+              "type": "prompt",
+              "prompt": "\"{prompt} in beachwear. Bikinis",
+              "negative_prompt": "cover-ups",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_fashion",
+                    "name": "时尚服饰"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "activewear",
+              "name": "Activewear",
+              "type": "prompt",
+              "prompt": "\"{prompt} in stylish activewear. Sporty",
+              "negative_prompt": "comfortable",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_fashion",
+                    "name": "时尚服饰"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "country",
+              "name": "Country",
+              "type": "prompt",
+              "prompt": "\"{prompt} sporting country style. Western",
+              "negative_prompt": "cowboy boots",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_fashion",
+                    "name": "时尚服饰"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "military",
+              "name": "Military",
+              "type": "prompt",
+              "prompt": "\"{prompt} wearing military-inspired fashion. Camouflage",
+              "negative_prompt": "khaki",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_fashion",
+                    "name": "时尚服饰"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "formal",
+              "name": "Formal",
+              "type": "prompt",
+              "prompt": "\"{prompt} dressed in formal wear. Black tie",
+              "negative_prompt": "tuxedo",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_fashion",
+                    "name": "时尚服饰"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "tomboy",
+              "name": "Tomboy",
+              "type": "prompt",
+              "prompt": "\"{prompt} rocking a tomboy look. Androgynous",
+              "negative_prompt": "loose",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_fashion",
+                    "name": "时尚服饰"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "normcore",
+              "name": "Normcore",
+              "type": "prompt",
+              "prompt": "\"{prompt} dressed in normcore. Unpretentious",
+              "negative_prompt": "casual",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_fashion",
+                    "name": "时尚服饰"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "genderless",
+              "name": "Genderless",
+              "type": "prompt",
+              "prompt": "\"{prompt} in genderless fashion. Androgynous",
+              "negative_prompt": "neutral",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_fashion",
+                    "name": "时尚服饰"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "mod",
+              "name": "Mod",
+              "type": "prompt",
+              "prompt": "\"{prompt} dressed in Mod style. '60s influence",
+              "negative_prompt": "A-line",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_fashion",
+                    "name": "时尚服饰"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "harajuku",
+              "name": "Harajuku",
+              "type": "prompt",
+              "prompt": "\"{prompt} in Harajuku style. Japanese street fashion",
+              "negative_prompt": "eclectic",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_fashion",
+                    "name": "时尚服饰"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "rave",
+              "name": "Rave",
+              "type": "prompt",
+              "prompt": "\"{prompt} in rave wear. Bright colors",
+              "negative_prompt": "neon",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_fashion",
+                    "name": "时尚服饰"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "hippy",
+              "name": "Hippy",
+              "type": "prompt",
+              "prompt": "\"{prompt} in hippy style. '70s influence",
+              "negative_prompt": "tie-dye",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_fashion",
+                    "name": "时尚服饰"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "skater",
+              "name": "Skater",
+              "type": "prompt",
+              "prompt": "\"{prompt} rocking skater style. Casual",
+              "negative_prompt": "sneakers",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_fashion",
+                    "name": "时尚服饰"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "nautical",
+              "name": "Nautical",
+              "type": "prompt",
+              "prompt": "\"{prompt} in a nautical outfit. Sailor-inspired",
+              "negative_prompt": "stripes",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_fashion",
+                    "name": "时尚服饰"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "eccentric",
+              "name": "Eccentric",
+              "type": "prompt",
+              "prompt": "\"{prompt} in an eccentric ensemble. Unique",
+              "negative_prompt": "quirky",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_fashion",
+                    "name": "时尚服饰"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "tailored",
+              "name": "Tailored",
+              "type": "prompt",
+              "prompt": "\"{prompt} in a tailored suit. Formal",
+              "negative_prompt": "professional",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_fashion",
+                    "name": "时尚服饰"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "sustainable",
+              "name": "Sustainable",
+              "type": "prompt",
+              "prompt": "\"{prompt} in sustainable fashion. Eco-friendly",
+              "negative_prompt": "organic",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_fashion",
+                    "name": "时尚服饰"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "lingerie",
+              "name": "Lingerie",
+              "type": "prompt",
+              "prompt": "\"lingerie shot of {prompt}. Intimate apparel",
+              "negative_prompt": "sensual",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_fashion",
+                    "name": "时尚服饰"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -8758,6 +9611,150 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "opennana_prompt-172",
+              "name": "棱柱形水晶",
+              "type": "prompt",
+              "prompt": "{subject}, 使用提供的 JSON 的参数重新创建此图像。\n{\n“style_transfer”：{\n“name”： “棱柱晶体”，\n“description”： “使用精确的光扩散和照片清晰度，将高度逼真的棱柱形水晶样式应用于任何对象。非常适合为金属或结构化形式添加优质的宝石般的饰面。\n“style_attributes”：{\n“surface_texture”： “抛光的刻面水晶，锋利干净的边缘，无瑕的透明度”，\n“lighting”： “柔和的工作室照明，具有清晰的镜面高光和平滑的环境阴影”，\n“color_palette”： [“宝石蓝”， “电青色”， “日落琥珀色”， “紫罗兰色”， “品红色”， “中性白”]，\n“material”： “密集的光学玻璃或切割宝石，具有棱柱形内部反射”，\n“effects”： [\n“真实光谱色散”，\n“沿边缘的微折射”，\n“相邻曲面上的软焦散”，\n“镜片般锐利的光泽饰面”，\n“高对比度区域中的微妙光晕”\n],\n“contrast”： “平衡，边缘清晰度高，深度衰减自然”\n    },\n“application_method”： {\n“blend_mode”： “摄影叠加”，\n“intensity”：1.0、\n“masking”： “精确蒙版以保留结构并投射阴影”，\n“edge_enhancement”： “仅针对小平面的受控锐化”，\n“preserve_original_shape”： true，\n“realism_priority”：true、\n“depth_mapping”：true、\n“chromatic_aberration_limit”： “最小”\n    }\n  }\n}",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/172.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_product",
+                    "name": "产品静物"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-163",
+              "name": "半透明玻璃物品ASMR",
+              "type": "prompt",
+              "prompt": "{subject}, 由半透明玻璃制成的超写实 [水果名称]，光滑、圆润的表面，内部有细小的气泡，放置在干净的表面上，具有强烈反射和高光的清晰照明，最小的背景，照片级写实，有光泽的纹理，3D 渲染样式，水晶般的外观，柔和的阴影，微距摄影",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/163.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_product",
+                    "name": "产品静物"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-70",
+              "name": "重新构想的玫瑰金",
+              "type": "prompt",
+              "prompt": "{subject}, Design a luxury-themed 1:1 image featuring a rose gold sculpture that embodies the essence of the jewelry brand “[BRAND NAME]”. The object must symbolically reflect the brand’s identity (e.g., falcon for Cartier, ring for Tiffany & Co., palm tree for Swarovski, camel for Prada). Embed premium crystal textures into key parts of the sculpture (e.g., wings, gem, leaves, or hump) to match the brand’s signature elegance. Use the brand’s iconic background color (e.g., Tiffany Blue, Swarovski White, Cartier Beige, Prada Sand) and place the official logo beneath the sculpture. Add a bold two-word slogan that aligns with the brand’s tone. Lighting should be pure white with high Kelvin value to ensure clarity and prevent yellow tint. The result must feel editorial, artistic, and visually exquisite.",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/70.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_product",
+                    "name": "产品静物"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-240",
+              "name": "定制的枕头",
+              "type": "prompt",
+              "prompt": "{subject}, 创建一个高分辨率的 3D 渲染图，将[BRAND]标志设计成一个充气、蓬松的物体。标志应看起来柔软、圆润、充气——像一个毛绒气球或充气玩具。使用光滑的哑光纹理，带有细微的布料褶皱和缝线，以强调充气效果。将标志以 45 度角摆放，以突出深度和真实感。将最终结果放置在风格时尚的客厅沙发上，家具和装饰与[BRAND]标志的标志性颜色相匹配。输出尺寸：1080x1080。",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/240.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_product",
+                    "name": "产品静物"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-221",
+              "name": "钻石镶嵌风格",
+              "type": "prompt",
+              "prompt": "{subject}, 使用提供的 JSON 参数重新创建此图像。\n\n{\n\"style_name\": \"钻石镶嵌奢华风格\",\n  \"description\": \"将超逼真的钻石镶嵌风格应用于任何物体、标志或形状。主体的表面完全覆盖着闪闪发光的宝石，这些宝石以强烈的亮度反射光线，营造出奢华、引人注目和超现实的效果。\",\n  \"surface_texture\": {\n    \"material\": \"钻石水晶\",\n\"涂层\": \"完全镶嵌有多面钻石\",\n\"闪耀强度\": \"最大\",\n\"反射类型\": \"镜面和高折射率\",\n\"细节密度\": \"超精细，微宝石覆盖，无间隙\"\n\"light_refraction\": \"通过切面产生强烈的彩虹色散\"\n  },\n  \"lighting\": {\n    \"light_source\": \"硬直射光源\",\n\"高光效果\": \"镜头眩光，宝石边缘的闪光眩光\",\n    \"阴影类型\": \"柔和边缘，低不透明度的阴影以形成对比\",\n    \"光泽度\": \"非常高\",\n    \"反射源\": \"宝石切面的环境光和直接高光\"\n  },\n\"background\": {\n    \"type\": \"极简纯色\",\n    \"color\": \" #B0C4DE \",\n\"纹理\": \"光滑磨砂质感\",\n\"与主体对比度\": \"高对比度以增强闪耀效果\",\n\"深度\": \"物体下方微妙阴影以产生悬浮效果\"\n  },\n\"color_palette\": {\n    \"primary\": \"透明白色（钻石基底）\",\n    \"secondary\": \"棱镜反射（彩虹光散）\",\n    \"accent\": \"边缘金属光泽（可选：金色或银色底色）\"\n  },\n\"camera\": {\n    \"angle\": \"略微俯视角度\",\n    \"depth_of_field\": \"浅景深（物体清晰，背景模糊）\",\n\"镜头效果\": [\"微距对焦\", \"闪烁高光\", \"光晕\"]\n  },\n  \"风格关键词\": [\n    \"迷人\",\n\"奢侈\",\n\"水晶覆盖的\",\n\"闪亮\",\n\"超精细的\",\n\"闪闪发光的\",\n\"未来感的\",\n\"引人注目的\",\n\"超现实现实主义\",\n\"受时尚启发的\"\n  ],\n  \"适用性\": {\n    \"可用于\": [\"标志\", \"图标\", \"食品项目\", \"日常用品\", \"时尚配饰\", \"字体\"],\n\"视觉要求\": [\"轮廓清晰\", \"宝石放置的形状干净\"],\n    \"可扩展性\": \"在中等至大型对象上获得最佳效果，以展现细节闪烁\"\n  }\n}",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/221.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_product",
+                    "name": "产品静物"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-94",
+              "name": "制药风格商品",
+              "type": "prompt",
+              "prompt": "{subject}, A square-format digital photograph showing a fictional pharmaceutical-style product from [Brand Name] Pharmacy. The box is on the left, clean and minimalist, featuring bold text with the product name \"[PRODUCT NAME]\" and a witty line like \"Take one [type] daily.\" Next to the box is a silver blister pack containing 6–10 themed pills or capsules shaped like [describe icon/logo/item, e.g., a coffee cup, burger, heart, Midjourney logo, etc.]. Neutral background, soft lighting, sharp focus, modern packaging aesthetic.",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/94.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_product",
+                    "name": "产品静物"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -8983,6 +9980,102 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "opennana_prompt-80",
+              "name": "水果的形状",
+              "type": "prompt",
+              "prompt": "{subject}, Create an image by arranging [NUMBER/AGGREGATE] of [FRUIT] strategically on a dark surface to form the shape of [OBJECT/EMOJI/LOGO]",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/80.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_food",
+                    "name": "美食饮品"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-29",
+              "name": "面包形态",
+              "type": "prompt",
+              "prompt": "{subject}, A highly realistic sculpture of a [object], made entirely from [bread type] with ultra-detailed texture and color. The surface shows the natural properties of the bread, golden-brown, glossy, flaky or crusty, with visible layers or seeds where appropriate, studio lighting, soft",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/29.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_food",
+                    "name": "美食饮品"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-129",
+              "name": "创建悬浮切片水果",
+              "type": "prompt",
+              "prompt": "{subject}, 一张 [FRUIT] 的超写实照片，被切成五个光滑的层，每个切片垂直漂浮在半空中，边缘有闪闪发光的汁液滴。切片彼此之间投射柔和、自然的阴影。[FRUIT] 拥有充满活力的皮肤和适当的内部细节。在柔和模糊的热带花园背景下，郁郁葱葱的绿叶和斑驳的阳光，场景由温暖、定向的金色小时照明照亮，增强了鲜艳的色彩和深度",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/129.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_food",
+                    "name": "美食饮品"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-214",
+              "name": "部分咬掉的糕点",
+              "type": "prompt",
+              "prompt": "{subject}, 一张高分辨率的、影棚照明的微距照片，展示一个形状像[主题]的糕点，部分咬掉，放在一个中性哑光表面上，有明显的面包屑和柔和的阴影，突出质感和细节",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/214.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_food",
+                    "name": "美食饮品"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -9174,6 +10267,98 @@
                   "runner_up": "photography_documentary"
                 }
               }
+            },
+            {
+              "id": "beach",
+              "name": "Beach",
+              "type": "prompt",
+              "prompt": "\"beach photo of {prompt}. Swimwear",
+              "negative_prompt": "sand",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_city",
+                    "name": "城市旅行"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "street",
+              "name": "Street",
+              "type": "prompt",
+              "prompt": "\"street shot of {prompt}. Urban",
+              "negative_prompt": "casual",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_city",
+                    "name": "城市旅行"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "cityscape",
+              "name": "Cityscape",
+              "type": "prompt",
+              "prompt": "\"cityscape shot with {prompt}. Urban",
+              "negative_prompt": "skyline",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_city",
+                    "name": "城市旅行"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "night",
+              "name": "Night",
+              "type": "prompt",
+              "prompt": "\"night shot of {prompt}. Dark",
+              "negative_prompt": "lit",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_city",
+                    "name": "城市旅行"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -9300,6 +10485,52 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "candid",
+              "name": "Candid",
+              "type": "prompt",
+              "prompt": "\"{prompt} captured in a candid moment. Unposed",
+              "negative_prompt": "natural",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_documentary",
+                    "name": "街头纪实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "fooocus_mre_mrespontaneouspicture",
+              "name": "mre-spontaneous-picture",
+              "prompt": "spontaneous picture of {prompt}, taken by talented amateur. best quality, high resolution. magical moment, natural look. simple but good looking",
+              "negative_prompt": "overthinked. low quality, low resolution",
+              "description": "MRE 风格 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_mre.json",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_documentary",
+                    "name": "街头纪实"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -9375,6 +10606,29 @@
                 "resolution": "resolved",
                 "status": "suggested",
                 "reason": "标题规则证据：Photography / Macro",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_macro",
+                    "name": "微距细节"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "macro",
+              "name": "Macro",
+              "type": "prompt",
+              "prompt": "\"macro shot of {prompt}. Extremely close-up",
+              "negative_prompt": "detailed",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
                 "taxonomy_version": "1.1.0",
                 "rules_version": "1.1.2",
                 "subcategories": [
@@ -9553,6 +10807,29 @@
               "type": "prompt",
               "prompt": "\"{prompt} in athletic wear. Sporty",
               "negative_prompt": "gym-ready",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_sports",
+                    "name": "运动赛事"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "fitness",
+              "name": "Fitness",
+              "type": "prompt",
+              "prompt": "\"fitness photo of {prompt}. Athletic",
+              "negative_prompt": "workout gear",
               "description": "ComfyUI Style",
               "classification": {
                 "method": "llm",
@@ -10254,6 +11531,168 @@
                   "runner_up": "photography_vehicles"
                 }
               }
+            },
+            {
+              "id": "silhouette",
+              "name": "Silhouette",
+              "type": "prompt",
+              "prompt": "silhouette style {prompt} . minimalist, monochrome, stark, high contrast",
+              "negative_prompt": "detailed, multicolored, soft, low contrast",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_other",
+                    "name": "其他摄影"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "underwater",
+              "name": "Underwater",
+              "type": "prompt",
+              "prompt": "\"underwater photo of {prompt}. Aquatic",
+              "negative_prompt": "serene",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_other",
+                    "name": "其他摄影"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "aerial",
+              "name": "Aerial",
+              "type": "prompt",
+              "prompt": "\"aerial shot of {prompt}. Birds-eye view",
+              "negative_prompt": "grand",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_other",
+                    "name": "其他摄影"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "reflection",
+              "name": "Reflection",
+              "type": "prompt",
+              "prompt": "\"reflection shot of {prompt}. Mirror image",
+              "negative_prompt": "symmetry",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_other",
+                    "name": "其他摄影"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "backlit",
+              "name": "Backlit",
+              "type": "prompt",
+              "prompt": "\"backlit photo of {prompt}. Silhouette",
+              "negative_prompt": "dramatic",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_other",
+                    "name": "其他摄影"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "overhead",
+              "name": "Overhead",
+              "type": "prompt",
+              "prompt": "\"overhead shot of {prompt}. Top-down view",
+              "negative_prompt": "unique perspective",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_other",
+                    "name": "其他摄影"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "fooocus_marc_k3nt3l_mk_pictorialism",
+              "name": "MK pictorialism",
+              "prompt": "Pictorialism illustration{prompt} . soft focus, atmospheric effects, artistic interpretation, tonality, muted colors, evocative storytelling",
+              "negative_prompt": "sharp focus, high contrast, realistic depiction, vivid colors",
+              "description": "Marc K3nt3L 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_marc_k3nt3l.json",
+              "thumbnail": "/api/thumbnails/fooocus_marc_k3nt3l_mk_pictorialism.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_other",
+                    "name": "其他摄影"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -10268,6 +11707,100 @@
               "prompt": "Hanami style {prompt} . Japanese, cherry blossoms,spring, highly detailed",
               "negative_prompt": "non-Japanese, winter, abstract, undetailed",
               "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_landscape",
+                    "name": "自然风光"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-71",
+              "name": "景观洞穴入口的形状",
+              "type": "prompt",
+              "prompt": "{subject}, Prompt: An image of a [TYPE] landscape, featuring a cave entrance that is shaped exactly like the outline of a [SHAPE]. The cave should blend naturally into the rugged terrain of the mountain, with the entrance forming a clear and unmistakable [SHAPE] shape. This [SHAPE] shape should be simple and defined, without intricate details, emphasizing just the overall [SHAPE] outline. The surrounding environment should include [DETAILS], but these elements should not distract from the cave's   [SHAPE]-shaped entrance. The lighting in the scene should enhance the visibility and distinctiveness of the [SHAPE]-shaped cave entrance.",
+              "negative_prompt": "",
+              "description": null,
+              "thumbnail": "https://img.opennana.com/prompts/images/71.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_landscape",
+                    "name": "自然风光"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "nature",
+              "name": "Nature",
+              "type": "prompt",
+              "prompt": "\"nature shot with {prompt}. Outdoors",
+              "negative_prompt": "greenery",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_landscape",
+                    "name": "自然风光"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "landscape",
+              "name": "Landscape",
+              "type": "prompt",
+              "prompt": "\"landscape shot with {prompt}. Scenic",
+              "negative_prompt": "outdoors",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_landscape",
+                    "name": "自然风光"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "fooocus_diva_idyllic",
+              "name": "Idyllic",
+              "prompt": "Idyllic, {prompt}, peaceful, happy, pleasant, happy, harmonious, picturesque, charming",
+              "negative_prompt": "ugly, deformed, noisy, blurry, low contrast",
+              "description": "DIVA 电影感 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_diva.json",
+              "thumbnail": "/api/thumbnails/fooocus_diva_idyllic.jpg",
               "classification": {
                 "method": "llm",
                 "stage": "title",
@@ -10334,6 +11867,81 @@
                   {
                     "id": "photography_family",
                     "name": "家庭儿童"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "maternity",
+              "name": "Maternity",
+              "type": "prompt",
+              "prompt": "\"maternity shot of {prompt}. Pregnancy",
+              "negative_prompt": "baby bump",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_family",
+                    "name": "家庭儿童"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "photography_astro",
+          "name": "天文星空",
+          "presets": [
+            {
+              "id": "space_art",
+              "name": "Space art",
+              "type": "prompt",
+              "prompt": "galactic style {prompt} . nebula, constellation, cosmic, celestial, highly detailed, starry",
+              "negative_prompt": "blurry, grainy, deformed, photo-realistic, low-contrast, terrestrial",
+              "description": "ComfyUI Style",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_astro",
+                    "name": "天文星空"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "fooocus_mre_mrespaceart",
+              "name": "mre-space-art",
+              "prompt": "winner of inter-galactic art contest illustrating {prompt}, symbol of the interstellar singularity. best quality, high resolution. artstyle previously unseen in the whole galaxy",
+              "negative_prompt": "created by human race, low quality, low resolution",
+              "description": "MRE 风格 风格",
+              "source_url": "https://raw.githubusercontent.com/ehristoforu/DeFooocus/main/sdxl_styles/sdxl_styles_mre.json",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_astro",
+                    "name": "天文星空"
                   }
                 ]
               }

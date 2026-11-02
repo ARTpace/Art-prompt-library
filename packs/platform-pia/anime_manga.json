@@ -7693,6 +7693,174 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "pia_tw-32068",
+              "name": "Created chatgpt image 2",
+              "type": "prompt",
+              "prompt": "Prompt:\nPreserve the uploaded reference character exactly as shown, including face identity, facial proportions, eye shape, nose, lips, skin tone, hairstyle, hair color, visible hair accessories, outfit, styling, and overall recognizable vibe. Do not invent or hardcode any appearance details that are not present in the reference image; infer all identity, clothing, hairstyle, and accessories directly from it. Create a high-quality vertical (4:5 or 9:16) mixed-style portrait featuring a realistic full-body (or nearly full-body) version of the character standing on one side of a clean wall, with a black hand-drawn doodle-shadow of the same character sketched directly onto the wall beside them. The doodle-shadow must be black sketch line-art only (not a real shadow, not a second realistic person, and not a full-color anime character) while clearly matching the character's hairstyle silhouette, accessories, outfit silhouette, and overall identity. The real person should remain photorealistic, stylish, and naturally posed, wearing the exact outfit and key styling details from the reference, with a cute, slightly confused, mildly embarrassed, playful expression as if wondering, \"Why am I doing this with my shadow?\" The doodle-shadow should be much more energetic, exaggerated, mischievous, and chaotic, surrounded by manga-style motion lines, hearts, stars, sparkles, and comic effects. For every generation, invent a completely new playful mischievous pose instead of repeating previous ones—avoid pointing poses, finger guns, repetitive standing poses, or simply having both figures point at each other. The real person should perform a believable, softer version of the pose while the doodle-shadow performs an over-the-top cartoon version of the same idea. Choose a fresh concept each time such as a playful idol pose, silly dance, leaning sideways with one arm overhead, giant heart pose, cheeky wink, hands near cheeks, dramatic ta-da, mock surprise, running in place, mischievous tiptoe, arms stretched apart, sneaking away, cute troublemaker, dramatic overreaction, goofy victory, playful balance, peekaboo, shy-but-mischievous, or overconfident pose, while always creating a unique variation rather than copying these examples. Keep enough space around both figures so the full pose is visible, with the doodle-shadow roughly the same height or slightly taller than the real person, resulting in a cute, playful, stylish, funny, mischievous, and social-media-friendly composition.",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/2080864766856503636.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_character",
+                    "name": "角色立绘"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_pixar-miniature-earbuds-scene",
+              "name": "角色3D电影感温暖可爱",
+              "type": "prompt",
+              "prompt": "使用上传的参考图片作为角色的面部和发型参考，创作一个超精细的 3D 皮克斯风格微缩场景。\n\n一个面部、发型、肤色和整体外观与上传图片一致的 {argument name=\"subject\" default=\"可爱的年轻人\"}，正舒适地躺在放置于木质书桌上的无线耳机充电盒内。\n\n他留着黑色长发，眼神柔和且富有表现力，带着自然温和的微笑。他穿着与上传参考图片中完全相同的服装。\n\n角色以放松的姿势舒适地躺在耳机盒内，单手托头，一条腿随意地搭在另一条腿上。\n\n充电盒旁边，一部现代智能手机垂直放置在支架上，显示着简洁的极简音乐播放器界面。屏幕上显示着歌曲名称“{argument name=\"song name\" default=\"ordinary\"}”，配有优雅的专辑封面、播放按钮和进度条。\n\n两个无线耳机随意地放置在书桌上的充电盒附近。\n\n环境采用柔和温暖的自然窗光，营造出舒适的电影感氛围。背景应进行柔焦处理，呈现美学虚化效果，并搭配极简的现代书桌布置。\n\n风格应呈现为高品质的电影级 3D 渲染，具有平滑的纹理、柔和的阴影、景深效果、超逼真的光影、高度精细的材质，以及可爱的皮克斯风格比例。\n\n高分辨率，逼真的反射效果，舒适的氛围，居中构图，专业的产品广告级质量。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/19967.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_character",
+                    "name": "角色立绘"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_80s-anime-style-memory-grid",
+              "name": "80 年代动画风格记忆网格",
+              "type": "prompt",
+              "prompt": "创建一个 {argument name=\"layout\" default=\"4x3 无边框网格\"}，其中每个面板都是相同角色的独立图像，保持一致的色彩和光影，以 {argument name=\"style\" default=\"80 年代动画风格\"} 描绘怀旧的旧日记忆，画面中不含文字且无间隙。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/15506.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_character",
+                    "name": "角色立绘"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_cartoon-character-transformation-2000s",
+              "name": "2000 年代卡通角色变身",
+              "type": "prompt",
+              "prompt": "你能把我变成 {argument name=\"count\" default=\"6\"} 个 {argument name=\"era\" default=\"2000s\"} 年代卡通节目风格的角色吗",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/23318.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_character",
+                    "name": "角色立绘"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_jindaiji-temple-background",
+              "name": "深大寺参道背景",
+              "type": "prompt",
+              "prompt": "创作一张高度精细的动画风格背景插画，描绘 {argument name=\"location\" default=\"东京调布市深大寺参道\"} 附近一条宁静的日本寺庙参道，时间设定在晴朗的春季或初夏早晨。画面中，一条微微弯曲的石板路从前景延伸至左侧的寺庙台阶和茅草屋顶门楼，右侧排列着传统的木质店铺。主店是一家荞麦面馆，拥有深色木梁、瓦片屋顶、温暖的纸灯笼、蓝色暖帘、菜单项目，以及清晰可见的日文招牌，包括 {argument name=\"shop sign text\" default=\"そば処\"} 和 {argument name=\"temple sign text\" default=\"深大寺参道\"}。画面中需包含 3 个醒目的垂直招牌：左侧前景处一个大型木质参道指示牌，右侧店铺上一个淡蓝色悬挂横幅，以及最右侧的一个地图/信息项目。在餐厅门面周围添加 4 个可见的店铺灯笼。街道四周环绕着茂密的绿树、灌木、盆栽、小白花、长满青苔的石头，右下角设有一个清澈的浅水池或溪流，倒映着阳光。运用透过树冠洒下的柔和斑驳光影，采用写实的透视效果，呈现层次丰富的植被、精细的瓦片和木纹质感，营造出宁静怀旧的氛围。画面中无人物，采用宽幅电影构图，16:9 比例，呈现出吉卜力工作室风格的绘画感与清晰度兼备的日本背景艺术。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/18943.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_character",
+                    "name": "角色立绘"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_tw-32019",
+              "name": "请使用下面的prompt生成4张独立的图片（注意，不是collage多张图片到一张图片，而是4张独立图片）：-",
+              "type": "prompt",
+              "prompt": "比例：3:4\n主题：{女孩A}和{女孩B}身穿泳装，在泳池中戏水\n风格：半写实日漫 + UE5超写实 + CG高亮肌肤 + 极繁主义\n构图：莫兰迪色调的纯色色块作为骨架 + 少量撞色点缀\n人物：{女孩A}和{女孩B} random pick from adult female character from {ONE PIECE}",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/2081022771140927695.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_character",
+                    "name": "角色立绘"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_chibi-travel-vlog-poster",
+              "name": "角色3D电影感城市可爱",
+              "type": "prompt",
+              "prompt": "可爱的 Q 版旅行 Vlog 海报设计，包含 {argument name=\"characters\" default=\"可爱的迷你旅行者\"} 在世界著名城市中探险的场景，巨大的 3D 粗体 {argument name=\"city\" default=\"城市名称\"} 字体中填充了地标摄影和城市风光，卡哇伊风格的角色在字母周围坐着或行走，电影感旅行拼贴美学，光泽感旅行杂志封面设计，明亮的蓝天背景，充满活力的度假氛围，可收藏的明信片风格，超细节可爱动漫渲染，柔和光影，俏皮的构图，写实地标与风格化角色的融合，旅行印章，护照标记，手写旅行笔记，笔刷字体写着“{argument name=\"text\" default=\"TRAVEL LOG\"}”，简洁现代的图形布局，高分辨率旅游海报，奇趣的叙事感，色彩丰富的编辑设计，Instagram 旅行美学，精致的商业艺术作品，旅行剪贴簿元素，背着相机、地图和行李的迷你背包客，高度精细的纹理，可爱的比例，梦幻的度假心情，竖构图。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/20487.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_character",
+                    "name": "角色立绘"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -14514,6 +14682,54 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "pia_unagi-kabayaki-storyboard",
+              "name": "角色手绘写实温暖冷调温柔",
+              "type": "prompt",
+              "prompt": "目标：为一部关于制作 {argument name=\"dish name\" default=\"鳗鱼蒲烧（3 串）\"} 的 15 秒短片创建一个详细的动画风格动态分镜表，以分镜接触表的形式呈现，并附带标题和制作说明。\n\n画布：宽屏 16:9 黑色背景制作项目，高分辨率，带有细白边框，呈现手绘电影速写美学。使用柔和的棕褐色、炭灰色、米色和暖橙色调，搭配光泽感的棕色鳗鱼酱汁和炉火光影。\n\n顶部标题：左侧为醒目的白色大标题：“鳗鱼蒲烧（3 串）动态分镜表 | 15 秒短片”。右侧为白色小字备注：“角色一致性：全片保持同一角色、同一发型、同一服装、同一场景。”\n\n主要布局：使用 3 行 5 列的网格，共 15 个分镜画面。每个画面左上角带有黑色时间码标签，底部带有黑色标题条。角色必须始终保持一致：{argument name=\"main character\" default=\"一位留着灰棕色短卷发、眼神温柔略带疲惫、身穿带图案荷叶边衬衫并系着围裙的年轻动画女性\"}，在 {argument name=\"setting\" default=\"温馨的日式公寓厨房中烹饪，背景有架子、瓶罐、厨具、柔和的窗光、烟雾、蒸汽和桌面炭火烤架\"}。视觉风格应类似于数码相机拍摄的动画烹饪纪录片：手绘墨线、轻微水彩渲染背景、逼真的食物细节、细腻的动态模糊、温暖的晨光、烟雾、蒸汽和炭火余辉。\n\n分镜画面：包含以下 15 个精确计时的镜头和标题：\n1. 时间码“0:00–0:01”；角色将 3 串鳗鱼放在烤架上；标题：“1. 将 3 串鳗鱼放在烤架上。”\n2. 时间码“0:01–0:02”；烤架周围烟雾轻柔升起；标题：“2. 烟雾轻柔升起。”\n3. 时间码“0:02–0:03”；角色用涂抹刷将酱汁刷在鳗鱼上；标题：“3. 将酱汁刷在鳗鱼上。”\n4. 时间码“0:03–0:04”；酱汁滴在炭火上的烤串特写；标题：“4. 酱汁滴在炭火上。”\n5. 时间码“0:04–0:05”；角色身旁升起橙色火焰；标题：“5. 火焰升起。”\n6. 时间码“0:05–0:06”；角色翻转全部 3 串鳗鱼；标题：“6. 翻转全部 3 串鳗鱼。”\n7. 时间码“0:06–0:07”；角色检查鳗鱼质地的近景；标题：“7. 检查鳗鱼的质地。”\n8. 时间码“0:07–0:08”；角色再次刷上酱汁；包含一个小的垂直米色模糊块，部分遮挡面部上方区域；标题：“8. 再刷上一层酱汁。”\n9. 时间码“0:08–0:09”；火势再次燃起，伴随明亮的橙色火焰；标题：“9. 火势再次燃起。”\n10. 时间码“0:09–0:10”；角色专注地用手小心旋转烤串；标题：“10. 小心旋转烤串。”\n11. 时间码“0:10–0:11”；烤架上 3 串光泽诱人的焦糖色鳗鱼特写；标题：“11. 鳗鱼看起来酱汁浓郁。”\n12. 时间码“0:11–0:12”；角色将 3 串鳗鱼装盘；标题：“12. 将 3 串鳗鱼装盘。”\n13. 时间码“0:12–0:13”；角色端着盘子，盘中烤串蒸汽升腾；标题：“13. 蒸汽升腾。”\n14. 时间码“0:13–0:14”；角色拿起一串鳗鱼并送向嘴边；标题：“14. 拿起一串鳗鱼。”\n15. 时间码“0:14–0:15”；咬下第一口的特写，米色矩形模糊块遮挡了大部分面部，烤串进入口中；标题：“15. 咬下并露出惊讶的表情。”下方添加一行较小的橙色括号文字：“（入口瞬间露出惊讶的表情。）”\n\n底部制作说明：在 15 个画面下方，添加一个黑色说明栏，分为 6 个标注区域：5 个文本列和 1 个时长框。\n第 1 列标题：“摄像风格（数码相机感）”，包含 6 个要点：“手持数码相机美学”；“2000 年代初便携式相机质感”；“轻微的自动对焦搜索感”；“自然的曝光光晕”；“逼真的数字噪点和颗粒感”；“细腻的动态模糊和抖动”；“随性的家庭录像氛围”。\n第 2 列标题：“氛围与灯光”，包含 5 个要点：“温暖的晨光”；“柔和的窗光与阴影”；“烟雾、蒸汽和炉火余辉”；“温馨的日式公寓厨房”；“怀旧且富有情感的基调”。\n第 3 列标题：“烹饪要点”，包含 6 个要点：“鳗鱼蒲烧（3 串）”；“甜酱油釉（蒲烧酱）”；“炭火烧烤”；“浓郁的烟熏香气”；“ASMR 烹饪声效”；“光泽感焦糖色外观”。\n第 4 列标题：“角色表情”，包含 5 个要点：“起初冷静专注”；“逐渐变得柔和温暖”；“烹饪时细腻的情感流露”；“最后流露出真诚的快乐”；“第一口时的惊讶与喜悦”。\n第 5 列标题：“其他说明”，包含 6 个要点：“全片保持角色一致”；“相同的发型、服装和场景”；“无配料或装饰”；“盘中仅限 3 串”；“逼真的日式家庭烹饪”；“写实电影风格”。\n第 6 列：一个带框的时长徽章，顶部写着“时长”，中间是大数字“15”，下方写着“秒”。\n\n约束条件：只要出现菜品，必须始终保持 3 串鳗鱼。所有文字均使用简洁的白色无衬线字体，置于黑色标签上。不要添加额外的画面、额外的烤串、无关的食物、标志、水印或现代 UI 元素。全片保持相同的角色、相同的服装、相同的厨房以及相同的温暖速写动画纪录片风格。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/21394.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_pr-33613",
+              "name": "AI 生成图片",
+              "type": "prompt",
+              "prompt": "swap their position and wrap them into reality.",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptsref",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/2469_out.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_illustration",
+                    "name": "主题插画"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -14625,6 +14841,60 @@
                   {
                     "id": "anime_manga_animation_frame",
                     "name": "动画画面"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_tw-32037",
+              "name": "more ONE PIECE girls~ volume#1",
+              "type": "prompt",
+              "prompt": "请生成8张独立9:16图片（不要拼接成一张）：\n比例：9:16\n风格：半写实二次元薰衣草田黄昏 + 紫色花海绵延 + 金色逆光与暖粉天空 + 轻微胶片颗粒（semi-realistic anime lavender field golden hour；不是全写实路人、不是Q版）\n主题：海贼王女角色薰衣草田黄昏——一人一图，共八人\n人物形象须与其在原作动漫中的形象高度一致，关键发型/发色/五官气质/标志特征清晰可辨，避免换成认不出的路人脸。\n女性角色细节：韩系女神感，高亮牛奶肌，detailed skin texture & pores & moles，眼睛大而清透。\n身材：纤细苗条，大长腿，比例修长，腰肢纤细；全身站姿时腿部比例夸张一点但保持优雅。\n服装总则：以原作标志性服饰为基底（必须保留轮廓、主色与标志配件，妆容与经典造型一致，保证一眼可认出），在此基础上做稍微清凉的夏日写真化（可略短裙/露肩/轻薄面料，领口克制）；不要换成现代路人装；非色情、非擦边；适合公开平台。\n人物（全部来自 ONE PIECE，每张一个，共8人，明确成年，东亚审美）：\n1) 娜美（橙发、导航员经典装与左肩纹身，花田中回眸）\n2) 妮可·罗宾（黑发、紫系拉链露肩经典装，紫花映衬）\n3) 波雅·汉库克（黑长直、女帝蛇纹经典装与手铐装饰，傲立花田）\n4) 乌塔（白红挑染、红白歌姬服与耳机麦，花间轻唱）\n姿态：全身或七分，大长腿，花海中行走或驻足，自信从容，不要挑逗。\n构图：薰衣草田为纵深背景，黄昏逆光勾边，角色占主体，无大段可读文字\n约束：仅海贼王；半写实；原作装可识别略清凉；禁止国旗/旭日",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/2079754185684443559.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_animation_frame",
+                    "name": "动画画面"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "anime_manga_scene",
+          "name": "动漫场景",
+          "presets": [
+            {
+              "id": "pia_realistic-textbook-desk-scene",
+              "name": "逼真的教科书桌面场景",
+              "type": "prompt",
+              "prompt": "桌面上放着两本打开的书，一本是 {argument name=\"first textbook\" default=\"小学语文课本\"}，另一本是 {argument name=\"second textbook\" default=\"小学数学课本\"}，书中的内容清晰可见。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/13989.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "anime_manga_scene",
+                    "name": "动漫场景"
                   }
                 ]
               }

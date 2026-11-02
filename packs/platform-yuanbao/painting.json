@@ -99,6 +99,52 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "yuanbao_67746278a5e84920912010a7f5540904",
+              "name": "梵高星月夜中秋",
+              "type": "prompt",
+              "prompt": "根据描述生成图片：比例3:4。板绘插画，细腻水润质感，强烈梵高星月夜风格但保持二次元治愈插画质感，画面中央是一轮巨大的奶油金黄色满月，月亮非常明亮，表面有柔和的浅黄渐变和轻微油画笔触，夜空不是暗灰蓝，而是鲜艳的深蓝、湖蓝、青蓝色交织，天空布满密集旋转的漩涡星云，漩涡由卷曲线条、线条粗细变化、亮黄色星点组成，黄色星星像发光的小太阳，色彩鲜艳、明亮、高饱和，蓝黄撞色极强，整体有油画肌理感，远处是深蓝色山峦剪影，下方湖面倒影是金黄色与浅蓝色交错的亮斑，水面有细碎水波纹涟漪和金色反光，水面明显圆月倒影，画面下方中央有一只深色小兔子背影坐在水中，兔子剪影简洁可爱、边缘明显月光，构图居中，圆月占据上半部分，兔子位于中下方，线条粗细变化明显，漩涡线条动感强，整体梦幻、治愈、浪漫，细节丰富，色彩干净通透，避免低饱和、避免灰蓝、避免褪色、避免写实油画。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 文生图",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/ZGMzNzg2NTktYjQ0Ny00Y2NmLTgyMWUtZTVkYjkwMmY2OWVm.jpg?width=1116&height=1488",
+              "reference_images": [],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "67746278a5e84920912010a7f5540904",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "6237f94f4d53400fa1152368177cb6f8",
+                    "name": "海报设计"
+                  }
+                ],
+                "generation_type": "text2image",
+                "min_images": 0,
+                "max_images": 0,
+                "reference_image_urls": [],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/ZGMzNzg2NTktYjQ0Ny00Y2NmLTgyMWUtZTVkYjkwMmY2OWVm.jpg?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_oil",
+                    "name": "油画"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -1018,6 +1064,108 @@
                   "https://cdn-pro.yuanbao.tencent.com/public/pro/ZWQ5M2VkOGEtYzNiNi00Y2E4LTkyYjgtM2NhODYzYmEwZDk1_compress.webp?width=768&height=1024"
                 ],
                 "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/ODc3NmVkYjItZDI0YS00OTI5LWI0OWQtNTA5NDdiZTU1NTcw_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_ink",
+                    "name": "水墨国画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_1f797803bc5a4b37b80c123b31f91a25",
+              "name": "山海蓝印",
+              "type": "prompt",
+              "prompt": "将上传图像完整转换为蓝白双色极简字体海报，上传图像中的原始摄影内容必须作为不可替换的核心主体：严格保留真实可见的主体数量、身份、外形、动作、姿态、朝向、物体、场景、主体与背景的空间关系以及原始取景范围，不删除主体，不只保留局部主体，不把主体替换成文字、插画、剪影、树木、建筑或其他次要元素，不新增上传图像中不存在的人物、动物、植物、物体或场景。先识别上传图像中面积最大、位置最突出、辨识度最高的核心主体，只为该主体选择一个最常见、含义明确、拼写正确的英文类别名词作为唯一文案；该词使用大写形式，长度控制在3至8个英文字母，单个主体使用单数，明确出现多个同类主体时使用正确复数，不使用近义替换、抽象概念、情绪词、活动词、地点推断、品牌名、口号、随机英文、伪英文、年份、日期、编号或画面中不存在的物体名称。整张海报只能重复使用这一个主词，不得生成第二个英文单词、英文短语、完整句子或中文文案；同一主词在所有位置必须保持完全相同的拼写、单复数和字母顺序，不得缺字、错字、重复字母、乱码或改变词义。画面采用稳定的上下硬切分区，上部文字区占整体高度约35%，下部摄影主视觉区占约65%，两部分边界水平、清晰且比例固定。上部使用纯白背景，只放置一组钴蓝色超粗无衬线主标题，标题单行横向排列，字高约为上部区域高度的85%，字距紧凑，从画面左边缘延伸至右边缘；标题顶部必须超出画幅并被裁切约12%至18%，左右两端可各裁切约5%至10%，但单词中部和主要字形必须保持可辨认，不能完整缩小放入白色区域，也不能裁切到无法识别。上部除这一组主标题外不得出现其他大小文字、说明、编号、装饰字符或图案。下部完整保留上传图像的摄影主体和主要环境，将原图统一处理为白色、钴蓝色、深蓝色与少量黑色构成的双色丝网印刷效果；主体必须占据下部主要视觉面积并保持完整可辨，不能只剩文字，不能被裁掉头部、面部、身体、产品主体或关键物体，不能由次要背景取代核心主体。根据原图亮暗关系进行蓝白分色：亮部转为白色或浅蓝网点，中间调转为钴蓝色颗粒，暗部转为深蓝色或少量黑色，保留人物五官、动物轮廓、产品结构、物体边缘与关键动作，不强行把上传场景改造成不存在的蓝天、水面、树林、小镇或墙面。下部只允许放置一组与上部完全相同的白色主词，位于摄影区域下方约三分之一处或底部安全区内，字号约为上部主标题的45%至55%，保持单行、水平排列和完整可读；该标题不得遮挡人物面部、主体识别部位或关键动作。上下两组标题必须使用同一字体、同一字重、同一拼写与一致的横向排列方式，只通过颜色和字号区分层级，不允许一个横排、一个竖排，不允许字母随机拆散、错位堆叠或改变顺序。辅助小字原则上不生成；如版式确需细节，最多只允许三组，每组只能重复唯一主词，不得出现新的英文内容，每组字号不超过下部标题的15%，分别固定在下部左上角、右上角或右下角安全边距内，三组之间不得重叠，不得超过三组。整体保持约5%的安全边距，留白主要集中在上部纯白区域，下部不得出现大面积无意义空白；摄影主体、上下标题和边缘留白形成明确稳定的视觉重心。字体统一采用超粗无衬线字形，不混入衬线体、手写体或装饰字体；文字边缘保留可辨认的字形骨架，仅叠加轻度复印颗粒、油墨磨损、丝网印刷网点与少量自然掉色，不让噪点破坏拼写。画面严格使用白色、钴蓝色、深蓝色和少量黑色，不添加多色装饰，不添加贴纸、边框、投影、立体字、渐变、图标、拼贴碎片或无关图案，只通过完整原始主体、上下硬切结构、统一主词、裁切巨型字体和双色颗粒印刷质感形成清晰有力的编辑海报效果。竖版3:4。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 上传1张图片即可生成 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/NjY3OTkxM2ItNTdlZS00YWFjLWI0NDgtYWI4OTQ3ZjhiNGQ2_compress.webp?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/NjkzZjNjNWQtOTY2OS00ZTgwLTk5ZTQtZTI0NTk5NGQxNjc1_compress.webp?width=1116&height=1488"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "1f797803bc5a4b37b80c123b31f91a25",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "d9ff0e40f01d4d2aba0ff502bd78b12a",
+                    "name": "智能P图"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/NjkzZjNjNWQtOTY2OS00ZTgwLTk5ZTQtZTI0NTk5NGQxNjc1_compress.webp?width=1116&height=1488"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/NjY3OTkxM2ItNTdlZS00YWFjLWI0NDgtYWI4OTQ3ZjhiNGQ2_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_ink",
+                    "name": "水墨国画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_b1b24a71ab434c38aea0ed199f51cc4b",
+              "name": "今景入诗卷",
+              "type": "prompt",
+              "prompt": "竖版3:4。图二作为可编辑固定版式垫图和唯一视觉形式依据，图一作为唯一内容素材。保留图二的米白宣纸、纤维斑驳、黑色矩形框、内部竖栏、框外上方与右侧留白、位置比例、黑灰淡金配色和古籍印刷质感；图二框内原画以及单字、诗句、作者、篇名和印章文字均为可替换占位，必须清除，不得复制、残留或与新内容叠印，仅沿用水墨画风、文字区域、字号层级和竖排形式。准确提取图一的人物、建筑、景物和物件，保留主体类型与数量、身份特征、发型服装与配饰、姿态动作、视角、位置、遮挡和核心构图，将其完整重绘在图二黑框内，不改变动作与叙事、不增加无关内容、不将现代主体古装化；允许等比缩放和疏密调整，不得拉伸、扭曲、裁断或越框。内部竖栏作为预印底纹位于水墨下层，浅墨处可见、浓墨处自然覆盖。采用中国写意水墨，以浓淡干湿、焦墨、破墨、积墨、飞白和水痕表现，近浓远淡，轮廓概括可辨；人物保持年龄感和身份辨识度，五官含蓄可辨、肢体完整、穿搭不变。以墨黑、灰墨、米白和淡金为主，可从图一提取一种低饱和传统色少量点染。根据留白融入一轮纸白、淡墨或淡金圆月，不遮挡主体，不表现写实环形山、强光晕或球体体积；云气、水纹只在适配图一时少量加入。根据图一情绪，从以下诗句中等权选择最契合的一句：“但愿人长久，千里共婵娟”——苏轼《水调歌头》；“海上生明月，天涯共此时”——张九龄《望月怀远》；“阴晴圆缺都休说，且喜人间好时节”——徐有贞《中秋月》；“万里无云镜九州，最团圆夜是中秋”——殷文圭《八月十五夜》；“露从今夜白，月是故乡明”——杜甫《月夜忆舍弟》；“举头望明月，低头思故乡”——李白《静夜思》；“举杯邀明月，对影成三人”——李白《月下独酌》，不得照抄图二原文或固定选首项。黑框外左上方按图二原位置生成一个与图一核心情绪相关的单字题名，不用人物、动植物、建筑或物品名称；单字完全位于框外，使用大号墨黑古籍刻本宋体。右侧仅呈现新选诗句及出处：诗句单列竖排，第一个字上沿严格对齐黑框上沿，自上而下不换列；作者和篇名以诗句40%—50%的字号接续于下方并共用中轴，整组不得超过黑框下沿，过长时统一缩小字号与字距。生成的全部文字采用古籍刻本宋体。在 recaption 中明确写清楚本次生成的单字题名、最终选中的完整诗句、作者和作品名，不遗漏、不增加图二原有文字。最终呈现图二固定古籍宣纸版式＋图一内容写意水墨画＋动态单字题名＋动态中秋诗词题跋的完整作品；避免保留图二原画内容、照抄图二文案、新旧内容混合、单字进入黑框、诗句起点不与黑框上沿对齐、文字底端越过黑框下沿、诗句拆列、底图变色、画框变形、栏线消失、商业插画、动漫、3D渲染、摄影写实、高饱和配色、复杂装饰、品牌标志和水印。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 上传任意一张图片即可生成 · 参考图 1–2 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/NDRiZGIyNDAtOTkyMC00ODc1LTk0NzItMzM5MjMwN2FiOTRh_compress.webp?width=1122&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/MDJmOGY0OWEtMjZjNC00ODgxLWE3ODYtNTMzZTYyNmM4MjQ0_compress.webp?width=1122&height=1488",
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/YjMxNzIyYTMtOThhNy00Mjg0LThkNDAtZWMzZWVjYzJiNWI2_compress.webp?width=1113&height=1488"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "b1b24a71ab434c38aea0ed199f51cc4b",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 2,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/MDJmOGY0OWEtMjZjNC00ODgxLWE3ODYtNTMzZTYyNmM4MjQ0_compress.webp?width=1122&height=1488",
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/YjMxNzIyYTMtOThhNy00Mjg0LThkNDAtZWMzZWVjYzJiNWI2_compress.webp?width=1113&height=1488"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/NDRiZGIyNDAtOTkyMC00ODc1LTk0NzItMzM5MjMwN2FiOTRh_compress.webp?width=1122&height=1488",
                 "requires_portrait_authorization": false
               },
               "classification": {
@@ -2749,6 +2897,52 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "yuanbao_19ddd8bbe9a145e89a8afce8820f0df8",
+              "name": "轮廓手绘线条",
+              "type": "prompt",
+              "prompt": "参考上传图生成图片：比例 3:4。上下拼接图，垂直分割，上下两个独立画面，共用一条水平分割线。上半部分嵌入参考原图，不改变原图画质和内容，自然填充满整个上半部分。下半部分参考原图，画面整体居中，四周保留少量留白，超极简手绘线描插图风格；极致概括造型，剔除全部光影层次，只保留物品松散外轮廓，线条不完全闭合，随性手绘线条，拒绝顺滑矢量线，米白底色；仅画面横向居中区域的主体内容填充单一主色平涂单色色块，其他大面积内容不留任何色块，仅保留松散不闭合的黑色手绘轮廓线条。画面底部横向一行从左至右排布四组小号图标 + 文案：1. 小号手绘天气图标，图标右侧配两行黑色手写文艺英文极短文案；2. 极简横向长箭头，箭头上下排布两行黑色手写文艺英文极短文案；3. 方形线框，框内是低矮起伏山丘的黑色简笔画，右侧标注两行黑色手写文艺英文极短文案；4. 小号极简指南针方向标识。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张风景照片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/YWVhZTIwYTMtYjgxMS00OGJlLWIzMDItYmI4NGNkY2Q2MmE1_compress.webp?width=1280&height=1712",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/NjE2MTczMzItNTI2OS00YTE4LTk4YzMtZDcyNTI4N2E3ZWEz_compress.webp?width=1707&height=1280"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "19ddd8bbe9a145e89a8afce8820f0df8",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/NjE2MTczMzItNTI2OS00YTE4LTk4YzMtZDcyNTI4N2E3ZWEz_compress.webp?width=1707&height=1280"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/YWVhZTIwYTMtYjgxMS00OGJlLWIzMDItYmI4NGNkY2Q2MmE1_compress.webp?width=1280&height=1712",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_line",
+                    "name": "线描钢笔"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -3448,6 +3642,202 @@
                   "https://cdn-pro.yuanbao.tencent.com/public/pro/ZTE5OGFlZTctYzIwMS00ZDVjLTlmZDktZWI3NDY3YmEyNDZl_compress.webp?width=1116&height=1488"
                 ],
                 "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/NzRjYjA3OGEtYWMwNi00NjliLTk1MzItODRiMGQ4OWQxMzIx_compress.webp?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_children",
+                    "name": "儿童绘本"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_189f915e846a44e9912816d681cb425b",
+              "name": "把路过画成故事",
+              "type": "prompt",
+              "prompt": "竖版3:4比例，固定输出3:4画布比例，不裁切、不改变原照片构图关系。将用户上传的旅行照片作为唯一内容来源，保持原始摄影状态，不改变人物、建筑、植物、街道、天空、物品和自然景观的真实结构、材质、颜色、光影和纹理，不进行照片重绘，不将照片转换为插画或艺术风格图片，仅在原始照片表面叠加粗蜡笔手绘设计元素。整体效果为真实旅行照片叠加旅行手账式蜡笔涂鸦，照片主体和背景必须保持高清真实摄影质感。AI识别照片中的真实元素，仅根据原图已有的人物、建筑、植物、街道、物品或自然景观进行关联设计，不添加不存在的内容，不创造虚构场景。蜡笔元素参考真实粗蜡笔或油画棒直接绘制效果，线条必须粗厚明显，具有颗粒感、摩擦感、断续感、不规则边缘和自然手绘摆动痕迹，呈现轻松、稚拙、有手工温度的拙气感。蜡笔线条主要用于真实物体外轮廓强化，例如人物轮廓、服饰边缘、树冠边缘、建筑轮廓、雨伞边缘、家具外形和道路结构，不绘制大量复杂内部纹理，不覆盖背景区域，不改变原始摄影效果。人物保持真实摄影状态，禁止改变人物五官、皮肤、发丝和身体结构，禁止将人物整体转换为蜡笔插画效果，蜡笔元素可以根据人物服饰、动作和造型进行关联设计，但主要表现为外轮廓强化、局部色块和手绘强调效果，不破坏人物真实性。整体颜色采用秋日暖色系，主要使用橘黄色或暖黄色或焦糖色或砖红色或秋叶红色或棕色作为主色，保持统一温暖氛围，同时加入极少量冷色点缀，仅使用墨绿色或浅蓝色或蓝绿色，用于少量线条或局部细节，形成暖色与冷色对比。增加5-8个与照片内容相关的粗蜡笔小元素，例如小叶子、小枝条、小符号、圈线、强调笔触或简单涂鸦，元素必须来源于真实环境并与主体产生联系，主要分布在主体外围或空白区域，不生成贴纸感装饰。增加1-3处局部蜡笔平涂色块，色块必须附着于照片已有物体表面，例如树干、建筑局部、雨伞、家具、服饰或旅行物品，参考真实蜡笔覆盖效果，具有厚涂感、粗颗粒感和不规则手工边缘，保留原物体轮廓、结构和光影，不让照片整体蜡笔化。禁止生成文字、字母、数字、地点名称、日期、品牌或任何虚构信息。所有新增元素必须服务于原照片内容，不添加动物、幻想人物、虚构建筑或无关装饰。最终效果要求：保持原照片真实摄影感，仅增加粗蜡笔外轮廓、少量秋日手绘元素和局部蜡笔色块，呈现旅行者直接在照片上进行创意记录的效果。重点表现“照片上的蜡笔设计”，而不是“照片变成蜡笔画”。避免背景整体风格化，避免人物过度卡通化，避免全画面插画化，避免颜色混乱，输出高清真实旅行照片。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 上传任意1张图片即可生成 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/YTRkOWY2MjQtMGM4Ni00MjI1LThjOWUtM2NkNzNjYTRlY2E0_compress.webp?width=1776&height=2352",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/MmYzZjEwZjEtOTdjYS00ZWY3LWIzMjktYTVlMTBiODg4Yjdm_compress.webp?width=3547&height=4730"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "189f915e846a44e9912816d681cb425b",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "d9ff0e40f01d4d2aba0ff502bd78b12a",
+                    "name": "智能P图"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/MmYzZjEwZjEtOTdjYS00ZWY3LWIzMjktYTVlMTBiODg4Yjdm_compress.webp?width=3547&height=4730"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/YTRkOWY2MjQtMGM4Ni00MjI1LThjOWUtM2NkNzNjYTRlY2E0_compress.webp?width=1776&height=2352",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_children",
+                    "name": "儿童绘本"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_6a022356b97e48b3a1d00ea1725d6dea",
+              "name": "涂个星星",
+              "type": "prompt",
+              "prompt": "保持原图尺寸不变。用户上传照片作为唯一人物与场景素材，完整保留原照片的真实摄影质感、人物形象与原有画面内容，仅叠加醒目的手绘星星涂鸦。星星采用鲜亮正红色、宝蓝色与少量浅天蓝色，五颗以内大小错落的不规则五角星和尖锐放射状星星围绕主体自由排布，可出现在背景、画面边缘或自然叠加于人物局部，形成轻松随性的前后穿插关系。星星使用粗颗粒油画棒或蜡笔笔触绘制，以反复勾勒的粗糙星形线条结合局部密实涂色，保留自然露底、笔触间隙与深浅变化，呈现手工随意涂画的质感。整体保持星星尺寸偏大、数量克制、分布松散有节奏，与真实生活摄影自然结合，形成大胆、童趣、随性的红蓝蜡笔涂鸦效果。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张人像照片或宠物照片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/YzIwNTA0MTUtOGJjYy00NDRlLTk3YzYtNTc0N2UyMjFhNWJk_compress.webp?width=1680&height=1680",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/NmQzMzg5M2EtOGYyMy00Nzc0LTk4ZTItZmU4YjZlY2FkYTg5_compress.webp?width=1680&height=1680"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "6a022356b97e48b3a1d00ea1725d6dea",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "d9ff0e40f01d4d2aba0ff502bd78b12a",
+                    "name": "智能P图"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/NmQzMzg5M2EtOGYyMy00Nzc0LTk4ZTItZmU4YjZlY2FkYTg5_compress.webp?width=1680&height=1680"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/YzIwNTA0MTUtOGJjYy00NDRlLTk3YzYtNTc0N2UyMjFhNWJk_compress.webp?width=1680&height=1680",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_children",
+                    "name": "儿童绘本"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_84a867e616f045e89391ae369ec6d570",
+              "name": "可爱星星",
+              "type": "prompt",
+              "prompt": "生成图片比例3:4 ，将这张图片抠图贴纸效果，人物被白色粗描边抠出，像一张手账贴纸一样“悬浮”或“站立”在背景之上，背景保持不变，画面中点缀着黄色的五角星、波点圆圈等可爱的小贴纸，增加了画面的趣味性和层次感。搭配了如“enjoy life”等随性、灵动的手写英文文案，进一步强化了轻松、治愈的日常氛围。有强烈的社交媒体分享属性，图片可用于小红书、Instagram发帖模板，强调日常生活的精致感与松弛感。整体氛围温柔、可爱，充满青春活力，给人一种亲和力十足的感觉。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传1张单人正脸图片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/YWY5Zjg2NmUtMjk1OC00MjY1LTgzNTMtYTE1NjMwM2NkOWQy_compress.webp?width=1344&height=1792",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/MjJhMjE2ZTUtYjNjZC00MmMzLWJjYTAtYzJhNzljYWJhNzQx_compress.webp?width=1344&height=1792"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "84a867e616f045e89391ae369ec6d570",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "d9ff0e40f01d4d2aba0ff502bd78b12a",
+                    "name": "智能P图"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/MjJhMjE2ZTUtYjNjZC00MmMzLWJjYTAtYzJhNzljYWJhNzQx_compress.webp?width=1344&height=1792"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/YWY5Zjg2NmUtMjk1OC00MjY1LTgzNTMtYTE1NjMwM2NkOWQy_compress.webp?width=1344&height=1792",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_children",
+                    "name": "儿童绘本"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_a98523db1e54429a9ee8d42c18b6888d",
+              "name": "云上住着小神仙",
+              "type": "prompt",
+              "prompt": "竖版3:4。以用户上传的实拍照片为唯一且不可修改的底图，保持原图构图、建筑、天空、光线、色彩、摄影质感以及原有真实云朵的数量、位置、大小、形状、边缘和纹理完全不变。仅在原照片已经存在的真实云朵表面添加一个插画人物，不绘制、不重构、不补充任何云朵。禁止出现卡通云、插画云、云朵轮廓线、黑色云朵描边或独立的云形底座；原图天空中的空白区域必须继续保持原样。画面真实云朵上添加仅单个极其小巧的极简扁平的国画风格嫦娥小人，插画人物肢体结构和手部五指结构正确，插画线条清晰准确，人物局部可被真实云朵自然遮挡，人物旁加入一个小型玉兔。人物采用豆豆眼、略大头身比例、可爱黑色发型、中国传统古风雅致服饰和发型。人物尺寸极小，必须与真实原有云朵形成明确的接触关系，禁止独立悬浮或像贴纸一样悬在天空中；人物动作根据真实原有云朵的真实轮廓自然设计一种姿态动作顺应云朵真实形态。云朵下方的空间中，错落飘落迷你的高饱和马卡龙彩色装饰图形，图形纯色并且无边框无描边，每一个形象完整无瑕疵，形状可以是水滴、小花或者星星，装饰大小随机变化；整体氛围治愈童真、轻松活泼，充满童趣脑洞，画面留白干净舒展。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张实拍云朵照片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/OThhMjJjNmItNmI3Zi00YmYwLTk5M2YtNzk5MmFmNDg3ZDYy_compress.webp?width=1116&height=1488",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/YzM5YTdhYmItZTdhOC00NzRjLWIxNjktZmQ1NDQ3NDQ0NzVj_compress.webp?width=1116&height=1488"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "a98523db1e54429a9ee8d42c18b6888d",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/YzM5YTdhYmItZTdhOC00NzRjLWIxNjktZmQ1NDQ3NDQ0NzVj_compress.webp?width=1116&height=1488"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/OThhMjJjNmItNmI3Zi00YmYwLTk5M2YtNzk5MmFmNDg3ZDYy_compress.webp?width=1116&height=1488",
                 "requires_portrait_authorization": false
               },
               "classification": {
@@ -4976,6 +5366,148 @@
                   "runner_up": "painting_oil"
                 },
                 "previous_location": "painting/painting_pending"
+              }
+            },
+            {
+              "id": "yuanbao_cfef0fc0d8db425497cff8b2de712a38",
+              "name": "冬日同行背影手绘",
+              "type": "prompt",
+              "prompt": "竖版，3:4的画面比例。上下双联竖版构图，上半部分保留原图纪实摄影不重绘，维持原有摄影版式。下半部分为奶油浅米白纯色底色，大面积干净留白，不设置场景背景，不绘制街景、建筑、道路、植物、长椅或环境装饰；下半区仅保留由上半主体转译而来的拼贴式书籍插画人物 / 主体，以及必要文字。主体以大块平涂色块绘制，衣物和包袋用简洁色块概括，摒弃细密褶皱纹理。画面左上预留文字排版区域，放置两行英文文本，采用精致复古书籍字体，老式打字机字体与细衬线字体混排，深灰黑旧印刷墨迹效果，左对齐排版，文字尺寸较小，笔画细而克制，视觉权重低。画面底部保留横向写意黑色毛笔笔触，少量色块碎片点缀，低饱和度色调，文艺复古书籍插画质感，平面手绘演绎风格。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传一张多人照片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/NDcwNjAxZmUtYzEyNy00NzY5LWEyOTMtNmMyM2U0ZDhhYTA1_compress.webp?width=1328&height=1776",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/OTJhNDk2MzAtMDg5YS00NGFlLWI1N2QtN2E0ZTQ1MmE2ODcw_compress.webp?width=1536&height=1536"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "cfef0fc0d8db425497cff8b2de712a38",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/OTJhNDk2MzAtMDg5YS00NGFlLWI1N2QtN2E0ZTQ1MmE2ODcw_compress.webp?width=1536&height=1536"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/NDcwNjAxZmUtYzEyNy00NzY5LWEyOTMtNmMyM2U0ZDhhYTA1_compress.webp?width=1328&height=1776",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_digital",
+                    "name": "数字绘画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_202573bc28ba41faa5f01f78b9b83b56",
+              "name": "月兔琼楼",
+              "type": "prompt",
+              "prompt": "根据描述生成图片：比例 3:4，国风新中式插画，背景是一整块高饱和粉色单色，背景作为完整整体，不分割天空与水面，无渐变、无明暗区分、无材质分区。画面中间一只洁白玉兔蹲坐，玉兔下方是清晰镜像倒影；画面左侧水边灰石上伫立枝干疏朗的树干，树干为棕色油画棒质感线条，极简表达，只有寥寥几根线条，线条干涩、颗粒、有油画棒摩擦纹理，树干细长、枝条自然分叉，减少细节，树丛部分是渐变透明的低饱和粉色的云朵形状色块，保持左侧竖向线条节奏；画面右侧是一座露出一半的朱红色三层尖顶古亭，黑瓦飞檐保留传统屋檐层次、深色瓦片轮廓；除屋檐以外的所有红色建筑部分统一为一整块单色平面正红色色块，无任何细节；亭子立于灰色石砌台基，映出亭台倒影；画面上半部分右上方悬挂一轮饱满浅米白色圆月，圆月带有细腻斑驳肌理；顶部保持干净留白；画面最下方排布一行深灰色衬线字体英文：As the full moon rises on Mid-Autumn night, joy lights up every heart.，简约淡墨笔触，高饱和粉红色系，扁平国风质感，干净留白，水彩肌理，无多余杂物。",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 文生图",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/MDdkZGQ0OWYtY2MxMy00MTdjLThiN2ItZDcyYmM5Y2VlYjQz.jpg?width=1116&height=1488",
+              "reference_images": [],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "202573bc28ba41faa5f01f78b9b83b56",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "134592465a8a4336939cd666ef2b8b8a",
+                    "name": "全部"
+                  },
+                  {
+                    "id": "6237f94f4d53400fa1152368177cb6f8",
+                    "name": "海报设计"
+                  }
+                ],
+                "generation_type": "text2image",
+                "min_images": 0,
+                "max_images": 0,
+                "reference_image_urls": [],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/MDdkZGQ0OWYtY2MxMy00MTdjLThiN2ItZDcyYmM5Y2VlYjQz.jpg?width=1116&height=1488",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_digital",
+                    "name": "数字绘画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "yuanbao_7fdb2c86acc64e498cacb47c9b9658ce",
+              "name": "韩系板绘淡彩",
+              "type": "prompt",
+              "prompt": "根据参考图生成图片：保持上传图比例不变。将上传图风格化：板绘淡彩，韩系二次元插画风格，干净极简画风；低饱和清透肤色，淡橘调唇色，面部阴影极少，几乎无强烈明暗对比，弱化尖锐结构，主要发丝结构用黑线描绘、内部渐变平涂；干净柔和的钢笔线条，细而有轻重变化的轮廓线，不生硬黑边，轻薄平涂加微弱柔和晕染，柔和配色；仅保留前景人物和物体，背景为纯色浅米白色；无真实人物质感，画面整体低对比度，轻薄平涂柔和肌理，无强烈笔刷颗粒，画面干净留白多，氛围感松弛慵懒，细腻刻画发丝与衣物褶皱，人物肢体五官无畸形错乱",
+              "negative_prompt": "",
+              "description": "腾讯元宝 · 图生图 · 建议上传1张单人正脸图片 · 参考图 1–1 张",
+              "thumbnail": "https://cdn-pro.yuanbao.tencent.com/public/pro/ZTY5M2I5YjgtOTYyMy00YTc0LWExOWEtM2ZiYmExMTA2MzQy_compress.webp?width=1280&height=1707",
+              "reference_images": [
+                "https://cdn-pro.yuanbao.tencent.com/public/pro/NzRjMmExMmMtZWU1MC00N2M2LWIyMDItZDQ4Yzc4MWE3YTg4_compress.webp?width=1280&height=1707"
+              ],
+              "source": {
+                "provider": "腾讯元宝",
+                "template_id": "7fdb2c86acc64e498cacb47c9b9658ce",
+                "url": "https://yuanbao.tencent.com/chat/ai-creation",
+                "categories": [
+                  {
+                    "id": "e81bd233cb4145a2bff4eb08d0d63949",
+                    "name": "创意灵感"
+                  }
+                ],
+                "generation_type": "image2image",
+                "min_images": 1,
+                "max_images": 1,
+                "reference_image_urls": [
+                  "https://cdn-pro.yuanbao.tencent.com/public/pro/NzRjMmExMmMtZWU1MC00N2M2LWIyMDItZDQ4Yzc4MWE3YTg4_compress.webp?width=1280&height=1707"
+                ],
+                "thumbnail_url": "https://cdn-pro.yuanbao.tencent.com/public/pro/ZTY5M2I5YjgtOTYyMy00YTc0LWExOWEtM2ZiYmExMTA2MzQy_compress.webp?width=1280&height=1707",
+                "requires_portrait_authorization": false
+              },
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_digital",
+                    "name": "数字绘画"
+                  }
+                ]
               }
             }
           ]

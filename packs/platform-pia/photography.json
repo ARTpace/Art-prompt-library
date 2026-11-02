@@ -14639,6 +14639,54 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "pia_twelve-wine-sommelier-lineup",
+              "name": "十二款葡萄酒侍酒师阵容",
+              "type": "prompt",
+              "prompt": "{\"type\":\"照片级逼真的葡萄酒品鉴对比阵容\",\"scene\":\"一种充满氛围感的侍酒师风格桌面研究，以吧台高度进行正拍，展示了黑色大理石台面上水平排列的 12 只酒杯，每只酒杯前都放置了一张米色纸张上的手写品鉴卡\",\"style\":{\"medium\":\"高端编辑类餐饮摄影\",\"lighting\":\"左侧柔和的自然窗光，昏暗的室内氛围，玻璃上的真实反射，浅景深，背景中的酒瓶和墙壁略微模糊\",\"mood\":\"严肃、专业、鉴赏家风格、视觉对比测试\",\"composition\":\"宽幅横向构图，居中排列，卡片对齐在酒杯后方，12 只酒杯清晰可见\"},\"objects\":{\"glasses_count\":12,\"cards_count\":12,\"background_elements_count\":3,\"background_elements\":[\"左侧高窗\",\"深色纹理墙壁\",\"右侧模糊的酒瓶\"]},\"layout\":{\"sections\":[{\"title\":\"葡萄酒阵容\",\"position\":\"前景中心\",\"count\":12,\"labels\":[\"Chablis More 2022\",\"Riesling Beer Mosel 2013\",\"Rkatsiteli Kakheti 2018\",\"Bandol Mourvèdre 2020\",\"Pinot Noir Gevrey-Chambertin 2018\",\"Barolo Brunate 2006\",\"Malbec Uco Valley 2014\",\"Syrah Hermitage 2017\",\"Tawny Port 20 year\",\"Pedro Ximenez Jerez N/V\",\"Vin Jaune Arbois 2010\",\"Vintage Champagne Rosé 2012\"]}],\"card_alignment\":\"每只酒杯后方对应一张手写卡片，略微向后倾斜，间距均匀\",\"glass_progression\":\"从左侧浅色白葡萄酒开始，经由中间的桃红和红葡萄酒，到加强型和氧化型葡萄酒，最右侧以桃红香槟结束\"},\"wines\":[{\"name\":\"Chablis More 2022\",\"glass\":\"高脚白葡萄酒杯\",\"color\":\"浅稻草黄色\",\"fill_level\":\"约三分之一满\"},{\"name\":\"Riesling Beer Mosel 2013\",\"glass\":\"高脚白葡萄酒杯\",\"color\":\"金黄色\",\"fill_level\":\"约三分之一满\"},{\"name\":\"Rkatsiteli Kakheti 2018\",\"glass\":\"高脚白葡萄酒杯\",\"color\":\"深琥珀橙色\",\"fill_level\":\"约三分之一满\"},{\"name\":\"Bandol Mourvèdre 2020\",\"glass\":\"大号葡萄酒杯\",\"color\":\"清澈的鲑鱼桃红色\",\"fill_level\":\"约三分之一满\"},{\"name\":\"Pinot Noir Gevrey-Chambertin 2018\",\"glass\":\"大号红葡萄酒杯\",\"color\":\"透明宝石红色\",\"fill_level\":\"约三分之一满\"},{\"name\":\"Barolo Brunate 2006\",\"glass\":\"大号红葡萄酒杯\",\"color\":\"石榴红色\",\"fill_level\":\"约三分之一满\"},{\"name\":\"Malbec Uco Valley 2014\",\"glass\":\"大号红葡萄酒杯\",\"color\":\"深紫红色\",\"fill_level\":\"约三分之一满\"},{\"name\":\"Syrah Hermitage 2017\",\"glass\":\"大号红葡萄酒杯\",\"color\":\"近乎不透明的墨紫色\",\"fill_level\":\"约三分之一满\"},{\"name\":\"Tawny Port 20 year\",\"glass\":\"小型甜酒杯\",\"color\":\"琥珀棕色\",\"fill_level\":\"约三分之一满\"},{\"name\":\"Pedro Ximenez Jerez N/V\",\"glass\":\"小型甜酒杯\",\"color\":\"近乎黑色的红木棕色\",\"fill_level\":\"约三分之一满\"},{\"name\":\"Vin Jaune Arbois 2010\",\"glass\":\"白葡萄酒杯\",\"color\":\"浓郁的金黄色\",\"fill_level\":\"约三分之一满\"},{\"name\":\"Vintage Champagne Rosé 2012\",\"glass\":\"香槟杯\",\"color\":\"浅铜粉色，可见细密气泡\",\"fill_level\":\"约三分之二满\"}],\"text\":{\"card_style\":\"奶油米色卡片上随性真实的手写黑色墨水字迹\",\"legibility\":\"大部分可读，具有真实的手写差异，非排版字体\"},\"quality\":\"超高细节，逼真的玻璃形状，准确的葡萄酒色调和不透明度差异，高级餐厅或品鉴室的真实感，无人物，前景无多余物体\",\"aspect_ratio\":\"16:10\"}",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/15598.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_portrait",
+                    "name": "人物肖像"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_wt-34421",
+              "name": "站在发光传送门前的史诗科幻构图",
+              "type": "prompt",
+              "prompt": "[ 主体 ]站在一个撕裂现实本身的巨大发光传送门前， 能量波扭曲了环境， 鲜艳的[ 颜色1 ]和[ 颜色2 ]灯光， 电影般的科幻奇幻构图， 史诗般的比例感",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · webtomind",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/9b2afcb8-5f6e-45c5-bbd3-741d79e30ffa_0.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_portrait",
+                    "name": "人物肖像"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -15409,6 +15457,102 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "pia_pr-32425",
+              "name": "高级感花",
+              "type": "prompt",
+              "prompt": "Use the reference bracelet as the only subject. Preserve its exact bead count, colors, materials, and charm placement: translucent white agate round beads, one deep-red agate focal bead with delicate gold caps, one honey-yellow bead, a green jade gourd charm, a white jade charm, and polished gold connectors. Luxury Instagram jewelry campaign, vertical 4:5 composition. Arrange the bracelet in an elegant, natural circular curve on warm light-gray travertine stone; softly blurred creamy background with subtle botanical shadows. Gentle afternoon side backlighting passes through the beads, revealing a luminous milky translucency, while the red, yellow, and green accents remain refined and vivid. Realistic soft gold reflections, sophisticated low-saturation palette, editorial styling, airy negative space, shallow depth of field, ultra-realistic premium jewelry photography, 8K. No text, no logo, no hands, no extra jewelry.",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptsref",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/53672_out.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_product",
+                    "name": "产品静物"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "builtin_md_2",
+              "name": "多机位九宫格4K",
+              "type": "prompt",
+              "prompt": "Ultra high resolution multi-camera angle reference sheet in 3x3 grid layout, 4K quality, showing [主体] from 9 different perspectives simultaneously: top-left front view, top-center 3/4 front view, top-right side profile, middle-left low angle, middle-center eye-level straight-on, middle-right high angle, bottom-left back view, bottom-center 3/4 back view, bottom-right top-down overhead view. [主体详细描述]. Consistent cinematic lighting across all 9 frames, uniform light warm gray background color F0EDE8, subjects softly blending with background with natural edge transition, no hard edges no white halo no light bleed, professional studio photography with medium format film aesthetic, clean grid layout with thin white dividers between frames, character consistency maintained across all angles, fine organic film grain, zero digital sharpening, absolutely no visible numbers text labels frame counters corner marks or annotations anywhere on the image",
+              "negative_prompt": "numbers, text, letters, labels, frame numbers, corner marks, annotations, captions, watermarks, signatures, logos, readable text, font, typography, grid numbers, sequence markers, page numbers, index, hard edge, glowing edge, white halo, light bleed, overexposed edge, cutout look, pasted on background, floating subject, disconnected shadow, pure white background, stark white, cold gray, bad anatomy, distorted face, extra fingers, deformed hands, inconsistent character design, lighting mismatch between frames, blurry, low quality, cropped, out of frame, digital sharpening, oversharpened, plastic skin, over-smoothing",
+              "description": "PromptImageAtlas",
+              "thumbnail": "",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_product",
+                    "name": "产品静物"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_urban-transport-mobility-guide",
+              "name": "城市交通出行指南",
+              "type": "prompt",
+              "prompt": "创建一个高度详细、高级的信息图海报，标题为：“如何游览 {argument name=\"city name\" default=\"[城市名称]\"}”。该设计应呈现出专业交通指南的质感，结合地图逻辑、数据板块以及真实的使用场景。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/17025.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_product",
+                    "name": "产品静物"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_macro-stained-glass-jellyfish",
+              "name": "微距彩色玻璃水母",
+              "type": "prompt",
+              "prompt": "一张超精细的微距照片，拍摄的是一个 {argument name=\"subject\" default=\"完全由彩色玻璃制成的半透明水母\"}，悬浮在 {argument name=\"location\" default=\"维多利亚式图书馆\"} 内，将烛光折射成穿过漂浮古籍的分形彩虹，带有可辨认的 {argument name=\"text style\" default=\"梵文文本\"}，照片级真实感",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/13853.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_product",
+                    "name": "产品静物"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -15893,6 +16037,54 @@
               "negative_prompt": "",
               "description": "PromptImageAtlas · promptimageatlas",
               "thumbnail": "https://promptimageatlas.com/images/originals/19477.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_food",
+                    "name": "美食饮品"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_tw-32113",
+              "name": "GPT image 2",
+              "type": "prompt",
+              "prompt": "Ultra-realistic candid smartphone snapshot in 3:4 vertical format. Completely generic, non-identifiable young woman based only on typical proportions and overall impression. Nighttime Tokyo sidewalk right beside a white ceramic tile wall. Captured mid-stride in three-quarter profile, head whipping back in surprise, one hand raised toward the lens, shy controlled smile, body still moving forward. Loose imperfect framing, subject nearly walking out of shot. Flash triggered while in motion. Strong handheld shake with heavy directional motion blur, facial details smeared, hand and hair softened by blur, ghosting artifacts, streaked tile wall, deep darkness surrounding the figure. Harsh flash creating bright blown highlights and sharp dark shadows. Feels like a raw accidental phone photo — intrusive, playful, fleeting moment. Very grainy, heavily blurred, authentic low-quality smartphone camera look.\",\n\"negative_prompt\": \"identity match, face copy, real person replication, anime, illustration, painting, stylized, studio lighting, beauty lighting, sharp focus, clean face, smooth skin, posed portrait, fashion editorial, cinematic, film still, tripod, professional photography\"\n}",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/2071616422070141186.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_food",
+                    "name": "美食饮品"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_luxury-beverage-storyboard-layout",
+              "name": "奢华桃汁广告项目",
+              "type": "prompt",
+              "prompt": "创建一个简洁、高端的广告项目信息图表，用于 {argument name=\"product\" default=\"奢华桃汁\"} 商业广告。\n\n设计规范：\n\n白色背景，采用现代奢华的编辑排版风格。\n\n顶部标题：{argument name=\"title\" default=\"PREMIUM PEACH\"}",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/28737.jpg",
               "classification": {
                 "method": "llm",
                 "stage": "title",
@@ -16415,6 +16607,30 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "pia_classroom-four-way-directional-view",
+              "name": "教室室内四向视图",
+              "type": "prompt",
+              "prompt": "从该 {argument name=\"location\" default=\"教室\"} 的中心向 4 个方向生成图像。右侧窗外是 {argument name=\"right view\" default=\"走廊\"}，左侧窗外是 {argument name=\"left view\" default=\"校园\"}。生成的图像数量为 4 张。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/22134.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_architecture",
+                    "name": "建筑空间"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -16653,6 +16869,54 @@
               "negative_prompt": "",
               "description": "PromptImageAtlas · promptsref",
               "thumbnail": "https://promptimageatlas.com/images/twitter/35832_out.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_landscape",
+                    "name": "自然风光"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_website-homepage-screenshot-generation",
+              "name": "网站首页截图生成",
+              "type": "prompt",
+              "prompt": "{argument name=\"website\" default=\"Yahoo\"} 首页截图。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/13584.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_landscape",
+                    "name": "自然风光"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_historical-coordinate-grid-generation",
+              "name": "历史坐标网格生成",
+              "type": "prompt",
+              "prompt": "生成一张图像，模拟在 {argument name=\"location\" default=\"52.5186° N, 13.3762° E\"}，{argument name=\"date\" default=\"1945 年 5 月 8 日 16:00\"} 拍摄的效果。生成一张 {argument name=\"aspect ratio\" default=\"1:1\"} 长宽比的图像，以整洁的 2x2 网格排列，包含四个展示不同视角的等分面板。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/13850.jpg",
               "classification": {
                 "method": "llm",
                 "stage": "title",
@@ -17162,6 +17426,54 @@
                   "confidence": 0.4772,
                   "runner_up": "photography_portrait"
                 }
+              }
+            },
+            {
+              "id": "pia_pascal-b-comic-strip-history",
+              "name": "PascalB",
+              "type": "prompt",
+              "prompt": "关于 {argument name=\"subject\" default=\"Pascal-B\"} 的漫画",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/14799.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_city",
+                    "name": "城市旅行"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_14340",
+              "name": "物理考试题目布局",
+              "type": "prompt",
+              "prompt": "生成一张物理 {argument name=\"subject\" default=\"高中考试\"} 题目 {argument name=\"type\" default=\"多选题\"} 的 9:16 图像。生成 4 张图像，每张图像对应所提供问题的一个答案",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/14340.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_city",
+                    "name": "城市旅行"
+                  }
+                ]
               }
             }
           ]
@@ -17825,6 +18137,54 @@
                   "runner_up": "photography_fashion"
                 }
               }
+            },
+            {
+              "id": "pia_kafka-architecture-diagram",
+              "name": "kafka",
+              "type": "prompt",
+              "prompt": "{argument name=\"technical subject\" default=\"kafka\"} 架构图，清晰展示其原理，并包含核心组件",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/14754.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_other",
+                    "name": "其他摄影"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_aesthetic-scrapbook-composition",
+              "name": "美学拼贴画风格转换",
+              "type": "prompt",
+              "prompt": "将提供的参考图像转换为温馨的美学拼贴画风格构图，同时严格保留原主体、身份、姿势、光影和背景。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/21285.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_other",
+                    "name": "其他摄影"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -17861,6 +18221,360 @@
                   "confidence": 0.1966,
                   "runner_up": "photography_portrait"
                 }
+              }
+            },
+            {
+              "id": "pia_desert-ruins-star-wars-style",
+              "name": "沙漠中的科幻古代遗迹",
+              "type": "prompt",
+              "prompt": "一片广阔的沙漠，包含 {argument name=\"style\" default=\"McQuarrie 风格\"} {argument name=\"subjects\" default=\"古代遗迹和帝国 AT-AT\"}，呈现出日落时分的氛围感。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/22722.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_macro",
+                    "name": "微距细节"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "photography_astro",
+          "name": "天文星空",
+          "presets": [
+            {
+              "id": "pia_sports-car-and-airliner-in-hangar",
+              "name": "机库中的跑车与客机",
+              "type": "prompt",
+              "prompt": "一张照片级、高细节的图像，展示了一辆 {argument name=\"car description\" default=\"带有黑色引擎盖的蓝色 Alpine A110 R 跑车\"} 停在宽敞大型飞机机库内的前景中。汽车正后方是一架 {argument name=\"airplane description\" default=\"白色的 Airbus A320 商用客机\"}，机身上印有“AIRBUS A320”字样，尾翼为蓝色。汽车配有黑色合金轮毂，前车牌上写着“{argument name=\"license plate text\" default=\"A110 R\"}”。机库地面为光滑的亮面混凝土，清晰地反射出两辆载具。左侧墙上挂着一块大牌子，上面写着“{argument name=\"hangar sign text\" default=\"HANGAR 05 MAINTENANCE\"}”。背景中巨大的机库门敞开，露出明亮多云的天空和远处的停机坪。电影级光影，焦点清晰，汽车摄影风格。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/13746.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_astro",
+                    "name": "天文星空"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_krabby-patty-secret-formula",
+              "name": "蟹堡王秘方图形",
+              "type": "prompt",
+              "prompt": "创建一个创意图形，主题为 {argument name=\"subject\" default=\"krabby patty secret formula\"}",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/20814.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_astro",
+                    "name": "天文星空"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_humorous-ai-business-resume",
+              "name": "幽默风趣的 AI 简历生成器",
+              "type": "prompt",
+              "prompt": "请根据我平时使用的 ChatGPT 生成一份简历。在创作时，请体现出该 ChatGPT 的个性。简历应清晰、符合商务规范，并带有一丝幽默感。长宽比为 4:5。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/19675.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_astro",
+                    "name": "天文星空"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "photography_vehicles",
+          "name": "汽车交通",
+          "presets": [
+            {
+              "id": "pia_futuristic-bionic-super-shoe",
+              "name": "车未来",
+              "type": "prompt",
+              "prompt": "极致未来感 {argument name=\"subject\" default=\"猎豹仿生超级运动鞋\"}，超级跑车与跑步运动鞋的混合体，激进的机械结构，层叠碳纤维，发光能量核心，动态速度轨迹，{argument name=\"colors\" default=\"黑金\"} 奢华质感，戏剧性低角度，电影级布光，高端运动广告，超精细，8k",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/16232.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_vehicles",
+                    "name": "汽车交通"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_flowers-weapons-background-cool",
+              "name": "炫酷花卉武器背景",
+              "type": "prompt",
+              "prompt": "在背景中添加 {argument name=\"background element 1\" default=\"大量花卉\"} 和 {argument name=\"background element 2\" default=\"大量武器\"}，使整体看起来炫酷，{argument name=\"aspect ratio\" default=\"竖向 3:4\"}",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/28997.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_vehicles",
+                    "name": "汽车交通"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_ancient-mmo-game-screenshot-prompt",
+              "name": "古代 MMO 游戏截图提示词",
+              "type": "prompt",
+              "prompt": "生成一张以 {argument name=\"theme\" default=\"'A Will Eternal'\"} 为主题的古代 ARPG MMO 开放世界游戏截图。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/14778.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_vehicles",
+                    "name": "汽车交通"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_pr-32597",
+              "name": "汽车AI 生成图片",
+              "type": "prompt",
+              "prompt": "Сториборд из 9 кадров сеткой 3x3 в стиле скриншотов из современной видеоигры с открытым миром, эстетика неонового приморского города 80-х в духе Майами. Сквозная героиня всех кадров: Камила - латиноамериканка с длинными вьющимися тёмными волосами, в розовом слитном купальнике с надписью Ocean Drive и белых кроссовках. Машина одна и та же: чёрный советский запарожец, в начале весь в засохшей грязи, к финалу отполирован до блеска. Локация: открытая ручная автомойка Ocean Drive Car Wash в солнечном приморском городе - пальмы, выцветший мурал Car Wash на бетонной стене, мокрый асфальт с лужами. На каждом кадре игровой интерфейс: крупный номер кадра в углу, плашка задания миссии, круглая мини-карта внизу слева; все надписи интерфейса на английском.Кадр 1: ночь, героиня сидит на чёрном спортбайке у входа, неоновая вывеска Ocean Drive CAR WASH и вертикальный неон WASH WAX SHINE REPEAT, отражения неона в мокром асфальте, плашка NEW SIDE MISSION - CAR WASH.Кадр 2: день, героиня со спины идёт к грязной машине с синим ведром, зелёным шлангом и жёлтой губкой, задание Grab your gear.Кадр 3: поливает машину из шланга, веер брызг искрится на солнце, задание Pre-rinse the vehicle.Кадр 4: намыливает капот большой жёлтой губкой, густая пена по кузову, задание Soap it up.Кадр 5: на корточках оттирает губкой литой диск колеса, рядом синее ведро с логотипом мойки, задание Scrub the details. Focus on the wheels.Кадр 6: смывает пену струёй из шланга, хлопья пены сползают с крыши, задание Rinse it off.Кадр 7: полирует крыло жёлтой микрофиброй, чёрный лак блестит, задание Dry and shine.Кадр 8: экран MISSION PASSED - Car Wash, ниже REWARD $1,250 и REP +750, довольный клиент в тёмных очках и гавайской рубашке протягивает деньги, субтитр Thanks, Camila. She's spotless.Кадр 9: финал - сияющий чёрный запарожец со спины на закате, небоскрёбы и пальмы приморского города, розово-оранжевое небо, отражения в мокром покрытии, подпись Ocean Drive.Фотореализм уровня некстген-игры, тёплый солнечный свет, влажные отражения, высокая детализация кожи и материалов.",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptsref",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/44534_out.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_vehicles",
+                    "name": "汽车交通"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_wt-34064",
+              "name": "リクエスト頂いた、清楚系ビキニにパレオです✨",
+              "type": "prompt",
+              "prompt": "リクエスト頂いた、清楚系ビキニにパレオです✨\n露出度高めだけど許されるか？😅\nelegant white bikini, classic triangle bikini top, soft gathered cups, delicate white lace trim, thin adjustable shoulder straps, slender back tie, matching low-rise bikini bottoms, slim side tie ribbons, subtle pearl bead accents, pure white fabric, lightweight matte stretch material, semi-transparent white chiffon pareo wrapped around the waist, asymmetric sarong drape, softly gathered waist knot on one hip, flowing sheer chiffon layers, scalloped lace edge on the pareo, gentle fabric folds, clean elegant silhouette, graceful resort style, refined feminine design, luxurious beachwear, pristine white color palette, strict color placement, pure white bikini only, pure white pareo only, pearl accents only, highly detailed stitching, fashion catalog quality",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · webtomind",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/9e6f2abf-30be-4226-a2b8-b9e4570e8bf7_0.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_vehicles",
+                    "name": "汽车交通"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_tw-32010",
+              "name": "腿比命长系列 - ONE PIECE特辑",
+              "type": "prompt",
+              "prompt": "比例：9:16\n主题：{女孩A}和{女孩B}坐在海边沙滩上晒太阳，她们都穿着露脐吊带和超短裙，一条腿的膝盖稍微抬起，另一条腿直直的伸向镜头方向\n风格：半写实日漫 + UE5超写实 + CG高亮肌肤 + detailed skin texture with a few moles & clear detailed skin pores；\n构图：莫兰迪色调的纯色色块作为骨架\n镜头：worm eye view\n人物：{女孩A}和{女孩B} random pick from adult female character from {ONE PIECE}，\n负向约束：不要走光，不要看到女孩的内衣内裤",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/twitter/2081214929189896258.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_vehicles",
+                    "name": "汽车交通"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_devil-character-transformation-design",
+              "name": "角色字体暗黑冷调",
+              "type": "prompt",
+              "prompt": "[信息输入栏]\n\n角色名称：[{argument name=\"character name\" default=\" \"}]（必填）\n\n补充说明：[{argument name=\"additional notes\" default=\"optional\"}]（如有任何想告诉 AI 的内容，请在此输入）\n\n-----------------\n\n[图像生成指令]\n\n基于附件 1 中的角色，使用附件 2 中的恶魔化套装为其进行装扮。\n\n从输入的角色名称和附件 1 中读取角色的外貌、氛围、年龄、表情、装备和性格特征。自动构思背景、情境、姿势、表情、构图、光影，并在图像中加入一段简短的文字。\n\n保持原角色的发型、发色、瞳色、体型、面部特征、年龄、氛围和性格特征。\n\n体现恶魔化套装的设计元素，使其与原角色自然融合。这不应仅仅是服装的叠加，而是一种融合性的设计，展现出原角色变身为恶魔后的形态。\n\n特别注意犄角和尾巴的位置，描绘出解剖学上和视觉上的自然感。犄角应从头部自然长出，看起来不像是生硬地堆叠在头发上。犄角的根部应位于头顶、额头附近或太阳穴周围等合理位置，并保持对称性、方向、长度、粗细的平衡，以及适当的连接感。尾巴应作为尾骨的延伸从下背部自然长出，而不是从腹部、胸部、腿部或手臂等不自然的位置长出。根据姿势和服装调整犄角和尾巴，确保没有尴尬的连接、悬浮的根部、不合理的数量、不自然的曲线或奇怪的生长模式。\n\n构建一个新的背景和情境，作为能够强烈传达角色魅力的场景，不要依赖标准化的构图。让角色的表情、服装、姿势、视线和手势成为焦点，而不是仅仅依靠华丽的背景。\n\n将表情视为高优先级项目。不要使用面无表情、直视前方、平淡的冷静或标准的“冷酷”脸。创造出一种令人印象深刻的表情，看起来像是多种情绪的叠加，而不是单一简单的某种情绪。\n\n通过眉毛、眼睛方向、瞳孔高光、嘴角、脸颊、面部角度和颈部倾斜来增加表情的多样性。使其成为一种自然的、略带瑕疵而非完全对称的表情。创造出一种能让观众想要揣摩角色内心想法的表情。\n\n在姿势方面，优先展示整套服装，同时创造出能够传达角色个性和变身后氛围的动态构图。不要使用角色仅仅站立的姿势。通过武器、翅膀、犄角、尾巴、锁链、配饰、手势和视线方向来强调角色特征。\n\n利用恶魔化套装的独特性，但不要掩盖原角色的个性。确保原角色看起来不会变成另一个人。\n\n在屏幕左上角或右下角，自动生成带有装饰的标题，第一行为“[角色名称]”，第二行为本次获得的称号/昵称，字体大小保持一致。文字大小应以不干扰图像为准。\n\n仅当信息输入栏的补充说明中有内容时，才在生成的图像中反映该内容。\n\n风格：\n- 高质量 2D 动画\n- 语言：日语\n- 类型：偏向暗黑奇幻，但背景不要过于阴暗。\n- 精致的服装设计\n- 以角色为中心\n- 令人印象深刻的表情\n- 戏剧性的光影\n\n长宽比：{argument name=\"aspect ratio\" default=\"3:4\"}",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/25669.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_vehicles",
+                    "name": "汽车交通"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "photography_animals",
+          "name": "动物宠物",
+          "presets": [
+            {
+              "id": "pia_brass-rod-display-stand-addition",
+              "name": "黄铜杆展示架修改器",
+              "type": "prompt",
+              "prompt": "将其制作成一个 {argument name=\"item\" default=\"stand\"}，方法是通过底座的左右两侧穿入 {argument name=\"material\" default=\"brass\"} 杆作为支撑，并使其呈现倾斜状态。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/27156.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_animals",
+                    "name": "动物宠物"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_chatgpt-super-app-concept",
+              "name": "ChatGPT",
+              "type": "prompt",
+              "prompt": "{argument name=\"application\" default=\"ChatGPT 超级应用\"} 的计算机截图",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/13643.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_animals",
+                    "name": "动物宠物"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pia_realistic-bird-artistic-flight-path",
+              "name": "鸟写实",
+              "type": "prompt",
+              "prompt": "{argument name=\"subject\" default=\"鸟类\"} 全速飞行，写实风格，并融合了 {argument name=\"style\" default=\"彩色艺术痕迹\"}。",
+              "negative_prompt": "",
+              "description": "PromptImageAtlas · promptimageatlas",
+              "thumbnail": "https://promptimageatlas.com/images/originals/20836.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "photography_animals",
+                    "name": "动物宠物"
+                  }
+                ]
               }
             }
           ]

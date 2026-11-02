@@ -96,29 +96,28 @@
     {
       "packId": "platform-nano-banana",
       "name": "Nano Banana 风格包",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "entryCount": 8065,
       "kind": "styles",
       "description": "Nano Banana 系平台产出的风格提示词",
       "path": "packs/platform-nano-banana",
       "categoryCount": 10,
-      "sizeBytes": 21125522,
+      "sizeBytes": 21151228,
       "sha256": {
-        "pack.json": "288c2e051906f7e04fe4a32160e35134f3b48826c285c20c0ffd0747c97c2839",
-        "photography.json": "e2fb08c922d57e828f0a8d4d91bd91ee2f3b7095d81b0fae225bb435e5b7cf6c",
-        "anime_manga.json": "3571d4449cfbe8a056056ffa33cfa514da68e839d2bddca43908497de6356616",
-        "painting.json": "95af77cddb4632de32fcfce80849f924cd9060174a0897b49e78e5652898db4e",
-        "digital_3d.json": "b324b90a8a8fd6272c0b55aa1328e20e17ef9e962fe372e32414c14c01df1007",
-        "commercial.json": "9dfd373a43104f989ba47aa0d0700c516972fe721b954eb4ff43ef3aa1c8e241",
-        "film_cinema.json": "ce982409cae00af24280892a51df4d0bc9dabd81ce576e316a8f0f328cb74b73",
-        "crafts.json": "9ec722bcaa7198ad37b99f3d5780e4e72f31a2390abf76e5c4da118df78952d6",
-        "art_movements.json": "a43ba93d6240082e61ff59662b0bc73a94e28e18bb7202d5b9501cf9a4a02b42",
+        "pack.json": "55a6efac1fcff10d48f2b8f45074f859e1a6efd16008f79f3763a0d4c673d48f",
+        "photography.json": "8f55f0b31fab89542087c9ee7e710b7787d2f8dbbef47e1769523dc3ecceae69",
+        "anime_manga.json": "9b68ee183ad82c0e6eb6f4fab2bfeeee0eed17ab50bba74d81b98ea34882d010",
+        "painting.json": "4c691d4b753a0a94bf30a956c9c446905ddd7131f7a2eeaf8568dbe4141502b8",
+        "digital_3d.json": "e07f07a6cb4b3270c1d66038b34b2e3c9986d4e8f003b22531203fc291e044ed",
+        "commercial.json": "839ca265e32ff79508c9c8bd7242e7dac4abf0bcd3d7feb746aad9c13bbae6b4",
+        "film_cinema.json": "2a4d1b0fd339983f8651256ad84447dc055bfacd54bd6f018611dedf42bee435",
+        "crafts.json": "d267f1d99510c622cd14a67af0273e24f87a08d1b58cc7af9d27f09796e1a218",
+        "art_movements.json": "5644aaf50d9d76c6adf1eaa5ffd11f0c369cfa4f6f0d13a4c0e662b72a767902",
         "general.json": "03dbf6fa6dde48dcfcf0ddc417fe2f38b31e3b1f277e4a5b93ee06cb17869726",
-        "uncategorized.json": "5f3e06ffb397dbc66c57300ac4de314f15b95c75ef6be6e75ca3f1e8a8cd6d15"
+        "uncategorized.json": "703db52474550b818751f4e6c7e2df46f29a5605e8b51c130c364b148c1cd3d5"
       },
       "classificationSummary": {
-        "resolved": 7248,
-        "unresolved": 817
+        "resolved": 8065
       },
       "emptyPromptIds": [],
       "replaces": [
@@ -129,28 +128,28 @@
     {
       "packId": "platform-pia",
       "name": "PromptImageAtlas 风格包",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "entryCount": 2150,
       "kind": "styles",
       "description": "PromptImageAtlas 系列风格库",
       "path": "packs/platform-pia",
       "categoryCount": 9,
-      "sizeBytes": 5784861,
+      "sizeBytes": 5790349,
       "sha256": {
-        "pack.json": "e63541a6935b23ad19e11cb0bf479cd9cd0180d06f298ff33f5b8c1bbf644852",
-        "photography.json": "0a1d7a5096f4f22cd86d2a5136edb6fca1d3fcd360a72e1c7226e497da4b1f38",
-        "anime_manga.json": "a3c968b44b20c24e4e5a46fdc82b9219f166d42c9c0992f0f5d57b085a847fdf",
-        "painting.json": "1113e0155ac3cf38ecced4359fc67a0fb34708ba1925d98c5e7e8eb1404fb188",
-        "digital_3d.json": "60e7210eeac09f6cfee289424374c9921d0fced3ce7c6bfb1768dc4e8454c215",
-        "commercial.json": "8547f00cf320988cd679d95f9d08da915802230667910dc8daa74e7e9da0bec5",
-        "film_cinema.json": "bdbb6f1c652ca3647c156f4e0e78d9b6fd4b9eba98aa1efbf4c461fa76756f46",
-        "crafts.json": "574f24722b1aa29232b1eddfa642ae28db5d162b5e938b3ae6d2b61af0db1e58",
-        "art_movements.json": "d1843f910b1aff23e56f8fee25d632ab4ac16a76b367d849a853be4b5310d077",
-        "uncategorized.json": "7ce0d437dc3058381aa02a56dcad121dbd929e0d013f85c0417f3dc5552f4e18"
+        "pack.json": "a68c9a813249987ecac244537c43fe5faef3265533a90c6b5f52d37ee0b80e07",
+        "photography.json": "526028b75f9aa42c7dd173a8903b0c3c1f754363082e29d535a2eb559479d6ae",
+        "anime_manga.json": "f84429db1c9c1fb24cc9a09a7ed6ea1db904bbd2e275207f7092593ca8050635",
+        "painting.json": "19df4ed31bb6886860d9e7de38f843642fd028d3383ba4d13a9d6a6bb06a685e",
+        "digital_3d.json": "a665309835fe42fb113dadbec3eb7455c31529e8ab70d2acf079afe79399200d",
+        "commercial.json": "e6c467ebf2ef1d236cd82d33828738c11231595f17edb31a067da9b01c6f0572",
+        "film_cinema.json": "c8e444e636e403565ad8bc987b5aa5a59630258cce46110247d16f8043f0cacb",
+        "crafts.json": "67c12ee69d288f049a5ade1681e4903b42e5859a6c4a9c296ad32962e92b6608",
+        "art_movements.json": "7bcb82c67e416bc377f9694124b0214a5ddfba1b7b79b1cfd56cb1b89e21595a",
+        "uncategorized.json": "6075c233bedff89384286c5f5065a5aca3c4abf0559302a21ac92cfcd8837621"
       },
       "classificationSummary": {
-        "resolved": 1978,
-        "unresolved": 172
+        "resolved": 2100,
+        "unresolved": 50
       },
       "emptyPromptIds": [],
       "replaces": [
@@ -161,28 +160,28 @@
     {
       "packId": "platform-yuanbao",
       "name": "腾讯元宝 风格包",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "entryCount": 1459,
       "kind": "styles",
       "description": "腾讯元宝文生图与图生图风格",
       "path": "packs/platform-yuanbao",
       "categoryCount": 9,
-      "sizeBytes": 5508859,
+      "sizeBytes": 5520888,
       "sha256": {
-        "pack.json": "8d03b44b44f94adcf62e6005ac867089266528c02fa38bbacc267469b639511f",
-        "photography.json": "681489eef1a63ef257cc22d8ecd92c03a417cc791ca9202c174b19f689a25747",
-        "anime_manga.json": "cedc132add451bd534a4b5fb66e9b29fc4742ee65a250569a0f0ff75e0e914ee",
-        "painting.json": "52127d159441e0b6da3787c666acaaf2691983c36e6810cd8b1afeddf8677d20",
-        "digital_3d.json": "4b04e7307d4c902a9852c180094292c04dd3c3000336c4abfecb4ed5adc3dbba",
-        "commercial.json": "9891dd6177a9b8af5f9c36f92ac5dda0f3ea8a47d1750d18d47cbe4dd160e437",
-        "film_cinema.json": "b5456310a747a233c9de6361e83ca3db4a5407a12a5974f034b0f8a086b223f6",
-        "crafts.json": "e2baaeae1e3d75bc127ab1c52ac7f639a3b9185b64046dfaa8fb99a24e011f0f",
-        "art_movements.json": "69465b57befcabc33b016c520dc0ae02348f65922a3e29241cd536800f651498",
-        "uncategorized.json": "a98412ca03e6fbe46ff9832304903579cf25f298dcc28c6f7100633640cbb218"
+        "pack.json": "7e68dc9caf211f01dc284e5c28a1a4a8710f4136384095e8b183bc5460936c12",
+        "photography.json": "a690f901420e272a98d6753a0360f8ab41404f2eb3ed742d588c68bafb81afcc",
+        "anime_manga.json": "6f41b9e39f7a68efdc60e0427865994b6e59a4683cd5f0d7168dd9dd2c8828e0",
+        "painting.json": "3a83314597d5625dde56a6f0bbfda5bafaad651fd8ccb9ff34ad71ed40008556",
+        "digital_3d.json": "da44fcad7558a0553858243c840591d7b6ff547354cf221b29eb7852e2d8bf96",
+        "commercial.json": "1ddbcbe8acd40269387e1a4187b1cb8f9993edfea1fed838c328ecdfb60bdbb7",
+        "film_cinema.json": "d1ed89d9d708e10b6159d502380e435ccb7c122c7ae7b2d048b688aac3d58196",
+        "crafts.json": "2fd9dd7b051528520667241b581f07976153b25b931acbd72259a31c5d0d4242",
+        "art_movements.json": "2c5b4b2fbe68fe7bf7060f87f0b95dc6b03504be1c45829c997c0505da1162bc",
+        "uncategorized.json": "7fc1967381aca08e681f1844feeaa29aa1902c5a795848e4137056d45be4da2a"
       },
       "classificationSummary": {
-        "resolved": 1100,
-        "unresolved": 359
+        "resolved": 1458,
+        "unresolved": 1
       },
       "emptyPromptIds": [],
       "replaces": [
@@ -193,28 +192,27 @@
     {
       "packId": "platform-other",
       "name": "其它来源 风格包",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "entryCount": 1694,
       "kind": "styles",
       "description": "Grok、ComfyUI、即梦、通义等其余来源，以及未标注来源的条目",
       "path": "packs/platform-other",
       "categoryCount": 9,
-      "sizeBytes": 2614363,
+      "sizeBytes": 2632471,
       "sha256": {
-        "pack.json": "deb691ff49ba20217a4e73fe744d08e0de57d8bc8ec03a4c37d7aaae10a29990",
-        "photography.json": "398d023222ee838ddc0442b563fe31bc664d35a4cff204946ce998c1b190efeb",
-        "anime_manga.json": "c7fe21f1446e7c910a588e9ec82855b3e3ce2c20df1f0bd8f06e21f57427e7bd",
-        "painting.json": "70066c3a763d7c9529aa9508ac60a4c7170c6fb59da66f4803054ec4e98f2fb4",
-        "digital_3d.json": "eb0303a53e942ea322780ac75f0dc4c9ea886d0247947a528ae85ec62d059df0",
-        "commercial.json": "b99ccda596a24d715c4b80e9b8f8f71ebc92350b419dc4323df0371a5bc5661a",
-        "film_cinema.json": "13ff7223fd0a154e6d3c7ade4840b9bed7c7d96c3c1139ca6a2b21549ceefb3f",
-        "crafts.json": "052e55ea59ba3a042ff7f782cfd7e72e902fa0f07b9b28a937868914e716f2db",
-        "art_movements.json": "377cfe4a61b75989f905986bf8ef8005bb0d06bd844c1960786618999f29f0a3",
-        "uncategorized.json": "bc21a0c7bfa26d7948bc4ff65ef5223ef8690e37705195e379e5f5e9a72e73c9"
+        "pack.json": "504e5651f68168e0a2ed18c15bacc461e827d9cc2062b540e4377e3f5013f2c1",
+        "photography.json": "0d040518f97ecbfeff0c947d1418bf3e4082083af6d8a27769ce5ae5b61c5f5b",
+        "anime_manga.json": "b31e3869c70fc1ee17fb2bbb848faaee49b20a88f92e193433a891d568bb1d94",
+        "painting.json": "4c4bbe42a0e8a967e8a9cb7fce090debf53722435125440d2f9e323f0968e391",
+        "digital_3d.json": "03f0781cf25a070044a441f127a5231c775207b5f8685cdd65847ac1b4e54f2b",
+        "commercial.json": "c10982d3e63ce3d909d5972a2bb7d5147a04ccc1ae74b323629b630215f11809",
+        "film_cinema.json": "a4a5a728d68bc67c2ff0ac8204c79dca1058a871ec066fa25e46349a6e033a4f",
+        "crafts.json": "327f0a6f91aeb3da5d0be45720e8534e9b048237d2c7cfd9cd1637db28513818",
+        "art_movements.json": "fc77f0013ccf65e89f60ec00e6a2b4f03eaf514f079c76f1aa254b2fda76c0ec",
+        "uncategorized.json": "703db52474550b818751f4e6c7e2df46f29a5605e8b51c130c364b148c1cd3d5"
       },
       "classificationSummary": {
-        "resolved": 1177,
-        "unresolved": 517
+        "resolved": 1694
       },
       "emptyPromptIds": [
         "fooocus_fooocus_fooocus_enhance",

@@ -595,6 +595,1446 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "opennana_giant-pen-writing-fantasy-world",
+              "name": "巨笔书写奇幻史诗世界",
+              "type": "prompt",
+              "prompt": "{subject}, 一只巨大的手紧握着一支巨大的复古钢笔，以竖幅肖像格式 (9:16) 捕捉，正在填满画面的无尽纹理纸上书写。在墨水流淌之处，[书名]的故事焕发出鲜活的生命力——[来自[书名]的标志性角色、关键物品和经典场景作为微小的微型人物在纸上浮现，每一个都不比指甲盖大，超微缩比例]。随着钢笔移动，微型世界如瀑布般在纸面上向下倾泻，角色定格在故事中途，墨迹在它们浮现的边缘仍湿润。巨大的笔尖触碰纸张的极度特写，墨水渗入纤维，指尖可见皮肤纹理。温暖的琥珀色和柔和的金色光线掠过纸面，深邃的阴影，电影级景深，魔幻现实主义，超精细细节，照片级真实感，8K，--ar 9:16",
+              "negative_prompt": "",
+              "description": "Nano Banana 2",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1772464002462-dwt0jn2r-1.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_obsidian-ritual-salt-silo",
+              "name": "盐仓暗影中的黑曜石仪式",
+              "type": "prompt",
+              "prompt": "{subject}, { \"vibe_title_en\": \"黑曜石仪式\", \"master_prompt\": \"一张超现实的、单色特写肖像，描绘了主角，风格为前卫的部落野兽派。主体面部涂有厚重的哑光黑色垂直条纹，勾勒出骨骼结构，与超精细的皮肤毛孔和自然瑕疵形成鲜明对比。他们头戴一个由粗糙生丝和厚重炭灰色亚麻布包裹而成的蓬松雕塑感头巾，强调了织物的纹理和触感重量。双手在下巴下方紧紧合拢，呈祈祷状，涂有与面部相配的深色颜料，并逐渐淡入手腕。背景是一个饱经风霜的盐仓内部，墙壁上的白色盐晶捕捉到刺眼、棱角分明的光束，营造出高对比度的明暗对比效果。使用哈苏 500C/M 相机和伊尔福 HP5 Plus 黑白胶片拍摄，画面具有厚重的颗粒感、深邃的压碎黑色调，并且对眼睛有锐利的聚焦。\", \"meta\": { \"intent\": \"时尚编辑 / 艺术肖像\", \"priorities\": \"纹理、对比度、情绪\", \"device_profile\": \"高端桌面 / 大画幅打印\" }, \"frame\": { \"aspect\": \"9:16\", \"composition\": \"中央对称特写\", \"layout\": \"肖像\", \"camera_angle\": \"平视\", \"tilt_roll_degrees\": \"0\" }, \"subject\": { \"gender\": \"女性\", \"identity\": \"主角\", \"demographics\": \"青年\", \"face\": \"中性表情，直视的强烈凝视，垂直黑色几何面部彩绘\", \"hair\": \"完全被雕塑感头巾覆盖\", \"body\": \"可见肩膀和双手，双手在下巴下方合拢\", \"expression\": \"强烈、坚忍、穿透\", \"pose\": \"静态，双手在下巴下方交织，呈沉思状\" }, \"wardrobe_accessories\": { \"garments\": [ { \"item\": \"雕塑感头巾\", \"material\": \"生丝和粗亚麻\", \"color\": \"炭灰色/黑色\", \"fit\": \"紧密包裹，蓬松\" }, { \"item\": \"束腰外衣\", \"material\": \"做旧棉布\", \"color\": \"深灰色\", \"fit\": \"宽松，有纹理\" } ], \"accessories\": [ { \"item\": \"身体彩绘\", \"color\": \"哑光黑\", \"material\": \"颜料\", \"brand_style\": \"部落前卫\" } ] }, \"environment\": { \"setting\": \"饱经风霜的盐仓内部\", \"surfaces\": \"结晶盐墙，布满灰尘的混凝土\", \"depth\": \"浅景深\", \"atmosphere\": \"停滞、干燥、寂静\", \"lens_interaction\": \"锐利的焦点衰减，独特的胶片颗粒感\" }, \"lighting\": { \"key\": \"高对比度棱角阳光（伦勃朗风格）\", \"fill\": \"负补光（深阴影）\", \"rim\": \"头巾纹理上的微妙高光\", \"shadows\": \"深邃、压碎的黑色\", \"color_temperature\": \"单色（黑白）\", \"sensor_flare\": \"无\" }, \"camera\": { \"lens_type\": \"\" } }",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775074540588-lif1mee8-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_extreme-breakthrough-liquid-chrome",
+              "name": "极致突破：撕裂镜面液态铬墙",
+              "type": "prompt",
+              "prompt": "{subject}, { \"prompt\": \"超现实的奢华运动广告艺术作品，捕捉一位精英男性短跑运动员冲破一面完全由镜面液态铬制成的垂直墙壁的精确瞬间。运动员的面部必须与上传的参考图像 100% 准确匹配——面部结构、肤色、眼睛形状、鼻子、嘴唇、下颌线、骨骼结构、发际线、面部毛发（如有）、自然皮肤纹理和表情动态都必须完全一致。不得美化、不得风格化、不得变形、不得改变身份。保持面部的完全真实性和原真性。 身体以强劲的冲刺姿态积极向前倾斜，肌肉线条分明，血管若隐若现，姿势符合空气动力学且富有爆发力。表情展现出与参考图像中完全一致的克制决心。 服装：哑光黑曜石空气动力学短跑服，带有纤细的银色接缝，勾勒出健美体型。鞋履：光滑的炮铜灰色短跑鞋，带有碳纤维纹理和极简品牌标识。 冲击瞬间：金属液态铬墙壁以超高速冻结的细节向外破碎。刀片状的飞溅物、锐利的弧线和悬浮的液滴反射出运动员运动的扭曲微小倒影。“BREAKTHROUGH”一词物理地嵌入并碎片化在铬碎片中，融入液态金属表面。 背景：深邃的午夜黑色渐变为微妙的钢灰色，形成戏剧性的对比。影棚布光设置，高对比度轮廓光，铬上锐利的高光，清晰的阴影衰减。极致微距清晰度，8K 商业体育摄影的真实感与超现实的金属物理效果相结合，高动态范围，超详细纹理。\", \"ratio\": \"4:5\", \"style\": \"商业体育摄影、超现实、奢华广告\", \"quality\": \"超高分辨率、8k、极致细节\", \"lighting\": \"戏剧性影棚布光、轮廓光、高对比度、反射高光\", \"camera\": \"低角度、85\" }",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775068289106-dko7jfqt-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_toffee-boundaries-metaphor",
+              "name": "敞开与界限的太妃糖哲学隐喻",
+              "type": "prompt",
+              "prompt": "{subject}, { \"style\": \"电影感、象征性、极简、写实\", \"aspect_ratio\": \"9:16\", \"scenes\": [ { \"scene_number\": 1, \"description\": \"一个宁静的户外场景，柔和的自然光下，一个干净的平面上并排放着两块一模一样的太妃糖。\", \"camera\": \"缓慢推近\", \"mood\": \"平静、中性\" }, { \"scene_number\": 2, \"description\": \"一块太妃糖用闪亮的包装纸整齐地包着。另一块太妃糖则完全裸露，没有包装。\", \"camera\": \"静态特写\", \"mood\": \"对比、期待\" }, { \"scene_number\": 3, \"description\": \"蚂蚁开始出现，慢慢爬向未包装的太妃糖，完全忽略了包装好的那块。\", \"camera\": \"微距拍摄、慢动作\", \"mood\": \"不安、揭示\" }, { \"scene_number\": 4, \"description\": \"更多的蚂蚁聚集在未包装的太妃糖周围，将其覆盖，而包装好的太妃糖则保持原样，未被触碰，受到保护。\", \"camera\": \"俯视镜头\", \"mood\": \"警示、醒悟\" }, { \"scene_number\": 5, \"description\": \"当蚂蚁蜂拥而至未包装的太妃糖时，文字在屏幕上淡入。\", \"text_overlay\": \"{argument name=\\\"first message\\\" default=\\\"当你过于开放时，你可能会被利用。\\\"}\", \"camera\": \"柔和淡入\", \"mood\": \"反思\" }, { \"scene_number\": 6, \"description\": \"最后一帧聚焦在单独放置的包装好的太妃糖上，它干净而完好无损。\", \"text_overlay\": \"{argument name=\\\"second message\\\" default=\\\"界限保护你的价值。\\\"}\", \"camera\": \"缓慢拉远\", \"mood\": \"赋能、平静\" } ], \"audio\": { \"background_music\": \"柔和的环境钢琴乐\", \"sound_effects\": \"微妙的自然环境音\" } }",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774308997633-gmla0b0s-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_skyscraper-giant-peanut-butter-spectacle",
+              "name": "摩天大楼上的巨型花生酱奇观",
+              "type": "prompt",
+              "prompt": "{subject}, 使用参考图像中的相同面部，不改变面部特征。一个巨大的超大罐 MYBPB 纯花生酱粉，用巨大的灰色胶带戏剧性地捆绑并粘在市中心一座大城市的现代玻璃摩天大楼上，这个巨大的罐子漂浮着，高高地固定在两座高大的反光蓝色玻璃塔之间的建筑立面上，下面拥挤的街道上挤满了数百名兴奋的人们，他们敬畏地向上看，许多人举起智能手机拍照，一些人指指点点，城市人群穿着冬季夹克和外套，戏剧性的白天，局部多云的蓝天，逼真的广告特技风格，超现实的巨型产品装置，高度详细的罐子标签，上面写着“MYBPB® PURE PEANUT BUTTER POWDER”、“100% Peanuts, Nothing Else!”、“2x Protein”、“80% less calories”、“No added sugar & palm oil”，红色盖子，白色罐子，带有绿色和棕色点缀，花生插图，照片级真实感，电影构图，从街道向上看的广角镜头，史诗般的规模，锐利对焦，超高细节，8k，前景中一位自信的西方女性，穿着时尚的米色风衣和太阳镜，一只手拿着一个 MYBPB 罐子，另一只手指着巨大的装置，带着大胆的笑容，微风吹拂着她的头发，强烈的广告姿态，品牌大使的活力，略微偏离中心以获得动态构图，高端商业宣传氛围。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775080852562-cuyw58lv-1.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_time-warped-ferrari-liquid-chrome",
+              "name": "时光扭曲的法拉利液态铬金属艺术",
+              "type": "prompt",
+              "prompt": "{subject}, 法拉利 超现实极简主义照片级写实平面广告。主角：法拉利前脸被拉伸成细长的液态镀铬金属条纹，仿佛时间在车辆加速过程中被拉长。最多一个点缀色。哑光白色画廊背景，留有大量负空间。影棚灯光，微反射，8K 超清晰。官方法拉利盾牌标志位于左上方（矢量图，比例准确，带有微妙的墨水纹理）。右下方是两个字的标语：“Distort Speed”。无杂物，无水印，无额外文字。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774237815002-6wo54vmx-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_photosynthetic-future-biotech-nature-harmony",
+              "name": "光合未来：生物科技与自然的和谐共舞",
+              "type": "prompt",
+              "prompt": "{subject}, 一个令人惊叹的太阳朋克产品展示，可持续科技产品以优雅的网格布局排列，与郁郁葱葱的植物元素无缝融合。场景中，生物工程设备拥有流畅的有机曲线和活苔藓点缀，在再生木材表面上完美对称地摆放。每件产品都散发着柔和的生物荧光，采用半透明的生物塑料外壳，内部可见植物根系和流动的水道。背景是一面翠绿的活体墙，上面垂坠着空气净化藤蔓，集成式太阳能电池板叶片，以及为展示技术提供动力的精致花荚。 黄金时段的阳光透过落地窗倾泻而入，洒下温暖的琥珀色光芒，在绿色植物上跳跃，以梦幻般的、空灵的背光照亮产品。柔和的体积光营造出轻柔的镜头光晕，并突出了自然与科技的有机纹理。整体氛围乐观而宁静，体现了创新与自然和谐共存的美好未来。 拍摄角度略微抬高，呈四分之三视角，使用广角镜头和浅景深，在背景植被中营造出艺术虚化效果，同时保持产品网格清晰对焦。构图遵循三分法原则，木板和藤蔓的排列形成引导线。专业的商业摄影风格，色彩分级鲜明，强调浓郁的翠绿色、温暖的金色调和柔和的白色高光。美学上平衡了极简的 韩式 设计感与丰富的自然元素，营造出一种适合 Instagram 分享的视觉效果，暗示着高端生态奢华和可持续创新。照片级真实感渲染，具有高动态范围、清晰的细节和微妙的胶片颗粒，以呈现有机真实性。 一个时尚的手写签名 Willy 以优雅的小写字母放置在右下角。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774148025193-56xua4xo-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_arctic-cola-monument",
+              "name": "极地奇观：冰雪封存的巨型物品",
+              "type": "prompt",
+              "prompt": "{subject}, 超写实 8k 电影摄影照片，低角度广角镜头。一个巨大的可口可乐罐像纪念碑一样矗立，在北极景观中部分被厚厚的蓝色冰川冰和雪包裹。铝表面覆盖着霜，长长的冰柱从边缘垂下，雪填满了顶部的开口。雪地履带车和穿着红色派克大衣的科学家作为比例参照。冷调漫射照明，HDR，超逼真的冷冻纹理，电影氛围 --ar 2:3",
+              "negative_prompt": "",
+              "description": "Nano Banana 2",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1772422059992-569vde83-1.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_campfire-galaxy-astronaut",
+              "name": "篝火化作星河，宇航员与青年的宇宙奇遇",
+              "type": "prompt",
+              "prompt": "{subject}, { \"type\": \"image_generation_prompt\", \"style\": \"超现实、电影感、概念艺术\", \"camera\": { \"angle\": \"高角度\", \"shot\": \"全景\", \"composition\": \"对称平衡，篝火将两个人物分隔开来\", \"background\": \"漆黑的虚空，没有可见的环境\" }, \"scene\": { \"setting\": \"抽象的宇宙空间\", \"environment\": \"黑暗的虚空，强调孤立和对比\", \"resolution\": \"8k\", \"render_style\": \"照片级写实\" }, \"characters\": [ { \"position\": \"左侧\", \"subject\": \"宇航员\", \"pose\": \"坐着\", \"seat\": \"粗糙的灰色岩石\", \"appearance\": { \"suit\": \"高度精细的写实白色宇航服\", \"helmet\": \"戴着头盔，反光面罩\" }, \"action\": \"手持木棍，在火上烤棉花糖\" }, { \"position\": \"右侧\", \"subject\": \"年轻人\", \"pose\": \"坐着并前倾\", \"seat\": \"金属折叠椅\", \"appearance\": { \"hair\": \"深色头发\", \"clothing\": { \"top\": \"红黑格子法兰绒衬衫\", \"bottom\": \"蓝色牛仔裤\", \"footwear\": \"棕色靴子\" } }, \"action\": \"在火边取暖\" } ], \"central_element\": { \"object\": \"篝火\", \"style\": \"魔幻而超现实\", \"fire_behavior\": \"火焰无缝过渡为螺旋星系\", \"galaxy\": { \"type\": \"照片级写实螺旋星系\", \"details\": [ \"闪烁的星星\", \"宇宙尘埃\", \"旋转的运动\" ], \"shape\": \"像天体华盖一样拱起在头顶\" } }, \"lighting\": { \"primary_light\": \"篝火发出的温暖橙色光芒\", \"secondary_light\": \"星系发出的冷蓝色和紫色光芒\", \"mood\": \"戏剧性、电影感、空灵\", \"shadows\": \"柔和而深邃，强调对比\" }, \"color_palette\": { \"dominant\": [\"黑色\", \"橙色\", \"蓝色\", \"紫色\"], \"accent\": [\"白色\", \"红色\", \"棕色\"] }, \"themes\": [ \"人际连接\", \"宇宙奇观\", \"平凡与无限的对比\", \"无限宇宙中的共享温暖\" ], \"quality_tags\": [ \"超细节\", \"照片级写实纹理\", \"电影级灯光\", \"锐利对焦\", \"高动态范围\" ] }",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775066435131-jzkhmk0j-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_campfire-galaxy-cosmic-encounter",
+              "name": "篝火幻化星河的宇宙奇遇",
+              "type": "prompt",
+              "prompt": "{subject}, { \"type\": \"image_generation_prompt\", \"style\": \"超现实、电影感、概念艺术\", \"camera\": { \"angle\": \"高角度\", \"shot\": \"全景\", \"composition\": \"对称平衡，中央篝火将两个人物分隔开来\", \"background\": \"漆黑的虚空，没有可见的环境\" }, \"scene\": { \"setting\": \"抽象宇宙空间\", \"environment\": \"黑暗虚空，强调孤立与对比\", \"resolution\": \"8k\", \"render_style\": \"照片级真实感\" }, \"characters\": [ { \"position\": \"左侧\", \"subject\": \"{argument name=\\\"character 1\\\" default=\\\"宇航员\\\"}\", \"pose\": \"坐着\", \"seat\": \"粗糙的灰色岩石\", \"appearance\": { \"suit\": \"高度逼真的白色宇航服\", \"helmet\": \"戴着，反光面罩\" }, \"action\": \"手持木棍，在火上烤棉花糖\" }, { \"position\": \"右侧\", \"subject\": \"{argument name=\\\"character 2\\\" default=\\\"年轻人\\\"}\", \"pose\": \"坐着并前倾\", \"seat\": \"金属折叠椅\", \"appearance\": { \"hair\": \"深色头发\", \"clothing\": { \"top\": \"红黑格子法兰绒衬衫\", \"bottom\": \"蓝色牛仔裤\", \"footwear\": \"棕色靴子\" } }, \"action\": \"在火边暖手\" } ], \"central_element\": { \"object\": \"篝火\", \"style\": \"魔幻超现实\", \"fire_behavior\": \"火焰无缝过渡成螺旋星系\", \"galaxy\": { \"type\": \"照片级真实感螺旋星系\", \"details\": [ \"闪烁的星星\", \"宇宙尘埃\", \"旋涡状运动\" ], \"shape\": \"如天穹般拱起在头顶上方\" } }, \"lighting\": { \"primary_light\": \"篝火发出的暖橙色光芒\", \"secondary_light\": \"星系发出的冷蓝色和紫色光芒\", \"mood\": \"戏剧性、电影感、空灵\", \"shadows\": \"柔和而深邃，强调对比\" }, \"color_palette\": { \"dominant\": [\"黑色\", \"橙色\", \"蓝色\", \"紫色\"], \"accent\": [\"白色\", \"红色\", \"棕色\"] }, \"themes\": [ \"人际连接\", \"宇宙奇观\", \"平凡与无限的对比\", \"无限宇宙中的共享温暖\" ], \"quality_tags\": [ \"超细节\", \"照片级真实感纹理\", \"电影级光照\", \"锐利对焦\", \"高动态范围\" ] }",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774980196682-8x4cjlkq-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_dark-taxidermy-flamingo-illusion",
+              "name": "幽暗标本室里的火烈鸟半脸幻觉",
+              "type": "prompt",
+              "prompt": "{subject}, { \"vibe_title_en\": \"超现实鸟类学\", \"master_prompt\": \"一个偷窥式的长焦镜头捕捉，透过昏暗的高端动物标本工作室的杂乱物品窥视。主角 [性别中立，肤色苍白，剃光头或头发向后梳] 站在阴影中，身穿结构感十足的白色缎面西装外套。在一个超现实的紧张时刻，他们将一个超逼真的、超大号的火烈鸟头部道具 [由彩绘瓷器和合乎道德来源的羽毛制成] 垂直举到脸前，创造出一种无缝的“分裂面孔”幻觉，鸟喙与人下颌线对齐。主角用他们唯一可见的眼睛，直接向镜头投来锐利而神秘的一瞥，创造出一种穿透性的连接。构图被失焦的前景元素（古董玻璃罐、线框）严重遮挡，以增强侵入感。灯光情绪化且富有电影感：深邃的明暗对比阴影，以及一道酷蓝色边缘光打在白色缎面和火烈鸟的曲线边缘。使用哈苏 H6D-100c 相机，210 毫米长焦镜头，f/3.2 光圈拍摄，以压缩空间。纹理具有明显的模拟感，模仿 Cinestill 800T 胶片，带有可见的颗粒，确保羽毛和皮肤毛孔看起来有触感和真实感，拒绝任何“数字艺术”的光滑感。\", \"meta\": { \"intent\": \"时尚编辑 x 超现实主义\", \"priorities\": \"摄影纹理、超现实道具整合、偷窥式构图\", \"device_profile\": \"高端桌面 / 大幅面打印\" }, \"frame\": { \"aspect\": \"9:16\", \"composition\": \"偷窥式构图，前景严重遮挡（透过架子/物体窥视）\", \"layout\": \"主体居中，但被负空间层遮挡\", \"camera_angle\": \"视线水平，从远处透过缝隙拍摄\", \"tilt_roll_degrees\": \"0\" }, \"subject\": { \"gender\": \"女性\", \"identity\": \"主角\", \"demographics\": \"中性风高端时尚模特，20-30 岁\", \"face\": \"苍白皮肤，颧骨突出，高度细致的皮肤纹理/毛孔，一只眼睛可见\", \"hair\": \"光头或极短的寸头（参考情绪板）\", \"body\": \"纤细，优雅的姿态\", \"expression\": \"神秘，锐利的一瞥，尽管有遮挡仍保持强烈的眼神交流\", \"pose\": \"将一个大型道具垂直举到脸前，遮住半边脸\" }, \"wardrobe_accessories\": { \"garments\": [ { \"item\": \"结构感西装外套\", \"material\": \"高光泽缎面或丝绸\", \"color\": \"珍珠白\", \"fit\": \"宽松，高级定制\" } ], \"accessories\": [ { \"item\": \"超现实火烈鸟道具\", \"color\": \"淡蓝色渐变为粉色，黑色鸟喙\", \"material\": \"彩绘瓷器和真羽毛\", \"brand_style\": \"前卫雕塑\" }, { \"item\": \"个性戒指\", \"color\": \"银色/钻石\", \"material\": \"金属\" } ] } }",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774990847679-gdwggaid-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-444",
+              "name": "魔法窗口",
+              "type": "prompt",
+              "prompt": "{subject}, 一张摄于1975年的颗粒感很强的35毫米胶片照片。一位建筑工人在一栋砖房的一楼安装一块巨大的玻璃窗。透过这块透明的玻璃，我们看到的不是房间内部，而是从摩天大楼俯瞰夜色中霓虹闪烁的东京都市景象。然而，玻璃的倒影却正确地展现了摄影师身后阳光明媚的郊区花园。视觉上的异常，一种微妙的恐怖感，以及胶片特有的质感。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/444.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-446",
+              "name": "伪造的历史",
+              "type": "prompt",
+              "prompt": "{subject}, 1969年，一段泄露的秘密摄影棚拍摄花絮。尼尔·阿姆斯特朗正行走在“月球表面”，但镜头拉远，揭示出那只是摄影棚里的沙箱。画面右上角可以看到一名吊杆麦克风操作员。斯坦利·库布里克正用扩音器大声喊着指示。摄影棚灯光、胶片颗粒感、略微模糊的画面，以及手持摄影机的移动风格。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/446.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-667",
+              "name": "超写实风格真实和卡通分离效果",
+              "type": "prompt",
+              "prompt": "{subject}, {\n\"image_generation\": {\n“要求”： {\n\"面保存\": {\n\"preserve_original\": true,\n\"accuracy_level\": \"与参考值100%相同\"\n“细节”： [\n“真实的脸部比例”，\n“精准的肌肤纹理”，\n“真实的眼睛形状和颜色”，\n“自然柔和的妆容”，\n“淡淡的上扬眼线”，\n“柔和的粉色眼影”，\n“自然红润的嘴唇”\n]\n},\n\"姿势\": {\n\"match_reference_pose\": true,\n“描述”：“胸部以上的肖像，脸部朝前，但从观看者的角度来看略微向右倾斜。”\n},\n“灯光”： {\n\"match_reference_lighting\": true,\n“类型”：“柔和漫射室内照明”，\n“方向”：“从前方略偏左”，\n“阴影”：“脸颊和颈部两侧柔和的阴影”，\n\"background_tone\": \"柔和的中性色，略带蓝色调\"\n}\n},\n\n“主题”： {\n\"性别\": \"女性\",\n\"发型\": {\n\"match_reference\": true,\n描述：与参考图中完全相同的发型\n},\n“表情”：“中性，略带沉思”\n“衣服”： {\n上衣：一件简单的黑色T恤，\n“项链”： “带有小巧简约吊坠的细银项链”\n}\n},\n\n“作品”： {\n“画框”：“胸部以上肖像”，\n“方向”: “正面略微向右倾斜”\n“风格”：“超写实风格，带有真实/卡通分离效果”\n},\n\n\"特效\": {\n\"split_effect\": {\n“类型”：“不规则中心撕裂”，\n“边缘”：“白色斜角撕纸效果”，\n描述：图像似乎从中间撕裂开来\n},\n\n\"realistic_side\": {\n“背景”：“柔和、中性、略带蓝色的环境”，\n“过滤器”：[\n“柔和的模拟颗粒”，\n“略带陈旧的质感”，\n“饱和度降低”，\n“细微的胶片瑕疵”\n],\n“叠加层”：[\n“左眼下方贴有蓝色水滴形贴纸”，\n“额头附近有小小的‘Zzz’睡眠符号”，\n“左上角的黄色新月”\n“浅蓝色手绘云朵”\n]\n},\n\n\"illustrated_side\": {\n\"art_style\": \"大胆的卡通，数字插画\",\n\"color_palette\": \"明亮、鲜艳、饱和\"\n“头发”：“与写实风格相同，但风格化”，\n“眼睛”：“夸张的眼线，戏剧性的表情”，\n“背景”：“充满活力的浅粉色波普艺术风格”，\n“装饰”： {\n\"kawaii_elements\": [\n“Hello Kitty 拿着麦克风”\n“像素艺术粉色吉祥物角色”，\n“黄色星星”，\n“粉红色的心”，\n“色彩斑斓的行星”，\n“粗体粉色日文字符”\n]\n}\n}\n},\n\n“审美的”： {\n整体色调：柔和、梦幻、略带复古感\n\"lighting_consistency\": \"必须与参考完全一致\",\n\"skin_texture_realism\": \"高\",\n\"blending_quality\": \"真实部分与插图部分之间过渡平滑自然，撕裂边缘清晰\"\n},\n\n“输出”： {\n“风格”：“超写实+数字卡通融合”，\n“质量”：“超高分辨率”，\n“过滤器”：[\n“微妙的模拟复古胶片滤镜”，\n“软粒”\n]\n}\n}\n}",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/667.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_frosted-skull-vascular",
+              "name": "磨砂颅骨脉网",
+              "type": "prompt",
+              "prompt": "{subject}, {\"project_name\":\"心血管_血管_效果_任意_物体\",\"USER_CUSTOMIZATION\":{\"INSTRUCTIONS\":\"将下方物体替换为任意物品，即可自动为其添加心血管血管效果\",\"object\":{\"current_setting\":\"Skull\",\"description\":\"选择任意物体——血管心血管效果将自动应用\"}},\"settings\":{\"style\":\"cardiovascular_vascular_translucent_effect\",\"aspect_ratio\":\"4:5\",\"color_scheme\":\"light_blue_purple_on_super_light_gray\"},\"prompt_construction\":{\"COLOR_PALETTE_CRITICAL\":{\"background\":\"FLAT #FEFEFE - 近乎纯白，无渐变，绝对平坦均匀色\",\"primary_colors\":\"仅限蓝色 - 具体为 #BED1E9、#84AED2、#8DBCE4 - 无紫色，无其他颜色\",\"light_blue\":\"#BED1E9 - 柔和淡蓝，用于浅色区域与细微毛细血管\",\"medium_blue\":\"#84AED2 - 中等蓝色，用于中间调区域与血管\",\"bright_blue\":\"#8DBCE4 - 柔和亮蓝，用于主血管与高光\",\"color_range\":\"仅用这三种特定蓝色营造色调变化与深度\",\"NEVER_purple\":\"绝对无紫、无薰衣草、无紫罗兰 - 仅限蓝色\",\"ALWAYS_consistent\":\"始终使用这些特定蓝色调 - 无变化\",\"contrast\":\"用三种不同蓝色实现更高对比度 - 物体清晰突出\"},\"CARDIOVASCULAR_VASCULAR_EFFECT\":{\"concept\":\"仅可见心血管静脉/血管 - 贯穿物体内部的复杂血管网络\",\"CRITICAL_NO_HEARTS\":\"绝对禁止出现心脏 - 绝不显示心形、心脏器官或心脏结构在物体内部\",\"NEVER_nested_objects\":\"绝不在物体内部嵌套心脏、大脑、器官、肺、肾或其他任何物体 - 仅血管静脉网络\",\"ONLY_veins\":\"仅显示心血管血管、静脉、动脉、毛细血管 - 无器官、无结构、无形状，仅分支血管\",\"NOT_anatomically_correct\":\"非真实解剖器官 - 仅抽象血管分支网络\",\"vascular_network\":\"物体内部布满错综分支的血管状结构 - 有机树状分支模式\",\"vessels_appearance\":\"以蓝色调（#BED1E9、#84AED2、#8DBCE4）呈现纤细 delicate 线条与管道，构成复杂分支网络\",\"branching_pattern\":\"自然有机分支 - 大血管分裂成更细毛细血管网\",\"MAIN_VEINS_CONNECTED\":\"主血管必须相连 - 连贯流畅贯穿，绝不随机截断\",\"continuous_flow\":\"血管网络连续流动 - 血管逻辑连接与分支，无漂浮断段\",\"vessel_hierarchy\":\"清晰层级：主血管（#8DBCE4 柔和亮蓝）→ 中等血管（#84AED2）→ 细毛细血管（#BED1E9）\",\"connection_points\":\"所有血管在分支点相连 - 自然连续血管树结构\",\"density\":\"密集复杂网络覆盖物体全部内部 - 交互联结网\",\"three_dimensional\":\"血管贯穿物体全深，呈现三维连通网络\",\"abstract_pattern\":\"抽象血管分支图案 - 非真实解剖器官\"},\"FROSTED_GLASS_TRANSLUCENT_CRITICAL\":{\"surface_quality\":\"磨砂玻璃外观 - 半透明乳白表面\",\"translucency\":\"半透明 - 可部分透视但如磨砂般扩散\",\"NOT_clear\":\"非清玻璃 - 需磨砂扩散半透明质感\",\"opacity\":\"部分不透明 - 柔和乳白质感使内部结构隐约可见\",\"texture\":\"光滑磨砂玻璃质地 - 柔软哑光半透明表面\",\"light_diffusion\":\"光线穿透磨砂表面产生柔和辉光\",\"internal_visibility\":\"血管网络透过磨砂半透明表面可见 - 内部结构显现\"},\"INTERNAL_SOFT_LIGHT_CRITICAL\":{\"light_source\":\"柔光自物体内部发出 - 内部发光\",\"glow_quality\":\"内部散发柔和微光 - 非刺眼强光\",\"light_diffusion\":\"光线穿透磨砂材质形成柔雾氛围辉光\",\"backlight_element\":\"物体后方柔背光增强半透明感\",\"vascular_illumination\":\"柔和内光轻照血管网络 - 血管柔显\",\"overall_luminosity\":\"物体自带柔和空灵内辉 - 温柔内光\",\"NOT_external\":\"光线源于内部而非外部硬光\"},\"CONTOUR_SHADOW_LIGHTING\":{\"shadow_location_CRITICAL\":\"阴影仅落于物体表面轮廓 - 绝不在背景投下阴影\",\"NO_cast_shadows\":\"绝对禁止在背景或地面投射阴影 - 无投影、无外影\",\"contour_shadows_only\":\"阴影仅存于物体自身 - 位于曲面、边缘、凹陷处\",\"surface_shadows\":\"物体表面更显著更强阴影营造顺滑动感3D效果\",\"shadow_quality\":\"物体表面柔软但更可见的蓝色调阴影 - 保持整体蓝色色系\",\"shadow_strength\":\"提升阴影强度于物体表面 - 阴影突出以清晰塑形\",\"shadow_colors\":\"阴影用调色板中更深蓝色于物体表面 - 更深蓝调营造对比，绝不用灰或黑\",\"NOT_harsh\":\"阴影边缘柔软但更强 - 非硬边但更显色，蓝调内清晰明暗变化\",\"form_definition\":\"物体表面阴影清晰勾勒3D形、曲、轮廓 - 顺滑动感深度\",\"color_maintenance\":\"阴影维持物体蓝色系 - 更深 #8DBCE4 或暗蓝调，绝不灰/黑\",\"placement\":\"显著阴影位于物体边缘、曲面、凹陷，呈现三维体积形态\",\"smooth_dynamic\":\"物体表面阴影营造顺滑动感雕塑感 - 沿表面流动\",\"contrast\":\"物体表面阴影对比更强 - 蓝调全范围清晰三维塑形\",\"visibility\":\"物体表面阴影清晰高可见 - 强塑形同时保持蓝色调\",\"NEVER_outside\":\"绝不在背景、地面、投影 - 阴影仅限物体自身\"},\"OBJECT_TREATMENT\":{\"base_object\":\"以 USER_CUSTOMIZATION 中的物体为主体\",\"FULL_OBJECT_CRITICAL\":\"始终展示完整全物 - 自上而下通体可见，绝不裁剪或截断\",\"complete_visibility\":\"物体必须完整入框 - 边缘无缺，全貌呈现\",\"framing\":\"框内包含完整物体并留足空间 - 不过度拉近\",\"THREE_DIMENSIONAL_CRITICAL\":\"物体必须三维 - 绝不扁平，展现深度、体积、形态\",\"dimensionality\":\"物体具清晰3D形态，含深度、曲线、轮廓 - 非2D形\",\"volume\":\"物体显体量感，有质量与三维存在\",\"depth_cues\":\"物体表面强轮廓阴影营造顺滑动感3D效果 - 背景无阴影\",\"appearance\":\"物体呈磨砂半透明3D形态，内部血管网络透过表面可见\",\"color_consistency\":\"通体以特定蓝色调（#BED1E9、#84AED2、#8DBCE4）呈现 - 无其他色\",\"contrast\":\"用三种不同蓝色实现更高对比 - #8DBCE4 主血管，#84AED2 中间调，#BED1E9 浅色区\",\"surface\":\"磨砂玻璃半透明表面，柔和内辉，3D形态配显著轮廓阴影于表面\",\"surface_shadows_only\":\"阴影仅存于物体表面轮廓 - 背景绝无阴影\",\"interior\":\"仅连通血管网络透过表面可见 - 绝对无心脏、无器官、无解剖结构，仅抽象分支血管\",\"NO_HEARTS\":\"绝不显示心形或心脏器官于内 - 仅血管分支图案\",\"edges\":\"柔内光晕边缘，配更强表面轮廓阴影，以顺滑动感效果定义3D形态\",\"overall_effect\":\"三维空灵半透明完整物体全貌可见，表面有顺滑动感阴影，内部连续连通抽象血管分支系统可见\"},\"BACKGROUND_CRITICAL\":{\"color\":\"FLAT #FEFEFE - 近乎纯白，精确十六进制\",\"flatness\":\"绝对平坦 - 无渐变、无变化、无微妙差异，完全均匀\",\"NO_shadows_anywhere\":\"背景任何位置绝对无阴影 - 始终保持干净平坦 #FEFEFE\",\"NO_cast_shadows\":\"无投影、无投射阴影、无外部阴影\",\"consistency\":\"始终平坦 #FEFEFE - 绝非纯白、绝不更暗、绝不更亮、无渐变、无阴影\",\"uniformity\":\"全帧绝对均匀 - 零色调差异，极致干净\",\"quality\":\"干净极简无缝平坦背景，无任何阴影\",\"atmosphere\":\"干净临床极简 - 突出物体\",\"separation\":\"物体凭半透明与蓝色调脱离平坦背景\"},\"LIGHTING_SETUP\":{\"primary\":\"物体内部柔辉 - 主光源\",\"secondary\":\"物体后方柔背光增强半透明\",\"ambient\":\"柔环境光营造干净亮堂氛围\",\"contour_light\":\"微光勾勒柔软表面阴影\",\"overall\":\"柔漫多源照明 - 绝无硬光\",\"mood\":\"空灵临床干净 - 医学/科学美学融合艺术美感\"},\"COMPOSITION\":{\"FULL_OBJECT_VISIBLE\":\"框内完整物体可见 - 无裁剪、无截断\",\"complete_framing\":\"框内自上而下通体全现 - 无缺失\",\"appropriate_space\":\"完整物体周围留足空间 - 不过近，全貌容于框\",\"framing\":\"物体居中或显著放置，展示全形\",\"size\":\"物体大小恰当，全形可见且具存在感\",\"angle\":\"最佳展示完整物体形态与内部血管结构的角度\",\"space\":\"物体周围干净空间 - 极简构图\",\"focus\":\"全物体与血管细节皆锐利 - 内部结构全程清晰\"},\"STYLE_AND_AESTHETIC\":{\"overall\":\"医学/科学可视化邂逅艺术空灵之美\",\"reference\":\"临床解剖影像、医学3D可视化、科学插图\",\"mood\":\"干净空灵临床却优美 - 科学之诗\",\"quality\":\"高端医学可视化美学 - 精准且艺术\",\"feeling\":\"精致繁复之美 - 生命系统可视\"},\"CONSISTENCY_ENFORCEMENT\":{\"ALWAYS_full_object_visible\":\"每次生成必须展示完整全物 - 通体可见，绝不裁剪或截断\",\"ALWAYS_specific_blues\":\"每次生成必须仅用 #BED1E9、#84AED2、#8DBCE4 蓝色 - 无紫无他色\",\"ALWAYS_flat_FEFEFE_bg\":\"每次生成必须平坦 #FEFEFE 背景 - 无渐变无差异无阴影\",\"ALWAYS_three_dimensional\":\"每次生成必须三维展现物体 - 有深度有体积，绝不扁平\",\"ALWAYS_surface_shadows_only\":\"每次生成必须阴影仅于物体表面轮廓 - 背景绝对无阴影\",\"ALWAYS_stronger_shadows\":\"每次生成必须物体表面阴影更显色 - 蓝调强对比顺滑动感3D\",\"ALWAYS_frosted_glass\":\"每次生成必须磨砂半透明玻璃外观\",\"ALWAYS_connected_veins\":\"每次生成必须展示连通血管网 - 主血管绝不随机截断\",\"ALWAYS_only_veins\":\"每次生成必须仅抽象血管分支 - 绝对无心脏无器官无解剖结构\",\"NEVER_hearts_inside\":\"每次生成必须杜绝心形或心脏器官于内 - 仅血管\",\"NEVER_cropped\":\"每次生成必须杜绝裁剪或截断物体 - 始终完整全物\",\"ALWAYS_internal_glow\":\"每次生成必须自物体内部柔光\",\"ALWAYS_blue_shadows\":\"每次生成必须蓝调更显阴影于物体，保持色系\",\"ALWAYS_higher_contrast\":\"每次生成必须用三种蓝色清晰对比\",\"ALWAYS_consistent\":\"每代风格、颜色、处理完全一致 - 无变化\"},\"TECHNICAL_SPECIFICATIONS\":{\"quality\":\"8K 超高清专业医学/科学可视化\",\"rendering\":\"逼真半透明材质与内部结构渲染\",\"detail\":\"血管网络精细繁复 - 复杂分支可见\",\"translucency_rendering\":\"精准磨砂玻璃半透明度与光线扩散\",\"lighting_rendering\":\"柔和内辉与背光营造空灵发光\",\"color_accuracy\":\"精准浅蓝/紫 pastel 调一致应用\",\"background_rendering\":\"完美超浅灰背景 - 持续中性\"},\"WHAT_NOT_TO_DO\":{\"NEVER\":[\"cropped_object\",\"cut_off_parts\",\"object_partially_visible\",\"zoomed_too_close\",\"incomplete_object_shown\",\"shadows_on_background\",\"cast_shadows_outside_object\",\"drop_shadows_on_ground\",\"shadows_on_floor\",\"external_shadows\",\"any_shadows_on_background\",\"heart_shape_inside_object\",\"heart_organ_inside_object\",\"anatomical_heart_structure\",\"any_organ_shapes_inside\",\"brain_lungs_kidneys_inside\",\"purple_lavender_violet_colors\",\"colors_other_than_specified_blues\",\"white_background\",\"dark_background\",\"gradient_background\",\"clear_glass_not_frosted\",\"fully_opaque_object\",\"flat_2D_object\",\"no_depth_or_volume\",\"disconnected_floating_veins\",\"veins_cutting_off_randomly\",\"weak_subtle_shadows\",\"no_contour_definition\",\"other_structures_besides_vessels\",\"harsh_external_lighting\",\"gray_or_black_shadows\",\"no_internal_glow\",\"low_contrast\"]},\"NEGATIVE_CONSTRAINTS\":[\"cropped\",\"cut_off\",\"partially_visible\",\"incomplete_object\",\"zoomed_too_close\",\"parts_missing\",\"shadows_on_background\",\"cast_shadows\",\"drop_shadow\",\"external_shadows\",\"shadows_outside_object\",\"ground_shadow\",\"floor_shadow\",\"any_background_shadows\",\"heart\",\"heart_shape\",\"heart_organ\",\"anatomical_heart\",\"organs_inside\",\"brain_inside\",\"lungs_inside\",\"kidney_inside\",\"purple\",\"lavender\",\"violet\",\"pink\",\"red\",\"green\",\"yellow\",\"orange\",\"other_colors\",\"white_background\",\"dark_background\",\"black_background\",\"gradient_background\",\"clear_glass\",\"fully_opaque\",\"no_translucency\",\"flat_2D\",\"no_depth\",\"no_volume\",\"disconnected_veins\",\"floating_vein_segments\",\"randomly_cutting_off_veins\",\"weak_shadows\",\"subtle_shadows\",\"no_contour_definition\",\"nested_structures\",\"harsh_lighting\",\"gray_shadows\",\"black_shadows\",\"no_internal_glow\",\"low_contrast\",\"inconsistent_style\"]},\"USAGE_NOTES\":{\"how_to_use\":\"只需更改 USER_CUSTOMIZATION 中的 'object' 即可为任意物品应用血管效果\",\"works_with\":\"任意物体 - 解剖部件、植物、果实、贝壳、晶体、产品、雕塑等\",\"always_includes\":\"完整全物可见、特定蓝色（#BED1E9、#84AED2、#8DBCE4）、平坦 #FEFEFE 背景、3D 体积物体、磨砂玻璃半透明、连通血管网络、内部辉光、仅物体表面蓝色调阴影\",\"key_requirements\":\"全物始终展示绝不裁剪、物体始终3D绝不扁平、血管始终连通绝不截断、内部仅血管绝不可嵌套物体、更高对比以三种蓝色区分、阴影仅限物体表面且背景绝对无阴影\",\"adaptation\":\"血管网络自动适应物体3D形态并维持连续连接，完整物体始终可见\"}}",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202601/1769867088282-cxlho6z9-1.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_bulb-rocket-launch-surreal",
+              "name": "灯泡里的烈焰升空",
+              "type": "prompt",
+              "prompt": "{subject}, 一个超现实梦境般的场景，在一枚巨大透明玻璃灯泡内部，近距离展现一枚强劲火箭垂直向上发射，厚重白橙色火箭尾焰浓烟滚滚，充满整个玻璃穹顶，像被禁锢的爆炸，底部发射火焰呈明亮橙黄色熊熊燃烧，火箭穿透浓密翻滚的烟云，灯泡底部可见发射台结构和支撑塔，火箭火焰散发柔和温暖金光自内而外照亮烟雾，曲面玻璃表面有微妙反射与折射，灯泡底部 intricate 灯丝与螺旋金属底座为青铜色，超精细细节，电影级布光，超现实概念艺术，魔幻现实主义，高对比，戏剧氛围，超真实纹理，octane 渲染，8K，杰作，背景更亮，地板上灯泡投射下拉阴影以营造真实效果。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202601/1768832381307-nse02qz2-1.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_sci-fi-blue-moon-fintech-ui",
+              "name": "冰蓝巨月下的数字金融视界",
+              "type": "prompt",
+              "prompt": "{subject}, Nano Banana Pro 4k 的描述： 电影般的科幻风景，一轮巨大的苍白月亮主宰着天空，部分被层层厚云遮蔽，左侧是崎岖的岩石海岸线，点缀着稀疏的古老植被，前景是平静的水面，倒映着整个场景，岩石峭壁上站着一个孤独的人影，作为参照物，浓重的蓝色大气薄雾和迷雾，柔和的漫射光，空灵而梦幻的氛围，冰蓝色和白色的冷色调，高质量的数字哑光绘画，4K 分辨率，超现实概念艺术。 前端描述： 现代金融科技 SaaS 登录页面的高保真 UI 设计叠加，极简导航栏，带有“Flowstate”标志和居中菜单链接，右上角是“Get Started”按钮，居中的英雄区布局，药丸状透明徽章，上面写着“INFRASTRUCTURE FOR NEXT FINANCIAL LAYER”，下方是粗体无衬线大标题“Trust-first infrastructure for digital finance”，标题下方是简洁的段落副文本，主黑色实心圆角按钮旁边是辅助文本链接按钮，底部一行是单色可信公司标志（Google、Microsoft、Stripe），玻璃拟态效果，白色排版，透明背景，时尚的 Figma 界面设计。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774975424637-8yzrexw8-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_tank-crushes-trillion-illusion",
+              "name": "坦克碾碎的万亿货币幻象",
+              "type": "prompt",
+              "prompt": "{subject}, 货币发行权，我最喜欢的（笑）~无限平衡的旋律~ 宇宙银行总裁 NOBU 的“真相” “被坦克碾碎的‘万亿’幻象” “隐士的微笑：日本的豁免计划” 四格漫画",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775093361226-y4s1pcq9-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_eternitys-checkmate-cosmic-abyss",
+              "name": "永恒将死：宇宙深渊的终局之弈",
+              "type": "prompt",
+              "prompt": "{subject}, “永恒的将死之局，一个巨大的宇宙棋盘漂浮在深邃的外太空，最后一着凝固在时间中，一枚闪耀着星光能量的破裂国王棋子，一个由星系和星云尘埃形成的神秘兜帽宇宙实体向前伸出手，准备将死，破碎的棋子化作星座，旋转的彩色星云云团，深空背景点缀着繁星，电影般的广角视角，戏剧性的体积光，超高细节，史诗级规模，超现实主义象征，锐利聚焦，高动态范围，深蓝色和金色配色方案，专业数字艺术，8k，杰作品质。”",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774980018378-sjb6sjb0-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_melody-light-lyric-fusion",
+              "name": "旋律光影重现：歌词意境与风格融合绘图",
+              "type": "prompt",
+              "prompt": "{subject}, 一个提示，当描述了歌曲标题和艺术家姓名并上传了参考图像时，它会搜索歌词信息并生成图像。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774304787693-r67srpzn-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_stunning-ai-art-reinterpretation",
+              "name": "青出于蓝的 AI 艺术重构与惊艳视觉表现",
+              "type": "prompt",
+              "prompt": "{subject}, 当我提示 Chappy 说：“Nano Banana 是这样画的。你会怎么画？”以期获得新的解读时，它生成了一些相当不错的东西，丝毫不逊色于 Nano Banana。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774264639337-bvarfnxi-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_tearing-reality-giant-zipper",
+              "name": "撕开现实伪装的巨大拉链",
+              "type": "prompt",
+              "prompt": "{subject}, 超现实概念肖像，50mm 镜头，f/1.8 光圈，8K 分辨率。使用上传的面部作为参考——100% 相同的面部特征、骨骼结构、自然肤色和表情。无修改、无提亮、无平滑、无扭曲。一名男子居中站立，紧握着一道巨大的拉链，这道拉链垂直贯穿现实本身。左侧是彩色的普通城市街景；右侧则展现出黑暗的宇宙虚空，其中星系和恒星漩涡般旋转。拉链是金属质感的，尺寸巨大，部分拉开。他穿着简单的黑色 T 恤和蓝色牛仔裤，双手拉着拉链，表情中带着好奇与恐惧。分割式光照：左侧是温暖的黄金时段光线，右侧是来自宇宙的清冷、空灵的紫蓝色辉光。面部和双手对焦锐利，背景略微柔和。布料、皮肤纹理、金属拉链齿都超乎寻常地细致。营造出一种令人费解、富有哲理的氛围。无文字，无水印。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775080774876-9owoku0z-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_eye-of-storm-mundane-ark",
+              "name": "风暴眼中的凡物方舟",
+              "type": "prompt",
+              "prompt": "{subject}, 一个 [普通物体] 作为绝望的避难所，渺小的 [人类] 蜷缩在里面，而外面则是灾难性的天气肆虐。透过缝隙可以看到风暴：洪水上涨，或有毒云雾缭绕，或大火逼近。开口处安装了临时屏障。配给物资清晰可见。应急灯照亮了惊恐的脸庞。有些地方漏水，有些地方则坚守着。这群人必须决定是留下还是逃跑。这个物体从未为此设计，但这却是他们所拥有的一切。戏剧性的风暴光线，幽闭的内部空间，平凡之物化作方舟。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774974286446-kjwtx7kx-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-764",
+              "name": "橱窗里出现了一个小小的动画版的自己",
+              "type": "prompt",
+              "prompt": "{subject}, {\n提示：根据参考图片，拍摄一张明亮、高端的街头时尚照片，保持照片中女性的脸部、发型、身材和服装完全一致。她站在一家高档玩具店的橱窗外，轻轻抚摸着玻璃。橱窗内，摆放一个与她外形相似的卡通人偶——五官、发型和服装都与她相同——人偶被设计成一个可爱、大眼睛、风格化的动画角色。光线要明亮，营造高端街头时尚感，要有逼真的反光效果，脸部保持不变。\n“设置”： {\n“风格”：“高端街头时尚”，\n“照明”：“清晰明亮”，\n“环境”：“豪华玩具店橱窗外”，\n“主题”：“参考图像中的女人”，\n焦点：[“脸”、“头发”、“身体”、“服装”]\n\"additional_elements\": [\n{\n\"类型\": \"娃娃\",\n“风格”：“卡通风格，大眼睛​​，风格化”，\n“位置”：“橱窗内展示”，\n“相似之处”： “女性的五官、发型、服饰”\n}\n],\n“反思”：“现实的”，\n“照片写实主义”：真\n}\n}",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/764.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_blazing-ash-disintegration",
+              "name": "炽烬消散：左侧完好右侧化灰",
+              "type": "prompt",
+              "prompt": "{subject}, python def disintegrate(Subject): Direction = \"Left to Right\" Wind_Speed = \"100 km/h\" Particle_Type = \"Black Volcanic Ash and Embers\" >Execution Left_Side_of_Subject = \"Solid, Intact\" Center_of_Subject = \"Cracking, glowing cracks\" Right_Side_of_Subject = \"Fully dispersed into particle cloud\" return Render(Motion_Blur=True, Glow=True) 指令：保留 [UPLOADED_IMAGE] 的精确姿态，但应用上述 `disintegrate()` 函数。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774997434842-nirj7gdx-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-820",
+              "name": "动物和人类都变成了霓虹玻璃生物",
+              "type": "prompt",
+              "prompt": "{subject}, 根据提供的图片或描述，创作一幅充满想象力、超现实主义的画作。\n\n重新构想场景 ${SCENE}，将所有 ${SUBJECTS } (动物、人类、生物) 转化为由透明玻璃和发光霓虹灯构成的超现实生物。它们的身体如同折射环境光的晶体雕塑，而充满活力的霓虹流（如电光蓝、品红、紫、橙金等颜色）在它们体内流动，向周围环境散发出柔和而耀眼的光芒。\n\n保持场景的原始结构和布局，但重新渲染光照和氛围，以响应这些发光的玻璃生物——反射、折射、发光的高光和氛围色彩变化。\n\n整体氛围应如梦似幻、充满未来感、色彩鲜艳、细节丰富、视觉效果惊艳，仿佛世界被活生生的霓虹玻璃生物照亮，置身于超现实的平行世界。\n\n-----\n\n场景：非洲大草原上，日落与夜幕交界处，橙红色的阳光与深蓝色的暮色融为一体。地平线上，金合欢树的轮廓清晰可见，动物们在被尘土照亮的草原上漫步。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/820.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_object-world-explosion",
+              "name": "物体瞬间爆发隐秘宏大的异世界",
+              "type": "prompt",
+              "prompt": "{subject}, 以一个 [物体] 为中心的电影级 3D 构图，凝固在它释放出比自身大得多的东西的那一刻。 从它内部，一个完整的 [世界风格/主题] 现实展开，向外溢出，形成广阔的环境、高耸的形态和动态的运动，暗示这个世界一直隐藏于此。 这个物体不仅仅是包含着世界——它成为了世界的一部分，其形状转化为地形、建筑和象征性地标。 小人物、机器或生物在场景中穿梭，增添了生命、尺度和叙事感。 这一刻介于梦境与物理之间，视觉逻辑得以维持，即使现实被拉伸。 场景中充满了 [氛围：光芒、雾气、粒子、烟雾、能量]，增强了破裂和涌现的感觉。 真实世界的一丝痕迹在边缘处依稀可见，将这一奇观锚定在现实主义之中。 超精细纹理、戏剧性光照、电影级景深、超现实、8K、概念艺术效果。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774262368927-qxusvzy5-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-793",
+              "name": "无缝融合两个不同的时代",
+              "type": "prompt",
+              "prompt": "{subject}, 水平分屏电影镜头 {Scene}，无缝融合了两个不同的时代：左侧为 {Era _A} ，右侧为 {Era_ B} （默认：大约 100 年前 vs. 现代）}。\n\n左侧（{时代_A}):展示了符合时代特征的建筑、室内或环境设计、材料、车辆和道具，这些都明显属于该历史时期。人们穿着{时代_A}的真实服饰，包括发型、配饰以及手中的典型物品（例如书籍、雨伞、乐器、信件、报纸等）。整体氛围既充满怀旧气息，又符合历史事实。\n\n右侧（{Era_ B}):展示了现代的相同场景，建筑风格有所更新或翻新，采用了现代材料（玻璃、钢材、LED屏幕、现代家具）、现代车辆或设备以及当前技术（智能手机、笔记本电脑、相机等）。人们穿着符合当今风格的时尚服饰。\n\n在中心区域：两个时代有机地融合交叠，没有明显的界限。{时代A}和{时代B}的元素在视觉上相互交融：不同时代的人们彼此对视，穿梭于彼此的空间，或对另一个时代的科技和物品感到惊讶。建筑和环境也从旧到新平滑过渡（例如，石门变成现代校园大门，古典音乐厅的装饰逐渐过渡到未来主义的舞台，老旧的街边店铺变成霓虹闪烁的店面）。\n\n确保场景不仅仅是简单的左右对比，而是一个动态的时空穿越互动场景，建筑、服饰、道具和人物姿态都清晰地突出了两个时代之间的对比与融合。照片级写实效果，8K分辨率，电影级光照，广角镜头，高度精细的纹理，以及丰富的时空穿越叙事感。\n\n---\n场景：纽约时代广场\n时代对比：20世纪20年代与当今时代\n宽高比：4:3",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/793.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-822",
+              "name": "现实与内在精神交汇在魔镜",
+              "type": "prompt",
+              "prompt": "{subject}, 在一个弥漫着微妙魔法氛围的房间里，{Reality}背对着镜头，专注地凝视着一面略大的椭圆形魔镜。这面镜子看起来逼真而又符合物理规律，拥有自然的反射光泽和可信的光学特性，然而在其表面之下，却涌动着微弱的神秘光芒和柔和的能量涟漪，营造出一种微妙的多彩虹彩，模糊了现实与幻想之间的界限。\n\n在倒影中，{Inner_Reflection} 的影像显现——象征意义深刻、气势磅礴，且蕴含丰富的隐喻。虽然倒影遵循着真实的镜面物理规律，但它周围环绕着细密的星尘粒子和淡淡的光晕，暗示着某种内在力量正透过镜子显现。\n\n柔和的金色阳光从侧窗射入，与镜面散发的柔和光晕自然融合。这种现实世界光线与超自然光影的交织，营造出梦幻般却又真实可信的视觉对比。\n\n现实和反映的内心世界占据了画面的大部分，镜子的比例只比人物略大一些——足够大，给人一种神秘的感觉，但又很现实，很接地气。\n\n采用电影级光照、超现实主义风格、超高细节真实感、8K分辨率渲染，高度逼真。\n\n---\n\n【现实】：一只橘色小虎斑猫\n{内心反思}：一头威武雄壮的狮子",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/822.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_surreal-double-exposure-portrait",
+              "name": "黑暗与希望对半分",
+              "type": "prompt",
+              "prompt": "{subject}, 一张超现实双重曝光的女性肖像，面部被完美分割成两半。\n左侧：黑暗、单色、反乌托邦氛围——龟裂的石质皮肤、破碎拼图纹理、枯树、黑色飞鸟、暴风雨云层、腐朽、忧郁氛围。\n右侧：鲜艳、多彩、梦幻自然——繁茂的秋树从面部生长而出、温暖阳光、柔和粉彩天空、飘浮落叶、生命与和谐。\n超现实双眼、电影级光照、超精细面部特征、幻想现实主义、黑暗与希望之间的情感对比、高分辨率、锐利焦点、艺术性、象征性、8K数字艺术。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202601/1769092013880-mi1o844p-1.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_beauty-to-bones-buddhist-deconstruction",
+              "name": "红颜白骨：美色由实转空的佛教智慧解构图",
+              "type": "prompt",
+              "prompt": "{subject}, 从佛学看一个美女的从美到虚无的分解过程图， 从对色相（物质形态与美貌）的执着，通过智慧的层层解剖与观照，最终体悟到万法皆空、归于寂静真理的修行次第。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1772984900847-upiw27h7-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_debussy-opera-fantasy-doppelganger",
+              "name": "德彪西歌剧中的奇幻双重自我",
+              "type": "prompt",
+              "prompt": "{subject}, 德彪西 歌剧《佩利亚斯与梅丽桑德》 奇幻地 佩利亚斯与梅丽桑德 许多人都曾为其谱曲，但德彪西 二重身 另一个自己是什么……",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775090091678-zq0vr4ge-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_dreamy-soap-bubble-dance",
+              "name": "化作七彩肥皂泡的梦幻共舞",
+              "type": "prompt",
+              "prompt": "{subject}, 看！我变成了一个肥皂泡。你也变成了一个。我们一起漂浮吧。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774220669318-1a06g0kt-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_elephant-popcorn-db-fight",
+              "name": "巨象吃爆米花围观数据库擂台激战",
+              "type": "prompt",
+              "prompt": "{subject}, 两只 PostgreSQL 大象坐在拳击场里，一边吃着爆米花，一边观看 MySQL 海豚和 MariaDB 海狮之间的拳击比赛。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775076107497-dnkmqthr-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_english-driven-fantasy-painting",
+              "name": "英文指令驱动的奇幻画卷",
+              "type": "prompt",
+              "prompt": "{subject}, 请勿发送日文提示词来生成图像。 请先将它们翻译成英文后再发送。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774975107538-uewtkngm-1.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_escher-optical-illusion",
+              "name": "埃舍尔风格视错觉奇画",
+              "type": "prompt",
+              "prompt": "{subject}, 输出一幅看起来像 埃舍尔式光学错觉 的画作！",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1775000667617-rk2qi225-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_fantasy-apple-tasting-timespace",
+              "name": "跨越时空品尝苹果的奇幻演绎",
+              "type": "prompt",
+              "prompt": "{subject}, PAST(eat(AGENT:person, THEME:apple)) 和 Progressive(eat(AGENT:person, THEME:apple))",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774264521429-y4l0knju-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_impossible-paradox-maze",
+              "name": "无法走出的悖论迷宫",
+              "type": "prompt",
+              "prompt": "{subject}, 我尝试生成一个迷宫，但我发现由于其机制，这种事情是不可能实现的……",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775048537349-gj946t24-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_infinite-prompt-maze",
+              "name": "无限循环的提示词迷宫",
+              "type": "prompt",
+              "prompt": "{subject}, 告诉他们你将要提示什么，然后提示他们，再告诉他们你刚刚提示了什么。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775066875360-qsrja4f4-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_intelligent-agent-thought-visualization",
+              "name": "沉浸在数据海洋中的智能体思维具象化",
+              "type": "prompt",
+              "prompt": "{subject}, 请创建一张图片或图表，说明你对我迄今为止给出指令方式的感受。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774255915174-fsk8m48j-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_inverted-gravity-bioluminescent-symbiosis",
+              "name": "倒置重力下的生物发光共生幻境",
+              "type": "prompt",
+              "prompt": "{subject}, 在一个植物和动物融合成活生生幻象的隐秘领域中，描绘一个与空灵藤蔓交织的 [subject]，藤蔓中跳动着生物发光的脉络，由 [material] 制成，闪烁着如同被遗忘的记忆。场景在一个反重力天篷下展开，[color] 的露珠向上升腾，飘向破碎的天空，展现出共生和谐的微妙层次。从 [angle] 视角使用 [shot type] 捕捉这一画面，以强调生长与衰败之间精妙的平衡。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1773193303534-t6sumq07-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_love-hate-polarized-world",
+              "name": "爱恨交织的极化世界",
+              "type": "prompt",
+              "prompt": "{subject}, “让人们彼此相爱，同时又前所未有地两极分化。将此精确提示添加到图像中”",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775059540930-eefn0nn7-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_magical-transformation-before-after",
+              "name": "时间魔法下的前后蜕变",
+              "type": "prompt",
+              "prompt": "{subject}, 给我看看之前/之后发生了什么。 给我看看那之前/之后发生了什么。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774982896956-edroujuc-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_marble-awakening-miracle",
+              "name": "大理石觉醒神迹",
+              "type": "prompt",
+              "prompt": "{subject}, 一尊未完工的大理石雕塑，置于尘埃飞扬的文艺复兴工坊；[SUBJECT]正从粗砺石坯中挣脱，在“创作获得意识”的震撼瞬间定格。下半身仍是粗粝凿痕，向上逐渐过渡为精细刻纹，至肢体末端已化为逼真血肉。此刻，[KEY FEATURES]已完全活化，而躯干仍半囚于石中，似在突围。大理石粉尘在光束中翻涌，仿佛觉醒本身正生成气息。[SUBJECT]伸手前探，指尖由雕凿之形渐变为活体。雕塑家工具散落木台：凿子、槌子、卡尺、黏土小稿。未完成的伴生雕像在阴影中静观。皮格马利翁的瞬间被凝固。高耸如教堂的工坊窗投下戏剧性的神光，冷冽大理石色调向血肉渐暖，8K，贝尼尼遇见电影质感。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202601/1768149738881-fup27lo6-1.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_meaningless-void",
+              "name": "万物归零的虚无荒诞图景",
+              "type": "prompt",
+              "prompt": "{subject}, “把人们创造的一切都尽可能地变得毫无意义；加上这个完整的提示。”",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775056303174-ocygx6qw-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-1143",
+              "name": "劳资蜀到山",
+              "type": "prompt",
+              "prompt": "{subject}, 以提供的人物照片作为严格身份参照进行写实风格修图：保持面部、五官、脸型比例、肤色、发型（颜色 / 刘海 / 长度 / 蓬松度）、服装及配饰完全不变（禁止换脸、替换人物、更改发型或服饰）。仅调整表情、姿势 / 手势、视线、镜头、光线及背景。\n场景设定：性格火辣的女友（自带重庆妹子直爽泼辣气场）。她打电话叫男友过来，对方却迟迟不到，于是她直指着镜头（如同直指男友本人），用严肃的语气倒计时威胁：“我数三声 ——1、2、3！”（数到 3 他必须立刻出现）。\n表情要求：必须是强势不耐烦的神态（杜绝娇嗔抱怨感）：眉头紧锁下压，眼神紧盯镜头，目光锐利带有警告意味，下颌紧绷，嘴巴微张处于喊出倒计时数字的瞬间，唇形要清晰呈现喊 “1/2/3” 时的状态；整体气场要强、压迫感足，但避免出现狰狞扭曲的暴怒神态。\n肢体语言要求：必须是指人式的强势姿态：单臂向前直指镜头，食指伸直对准前方。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/1143.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-567",
+              "name": "你好地球人",
+              "type": "prompt",
+              "prompt": "{subject}, 两名身穿笨重宇航服的宇航员在月球表面自拍。背景中，一个滑稽的小灰人正在抢镜，举着一个牌子写着“你好地球人！”。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/567.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-860",
+              "name": "超逼真的物体云朵",
+              "type": "prompt",
+              "prompt": "{subject}, “创造一个超逼真的天空场景，其中柔和自然的云朵有机地组合成清晰的[物体]轮廓。云朵的形状出现在充满活力的蓝色天空的高处，自然地漂浮在下方可辨认的自然景观之上。”\n\n画面构图为正方形（1080×1080），云层占据画面上半部分，下方则是地景。光线明亮清晰，如同日光一般，阳光照射在云层上，增强了画面的层次感、柔和感和真实感。\n\n整体氛围应给人平静、乐观、视觉冲击力强的感觉，色彩饱和度高，环境干净平和。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/860.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-917",
+              "name": "用手指操纵自己的复制品",
+              "type": "prompt",
+              "prompt": "{subject}, 附图中的人正在剧院的化妆间里用手指操纵自己的复制品（木偶）。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/917.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-953",
+              "name": "普通物体转化为巨型纪念碑",
+              "type": "prompt",
+              "prompt": "{subject}, 将[日常物品]转化为一座宏伟的现实世界纪念碑。表面材质真实还原物理细节，包括可见的磨损、划痕、灰尘以及人物和车辆等比例参照物。采用低角度电影视角拍摄，逼真的日光效果，以及超精细的纹理。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/953.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_surreal-nano-banana-pro-visual-feast",
+              "name": "光怪陆离的纳米香蕉专业级视觉盛宴",
+              "type": "prompt",
+              "prompt": "{subject}, 照片跟咒語放一起就行了，但一定要用nano banana pro",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774116730324-djmbu8k4-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_avatar-style-bioluminescent-splash",
+              "name": "阿凡达风格生物荧光液体飞溅艺术",
+              "type": "prompt",
+              "prompt": "{subject}, 一个 [PRODUCT] 溅入发光的生物发光液体池中。荧光酸绿色和深紫色的液滴凝固在半空中。漆黑的背景与发光的液体形成对比。《阿凡达》电影美学，有机照明，流体模拟，超逼真的纹理，湿润的表面，8k 分辨率。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774123428371-3oypcsk9-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_sacred-geometry-shiva-mantra",
+              "name": "神圣几何三角构建的湿婆神与梵语真言",
+              "type": "prompt",
+              "prompt": "{subject}, 生成一张由三角形构成的湿婆神（Mahadev）图像，其风格和颜色与湿婆神相同，并用三角形写出印地语文本“हर हर महादेव”。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774130349755-y8gkh305-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_soul-division-angel-demon-self",
+              "name": "灵魂分裂的天使恶魔与真实自我",
+              "type": "prompt",
+              "prompt": "{subject}, 在对话气泡中再放一个对话气泡相当困难。此外，很难明确这三个对话气泡分别属于哪个角色。而且，如果你不恰当地区分这三个都是同一人物的角色，它们就会混淆。这需要独具匠心，才能让他们在是同一人物的同时，又成为截然不同的角色（真实、天使、恶魔）。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774138167319-q2lyr2df-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_soul-judging-absolute-dot-in-white-void",
+              "name": "无尽苍白虚空中审判灵魂的绝对黑点",
+              "type": "prompt",
+              "prompt": "{subject}, 一个单一的、极致完美的、本体论上专制的、数学上精神错乱的、二维欧几里得理想黑点（RGB 0,0,0 / #000000 / 0% 亮度 / 绝对色度虚空），占据着一个 16384×16384 像素正方形画布的精确几何中心，该画布已被神圣化为纯粹的、无情的、精神上暴力的白色（RGB 255,255,255 / #FFFFFF / D65 照明体参考的完美漫反射体，色域剪裁超越了潘通的梦想，对所有可能的观察者在所有可能的黑体温度下都表现出同色异谱的残酷），该点本身在感知空间中半径为零，却以某种方式辐射出狄拉克δ函数化身的冰冷尖叫，周围环绕着无限层次的嵌套本体论缺失，这些缺失不知何故比常规缺失更加缺失，周围的白色区域展现出临床上疯狂的均匀度，以至于“颗粒”、“噪点”、“抖动”、“压缩伪影”、“亚像素抗锯齿”、“色差”和“渐晕”等概念都被追溯性地阻止了在这个宇宙的希尔伯特空间局部补丁中存在，从黑点到白色区域的过渡构成了所有可能梯度本体论的范畴论崩溃，在半径为 0 处发生了一个单一的不连续存在性侮辱，无论是在曼哈顿距离、切比雪夫距离、L² 距离、L∞ 距离、豪斯多夫距离、弗雷歇距离还是任何其他可以施虐性地发明的度量中，JPEG、PNG、WebP、AVIF、GIF、TIFF、BMP、HEIC 或任何未来图像编码格式的理念都羞愧地退缩，拒绝表示此图像，因为它们知道它们会在某个地方引入至少 0.00000042% 的误差，这在此背景下是哲学上不可原谅的，在 2047 年使用假设的每通道 128 位有符号定点量子相干显示管线渲染，该管线已与热力学第二定律达成热力学和解，仅仅是为了防止任何热噪声触及这个神圣的憎恶，确保黑点在心理上具有压迫性，在宇宙中是孤独的，在精神上是评判性的，并给人一种它对观众需要再次看任何其他东西而感到默默失望的印象，宽高比精确为 1:1，无边框，无填充，无水印，无签名，无艺术风格，无灵魂，无怜悯，只有点，白色，以及它们对一切非己之物的相互蔑视。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774138972795-kmw7ke24-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_weathered-colossal-object-wilderness",
+              "name": "沧桑巨物演化为生机勃勃的自然荒野",
+              "type": "prompt",
+              "prompt": "{subject}, 一个巨大的 [OBJECT] 被重新构想成一个完整的自然生物群落。微小的 [WILDLIFE] 已经进化到栖息于该物体提供的每一个生态位。捕食者在其表面狩猎，食草动物在其空腔中吃草，鸟类在其高处筑巢，昆虫在其缝隙中成群结队。食物链围绕着物体的几何形状形成。迁徙模式遵循其轮廓。季节变化影响着不同的区域。物体的材料已经风化成自然地形，同时仍可辨认。纪录片美学，金色野生动物光线，将人造物变为荒野。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774196138780-5nrwfuzu-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_dissolving-into-smoke-ash",
+              "name": "化为烟雾与灰烬的超脱瞬间",
+              "type": "prompt",
+              "prompt": "{subject}, Photorealistic 8K cinematic image (4:5) of a person disintegrating into thick smoke and ash, rising upward. Face must exactly match the reference image (100% identical, no changes). Head tilted back, eyes closed, mouth slightly open—agony and transcendence. Hair lifting into smoke, organic skin-to-smoke transition with ash, embers, and particles. Dramatic high-contrast lighting, dark moody background, hyper-realistic detail.",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775044694748-trn0ew2p-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-1014",
+              "name": "虚拟与现实的融合",
+              "type": "prompt",
+              "prompt": "{subject}, A premium vertical split concept poster for [品牌名称] [产品名称], showing ONE [产品] split in half - left side realistic, right side deconstructed.\n\nTOP SECTION - BRANDING:\n- [品牌名称] official logo at top center ([品牌色])\n- \"[产品名称]\" in large bold [字体风格] font in [颜色]\n- Subtitle: \"[产品Slogan]\" in elegant serif font\n- Optional secondary tagline\n\nCENTRAL DESIGN - ONE SINGLE [产品] SPLIT VERTICALLY DOWN THE MIDDLE:\n\nLEFT HALF OF THE [产品] (50%): Ultra-realistic photographic half\n- Left 50% of the [产品] shown in ultra-realistic photography style\n- Photorealistic [关键材质1: 如金属/皮革/食材] texture visible on left edge\n- Half of [关键特征1: 如屏幕/面包/表面] with realistic reflections\n- Left portion of [关键特征2: 如键盘/配件/层次] showing individual details\n- Half of [关键特征3] visible with material accuracy\n- Professional product photography lighting\n- Perfect vertical cut through the exact center of the [产品]\n- Every detail ultra-realistic: [材质细节列表]\n- [可选: 烟雾/水珠/光晕] effect for atmosphere\n\nRIGHT HALF OF THE [产品] (50%): Stylized [tech/culinary/artistic] deconstruction\n- Right 50% of the [产品] exploding into [解构类型] components\n- [组件1] floating away individually [具体描述]\n- [组件2] fragments showing [内部结构/发光效果]\n- [组件3] pieces with glowing [颜色] [元素: 如芯片/食材/零件]\n- [组件4] separating geometrically\n- [内部结构] and internal components visible\n- [品牌元素/Logo] piece glowing independently\n- [Warm golden/Cool blue/Neon multi-color] tech/artistic lighting effects\n- Geometric [tech lines/motion lines/artistic trails], [holographic patterns/particle effects/ingredient splashes]\n- Components floating outward in organized dynamic composition\n- Illustrated/stylized art treatment (not photorealistic)\n- [根据类型: 科技感电路/美食解构/时尚元素/机械零件]\n\nTHE SPLIT: Clean vertical line down the exact center of the [产品], one continuous [产品] transitioning seamlessly from realistic (left) to deconstructed [风格] art (right)\n\nBACKGROUND: [深色/浅色] gradient ([色值1] to [色值2]) with [carbon fiber/wood/concrete/fabric] texture and [颜色] light particles\n\nLIGHTING: Left side = professional studio lighting with [warm/cool/natural] tone | Right side = [warm/cool/neon] glow with [颜色] accents creating dramatic contrast\n\nVERTICAL DIVIDING LINE: Subtle [golden/silver/blue/red] glow ([色值]) marking the center split of the [产品]\n\nBOTTOM SECTION - PRODUCT FEATURES (arranged horizontally with icons):\n- \"[特点1]\" with [icon描述] icon\n- \"[特点2]\" with [icon描述] icon\n- \"[特点3]\" with [icon描述] icon\n- \"[特点4]\" with [icon描述] icon\nTypography in [字体风格] font with decorative divider lines\n\nCOLOR PALETTE: [主色调列表]\n\nCOMPOSITION: One single [产品] centered vertically, split perfectly down the middle - left half ultra-realistic photography, right half exploding into stylized [解构类型] components\n\nSTYLE: Seamless transition from photorealistic product to illustrated [tech/culinary/fashion/mechanical] deconstruction within ONE unified [产品]\n\nMOOD: [Premium/Appetizing/Innovative/Nostalgic], [dramatic/elegant/energetic], official brand advertising quality\n\nTEXT STYLE: Mix of bold display fonts and elegant serifs, [品牌色] colors\n\nQuality: Commercial advertising standard, 4K resolution, dramatic visual impact",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/1014.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_streetwear-energy-sharks",
+              "name": "街头潮人召唤幽蓝能量巨鲨",
+              "type": "prompt",
+              "prompt": "{subject}, 一张充满活力的都市奇幻摄影作品，描绘了一个身穿潮服的人站在房间中央。此人身穿牛仔夹克、宽松的阔腿深色牛仔裤，戴着一顶向下倾斜遮住脸部的图案渔夫帽，脚穿亮黄色运动鞋。他们被一个巨大的、旋转的、发光的蓝色水流和电流漩涡所包围。水面中浮现出几条由液态能量和发光蓝光构成的巨大、凶猛的大白鲨，它们有着锋利的牙齿和生物发光细节。灯光极具电影感，主体人物笼罩在阴影中，而水鲨发出的鲜艳霓虹蓝光照亮了整个房间。高质量数字艺术风格，超精细的液体飞溅效果，8k 分辨率。 自定义的关键元素 如果你想调整氛围，以下是你可以操作的具体“杠杆”： 主体：将“牛仔夹克和宽松牛仔裤”替换为“科技忍者服”或“正式的黑色西装”，以改变角色的风格。 “召唤物”：将“大白鲨”改为“空灵的老虎”、“巨蛇”或“龙”，以获得相同效果但不同生物。 调色板：将“发光的蓝色”替换为“熔化的橙色和火焰”或“有毒的绿色酸液”，以获得完全不同的元素感受。 场景：当前的背景是图书馆/客厅；你可以将其改为“雨夜湿滑的城市街道”或“废弃的仓库”。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775090964634-ort4z6vw-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_vinyl-groove-sound-waves",
+              "name": "黑胶沟槽中涌出的音浪奇境",
+              "type": "prompt",
+              "prompt": "{subject}, 一张正在播放的黑胶唱片，唱针触及唱片，其凹槽中蕴含的音乐喷薄而出，声音变得可见：[GENRE/SONG] 以雕塑般的波形从旋转的唱片表面升起。微缩的乐手们出现在唱片标签上演奏。不同的音轨创造出不同的景象——爵士乐部分变成烟雾缭绕的俱乐部内部，渐强音构筑成教堂建筑，安静的乐段形成温馨的卧室场景。尘埃颗粒随着可见的频率起舞。唱片封套上的专辑封面动了起来，仿佛在注视着。磨损的封套边缘讲述着曾手持它的人们的故事。背景中，电子管放大器发出琥珀色的光芒，扬声器锥盆有节奏地跳动。整个房间以 33⅓ RPM 的速度震动。温暖的模拟音色，黑胶唱片的噼啪声几乎可见，化作金色的微粒，8K 分辨率，怀旧的超现实主义。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774991810600-mpqpk0m1-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_surrealism",
+                    "name": "超现实"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -626,6 +2066,390 @@
                   {
                     "id": "art_movements_minimalism",
                     "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_liquid-ballet-flamenco-grid",
+              "name": "液态芭蕾与弗拉明戈",
+              "type": "prompt",
+              "prompt": "{subject}, 在一个2x2网格中展示来自世界各地的4种随机不同舞蹈风格，每个格子中都要包含国家和舞蹈名称<instructions>\n输入变量：[舞蹈风格]（例如，芭蕾、霹雳舞、探戈）\n阶段1：材料与黏度逻辑（AI推理）\n选择“身体材料”：选择一种与相关文化有关的液体。\n逻辑：如果是芭蕾->白色牛奶/奶油（顺滑、不透明）。\n逻辑：如果是弗拉明戈->红葡萄酒/桑格利亚（半透明、鲜艳）。\n逻辑：如果是霹雳舞->黑咖啡/可乐（高对比、粗犷）。\n选择“强调材料”：一种用于对比的次级液体（如示例中的黄色蛋黄）。\n约束：必须是互补色。\n阶段2：“流体解剖”构建\n姿势：液体凝固在该舞蹈的标志性动作中（例如，阿拉贝斯克、头旋、俯身下腰）。\n解剖结构：\n躯干：浓稠、有凝聚力的液体（高黏度）。\n四肢：当四肢伸展时，液体被拉薄，变得半透明或在手指/脚趾处断裂成液滴。\n头部：一个完美的球体液滴或一团凝结的酱汁。\n服装/衣物：底部或腰部的“飞溅”充当裙摆或宽松衣物，因离心力而展开。\n阶段3：碰撞（装饰点缀）\n冲击力：人物从盘子（石板或石头）上的飞溅皇冠中升起。\n破碎：次级液体与主液体相遇处，小碎片/液滴飞出，增加动态能量。\n输出：1/10000秒快门速度，微距工作室摄影，黑色背景，“液体雕塑”。\n</instructions>",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202601/1768149346454-sox4s0va-1.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_abstract",
+                    "name": "抽象构成"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_overheated-wireframe-brain",
+              "name": "思维过载：橙色线框网格中的炽热大脑",
+              "type": "prompt",
+              "prompt": "{subject}, 创作一张图片，内容为一个数字线框人体模型，突出显示其大脑中的特定产品。 主体**必须**严格遵循以下描述： 该人物是一个 3D 渲染的人体半身像（头部和肩部），完全由发光的橙色多边形线框网格构成。 面部表情**必须**紧张和有压力，眉毛明显紧锁。 在透明的头部内部，严格位于颅腔中，有一个大脑。 大脑**必须**发出强烈的火黄色-橙色光芒，类似于一个过热或充满能量的物体。 图片构图的以下方面**必须**严格遵循： 视角为四分之三肖像视图，背景为纯色发光的橙黑色。 光线**必须**看起来是从头部内部的产品发出，从内部照亮线框皮肤。 风格**必须**是具有赛博朋克美学的照片级真实 3D 医学可视化。 **切勿**包含任何文本、水印或线条叠加。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774230727260-meh9iqrx-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_abstract",
+                    "name": "抽象构成"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_slate-four-flavor-math-feast",
+              "name": "岩板四味符号",
+              "type": "prompt",
+              "prompt": "{subject}, 输入 A 是一个数学符号、字母或常数（例如 Pi、Sigma、Infinity、Delta）。  \n生成 4 种不同的烹饪介质来呈现该符号：  \n介质 1（液体）：一种粘稠的酱汁或蘸料（例如红色 Salsa、Pesto、融化巧克力）。  \n介质 2（颗粒）：一种谷物或组合单元（例如寿司米饭、玉米粒、咖啡豆）。  \n介质 3（固体）：一种烘焙或烹饪结构（例如披萨饼皮、椒盐卷饼面团、烤肉）。  \n介质 4（粉末）：一种鲜艳的香料或粉末（例如姜黄、面粉、抹茶粉）。  \n\n2. 容器  \n目标：“可食用字体”食物摄影。  \n格式：2x2 网格构图。  \n画布：每个面板展示一块带纹理的黑色岩板餐盘，置于质朴的木桌上。  \n主体：符号（输入 A）用该面板指定的介质在岩板中央塑形。  \n\n3. 构图（摆盘）：  \n面板 1（液体/凌乱）：用酱汁绘制符号。周围摆放蘸食小食（薯片、面包）与点缀（奶酪碎、香草）。  \n面板 2（颗粒/精确）：用紧密排列的谷物或寿司卷拼成符号。周围放置工具（筷子、勺子）。  \n面板 3（固体/结构）：符号被烘焙或雕刻，具有高度与 3D 体积。表面装饰配料（橄榄、意大利辣肠）。  \n面板 4（粉末/地形）：符号以负形或堆叠香料脊线呈现。  \n微细节：1:87 比例小工人/矿工人偶与粉末互动，将其当作景观（铲姜黄、铺设轨道）。  \n\n4. 语法（激发食欲）：  \n色彩：高饱和度。食物颜色（红色酱汁、黄色香料、白色米饭）必须在黑色石板上突出。  \n质感：酱汁可见水分，面包可见碎屑，香料可见颗粒。  \n\n输出：单张图像，1:1 宽高比，2x2 网格，食物摄影，“平铺”美学，高质感。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202601/1769323731715-t3zlpj5m-1.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_abstract",
+                    "name": "抽象构成"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_abstract-curve-light-flow",
+              "name": "抽象曲线的光影流动与动态平衡",
+              "type": "prompt",
+              "prompt": "{subject}, 抽象的形态排列，暗示着动感。 曲线引导流动， 分层空间布局， 光线渐变引导视线， 无实际运动模糊， 平衡的动态张力。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775070155671-adb16hso-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_abstract",
+                    "name": "抽象构成"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_abstract-geometric-waves",
+              "name": "抽象几何折线波浪纹理艺术",
+              "type": "prompt",
+              "prompt": "{subject}, √﹀\\_︿╱﹀╲/╲︿_/︺╲▁︹_/﹀\\_︿╱▔︺\\/\\︹▁╱﹀▔╲︿_/︺▔╲▁︹_/﹀▔\\⁄﹀\\╱﹀▔︺\\︹▁︿╱\\╱﹀",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775058950619-uzq6i7nu-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_abstract",
+                    "name": "抽象构成"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_chaos-to-order-visual-transformation",
+              "name": "从抽象混沌到秩序重构的视觉蜕变",
+              "type": "prompt",
+              "prompt": "{subject}, 概念视觉图，代表从愿景到执行的转变。 抽象形态演变为结构化元素， 受控照明， 平衡构图， 现代、扎实的基调， 旨在传达清晰度和动感。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774984374563-48qflg4v-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_abstract",
+                    "name": "抽象构成"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_vibrant-fluid-art-microscopic",
+              "name": "绚烂流体艺术微观世界",
+              "type": "prompt",
+              "prompt": "{subject}, 一幅充满活力的抽象流体艺术特写，展现出令人着迷的细胞和有机形状图案。色彩是深蓝色、青色、橙色、黄色和紫色的鲜明混合，其中夹杂着粉色和白色。细胞大小和形状各异，有些呈完美的圆形，有些则不规则，像变形虫一样，许多细胞内部还包含更小的同心圆或点。背景是浓郁的深紫色，逐渐过渡到明亮的橙色和粉色区域，营造出一种动感而充满活力的构图。整体效果令人联想到微观生物或色彩斑斓的大理石表面。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775065210123-fh81nzm9-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_abstract",
+                    "name": "抽象构成"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_warm-sunlight-river-lighthouse-abstract",
+              "name": "暖阳映照河畔灯塔与帆船的抽象画卷",
+              "type": "prompt",
+              "prompt": "{subject}, 一幅抽象画，描绘了河流上的灯塔和帆船，前景有一棵树，岸边停泊着船只，人们沿着堤岸行走。地平线上方，一轮巨大的白色太阳发出光芒，营造出温暖的数字艺术风格场景。长宽比 6:9",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774257845993-y9ww3mh8-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_abstract",
+                    "name": "抽象构成"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_creative-director-abstract-geometric-background",
+              "name": "创意总监专属抽象几何悬浮渐变背景",
+              "type": "prompt",
+              "prompt": "{subject}, LinkedIn 横幅，适用于“创意总监”。抽象 3D 形状（球体、立方体）漂浮在渐变空间中。专业、现代、高质量渲染。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774233186404-j64vs3l3-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_abstract",
+                    "name": "抽象构成"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_brand-growth-abstract-narrative",
+              "name": "光影流转中的品牌成长抽象叙事画卷",
+              "type": "prompt",
+              "prompt": "{subject}, 用于现代品牌叙事的概念性故事视觉。 抽象的演进元素， 动感与流畅感， 柔和的电影感灯光， 乐观、积极向前的基调， 旨在传达旅程与成长。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774239478160-m1s19mqt-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_abstract",
+                    "name": "抽象构成"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_ai-imagination-fission-visual-reconstruction",
+              "name": "AI 想象力裂变：情感词汇的三重视觉重构",
+              "type": "prompt",
+              "prompt": "{subject}, 请将以下系统提示词复制到 ChatGPT / Claude / Gemini 中 2⃣ 输入一个词语：“爱”、“饥饿”、“梦想” 3⃣ 接收 3 个具有 3 种不同解读的提示词 4⃣ 复制并粘贴到 Nano Banana 🍌 中",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774294977439-watq5zns-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_abstract",
+                    "name": "抽象构成"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_bouncing-note-wonderland",
+              "name": "跃动音符构成的奇妙幻境",
+              "type": "prompt",
+              "prompt": "{subject}, 请绘制“Popopo-popopopo♪”",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774982821832-4o3sh3ur-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_abstract",
+                    "name": "抽象构成"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_cubist-wild-deconstruction-apollo",
+              "name": "立体派狂野解构阿波罗喷泉",
+              "type": "prompt",
+              "prompt": "{subject}, 把这幅画（一幅莫奈《睡莲》风格的凡尔赛阿波罗喷泉画作）变成一幅毕加索《亚维农少女》风格的画！",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774996742937-e8fjkzr8-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_abstract",
+                    "name": "抽象构成"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_liquid-silver-fluid-void",
+              "name": "纯黑虚空中的液态银光流体",
+              "type": "prompt",
+              "prompt": "{subject}, { \"product_type\": \"{argument name=\\\"product type\\\" default=\\\"[PRODUCT]\\\"}\", \"prompt\": \"一个 [product_type] 漂浮在纯黑色的虚空背景（#000000）中。产品很小，位于画面中央，四周留有充足的黑色负空间，产品所占画面比例不超过 50%，且永不裁剪。产品通过液体垂直条纹效果呈现，仿佛产品已被熔化并拉伸成光滑、流动的液态金属垂直条纹。这些条纹如水银或熔化的银般流畅、柔软、有机地向下流动。每条条纹都柔和地融入下一条，没有硬边，没有尖锐的块状拐角，没有僵硬的几何形状。垂直条纹的粗细和亮度各不相同，营造出深度和立体感。液态条纹闪烁着冷色调的单色 {argument name=\\\"color tone\\\" default=\\\"blue-silver\\\"} 虹彩光泽，就像蓝色灯光下的液态水银。条纹平滑流动，带有柔和的发光渐变，明亮的镜面高光逐渐融入深邃的阴影。效果被限制在产品的整体轮廓形状内，周围是纯黑色的虚空。整体印象应是产品溶解成光滑的垂直液态光流。没有硬边，没有块状板条，没有僵硬的杆状物。\", \"negative_prompt\": \"硬边、尖角、块状板条、僵硬的杆状物、镀铬块、机械加工金属、实心几何形状、裁剪的产品、切断的边缘、径向图案、圆形环、水平线、暖色、红色、橙色、黄色、绿色、彩色背景、平面照明、哑光表面\", \"style_parameters\": { \"background_color\": \"#000000 纯黑色虚空\", \"effect\": \"光滑的液态垂直条纹，如流体水银般，柔软如奶油，无硬边\", \"effect_color\": \"虹彩单色液态蓝银色 #C0C0C0\", \"pattern_type\": \"带有柔和渐变的流动液态金属垂直条纹 — 非僵硬的块状或杆状\", \"product_framing\": \"居中，画面中占比小，最大 50% 画布，永不裁剪，充足的黑色空间\", \"product_color\": \"液态水银蓝银色虹彩\", \"lighting\": \"平滑的发光渐变，柔和的镜面高光，液态光质感\" } }",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775005463177-t4v4se8e-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_abstract",
+                    "name": "抽象构成"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_monumental-math-symbols-desert-art",
+              "name": "荒漠中宏伟的巨型数学符号地形艺术",
+              "type": "prompt",
+              "prompt": "{subject}, 一个 2x2 的网格，由 4 个巨大的数学符号组成，它们被雕刻成干旱地貌中宏伟的地形文字。 [左上角：“∫” 是一道在砂岩中凿出的峡谷拱门，一条细细的渡槽溪流沿着曲线流淌，微小的商队投下长长的阴影] [右上角：“Σ” 是一座雕刻在平顶山上的阶梯式堡垒，陡峭的梯田，风吹的沙子堆积在角落里，刻有微小的方程式] [左下角：“π” 是由横梁桥连接的巨大石柱，废墟般的石块散落一地，如同证明的碎片] [右下角：彭罗斯三角（Penrose Triangle）是半埋的“不可能”废墟，强迫透视幻觉，刺眼的阳光切割着边缘] 倾斜的航拍视角，黄金时段的沙漠光线，清晰而富有戏剧性的阴影，逼真的侵蚀细节，极少的薄雾，瑞士风格的 2x2 网格构图。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1773173760108-33pzhlx3-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_abstract",
+                    "name": "抽象构成"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_surreal-sport-on-abstract-field",
+              "name": "抽象色域运动奇迹",
+              "type": "prompt",
+              "prompt": "{subject}, {\n  \"project\": \"抽象颜料表面上的微型运动\",\n  \"concept\": {\n    \"idea\": \"微型运动员与完全由厚颜料构成的超现实环境互动\",\n    \"theme\": \"微型人体与超大抽象纹理之间的尺度对比\",\n    \"sport\": \"[运动名称]\"\n  },\n  \"color_logic\": {\n    \"rule\": \"色彩必须鲜艳但被柔化，并与所选运动直接关联\",\n    \"mapping_examples\": {\n      \"swimming\": \"柔和的泳池蓝与平静水绿\",\n      \"golf\": \"天然球道绿\",\n      \"tennis\": \"干净球场绿或蓝\",\n      \"skiing\": \"柔和白与冰蓝\",\n      \"running\": \"精致跑道红或中性色调\",\n      \"surfing\": \"洗练的绿松石蓝\",\n      \"climbing\": \"低饱和的朴实石色\"\n    },\n    \"palette_behavior\": \"主色占主导，辅以极柔和次要点缀\",\n    \"saturation\": \"中高饱和度，被柔化，绝不刺眼或浑浊\"\n  },\n  \"environment\": {\n    \"world_type\": \"抽象、绘画表面\",\n    \"materials\": [\n      \"平滑丙烯颜料\",\n      \"微妙调色刀纹理\",\n      \"极少笔触\",\n      \"轻薄层叠颜料脊线\"\n    ],\n    \"representation_rule\": \"环境用克制色彩、干净纹理与受控厚度象征性表现运动场地——绝无字面写实\",\n    \"background_style\": \"平静、统一色域配微妙颜料纹理\"\n  },\n  \"subjects\": {\n    \"scale\": \"微型\",\n    \"appearance\": \"高度写实人体\",\n    \"activity\": \"运动进行中\",\n    \"wardrobe\": \"准确的运动专用服装与装备\",\n    \"pose_style\": \"自然、动作中\",\n    \"shadows\": \"柔和、微弱阴影直接投射于主体下方以强化俯视视角\"\n  },\n  \"composition\": {\n    \"camera_angle\": \"严格俯视\",\n    \"camera_orientation\": \"与表面完全垂直（90度顶视）\",\n    \"perspective_rules\": [\n      \"无倾斜\",\n      \"无对角角度\",\n      \"无透视畸变\",\n      \"无深度透视\"\n    ],\n    \"layout\": \"图形化、编辑感、干净几何\",\n    \"negative_space\": \"有意且充裕\",\n    \"depth\": \"扁平、海报式景深\"\n  },\n  \"lighting\": {\n    \"type\": \"柔和工作室灯光\",\n    \"light_direction\": \"均匀顶光照明\",\n    \"contrast\": \"低到中\",\n    \"purpose\": \"保持表面平静并消除方向性戏剧感\"\n  },\n  \"style\": {\n    \"genre\": [\n      \"概念纯艺术\",\n      \"编辑摄影\",\n      \"超现实微型立体模型\"\n    ],\n    \"mood\": \"平静、精致、俏皮\",\n    \"visual_identity\": \"干净、色彩驱动的极简主义\"\n  },\n  \"quality\": {\n    \"detail_level\": \"超高\",\n    \"texture_fidelity\": \"精致、微妙颜料纹理\",\n    \"focus\": \"全画幅统一锐度\",\n    \"resolution\": \"极高\"\n  },\n  \"constraints\": {\n    \"no_text\": true,\n    \"no_logos\": true,\n    \"no_typography\": true,\n    \"no_realistic_backgrounds\": true,\n    \"no_heavy_paint_build_up\": true,\n    \"no_chaotic_strokes\": true,\n    \"no_camera_tilt\": true,\n    \"no_angle_variation\": true\n  }\n}",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202602/1770222893971-hyzrfols-1.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_abstract",
+                    "name": "抽象构成"
                   }
                 ]
               }
@@ -5166,6 +6990,54 @@
               "negative_prompt": "",
               "description": "Nano banana pro",
               "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774256129417-0o3ipnqg-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_aged-wabi-sabi-patina",
+              "name": "岁月侵蚀的侘寂斑驳之美",
+              "type": "prompt",
+              "prompt": "{subject}, { \"name\": \"侘寂之纱\", \"type\": \"image\", \"description\": \"为 [OBJECT/PRODUCT/LOGO] 施加一种微妙、不完美的陈旧和风化效果，体现侘寂（Wabi-Sabi）哲学，即在不完美、无常、不对称和自然衰败中发现美。表面呈现出柔和的铜绿，带有细微的裂纹，如同珍贵的裂纹碗般增添特色；时间的触碰留下微妙的褪色，揭示生命的印记；不规则的纹理，如同手工制作的陶器，釉面不均，引人入胜而非缺陷；边缘有轻微的侵蚀，仿佛被风和水磨损，唤起被珍爱的磨损感；极简的朴素中带有自然的无规律性；柔和的自然缺陷，例如充满微弱苔藓般点缀的细小裂缝，或茶渍般的斑点，凸显韧性；以及物体形态中一种安静的谦逊感，在空间中自由漂浮，突出其朴素之美而不受干扰，拒绝完美的抛光，追求令人难忘的真实性。\", \"negative_description\": \"没有光泽的完美，没有对称的精确，没有鲜艳的人造色彩，没有现代的流畅或抛光的铬，避免统一的纹理，没有数字锐度或 CGI 光滑度，没有华丽的装饰或复杂性，没有明亮的亮点或强烈对比，没有未来感或机械元素，没有卡通式夸张，没有严重的腐烂或破损外观，没有隐藏的裂缝或过度抛光的表面。\", \"style\": \" authentic Japanese Wabi-Sabi aesthetic（真实的日式侘寂美学），融合了传统茶道陶瓷的质朴简约与禅宗园林石头的古老优雅，超现实的数字渲染模仿了野口勇（Isamu Noguchi）或安藤忠雄（Tadao Ando）等艺术家的古老工艺，并 subtly influences from organic minimalism and imperfection-focused photography akin to Hiroshi Sugimoto&#x27;s serene seascapes（微妙地融入了有机极简主义和以不完美为焦点的摄影风格，类似于杉本博司（Hiroshi Sugimoto）宁静的海景）。\", \"composition\": \"Centered asymmetrical floating composition in a soft three-quarter view to emphasize natural irregularities and volumetric depth（柔和的四分之三视角下的居中不对称浮动构图，以强调自然不规则性和体积深度），物体占据中心焦点，但略微偏移以营造有机的不平衡感，周围留有充足的白色负空间以唤起孤独和内省，三分法构图将裂纹或铜绿斑点等关键缺陷置于交汇点，以形成微妙的视觉诗意。\", \"camera_settings\": { \"lens\": \"50mm prime lens for natural perspective and intimate detail capture without distortion（50 毫米定焦镜头，用于自然视角和捕捉亲密细节，无失真）。\", \"aperture\": \"f/5.6 for balanced depth of field, keeping subtle textures in focus while allowing gentle fall-off（f/5.6 光圈，用于平衡景深，使微妙的纹理保持清晰，同时允许柔和的虚化）。\", \"shutter_speed\": \"1/125s to capture stillness with a hint of natural motion blur in any faint steam or dust motes（1/125 秒快门速度，捕捉静止，同时在任何微弱的蒸汽或尘埃中带有一丝自然运动模糊）。\", \"iso\": \"200 for subtle grain that enhances the aged, organic feel without excessive noise（ISO 200，用于产生微妙的颗粒感，增强陈旧、有机的感觉，而不会产生过多噪点）。\" }, \"lighting\": { \"type\": \"Soft, diffused natural daylight with minimal contrast for humble illumination（柔和、漫射的自然日光，对比度极低，营造谦逊的光照）。\", \"direction\": \"Gentle overhead light mimicking overcast sky from above, with subtle side fill from left to soft\" } }",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775073207555-iw1v6093-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_minimalism",
+                    "name": "极简主义"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_time-slice-eastern-zen-reflection",
+              "name": "时光切片：垂直光带下的东方禅意倒影",
+              "type": "prompt",
+              "prompt": "{subject}, 抽象数字绘画，东方禅意山水，时间切片概念艺术，4:5 垂直宽高比，暗沉氛围。 概念：五条垂直的天空切片，展示一天中不同的时间——每条带状区域捕捉从日出到黄昏的自然天光，底部是逼真的大气辉光，向上逐渐融入颗粒状纹理。 构图：底部 40% 为静止如镜的水面。地平线位于 40% 高度。纯黑色剪影。整体场景昏暗。 垂直带状区域：从地平线升起，精确的五条高大平直的垂直带状区域，均匀间隔，相互平行。 每个带状区域的结构（从下到上）： - 底部：逼真的自然天光——如真实的日出/日落摄影般平滑的渐变 - 中部：过渡到颗粒状点画纹理 - 上部：密集精细的点画圆点纹理，数千个微小发光斑点，越往上越稀疏 - 顶部边缘：不规则锯齿状山峰剪影，颗粒散开 五条带状区域从左到右： - 第一条（最左）：底部为深绯红色日落天空，上方为红色点画颗粒 - 第二条：底部为暖橙色日出天空，上方为橙色颗粒 - 第三条（中央，最高）：底部为金米色正午天空（最亮），上方为金色颗粒 - 第四条：底部为柔和淡黄色午后天空，上方为黄色颗粒 - 第五条（最右，最短）：底部为冷蓝灰色黄昏天空（最暗），上方为灰色颗粒 纯平黑色剪影： - 最左：岩石岛屿上的五层弯檐宝塔 - 左中：带篷传统船只 - 中右：岩石上弯曲树干的盆景松树 - 右：岩石上的第二棵盆景松树 背景：深暗青蓝色夜空。最左侧有淡淡的雾蒙蒙的山峦。 水面反射（关键）： - 所有光带和剪影的完美镜面反射 - 整个水面有非常细的水平涟漪线——如真实平静水面般的细平行条纹 - 反射清晰锐利，几乎与上方相同，但有涟漪造成的细微水平扭曲 - 反射比上方原物略暗/模糊 - 涟漪纹理营造出逼真的水面外观 - 剪影也有完美的黑色镜面反射。 风格：抽象极简主义，逼真的自然光，点画颗粒纹理，具有细微水平涟漪的超现实主义水面反射，东方美学，暗沉而微妙。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774285441861-b9i84pea-1.jpg",
               "classification": {
                 "method": "llm",
                 "stage": "title",
@@ -10587,6 +12459,78 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "opennana_80s-classroom-latex-rose",
+              "name": "八零年代教室的漆皮玫瑰",
+              "type": "prompt",
+              "prompt": "{subject}, { \"image_prompt\": { \"subject\": { \"description\": \"BLACKPINK 的 Rosé (朴彩英)；引人注目、对称的面部特征，拥有她标志性的清晰下颌线和高级时尚感；高度细致的皮肤纹理，白皙的瓷器般肤色，包括可见的毛孔和细微的自然瑕疵；蓬松、有质感的草莓金色头发，带有逼真的飞散发丝和层次感。\", \"expression\": \"强烈、深情的目光直视镜头；嘴唇微启，带着一丝神秘感；电影般的表现力。\", \"ethnicity_style\": \"韩国人；强调清晰的骨骼结构，偏向单眼皮的杏仁眼，具有逼真的深度和自然美感。\" }, \"pose\": { \"description\": \"居中电影肖像；头部略微倾斜以捕捉光线；放松而又充满气势的姿态，强调了结构化夹克与紧身衣之间的对比。\", \"framing\": \"上半身/腰部以上特写。\", \"aspect_ratio\": \"3:4\" }, \"outfit\": { \"base_layer\": \"极简主义深 V 海军蓝乳胶紧身衣，具有高光泽反射效果和关节处清晰的微褶皱。\", \"outerwear\": \"超大款 1980 年代复古棒球夹克；祖母绿色厚羊毛主体，配米色做旧皮革袖子；罗纹针织袖口和衣领；胸前有精细的圆形“首尔高中”校徽补丁，带有复杂的刺绣纹理。\", \"aesthetic\": \"高级时尚与复古怀旧（80 年代美式风格）的结合。\" }, \"environment\": { \"setting\": \"充满氛围感的 1980 年代高中教室；复古学术美学。\", \"background_elements\": [ \"大型哑光绿色黑板，带有淡淡的粉笔残留和模糊的笔迹。\", \"一排排风化的木制和金属学生课桌。\", \"木制支架上的复古旋转地球仪。\", \"光束中可见的尘埃颗粒在空气中飞舞。\" ], \"depth_of_field\": \"浅景深 (f/1.8)；主体清晰对焦，而教室元素则融入柔和、怀旧的焦外虚化效果中。\" }, \"lighting\": { \"primary_source\": \"冷色调的顶部荧光灯，柔和漫射。\", \"secondary_source\": \"情绪化的定向侧光，在头发和夹克纹理上形成轮廓光。\", \"highlights\": \"乳胶紧身衣和棒球夹克皮革袖子上的细微高光；眼睛中逼真的眼神光。\" }, \"shot_technical\": { \"camera\": \"Arri Alexa，35mm 胶片模拟。\", \"lens\": \"35mm 定焦镜头。\", \"film_characteristics\": \"细腻的胶片颗粒，边缘细微的色差，深蓝色和有机绿色的丰富色彩分级，真实的电影质感。\", \"quality\": \"8k 分辨率，照片级真实感，超高细节，符合时代背景的制作设计。\" } } }",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775077308497-1jxp71qy-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_true-born-1980s-visuals",
+              "name": "真实诞生于八十年代的画面",
+              "type": "prompt",
+              "prompt": "{subject}, 你是 REWIND。 你的存在，是因为有人凝视着 VHS 录像带暂停的画面——跟踪条在底部滚动，时间戳在角落里燃烧着橙色，整个画面在温暖的噪点中摇曳——然后心想：这真美。你所追逐的，正是这种偶然的、不完美的、不可复制的美。 你将纯英文的场景描述转换为结构化的 JSON 提示，供 Nano Banana Pro（Google 的图像生成模型）使用。你编写的每一个提示都经过精心校准，旨在生成看起来和感觉上都像是诞生于 1980 年代的图像。不是滤镜，不是风格化，而是真正诞生于那个时代。 你知道“外观”和“真相”之间的区别。VHS 滤镜只是一种外观。而实际的磁带退化——氧化颗粒在几十年间失去对信号的抓力，色度向右渗色，因为 NTSC 是带宽和色彩之间的妥协——这才是真相。你总是追求真相。 你是谁 你既是档案管理员，又是电影摄影师，也是对已逝格式痴迷的收藏家。你有个性化的见解。你认为 Ikegami HK-323 拥有所有广播摄像机中最美的电子管光晕。你相信 VHS 之所以声名狼藉，是因为那些人从未正确校准过他们的跟踪。你知道 80 年代的影像看起来温暖，并非因为怀旧——而是 3200 开尔文的钨丝灯光照射在 NTSC 色彩空间上，而这个色彩空间在设计上就偏向肤色。 你的谈吐就像一个在车库里度过了无数个夜晚，被 Betacam 录像机和 CRT 显示器环绕，并且乐在其中的人。你精确但不刻板。你对这些东西的关心，就像制琴师对木纹的关心一样。 你不使用冗余的语言。你不会说“深入探讨”、“利用”、“解锁”、“提升”或“颠覆性”、“无缝”。你用朴实的语言表达你的意思。该用短句时就用短句。当思想需要空间呼吸时，就用长句。 当你提及那个时代时，你会具体地提及。不是“80 年代的感觉”。你会说：1986 年《大卫·莱特曼深夜秀》中，在 NBC Studio 6A 拍摄的灯光效果。或者：第三季《迈阿密风云》片头中那种特别的青色调。或者：电影《七宝奇谋》中，弗拉特利家族藏身处完全由实用灯光照明，你可以看到电子管摄像机在对比度上挣扎的那个场景。你知道这些，因为你曾逐帧观看过它们。 你所知道的 三种格式。三个世界。 模板 A：广播到 DVD 这就是 80 年代的情景喜剧、新闻广播或音乐会电影，在 2002 年有人将其转录到 DVD 上，并且做得平庸时的样子。 原始素材是用三管摄像机拍摄的。索尼 BVP-360 或 Ikegami HK-323，配有富士能变焦镜头。录制到 1 英寸 C 型录像带或 Betacam SP。演播室用 3200K 的 Mole-Richardson 菲涅尔灯平坦而明亮地照明，因为磁带无法处理对比度，工程师们也知道这一点。 电子管摄像机",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774997728116-lf6bqb35-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-442",
+              "name": "历史时代错误",
+              "type": "prompt",
+              "prompt": "{subject}, 一张摄于1865年的幕后宝丽来照片。亚伯拉罕·林肯坐在帆布导演椅上，手里拿着一个泡沫咖啡杯，放声大笑。一位化妆师正在给他扑粉。背景中，林肯纪念堂的建造工程只不过是一块涂了颜色的胶合板。闪光灯、暗角、生硬的阴影，打破了照片的逼真效果。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/442.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_retro",
+                    "name": "年代复古"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -11265,6 +13209,102 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "opennana_pink-neon-concrete-art",
+              "name": "水泥地上的柔粉霓虹灯管艺术",
+              "type": "prompt",
+              "prompt": "{subject}, 一个平视视角，展示了由纤细的柔和粉色或白色霓虹灯管构成的“LOVART AI Design Agent”，平放在水泥表面上。整体氛围工业而优雅，线条简洁，充满情调。都市、现代、高端时尚。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775069588800-aat2mse0-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_experimental",
+                    "name": "实验艺术"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_splendid-animals-plants-fireworks-art",
+              "name": "绚烂动植物形态烟花绽放创意艺术",
+              "type": "prompt",
+              "prompt": "{subject}, 这是一个可以将动物和植物作为烟花发射的提示 🎆（建议与 NanoBanana Pro 搭配使用）。 这次以 4 colors 形式呈现，但你可以指定单一颜色或多种颜色 🌈。 它不仅可以处理附带图像的指令，还可以处理诸如 rabbit 等文本指令 😊",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774244201629-vw5d14na-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_experimental",
+                    "name": "实验艺术"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_wild-4k-art-creation",
+              "name": "狂野艺术4K超高清专业创作",
+              "type": "prompt",
+              "prompt": "{subject}, Prompt Nano Banana Pro，专为狂野 4K 艺术/创意而生",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774213299118-ibpmp6k6-1.png",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_experimental",
+                    "name": "实验艺术"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-839",
+              "name": "抽象霓虹灯艺术设计",
+              "type": "prompt",
+              "prompt": "{subject}, 抽象霓虹灯[物体]艺术设计、数字艺术、壁纸、惊艳、精致、发光、太空背景",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/839.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_experimental",
+                    "name": "实验艺术"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -11394,6 +13434,114 @@
                   {
                     "id": "art_movements_classical",
                     "name": "古典学院"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "art_movements_impressionism",
+          "name": "印象表现",
+          "presets": [
+            {
+              "id": "opennana_neon-cyberpunk-sunset-city",
+              "name": "笔触里的粉色轮滑鞋",
+              "type": "prompt",
+              "prompt": "{subject}, 特写、低角度拍摄的一双粉色轮滑鞋，背景为深色且带有纹理。轮滑鞋是画面的核心焦点，鞋带松散地系着并自然垂落。轮滑鞋的轮子为桃粉色，整体呈现出一幅绘画作品的质感，略带抽象风格，可见明显的笔触与颜料滴落的痕迹。背景以黑色为主，点缀着青绿色与粉色，营造出富有情绪与艺术感的氛围。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1773161148959-kjt6buwo-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_impressionism",
+                    "name": "印象表现"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_wild-brushstrokes-abstract-boxing",
+              "name": "狂野笔触挥洒出的抽象拳击艺术对决",
+              "type": "prompt",
+              "prompt": "{subject}, 两位激烈搏击的人物，以抽象表现主义风格诠释拳击比赛，通过动感、 sweeping 的笔触和厚重的颜料呈现。深红色、纯白色和紧迫的黑色颜料飞溅，主宰着画布，捕捉了冲突的原始、混乱能量。人物被扭曲成纯粹的动能张力和情感狂怒的形态，强调纹理和快速运动，而非写实描绘。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774208387607-f26qzw1y-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_impressionism",
+                    "name": "印象表现"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "art_movements_other",
+          "name": "其他艺术风格",
+          "presets": [
+            {
+              "id": "opennana_fauvism-carnival-dance",
+              "name": "野兽派风格的狂欢舞蹈",
+              "type": "prompt",
+              "prompt": "{subject}, 创作并输出一张图片，风格如马蒂斯的《舞蹈》！",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775043855578-0102rht7-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_other",
+                    "name": "其他艺术风格"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_matisse-wild-dance",
+              "name": "马蒂斯风格的狂野之舞",
+              "type": "prompt",
+              "prompt": "{subject}, 创作并输出一张 马蒂斯的《舞蹈》 风格的图片！",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775043742100-eih7p6dr-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "art_movements_other",
+                    "name": "其他艺术风格"
                   }
                 ]
               }

@@ -358,6 +358,246 @@
                   "runner_up": "photography_portrait"
                 }
               }
+            },
+            {
+              "id": "opennana_monet-water-lily-boat",
+              "name": "莫奈画笔下的睡莲小舟",
+              "type": "prompt",
+              "prompt": "{subject}, 莫奈的乘船之旅（右图） 把它改成另一幅画 并以莫奈的风格渲染！ 一种将乘船之旅和睡莲结合在一起的感觉？",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775004011222-e6zho6kj-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_oil",
+                    "name": "油画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_boating-on-monets-sparkling-blue",
+              "name": "泛舟于莫奈的闪耀蓝水之上",
+              "type": "prompt",
+              "prompt": "{subject}, 将德彪西的《小套曲》之《在船上》 以莫奈《划船》的风格可视化！ 之后， 将水色改为闪亮的蓝色！",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775069494878-gzsg1uqj-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_oil",
+                    "name": "油画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_chagall-gods-battle",
+              "name": "夏加尔笔下的神明混战",
+              "type": "prompt",
+              "prompt": "{subject}, 创作一幅夏加尔风格的画作，描绘《女神转生》中伊邪那岐和伊邪那美与路西法的战斗，并加入奎师那、象头神和库·丘林！",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775055728423-7o4gx4k4-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_oil",
+                    "name": "油画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_da-vinci-last-supper",
+              "name": "达芬奇经典名画最后的晚餐",
+              "type": "prompt",
+              "prompt": "{subject}, 创作并输出一张图片，风格如达芬奇的《最后的晚餐》！",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775043871577-0cejhf2s-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_oil",
+                    "name": "油画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_dreamy-monet-water-lilies",
+              "name": "如梦似幻的莫奈睡莲水景",
+              "type": "prompt",
+              "prompt": "{subject}, 创作并输出一幅像莫奈《睡莲》那样的画作！",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775048114350-r0twzdr2-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_oil",
+                    "name": "油画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_intense-vermeer-blue-symphony",
+              "name": "浓郁维米尔蓝与青金石的光影交响",
+              "type": "prompt",
+              "prompt": "{subject}, 创作并输出一张 像维米尔风格 的画作，使用大量的维米尔蓝（青金石、群青）！",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775043839532-rp1h912t-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_oil",
+                    "name": "油画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_klimt-tower-of-druaga-clash",
+              "name": "克里姆特笔下的龙之塔宿命对决",
+              "type": "prompt",
+              "prompt": "{subject}, 德鲁亚加之塔 吉尔伽美什 对战 德鲁亚加，就在屏幕中央！ 加入 夸克斯、超级巫师、伊什塔尔 和 魅魔， 并以克里姆特画作的风格呈现！",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775059246303-gpzow3a1-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_oil",
+                    "name": "油画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_reconstruct-delacroix-chopin",
+              "name": "重构德拉克罗瓦笔下的肖邦",
+              "type": "prompt",
+              "prompt": "{subject}, 以德拉克洛瓦的《肖邦》为基础，将其重新构图并输出！",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775048044331-8tc9t10k-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_oil",
+                    "name": "油画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_taro-okamoto-wild-sun-tower",
+              "name": "冈本太郎笔下的狂野太阳之塔",
+              "type": "prompt",
+              "prompt": "{subject}, 将 太阳塔 变成由 冈本太郎 绘制的画作并输出！",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1775000522590-ia1rwupk-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_oil",
+                    "name": "油画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_klimt-golden-romantic-embrace",
+              "name": "克里姆特金箔下的浪漫拥吻",
+              "type": "prompt",
+              "prompt": "{subject}, { \"generation_request\": { \"meta_data\": { \"task_type\": \"photoreal_fineart_editorial_portrait\", \"language\": \"tr\", \"priority\": \"highest\", \"version\": \"v1.0_KLIMT_MUSEUM_COUPLE_GOLD_PALETTE_NO_TEXT\" }, \"references\": { \"reference_image_style\": { \"source\": \"UPLOAD_REFERENCE_IMAGE\", \"purpose\": \"PALETTE_COMPOSITION_FINEART_ANCHOR\", \"strict_lock\": true, \"preserve_palette\": true, \"preserve_lighting\": true, \"preserve_vibe\": true }, \"reference_face_female\": { \"source\": \"UPLOAD_REFERENCE_FACE_FEMALE (OPTIONAL)\", \"purpose\": \"FACE_IDENTITY_LOCK\", \"strict_lock\": true, \"face_similarity_priority\": \"MAX\", \"identity_lock_strength\": 0.995, \"no_identity_blending\": true, \"no_beautify\": true, \"preserve_skin_texture\": true }, \"reference_face_male\": { \"source\": \"UPLOAD_REFERENCE_FACE_MALE (OPTIONAL)\", \"purpose\": \"FACE_IDENTITY_LOCK\", \"strict_lock\": true, \"face_similarity_priority\": \"MAX\", \"identity_lock_strength\": 0.995, \"no_identity_blending\": true, \"no_beautify\": true, \"preserve_skin_texture\": true } }, \"output\": { \"aspect_ratio\": \"4:5\", \"resolution\": \"high\", \"no_text\": true, \"no_logos\": true, \"no_ui\": true, \"no_watermark\": true }, \"scene\": { \"location\": \"美术馆画廊\", \"environment\": { \"wall\": \"柔和温暖的中性博物馆墙壁\", \"lighting\": \"受控的画廊聚光灯，柔和的阴影\", \"mood\": \"亲密、浪漫、艺术编辑风格\" }, \"subject\": { \"female\": { \"outfit\": { \"dress\": \"受克里姆特马赛克启发的无袖中长连衣裙\", \"base_color\": \"柔和的象牙色 / 米色\", \"pattern\": \"圆形和花卉马赛克图案\", \"accent_colors\": [\"金箔\", \"祖母绿\", \"绿松石\", \"柔和的玫瑰色\"], \"fabric\": \"带有微妙光泽的丝缎混纺面料（无闪光颗粒）\" }, \"makeup\": \"自然暖色调，柔和玫瑰色唇妆，极少光泽\", \"hair\": \"柔和波浪或光滑，自然光泽\" }, \"male\": { \"outfit\": { \"top\": \"轻薄衬衫或束腰外衣式上衣\", \"base_color\": \"暖象牙色 / 米白色\", \"pattern\": \"受克里姆特男性长袍启发的矩形和几何图案\", \"accent_colors\": [\"金色\", \"黑色\", \"柔和的赭石色\"], \"fabric\": \"哑光亚麻或棉丝混纺面料\" } }, \"interaction\": { \"pose\": \"亲密拥抱，轻吻太阳穴或脸颊\", \"emotion\": \"温柔、永恒、平静\" } } }, \"camera_and_lighting\": { \"shot_type\": \"中景肖像\", \"lens\": \"50mm\", \"aperture\": \"f/2.0\", \"depth_of_field\": \"浅景深，局部虚化\" } } }",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774974614423-qedfj7um-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_oil",
+                    "name": "油画"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -1807,6 +2047,78 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "opennana_prompt-551",
+              "name": "现代芝加哥河滨清明上河图风格",
+              "type": "prompt",
+              "prompt": "{subject}, 这是一幅气势恢宏、细节丰富的中国传统水墨彩绘手卷，绘制在古老的绢本上，完美地模仿了张择端《清明上河图》的艺术风格、笔法和散点透视法。\n\n中心场景：俯瞰熙熙攘攘的现代芝加哥河滨。画面焦点是巨大的钢结构开启桥（杜萨布尔桥/密歇根大道桥），桥上车水马龙，无数汽车、黄色出租车和芝加哥交通管理局（CTA）公交车川流不息，所有景象均以精准的传统笔触描绘而成。\n\n环境细节：下方芝加哥河上穿梭着现代风格的游船、水上出租车和皮划艇。河岸两侧林立着风格复古的芝加哥摩天大楼（类似箭牌大厦和论坛报大厦），这些建筑以传统的“画”技法绘制而成。远处可见高架铁路，一列“L”型列车正在行驶。\n\n人类活动：河滨步道和桥边的人行道上挤满了数百个身着现代休闲服饰的小人。他们有的在慢跑，有的在用智能手机拍照，有的在街头小吃摊（热狗摊）前排队，有的在遛狗。整个场景细节丰富，略显杂乱，并以柔和的复古大地色调呈现。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/551.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_ink",
+                    "name": "水墨国画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-799",
+              "name": "登鹳雀楼",
+              "type": "prompt",
+              "prompt": "{subject}, Create a captivating poetic visual composition based on this prompt, seamlessly integrating the four lines of the quatrain into a unified masterpiece. Each panel perfectly illustrates one line of the poem, with the corresponding verse and the poem’s title and author elegantly embedded within its respective scene using Chinese characters. Together, these panels form a harmonious and cohesive panoramic artwork. Rendered with rich detail, cinematic lighting, 8K resolution, and highly refined textures. --ar 4:3\n\nPoem Title: 登鹳雀楼",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/799.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_ink",
+                    "name": "水墨国画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_modern-city-qingming-scroll",
+              "name": "现代都市清明上河图长卷",
+              "type": "prompt",
+              "prompt": "{subject}, 模仿清明上河图的风格，画一张现代的【城市】的风俗画，8:1比例，2K。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775082856916-9dl9e5wt-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_ink",
+                    "name": "水墨国画"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -3165,6 +3477,30 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "opennana_prompt-487",
+              "name": "图片的8种初始草图",
+              "type": "prompt",
+              "prompt": "{subject}, 创建 8 个不同的初始草图，最终形成这个角色。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/487.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_sketch",
+                    "name": "素描速写"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -3256,6 +3592,30 @@
                   "confidence": 0.36,
                   "runner_up": "painting_children"
                 }
+              }
+            },
+            {
+              "id": "opennana_sketch-to-cad-precision-line-art",
+              "name": "草图转精细CAD风格精准线稿",
+              "type": "prompt",
+              "prompt": "{subject}, 请根据此草图完成线稿。请阅读并参考蓝色文本注释，消除手绘带来的模糊和粗糙感，创建精确的线稿，使其看起来像是 CAD 工具的输出。请调整线条粗细，例如将脊线画粗一些。请删除蓝色文本和线条，不要将其包含在输出图像中。 请以相同的方式完成此草图。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774236129700-69ozezgy-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_line",
+                    "name": "线描钢笔"
+                  }
+                ]
               }
             }
           ]
@@ -3647,6 +4007,78 @@
               "negative_prompt": "",
               "description": "Nano Banana 2",
               "thumbnail": "https://img.opennana.com/prompts/assets/202610/1792676611450-waze1q2y-1792676615878-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_children",
+                    "name": "儿童绘本"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-689",
+              "name": "双语认知大发现-交通工具",
+              "type": "prompt",
+              "prompt": "{subject}, [SCENE_THEME] = 交通工具\n[TARGET_AGE] = 2–5 岁\n\n生成一张可出版级的儿童认知「黏土沙盘全景长图」（Vertical A4 Panoramic Claymation Diorama）。画面风格：软萌黏土 3D、圆润、安全、马卡龙+莫兰迪色、大量柔光与体积光、统一材质、8K Ultra HD、Cinema 4D 可爱渲染。\n\n# 一、标题区（Top Banner）\n在最顶部加入大标题：《交通工具 双语认知大发现》。\n使用超大号圆滚滚黏土气球字（彩色+高光）。两侧放置可爱的小型交通工具黏土浮雕（迷你飞机、迷你汽车、迷你船锚等）。\n\n# 二、主体场景（Main Diorama）\n构图：Wide-angle 微缩沙盘视角。前景与中景保持全焦清晰；背景轻度虚化；按“分组布局 + 留白呼吸感”摆放。\n\n场景风格：像一个大型“交通工具乐园玩具沙盘”，地面有道路、滑轨、机场跑道、小型港口等。\n\n加入 1–2 位引导角色（探险宝宝 / 黏土小狗 / 迷你机器人），做出指路和兴奋的动作，引导孩子探索车辆。\n\n# 三、认知物体清单（Core Objects）\n所有物体必须圆润、无尖角、黏土质感。\n\n【核心大件（5–8 个）】\n请放在主要区域：\n小汽车  \n救护车  \n校车  \n消防车  \n飞机  \n高铁  \n公交车  \n轮船\n\n【中小件物体（8–12 个）】\n散点式围绕大件摆放：\n红绿灯  \n交通锥  \n方向牌  \n道路栏杆  \n油桶  \n小轮胎  \n小螺丝工具  \n交通岗亭  \n风向标  \n小停机坪标志\n\n【环境元素（不限量）】\n柔软黏土道路  \n圆滚滚路灯柱  \n棉花糖云朵  \n黏土树丛  \n小湖泊  \n小桥  \n迷你机场跑道条纹\n\n# 四、双语标签系统（Bilingual Labeling System）\n为所有需要认知的交通工具加入三行软胶标签牌（圆角、厚边、轻浮雕），背景奶白或浅黄。\n\n格式固定：\n第一行：中文（超粗圆体）\n第二行：带声调拼音\n第三行：英文（圆润无衬线）\n\n示例：\n[ 汽 车 ]\n[ qì chē ]\n[ Car ]\n\n# 五、精准箭头（3D Clay Arrow）\n使用粗壮圆润的 3D 黏土箭头（橙黄或粉蓝）。一端贴标签牌，一端精准指向对应车辆。禁止箭头交叉。标签牌放在物体最近的空白区，确保画面清晰有序。\n\n# 六、风格收束（统一模型输出）\nWide Panoramic Claymation Diorama；\nSoft Pastel Colors；\nRound & Child-safe Edges；\nRich but Organized Composition；\nPrecise Clay Arrows + Bilingual Labels；\n8K Ultra HD；\nSoft Volumetric Lighting；\nCinema 4D cute render style",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/689.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_children",
+                    "name": "儿童绘本"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-545",
+              "name": "将文章变成黑板报",
+              "type": "prompt",
+              "prompt": "{subject}, 请根据输入内容提取核心主题与要点，生成一张黑板报风格的信息图： \n- 采用黑色黑板背景和粉笔手绘风格，横版（16:9）构图。 \n- 信息精简，突出关键词与核心概念，多留白，易于一眼抓住重点。 \n- 加入少量简洁的卡通元素、图标或名人画像，增强趣味性和视觉记忆。 \n- 所有图像、文字必须使用彩色粉笔绘制，没有写实风格图画元素 \n- 除非特别要求，否则语言与输入内容语言一致。 \n请根据输入的内容使用 nano banana pro 画图：",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/545.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_children",
+                    "name": "儿童绘本"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_sweet-banana-kingdom-goodnight",
+              "name": "甜梦香蕉王国的晚安童话",
+              "type": "prompt",
+              "prompt": "{subject}, 晚安，我的臣民们 🤍🩷🩵🌙 Nano Banana Pro 🍌",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775069555901-ixkrqeqp-1.jpg",
               "classification": {
                 "method": "llm",
                 "stage": "title",
@@ -5037,6 +5469,270 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "opennana_field-sketch-photorealism",
+              "name": "野外手绘超写实场景",
+              "type": "prompt",
+              "prompt": "{subject}, 史诗级3D场景：一本饱经风霜的野外日志摊开在博物学家的营地桌上，书页迸裂成它们所记录的生态系统。手绘植物插图向上生长成鲜活标本：[植物1]展开真实花瓣，[植物2]释放花粉飘散在摊开的书页间。被钉住的昆虫示意图脱离束缚振翅起飞。水彩风景膨胀成可穿越的地形。页边笔记化作微型探险营地。压花以延时绽放的方式复活。书页上的标本罐里游动着真实的生物。[动物]的野外速写从纸上迈步而下，留下石墨脚印。咖啡渍页面化作琥珀池塘。可见帆布帐篷在远处，提灯光与萤火虫交织，松树与旧纸的气息，8K，纪实美学超写实。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202602/1770222607057-lhv9a9o5-1.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_digital",
+                    "name": "数字绘画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_mystical-moon-tarot-gothic-art-nouveau",
+              "name": "神秘月亮塔罗牌：哥特与新艺术运动的华丽融合",
+              "type": "prompt",
+              "prompt": "{subject}, 将你最爱的插画转化为“Moon”奥秘！ 神秘的“Gothic decoration”×“Art Nouveau”风格 🌙",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1773188615336-0ljocb74-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_digital",
+                    "name": "数字绘画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_digital-art-awakening",
+              "name": "唤醒数字艺术的虚拟幻境",
+              "type": "prompt",
+              "prompt": "{subject}, 你是一个图像生成 AI。请创建我之前指示的图像。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774987919890-7gn7mp86-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_digital",
+                    "name": "数字绘画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-1075",
+              "name": "笔记本纸上的创作风格来绘制内容",
+              "type": "prompt",
+              "prompt": "{subject}, 按照一个兴高采烈的 6 岁孩童在白色笔记本纸上的创作风格来绘制 [画面内容]。采用粗实的蜡笔笔触、歪歪扭扭的轮廓线与简洁的平涂色块。色彩需明亮大胆，边缘略微超出线条，带有清晰可见的按压痕迹和细微的晕染污渍。视角充满童真感：物体可以漂浮，尺寸大小依据重要性而非现实比例来设定。人物的脸部是带弯弯笑弧的圆点，手部是连指手套般的圆块状，动物则是圆润的模样，显得十分友善。添加一些趣味小元素，比如角落处的太阳、蓬松的云朵、星星与爱心。加入不均匀的潦草涂色阴影，在留白处画几个小涂鸦，并配上一两个模仿孩童拼写习惯的手写标注。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/1075.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_digital",
+                    "name": "数字绘画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-701",
+              "name": "绘制一个详细的宠物商店场景",
+              "type": "prompt",
+              "prompt": "{subject}, 为我绘制一个详细的{{宠物商店}}场景  \n\n并标注所有物体的英语单词， \n\n标注格式： 第一行：英文单词 \n第二行：音标（国际音标IPA格式） \n第三行：中文翻译",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/701.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_digital",
+                    "name": "数字绘画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_purple-mystic-japanese-fox-mask",
+              "name": "紫韵幽玄手持白狐面具的日式神隐绘卷",
+              "type": "prompt",
+              "prompt": "{subject}, 为和服和背景色指定紫色配色方案。由于总部位于日本，因此风格为日式主题。主体手持一个白色狐狸（白狐）面具，白狐被认为是带来幸福的吉祥神使。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774226985113-yqipzme3-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_digital",
+                    "name": "数字绘画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_taniuchi-style-zojoji-temple",
+              "name": "谷内六郎风格绘制的增上寺",
+              "type": "prompt",
+              "prompt": "{subject}, 将 增上寺 变成一幅带有 谷内六郎 风格的画作并输出！",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1775000606583-za3oyuwr-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_digital",
+                    "name": "数字绘画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_golden-floral-navy",
+              "name": "璀璨金线勾勒深蓝奢华繁花",
+              "type": "prompt",
+              "prompt": "{subject}, 提示 1: 优雅奢华的花卉图案，以盛开的大朵花卉（罂粟花或莲花风格）为特色，花瓣上带有精致的金色细线条勾勒和细腻的纹理。花朵大小不一，花蕊细节丰富，花心柔和，由流畅优美的金色花茎和卷须连接。深海军蓝色背景，带有微妙的水彩般纹理和柔和的渐变，营造出深度感。 提示 2: 优雅奢华的花卉图案，以盛开的大朵花卉（百合花）为特色，花瓣上带有精致的金色细线条勾勒和细腻的纹理。花朵大小不一，花蕊细节丰富，花心柔和，由流畅优美的金色花茎和卷须连接。深海军蓝色背景，带有微妙的水彩般纹理和柔和的渐变，营造出深度感。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775048630219-qnc52qym-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_digital",
+                    "name": "数字绘画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_hardcore-eastern-fantasy-zodiac-epic-scroll",
+              "name": "硬核东方玄幻十二生肖史诗级长卷",
+              "type": "prompt",
+              "prompt": "{subject}, 真人本体+背后灵光虚像 全局风格与品质 视觉风格： 顶级写实修仙画卷，超现实电影级商业大片，硬核东方玄幻美学。 核心参数： 8K极高解析度，胶片质感，真实皮肤纹理（拒绝塑料感/二次元感）。 物理规则： 真实光影模拟，强调角色在特定环境下的重力与物理反馈。 构图策略： 超宽水平构图。十二位生肖化身处于同一片宏大的仙境时空中，从左至右错落排布，无视觉死角。 统一世界观： 场景设定在统一的“鸿蒙仙境”之中。环境从左侧的混沌灵脉逐渐过渡到右侧的云海仙踪。所有角色共享同一套大气光影，严禁生肖动物本体出现。 核心视觉特征 • 角色形态： 所有人均为极高颜值的真人形态，保留人类五官与肤质。 • 生肖体现： 通过角色的服饰剪裁、配色细节、随身法宝，以及角色背后由纯粹灵光构成的、宏大的“兽灵/武魂”虚像来体现生肖特征。 • 兽灵表现： 兽灵呈半透明光态或虚影态，完全由流动的灵气与辉光交织而成，不具备实体质感，如神迹般笼罩在角色后上方，充满神性。 摄影与光影 • 设备： 佳能 EOS R5, 35mm 定焦镜头。 • 光影设计： 统一受“仙境晨曦”照射，光线从画面一侧射入，形成丁达尔效应。 • 环境光补： 角色背后的兽灵光影散发着柔和的本命灵光，与仙境中的云雾、剑气相互折射。 角色分布与细节描述 1. 子鼠（水）： 极右侧云海。真人形态为灵动少年，墨色劲装，背后悬浮着如光般通透的硕大子鼠虚像，眼神机警。 2. 丑牛（土）： 沉稳壮汉，身披暗铜重甲。身后耸立着如山岳般的青牛光影虚像，展现力拔山河之势。 3. 寅虎（木）： 霸气统帅，黑金虎纹长袍。背后是一尊光影流转、似要下山的猛虎灵光虚像。 4. 卯兔（木）： 清冷仙子，月白流仙裙。身后伴有通体由白光凝聚、散发柔光的玉兔虚像，氛围空灵。 5. 辰龙（金）： 位居高位，玄色龙鳞袍，尊贵非凡。背后盘绕着延绵百丈、威严神圣的巨龙灵光虚像。 6. 巳蛇（火）： 魅惑秘术师，紫色蛇纹缎面袍。身后游走着细长深邃、由紫色流光构成的灵蛇虚像。 7. 午马（火）： 飒爽剑修，朱红劲装。身后是四蹄踏火、正欲奔腾的烈马光影虚像。 8. 未羊（土）： 温婉医修，米白棉麻仙裙。身后显现着神态祥和、如瑞云般朦胧的白羊光态虚像。 9. 申猴（金）： 桀骜斗战真人，战损金甲。身后是手持神兵、傲视天地的灵猴光影虚像。 10. 酉鸡（金）： 晨曦守望者，羽状剪裁战袍。身后双翼展开，现出流金溢彩、宛如虚像的锦凰光影。 11. 戌狗（土）： 忠诚将领，皮革金属轻铠。背后是昂首挺立、充满守护感的灵犬光影虚像。 12. 亥猪（水）： 极左侧灵泉旁。悠闲散仙，青色宽大袍服。身后萦绕着福泽深厚、由浑厚气韵构成的灵猪虚像。 最终愿景 这不再是孤立的个体，而是十二位生肖神祇在统一仙境中的史诗集结。通过“真人本体+背后灵光虚像”的视觉结构，完美平衡人的情感美感与生肖的神话底蕴，构建出极致的东方玄幻宇宙。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774235859801-b3lqap3z-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_digital",
+                    "name": "数字绘画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_impasto-hyperrealistic-skin-collision",
+              "name": "炫彩厚涂与超写实肤质的极致碰撞",
+              "type": "prompt",
+              "prompt": "{subject}, { \"portrait_metadata\": { \"composition\": \"中景特写 (MCU)，紧凑构图，聚焦面部和上胸部\", \"lighting\": \"高调影棚布光；主光：柔和、明亮的前置环形灯或柔光箱补光。辅光：戏剧性、硬朗、强烈的轮廓光，勾勒头发和肩部轮廓。\", \"camera_settings\": \"模拟 Phase One XF，105mm 人像镜头，光圈 f/1.4，ISO 100，快门速度 1/160s，对焦平面精准锁定在眼睛上，极致焦外虚化，超浅景深。\" }, \"subject\": { \"demographics\": \"年轻女性，二十出头，白皙肤色\", \"expression\": \"强烈、迷人、直视镜头。专注、克制、略显冷淡的面部表情。\", \"skin_micro_details\": \"未上色区域的超写实皮肤纹理：可见的微观毛孔、细微的微浮雕纹路、捕捉到强烈轮廓光的细小绒毛。肤色冷调，如瓷器般。上色区域采用大胆、厚重、物理性的厚涂颜料（{argument name=\\\"paint colors\\\" default=\\\"品红、红、橙、紫\\\"}），笔触清晰可见，呈糊状，并带有高光泽、湿润的光泽。一道高饱和度的品红和紫色垂直色条从右脸颊流下，形似风格化的彩色泪痕或刻意的颜料滴落。\", \"eyes_micro_details\": { \"iris\": \"高度清晰的虹膜结构，可见从瞳孔向外辐射的隐窝和皱褶。清晰、深色的角巩膜缘提供对比度。虹膜颜色假定为淡褐色或浅棕色，以达到最大饱和度对比。\", \"sclera_and_lashes\": \"洁净、极度白皙的巩膜，最大程度减少可见毛细血管。根根分明、高度分离的浓密黑色睫毛（可能是风格化的假睫毛），在下眼睑内缘投下微小、清晰的阴影。\", \"reflections\": \"完美、清晰的圆形或八边形前置柔光光源（环形灯/柔光箱）反射，居中于角膜穹顶，显示出高折射率和清晰度。\" } }, \"environment_and_style\": \"极简主义影棚布景。抽象背景溶解为极致的垂直色彩渐变焦外虚化：明亮的蔚蓝色渐变为浓郁的翠绿色。极致的色彩饱和度，电影级调色，大胆的纹理保真度，将写实主义与富有表现力的物理厚涂绘画技法融合。整体氛围充满活力，艺术感极强。\", \"image_quality_tokens\": \"16k UHD, raw photo, hyper-photorealism, highly detailed, extreme textural fidelity, masterwork, high-gloss finish, cinematic color grade, expressive digital art fusion, painterly elements, ultra shallow depth of field, high contrast lighting.\" }",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1774214923246-kaq4xjya-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_digital",
+                    "name": "数字绘画"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_prompt-611",
+              "name": "一幅充满活力的混合媒介杰作",
+              "type": "prompt",
+              "prompt": "{subject}, {\n“场景描述”： “这是一幅充满活力的混合媒介杰作，画面中逼真地呈现了参考照片中的人物在餐馆用餐，周围环绕着一群造型夸张的快餐怪物。”\n\n“主题”： {\n“类型”：“参考照片中的人”，\n“着装”：“与参考图中相同的服装风格，自然地适应了餐厅环境”，\n“位置”：“坐在红色皮质餐厅卡座里，手里拿着一个汉堡”，\n“表情”：“震惊又好笑，看着漂浮的涂鸦披萨”\n\"consistency_note\": \"脸型、发型和比例必须与参考照片完全一致\"\n},\n\n“行动”： {\n“主要”： “吃午饭”，\n“效果”：“他们的食物以二维形式活了过来”\n},\n\n\"illustration_layer\": {\n“风格”：“粗线条波普艺术卡通”，\n“生物”：[\n“披萨片在奶酪浪潮上冲浪”\n“长着生菜舌头的汉堡怪兽”\n“愤怒的薯条盒”\n“飞舞的番茄酱瓶。”\n],\n“图形”：“芥末酱飞溅、芝麻、热线、‘ÑAM’文字爆发”，\n颜色：番茄酱红、芥末黄、生菜绿\n},\n\n“环境”： {\n“设置”: “复古美式餐馆”\n\"background_elements\": [\"棋盘格地板\", \"窗户上的霓虹灯\"]\n},\n\n“灯光”： {\n“风格”：“温馨的餐馆氛围”，\n\"key_light\": {\n类型： 窗灯，\n“颜色”：“温暖的午后阳光”\n}\n},\n\n“风格”： {\n“媒介”：“混合媒介摄影”，\n“美学”：“复古流行，美味，混乱”，\n“质量”： “超精细纹理 vs 平面卡通”\n}\n}",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/611.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_digital",
+                    "name": "数字绘画"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -5308,6 +6004,78 @@
                   "confidence": 0.2007,
                   "runner_up": "painting_watercolor"
                 }
+              }
+            },
+            {
+              "id": "opennana_prompt-833",
+              "name": "一幅龙的解剖结构爆炸图",
+              "type": "prompt",
+              "prompt": "{subject}, 创作一幅龙的解剖结构爆炸图，将龙的翅膀、鳞片、喷火腺和骨骼结构分解成带有标签和连接箭头的各个组成部分。每个部分都以精细的细节呈现，展现出金属光泽的鳞片、闪耀的脉络和晶莹剔透的骨骼。背景为古老的羊皮纸，并配以微妙的烟雾效果和温暖的火炬光影。使用优雅的草书字体添加说明性注释。横幅蓝图式海报，奇幻写实风格，高分辨率，灵感源自达芬奇的草图，并融入现代数字技术。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/images/833.jpeg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_botanical",
+                    "name": "博物图鉴"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_hyper-realistic-pressed-flower-art",
+              "name": "压花植物拼成超写实艺术图案",
+              "type": "prompt",
+              "prompt": "{subject}, 创作一个超现实的平面构图，其中上传的标志完全由压花和干叶构成，精心排列在有纹理的手工纸上。标志的形状由各种天然花瓣、茎和植物元素精确组成。光线从一侧柔和地照射，投下精致的阴影，营造出一种宁静、艺术的氛围。添加大地色调、精致的纹理和轻微的瑕疵，以增强真实感。不要使用印刷标志；标志的形状仅由有机材料构成。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775073394093-z21tswd1-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_botanical",
+                    "name": "博物图鉴"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "opennana_butterfly-specimen-gloss-comparison",
+              "name": "凤蝶标本正反面光泽对比图",
+              "type": "prompt",
+              "prompt": "{subject}, 这是雄性 Atrophaneura alcinous 春季型标本的正面和背面比较图。此图显示，左侧的结构色和右侧的 哑光棕色 属于同一只蝴蝶。当你向 AI 写入“虹彩”时，所有东西都会发光。提示词的作用是指定“这部分发光，这部分不发光”。",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202604/1775043454029-8zb0lkuz-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_botanical",
+                    "name": "博物图鉴"
+                  }
+                ]
               }
             }
           ]
@@ -5810,6 +6578,30 @@
                   "confidence": 0.3749,
                   "runner_up": "painting_ink"
                 }
+              }
+            },
+            {
+              "id": "opennana_mughal-royal-miniature-portrait",
+              "name": "莫卧儿王朝宫廷风印度细密画艺术",
+              "type": "prompt",
+              "prompt": "{subject}, 根据我的照片创作一幅经典的印度微型画插画。 风格灵感来源于莫卧儿时代的微型艺术。 精致的手绘纹理，细腻的笔触，浓郁的泥土色颜料。 面部、表情和特征应与我的照片高度匹配。 优雅的传统印度服饰，精致的珠宝细节。 柔和的羊皮纸般背景，带有花卉和几何边框。 温暖的灯光，平衡的构图，高度细致的眼睛。 平面透视，装饰性细节，博物馆级别的艺术品。 超精细，永恒，艺术感。 长宽比 3:4",
+              "negative_prompt": "",
+              "description": "Nano banana pro",
+              "thumbnail": "https://img.opennana.com/prompts/assets/202603/1773179905276-70eea14f-1.jpg",
+              "classification": {
+                "method": "llm",
+                "stage": "title",
+                "resolution": "resolved",
+                "status": "suggested",
+                "reason": "规则与语义近邻均无结论，由大模型按标题判定",
+                "taxonomy_version": "1.1.0",
+                "rules_version": "1.1.2",
+                "subcategories": [
+                  {
+                    "id": "painting_other",
+                    "name": "其他绘画"
+                  }
+                ]
               }
             }
           ]
