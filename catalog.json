@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "name": "Art Prompt Library",
-  "totalEntries": 123681,
+  "totalEntries": 124688,
   "packs": [
     {
       "packId": "artists-seed",
@@ -237,6 +237,27 @@
         "index.json": "ff5abded1f378eb214113f52bb08f9e3007fb7fe163e2f94673a885d88f08258",
         "pack.json": "f36ca5a4be3d0b7177440c1d58095d932b4fb017deeee408c6caced22563ef9f"
       }
+    },
+    {
+      "packId": "atlas-games-art",
+      "name": "游戏美术风格图鉴",
+      "version": "1.0.0",
+      "entryCount": 1007,
+      "kind": "styles",
+      "description": "243 款游戏、42 种美术方向的成套风格规范，含 42 条风格级与 965 条画面级提示词",
+      "path": "packs/atlas-games-art",
+      "categoryCount": 1,
+      "sizeBytes": 2837732,
+      "sha256": {
+        "pack.json": "cad94bec9f5c0ab8ddea1c5fa5b5dfc5605b697b35f42833e4bd3d6051a6a9f9",
+        "game_art.json": "6901caece91cc1cf55a733e87ab0fe3f966d57e69d76b9ca267febdbf5cacd6a"
+      },
+      "classificationSummary": {
+        "resolved": 1007
+      },
+      "emptyPromptIds": [],
+      "replaces": [],
+      "order": 200
     },
     {
       "packId": "characters-popular",

@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "packId": "atlas-games-art",
+  "name": "游戏美术风格图鉴",
+  "version": "1.0.0",
+  "author": "art-canvas",
+  "description": "243 款游戏、42 种美术方向的成套风格规范，含 42 条风格级与 965 条画面级提示词",
+  "kind": "styles",
+  "order": 200,
+  "categories": [
+    {
+      "id": "game_art",
+      "name": "游戏美术",
+      "file": "game_art.json",
+      "order": 0
+    }
+  ],
+  "taxonomyVersion": "1.2.0",
+  "dataVersion": "2026-11-02",
+  "entryCount": 1007,
+  "source": "https://mygamesartstyle.jupiterthewarlock.com",
+  "replaces": []
+}
